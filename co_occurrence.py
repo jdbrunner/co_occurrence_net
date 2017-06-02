@@ -24,35 +24,24 @@ net_name = sys.argv[3]
 #returns the fraction of times this occurs. The range is half open: (a,b]
 def both_occ(r1,r2, lbd = 0, ubd = 1):
 	co_occ = count_nonzero(((r1>lbd) & (r1<=ubd) & (r2>lbd) & (r2<=ubd)))
- 	co_occ_frac = float(co_occ)/float(len(r2))
-	return co_occ_frac
+ 	co_occ = float(co_occ)
+	return co_occ
 
-#Function that counts the number of times the two occur in the same abundance range
-def both_same_bin(r1,r2, threshes = [0.333,0.666]):
-# 	if threshes[0] != 0:
-# 		pad(threshes,(1,0),'constant')
+#Function that counts the number of times the two occur in the same abundance range.
+#rel = true does this relative to the maximum abundance
+def both_same_bin(r1,r2, threshes = [0.05,0.333,0.666], rel = True):
 	k = len(threshes)
-	up_bds = append(threshes[1:],1)
-	both_in_bin = [both_occ(r1,r2,lbd = threshes[i],ubd = up_bds[i]) for i in range(k)]
+	if rel:
+		r1m = max(r1)
+		r2m = max(r2)
+		r1 = r1/r1m
+		r2 = r2/r2m	
+	up_bds = append(threshes,1)
+	both_in_bin = [both_occ(r1,r2,lbd = threshes[i],ubd = up_bds[i+1]) for i in range(k)]
 	tot_same_bin = sum(both_in_bin)
 	same_bin_frac = float(tot_same_bin)/float(len(r1))
 	return same_bin_frac
 	
-#Function that counts the number of times the two occur in the same abundance range relative
-#to the maximum level it appears in samples (in which it appears)
-def both_same_rel_bin(r1,r2, threshes = [0.1,0.333,0.666]):
-# 	if threshes[0] != 0:
-# 		pad(threshes,(1,0),'constant')
-	k = len(threshes)
-	r1m = max(r1)
-	r2m = max(r2)
-	r1rel = r1/r1m
-	r2rel = r2/r2m	
-	up_bds = append(threshes[1:],1)
-	both_in_bin = [both_occ(r1rel,r2rel,lbd = threshes[i],ubd = up_bds[i]) for i in range(k)]
-	tot_same_bin = sum(both_in_bin)
-	same_bin_frac = float(tot_same_bin)/float(len(r1))
-	return same_bin_frac
 
 #Function that classifies nodes by which type of sample they have the highest abundance in.
 #I need to consider how to deal with nodes that appear at high levels in more than one 
@@ -132,11 +121,7 @@ for i in level:
 
 	#Create numpy array of co-occurrence fractions. This is the incidence matrix for our weighted
 	#graph.
-# 	adj_matrix = asarray([[0 if x == y else both_same_bin(ab_np_array[x],ab_np_array[y],threshes = [0.05,0.5]) 
-# 							for x in range(len(ab_np_array))] for y in range(len(ab_np_array))])
-#     adj_matrix = asarray([[0 if x == y else both_occ(ab_np_array[x],ab_np_array[y], lbd = 0.1) 
-# 							for x in range(len(ab_np_array))] for y in range(len(ab_np_array))])
-	adj_matrix = asarray([[0 if x == y else both_same_rel_bin(ab_np_array[x],ab_np_array[y]) 
+	adj_matrix = asarray([[0 if x == y else both_same_bin(ab_np_array[x],ab_np_array[y], threshes = [0.05,0.2,0.4,0.6,0.8]) 
 								for x in range(len(ab_np_array))] for y in range(len(ab_np_array))])
 								
 	in_level = in_level[0]
