@@ -1,28 +1,55 @@
-	source	strength	target	first_sample	second_sample	edge_sample
-0	Bacilli	0.00134372480516	Actinobacteria	Posterior_fornix	Supragingival_plaque	Intertype
-1	Bacteroidia	0.00134372480516	Actinobacteria	Stool	Supragingival_plaque	Intertype
-2	Bacteroidia	0.00134372480516	Bacilli	Stool	Posterior_fornix	Intertype
-3	Betaproteobacteria	0.000537489922064	Actinobacteria	Supragingival_plaque	Supragingival_plaque	Supragingival_plaque
-4	Betaproteobacteria	0.000537489922064	Bacilli	Supragingival_plaque	Posterior_fornix	Intertype
-5	Betaproteobacteria	0.000806234883096	Bacteroidia	Supragingival_plaque	Stool	Intertype
-6	Clostridia	0.000268744961032	Actinobacteria	Stool	Supragingival_plaque	Intertype
-7	Clostridia	0.000268744961032	Bacilli	Stool	Posterior_fornix	Intertype
-8	Clostridia	0.000537489922064	Bacteroidia	Stool	Stool	Stool
-9	Flavobacteriia	0.000268744961032	Actinobacteria	Supragingival_plaque	Supragingival_plaque	Supragingival_plaque
-10	Flavobacteriia	0.000268744961032	Bacilli	Supragingival_plaque	Posterior_fornix	Intertype
-11	Flavobacteriia	0.000806234883096	Bacteroidia	Supragingival_plaque	Stool	Intertype
-12	Flavobacteriia	0.000537489922064	Betaproteobacteria	Supragingival_plaque	Supragingival_plaque	Supragingival_plaque
-13	Gammaproteobacteria	0.00107497984413	Actinobacteria	Buccal_mucosa	Supragingival_plaque	Intertype
-14	Gammaproteobacteria	0.000537489922064	Bacilli	Buccal_mucosa	Posterior_fornix	Intertype
-15	Gammaproteobacteria	0.000537489922064	Bacteroidia	Buccal_mucosa	Stool	Intertype
-16	Gammaproteobacteria	0.000537489922064	Betaproteobacteria	Buccal_mucosa	Supragingival_plaque	Intertype
-17	Gammaproteobacteria	0.000268744961032	Flavobacteriia	Buccal_mucosa	Supragingival_plaque	Intertype
-18	Negativicutes	0.00107497984413	Actinobacteria	Tongue_dorsum	Supragingival_plaque	Intertype
-19	Negativicutes	0.000537489922064	Bacilli	Tongue_dorsum	Posterior_fornix	Intertype
-20	Negativicutes	0.00107497984413	Bacteroidia	Tongue_dorsum	Stool	Intertype
-21	Negativicutes	0.000537489922064	Betaproteobacteria	Tongue_dorsum	Supragingival_plaque	Intertype
-22	Negativicutes	0.000268744961032	Clostridia	Tongue_dorsum	Stool	Intertype
-23	Negativicutes	0.000268744961032	Gammaproteobacteria	Tongue_dorsum	Buccal_mucosa	Intertype
-24	Spirochaetia	0.000268744961032	Actinobacteria	Subgingival_plaque	Supragingival_plaque	Intertype
-25	Spirochaetia	0.000268744961032	Bacteroidia	Subgingival_plaque	Stool	Intertype
-26	Tissierellia	0.000268744961032	Gammaproteobacteria	Anterior_nares	Buccal_mucosa	Intertype
+	source	target	weight	first_sample	second_sample	edge_sample	fscolor	sscolor	edcolor
+0	Bacilli	Actinobacteria	0.00134372480516	Posterior_fornix	Supragingival_plaque	Intertype	#4df3ce	#ff964f	#cccccc
+1	Actinobacteria	Bacilli	0.00134372480516	Supragingival_plaque	Posterior_fornix	Intertype	#ff964f	#4df3ce	#cccccc
+2	Bacteroidia	Actinobacteria	0.00134372480516	Stool	Supragingival_plaque	Intertype	#b2f396	#ff964f	#cccccc
+3	Actinobacteria	Bacteroidia	0.00134372480516	Supragingival_plaque	Stool	Intertype	#ff964f	#b2f396	#cccccc
+4	Bacteroidia	Bacilli	0.00134372480516	Stool	Posterior_fornix	Intertype	#b2f396	#4df3ce	#cccccc
+5	Bacilli	Bacteroidia	0.00134372480516	Posterior_fornix	Stool	Intertype	#4df3ce	#b2f396	#cccccc
+6	Betaproteobacteria	Actinobacteria	0.000537489922064	Supragingival_plaque	Supragingival_plaque	Supragingival_plaque	#ff964f	#ff964f	#ff964f
+7	Actinobacteria	Betaproteobacteria	0.000537489922064	Supragingival_plaque	Supragingival_plaque	Supragingival_plaque	#ff964f	#ff964f	#ff964f
+8	Betaproteobacteria	Bacilli	0.000537489922064	Supragingival_plaque	Posterior_fornix	Intertype	#ff964f	#4df3ce	#cccccc
+9	Bacilli	Betaproteobacteria	0.000537489922064	Posterior_fornix	Supragingival_plaque	Intertype	#4df3ce	#ff964f	#cccccc
+10	Betaproteobacteria	Bacteroidia	0.000806234883096	Supragingival_plaque	Stool	Intertype	#ff964f	#b2f396	#cccccc
+11	Bacteroidia	Betaproteobacteria	0.000806234883096	Stool	Supragingival_plaque	Intertype	#b2f396	#ff964f	#cccccc
+12	Clostridia	Actinobacteria	0.000268744961032	Stool	Supragingival_plaque	Intertype	#b2f396	#ff964f	#cccccc
+13	Actinobacteria	Clostridia	0.000268744961032	Supragingival_plaque	Stool	Intertype	#ff964f	#b2f396	#cccccc
+14	Clostridia	Bacilli	0.000268744961032	Stool	Posterior_fornix	Intertype	#b2f396	#4df3ce	#cccccc
+15	Bacilli	Clostridia	0.000268744961032	Posterior_fornix	Stool	Intertype	#4df3ce	#b2f396	#cccccc
+16	Clostridia	Bacteroidia	0.000537489922064	Stool	Stool	Stool	#b2f396	#b2f396	#b2f396
+17	Bacteroidia	Clostridia	0.000537489922064	Stool	Stool	Stool	#b2f396	#b2f396	#b2f396
+18	Flavobacteriia	Actinobacteria	0.000268744961032	Supragingival_plaque	Supragingival_plaque	Supragingival_plaque	#ff964f	#ff964f	#ff964f
+19	Actinobacteria	Flavobacteriia	0.000268744961032	Supragingival_plaque	Supragingival_plaque	Supragingival_plaque	#ff964f	#ff964f	#ff964f
+20	Flavobacteriia	Bacilli	0.000268744961032	Supragingival_plaque	Posterior_fornix	Intertype	#ff964f	#4df3ce	#cccccc
+21	Bacilli	Flavobacteriia	0.000268744961032	Posterior_fornix	Supragingival_plaque	Intertype	#4df3ce	#ff964f	#cccccc
+22	Flavobacteriia	Bacteroidia	0.000806234883096	Supragingival_plaque	Stool	Intertype	#ff964f	#b2f396	#cccccc
+23	Bacteroidia	Flavobacteriia	0.000806234883096	Stool	Supragingival_plaque	Intertype	#b2f396	#ff964f	#cccccc
+24	Flavobacteriia	Betaproteobacteria	0.000537489922064	Supragingival_plaque	Supragingival_plaque	Supragingival_plaque	#ff964f	#ff964f	#ff964f
+25	Betaproteobacteria	Flavobacteriia	0.000537489922064	Supragingival_plaque	Supragingival_plaque	Supragingival_plaque	#ff964f	#ff964f	#ff964f
+26	Gammaproteobacteria	Actinobacteria	0.00107497984413	Buccal_mucosa	Supragingival_plaque	Intertype	#1996f3	#ff964f	#cccccc
+27	Actinobacteria	Gammaproteobacteria	0.00107497984413	Supragingival_plaque	Buccal_mucosa	Intertype	#ff964f	#1996f3	#cccccc
+28	Gammaproteobacteria	Bacilli	0.000537489922064	Buccal_mucosa	Posterior_fornix	Intertype	#1996f3	#4df3ce	#cccccc
+29	Bacilli	Gammaproteobacteria	0.000537489922064	Posterior_fornix	Buccal_mucosa	Intertype	#4df3ce	#1996f3	#cccccc
+30	Gammaproteobacteria	Bacteroidia	0.000537489922064	Buccal_mucosa	Stool	Intertype	#1996f3	#b2f396	#cccccc
+31	Bacteroidia	Gammaproteobacteria	0.000537489922064	Stool	Buccal_mucosa	Intertype	#b2f396	#1996f3	#cccccc
+32	Gammaproteobacteria	Betaproteobacteria	0.000537489922064	Buccal_mucosa	Supragingival_plaque	Intertype	#1996f3	#ff964f	#cccccc
+33	Betaproteobacteria	Gammaproteobacteria	0.000537489922064	Supragingival_plaque	Buccal_mucosa	Intertype	#ff964f	#1996f3	#cccccc
+34	Gammaproteobacteria	Flavobacteriia	0.000268744961032	Buccal_mucosa	Supragingival_plaque	Intertype	#1996f3	#ff964f	#cccccc
+35	Flavobacteriia	Gammaproteobacteria	0.000268744961032	Supragingival_plaque	Buccal_mucosa	Intertype	#ff964f	#1996f3	#cccccc
+36	Negativicutes	Actinobacteria	0.00107497984413	Tongue_dorsum	Supragingival_plaque	Intertype	#ff0000	#ff964f	#cccccc
+37	Actinobacteria	Negativicutes	0.00107497984413	Supragingival_plaque	Tongue_dorsum	Intertype	#ff964f	#ff0000	#cccccc
+38	Negativicutes	Bacilli	0.000537489922064	Tongue_dorsum	Posterior_fornix	Intertype	#ff0000	#4df3ce	#cccccc
+39	Bacilli	Negativicutes	0.000537489922064	Posterior_fornix	Tongue_dorsum	Intertype	#4df3ce	#ff0000	#cccccc
+40	Negativicutes	Bacteroidia	0.00107497984413	Tongue_dorsum	Stool	Intertype	#ff0000	#b2f396	#cccccc
+41	Bacteroidia	Negativicutes	0.00107497984413	Stool	Tongue_dorsum	Intertype	#b2f396	#ff0000	#cccccc
+42	Negativicutes	Betaproteobacteria	0.000537489922064	Tongue_dorsum	Supragingival_plaque	Intertype	#ff0000	#ff964f	#cccccc
+43	Betaproteobacteria	Negativicutes	0.000537489922064	Supragingival_plaque	Tongue_dorsum	Intertype	#ff964f	#ff0000	#cccccc
+44	Negativicutes	Clostridia	0.000268744961032	Tongue_dorsum	Stool	Intertype	#ff0000	#b2f396	#cccccc
+45	Clostridia	Negativicutes	0.000268744961032	Stool	Tongue_dorsum	Intertype	#b2f396	#ff0000	#cccccc
+46	Negativicutes	Gammaproteobacteria	0.000268744961032	Tongue_dorsum	Buccal_mucosa	Intertype	#ff0000	#1996f3	#cccccc
+47	Gammaproteobacteria	Negativicutes	0.000268744961032	Buccal_mucosa	Tongue_dorsum	Intertype	#1996f3	#ff0000	#cccccc
+48	Spirochaetia	Actinobacteria	0.000268744961032	Subgingival_plaque	Supragingival_plaque	Intertype	#e4cf74	#ff964f	#cccccc
+49	Actinobacteria	Spirochaetia	0.000268744961032	Supragingival_plaque	Subgingival_plaque	Intertype	#ff964f	#e4cf74	#cccccc
+50	Spirochaetia	Bacteroidia	0.000268744961032	Subgingival_plaque	Stool	Intertype	#e4cf74	#b2f396	#cccccc
+51	Bacteroidia	Spirochaetia	0.000268744961032	Stool	Subgingival_plaque	Intertype	#b2f396	#e4cf74	#cccccc
+52	Tissierellia	Gammaproteobacteria	0.000268744961032	Anterior_nares	Buccal_mucosa	Intertype	#8000ff	#1996f3	#cccccc
+53	Gammaproteobacteria	Tissierellia	0.000268744961032	Buccal_mucosa	Anterior_nares	Intertype	#1996f3	#8000ff	#cccccc
