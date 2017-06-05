@@ -41,7 +41,24 @@ for i in range(len(sample_types)):
 edge_props_dict = dict()
 for i in range(len(sample_types)):
 	edge_props_dict[sample_types[i]] = edge_props[i]
+	
+###### Number of Edges vs Random ############
+##
+# - Compare number of types of edges vs expected number of that type in a random graph
+#   - Use ER random graph
+#	- For edges within a sample type this just number of edges vs E(number of edges in 
+# 		an ER random graph with number of nodes = number of nodes of that sample type)
+#	- For intertype edges this will be harder. I'll have to check this but it should be
+#		E(edges of ER random graph) - \sum_{types} E(edges of subgraph)
+# 
 
+###### Conductance of cuts ##################
+##
+# - Calculate conductance of cuts that cut out a type or set of types.
+#	- This will give an idea about the strength of intertype nodes - because they will
+#		always be the ones cut. Also allows us to group types (i.e. gums with cheek)
+
+##### Plots of stats (rough) ###################
 xpos = arange(len(sample_types))
 fig, (ax1,ax2) = plt.subplots(nrows = 2)
 plt.xticks(rotation=90)
@@ -66,6 +83,8 @@ plt.show()
 ######		To Do 							##################################
 #######										##################################
 ##############################################################################
+#
+# - Compare edges to random graph - decide on type of random graph (ie edge distribution)
 #
 # - Calculate conductance from sample to type to rest of graph:
 #		By calculating conductance of cutting out that sample type, weighted by number
