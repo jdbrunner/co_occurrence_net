@@ -51,7 +51,38 @@ for i in range(len(sample_types)):
 #	- For intertype edges this will be harder. I'll have to check this but it should be
 #		E(edges of ER random graph) - \sum_{types} E(edges of subgraph)
 # 
+these_types = sys.argv[2]
+if ',' in these_types:
+	commas = where([letter == ',' for letter in these_types])
+	commas = append(commas,len(these_types)-1)
+	commas = insert(commas,0,0)
+	print commas
+	the_types = []
+	for i in range(1,len(commas)):
+		the_types = the_types + ["".join(these_types[commas[i-1]+1:commas[i]])]
+	these_types = the_types
+else:
+	these_types = ["".join(these_types[1:-1])]
 
+
+def edge_prob(network):
+	#calculate probability of seeing an edge in a graph with that many edges
+	#if edge prob is p and we see m edges, p \approx  2m/n^2 (n nodes)
+	n = len(unique(network['source']))
+	m = len(network)/2
+	p = float(2*m)/float(n**2 - n)
+	return p
+	
+e_prob = edge_prob(network_edges)
+
+
+#count the nodes of a type
+def nodes_in_sub(network,type):
+	nodes = network.iloc[where(network['first_sample']==type)]
+	num_nodes = len(unique(nodes['source']))
+	return num_nodes
+
+### Calculate probability that the subnetwork has as many edges as it has
 def random_sub_graph(network,types, p = 0.5):
 	#first grab all the edges within the relavent subnetwork
 	subedges = network.iloc[where([type in types for type in network['edge_sample']])]
@@ -65,22 +96,59 @@ def random_sub_graph(network,types, p = 0.5):
 	#diff = expected - num_edges
 	return [expected, num_edges]
 	
-def exp_cut_edges(network,types, p = 0.5):
-	#first grab all the edges within the relavent subnetwork
-	subedges = network.iloc[where([type in types for type in network['edge_sample']])]
-	#Now count the nodes in the subnetwork
-	num_nodes = len(unique(subedges['source']))
-	num_edges = len(subedges)/2
-	#Now count the nodes not in the subnetwork
-	tot_nodes = len(unique(network['source'])) - num_nodes
-	#number of possible intertype edges
-	all_inter = num_nodes*tot_nodes
-	expected = p*all_inter
-	actual = len(where([type == 'Intertype' for type in network['edge_sample']]))
-	return [expected, actual]
+print random_sub_graph(network_edges,these_types, p = e_prob)
 	
-these_types = sys.argv[2]
-print exp_cut_edges(network_edges,these_types)
+### Calculate the probability of seeing that many intertype edges, or edges between some
+#		certain set of types, or out of some set of types.
+def exp_cut_edges(network, types, p = 0.5, between = True):
+	if between == False and types == 'all':
+	#you can't count the edges out of all the types
+		return [0,0]
+	else:
+		#find the edges between types
+		inter_edges_loc = where(network['edge_sample'] == 'Intertype')
+		edges = network.iloc[inter_edges_loc]
+		if types == 'all':
+		#need the list of types
+			types = delete(unique(network['first_sample'].values),where(network['first_sample'].values == 'Intertype'))
+		else:
+			#narrow down if you want to
+			if between:
+				betwn_loc_1 = where([type in types for type in edges['first_sample']])
+				betwn_loc_2 = where([type in types for type in edges['second_sample'].iloc[betwn_loc_1]])
+				betwn_loc = betwn_loc_1[0][betwn_loc_2[0]]
+				edges = edges.iloc[betwn_loc]
+			else:
+				out_loc_1 = where([type in types for type in edges['first_sample']])
+				out_loc_2 = where([type not in types for type in edges['second_sample'].iloc[out_loc_1]])
+				out_loc = out_loc_1[0][out_loc_2[0]]
+				edges = edges.iloc[out_loc]
+		if between:
+			#if we are taking edges between, we have double counted
+			num_edges = len(edges)/2
+			#number of nodes of each type
+			nodes_per = [nodes_in_sub(network,type) for type in types]
+			#then compute the total pairs of nodes between
+			int_poss = 0
+			for i in range(len(nodes_per)):
+				for j in range(i,len(nodes_per)):
+					int_poss = int_poss + nodes_per[i]*nodes_per[j]
+			#and multiply by edge probability
+			int_expected = int_poss*p
+		else:
+			num_edges = len(edges)
+			#number of nodes of each type
+			in_nodes = 0
+			for type in types:
+				in_nodes = in_nodes + nodes_in_sub(network,type)
+			#and number of nodes of none of these types
+			#all the types
+			out_nodes = len(unique(network['source'])) - in_nodes
+			out_tot = in_nodes*out_nodes
+			int_expected = out_tot*p
+		return [int_expected, num_edges]
+	
+print exp_cut_edges(network_edges,these_types, p = e_prob,  between = False)
 
 ###### Conductance of cuts ##################
 ##
