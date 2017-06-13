@@ -24,7 +24,7 @@ net_name = sys.argv[3]
 #returns the fraction of times this occurs. The range is half open: (a,b]
 def both_occ(r1,r2, lbd = 0, ubd = 1):
 	co_occ = count_nonzero(((r1>lbd) & (r1<=ubd) & (r2>lbd) & (r2<=ubd)))
- 	co_occ = float(co_occ)
+	co_occ = float(co_occ)
 	return co_occ
 
 #Function that counts the number of times the two occur in the same abundance range.
@@ -72,7 +72,7 @@ def matchyn(a,b):
 ######Import the abundance matrix
 #Makes a pandas DataFrame, use abundance_array.keys() to see column labels, 
 abundance_array = pd.read_csv(csv_name, sep = ' ')
-#print abundance_array
+#print(abundance_array)
 #Let's remove taxa that aren't present at all.
 for ind in abundance_array.index:
 	if max(abundance_array.loc[ind][2:]) == 0:
@@ -84,7 +84,7 @@ abundance_array.index = range(len(abundance_array))
 if level == 'all':
 	level = array(abundance_array['LEVEL'].values)
 	level = array(unique(level))
-	print level
+	print(level)
 else:
 	level = array([level])
 
@@ -94,7 +94,7 @@ levels_allowed = array(unique(levels_allowed))
 
 for i in level:
 	if not i in levels_allowed:
-		print levels_allowed
+		print(levels_allowed)
 		sys.exit('Bad level argument. Choose a level from the list above or type all')
 
 #Combine samples of the same kind (that is, the same part of the body) so that we can 
@@ -123,33 +123,41 @@ for i in level:
 	#graph.
 	adj_matrix = asarray([[0 if x == y else both_same_bin(ab_np_array[x],ab_np_array[y], threshes = [0.05,0.2,0.4,0.6,0.8]) 
 								for x in range(len(ab_np_array))] for y in range(len(ab_np_array))])
+	degs = sum(adj_matrix,1)
+	unconnected = where(degs == 0)
+	adj_matrix = delete(adj_matrix,unconnected,0)
+	adj_matrix = delete(adj_matrix,unconnected,1)
 								
 	in_level = in_level[0]
+	in_level = delete(in_level,unconnected)
 	adjacency_frames[i] = pd.DataFrame(adj_matrix, index = abundance_array['TAXA'][in_level], columns = abundance_array['TAXA'][in_level])
 	
-	
-	#create a list of edges - source in one column, target in the other. This is an alternative to the adjacency matrix
-	#that might make it easier to load in to cytoscape.
-	num_edge = count_nonzero(adj_matrix)
-	print i
-	print num_edge/2
-	source_target_data = []#empty([num_edge,3], dtype = 'string')	
-	for l in range(len(adj_matrix)):
-		for k in range(l+1):
-				if adj_matrix[l,k] != 0:
-					s_type1 = color_picker(samp_type_abund.iloc[in_level[l]][:-1])
-					s_type2 = color_picker(samp_type_abund.iloc[in_level[k]][:-1])
-					edge_samp = matchyn(s_type1,s_type2)
-					edge =  [abundance_array['TAXA'][in_level[l]], abundance_array['TAXA'][in_level[k]],
-												str(adj_matrix[l,k]),s_type1[0],s_type2[0],edge_samp[0],s_type1[1],s_type2[1],edge_samp[1]]
-					rev_edge = [abundance_array['TAXA'][in_level[k]], abundance_array['TAXA'][in_level[l]],
-												str(adj_matrix[l,k]),s_type2[0],s_type1[0],edge_samp[0],s_type2[1],s_type1[1],edge_samp[1]]
-					source_target_data += [edge]
-					source_target_data += [rev_edge]
+	toedge = True
+	if toedge:
+		#create a list of edges - source in one column, target in the other. This is an alternative to the adjacency matrix
+		#that might make it easier to load in to cytoscape.
+		num_edge = count_nonzero(adj_matrix)
+		print(i)
+		print(num_edge/2)
+		source_target_data = []#empty([num_edge,3], dtype = 'string')	
+		for l in range(len(adj_matrix)):
+			for k in range(l+1):
+					if adj_matrix[l,k] != 0:
+						s_type1 = color_picker(samp_type_abund.iloc[in_level[l]][:-1])
+						s_type2 = color_picker(samp_type_abund.iloc[in_level[k]][:-1])
+						edge_samp = matchyn(s_type1,s_type2)
+						#include the "reverse" edge as well so that cytoscape doesn't have gaps in 
+						#it's classification of nodes.
+						edge =  [abundance_array['TAXA'][in_level[l]], abundance_array['TAXA'][in_level[k]],
+													str(adj_matrix[l,k]),s_type1[0],s_type2[0],edge_samp[0],s_type1[1],s_type2[1],edge_samp[1]]
+						rev_edge = [abundance_array['TAXA'][in_level[k]], abundance_array['TAXA'][in_level[l]],
+													str(adj_matrix[l,k]),s_type2[0],s_type1[0],edge_samp[0],s_type2[1],s_type1[1],edge_samp[1]]
+						source_target_data += [edge]
+						source_target_data += [rev_edge]
 				
-	#turn list into a dataframe
-	source_target_frames[i] = pd.DataFrame(source_target_data, columns = ['source','target','weight',
-						'first_sample','second_sample','edge_sample','fscolor','sscolor','edcolor'])
+		#turn list into a dataframe
+		source_target_frames[i] = pd.DataFrame(source_target_data, columns = ['source','target','weight',
+							'first_sample','second_sample','edge_sample','fscolor','sscolor','edcolor'])
 	
 	#Assign a color to each node based on where they are most abundant (what sample type)
 
@@ -157,7 +165,7 @@ for i in level:
 #cytoscape. Save source_target_frames to save a list of edges. This can also be loaded into
 #cytoscape and provides a way to include edge or node attributes.
 for i in level:
-#	adjacency_frames[i].to_csv(net_name+i+'_adj.mat', sep = '\t')
+	adjacency_frames[i].to_csv(net_name+'_'+i+'_adj.tsv', sep = '\t')
 	source_target_frames[i].to_csv(net_name+'_'+i+'_list.tsv', sep = '\t')
 
 

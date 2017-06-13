@@ -13,34 +13,17 @@ from pylab import *
 import pandas as pd
 import sys
 import matplotlib.pyplot as plt
-from scipy import misc
+from scipy import misc, sparse, cluster
+import networkx as nx
+#from networkx import girvan_newman
 
 #####Variables
 ##User input, should be entered as an argument
-csv_name = sys.argv[1]
+csv_mat_name = sys.argv[1]
+csv_edges_name = sys.argv[2]
+#edges = False
 
 
-######Import the network as list of edges
-#Makes a pandas DataFrame, use abundance_array.keys() to see column labels, 
-network_edges = pd.read_csv(csv_name, sep = '\t')
-num_edges = len(network_edges)
-
-sample_types = unique(network_edges['edge_sample'])
-
-mean_weights = [mean(network_edges['weight'].loc[where(network_edges['edge_sample'] == type)])
-						for type in sample_types]
-
-edge_props = [float(len(network_edges['weight'].loc[where(network_edges['edge_sample'] == type)]))/float(num_edges)
-						for type in sample_types]
-####### Just getting mean weights of edges within a sample type (and intertype), and 
-####proportion of said edges. And then making a bar plot.
-mean_weights_dict = dict()
-for i in range(len(sample_types)):
-	mean_weights_dict[sample_types[i]] = mean_weights[i]
-	
-edge_props_dict = dict()
-for i in range(len(sample_types)):
-	edge_props_dict[sample_types[i]] = edge_props[i]
 	
 ###### Number of Edges vs Random ############
 ##
@@ -52,11 +35,12 @@ for i in range(len(sample_types)):
 #		E(edges of ER random graph) - \sum_{types} E(edges of subgraph)
 # 
 these_types = sys.argv[2]
+
 if ',' in these_types:
 	commas = where([letter == ',' for letter in these_types])
 	commas = append(commas,len(these_types)-1)
 	commas = insert(commas,0,0)
-	print commas
+	print(commas)
 	the_types = []
 	for i in range(1,len(commas)):
 		the_types = the_types + ["".join(these_types[commas[i-1]+1:commas[i]])]
@@ -73,8 +57,6 @@ def edge_prob(network):
 	p = float(2*m)/float(n**2 - n)
 	return p
 	
-e_prob = edge_prob(network_edges)
-
 
 #count the nodes of a type
 def nodes_in_sub(network,type):
@@ -95,9 +77,7 @@ def random_sub_graph(network,types, p = 0.5):
 	#prob = float(misc.comb(full_graph,num_edges))*(p**num_edges)*((1-p)**(full_graph - num_edges))
 	#diff = expected - num_edges
 	return [expected, num_edges]
-	
-print random_sub_graph(network_edges,these_types, p = e_prob)
-	
+		
 ### Calculate the probability of seeing that many intertype edges, or edges between some
 #		certain set of types, or out of some set of types.
 def exp_cut_edges(network, types, p = 0.5, between = True):
@@ -148,7 +128,6 @@ def exp_cut_edges(network, types, p = 0.5, between = True):
 			int_expected = out_tot*p
 		return [int_expected, num_edges]
 	
-print exp_cut_edges(network_edges,these_types, p = e_prob,  between = False)
 
 ###### Conductance of cuts ##################
 ##
@@ -180,6 +159,147 @@ def cut_cond(network,types):
 		return 'Empty Cut'
 	
 	
+############# Clustering #######################################
+#####
+### - Cluster nodes using community detection cluster and 
+#		spectral clustering (I would like to compare)
+
+
+
+
+
+def com_clust(network):
+	#Clustering using Girvan and Newman algortithm. This means we try to maximize the 
+	#quantity \emph{modularity} over all possible community groupings. Modularity is
+	#the quantity: (Fraction of edges that are inside a community) - (expected fraction in a random graph)
+	#I'd like to weight this, so I'll maximize
+	#((\delta is Kronecher, d is sum of weights of edges on that vertex (generalized degree))
+	#Also, the undirectedness means I only have to take the sum over the subdiagonal. 
+	adjmat = network.values[:,1:]
+	sum_weight = sum(adjmat)
+	aij = 1/(sum_weight)*array([sum(row) for row in adjmat])
+	deltaQ = 1/(sum_weight)*adjmat
+#	deltaQ = triu(deltaQ)
+	for ent in transpose(where(deltaQ != 0)):
+		entr = tuple(ent)
+		deltaQ[entr] = deltaQ[entr] - aij[ent[0]]*aij[ent[1]]
+#	deltaQ = sparse.csr_matrix(deltaQ)
+	maxDQ = unravel_index(deltaQ.argmax(), deltaQ.shape)
+	removed = []
+	while deltaQ[maxDQ] != 0:
+		removed = removed+[maxDQ]
+		for k in range(deltaQ.shape[0]):
+			deltaQkj_temp = deltaQ[k,maxDQ[0]]+ deltaQ[k,maxDQ[1]]
+			if deltaQ[k,maxDQ[0]] ==0:
+				deltaQkj_temp = deltaQkj_temp - 2*aij[k]*aij[maxDQ[0]]
+			if deltaQ[k,maxDQ[1]] ==0:
+				deltaQkj_temp = deltaQkj_temp - 2*aij[k]*aij[maxDQ[1]]
+			if deltaQ[k,maxDQ[0]] != 0 or deltaQ[k,maxDQ[1]] != 0:
+				deltaQ[k,maxDQ[0]] = deltaQkj_temp
+		for k in range(deltaQ.shape[1]):
+			deltaQkj_temp = deltaQ[maxDQ[0],k]+ deltaQ[maxDQ[1],k]
+			if deltaQ[maxDQ[0],k] ==0:
+				deltaQkj_temp = deltaQkj_temp - 2*aij[k]*aij[maxDQ[0]]
+			if deltaQ[maxDQ[1],k] ==0:
+				deltaQkj_temp = deltaQkj_temp - 2*aij[k]*aij[maxDQ[1]]
+			if deltaQ[maxDQ[0],k] != 0 or deltaQ[maxDQ[1],k] != 0:
+				deltaQ[maxDQ[0],k] = deltaQkj_temp
+		deltaQ[maxDQ[0],maxDQ[0]] = 0
+		deltaQ = delete(deltaQ, maxDQ[1],0)
+		deltaQ = delete(deltaQ, maxDQ[1],1)
+		maxDQ = unravel_index(deltaQ.argmax(), deltaQ.shape)
+	return removed
+# 		
+		
+# 	
+def spectral_cluster(adj_mat):
+	'''Clustering using spectral clustering.'''
+	#construct the graph laplacian. Need degree matrix first
+	degs = sum(adj_mat,1)
+	D = diag(degs)
+	Din = diag(1/degs)
+	L = D - adj_mat
+	Lrw = dot(Din,L)
+	[evals,evects] = eigh(Lrw.astype(float))
+	sgaps = [evals[i] - evals[i-1] for i in range(1,20)]
+	num_clus = 5 + argmax(sgaps[5:])
+	V = evects[:,:num_clus]
+	Vwhite = cluster.vq.whiten(V)
+	cents = cluster.vq.kmeans(Vwhite,num_clus)[0]
+	spect_clusts = cluster.vq.vq(Vwhite, cents)
+	return spect_clusts[0]
+
+
+
+
+def color_picker2(r):
+'''Takes in vector r and maps to hex colors'''
+	muncols = len(r)
+	colors = linspace(0,255,numcols)
+	collist = []
+	for i in range(muncols):
+		colori = colors[i]
+		rgb_value = cm.rainbow(colori.astype(int))
+		hex_value = matplotlib.colors.rgb2hex(rgb_value[0])
+		collist = collist + [hex_value]
+	return collist
+
+
+
+		
+######Import the network as list of edges
+#Makes a pandas DataFrame, use abundance_array.keys() to see column labels, 
+
+
+network_edges = pd.read_csv(csv_edges_name, sep = '\t')
+network_mat = pd.read_csv(csv_mat_name,sep = "\t")
+
+#	net_graph = nx.from_pandas_dataframe(network_edges, 'source', 'target', 'weight')
+
+edge_an = False
+if edge_an:
+	num_edges = len(network_edges)
+
+	sample_types = unique(network_edges['edge_sample'])
+
+	mean_weights = [mean(network_edges['weight'].loc[where(network_edges['edge_sample'] == type)])
+							for type in sample_types]
+
+	edge_props = [float(len(network_edges['weight'].loc[where(network_edges['edge_sample'] == type)]))/float(num_edges)
+							for type in sample_types]
+	####### Just getting mean weights of edges within a sample type (and intertype), and 
+	####proportion of said edges. And then making a bar plot.
+	mean_weights_dict = dict()
+	for i in range(len(sample_types)):
+		mean_weights_dict[sample_types[i]] = mean_weights[i]
+
+	edge_props_dict = dict()
+	for i in range(len(sample_types)):
+		edge_props_dict[sample_types[i]] = edge_props[i]
+	
+
+	e_prob = edge_prob(network_edges)
+
+
+clus_an = True
+if clus_an:
+	adj_mat = network_mat.values[:,1:]
+	spect = spectral_cluster(adj_mat)
+	cols = color_picker2(spect)
+	
+	
+	
+	
+	
+#	print(network_mat.values[:,1:].shape)
+	
+#	net_graph = nx.from_numpy_matrix(network_mat.values[:,1:])
+
+# communities = com_clust(network_mat)
+# print(communities)
+
+#print(var(network_mat.values[:,1:]))
+
 
 ##### Plots of stats (rough) ###################
 # xpos = arange(len(sample_types))
@@ -207,11 +327,6 @@ def cut_cond(network,types):
 #######										##################################
 ##############################################################################
 #
-# - Compare edges to random graph - decide on type of random graph (ie edge distribution)
-#
-# - Calculate conductance from sample to type to rest of graph:
-#		By calculating conductance of cutting out that sample type, weighted by number
-#			of nodes of that sample.
 #
 # - Implement network clustering and compare to grouping by sample type.
 
