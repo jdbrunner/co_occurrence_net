@@ -14,13 +14,15 @@ import pandas as pd
 import sys
 import matplotlib.pyplot as plt
 from scipy import misc, sparse, cluster
-import networkx as nx
+#import networkx as nx
 #from networkx import girvan_newman
 
 #####Variables
 ##User input, should be entered as an argument
 csv_mat_name = sys.argv[1]
 csv_edges_name = sys.argv[2]
+
+
 #edges = False
 
 
@@ -34,19 +36,6 @@ csv_edges_name = sys.argv[2]
 #	- For intertype edges this will be harder. I'll have to check this but it should be
 #		E(edges of ER random graph) - \sum_{types} E(edges of subgraph)
 # 
-these_types = sys.argv[2]
-
-if ',' in these_types:
-	commas = where([letter == ',' for letter in these_types])
-	commas = append(commas,len(these_types)-1)
-	commas = insert(commas,0,0)
-	print(commas)
-	the_types = []
-	for i in range(1,len(commas)):
-		the_types = the_types + ["".join(these_types[commas[i-1]+1:commas[i]])]
-	these_types = the_types
-else:
-	these_types = ["".join(these_types[1:-1])]
 
 
 def edge_prob(network):
@@ -233,14 +222,14 @@ def spectral_cluster(adj_mat):
 
 
 def color_picker2(r):
-'''Takes in vector r and maps to hex colors'''
+	'''Takes in vector r and maps to hex colors'''
 	muncols = len(r)
-	colors = linspace(0,255,numcols)
+	colors = linspace(0,255,muncols)
 	collist = []
 	for i in range(muncols):
 		colori = colors[i]
 		rgb_value = cm.rainbow(colori.astype(int))
-		hex_value = matplotlib.colors.rgb2hex(rgb_value[0])
+		hex_value = matplotlib.colors.rgb2hex(rgb_value)
 		collist = collist + [hex_value]
 	return collist
 
@@ -258,6 +247,19 @@ network_mat = pd.read_csv(csv_mat_name,sep = "\t")
 
 edge_an = False
 if edge_an:
+	these_types = sys.argv[3]
+	if ',' in these_types:
+		commas = where([letter == ',' for letter in these_types])
+		commas = append(commas,len(these_types)-1)
+		commas = insert(commas,0,0)
+		print(commas)
+		the_types = []
+		for i in range(1,len(commas)):
+			the_types = the_types + ["".join(these_types[commas[i-1]+1:commas[i]])]
+		these_types = the_types
+	else:
+		these_types = ["".join(these_types[1:-1])]
+		
 	num_edges = len(network_edges)
 
 	sample_types = unique(network_edges['edge_sample'])
@@ -285,8 +287,7 @@ clus_an = True
 if clus_an:
 	adj_mat = network_mat.values[:,1:]
 	spect = spectral_cluster(adj_mat)
-	cols = color_picker2(spect)
-	
+	cols = color_picker2(unique(spect))
 	
 	
 	
