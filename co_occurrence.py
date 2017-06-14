@@ -12,6 +12,7 @@
 from pylab import *
 import pandas as pd
 import sys
+import itertools as iter
 
 #####Variables
 ##User input, should be entered as an argument
@@ -29,18 +30,18 @@ def both_occ(r1,r2, lbd = 0, ubd = 1):
 
 #Function that counts the number of times the two occur in the same abundance range.
 #rel = true does this relative to the maximum abundance
-def both_same_bin(r1,r2, threshes = [0.05,0.333,0.666], rel = True):
+def both_same_bin(r1,r2, lthresh, numthresh, rel = True):
+	threshes = linspace(lthresh, 1, numthresh)
 	k = len(threshes)
 	if rel:
 		r1m = max(r1)
 		r2m = max(r2)
 		r1 = r1/r1m
 		r2 = r2/r2m	
-	up_bds = append(threshes,1)
-	both_in_bin = [both_occ(r1,r2,lbd = threshes[i],ubd = up_bds[i+1]) for i in range(k)]
+	both_in_bin = [both_occ(r1,r2,lbd = threshes[i],ubd = threshes[i+1]) for i in range(k-1)]
 	tot_same_bin = sum(both_in_bin)
-	same_bin_frac = float(tot_same_bin)/float(len(r1))
-	return same_bin_frac
+#	same_bin_frac = float(tot_same_bin)/float(len(r1))
+	return tot_same_bin
 	
 
 #Function that classifies nodes by which type of sample they have the highest abundance in.
@@ -68,6 +69,47 @@ def matchyn(a,b):
 	else:
 		grey = matplotlib.colors.rgb2hex([0.80000001192092896, 0.80000001192092896, 0.80000001192092896, 1.0])
 		return ['Intertype', grey]
+		
+def occ_probs(abund_array,lthresh, numthresh, rel = True):
+	'''Calculate probability of occurrence at an abundance level in a random graph, binomial distribution
+	with parameters edge degree and sample degree/total edges, as in \cite{coocc}.'''
+	#Make the bipartite graph by creating a list for each sample (converting 
+	#to discrete values based on bin number)
+	if rel:
+		for rw in abund_array.index:
+			maxab = max(abund_array.loc[rw][1:])
+			abund_array.loc[rw,1:] = abund_array.loc[rw][1:]/maxab
+	samp = abund_array.columns[1:]
+	bins = ['_b'+ str(i) for i in range(1,numthresh+1)]
+	bigraph = pd.DataFrame(abund_array['TAXA'],columns = ['TAXA'])
+	threshes = linspace(lthresh, 1, numthresh)
+	for this_samp in samp:
+		for j in range(1,numthresh):
+			bigraph[this_samp+bins[j-1]] = ((abund_array[this_samp] > threshes[j-1]) & (abund_array[this_samp] <= threshes[j])).astype(int)
+	samp_degs = sum(bigraph,0)[1:]
+	org_degs = sum(bigraph,1)
+	total_edges = sum(samp_degs)
+	bin_prob = samp_degs/total_edges
+	occ_prob = array([[1 - (1-p)**n for p in bin_prob] for n in org_degs])
+	return occ_prob
+	
+def random_coocc_prob(occ,wij,i,j):
+	'''Calculate a poisson-binomial...P(X > wij) where X is the number of times
+	i and j co occur in random graph (X is a random variable)'''
+	#occ is a matrix with entry il the probability i occurs in sample l under the 
+	#random graph
+	coocc = occ[i]*occ[j] #vector with p_il*p_jl
+	no_coocc = 1 - coocc
+	numsamp = len(occ[0])
+	terms = range(wij,numsamp)
+	prob = 0
+	for j in terms:
+		choices = array(list(iter.combinations(range(numsamp),j)))
+		for ch in choices:
+			unch = delete(range(numsamp),ch)
+			prob = prob + prod(coocc[ch])*prod(no_coocc[unch])
+	return prob
+
 
 ######Import the abundance matrix
 #Makes a pandas DataFrame, use abundance_array.keys() to see column labels, 
@@ -84,7 +126,6 @@ abundance_array.index = range(len(abundance_array))
 if level == 'all':
 	level = array(abundance_array['LEVEL'].values)
 	level = array(unique(level))
-	print(level)
 else:
 	level = array([level])
 
@@ -115,19 +156,27 @@ for i in level:
 	
 	#start by getting the indices of the members of the level
 	in_level = where(abundance_array['LEVEL'] == i)
-	
+	#then the part of the dataframe containing just that level
+	lvl_abundance_array = abundance_array.iloc[in_level]
+	lvl_abundance_array = lvl_abundance_array.drop('LEVEL',axis = 1)
 	#create np array of abundance values (dropping labels) within the level
-	ab_np_array = abundance_array.values[in_level,2:][0]
-
+	ab_np_array = lvl_abundance_array.values[:,1:]
+	not_seen = argwhere(sum(ab_np_array,1) == 0)
+	#prune off unseen organisms
+	lvl_abundance_array = lvl_abundance_array.drop(not_seen)
+	
+	occ_probs = occ_probs(lvl_abundance_array,0.05,5)
+	print(random_coocc_prob(occ_probs,100,20,40))
+	
 	#Create numpy array of co-occurrence fractions. This is the incidence matrix for our weighted
 	#graph.
-	adj_matrix = asarray([[0 if x == y else both_same_bin(ab_np_array[x],ab_np_array[y], threshes = [0.05,0.2,0.4,0.6,0.8]) 
+	adj_matrix = asarray([[0 if x == y else both_same_bin(ab_np_array[x],ab_np_array[y], 0.05, 5) 
 								for x in range(len(ab_np_array))] for y in range(len(ab_np_array))])
 	degs = sum(adj_matrix,1)
 	unconnected = where(degs == 0)
 	adj_matrix = delete(adj_matrix,unconnected,0)
 	adj_matrix = delete(adj_matrix,unconnected,1)
-								
+
 	in_level = in_level[0]
 	in_level = delete(in_level,unconnected)
 	adjacency_frames[i] = pd.DataFrame(adj_matrix, index = abundance_array['TAXA'][in_level], columns = abundance_array['TAXA'][in_level])
@@ -137,8 +186,8 @@ for i in level:
 		#create a list of edges - source in one column, target in the other. This is an alternative to the adjacency matrix
 		#that might make it easier to load in to cytoscape.
 		num_edge = count_nonzero(adj_matrix)
-		print(i)
-		print(num_edge/2)
+# 		print(i)
+# 		print(num_edge/2)
 		source_target_data = []#empty([num_edge,3], dtype = 'string')	
 		for l in range(len(adj_matrix)):
 			for k in range(l+1):
@@ -164,9 +213,11 @@ for i in level:
 #Save adjacency_frames to save the (weighted) adjacency matrix. This can be loaded into 
 #cytoscape. Save source_target_frames to save a list of edges. This can also be loaded into
 #cytoscape and provides a way to include edge or node attributes.
-for i in level:
-	adjacency_frames[i].to_csv(net_name+'_'+i+'_adj.tsv', sep = '\t')
-	source_target_frames[i].to_csv(net_name+'_'+i+'_list.tsv', sep = '\t')
+save = False
+if save:
+	for i in level:
+		adjacency_frames[i].to_csv(net_name+'_'+i+'_adj.tsv', sep = '\t')
+		source_target_frames[i].to_csv(net_name+'_'+i+'_list.tsv', sep = '\t')
 
 
 
@@ -175,9 +226,8 @@ for i in level:
 # - Decide how to classify nodes that appear in multiple types of sample at 
 #				high frequency
 #
-# - Create separate networks for each sample type
+# - Change co-occurrence network to account for randomness
 #
-# - Implement my own clustering?
 
 
 
