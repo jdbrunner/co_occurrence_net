@@ -15,7 +15,6 @@ import sys
 import matplotlib.pyplot as plt
 from scipy import misc, sparse, cluster
 #import networkx as nx
-#from networkx import girvan_newman
 
 #####Variables
 ##User input, should be entered as an argument
@@ -166,38 +165,36 @@ def com_clust(network):
 	#Also, the undirectedness means I only have to take the sum over the subdiagonal. 
 	adjmat = network.values[:,1:]
 	sum_weight = sum(adjmat)
-	aij = 1/(sum_weight)*array([sum(row) for row in adjmat])
-	deltaQ = 1/(sum_weight)*adjmat
-#	deltaQ = triu(deltaQ)
-	for ent in transpose(where(deltaQ != 0)):
-		entr = tuple(ent)
-		deltaQ[entr] = deltaQ[entr] - aij[ent[0]]*aij[ent[1]]
-#	deltaQ = sparse.csr_matrix(deltaQ)
+	ai = 1/(sum_weight)*array([sum(row) for row in adjmat])
+#	Qterms = 1/(sum_weight)*adjmat - outer(ai,ai)
+	deltaQ = 1/(sum_weight)*adjmat - outer(ai,ai)#Qterms
+#	oneclus = sum(deltaQ)
 	maxDQ = unravel_index(deltaQ.argmax(), deltaQ.shape)
-	removed = []
-	while deltaQ[maxDQ] != 0:
-		removed = removed+[maxDQ]
-		for k in range(deltaQ.shape[0]):
-			deltaQkj_temp = deltaQ[k,maxDQ[0]]+ deltaQ[k,maxDQ[1]]
-			if deltaQ[k,maxDQ[0]] ==0:
-				deltaQkj_temp = deltaQkj_temp - 2*aij[k]*aij[maxDQ[0]]
-			if deltaQ[k,maxDQ[1]] ==0:
-				deltaQkj_temp = deltaQkj_temp - 2*aij[k]*aij[maxDQ[1]]
-			if deltaQ[k,maxDQ[0]] != 0 or deltaQ[k,maxDQ[1]] != 0:
-				deltaQ[k,maxDQ[0]] = deltaQkj_temp
-		for k in range(deltaQ.shape[1]):
-			deltaQkj_temp = deltaQ[maxDQ[0],k]+ deltaQ[maxDQ[1],k]
-			if deltaQ[maxDQ[0],k] ==0:
-				deltaQkj_temp = deltaQkj_temp - 2*aij[k]*aij[maxDQ[0]]
-			if deltaQ[maxDQ[1],k] ==0:
-				deltaQkj_temp = deltaQkj_temp - 2*aij[k]*aij[maxDQ[1]]
-			if deltaQ[maxDQ[0],k] != 0 or deltaQ[maxDQ[1],k] != 0:
-				deltaQ[maxDQ[0],k] = deltaQkj_temp
-		deltaQ[maxDQ[0],maxDQ[0]] = 0
+#	removed = []
+	Q = [sum(diag(deltaQ))]
+	cluster_list = []
+	for i in range(adj_mat.shape[0]):
+		cluster_list = cluster_list+[[i]]
+	while deltaQ[maxDQ] > 0:#deltaQ.shape[0] > 1:
+#		removed = removed+[maxDQ]
+		cluster_list[maxDQ[0]] = cluster_list[maxDQ[0]] + cluster_list[maxDQ[1]]
+		cluster_list.remove(cluster_list[maxDQ[1]])
+		Q = Q + [Q[-1] + 2*deltaQ[maxDQ]]
+		deltaQ[maxDQ[0]] = deltaQ[maxDQ[0]]+deltaQ[maxDQ[1]]
+		deltaQ[:,maxDQ[0]] = deltaQ[:,maxDQ[0]]+deltaQ[:,maxDQ[1]]
+		deltaQ[maxDQ[0],maxDQ[0]] = deltaQ[maxDQ[0],maxDQ[0]]
 		deltaQ = delete(deltaQ, maxDQ[1],0)
 		deltaQ = delete(deltaQ, maxDQ[1],1)
-		maxDQ = unravel_index(deltaQ.argmax(), deltaQ.shape)
-	return removed
+		mask = array(deltaQ)
+		fill_diagonal(mask, -inf)
+		maxDQ = unravel_index(mask.argmax(), deltaQ.shape)
+# 		if deltaQ[maxDQ] <= 0:
+# 			print(deltaQ.shape)
+	#cluster_list list of lists - each sublist is a cluster. the sublists contain the index
+	#of the nodes in that cluster. It will be nicer to have a list where entry i tells us 
+	#what cluster node i is in.
+	comm_clusts = [where([node in cluster for cluster in cluster_list])[0][0] for node in range(adjmat.shape[0])]
+	return [comm_clusts,Q]
 # 		
 		
 # 	
@@ -216,6 +213,7 @@ def spectral_cluster(adj_mat):
 	Vwhite = cluster.vq.whiten(V)
 	cents = cluster.vq.kmeans(Vwhite,num_clus)[0]
 	spect_clusts = cluster.vq.vq(Vwhite, cents)
+	#returns list - entry i tells us what cluster node i is in
 	return spect_clusts[0]
 
 
@@ -241,6 +239,7 @@ def color_picker2(r):
 
 
 network_edges = pd.read_csv(csv_edges_name, sep = '\t')
+network_edges.index = network_edges['source']
 network_mat = pd.read_csv(csv_mat_name,sep = "\t")
 
 #	net_graph = nx.from_pandas_dataframe(network_edges, 'source', 'target', 'weight')
@@ -252,7 +251,6 @@ if edge_an:
 		commas = where([letter == ',' for letter in these_types])
 		commas = append(commas,len(these_types)-1)
 		commas = insert(commas,0,0)
-		print(commas)
 		the_types = []
 		for i in range(1,len(commas)):
 			the_types = the_types + ["".join(these_types[commas[i-1]+1:commas[i]])]
@@ -286,8 +284,28 @@ if edge_an:
 clus_an = True
 if clus_an:
 	adj_mat = network_mat.values[:,1:]
+	communities = com_clust(network_mat)
 	spect = spectral_cluster(adj_mat)
-	cols = color_picker2(unique(spect))
+	spectcols = color_picker2(unique(spect))
+	commcols = color_picker2(unique(communities[0]))
+	network_edges['spect_cluster'] = zeros(len(network_edges))
+	network_edges['commun_cluster'] = zeros(len(network_edges))
+	network_edges['spect_color'] = zeros(len(network_edges))
+	network_edges['comm_color'] = zeros(len(network_edges))
+	spect_colors = [spectcols[i] for i in spect]
+	comm_colors = [commcols[i] for i in communities[0]]
+	for j in range(len(network_mat)):
+		network_edges.loc[network_mat.iloc[j]['TAXA'],'spect_cluster'] = spect[j]
+		network_edges.loc[network_mat.iloc[j]['TAXA'],'commun_cluster'] = communities[0][j]
+		network_edges.loc[network_mat.iloc[j]['TAXA'],'spect_color'] = spect_colors[j]
+		network_edges.loc[network_mat.iloc[j]['TAXA'],'comm_color'] = comm_colors[j]
+
+end_name = csv_edges_name.find('.tsv')
+cled_name = csv_edges_name[:end_name] + '_clustered.tsv'
+network_edges.to_csv(cled_name, sep = '\t')
+
+# 	plot(communities[1])
+# 	show()
 	
 	
 	
