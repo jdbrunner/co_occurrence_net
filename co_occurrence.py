@@ -13,6 +13,9 @@ from pylab import *
 import pandas as pd
 import sys
 import itertools as iter
+from scipy.special import binom as choose
+from scipy.stats import binom
+
 
 #####Variables
 ##User input, should be entered as an argument
@@ -92,10 +95,12 @@ def occ_probs(abund_array,lthresh, numthresh, rel = True):
 	bin_prob = samp_degs/total_edges
 	occ_prob = array([[1 - (1-p)**n for p in bin_prob] for n in org_degs])
 	return occ_prob
-	
+
+############## NOT FOR USE WITHOUT A COMPUTER FROM 2117	
 def random_coocc_prob(occ,wij,i,j):
 	'''Calculate a poisson-binomial...P(X > wij) where X is the number of times
 	i and j co occur in random graph (X is a random variable)'''
+	#this is crazy slow. Luckily theres a paper with an idea about approximating it!
 	#occ is a matrix with entry il the probability i occurs in sample l under the 
 	#random graph
 	coocc = occ[i]*occ[j] #vector with p_il*p_jl
@@ -103,13 +108,39 @@ def random_coocc_prob(occ,wij,i,j):
 	numsamp = len(occ[0])
 	terms = range(wij,numsamp)
 	prob = 0
-	for j in terms:
-		choices = array(list(iter.combinations(range(numsamp),j)))
+	for k in terms:
+		choices = array(list(iter.combinations(range(numsamp),k)))
 		for ch in choices:
 			unch = delete(range(numsamp),ch)
 			prob = prob + prod(coocc[ch])*prod(no_coocc[unch])
 	return prob
+##########################################
 
+def approx_rand_prob(occ,wij,i,j):
+	'''Calculate an approximation of a poisson-binomial...P(X > wij) where X 
+	is the number of timesi and j co occur in random graph (X is a random variable)
+	The paper \cite{coocc} calls it bi-binomial because its as if you had two 
+	probabilities in the above'''
+	coocc = occ[i]*occ[j] #vector with p_il*p_jl
+	N = len(coocc)
+	mu = sum(coocc)
+	sig2 = mu - sum(coocc**2)
+	pa = mu/N
+	N2 = round(mu)#round(mu**2/(mu - sig2))
+	N1 = N-N2
+	S2 = (mu-sig2)/N - (mu/N)**2
+	p1 = pa - sqrt((N2*S2/N1))
+	p2 = pa + sqrt((N1*S2/N2))
+	terms = range(int(wij),10)
+	prob = 0
+	###for k = wi1,...,N, calculate P(X = k) and add it on
+	for k in terms:
+		ztok = array(range(k+1))
+		kminj = k - ztok
+		n1side = binom.pmf(ztok, N1, p1)
+		n2side = binom.pmf(kminj, N2, p2)
+		prob = prob + sum(n1side*n2side)
+	return prob
 
 ######Import the abundance matrix
 #Makes a pandas DataFrame, use abundance_array.keys() to see column labels, 
@@ -166,17 +197,28 @@ for i in level:
 	lvl_abundance_array = lvl_abundance_array.drop(not_seen)
 	
 	occ_probs = occ_probs(lvl_abundance_array,0.05,5)
-	print(random_coocc_prob(occ_probs,100,20,40))
+	
 	
 	#Create numpy array of co-occurrence fractions. This is the incidence matrix for our weighted
 	#graph.
-	adj_matrix = asarray([[0 if x == y else both_same_bin(ab_np_array[x],ab_np_array[y], 0.05, 5) 
+	adj_matrix_pre = asarray([[0 if x == y else both_same_bin(ab_np_array[x],ab_np_array[y], 0.05, 5) 
 								for x in range(len(ab_np_array))] for y in range(len(ab_np_array))])
-	degs = sum(adj_matrix,1)
+	degs = sum(adj_matrix_pre,1)
 	unconnected = where(degs == 0)
-	adj_matrix = delete(adj_matrix,unconnected,0)
-	adj_matrix = delete(adj_matrix,unconnected,1)
-
+	adj_matrix_pre = delete(adj_matrix_pre,unconnected,0)
+	adj_matrix_pre = delete(adj_matrix_pre,unconnected,1)
+	
+	stringency = 0.05
+	
+	adj_size = adj_matrix_pre.shape
+	adj_matrix = zeros(adj_size)
+	for i in range(adj_size[0]):
+		for j in range(adj_size[1]):
+			if adj_matrix_pre != 0:
+				p = approx_rand_prob(occ_probs,adj_matrix_pre[i,j],i,j)
+				if p<= stringency:
+					adj_matrix[i,j] = 1
+				
 	in_level = in_level[0]
 	in_level = delete(in_level,unconnected)
 	adjacency_frames[i] = pd.DataFrame(adj_matrix, index = abundance_array['TAXA'][in_level], columns = abundance_array['TAXA'][in_level])
