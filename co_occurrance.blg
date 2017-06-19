@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: co_occurrance.aux
+The style file: plain.bst
+Database file #1: ../../summer17.bib
+I was expecting a `,' or a `}'---line 42 of file ../../summer17.bib
+ :  
+ :  volume = {147},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 86 of file ../../summer17.bib
+ :  
+ :  booktitle = {Hydrocarbon and Lipid Microbiology Protocols},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You've used 1 entry,
+            2118 wiz_defined-function locations,
+            506 strings with 4167 characters,
+and the built_in function-call counts, 318 in all, are:
+= -- 29
+> -- 13
+< -- 0
++ -- 5
+- -- 4
+* -- 26
+:= -- 60
+add.period$ -- 3
+call.type$ -- 1
+change.case$ -- 5
+chr.to.int$ -- 0
+cite$ -- 1
+duplicate$ -- 11
+empty$ -- 25
+format.name$ -- 4
+if$ -- 63
+int.to.chr$ -- 0
+int.to.str$ -- 1
+missing$ -- 1
+newline$ -- 8
+num.names$ -- 2
+pop$ -- 3
+preamble$ -- 1
+purify$ -- 4
+quote$ -- 0
+skip$ -- 8
+stack$ -- 0
+substring$ -- 17
+swap$ -- 1
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 4
+warning$ -- 0
+while$ -- 3
+width$ -- 2
+write$ -- 13
+(There were 2 error messages)

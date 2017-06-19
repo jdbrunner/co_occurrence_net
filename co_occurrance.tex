@@ -1,0 +1,242 @@
+\documentclass[10pt]{article}
+%\documentclass[review]{siamart1116}
+%\documentclass[review]{siamonline1116}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{fancyhdr}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{graphicx}
+\usepackage[section]{placeins}
+\usepackage{nicefrac}
+\usepackage{bm}
+\usepackage{xcolor}
+\usepackage[format=plain,indention=.5cm, font={it,small},labelfont=bf]{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{enumerate}
+\usepackage{tikz}
+\usepackage[all]{xy}
+\usepackage{url}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{stackengine}
+\usepackage{amsthm}
+\usepackage{cleveref}
+
+
+\newtheorem{theorem}{Theorem}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem*{lemma*}{Lemma}
+\newtheorem*{conj}{Conjecture}
+\newtheorem{corollary}{Corollary}
+\newtheorem{clm}{Claim}
+\newtheorem{rmk}{Remark}
+\newtheorem{note}{NOTE}
+
+\theoremstyle{definition}
+\newtheorem*{def*}{Definition}
+\newtheorem{definition}{Definition}
+\numberwithin{theorem}{section}
+\numberwithin{definition}{section}
+\numberwithin{lemma}{section}
+\numberwithin{corollary}{section}
+\numberwithin{clm}{section}
+\numberwithin{rmk}{section}
+
+\newcommand{\low}[1]{$_{\text{#1}}$}
+\newcommand\xput[2][0.5]{%
+	\rule{#1\linewidth}{0pt}\makebox[0pt][c]{#2}\hfill}
+
+\setlength{\headheight}{15pt}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead[L]{Brunner}
+\fancyhead[C]{Co-Occurrance Network}
+\fancyhead[R]{\today}
+\lfoot{}
+\cfoot{\thepage}
+\rfoot{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+%\newsiamthm{clm}{Claim}
+%\newsiamremark{rmk}{Remark}
+%\newsiamremark{note}{NOTE}
+%\numberwithin{theorem}{section}
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\newcommand{\nhalf}{\nicefrac{1}{2}}
+\newcommand{\eps}{\epsilon_{machine}}
+\newcommand{\ol}{\overline}
+\renewcommand{\b}{\bm}
+
+\definecolor{dgreen}{RGB}{49,128,23}
+\definecolor{nicepink}{RGB}{255, 0, 102}
+\definecolor{nicered}{RGB}{255, 80, 80}
+
+\newcommand{\bE}{\mathbb{E}}
+\newcommand{\bP}{\mathbb{P}}
+\newcommand{\bR}{\mathbb{R}}
+\newcommand{\bN}{\mathbb{N}}
+\newcommand{\bZ}{\mathbb{Z}}
+\newcommand{\bQ}{\mathbb{Q}}
+\newcommand{\bC}{\mathbb{C}}
+\newcommand{\cA}{\mathcal{A}}
+\newcommand{\cB}{\mathcal{B}}
+\newcommand{\cC}{\mathcal{C}}
+\newcommand{\cD}{\mathcal{D}}
+\newcommand{\cE}{\mathcal{E}}
+\newcommand{\cF}{\mathcal{F}}
+\newcommand{\cG}{\mathcal{G}}
+\newcommand{\cH}{\mathcal{H}}
+\newcommand{\cI}{\mathcal{I}}
+\newcommand{\cJ}{\mathcal{J}}
+\newcommand{\cK}{\mathcal{K}}
+\newcommand{\cL}{\mathcal{L}}
+\newcommand{\cM}{\mathcal{M}}
+\newcommand{\cN}{\mathcal{N}}
+\newcommand{\cO}{\mathcal{O}}
+\newcommand{\cP}{\mathcal{P}}
+\newcommand{\cQ}{\mathcal{Q}}
+\newcommand{\cR}{\mathcal{R}}
+\newcommand{\cS}{\mathcal{S}}
+\newcommand{\cT}{\mathcal{T}}
+\newcommand{\cU}{\mathcal{U}}
+\newcommand{\cV}{\mathcal{V}}
+\newcommand{\cW}{\mathcal{W}}
+\newcommand{\cX}{\mathcal{X}}
+\newcommand{\cY}{\mathcal{Y}}
+\newcommand{\cZ}{\mathcal{Z}}
+
+\newcommand{\inter}{\text{\normalfont int}}
+\newcommand{\ka}{\kappa}
+\newcommand{\fp}{\varrho}
+\newcommand{\problem}[2]{ \ \\ {\bf #1} {\it #2} \ \\} 
+
+\renewcommand{\arraystretch}{1.5}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}	
+\author{Jim Brunner}
+\title{Using a co-occurrance network}
+
+\begin{document}
+\maketitle
+
+We are looking at creating ecological networks of a microbiome. Right now, I have built two networks, in the form of graphs $\cG_1 = (\cV_1, \cE_1)$ and $\cG_2 = (\cV_2,\cE_2)$. In both graphs, vertex are labeled by taxa name. I'm going to conflate the vertices and their label. The edge sets are defined by co-incidence and co-occurence, respectively. Given a set of samples with abundancs of organisms, we map the abundances to discrete levels, as proportions of the maximum abundance \emph{of that organism}. Precisely, let the samples be $s_i$ and raw abundance of organism $j$ in sample $i$ be $r_{ji}$. I map the abundances according to
+\[
+a(r_{ji})  = \left\{
+\begin{array}{c c}
+\lfloor\left(\frac{r_{ji}}{\max_{s_k}(r_{jk})}\right) n \rfloor + 1 &  \frac{r_{ji}}{\max_{s_k}(r_{jk})} \geq m \\
+0 & \frac{r_{ji}}{\max_{s_k}(r_{jk})} < m
+\end{array}
+\right.
+\]
+where $m$ is some minimum. Then, I create weighted edges between vertices (where $0$ weight means no edge exists) where the weights of edges in $\cE_1$ are
+\[
+w^1_{jk} = \frac{\|\{i: a(r_{ji}) = a(r_{ki}) \neq 0\} \|}{S}
+\]
+where $S$ is the total number of samples. That is, we count the propotion of samples in which the two taxa appear at the same discritized level. 
+
+The second network accounts for random coincidence of taxa in a sample, following \cite{coocc}. It begins with $\cG_1$, and compares to a null model $N$. The null model is defined in the following way.
+\[
+A_j= \sum_{s_i} \b{1}_{a(r_{ji}) \neq 0}
+\] 
+and 
+\[
+S_i^l  = \sum_{v_j} \b{1}_{a(r_{ji}) = l}
+\]
+Then, $N$ assumes that if
+\[
+X_{jil} \sim \mathit{binom}\left(A_j, \frac{S_i^l}{\sum_{il} S_i^l}\right)
+\]
+then $P(a_{ji}^N = l) = 1-P(X_{jil} = 0)$. This allows us to calculate the probability of co-incidence of taxa under the null model. Let $w_{jk}^N$ be
+\[
+w^N_{jk} = \|\{i: a_{ji}^N = a_{ki}^N \neq 0\} \|
+\]
+This is the similar to the co-incidence model but now randomized. Then,
+\[
+P(w_{jk}^N = K) =  \sum_{\{A \subset \cV_2:|A| = k\}} \prod_{l\in A} a_{jl}a_{kl}\prod_{l \not\in A} (1- a_{jl}a_{kl})
+\]
+Ideally, we would then define $\cE_2$ by the weights
+\[
+w_{jk}^2 = \left\{ \begin{array}{c c}
+1 & P(w_{jk}^N \geq w_{jk}^1) \geq t\\
+0 & P(w_{jk}^N < w_{jk}^1) > t
+\end{array}\right.
+\]
+However, that probability is intractible to compute. Instead, we take 
+\[
+\widetilde{P}(w_{jk}^N = K) = \sum_{l=0}^i \binom{N_1}{l}\binom{N_2}{K-l} p_1^j p_2^{K-l} (1-p_1)^{N-l}(1-p_2)^{N-K+l}
+\]
+where
+\[
+p_1 = p_a - \left(\frac{N_2}{N_1}\frac{N(\mu-\sigma^2)- \mu^2}{N^2}\right)^{\nhalf}
+\]
+and 
+\[
+p_2 = p_a - \left(\frac{N_1}{N_2}\frac{N(\mu-\sigma^2)- \mu^2}{N^2}\right)^{\nhalf}
+\]
+Finally, $N_1$, $N_2$ are to ensure that $p_1,p_2 \in [0,1]$. It turns out we need:
+\[
+\frac{\mu N (1-p_a) - N\sigma^2}{N(1-p_a)- \sigma^2} \leq N_2 \leq \frac{\mu^2}{\mu- \sigma^2}
+\]
+with $\mu$ the mean of the real distrubution, $\sigma^2$ the variance, and $p_a = \frac{1}{S}\sum_{i} a_{ji}a_{ki}$. So, we take 
+\[
+w_{jk}^2 = \left\{ \begin{array}{c c}
+1 & \widetilde{P}(w_{jk}^N \geq w_{jk}^1) \geq t\\
+0 & \widetilde{P}(w_{jk}^N < w_{jk}^1) > t
+\end{array}\right.
+\]
+
+The question now is what can we do these networks?
+
+First, assesing GOTTCHA reads. A single GOTTCHA read would produce a network with each connected component complete. I think the co-incidence network is more appropriate. We want to assess the probability that you see this set together. We have the probability that you see any vertex pair (estimated) as the edge weights of $\cG_1$. Precisely, the edge weights are
+\[
+w^1_{jk} = P(j \, \&\, k \in  S_i^l)
+\]
+where $S_i^l$ is sample $i$ at discrete abundance level $l$. It might be useful to have the directed weight graph where
+\[
+w^3_{jk} = P(j \in S_i^l | k \in S_i^l)
+\]
+but that wouldn't be hard, because then
+\[
+w^3_{jk} = S\frac{w^1_{jk}}{\|\{i:a(r_{ki})>0\}\|} 
+\]
+Anyway, let's start with the simplest case of one abundance level. Assume GOTTCHA found taxa $a,b,c,...,n$. Maybe the first thing we would want is
+\[
+P(a | b,c,d,...,n), \, P(b|a,c,d,...,n) ,\, \mathit{etc}
+\]
+Clearly, we can see directly $P(a|b)$, etc. We can also get a bound for triplets (assuming $P(c,b) \neq 0$):
+\[
+P(a|b,c) \leq \frac{\min_{(i,j) \subset \{a,b,c\}}(P(i,j))}{P(b,c)}
+\]
+but we can't do any better than triplets explicitly, because we don't have any sort of independence (conditional or otherwise) and because our network is not acyclic. 
+
+We can probably learn something from asking about the connectivity of the induced subgraph. Notice that if it isn't complete, then one of the $P(a,b)$ is $0$ above. 
+
+What does the connectivity of the induced subgraph of $\cG_2$ tell us? If it is connected, that's good.  
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+\bibliographystyle{plain}
+\bibliography{../../summer17}
+\end{document}

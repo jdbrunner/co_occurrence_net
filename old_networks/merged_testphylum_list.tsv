@@ -1,0 +1,15 @@
+	source	target	weight	first_sample	second_sample	edge_sample	fscolor	sscolor	edcolor
+0	Bacteroidetes	Actinobacteria	0.00188121472722	Stool	Supragingival_plaque	Intertype	#b2f396	#ff964f	#cccccc
+1	Actinobacteria	Bacteroidetes	0.00188121472722	Supragingival_plaque	Stool	Intertype	#ff964f	#b2f396	#cccccc
+2	Firmicutes	Actinobacteria	0.00107497984413	Posterior_fornix	Supragingival_plaque	Intertype	#4df3ce	#ff964f	#cccccc
+3	Actinobacteria	Firmicutes	0.00107497984413	Supragingival_plaque	Posterior_fornix	Intertype	#ff964f	#4df3ce	#cccccc
+4	Firmicutes	Bacteroidetes	0.00107497984413	Posterior_fornix	Stool	Intertype	#4df3ce	#b2f396	#cccccc
+5	Bacteroidetes	Firmicutes	0.00107497984413	Stool	Posterior_fornix	Intertype	#b2f396	#4df3ce	#cccccc
+6	Proteobacteria	Actinobacteria	0.00107497984413	Buccal_mucosa	Supragingival_plaque	Intertype	#1996f3	#ff964f	#cccccc
+7	Actinobacteria	Proteobacteria	0.00107497984413	Supragingival_plaque	Buccal_mucosa	Intertype	#ff964f	#1996f3	#cccccc
+8	Proteobacteria	Bacteroidetes	0.00161246976619	Buccal_mucosa	Stool	Intertype	#1996f3	#b2f396	#cccccc
+9	Bacteroidetes	Proteobacteria	0.00161246976619	Stool	Buccal_mucosa	Intertype	#b2f396	#1996f3	#cccccc
+10	Proteobacteria	Firmicutes	0.00107497984413	Buccal_mucosa	Posterior_fornix	Intertype	#1996f3	#4df3ce	#cccccc
+11	Firmicutes	Proteobacteria	0.00107497984413	Posterior_fornix	Buccal_mucosa	Intertype	#4df3ce	#1996f3	#cccccc
+12	Spirochaetes	Actinobacteria	0.000268744961032	Subgingival_plaque	Supragingival_plaque	Intertype	#e4cf74	#ff964f	#cccccc
+13	Actinobacteria	Spirochaetes	0.000268744961032	Supragingival_plaque	Subgingival_plaque	Intertype	#ff964f	#e4cf74	#cccccc

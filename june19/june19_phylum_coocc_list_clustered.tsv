@@ -1,0 +1,23 @@
+source	Unnamed: 0	source	target	weight	first_sample	second_sample	edge_sample	fscolor	sscolor	edcolor	spect_cluster	commun_cluster	spect_color	comm_color
+Firmicutes	0	Firmicutes	Bacteroidetes	1.0	Posterior_fornix	Stool	Intertype	#4df3ce	#b2f396	#cccccc	2.0	1.0	#4df3ce	#ff0000
+Bacteroidetes	1	Bacteroidetes	Firmicutes	1.0	Stool	Posterior_fornix	Intertype	#b2f396	#4df3ce	#cccccc	4.0	0.0	#ff964f	#8000ff
+Firmicutes	2	Firmicutes	Candidatus Saccharibacteria	1.0	Posterior_fornix	Tongue_dorsum	Intertype	#4df3ce	#ff0000	#cccccc	2.0	1.0	#4df3ce	#ff0000
+Candidatus Saccharibacteria	3	Candidatus Saccharibacteria	Firmicutes	1.0	Tongue_dorsum	Posterior_fornix	Intertype	#ff0000	#4df3ce	#cccccc	3.0	1.0	#b2f396	#ff0000
+Proteobacteria	4	Proteobacteria	Bacteroidetes	1.0	Buccal_mucosa	Stool	Intertype	#1996f3	#b2f396	#cccccc	4.0	0.0	#ff964f	#8000ff
+Bacteroidetes	5	Bacteroidetes	Proteobacteria	1.0	Stool	Buccal_mucosa	Intertype	#b2f396	#1996f3	#cccccc	4.0	0.0	#ff964f	#8000ff
+Proteobacteria	6	Proteobacteria	Firmicutes	1.0	Buccal_mucosa	Posterior_fornix	Intertype	#1996f3	#4df3ce	#cccccc	4.0	0.0	#ff964f	#8000ff
+Firmicutes	7	Firmicutes	Proteobacteria	1.0	Posterior_fornix	Buccal_mucosa	Intertype	#4df3ce	#1996f3	#cccccc	2.0	1.0	#4df3ce	#ff0000
+Proteobacteria	8	Proteobacteria	Fusobacteria	1.0	Buccal_mucosa	Tongue_dorsum	Intertype	#1996f3	#ff0000	#cccccc	4.0	0.0	#ff964f	#8000ff
+Fusobacteria	9	Fusobacteria	Proteobacteria	1.0	Tongue_dorsum	Buccal_mucosa	Intertype	#ff0000	#1996f3	#cccccc	0.0	0.0	#8000ff	#8000ff
+Spirochaetes	10	Spirochaetes	Firmicutes	1.0	Subgingival_plaque	Posterior_fornix	Intertype	#e4cf74	#4df3ce	#cccccc	1.0	1.0	#1996f3	#ff0000
+Firmicutes	11	Firmicutes	Spirochaetes	1.0	Posterior_fornix	Subgingival_plaque	Intertype	#4df3ce	#e4cf74	#cccccc	2.0	1.0	#4df3ce	#ff0000
+Tenericutes	12	Tenericutes	Bacteroidetes	1.0	Posterior_fornix	Stool	Intertype	#4df3ce	#b2f396	#cccccc	5.0	1.0	#ff0000	#ff0000
+Bacteroidetes	13	Bacteroidetes	Tenericutes	1.0	Stool	Posterior_fornix	Intertype	#b2f396	#4df3ce	#cccccc	4.0	0.0	#ff964f	#8000ff
+Tenericutes	14	Tenericutes	Candidatus Saccharibacteria	1.0	Posterior_fornix	Tongue_dorsum	Intertype	#4df3ce	#ff0000	#cccccc	5.0	1.0	#ff0000	#ff0000
+Candidatus Saccharibacteria	15	Candidatus Saccharibacteria	Tenericutes	1.0	Tongue_dorsum	Posterior_fornix	Intertype	#ff0000	#4df3ce	#cccccc	3.0	1.0	#b2f396	#ff0000
+Tenericutes	16	Tenericutes	Spirochaetes	1.0	Posterior_fornix	Subgingival_plaque	Intertype	#4df3ce	#e4cf74	#cccccc	5.0	1.0	#ff0000	#ff0000
+Spirochaetes	17	Spirochaetes	Tenericutes	1.0	Subgingival_plaque	Posterior_fornix	Intertype	#e4cf74	#4df3ce	#cccccc	1.0	1.0	#1996f3	#ff0000
+Verrucomicrobia	18	Verrucomicrobia	Firmicutes	1.0	Stool	Posterior_fornix	Intertype	#b2f396	#4df3ce	#cccccc	2.0	1.0	#4df3ce	#ff0000
+Firmicutes	19	Firmicutes	Verrucomicrobia	1.0	Posterior_fornix	Stool	Intertype	#4df3ce	#b2f396	#cccccc	2.0	1.0	#4df3ce	#ff0000
+Verrucomicrobia	20	Verrucomicrobia	Tenericutes	1.0	Stool	Posterior_fornix	Intertype	#b2f396	#4df3ce	#cccccc	2.0	1.0	#4df3ce	#ff0000
+Tenericutes	21	Tenericutes	Verrucomicrobia	1.0	Posterior_fornix	Stool	Intertype	#4df3ce	#b2f396	#cccccc	5.0	1.0	#ff0000	#ff0000
