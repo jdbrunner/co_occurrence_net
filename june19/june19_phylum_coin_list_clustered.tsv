@@ -1,0 +1,77 @@
+source	Unnamed: 0	source	target	weight	first_sample	second_sample	edge_sample	fscolor	sscolor	edcolor	spect_cluster	commun_cluster	spect_color	comm_color
+Bacteroidetes	0	Bacteroidetes	Actinobacteria	5.0	Stool	Supragingival_plaque	Intertype	#b2f396	#ff964f	#cccccc	1.0	0.0	#4856fb	#8000ff
+Actinobacteria	1	Actinobacteria	Bacteroidetes	5.0	Supragingival_plaque	Stool	Intertype	#ff964f	#b2f396	#cccccc	2.0	0.0	#10a2f0	#8000ff
+Candidatus Saccharibacteria	2	Candidatus Saccharibacteria	Actinobacteria	3.0	Tongue_dorsum	Supragingival_plaque	Intertype	#ff0000	#ff964f	#cccccc	9.0	0.0	#ff0000	#8000ff
+Actinobacteria	3	Actinobacteria	Candidatus Saccharibacteria	3.0	Supragingival_plaque	Tongue_dorsum	Intertype	#ff964f	#ff0000	#cccccc	2.0	0.0	#10a2f0	#8000ff
+Candidatus Saccharibacteria	4	Candidatus Saccharibacteria	Bacteroidetes	7.0	Tongue_dorsum	Stool	Intertype	#ff0000	#b2f396	#cccccc	9.0	0.0	#ff0000	#8000ff
+Bacteroidetes	5	Bacteroidetes	Candidatus Saccharibacteria	7.0	Stool	Tongue_dorsum	Intertype	#b2f396	#ff0000	#cccccc	1.0	0.0	#4856fb	#8000ff
+Chlamydiae	6	Chlamydiae	Actinobacteria	2.0	Posterior_fornix	Supragingival_plaque	Intertype	#4df3ce	#ff964f	#cccccc	6.0	1.0	#d4dd80	#ff0000
+Actinobacteria	7	Actinobacteria	Chlamydiae	2.0	Supragingival_plaque	Posterior_fornix	Intertype	#ff964f	#4df3ce	#cccccc	2.0	0.0	#10a2f0	#8000ff
+Chlamydiae	8	Chlamydiae	Bacteroidetes	4.0	Posterior_fornix	Stool	Intertype	#4df3ce	#b2f396	#cccccc	6.0	1.0	#d4dd80	#ff0000
+Bacteroidetes	9	Bacteroidetes	Chlamydiae	4.0	Stool	Posterior_fornix	Intertype	#b2f396	#4df3ce	#cccccc	1.0	0.0	#4856fb	#8000ff
+Firmicutes	10	Firmicutes	Actinobacteria	5.0	Posterior_fornix	Supragingival_plaque	Intertype	#4df3ce	#ff964f	#cccccc	4.0	1.0	#62fbc4	#ff0000
+Actinobacteria	11	Actinobacteria	Firmicutes	5.0	Supragingival_plaque	Posterior_fornix	Intertype	#ff964f	#4df3ce	#cccccc	2.0	0.0	#10a2f0	#8000ff
+Firmicutes	12	Firmicutes	Bacteroidetes	14.0	Posterior_fornix	Stool	Intertype	#4df3ce	#b2f396	#cccccc	4.0	1.0	#62fbc4	#ff0000
+Bacteroidetes	13	Bacteroidetes	Firmicutes	14.0	Stool	Posterior_fornix	Intertype	#b2f396	#4df3ce	#cccccc	1.0	0.0	#4856fb	#8000ff
+Firmicutes	14	Firmicutes	Candidatus Saccharibacteria	6.0	Posterior_fornix	Tongue_dorsum	Intertype	#4df3ce	#ff0000	#cccccc	4.0	1.0	#62fbc4	#ff0000
+Candidatus Saccharibacteria	15	Candidatus Saccharibacteria	Firmicutes	6.0	Tongue_dorsum	Posterior_fornix	Intertype	#ff0000	#4df3ce	#cccccc	9.0	0.0	#ff0000	#8000ff
+Firmicutes	16	Firmicutes	Chlamydiae	4.0	Posterior_fornix	Posterior_fornix	Posterior_fornix	#4df3ce	#4df3ce	#4df3ce	4.0	1.0	#62fbc4	#ff0000
+Chlamydiae	17	Chlamydiae	Firmicutes	4.0	Posterior_fornix	Posterior_fornix	Posterior_fornix	#4df3ce	#4df3ce	#4df3ce	6.0	1.0	#d4dd80	#ff0000
+Firmicutes	18	Firmicutes	Cyanobacteria	1.0	Posterior_fornix	Anterior_nares	Intertype	#4df3ce	#8000ff	#cccccc	4.0	1.0	#62fbc4	#ff0000
+Cyanobacteria	19	Cyanobacteria	Firmicutes	1.0	Anterior_nares	Posterior_fornix	Intertype	#8000ff	#4df3ce	#cccccc	5.0	1.0	#9bfba5	#ff0000
+Fusobacteria	20	Fusobacteria	Actinobacteria	5.0	Tongue_dorsum	Supragingival_plaque	Intertype	#ff0000	#ff964f	#cccccc	7.0	0.0	#ffa558	#8000ff
+Actinobacteria	21	Actinobacteria	Fusobacteria	5.0	Supragingival_plaque	Tongue_dorsum	Intertype	#ff964f	#ff0000	#cccccc	2.0	0.0	#10a2f0	#8000ff
+Fusobacteria	22	Fusobacteria	Bacteroidetes	7.0	Tongue_dorsum	Stool	Intertype	#ff0000	#b2f396	#cccccc	7.0	0.0	#ffa558	#8000ff
+Bacteroidetes	23	Bacteroidetes	Fusobacteria	7.0	Stool	Tongue_dorsum	Intertype	#b2f396	#ff0000	#cccccc	1.0	0.0	#4856fb	#8000ff
+Fusobacteria	24	Fusobacteria	Candidatus Saccharibacteria	4.0	Tongue_dorsum	Tongue_dorsum	Tongue_dorsum	#ff0000	#ff0000	#ff0000	7.0	0.0	#ffa558	#8000ff
+Candidatus Saccharibacteria	25	Candidatus Saccharibacteria	Fusobacteria	4.0	Tongue_dorsum	Tongue_dorsum	Tongue_dorsum	#ff0000	#ff0000	#ff0000	9.0	0.0	#ff0000	#8000ff
+Fusobacteria	26	Fusobacteria	Firmicutes	8.0	Tongue_dorsum	Posterior_fornix	Intertype	#ff0000	#4df3ce	#cccccc	7.0	0.0	#ffa558	#8000ff
+Firmicutes	27	Firmicutes	Fusobacteria	8.0	Posterior_fornix	Tongue_dorsum	Intertype	#4df3ce	#ff0000	#cccccc	4.0	1.0	#62fbc4	#ff0000
+Proteobacteria	28	Proteobacteria	Actinobacteria	5.0	Buccal_mucosa	Supragingival_plaque	Intertype	#1996f3	#ff964f	#cccccc	8.0	0.0	#ff592d	#8000ff
+Actinobacteria	29	Actinobacteria	Proteobacteria	5.0	Supragingival_plaque	Buccal_mucosa	Intertype	#ff964f	#1996f3	#cccccc	2.0	0.0	#10a2f0	#8000ff
+Proteobacteria	30	Proteobacteria	Bacteroidetes	11.0	Buccal_mucosa	Stool	Intertype	#1996f3	#b2f396	#cccccc	8.0	0.0	#ff592d	#8000ff
+Bacteroidetes	31	Bacteroidetes	Proteobacteria	11.0	Stool	Buccal_mucosa	Intertype	#b2f396	#1996f3	#cccccc	1.0	0.0	#4856fb	#8000ff
+Proteobacteria	32	Proteobacteria	Candidatus Saccharibacteria	5.0	Buccal_mucosa	Tongue_dorsum	Intertype	#1996f3	#ff0000	#cccccc	8.0	0.0	#ff592d	#8000ff
+Candidatus Saccharibacteria	33	Candidatus Saccharibacteria	Proteobacteria	5.0	Tongue_dorsum	Buccal_mucosa	Intertype	#ff0000	#1996f3	#cccccc	9.0	0.0	#ff0000	#8000ff
+Proteobacteria	34	Proteobacteria	Chlamydiae	1.0	Buccal_mucosa	Posterior_fornix	Intertype	#1996f3	#4df3ce	#cccccc	8.0	0.0	#ff592d	#8000ff
+Chlamydiae	35	Chlamydiae	Proteobacteria	1.0	Posterior_fornix	Buccal_mucosa	Intertype	#4df3ce	#1996f3	#cccccc	6.0	1.0	#d4dd80	#ff0000
+Proteobacteria	36	Proteobacteria	Firmicutes	11.0	Buccal_mucosa	Posterior_fornix	Intertype	#1996f3	#4df3ce	#cccccc	8.0	0.0	#ff592d	#8000ff
+Firmicutes	37	Firmicutes	Proteobacteria	11.0	Posterior_fornix	Buccal_mucosa	Intertype	#4df3ce	#1996f3	#cccccc	4.0	1.0	#62fbc4	#ff0000
+Proteobacteria	38	Proteobacteria	Fusobacteria	10.0	Buccal_mucosa	Tongue_dorsum	Intertype	#1996f3	#ff0000	#cccccc	8.0	0.0	#ff592d	#8000ff
+Fusobacteria	39	Fusobacteria	Proteobacteria	10.0	Tongue_dorsum	Buccal_mucosa	Intertype	#ff0000	#1996f3	#cccccc	7.0	0.0	#ffa558	#8000ff
+Spirochaetes	40	Spirochaetes	Bacteroidetes	3.0	Subgingival_plaque	Stool	Intertype	#e4cf74	#b2f396	#cccccc	3.0	1.0	#2adddd	#ff0000
+Bacteroidetes	41	Bacteroidetes	Spirochaetes	3.0	Stool	Subgingival_plaque	Intertype	#b2f396	#e4cf74	#cccccc	1.0	0.0	#4856fb	#8000ff
+Spirochaetes	42	Spirochaetes	Candidatus Saccharibacteria	4.0	Subgingival_plaque	Tongue_dorsum	Intertype	#e4cf74	#ff0000	#cccccc	3.0	1.0	#2adddd	#ff0000
+Candidatus Saccharibacteria	43	Candidatus Saccharibacteria	Spirochaetes	4.0	Tongue_dorsum	Subgingival_plaque	Intertype	#ff0000	#e4cf74	#cccccc	9.0	0.0	#ff0000	#8000ff
+Spirochaetes	44	Spirochaetes	Firmicutes	4.0	Subgingival_plaque	Posterior_fornix	Intertype	#e4cf74	#4df3ce	#cccccc	3.0	1.0	#2adddd	#ff0000
+Firmicutes	45	Firmicutes	Spirochaetes	4.0	Posterior_fornix	Subgingival_plaque	Intertype	#4df3ce	#e4cf74	#cccccc	4.0	1.0	#62fbc4	#ff0000
+Spirochaetes	46	Spirochaetes	Fusobacteria	1.0	Subgingival_plaque	Tongue_dorsum	Intertype	#e4cf74	#ff0000	#cccccc	3.0	1.0	#2adddd	#ff0000
+Fusobacteria	47	Fusobacteria	Spirochaetes	1.0	Tongue_dorsum	Subgingival_plaque	Intertype	#ff0000	#e4cf74	#cccccc	7.0	0.0	#ffa558	#8000ff
+Spirochaetes	48	Spirochaetes	Proteobacteria	2.0	Subgingival_plaque	Buccal_mucosa	Intertype	#e4cf74	#1996f3	#cccccc	3.0	1.0	#2adddd	#ff0000
+Proteobacteria	49	Proteobacteria	Spirochaetes	2.0	Buccal_mucosa	Subgingival_plaque	Intertype	#1996f3	#e4cf74	#cccccc	8.0	0.0	#ff592d	#8000ff
+Synergistetes	50	Synergistetes	Spirochaetes	1.0	Subgingival_plaque	Subgingival_plaque	Subgingival_plaque	#e4cf74	#e4cf74	#e4cf74	3.0	1.0	#2adddd	#ff0000
+Spirochaetes	51	Spirochaetes	Synergistetes	1.0	Subgingival_plaque	Subgingival_plaque	Subgingival_plaque	#e4cf74	#e4cf74	#e4cf74	3.0	1.0	#2adddd	#ff0000
+Tenericutes	52	Tenericutes	Actinobacteria	5.0	Posterior_fornix	Supragingival_plaque	Intertype	#4df3ce	#ff964f	#cccccc	0.0	1.0	#8000ff	#ff0000
+Actinobacteria	53	Actinobacteria	Tenericutes	5.0	Supragingival_plaque	Posterior_fornix	Intertype	#ff964f	#4df3ce	#cccccc	2.0	0.0	#10a2f0	#8000ff
+Tenericutes	54	Tenericutes	Bacteroidetes	3.0	Posterior_fornix	Stool	Intertype	#4df3ce	#b2f396	#cccccc	0.0	1.0	#8000ff	#ff0000
+Bacteroidetes	55	Bacteroidetes	Tenericutes	3.0	Stool	Posterior_fornix	Intertype	#b2f396	#4df3ce	#cccccc	1.0	0.0	#4856fb	#8000ff
+Tenericutes	56	Tenericutes	Candidatus Saccharibacteria	3.0	Posterior_fornix	Tongue_dorsum	Intertype	#4df3ce	#ff0000	#cccccc	0.0	1.0	#8000ff	#ff0000
+Candidatus Saccharibacteria	57	Candidatus Saccharibacteria	Tenericutes	3.0	Tongue_dorsum	Posterior_fornix	Intertype	#ff0000	#4df3ce	#cccccc	9.0	0.0	#ff0000	#8000ff
+Tenericutes	58	Tenericutes	Chlamydiae	1.0	Posterior_fornix	Posterior_fornix	Posterior_fornix	#4df3ce	#4df3ce	#4df3ce	0.0	1.0	#8000ff	#ff0000
+Chlamydiae	59	Chlamydiae	Tenericutes	1.0	Posterior_fornix	Posterior_fornix	Posterior_fornix	#4df3ce	#4df3ce	#4df3ce	6.0	1.0	#d4dd80	#ff0000
+Tenericutes	60	Tenericutes	Firmicutes	8.0	Posterior_fornix	Posterior_fornix	Posterior_fornix	#4df3ce	#4df3ce	#4df3ce	0.0	1.0	#8000ff	#ff0000
+Firmicutes	61	Firmicutes	Tenericutes	8.0	Posterior_fornix	Posterior_fornix	Posterior_fornix	#4df3ce	#4df3ce	#4df3ce	4.0	1.0	#62fbc4	#ff0000
+Tenericutes	62	Tenericutes	Fusobacteria	4.0	Posterior_fornix	Tongue_dorsum	Intertype	#4df3ce	#ff0000	#cccccc	0.0	1.0	#8000ff	#ff0000
+Fusobacteria	63	Fusobacteria	Tenericutes	4.0	Tongue_dorsum	Posterior_fornix	Intertype	#ff0000	#4df3ce	#cccccc	7.0	0.0	#ffa558	#8000ff
+Tenericutes	64	Tenericutes	Proteobacteria	5.0	Posterior_fornix	Buccal_mucosa	Intertype	#4df3ce	#1996f3	#cccccc	0.0	1.0	#8000ff	#ff0000
+Proteobacteria	65	Proteobacteria	Tenericutes	5.0	Buccal_mucosa	Posterior_fornix	Intertype	#1996f3	#4df3ce	#cccccc	8.0	0.0	#ff592d	#8000ff
+Tenericutes	66	Tenericutes	Spirochaetes	3.0	Posterior_fornix	Subgingival_plaque	Intertype	#4df3ce	#e4cf74	#cccccc	0.0	1.0	#8000ff	#ff0000
+Spirochaetes	67	Spirochaetes	Tenericutes	3.0	Subgingival_plaque	Posterior_fornix	Intertype	#e4cf74	#4df3ce	#cccccc	3.0	1.0	#2adddd	#ff0000
+Tenericutes	68	Tenericutes	Synergistetes	1.0	Posterior_fornix	Subgingival_plaque	Intertype	#4df3ce	#e4cf74	#cccccc	0.0	1.0	#8000ff	#ff0000
+Synergistetes	69	Synergistetes	Tenericutes	1.0	Subgingival_plaque	Posterior_fornix	Intertype	#e4cf74	#4df3ce	#cccccc	3.0	1.0	#2adddd	#ff0000
+Verrucomicrobia	70	Verrucomicrobia	Bacteroidetes	2.0	Stool	Stool	Stool	#b2f396	#b2f396	#b2f396	4.0	1.0	#62fbc4	#ff0000
+Bacteroidetes	71	Bacteroidetes	Verrucomicrobia	2.0	Stool	Stool	Stool	#b2f396	#b2f396	#b2f396	1.0	0.0	#4856fb	#8000ff
+Verrucomicrobia	72	Verrucomicrobia	Firmicutes	7.0	Stool	Posterior_fornix	Intertype	#b2f396	#4df3ce	#cccccc	4.0	1.0	#62fbc4	#ff0000
+Firmicutes	73	Firmicutes	Verrucomicrobia	7.0	Posterior_fornix	Stool	Intertype	#4df3ce	#b2f396	#cccccc	4.0	1.0	#62fbc4	#ff0000
+Verrucomicrobia	74	Verrucomicrobia	Tenericutes	2.0	Stool	Posterior_fornix	Intertype	#b2f396	#4df3ce	#cccccc	4.0	1.0	#62fbc4	#ff0000
+Tenericutes	75	Tenericutes	Verrucomicrobia	2.0	Posterior_fornix	Stool	Intertype	#4df3ce	#b2f396	#cccccc	0.0	1.0	#8000ff	#ff0000

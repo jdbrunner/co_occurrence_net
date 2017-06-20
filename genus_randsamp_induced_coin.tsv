@@ -1,0 +1,9 @@
+	source	Unnamed: 0	source.1	target	weight	first_sample	second_sample	edge_sample	fscolor	sscolor	edcolor	spect_cluster	commun_cluster	spect_color	comm_color
+290	Campylobacter	290	Campylobacter	Actinobaculum	4.0	Supragingival_plaque	Supragingival_plaque	Supragingival_plaque	#ff964f	#ff964f	#ff964f	5.0	0.0	#ff0000	#8000ff
+291	Actinobaculum	291	Actinobaculum	Campylobacter	4.0	Supragingival_plaque	Supragingival_plaque	Supragingival_plaque	#ff964f	#ff964f	#ff964f	5.0	0.0	#ff0000	#8000ff
+1086	Eubacterium	1086	Eubacterium	Bilophila	2.0	Stool	Stool	Stool	#b2f396	#b2f396	#b2f396	2.0	1.0	#4df3ce	#2adddd
+1087	Bilophila	1087	Bilophila	Eubacterium	2.0	Stool	Stool	Stool	#b2f396	#b2f396	#b2f396	2.0	1.0	#4df3ce	#2adddd
+1092	Eubacterium	1092	Eubacterium	Campylobacter	1.0	Stool	Supragingival_plaque	Intertype	#b2f396	#ff964f	#cccccc	2.0	1.0	#4df3ce	#2adddd
+1093	Campylobacter	1093	Campylobacter	Eubacterium	1.0	Supragingival_plaque	Stool	Intertype	#ff964f	#b2f396	#cccccc	5.0	0.0	#ff0000	#8000ff
+1940	Johnsonella	1940	Johnsonella	Eubacterium	1.0	Supragingival_plaque	Stool	Intertype	#ff964f	#b2f396	#cccccc	5.0	0.0	#ff0000	#8000ff
+1941	Eubacterium	1941	Eubacterium	Johnsonella	1.0	Stool	Supragingival_plaque	Intertype	#b2f396	#ff964f	#cccccc	2.0	1.0	#4df3ce	#2adddd
