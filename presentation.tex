@@ -1,0 +1,151 @@
+\documentclass{beamer}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{natbib}
+%\usepackage{fancyhdr}
+%\usepackage[margin=1in]{geometry}
+%%\usepackage{graphicx}
+%%\usepackage{cite}
+%%\usepackage{multicol}
+%%\usepackage[section]{placeins}
+%%\usepackage{amsthm}
+\usepackage{nicefrac}
+\usepackage{bm}
+%%\usepackage{algorithm2e}
+%\newtheorem{theorem}{Theorem}
+%\newtheorem*{theorem*}{Theorem}
+%\newtheorem{lemma}{Lemma}
+%\newtheorem*{lemma*}{Lemma}
+%\newtheorem*{def*}{Definition}
+%\newtheorem*{conj}{Conjecture}
+%\newtheorem{defn}{Definition}
+%\newcommand{\low}[1]{$_{\text{#1}}$}
+%\newcommand\xput[2][0.5]{%
+%    \rule{#1\linewidth}{0pt}\makebox[0pt][c]{#2}\hfill}
+%\usepackage{stackengine}
+%\usepackage{enumerate}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+
+%
+%\newcommand{\delt}[1]{
+%\begin{tikzpicture}[#1]
+%\draw (0,0) -- (1ex,1.5ex);
+%\draw (2.1ex,0) -- (1ex,1.5ex);
+%\draw (0.0,0.0) -- (2.1ex,0);
+%\draw (0.5ex,0.8ex) -- (1.5ex, 0.8ex);
+%\draw (1ex, 0.75ex) -- (1ex, 0);
+%\end{tikzpicture}
+%}
+\usepackage[all]{xy}
+
+\newcommand{\fp}{\varrho}
+\newcommand{\nhalf}{\nicefrac{1}{2}}
+%\newcommand{\eps}{\epsilon_{machine}}
+\newcommand{\ol}{\overline}
+\renewcommand{\b}{\bm}
+%\newcommand{\problem}[2]{ \ \\\textbf{#1} \textit{#2}\\} 
+%
+\newcommand{\bE}{\mathbb{E}}
+\newcommand{\bP}{\mathbb{P}}
+\newcommand{\bR}{\mathbb{R}}
+\newcommand{\bN}{\mathbb{N}}
+\newcommand{\bZ}{\mathbb{Z}}
+\newcommand{\bQ}{\mathbb{Q}}
+\newcommand{\bC}{\mathbb{C}}
+\newcommand{\cA}{\mathcal{A}}
+\newcommand{\cB}{\mathcal{B}}
+\newcommand{\cC}{\mathcal{C}}
+\newcommand{\cD}{\mathcal{D}}
+\newcommand{\cE}{\mathcal{E}}
+\newcommand{\cF}{\mathcal{F}}
+\newcommand{\cG}{\mathcal{G}}
+\newcommand{\cH}{\mathcal{H}}
+\newcommand{\cI}{\mathcal{I}}
+\newcommand{\cJ}{\mathcal{J}}
+\newcommand{\cK}{\mathcal{K}}
+\newcommand{\cL}{\mathcal{L}}
+\newcommand{\cM}{\mathcal{M}}
+\newcommand{\cN}{\mathcal{N}}
+\newcommand{\cO}{\mathcal{O}}
+\newcommand{\cP}{\mathcal{P}}
+\newcommand{\cQ}{\mathcal{Q}}
+\newcommand{\cR}{\mathcal{R}}
+\newcommand{\cS}{\mathcal{S}}
+\newcommand{\cT}{\mathcal{T}}
+\newcommand{\cU}{\mathcal{U}}
+\newcommand{\cV}{\mathcal{V}}
+\newcommand{\cW}{\mathcal{W}}
+\newcommand{\cX}{\mathcal{X}}
+\newcommand{\cY}{\mathcal{Y}}
+\newcommand{\cZ}{\mathcal{Z}}
+
+\definecolor{lblue}{RGB}{51,255,255}
+\definecolor{dgreen}{RGB}{49,128,23}
+\definecolor{nicepink}{RGB}{255, 0, 102}
+\definecolor{nicered}{RGB}{255, 80, 80}
+
+\newcommand{\kr}{\text{k}}
+%
+%\renewcommand{\arraystretch}{1.5}
+%\renewcommand{\thefootnote}{\fnsymbol{footnote}}	
+%\setlength{\headheight}{5pt}
+%\pagestyle{fancyplain}
+%\renewcommand{\headrulewidth}{0pt}
+%\lhead{}
+%\chead{}
+%\rhead{}
+
+%\lfoot{}
+%\cfoot{\thepage}
+%\rfoot{}
+
+\setbeamerfont{block body}{size=\small}
+
+\usetheme{Ilmenau}
+\usecolortheme{seahorse}
+\usefonttheme{serif}
+
+\addtobeamertemplate{navigation symbols}{}{%
+    \usebeamerfont{footline}%
+    \usebeamercolor[fg]{footline}%
+    \hspace{1em}%
+    \insertframenumber/\inserttotalframenumber
+}
+
+\author[Brunner \& Craciun]{Jim Brunner \& Gheorghe Craciun}
+\institute[UW Madison]{University of Wisconsin - Madison}
+%\title{Robust Permanence of Polynomial Dynamical Systems}
+\title{Robust Permanence of Deterministic Reaction Network Models}
+\date{}
+\begin{document}
+%--------------------------------------------------------------------------------------------------
+\begin{frame}
+\titlepage
+\phantom{\cite{}}
+\end{frame}
+%--------------------------------------------------------------------------------------------------
+
+%--------------------------------------------------------------------------------------------------
+\begin{frame}
+\frametitle{References}
+\bibliographystyle{unsrt}
+% make bibliography entries smaller
+\renewcommand\bibfont{\scriptsize}
+% and kill the abominable icon
+\setbeamertemplate{bibliography item}{}
+\bibliography{summer17}
+\end{frame}
+%--------------------------------------------------------------------------------------------------
+%--------------------------------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Thank You}
+
+
+\end{frame}
+%--------------------------------------------------------------------------------------------------
+\end{document}
