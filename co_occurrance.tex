@@ -21,6 +21,7 @@
 \usepackage{url}
 
 
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{stackengine}
 \usepackage{amsthm}
@@ -71,7 +72,17 @@
 %
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+\newenvironment{inbox}[1]
+{\begin{center}
+		\begin{tabular}{|p{0.9\textwidth}|}
+			\hline\\
+			{\bf #1}\\
+		}
+		{ 
+			\\\\\hline
+		\end{tabular} 
+	\end{center}
+}
 
 \newcommand{\nhalf}{\nicefrac{1}{2}}
 \newcommand{\eps}{\epsilon_{machine}}
@@ -128,7 +139,7 @@
 
 \begin{document}
 \maketitle
-
+\section{Network Building}
 We are looking at creating ecological networks of a microbiome. Right now, I have built two networks, in the form of graphs $\cG_1 = (\cV_1, \cE_1)$ and $\cG_2 = (\cV_2,\cE_2)$. In both graphs, vertex are labeled by taxa name. I'm going to conflate the vertices and their label. The edge sets are defined by co-incidence and co-occurence, respectively. Given a set of samples with abundancs of organisms, we map the abundances to discrete levels, as proportions of the maximum abundance \emph{of that organism}. Precisely, let the samples be $s_i$ and raw abundance of organism $j$ in sample $i$ be $r_{ji}$. I map the abundances according to
 \[
 a(r_{ji})  = \left\{
@@ -195,6 +206,11 @@ w_{jk}^2 = \left\{ \begin{array}{c c}
 \end{array}\right.
 \]
 
+\section{Network Analysis}
+We can cluster - community clustering, spectral clustering, comparing to random graphs. Comparison of clusters to grouping by sample type.
+
+\section{Using the network to analyze a sample}
+
 The question now is what can we do these networks?
 
 First, assesing GOTTCHA reads. A single GOTTCHA read would produce a network with each connected component complete. I think the co-incidence network is more appropriate. We want to assess the probability that you see this set together. We have the probability that you see any vertex pair (estimated) as the edge weights of $\cG_1$. Precisely, the edge weights are
@@ -221,15 +237,51 @@ but we can't do any better than triplets explicitly, because we don't have any s
 
 We can probably learn something from asking about the connectivity of the induced subgraph. Notice that if it isn't complete, then one of the $P(a,b)$ is $0$ above. 
 
-What does the connectivity of the induced subgraph of $\cG_2$ tell us? If it is connected, that's good.  
+What does the connectivity of the induced subgraph of $\cG_2$ tell us? If it is connected, that's good.  We could use that network to identify vertices that are connected to many of the vertices in the induced subgraph - this might indicate that node should be in the sample.
+
+I guess $\cG_2$ is a markov random field \cite{machine_learning}. This might give us a way to calculate the probability you see a group taxa (and maybe others). The main idea of a MRF is that nodes are conditionally independent of nodes they aren't neighbors of (conditioned on ones they are neighbors of). If $c$ are the (maximal) cliques of the graph (complete subgraphs), then the probability of configuration $\b{x}$ is
+\[
+P(\b{x}) = \frac{1}{Z} \prod_{c} \psi_c (x_{c})
+\]	
+where $Z$ is a normalizing constant and $\psi_c$ are potential functions I don't know how to come up with yet. Anyway, if we have a sample that contains (maybe as a subset) $s$, we can calculate something. Let $C_s$ be the cliques represented in $s$.
+\[
+P(\b{s}) = \frac{1}{Z}\sum_{\{\b{x} : s\subset \b{x}\}}\prod_{c\in C_s}\psi_c(\b{x})
+\]
+And we can ignore cliques not represented in $s$. We probably have to change $Z$. I guess we can also use neighbor pairs instead of maximal cliques. Either way we have to figure out what $\psi_c$ are.
+
+\subsection{Determining $\psi_c$}
+
+Before figuring out $\psi_c$, it should be noted that we have a choice of configuration space of the network. We can use a binary $\{1,0\}^N$ space to denote presence or absence, or we can choose a continuous space to include abundances. To begin, I will only consider presence \& absence.
 	
-	
-	
-	
-	
-	
-	
-	
+\begin{inbox}{Snowshoe hairs and Canadian Lynx, CRNT}
+Now I'm very tempted to think about how this approach relates to mass action dynamical systems. I'm going to think about my very favorite model.
+\[
+\b{\dot{x}} = \ka_1 x \begin{pmatrix} 1 \\ 0 \end{pmatrix} + \ka_2 xy \begin{pmatrix}
+-1 \\ 1
+\end{pmatrix} + \ka_3 y \begin{pmatrix}
+0\\-1
+\end{pmatrix}
+\]
+Well. Yes. But there is only one maximal clique so $P(\b{x}) = \psi (\b{x})$ and that's just whatever it is. We know that it evolves according to the stochastic mass action equations. In fact, the result that the stationary distribution is a product of poissons for a complex balanced system can be thought of as fitting into this framework. I wonder if you could use this theory to re-prove that? Recall that the stationary distribution for a complex balanced system with equilibrium $\b{c}$ is 
+\[
+\pi(\b{x}) = \frac{1}{Z} \prod_{i=1}^d \frac{c_i^{x_i}}{x_i!}
+\]
+so here we have that
+\[
+\psi_c = \prod_{i \in c} \frac{c_i^{x_i}}{x_i!}
+\]
+or taking cliques to be just singletons
+\[
+\psi_i = \frac{c_i^{x_i}}{x_i !}
+\]	
+I can't think of any way to arrive upon that directly, and so prove the result from this direction.
+\end{inbox}
+
+It seems reasonable to use a pairwise RMF. It also seems reasonable to take a log linear function. My initial guess is
+\[
+\psi_{s\sim t} (y_s,y_t) = \exp(\b{\theta} \cdot \b{1}_{y_s = i,y_t = j})
+\]
+where $\theta = (0,\log(P(s)), \log(P(t)),\log(\nhalf(P(s|t) + P(t|s))))$. But that's a guess. It makes sense we have only unconnected nodes. It also also penalizes leaving out nodes that are connected to the nodes we do have.
 	
 	
 	

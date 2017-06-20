@@ -29,14 +29,26 @@ def make_sample(templ):
 	rsamp['TAXA'] = templ['TAXA']
 	N = len(rsamp)
 	abds = zeros(N)
-	min20N = min([N,20])
+	min20N = min([N,63])
 	nonzer = sample(range(N), k = min20N)
 	nonzerval = rand(len(nonzer))
 	abds[nonzer] = nonzerval
 	rsamp['abundance'] = abds
 	return rsamp
 
+def get_sample(daata):
+	'''grab a real sample (column) from the template data'''
+	samp = pd.DataFrame(daata['LEVEL'], columns = ['LEVEL'])
+	samp['TAXA'] = daata['TAXA']
+	L = len(daata.columns) - 2
+	which = daata.columns[randint(L)+2]
+	samp['abundance'] = daata[which]
+	return samp
+	
+
+
 rsamps = dict() 
+colsamps = dict()
 
 #We want to make a network at a specific level, or set of levels
 if level == 'all':
@@ -61,10 +73,13 @@ for lvl in level:
 	lvl_template = template.iloc[in_level]
 	
 	rsamps[lvl] = make_sample(lvl_template)
+	colsamps[lvl] = get_sample(lvl_template)
 	
 for i in level:
 	flname1 = i+'_randsamp.txt'
+	flname2 = i+'_colsamp.txt'
 	rsamps[i].to_csv(flname1, sep = ' ')
+	colsamps[i].to_csv(flname2, sep = ' ')
 
 
 	

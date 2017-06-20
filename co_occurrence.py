@@ -218,6 +218,10 @@ for i in level:
 	
 	stringency = 0.05
 	
+	N = len(ab_np_array[0])
+	tot_seen = [sum([abd != 0 for abd in row]) for row in ab_np_array]
+	tot_seen = delete(tot_seen,unconnected)
+	
 	adj_size = adj_matrix_pre.shape
 	adj_matrix = zeros(adj_size)
 	for k in range(adj_size[0]):
@@ -225,12 +229,13 @@ for i in level:
 			if adj_matrix_pre[k,j] != 0:
 				p = approx_rand_prob(occur_probs,adj_matrix_pre[k,j],k,j)
 				if p <= stringency:
-					adj_matrix[k,j] = 1
+					adj_matrix[k,j] = adj_matrix_pre[k,j] 
 	
 	degs2 = sum(adj_matrix,1)
 	unconnected2 = where(degs2 == 0)
 	adj_matrix = delete(adj_matrix,unconnected2,0)
 	adj_matrix = delete(adj_matrix,unconnected2,1)
+	tot_seen = delete(tot_seen,unconnected2)
 				
 	in_level_2 = delete(in_level,unconnected2)
 	adjacency_frames[i] = pd.DataFrame(adj_matrix, index = abundance_array['TAXA'][in_level_2], columns = abundance_array['TAXA'][in_level_2])
@@ -252,9 +257,11 @@ for i in level:
 						#include the "reverse" edge as well so that cytoscape doesn't have gaps in 
 						#it's classification of nodes.
 						edge =  [abundance_array['TAXA'][in_level_2[l]], abundance_array['TAXA'][in_level_2[k]],
-													str(adj_matrix[l,k]),s_type1[0],s_type2[0],edge_samp[0],s_type1[1],s_type2[1],edge_samp[1]]
+													str(adj_matrix[l,k]), str(tot_seen[l]),str(tot_seen[k]),
+													s_type1[0],s_type2[0],edge_samp[0],s_type1[1],s_type2[1],edge_samp[1],N]
 						rev_edge = [abundance_array['TAXA'][in_level_2[k]], abundance_array['TAXA'][in_level_2[l]],
-													str(adj_matrix[l,k]),s_type2[0],s_type1[0],edge_samp[0],s_type2[1],s_type1[1],edge_samp[1]]
+													str(adj_matrix[l,k]),str(tot_seen[k]),str(tot_seen[l]),
+													s_type2[0],s_type1[0],edge_samp[0],s_type2[1],s_type1[1],edge_samp[1],N]
 						source_target_data += [edge]
 						source_target_data += [rev_edge]
 		
@@ -275,8 +282,8 @@ for i in level:
 						source_target_data_pre += [rev_edge]
 				
 		#turn list into a dataframe
-		source_target_frames[i] = pd.DataFrame(source_target_data, columns = ['source','target','weight',
-							'first_sample','second_sample','edge_sample','fscolor','sscolor','edcolor'])
+		source_target_frames[i] = pd.DataFrame(source_target_data, columns = ['source','target','weight','source_freq',
+							'target_freq','first_sample','second_sample','edge_sample','fscolor','sscolor','edcolor','num_samps'])
 		source_target_frames_pre[i] = pd.DataFrame(source_target_data_pre, columns = ['source','target','weight',
 							'first_sample','second_sample','edge_sample','fscolor','sscolor','edcolor'])
 	
