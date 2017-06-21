@@ -15,6 +15,7 @@ import sys
 import itertools as iter
 from scipy.special import binom as choose
 from scipy.stats import binom
+from numpy.random import binomial as bino
 import re
 
 
@@ -52,6 +53,7 @@ def both_same_bin(r1,r2, lthresh, numthresh, rel = True):
 	tot_same_bin = sum(both_in_bin)
 #	same_bin_frac = float(tot_same_bin)/float(len(r1))
 	return tot_same_bin
+   
 	
 
 #Function that classifies nodes by which type of sample they have the highest abundance in.
@@ -149,6 +151,18 @@ def approx_rand_prob(occ,wij,i,j):
 		n2side = binom.pmf(kminj, N2, p2)
 		prob = prob + sum(n1side*n2side)
 	return prob
+	
+def mc_dot_prod(n1,n2,p1,p2,w,num_samps = 1000):
+	'''MC approximation for P(X\cdot Y > w) where X is a random vector of binomial(n1,p1)
+	and Y is a random vector of binomial(n2,p2), where p1,p2 are vectors'''
+	count = 0
+	for s in range(num_samps):
+		x = bino(n1,p1)
+		y = bino(n2,p2)
+		dot = dot(x,y)
+		if dot > w:
+			count = count + 1
+	return count/num_samps
 
 ######Import the abundance matrix
 #Makes a pandas DataFrame, use abundance_array.keys() to see column labels, 
@@ -185,6 +199,14 @@ data_samps_types = transpose([sum([abundance_array_full[samp] for samp in abunda
 							 if smp_type in samp],axis = 0) for smp_type in diff_samps_types])
 
 samp_type_abund = pd.DataFrame(data_samps_types, columns = diff_samps_types)
+
+samp_type_norm = True
+if samp_type_norm:
+	for col in samp_type_abund.columns:
+		tot = sum(samp_type_abund[col])
+		samp_type_abund[col] = samp_type_abund[col]/tot
+
+
 samp_type_abund['TAXA'] = abundance_array_full['TAXA']
 
 the_levels = abundance_array_full['LEVEL'].values
@@ -227,13 +249,24 @@ for i in level:
 		#prune off unseen organisms
 		lvl_abundance_array = lvl_abundance_array.drop(n_seen_ind)
 		ab_np_array = lvl_abundance_array.values[:,1:]	
-		occur_probs = occ_probs(lvl_abundance_array,0.05,5)
-	
-	
+		
+		old_way = False
+		
+		if old_way:
 		#Create numpy array of co-occurrence fractions. This is the incidence matrix for our weighted
 		#graph.
-		adj_matrix_pre = asarray([[0 if x == y else both_same_bin(ab_np_array[x],ab_np_array[y], 0.05, 5) 
-									for x in range(len(ab_np_array))] for y in range(len(ab_np_array))])
+			occur_probs = occ_probs(lvl_abundance_array,0.05,5)
+			adj_matrix_pre = asarray([[0 if x == y else both_same_bin(ab_np_array[x],ab_np_array[y], 0.05, 5) 
+										for x in range(len(ab_np_array))] for y in range(len(ab_np_array))])
+										
+		else:
+			rsums = sum(ab_np_array,1)
+			normed = dot(diag(1/rsums),ab_np_array)
+			dims = normed.shape[0]
+			adj_matrix_pre = dot(normed,transpose(normed)) - eye(dims)
+			cutoff = 0.01
+			adj_matrix_pre[where(adj_matrix_pre < cutoff)] = 0 
+			
 		degs = sum(adj_matrix_pre,1)
 		unconnected = where(degs == 0)
 		adj_matrix_pre = delete(adj_matrix_pre,unconnected,0)
@@ -242,22 +275,38 @@ for i in level:
 		
 		adjecency_frames_pre[i + '_' + stype] = pd.DataFrame(adj_matrix_pre, index = abundance_array['TAXA'][in_level], columns = abundance_array['TAXA'][in_level])
 
-	
+		
 		stringency = 0.05
-	
+		
+		
 		N = len(ab_np_array[0])
 		tot_seen = [sum([abd != 0 for abd in row]) for row in ab_np_array]
 		tot_seen = delete(tot_seen,unconnected)
-	
-		adj_size = adj_matrix_pre.shape
-		adj_matrix = zeros(adj_size)
-		for k in range(adj_size[0]):
-			for j in range(adj_size[1]):
-				if adj_matrix_pre[k,j] != 0:
-					p = approx_rand_prob(occur_probs,adj_matrix_pre[k,j],k,j)
-					if p <= stringency:
-						adj_matrix[k,j] = adj_matrix_pre[k,j] 
-	
+		
+		if old_way
+			adj_size = adj_matrix_pre.shape
+			adj_matrix = zeros(adj_size)
+			for k in range(adj_size[0]):
+				for j in range(adj_size[1]):
+					if adj_matrix_pre[k,j] != 0:
+						p = approx_rand_prob(occur_probs,adj_matrix_pre[k,j],k,j)
+						if p <= stringency:
+							adj_matrix[k,j] = adj_matrix_pre[k,j] 
+		
+		else:
+			the_ns = (sum(ab_np_array,1)*1/(ab_np_array.min(axis = 1))).astype(int)
+			the_ps_v = sum(ab_np_array,0)/sum(ab_np_array)
+			the_ps = outer(ones(len(ab_np_array)),the_ps_v)
+			adj_size = adj_matrix_pre.shape
+			adj_matrix = zeros(adj_size)
+			for k in range(adj_size[0]):
+				for j in range(adj_size[1]):
+					if adj_matrix_pre[k,j] != 0:
+						p = mc_dot_prod(the_ns[k],the_ns[j],the_ps[k],the_ps[j],adj_matrix_pre[k,j])
+						if p <= stringency:
+							adj_matrix[k,j] = adj_matrix_pre[k,j] 
+			
+		
 		degs2 = sum(adj_matrix,1)
 		unconnected2 = where(degs2 == 0)
 		adj_matrix = delete(adj_matrix,unconnected2,0)
@@ -288,7 +337,7 @@ for i in level:
 														str(adj_matrix[l,k]), str(tot_seen[l]),str(tot_seen[k]),
 														s_type1[0],s_type2[0],edge_samp[0],s_type1[1],s_type2[1],edge_samp[1],N]
 							rev_edge = [abundance_array['TAXA'][in_level_2[k]], abundance_array['TAXA'][in_level_2[l]],
-														str(adj_matrix[l,k]),str(tot_seen_2[k]),str(tot_seen_2[l]),
+														str(adj_matrix[l,k]),str(tot_seen_2[k]),str(tot_seen_2 [l]),
 														s_type2[0],s_type1[0],edge_samp[0],s_type2[1],s_type1[1],edge_samp[1],N]
 							source_target_data += [edge]
 							source_target_data += [rev_edge]

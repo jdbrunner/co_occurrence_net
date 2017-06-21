@@ -206,6 +206,23 @@ w_{jk}^2 = \left\{ \begin{array}{c c}
 \end{array}\right.
 \]
 
+\subsection{An alternative coincidence construction}
+A faster way would be to first normalize abundance vectors, and just take 
+\[
+W = AA^T
+\]
+(with the diagonal reset to 0) to be the weighted adjacency matrix, where $A$ is the matrix of abundances. Then, each entry is the cosine of the angle between the abundance vectors. This also allows us to look at negatively aligned abundance vectors.
+
+How then would we construct the cooccurrence network? Basically, what would our null model be? Well, we would still randomize the sample data. That is, we could take $X_{ij}$ be a random variable representing the abundance of taxa $i$ in sample $j$, and require that $\|X_{i}\| = 1$. Then, we can ask $P(\b{X}_i \cdot \b{X}_k > w_{ik})$. I just don't know what distribution to put on the $X_{ij}$ (the random abundances). I'll start with a binomial:
+\[
+P(\tilde{X}_{ij} = k) = \binom{n}{k}p^1(1-p)^{n-k}
+\]
+where $p = \frac{\mathit{deg}(s_j)}{\sum_l \mathit{deg}(s_l)}$ and $n =\lfloor \frac{1}{\min_{k}(r_{ik})}r_i\rfloor$ where $r_i = \sum_k r_{ik}$. Then I normalize to the unit sphere. Then, the dot product has a distribution.
+\[
+P(X_a \cdot X_a  > w)
+\]
+
+
 \section{Network Analysis}
 We can cluster - community clustering, spectral clustering, comparing to random graphs. Comparison of clusters to grouping by sample type.
 

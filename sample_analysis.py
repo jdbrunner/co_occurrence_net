@@ -40,7 +40,7 @@ def est_prob(source,induced,whole,N):
 	repped = delete(source,edge_there)
 	uni_induced = delete(induced,range(1,len(induced[0]),2))
 	print(len(uni_induced))
-	print(len(repped))
+	print(len(repped))                 
 	psi1 = log([0.5*all_p_s_given_t[i] + 0.5*all_p_s_given_t[i+1] for i in uni_induced])
 	psi2 = log([all_freq[i]/N for i in repped])
 	produ = sum(psi1) + sum(psi2) - log(Z)

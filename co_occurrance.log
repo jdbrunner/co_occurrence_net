@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  21 JUN 2017 09:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  21 JUN 2017 16:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -813,14 +813,14 @@ Package xypdf Info: Line width: 0.39998pt on input line 140.
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
 
-(./co_occurrance.bbl
+(./co_occurrance.bbl [4]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¼ in font cmr10!
-) [4] (./co_occurrance.aux) ) 
+) [5] (./co_occurrance.aux) ) 
 Here is how much of TeX's memory you used:
  19290 strings out of 492995
  352414 string characters out of 6132704
- 460622 words of memory out of 5000000
+ 461622 words of memory out of 5000000
  22441 multiletter control sequences out of 15000+600000
  20659 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -830,26 +830,28 @@ blic/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmmi7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmmi8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmmib10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfo
-nts/cmextra/cmmib7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr17.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
-10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9
-.pfb>
-Output written on co_occurrance.pdf (4 pages, 224983 bytes).
+ic/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmi8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmmib10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/am
+sfonts/cmextra/cmmib7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr17.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mti10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+ti7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
+9.pfb>
+Output written on co_occurrance.pdf (5 pages, 244093 bytes).
 PDF statistics:
- 100 PDF objects out of 1000 (max. 8388607)
- 73 compressed objects within 1 object stream
+ 111 PDF objects out of 1000 (max. 8388607)
+ 81 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
