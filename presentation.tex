@@ -117,35 +117,75 @@
     \insertframenumber/\inserttotalframenumber
 }
 
-\author[Brunner \& Craciun]{Jim Brunner \& Gheorghe Craciun}
-\institute[UW Madison]{University of Wisconsin - Madison}
-%\title{Robust Permanence of Polynomial Dynamical Systems}
-\title{Robust Permanence of Deterministic Reaction Network Models}
+\author[Brunner]{Jim Brunner}
+\institute[LANL]{Los Alamos National Laboratory}
+\title{Using Cooccurrance Networks}
 \date{}
 \begin{document}
 %--------------------------------------------------------------------------------------------------
 \begin{frame}
 \titlepage
-\phantom{\cite{}}
+%\phantom{\cite{}}
 \end{frame}
-%--------------------------------------------------------------------------------------------------
-
 %--------------------------------------------------------------------------------------------------
 \begin{frame}
-\frametitle{References}
-\bibliographystyle{unsrt}
-% make bibliography entries smaller
-\renewcommand\bibfont{\scriptsize}
-% and kill the abominable icon
-\setbeamertemplate{bibliography item}{}
-\bibliography{summer17}
+\frametitle{Coincidence Network}
+Constructing a coincidence network.
+I map the abundances according to
+\[
+a(r_{ji})  = \left\{
+\begin{array}{c c}
+\lfloor\left(\frac{r_{ji}}{\max_{s_k}(r_{jk})}\right) n \rfloor + 1 &  \frac{r_{ji}}{\max_{s_k}(r_{jk})} \geq m \\
+0 & \frac{r_{ji}}{\max_{s_k}(r_{jk})} < m
+\end{array}
+\right.
+\]
+into ``bins" relative to the maximum that taxa appears. Then count 
+\[
+w^1_{jk} = \frac{\|\{i: a(r_{ji}) = a(r_{ki}) \neq 0\} \|}{S}
+\]
+how often two organisms appear in the same bin.
 \end{frame}
 %--------------------------------------------------------------------------------------------------
 %--------------------------------------------------------------------------------------------------
 \begin{frame}
-\frametitle{Thank You}
-
+\frametitle{Cooccurrance Network}
+Same idea but now edges weights are compared to a random graph (null model). 
+\[
+w_{jk}^2 = \left\{ \begin{array}{c c}
+1 & P(w_{jk}^N \geq w_{jk}^1) \leq t\\
+0 & P(w_{jk}^N < w_{jk}^1) > t
+\end{array}\right.
+\]
+So we only keep edges that have a higher than ``random" weight.
+\end{frame}
+%--------------------------------------------------------------------------------------------------
+%--------------------------------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Using a Network}
+\begin{itemize}
+	\item Filter GOTTCHA results - try to determine probability of seeing groups of organisms - Random Markov Field
+	\item Compare networks in different situations (clustering, connectivity, etc)
+\end{itemize}
+\includegraphics[scale = 0.2]{june20/june20_species.png}
 
 \end{frame}
 %--------------------------------------------------------------------------------------------------
+%\begin{frame}
+%\frametitle{References}
+%\bibliographystyle{unsrt}
+%% make bibliography entries smaller
+%\renewcommand\bibfont{\scriptsize}
+%% and kill the abominable icon
+%\setbeamertemplate{bibliography item}{}
+%\bibliography{summer17}
+%\end{frame}
+%%--------------------------------------------------------------------------------------------------
+%--------------------------------------------------------------------------------------------------
+%\begin{frame}
+%\frametitle{Thank You}
+%
+%
+%\end{frame}
+%%--------------------------------------------------------------------------------------------------
 \end{document}

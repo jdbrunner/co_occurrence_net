@@ -184,7 +184,7 @@ def com_clust(network):
 	cluster_list = []
 	for i in range(adj_mat.shape[0]):
 		cluster_list = cluster_list+[[i]]
-	while deltaQ[maxDQ] > 0:#deltaQ.shape[0] > 1:
+	while deltaQ[maxDQ] > 10**(-10):#deltaQ.shape[0] > 1:
 #		removed = removed+[maxDQ]
 		cluster_list[maxDQ[0]] = cluster_list[maxDQ[0]] + cluster_list[maxDQ[1]]
 		cluster_list.remove(cluster_list[maxDQ[1]])
@@ -197,8 +197,6 @@ def com_clust(network):
 		mask = array(deltaQ)
 		fill_diagonal(mask, -inf)
 		maxDQ = unravel_index(mask.argmax(), deltaQ.shape)
-# 		if deltaQ[maxDQ] <= 0:
-# 			print(deltaQ.shape)
 	#cluster_list list of lists - each sublist is a cluster. the sublists contain the index
 	#of the nodes in that cluster. It will be nicer to have a list where entry i tells us 
 	#what cluster node i is in.
@@ -251,7 +249,8 @@ for this_net in range(numnets):
 	network_edges = pd.read_csv(folder + '/' + coin_edges[this_net], sep = '\t')
 	network_edges.index = network_edges['source']
 	network_mat = pd.read_csv(folder + '/' + coin_matrices[this_net],sep = "\t")
-
+	if len(network_edges) < 10:
+		continue
 	#	net_graph = nx.from_pandas_dataframe(network_edges, 'source', 'target', 'weight')
 
 	edge_an = False
@@ -319,7 +318,9 @@ for that_net in range(numnets):
 	network_edges = pd.read_csv(folder + '/' + coocc_edges[that_net], sep = '\t')
 	network_edges.index = network_edges['source']
 	network_mat = pd.read_csv(folder + '/' + coocc_matrices[that_net],sep = "\t")
-
+	if len(network_edges) < 10:
+		continue
+		
 	#	net_graph = nx.from_pandas_dataframe(network_edges, 'source', 'target', 'weight')
 
 	edge_an = False

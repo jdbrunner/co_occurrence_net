@@ -178,7 +178,7 @@ P(w_{jk}^N = K) =  \sum_{\{A \subset \cV_2:|A| = k\}} \prod_{l\in A} a_{jl}a_{kl
 Ideally, we would then define $\cE_2$ by the weights
 \[
 w_{jk}^2 = \left\{ \begin{array}{c c}
-1 & P(w_{jk}^N \geq w_{jk}^1) \geq t\\
+1 & P(w_{jk}^N \geq w_{jk}^1) \leq t\\
 0 & P(w_{jk}^N < w_{jk}^1) > t
 \end{array}\right.
 \]
@@ -274,15 +274,32 @@ or taking cliques to be just singletons
 \[
 \psi_i = \frac{c_i^{x_i}}{x_i !}
 \]	
-I can't think of any way to arrive upon that directly, and so prove the result from this direction.
+I can't think of any way to arrive upon that directly, and so prove the result from this direction. Also, This is even more general than a MRF, as it has self-loops. Self loops play the role of time update. In fact, one might say that a MC is to a MRF as an ODE is to a PDE. Then, self loops in the MRF correspond to time derivatives or forcing appearing in the PDE.
 \end{inbox}
 
 It seems reasonable to use a pairwise RMF. It also seems reasonable to take a log linear function. My initial guess is
 \[
 \psi_{s\sim t} (y_s,y_t) = \exp(\b{\theta} \cdot \b{1}_{y_s = i,y_t = j})
 \]
-where $\theta = (0,\log(P(s)), \log(P(t)),\log(\nhalf(P(s|t) + P(t|s))))$. But that's a guess. It makes sense we have only unconnected nodes. It also also penalizes leaving out nodes that are connected to the nodes we do have.
-	
+where $\theta = (0,\log(P(s)), \log(P(t)),\log(\nhalf(P(s|t) + P(t|s))))$. But that's a guess. It makes sense we have only unconnected nodes. It also also penalizes leaving out nodes that are connected to the nodes we do have. However, this penalizes us too harshly if we include a hub node.
+
+Let's play with a small network to try to get a handle on this. Consider the network shown in \cref{toy_network}
+\begin{figure}
+	\begin{center}
+	\begin{tikzpicture}[scale = 4]
+	\node (a) at (0,1) [circle, fill = nicepink] {$P_1$};
+	\node (b) at (0.8,1.2) [circle, fill = nicepink] {$P_2$};
+	\node (c) at (1.4,0.5) [circle, fill = nicepink] {$P_3$};
+	\node (d) at (1,0) [circle, fill = nicepink] {$P_4$};
+	\node (e) at (0.2,0) [circle, fill = nicepink] {$P_5$};
+	\draw (b) edge (c);
+	\draw (c) edge (d);
+	\draw (c) edge (e);
+	\draw (d) edge (e);
+	\end{tikzpicture}
+	\end{center}
+	\caption{A small network example}\label{toy_network}
+\end{figure}
 	
 	
 	
