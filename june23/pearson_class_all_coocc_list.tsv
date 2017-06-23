@@ -1,0 +1,11 @@
+	source	target	weight	source_freq	target_freq	first_sample	second_sample	edge_sample	fscolor	sscolor	edcolor	num_samps
+0	Cytophagia	Alphaproteobacteria	0.690600629292	61	61	Anterior_nares	Anterior_nares	Anterior_nares	#8000ff	#8000ff	#8000ff	61
+1	Alphaproteobacteria	Cytophagia	0.690600629292	34	9	Anterior_nares	Anterior_nares	Anterior_nares	#8000ff	#8000ff	#8000ff	61
+2	Cytophagia	Chlamydiia	0.0433183818921	61	34	Anterior_nares	Attached	Intertype	#8000ff	#4e4dfc	#cccccc	61
+3	Chlamydiia	Cytophagia	0.0433183818921	8	9	Attached	Anterior_nares	Intertype	#4e4dfc	#8000ff	#cccccc	61
+4	Mollicutes	Deinococci	0.205124108273	56	60	Subgingival_plaque	Buccal_mucosa	Intertype	#e4cf74	#1996f3	#cccccc	61
+5	Deinococci	Mollicutes	0.205124108273	1	21	Buccal_mucosa	Subgingival_plaque	Intertype	#1996f3	#e4cf74	#cccccc	61
+6	Synergistia	Mollicutes	0.600257916842	58	56	Subgingival_plaque	Subgingival_plaque	Subgingival_plaque	#e4cf74	#e4cf74	#e4cf74	61
+7	Mollicutes	Synergistia	0.600257916842	21	1	Subgingival_plaque	Subgingival_plaque	Subgingival_plaque	#e4cf74	#e4cf74	#e4cf74	61
+8	Synergistia	Spirochaetia	0.664668768687	58	8	Subgingival_plaque	Subgingival_plaque	Subgingival_plaque	#e4cf74	#e4cf74	#e4cf74	61
+9	Spirochaetia	Synergistia	0.664668768687	33	1	Subgingival_plaque	Subgingival_plaque	Subgingival_plaque	#e4cf74	#e4cf74	#e4cf74	61

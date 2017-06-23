@@ -310,7 +310,7 @@ for this_net in range(numnets):
 			network_edges.loc[network_mat.iloc[j]['TAXA'],'comm_color'] = comm_colors[j]
 
 	end_name = coin_edges[this_net].find('.tsv')
-	cled_name = coin_edges[this_net][:end_name] + '_clustered.tsv'
+	cled_name = 'clustered/' + coin_edges[this_net][:end_name] + '_clustered.tsv'
 	network_edges.to_csv(folder + '/' + cled_name, sep = '\t')
 
 
@@ -380,7 +380,7 @@ for that_net in range(numnets):
 			network_edges.loc[network_mat.iloc[j]['TAXA'],'comm_color'] = comm_colors[j]
 
 	end_name = coocc_edges[that_net].find('.tsv')
-	cled_name = coocc_edges[that_net][:end_name] + '_clustered.tsv'
+	cled_name = 'clustered/' + coocc_edges[that_net][:end_name] + '_clustered.tsv'
 	network_edges.to_csv(folder + '/' + cled_name, sep = '\t')
 
 # 	plot(communities[1])

@@ -217,10 +217,14 @@ How then would we construct the cooccurrence network? Basically, what would our 
 \[
 P(\tilde{X}_{ij} = k) = \binom{n}{k}p^1(1-p)^{n-k}
 \]
-where $p = \frac{\mathit{deg}(s_j)}{\sum_l \mathit{deg}(s_l)}$ and $n =\lfloor \frac{1}{\min_{k}(r_{ik})}r_i\rfloor$ where $r_i = \sum_k r_{ik}$. Then I normalize to the unit sphere. Then, the dot product has a distribution.
+where $p = \frac{\mathit{deg}(s_j)}{\sum_l \mathit{deg}(s_l)}$ and $n =\lfloor \frac{1}{\min_{k}(r_{ik})}r_i\rfloor$ where $r_i = \sum_k r_{ik}$. Then I normalize to the unit sphere.  Finally, I can use a Monte-Carlo simulation to see which weights to check. To do this, I generate random matrices with the appropriate distributions, using a built in Numpy method. Then I check the proportion of random entries larger than the weights. If this is small, I keep the edge. Unfortunately, I can't use a control variate or otherwise try to reduce variance, because generating my own samples was far slower than the Numpy method. The Numpy method is pre-compiled in C. Variance was $\sim 0.25$, so $1000$ samples should be enough. 
+
+Similary to the above but maybe on more established footing is Pearson's correlation coefficient. That is:
 \[
-P(X_a \cdot X_a  > w)
+\rho_{xy} = \frac{1}{N}\frac{(\b{x}- \mu_x\b{1}) \cdot (\b{y} - \mu_y\b{1})}{\sigma_x \sigma_y}
 \]
+which can of course be constructed by modifying the data matrix and then multiplying with it's transpose. In expectation, this the covariance divided by the product of the variances. I can also use a Monte-Carlo approach to check significance.
+This ends up keeping a lot more edges than the binning procedure. I am considering doing a first pass of only keeping hgih weights. Low weights may be significant (i.e. higher than one could expect randomly) but are still low, and so maybe should be dropped. In the literature, people tend to only keep weights over $0.8$ or something.
 
 
 \section{Network Analysis}

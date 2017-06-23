@@ -17,6 +17,8 @@ from scipy.special import binom as choose
 from scipy.stats import binom
 from numpy.random import binomial as bino
 import re
+import time
+import numpy.ma as mask
 
 
 #####Variables
@@ -24,7 +26,7 @@ import re
 csv_name = sys.argv[1]
 level = sys.argv[2]
 net_name = sys.argv[3]
-sample_types = sys.argv[4]
+sample_types = False #sys.argv[4]
 if sample_types == 'True':
 	sample_types = True
 else:
@@ -151,18 +153,60 @@ def approx_rand_prob(occ,wij,i,j):
 		n2side = binom.pmf(kminj, N2, p2)
 		prob = prob + sum(n1side*n2side)
 	return prob
-	
-def mc_dot_prod(n1,n2,p1,p2,w,num_samps = 1000):
+
+
+def mc_dot_prod(N,P,W,num_samps = 1000):
 	'''MC approximation for P(X\cdot Y > w) where X is a random vector of binomial(n1,p1)
 	and Y is a random vector of binomial(n2,p2), where p1,p2 are vectors'''
-	count = 0
+	mc_samples = zeros((num_samps,N.shape[0],N.shape[0]))
+	N = N.astype(int)
 	for s in range(num_samps):
-		x = bino(n1,p1)
-		y = bino(n2,p2)
-		dot = dot(x,y)
-		if dot > w:
-			count = count + 1
-	return count/num_samps
+		the_rand_mat = bino(N,P)
+		rsumd = sum(the_rand_mat,1)
+		rsumd[where(rsumd == 0)] = 1
+		normed_rand_m = dot(diag(1/rsumd),the_rand_mat)
+		rand_weights = dot(normed_rand_m,transpose(normed_rand_m))
+		comp_mat = rand_weights - W
+		mc_samples[s][where(comp_mat >= 0)] =  1
+	return mean(mc_samples,axis = 0)#,var(mc_samples,axis = 0).max()]
+	
+def mc_pearson(N,P,W,samp_types = None,data_header = None,num_samps = 1000):
+	'''MC approximation for pearson coefficient where X is a random vector of binomial(n1,p1)
+	and Y is a random vector of binomial(n2,p2), where p1,p2 are vectors. Expected value is identity.'''
+	mc_samples = zeros((num_samps,N.shape[0],N.shape[0]))
+	N = N.astype(int)
+	for s in range(num_samps):
+		the_rand_mat = bino(N,P)
+		if samp_types != None:
+			for idx in samp_types:
+				selec = data_header.map(lambda x: bool(re.search(idx,x)))
+				selllec = where(selec[1:])
+				meanss = mean(the_rand_mat[:,selllec[0]],axis = 1)
+				vars = std(the_rand_mat[:,selllec[0]],axis = 1)
+				the_rand_mat[:,selllec[0]] = the_rand_mat[:,selllec[0]] - outer(meanss,ones(len(selllec[0])))
+				vars[where(vars == 0)] = 1
+				for idx2 in range(len(the_rand_mat)):
+					the_rand_mat[idx2,selllec[0]] = the_rand_mat[idx2,selllec[0]]/vars[idx2]
+				rand_weights = (1/the_rand_mat.shape[1])*dot(the_rand_mat,transpose(the_rand_mat))
+		else:
+			meanss = mean(the_rand_mat,axis = 1)
+			vars = std(the_rand_mat,axis =1)
+			vars[where(vars == 0)] = 1
+			the_rand_mat = dot(diag(vars),transpose(transpose(the_rand_mat) - meanss))
+			rand_weights = (1/the_rand_mat.shape[1])*dot(the_rand_mat,transpose(the_rand_mat))
+# 		print(rand_weights.shape)
+# 		print(W.shape)
+		comp_mat = rand_weights - W #- eye(rand_weights.shape[0])
+		mc_samples[s][where(comp_mat >= 0)] =  1
+	return mean(mc_samples,axis = 0)#,var(mc_samples,axis = 0).max()]
+	
+def min_nz(arr, rows = False):
+	'''Find minimum non-zero value'''
+	mask_arr = mask.masked_values(arr, 0, copy = False)
+	if rows:
+		return mask_arr.min(axis = 1).data
+	else:
+		return mask_arr.min()
 
 ######Import the abundance matrix
 #Makes a pandas DataFrame, use abundance_array.keys() to see column labels, 
@@ -187,7 +231,6 @@ levels_allowed = array(abundance_array_full['LEVEL'].values)
 levels_allowed = array(unique(levels_allowed))
 
 for i in level:
-	print(i)
 	if not i in levels_allowed:
 		print(levels_allowed)
 		sys.exit('Bad level argument. Choose a level from the list above or type all')
@@ -216,7 +259,7 @@ ab_arrays = []
 if sample_types:
 	for samp in diff_samps_types:
 		slist = []
-		ab_samp = pd.DataFrame( the_levels, columns = ['LEVEL'], index = abundance_array_full.index)
+		ab_samp = pd.DataFrame(the_levels, columns = ['LEVEL'], index = abundance_array_full.index)
 		ab_samp['TAXA'] = the_taxa
 		selecter = abundance_array_full.columns.map(lambda x: bool(re.search(samp,x)))
 		ab_samp[abundance_array_full.columns[where(selecter)]] = abundance_array_full[abundance_array_full.columns[where(selecter)]]
@@ -230,6 +273,7 @@ adjecency_frames_pre = dict()
 source_target_frames_pre = dict()
 #colors = dict()
 for i in level:
+	print(i)
 	for ii in range(len(ab_arrays)):
 		if sample_types:
 			stype = diff_samps_types[ii]
@@ -248,29 +292,69 @@ for i in level:
 		in_level = delete(in_level,not_seen)
 		#prune off unseen organisms
 		lvl_abundance_array = lvl_abundance_array.drop(n_seen_ind)
-		ab_np_array = lvl_abundance_array.values[:,1:]	
+		ab_np_array = lvl_abundance_array.values[:,1:].astype(float)
 		
 		old_way = False
 		
 		if old_way:
 		#Create numpy array of co-occurrence fractions. This is the incidence matrix for our weighted
 		#graph.
+			#t1 = time.time()
 			occur_probs = occ_probs(lvl_abundance_array,0.05,5)
 			adj_matrix_pre = asarray([[0 if x == y else both_same_bin(ab_np_array[x],ab_np_array[y], 0.05, 5) 
 										for x in range(len(ab_np_array))] for y in range(len(ab_np_array))])
-										
+			#print(time.time() - t1)	
+								
 		else:
-			rsums = sum(ab_np_array,1)
-			normed = dot(diag(1/rsums),ab_np_array)
-			dims = normed.shape[0]
-			adj_matrix_pre = dot(normed,transpose(normed)) - eye(dims)
-			cutoff = 0.01
-			adj_matrix_pre[where(adj_matrix_pre < cutoff)] = 0 
+		#Just the matrix product of the normalized abundance vectors will give cosine of the angle between them
+			#t1 = time.time()
+			cortype = 'pearson'
+			if cortype == 'spheres':
+				rsums = sum(ab_np_array,1)
+				normed = dot(diag(1/rsums),ab_np_array)
+				dims = normed.shape[0]
+				adj_matrix_pre = dot(normed,transpose(normed)) - eye(dims)
+				cutoff = 0.01
+				adj_matrix_pre[where(adj_matrix_pre < cutoff)] = 0 
+			elif cortype == 'pearson':
+				#but pearson's correlation coefficient might not make a ton of sense with
+				#different sample types. so. let's have the option to average them across sample types.
+				#meanss = zeros(len(ab_np_array),diff_samps_types)
+				pears = array(ab_np_array)
+				avgit = False
+				if avgit:
+					if stype == 'all':
+						dsamp_types = diff_samps_types
+					else:
+						dsamp_types = [stype]
+					for idx in dsamp_types:
+						selec = lvl_abundance_array.columns.map(lambda x: bool(re.search(idx,x)))
+						selllec = where(selec[1:])
+						meanss = mean(lvl_abundance_array[lvl_abundance_array.columns[selllec]],axis = 1).values
+						vars = std(lvl_abundance_array[lvl_abundance_array.columns[selllec]],axis = 1).values
+						pears[:,selllec[0]] = pears[:,selllec[0]] - outer(meanss,ones(len(selllec[0])))
+						vars[where(vars == 0)] = 1
+						for idx2 in range(len(pears)):
+							pears[idx2,selllec[0]] = pears[idx2,selllec[0]]/vars[idx2]
+						adj_matrix_pre = (1/pears.shape[1])*dot(pears,transpose(pears))
+				else:
+					means = mean(pears,axis = 1)
+					vars = std(pears,axis =1)
+					vars[where(vars == 0)] = 1
+					pears = transpose(transpose(pears) - means)
+					pears = dot(diag(1/vars),pears)
+					adj_matrix_pre = (1/pears.shape[1])*dot(pears,transpose(pears)) - eye(pears.shape[0])
+				cutoff = 0.01
+				adj_matrix_pre[where(adj_matrix_pre < cutoff)] = 0 
+			#print(time.time()-t1)
 			
 		degs = sum(adj_matrix_pre,1)
 		unconnected = where(degs == 0)
 		adj_matrix_pre = delete(adj_matrix_pre,unconnected,0)
 		adj_matrix_pre = delete(adj_matrix_pre,unconnected,1)
+		ab_np_array = delete(ab_np_array,unconnected,0)
+		if ab_np_array.shape[0] == 0:
+			break
 		in_level = delete(in_level,unconnected)
 		
 		adjecency_frames_pre[i + '_' + stype] = pd.DataFrame(adj_matrix_pre, index = abundance_array['TAXA'][in_level], columns = abundance_array['TAXA'][in_level])
@@ -278,12 +362,11 @@ for i in level:
 		
 		stringency = 0.05
 		
-		
 		N = len(ab_np_array[0])
 		tot_seen = [sum([abd != 0 for abd in row]) for row in ab_np_array]
-		tot_seen = delete(tot_seen,unconnected)
 		
-		if old_way
+		if old_way:
+			#t2 = time.time()
 			adj_size = adj_matrix_pre.shape
 			adj_matrix = zeros(adj_size)
 			for k in range(adj_size[0]):
@@ -292,19 +375,36 @@ for i in level:
 						p = approx_rand_prob(occur_probs,adj_matrix_pre[k,j],k,j)
 						if p <= stringency:
 							adj_matrix[k,j] = adj_matrix_pre[k,j] 
+			#print(time.time()-t2)
 		
 		else:
-			the_ns = (sum(ab_np_array,1)*1/(ab_np_array.min(axis = 1))).astype(int)
-			the_ps_v = sum(ab_np_array,0)/sum(ab_np_array)
-			the_ps = outer(ones(len(ab_np_array)),the_ps_v)
-			adj_size = adj_matrix_pre.shape
-			adj_matrix = zeros(adj_size)
-			for k in range(adj_size[0]):
-				for j in range(adj_size[1]):
-					if adj_matrix_pre[k,j] != 0:
-						p = mc_dot_prod(the_ns[k],the_ns[j],the_ps[k],the_ps[j],adj_matrix_pre[k,j])
-						if p <= stringency:
-							adj_matrix[k,j] = adj_matrix_pre[k,j] 
+			if cortype == 'pearson':
+				ab_masked = mask.masked_values(ab_np_array,0,copy = False)
+				the_ns_v = sum(ab_np_array,1)/(ab_masked.min(axis = 1))
+				the_ns_v = the_ns_v.data
+				the_ns_v = around(the_ns_v)
+				the_ns = outer(the_ns_v,ones(len(ab_np_array[0])))
+				the_ps_v = sum(ab_np_array,0)/sum(ab_np_array)
+				the_ps = outer(ones(len(ab_np_array)),the_ps_v)
+				adj_size = adj_matrix_pre.shape
+				adj_matrix = zeros(adj_size) 
+				mc_test = mc_pearson(the_ns,the_ps,adj_matrix_pre)#,dsamp_types, lvl_abundance_array.columns)		
+				#adj_matrix = adj_matrix_pre - mc_test
+				adj_matrix[where(mc_test <stringency)] = adj_matrix_pre[where(mc_test <stringency)]
+			elif cortype == 'spheres':
+				ab_masked = mask.masked_values(ab_np_array,0,copy = False)
+				the_ns_v = sum(ab_np_array,1)/(ab_masked.min(axis = 1))
+				the_ns_v = the_ns_v.data
+				the_ns_v = around(the_ns_v)
+				the_ns = outer(the_ns_v,ones(len(ab_np_array[0])))
+				the_ps_v = sum(ab_np_array,0)/sum(ab_np_array)
+				the_ps = outer(ones(len(ab_np_array)),the_ps_v)
+				adj_size = adj_matrix_pre.shape
+				adj_matrix = zeros(adj_size)
+				mc_test = mc_dot_prod(the_ns,the_ps,adj_matrix_pre)		
+				#adj_matrix = adj_matrix_pre - mc_test
+				adj_matrix[where(mc_test <stringency)] = adj_matrix_pre[where(mc_test <stringency)]
+			#print(time.time()-t2)
 			
 		
 		degs2 = sum(adj_matrix,1)
@@ -387,7 +487,6 @@ if save:
 # - Decide how to classify nodes that appear in multiple types of sample at 
 #				high frequency
 #
-# - Change co-occurrence network to account for randomness
 #
 
 

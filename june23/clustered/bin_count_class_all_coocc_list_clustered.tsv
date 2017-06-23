@@ -1,0 +1,23 @@
+source	Unnamed: 0	source	target	weight	source_freq	target_freq	first_sample	second_sample	edge_sample	fscolor	sscolor	edcolor	num_samps	spect_cluster	commun_cluster	spect_color	comm_color
+Coriobacteriia	0	Coriobacteriia	Clostridia	6.0	8	56	Saliva	Stool	Intertype	#7effb5	#b2f396	#cccccc	61	5.0	2.0	#ff8143	#d4dd80
+Clostridia	1	Clostridia	Coriobacteriia	6.0	58	41	Stool	Saliva	Intertype	#b2f396	#7effb5	#cccccc	61	5.0	2.0	#ff8143	#d4dd80
+Deltaproteobacteria	2	Deltaproteobacteria	Bacteroidia	3.0	41	61	Stool	Stool	Stool	#b2f396	#b2f396	#b2f396	61	3.0	0.0	#7effb5	#8000ff
+Bacteroidia	3	Bacteroidia	Deltaproteobacteria	3.0	60	13	Stool	Stool	Stool	#b2f396	#b2f396	#b2f396	61	3.0	0.0	#7effb5	#8000ff
+Epsilonproteobacteria	4	Epsilonproteobacteria	Actinobacteria	13.0	9	61	Saliva	Supragingival_plaque	Intertype	#7effb5	#ff964f	#cccccc	61	2.0	0.0	#2adddd	#8000ff
+Actinobacteria	5	Actinobacteria	Epsilonproteobacteria	13.0	61	37	Supragingival_plaque	Saliva	Intertype	#ff964f	#7effb5	#cccccc	61	2.0	0.0	#2adddd	#8000ff
+Epsilonproteobacteria	6	Epsilonproteobacteria	Alphaproteobacteria	3.0	9	34	Saliva	Anterior_nares	Intertype	#7effb5	#8000ff	#cccccc	61	2.0	0.0	#2adddd	#8000ff
+Alphaproteobacteria	7	Alphaproteobacteria	Epsilonproteobacteria	3.0	34	37	Anterior_nares	Saliva	Intertype	#8000ff	#7effb5	#cccccc	61	6.0	0.0	#ff0000	#8000ff
+Epsilonproteobacteria	8	Epsilonproteobacteria	Bacteroidia	10.0	9	61	Saliva	Stool	Intertype	#7effb5	#b2f396	#cccccc	61	2.0	0.0	#2adddd	#8000ff
+Bacteroidia	9	Bacteroidia	Epsilonproteobacteria	10.0	60	37	Stool	Saliva	Intertype	#b2f396	#7effb5	#cccccc	61	3.0	0.0	#7effb5	#8000ff
+Fusobacteriia	10	Fusobacteriia	Epsilonproteobacteria	11.0	13	9	Tongue_dorsum	Saliva	Intertype	#ff0000	#7effb5	#cccccc	61	2.0	0.0	#2adddd	#8000ff
+Epsilonproteobacteria	11	Epsilonproteobacteria	Fusobacteriia	11.0	37	33	Saliva	Tongue_dorsum	Intertype	#7effb5	#ff0000	#cccccc	61	2.0	0.0	#2adddd	#8000ff
+Mollicutes	12	Mollicutes	Coriobacteriia	5.0	37	8	Subgingival_plaque	Saliva	Intertype	#e4cf74	#7effb5	#cccccc	61	1.0	2.0	#2c7ef7	#d4dd80
+Coriobacteriia	13	Coriobacteriia	Mollicutes	5.0	41	21	Saliva	Subgingival_plaque	Intertype	#7effb5	#e4cf74	#cccccc	61	5.0	2.0	#ff8143	#d4dd80
+Negativicutes	14	Negativicutes	Betaproteobacteria	10.0	41	60	Saliva	Throat	Intertype	#7effb5	#ff5029	#cccccc	61	0.0	1.0	#8000ff	#2adddd
+Betaproteobacteria	15	Betaproteobacteria	Negativicutes	10.0	56	56	Throat	Saliva	Intertype	#ff5029	#7effb5	#cccccc	61	0.0	1.0	#8000ff	#2adddd
+Negativicutes	16	Negativicutes	Epsilonproteobacteria	5.0	41	9	Saliva	Saliva	Saliva	#7effb5	#7effb5	#7effb5	61	0.0	1.0	#8000ff	#2adddd
+Epsilonproteobacteria	17	Epsilonproteobacteria	Negativicutes	5.0	37	56	Saliva	Saliva	Saliva	#7effb5	#7effb5	#7effb5	61	2.0	0.0	#2adddd	#8000ff
+Spirochaetia	18	Spirochaetia	Mollicutes	3.0	35	37	Subgingival_plaque	Subgingival_plaque	Subgingival_plaque	#e4cf74	#e4cf74	#e4cf74	61	1.0	2.0	#2c7ef7	#d4dd80
+Mollicutes	19	Mollicutes	Spirochaetia	3.0	21	33	Subgingival_plaque	Subgingival_plaque	Subgingival_plaque	#e4cf74	#e4cf74	#e4cf74	61	1.0	2.0	#2c7ef7	#d4dd80
+Verrucomicrobiae	20	Verrucomicrobiae	Cytophagia	2.0	33	58	Stool	Anterior_nares	Intertype	#b2f396	#8000ff	#cccccc	61	4.0	3.0	#d4dd80	#ff0000
+Cytophagia	21	Cytophagia	Verrucomicrobiae	2.0	9	21	Anterior_nares	Stool	Intertype	#8000ff	#b2f396	#cccccc	61	4.0	3.0	#d4dd80	#ff0000

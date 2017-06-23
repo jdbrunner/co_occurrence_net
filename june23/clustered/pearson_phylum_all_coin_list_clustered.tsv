@@ -1,0 +1,61 @@
+source	Unnamed: 0	source	target	weight	source_freq	target_freq	first_sample	second_sample	edge_sample	fscolor	sscolor	edcolor	spect_cluster	commun_cluster	spect_color	comm_color
+Candidatus Saccharibacteria	0	Candidatus Saccharibacteria	Actinobacteria	0.127852418024	28	61	Saliva	Supragingival_plaque	Intertype	#7effb5	#ff964f	#cccccc	1.0	0.0	#4856fb	#8000ff
+Actinobacteria	1	Actinobacteria	Candidatus Saccharibacteria	0.127852418024	61	28	Supragingival_plaque	Saliva	Intertype	#ff964f	#7effb5	#cccccc	2.0	0.0	#10a2f0	#8000ff
+Candidatus Saccharibacteria	2	Candidatus Saccharibacteria	Bacteroidetes	0.0227411114166	28	60	Saliva	Stool	Intertype	#7effb5	#b2f396	#cccccc	1.0	0.0	#4856fb	#8000ff
+Bacteroidetes	3	Bacteroidetes	Candidatus Saccharibacteria	0.0227411114166	60	28	Stool	Saliva	Intertype	#b2f396	#7effb5	#cccccc	0.0	1.0	#8000ff	#7effb5
+Chlamydiae	4	Chlamydiae	Actinobacteria	0.136995361665	8	61	Attached	Supragingival_plaque	Intertype	#4e4dfc	#ff964f	#cccccc	6.0	0.0	#d4dd80	#8000ff
+Actinobacteria	5	Actinobacteria	Chlamydiae	0.136995361665	61	8	Supragingival_plaque	Attached	Intertype	#ff964f	#4e4dfc	#cccccc	2.0	0.0	#10a2f0	#8000ff
+Cyanobacteria	6	Cyanobacteria	Actinobacteria	0.183289360321	4	61	Anterior_nares	Supragingival_plaque	Intertype	#8000ff	#ff964f	#cccccc	2.0	0.0	#10a2f0	#8000ff
+Actinobacteria	7	Actinobacteria	Cyanobacteria	0.183289360321	61	4	Supragingival_plaque	Anterior_nares	Intertype	#ff964f	#8000ff	#cccccc	2.0	0.0	#10a2f0	#8000ff
+Deinococcus-Thermus	8	Deinococcus-Thermus	Actinobacteria	0.0188281336489	1	61	Buccal_mucosa	Supragingival_plaque	Intertype	#1996f3	#ff964f	#cccccc	4.0	0.0	#62fbc4	#8000ff
+Actinobacteria	9	Actinobacteria	Deinococcus-Thermus	0.0188281336489	61	1	Supragingival_plaque	Buccal_mucosa	Intertype	#ff964f	#1996f3	#cccccc	2.0	0.0	#10a2f0	#8000ff
+Fusobacteria	10	Fusobacteria	Actinobacteria	0.24713563271400002	33	61	Tongue_dorsum	Supragingival_plaque	Intertype	#ff0000	#ff964f	#cccccc	1.0	0.0	#4856fb	#8000ff
+Actinobacteria	11	Actinobacteria	Fusobacteria	0.24713563271400002	61	33	Supragingival_plaque	Tongue_dorsum	Intertype	#ff964f	#ff0000	#cccccc	2.0	0.0	#10a2f0	#8000ff
+Fusobacteria	12	Fusobacteria	Candidatus Saccharibacteria	0.50823025655	33	28	Tongue_dorsum	Saliva	Intertype	#ff0000	#7effb5	#cccccc	1.0	0.0	#4856fb	#8000ff
+Candidatus Saccharibacteria	13	Candidatus Saccharibacteria	Fusobacteria	0.50823025655	28	33	Saliva	Tongue_dorsum	Intertype	#7effb5	#ff0000	#cccccc	1.0	0.0	#4856fb	#8000ff
+Fusobacteria	14	Fusobacteria	Deinococcus-Thermus	0.0763573917492	33	1	Tongue_dorsum	Buccal_mucosa	Intertype	#ff0000	#1996f3	#cccccc	1.0	0.0	#4856fb	#8000ff
+Deinococcus-Thermus	15	Deinococcus-Thermus	Fusobacteria	0.0763573917492	1	33	Buccal_mucosa	Tongue_dorsum	Intertype	#1996f3	#ff0000	#cccccc	4.0	0.0	#62fbc4	#8000ff
+Proteobacteria	16	Proteobacteria	Actinobacteria	0.124936515635	60	61	Buccal_mucosa	Supragingival_plaque	Intertype	#1996f3	#ff964f	#cccccc	5.0	0.0	#9bfba5	#8000ff
+Actinobacteria	17	Actinobacteria	Proteobacteria	0.124936515635	61	60	Supragingival_plaque	Buccal_mucosa	Intertype	#ff964f	#1996f3	#cccccc	2.0	0.0	#10a2f0	#8000ff
+Proteobacteria	18	Proteobacteria	Candidatus Saccharibacteria	0.013944080702299999	60	28	Buccal_mucosa	Saliva	Intertype	#1996f3	#7effb5	#cccccc	5.0	0.0	#9bfba5	#8000ff
+Candidatus Saccharibacteria	19	Candidatus Saccharibacteria	Proteobacteria	0.013944080702299999	28	60	Saliva	Buccal_mucosa	Intertype	#7effb5	#1996f3	#cccccc	1.0	0.0	#4856fb	#8000ff
+Proteobacteria	20	Proteobacteria	Chlamydiae	0.173686228451	60	8	Buccal_mucosa	Attached	Intertype	#1996f3	#4e4dfc	#cccccc	5.0	0.0	#9bfba5	#8000ff
+Chlamydiae	21	Chlamydiae	Proteobacteria	0.173686228451	8	60	Attached	Buccal_mucosa	Intertype	#4e4dfc	#1996f3	#cccccc	6.0	0.0	#d4dd80	#8000ff
+Proteobacteria	22	Proteobacteria	Cyanobacteria	0.0273109951926	60	4	Buccal_mucosa	Anterior_nares	Intertype	#1996f3	#8000ff	#cccccc	5.0	0.0	#9bfba5	#8000ff
+Cyanobacteria	23	Cyanobacteria	Proteobacteria	0.0273109951926	4	60	Anterior_nares	Buccal_mucosa	Intertype	#8000ff	#1996f3	#cccccc	2.0	0.0	#10a2f0	#8000ff
+Proteobacteria	24	Proteobacteria	Deinococcus-Thermus	0.24422221149300002	60	1	Buccal_mucosa	Buccal_mucosa	Buccal_mucosa	#1996f3	#1996f3	#1996f3	5.0	0.0	#9bfba5	#8000ff
+Deinococcus-Thermus	25	Deinococcus-Thermus	Proteobacteria	0.24422221149300002	1	60	Buccal_mucosa	Buccal_mucosa	Buccal_mucosa	#1996f3	#1996f3	#1996f3	4.0	0.0	#62fbc4	#8000ff
+Proteobacteria	26	Proteobacteria	Fusobacteria	0.221668166419	60	33	Buccal_mucosa	Tongue_dorsum	Intertype	#1996f3	#ff0000	#cccccc	5.0	0.0	#9bfba5	#8000ff
+Fusobacteria	27	Fusobacteria	Proteobacteria	0.221668166419	33	60	Tongue_dorsum	Buccal_mucosa	Intertype	#ff0000	#1996f3	#cccccc	1.0	0.0	#4856fb	#8000ff
+Spirochaetes	28	Spirochaetes	Actinobacteria	0.15378845357999998	33	61	Subgingival_plaque	Supragingival_plaque	Intertype	#e4cf74	#ff964f	#cccccc	9.0	2.0	#ff0000	#ff0000
+Actinobacteria	29	Actinobacteria	Spirochaetes	0.15378845357999998	61	33	Supragingival_plaque	Subgingival_plaque	Intertype	#ff964f	#e4cf74	#cccccc	2.0	0.0	#10a2f0	#8000ff
+Spirochaetes	30	Spirochaetes	Bacteroidetes	0.03905665512169999	33	60	Subgingival_plaque	Stool	Intertype	#e4cf74	#b2f396	#cccccc	9.0	2.0	#ff0000	#ff0000
+Bacteroidetes	31	Bacteroidetes	Spirochaetes	0.03905665512169999	60	33	Stool	Subgingival_plaque	Intertype	#b2f396	#e4cf74	#cccccc	0.0	1.0	#8000ff	#7effb5
+Spirochaetes	32	Spirochaetes	Candidatus Saccharibacteria	0.20776563551600002	33	28	Subgingival_plaque	Saliva	Intertype	#e4cf74	#7effb5	#cccccc	9.0	2.0	#ff0000	#ff0000
+Candidatus Saccharibacteria	33	Candidatus Saccharibacteria	Spirochaetes	0.20776563551600002	28	33	Saliva	Subgingival_plaque	Intertype	#7effb5	#e4cf74	#cccccc	1.0	0.0	#4856fb	#8000ff
+Spirochaetes	34	Spirochaetes	Fusobacteria	0.0695812748832	33	33	Subgingival_plaque	Tongue_dorsum	Intertype	#e4cf74	#ff0000	#cccccc	9.0	2.0	#ff0000	#ff0000
+Fusobacteria	35	Fusobacteria	Spirochaetes	0.0695812748832	33	33	Tongue_dorsum	Subgingival_plaque	Intertype	#ff0000	#e4cf74	#cccccc	1.0	0.0	#4856fb	#8000ff
+Synergistetes	36	Synergistetes	Actinobacteria	0.07565067116610001	1	61	Subgingival_plaque	Supragingival_plaque	Intertype	#e4cf74	#ff964f	#cccccc	8.0	2.0	#ff592d	#ff0000
+Actinobacteria	37	Actinobacteria	Synergistetes	0.07565067116610001	61	1	Supragingival_plaque	Subgingival_plaque	Intertype	#ff964f	#e4cf74	#cccccc	2.0	0.0	#10a2f0	#8000ff
+Synergistetes	38	Synergistetes	Bacteroidetes	0.0133653526547	1	60	Subgingival_plaque	Stool	Intertype	#e4cf74	#b2f396	#cccccc	8.0	2.0	#ff592d	#ff0000
+Bacteroidetes	39	Bacteroidetes	Synergistetes	0.0133653526547	60	1	Stool	Subgingival_plaque	Intertype	#b2f396	#e4cf74	#cccccc	0.0	1.0	#8000ff	#7effb5
+Synergistetes	40	Synergistetes	Candidatus Saccharibacteria	0.021537913564499998	1	28	Subgingival_plaque	Saliva	Intertype	#e4cf74	#7effb5	#cccccc	8.0	2.0	#ff592d	#ff0000
+Candidatus Saccharibacteria	41	Candidatus Saccharibacteria	Synergistetes	0.021537913564499998	28	1	Saliva	Subgingival_plaque	Intertype	#7effb5	#e4cf74	#cccccc	1.0	0.0	#4856fb	#8000ff
+Synergistetes	42	Synergistetes	Spirochaetes	0.6545145697829999	1	33	Subgingival_plaque	Subgingival_plaque	Subgingival_plaque	#e4cf74	#e4cf74	#e4cf74	8.0	2.0	#ff592d	#ff0000
+Spirochaetes	43	Spirochaetes	Synergistetes	0.6545145697829999	33	1	Subgingival_plaque	Subgingival_plaque	Subgingival_plaque	#e4cf74	#e4cf74	#e4cf74	9.0	2.0	#ff0000	#ff0000
+Tenericutes	44	Tenericutes	Actinobacteria	0.080788867357	21	61	Subgingival_plaque	Supragingival_plaque	Intertype	#e4cf74	#ff964f	#cccccc	7.0	2.0	#ffa558	#ff0000
+Actinobacteria	45	Actinobacteria	Tenericutes	0.080788867357	61	21	Supragingival_plaque	Subgingival_plaque	Intertype	#ff964f	#e4cf74	#cccccc	2.0	0.0	#10a2f0	#8000ff
+Tenericutes	46	Tenericutes	Candidatus Saccharibacteria	0.0565101866572	21	28	Subgingival_plaque	Saliva	Intertype	#e4cf74	#7effb5	#cccccc	7.0	2.0	#ffa558	#ff0000
+Candidatus Saccharibacteria	47	Candidatus Saccharibacteria	Tenericutes	0.0565101866572	28	21	Saliva	Subgingival_plaque	Intertype	#7effb5	#e4cf74	#cccccc	1.0	0.0	#4856fb	#8000ff
+Tenericutes	48	Tenericutes	Deinococcus-Thermus	0.2111889075	21	1	Subgingival_plaque	Buccal_mucosa	Intertype	#e4cf74	#1996f3	#cccccc	7.0	2.0	#ffa558	#ff0000
+Deinococcus-Thermus	49	Deinococcus-Thermus	Tenericutes	0.2111889075	1	21	Buccal_mucosa	Subgingival_plaque	Intertype	#1996f3	#e4cf74	#cccccc	4.0	0.0	#62fbc4	#8000ff
+Tenericutes	50	Tenericutes	Firmicutes	0.0256537145726	21	61	Subgingival_plaque	Mid_vagina	Intertype	#e4cf74	#18cde4	#cccccc	7.0	2.0	#ffa558	#ff0000
+Firmicutes	51	Firmicutes	Tenericutes	0.0256537145726	61	21	Mid_vagina	Subgingival_plaque	Intertype	#18cde4	#e4cf74	#cccccc	3.0	2.0	#2adddd	#ff0000
+Tenericutes	52	Tenericutes	Fusobacteria	0.0153321204131	21	33	Subgingival_plaque	Tongue_dorsum	Intertype	#e4cf74	#ff0000	#cccccc	7.0	2.0	#ffa558	#ff0000
+Fusobacteria	53	Fusobacteria	Tenericutes	0.0153321204131	33	21	Tongue_dorsum	Subgingival_plaque	Intertype	#ff0000	#e4cf74	#cccccc	1.0	0.0	#4856fb	#8000ff
+Tenericutes	54	Tenericutes	Spirochaetes	0.537982734619	21	33	Subgingival_plaque	Subgingival_plaque	Subgingival_plaque	#e4cf74	#e4cf74	#e4cf74	7.0	2.0	#ffa558	#ff0000
+Spirochaetes	55	Spirochaetes	Tenericutes	0.537982734619	33	21	Subgingival_plaque	Subgingival_plaque	Subgingival_plaque	#e4cf74	#e4cf74	#e4cf74	9.0	2.0	#ff0000	#ff0000
+Tenericutes	56	Tenericutes	Synergistetes	0.571539211207	21	1	Subgingival_plaque	Subgingival_plaque	Subgingival_plaque	#e4cf74	#e4cf74	#e4cf74	7.0	2.0	#ffa558	#ff0000
+Synergistetes	57	Synergistetes	Tenericutes	0.571539211207	1	21	Subgingival_plaque	Subgingival_plaque	Subgingival_plaque	#e4cf74	#e4cf74	#e4cf74	8.0	2.0	#ff592d	#ff0000
+Verrucomicrobia	58	Verrucomicrobia	Bacteroidetes	0.342740766632	21	60	Stool	Stool	Stool	#b2f396	#b2f396	#b2f396	0.0	1.0	#8000ff	#7effb5
+Bacteroidetes	59	Bacteroidetes	Verrucomicrobia	0.342740766632	60	21	Stool	Stool	Stool	#b2f396	#b2f396	#b2f396	0.0	1.0	#8000ff	#7effb5

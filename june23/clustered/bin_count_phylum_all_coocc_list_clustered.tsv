@@ -1,0 +1,23 @@
+source	Unnamed: 0	source	target	weight	source_freq	target_freq	first_sample	second_sample	edge_sample	fscolor	sscolor	edcolor	num_samps	spect_cluster	commun_cluster	spect_color	comm_color
+Firmicutes	0	Firmicutes	Bacteroidetes	14.0	28	61	Mid_vagina	Stool	Intertype	#18cde4	#b2f396	#cccccc	61	0.0	0.0	#8000ff	#8000ff
+Bacteroidetes	1	Bacteroidetes	Firmicutes	14.0	60	61	Stool	Mid_vagina	Intertype	#b2f396	#18cde4	#cccccc	61	3.0	0.0	#b2f396	#8000ff
+Firmicutes	2	Firmicutes	Candidatus Saccharibacteria	6.0	28	60	Mid_vagina	Saliva	Intertype	#18cde4	#7effb5	#cccccc	61	0.0	0.0	#8000ff	#8000ff
+Candidatus Saccharibacteria	3	Candidatus Saccharibacteria	Firmicutes	6.0	28	61	Saliva	Mid_vagina	Intertype	#7effb5	#18cde4	#cccccc	61	2.0	0.0	#4df3ce	#8000ff
+Proteobacteria	4	Proteobacteria	Bacteroidetes	11.0	4	61	Buccal_mucosa	Stool	Intertype	#1996f3	#b2f396	#cccccc	61	3.0	1.0	#b2f396	#ff0000
+Bacteroidetes	5	Bacteroidetes	Proteobacteria	11.0	60	60	Stool	Buccal_mucosa	Intertype	#b2f396	#1996f3	#cccccc	61	3.0	0.0	#b2f396	#8000ff
+Proteobacteria	6	Proteobacteria	Firmicutes	11.0	4	28	Buccal_mucosa	Mid_vagina	Intertype	#1996f3	#18cde4	#cccccc	61	3.0	1.0	#b2f396	#ff0000
+Firmicutes	7	Firmicutes	Proteobacteria	11.0	61	60	Mid_vagina	Buccal_mucosa	Intertype	#18cde4	#1996f3	#cccccc	61	0.0	0.0	#8000ff	#8000ff
+Proteobacteria	8	Proteobacteria	Fusobacteria	10.0	4	8	Buccal_mucosa	Tongue_dorsum	Intertype	#1996f3	#ff0000	#cccccc	61	3.0	1.0	#b2f396	#ff0000
+Fusobacteria	9	Fusobacteria	Proteobacteria	10.0	33	60	Tongue_dorsum	Buccal_mucosa	Intertype	#ff0000	#1996f3	#cccccc	61	1.0	1.0	#1996f3	#ff0000
+Spirochaetes	10	Spirochaetes	Firmicutes	4.0	61	28	Subgingival_plaque	Mid_vagina	Intertype	#e4cf74	#18cde4	#cccccc	61	4.0	0.0	#ff964f	#8000ff
+Firmicutes	11	Firmicutes	Spirochaetes	4.0	61	33	Mid_vagina	Subgingival_plaque	Intertype	#18cde4	#e4cf74	#cccccc	61	0.0	0.0	#8000ff	#8000ff
+Tenericutes	12	Tenericutes	Bacteroidetes	3.0	33	61	Subgingival_plaque	Stool	Intertype	#e4cf74	#b2f396	#cccccc	61	5.0	0.0	#ff0000	#8000ff
+Bacteroidetes	13	Bacteroidetes	Tenericutes	3.0	60	21	Stool	Subgingival_plaque	Intertype	#b2f396	#e4cf74	#cccccc	61	3.0	0.0	#b2f396	#8000ff
+Tenericutes	14	Tenericutes	Candidatus Saccharibacteria	3.0	33	60	Subgingival_plaque	Saliva	Intertype	#e4cf74	#7effb5	#cccccc	61	5.0	0.0	#ff0000	#8000ff
+Candidatus Saccharibacteria	15	Candidatus Saccharibacteria	Tenericutes	3.0	28	21	Saliva	Subgingival_plaque	Intertype	#7effb5	#e4cf74	#cccccc	61	2.0	0.0	#4df3ce	#8000ff
+Tenericutes	16	Tenericutes	Spirochaetes	3.0	33	61	Subgingival_plaque	Subgingival_plaque	Subgingival_plaque	#e4cf74	#e4cf74	#e4cf74	61	5.0	0.0	#ff0000	#8000ff
+Spirochaetes	17	Spirochaetes	Tenericutes	3.0	33	21	Subgingival_plaque	Subgingival_plaque	Subgingival_plaque	#e4cf74	#e4cf74	#e4cf74	61	4.0	0.0	#ff964f	#8000ff
+Verrucomicrobia	18	Verrucomicrobia	Firmicutes	7.0	60	28	Stool	Mid_vagina	Intertype	#b2f396	#18cde4	#cccccc	61	0.0	0.0	#8000ff	#8000ff
+Firmicutes	19	Firmicutes	Verrucomicrobia	7.0	61	21	Mid_vagina	Stool	Intertype	#18cde4	#b2f396	#cccccc	61	0.0	0.0	#8000ff	#8000ff
+Verrucomicrobia	20	Verrucomicrobia	Tenericutes	2.0	60	33	Stool	Subgingival_plaque	Intertype	#b2f396	#e4cf74	#cccccc	61	0.0	0.0	#8000ff	#8000ff
+Tenericutes	21	Tenericutes	Verrucomicrobia	2.0	21	21	Subgingival_plaque	Stool	Intertype	#e4cf74	#b2f396	#cccccc	61	5.0	0.0	#ff0000	#8000ff
