@@ -344,7 +344,7 @@ for i in level:
 					pears = transpose(transpose(pears) - means)
 					pears = dot(diag(1/vars),pears)
 					adj_matrix_pre = (1/pears.shape[1])*dot(pears,transpose(pears)) - eye(pears.shape[0])
-				cutoff = 0.01
+				cutoff = 0.8
 				adj_matrix_pre[where(adj_matrix_pre < cutoff)] = 0 
 			#print(time.time()-t1)
 			

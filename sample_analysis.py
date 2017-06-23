@@ -46,8 +46,13 @@ def est_prob(source,induced,whole,N):
 	produ = sum(psi1) + sum(psi2) - log(Z)
 	return produ
 
-
-
+def diff_cliques(s1,s2,network):
+	''''Take two different samples and identify which cliques are different. Then, compute the
+	ratio of probabilities between the two configurations based on the rule that 
+	psi(k+1)/psi(k) depends on whether or not k is above or below half the size of the clique.'''
+	diff = s1['abundance'] - s2['abundance']
+	diff_nodes = where(nonzero(diff))
+	return False
 
 ######################
 sample_name = sys.argv[1]

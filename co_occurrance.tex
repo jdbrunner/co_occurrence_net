@@ -230,6 +230,13 @@ This ends up keeping a lot more edges than the binning procedure. I am consideri
 \section{Network Analysis}
 We can cluster - community clustering, spectral clustering, comparing to random graphs. Comparison of clusters to grouping by sample type.
 
+Community clustering minimizes a funciton of the graph called modularity \cite{PhysRevE.70.066111}\cite{PhysRevE.70.056131}. That is 
+\[
+Q = \frac{1}{2m}\sum_{i,j}\left(w_{ij} + \frac{d_id_j}{2m}\right) \delta(c_i,c_j)
+\]
+where $m = \sum_{i\sim j} w_{ij}$, $d_i$ is the (weighted) degree of vertex $i$, $c_i$ is the community containing vertex $i$, and $\delta$ is the Kronecker $\delta$. This done by a kind of gradient search/greedy algorithm.
+
+Spectral clustering performs a $k$-means clustering on the rows of the matrix whose columns are the $k$ eigenvectors of the graph laplacian corresponding to the smallest $k$ eigenvalues \cite{vonLuxburg2007} . Morally, this means it clusters points together that are close in the first $k$ (slowest decaying!) modes of the diffusion equation on the graph.
 \section{Using the network to analyze a sample}
 
 The question now is what can we do these networks?
@@ -308,11 +315,11 @@ Let's play with a small network to try to get a handle on this. Consider the net
 \begin{figure}
 	\begin{center}
 	\begin{tikzpicture}[scale = 4]
-	\node (a) at (0,1) [circle, fill = nicepink] {$P_1$};
-	\node (b) at (0.8,1.2) [circle, fill = nicepink] {$P_2$};
-	\node (c) at (1.4,0.5) [circle, fill = nicepink] {$P_3$};
-	\node (d) at (1,0) [circle, fill = nicepink] {$P_4$};
-	\node (e) at (0.2,0) [circle, fill = nicepink] {$P_5$};
+	\node (a) at (0,1) [circle, fill = nicepink] {$T_1$};
+	\node (b) at (0.8,1.2) [circle, fill = nicepink] {$T_2$};
+	\node (c) at (1.4,0.5) [circle, fill = nicepink] {$T_3$};
+	\node (d) at (1,0) [circle, fill = nicepink] {$T_4$};
+	\node (e) at (0.2,0) [circle, fill = nicepink] {$T_5$};
 	\draw (b) edge (c);
 	\draw (c) edge (d);
 	\draw (c) edge (e);
@@ -321,11 +328,76 @@ Let's play with a small network to try to get a handle on this. Consider the net
 	\end{center}
 	\caption{A small network example}\label{toy_network}
 \end{figure}
-	
-	
-	
-	
-	
+I think we can assume that
+\[
+p(\b{x}) = \prod_{s\sim t} \psi_{st}(\b{x})\prod_{s}\psi_s(\b{x})
+\]
+To start, we should think about the distribution of an independent node ($T_1$). Clearly
+\[
+P(T_1 = x) = \psi_{1}(x)
+\]
+Similarly, we should have
+\[
+P(T_2 = x) = \psi_2(x) = \int \psi_2(x)\psi_{23}(y) dy =  \bE (P(T_2 = x|T_3))   
+\]
+Maybe a binomial is a good idea:
+\[
+P\left(T_1 = \frac{k}{N}\right) = \binom{N}{k}p^k(1-p)^{N-k}
+\]
+where $p$ is something like the proportion of times $T_1$ appears in the data, the sum of abundances of $T_1$ in the data divided by $N$. $N$ is some scaling parameter, like the largest total abundance or something. But then, it's natural to take $N$ large and get a Gaussian by the CLT. So maybe we do a multivariate Guassian. Then
+\[
+\psi_{s\sim t}(\b{x}) = \exp\left(-\frac{1}{2} x_s \Lambda_{st}x_t\right)
+\]
+and
+\[
+\psi_s(\b{x}) = \exp\left(\eta_s x_s - \Lambda_{ss}x_s^2\right)
+\]
+\cite{machine_learning}. We already have the covariance (normalized by the product of the standard deviations) matrix $\Sigma$, in the Pearson coefficient. So, we have $\Lambda = \Sigma^{-1}$, and $\b{\eta} = \Sigma^{-1}\b{\mu}$. Unfortunately, $\Sigma$ is singular, it's dimension is bounded by the number of samples I have. This of course leaves us in the wind when it comes to $\Lambda$. So, I suppose we have to try to approximate $\Lambda$ subject to the constraint that if $s \not\sim t$, $\Lambda_{st} = 0$. We can use the SVD:
+\[
+\Sigma = M S N^* \Rightarrow \Sigma^+ = N \tilde{S} M^*
+\] 
+where $\tilde{S}$ is diagonal with $1/s_i$ until you get to zero singular values, where you just put a $0$. Because $\Sigma$ is symmetric, we have $M^* = N$. Then,
+\[
+\Sigma^+ = N \tilde{S} N
+\]
+I guess this is used, although it doesn't seem to preserve zeros. There's a function in scipy.
+
+On the other hand, taking $N$ large and $p$ small we get an exponential random variable. So perhaps I want
+\[
+\psi_1(x) = e^{-\lambda}\frac{\lambda^{Nx}}{(Nx)!}
+\]
+or more directly
+\[
+\psi_1(x) = \binom{N}{Nx}p^{Nx}(1-p)^{N-Nx}
+\]
+and using Stirling's formula,
+\[
+\log(\psi_1) \approx N\left[x \log\left(\frac{p}{x}\right) + (1-x)\log\left(\frac{1-p}{1-x}\right)\right]
+\]
+
+Mayby I don't need to figure out $\psi_{st}$ and $\psi_s$. Maybe I can conclude something like 
+\[
+\frac{P(\b{x})}{P(\b{y})} > 1
+\]
+without knowing them. For that, I would need to just identify which cliques change, and ask whether they increase or decrease. How exactly to decide that is a question. Probably single nodes we wouldn't change. For a clique, we could assume that $\psi_c$ decreases if we have over half the nodes and reduce and still have at least half, but increase if the we have less than half and decrease. That is, let $c$ be a clique with $n$ members, and $\psi_c(k)$ be the value of $\psi_c$ with $k$ members ``on". Then
+\[
+\frac{\psi_c(k+1)}{\psi_c(k)}   \left\{\begin{array}{c c}
+>1 & k>\nicefrac{n}{2}\\
+<1 & k\leq \nicefrac{n}{2}
+\end{array}\right.
+\]
+Then, we are basically asserting the cliques like to either be all there or none there. Which seems good.
+
+Here's an idea inspired by spectral clustering: Solve the diffusion equation on the graph:
+\[
+\frac{\partial}{\partial t} u(v,t) = L u(v,t)
+\]
+where $v$ takes values in the vertex set of the graph. Put the initial mass on nodes you are confident in or something like that. Then, compare
+\[
+U(v) = \int_{0}^{\infty} u(v,t) dt
+\]
+Higher should be more likely. This should tell us something like $P(v|v_{initial})$. I'll need to prove that.
+
 	
 \bibliographystyle{plain}
 \bibliography{../../summer17}

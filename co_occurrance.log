@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  23 JUN 2017 12:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  23 JUN 2017 15:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -812,16 +812,16 @@ Package xypdf Info: Line width: 0.39998pt on input line 140.
  [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
-
-(./co_occurrance.bbl [4]
+ [4] [5]
+(./co_occurrance.bbl
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¼ in font cmr10!
-) [5] (./co_occurrance.aux) ) 
+) [6] (./co_occurrance.aux) ) 
 Here is how much of TeX's memory you used:
- 19290 strings out of 492995
- 352414 string characters out of 6132704
+ 19293 strings out of 492995
+ 352470 string characters out of 6132704
  462622 words of memory out of 5000000
- 22441 multiletter control sequences out of 15000+600000
+ 22444 multiletter control sequences out of 15000+600000
  20659 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,15n,54p,3240b,716s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -847,11 +847,12 @@ m/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmsy7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mti10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 ti7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
-9.pfb>
-Output written on co_occurrance.pdf (5 pages, 246714 bytes).
+9.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/m
+sbm10.pfb>
+Output written on co_occurrance.pdf (6 pages, 262679 bytes).
 PDF statistics:
- 111 PDF objects out of 1000 (max. 8388607)
- 81 compressed objects within 1 object stream
+ 118 PDF objects out of 1000 (max. 8388607)
+ 86 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

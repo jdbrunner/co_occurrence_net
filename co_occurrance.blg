@@ -13,45 +13,45 @@ I was expecting a `,' or a `}'---line 86 of file ../../summer17.bib
  :  booktitle = {Hydrocarbon and Lipid Microbiology Protocols},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You've used 2 entries,
+You've used 5 entries,
             2118 wiz_defined-function locations,
-            511 strings with 4260 characters,
-and the built_in function-call counts, 533 in all, are:
-= -- 48
-> -- 20
+            535 strings with 4663 characters,
+and the built_in function-call counts, 1443 in all, are:
+= -- 139
+> -- 52
 < -- 0
-+ -- 8
-- -- 6
-* -- 34
-:= -- 98
-add.period$ -- 6
-call.type$ -- 2
-change.case$ -- 8
++ -- 22
+- -- 16
+* -- 103
+:= -- 253
+add.period$ -- 15
+call.type$ -- 5
+change.case$ -- 22
 chr.to.int$ -- 0
-cite$ -- 2
-duplicate$ -- 23
-empty$ -- 47
-format.name$ -- 6
-if$ -- 109
+cite$ -- 5
+duplicate$ -- 56
+empty$ -- 124
+format.name$ -- 16
+if$ -- 294
 int.to.chr$ -- 0
-int.to.str$ -- 2
-missing$ -- 3
-newline$ -- 13
-num.names$ -- 4
-pop$ -- 11
+int.to.str$ -- 5
+missing$ -- 6
+newline$ -- 28
+num.names$ -- 10
+pop$ -- 19
 preamble$ -- 1
-purify$ -- 7
+purify$ -- 18
 quote$ -- 0
-skip$ -- 14
+skip$ -- 35
 stack$ -- 0
-substring$ -- 22
-swap$ -- 2
+substring$ -- 99
+swap$ -- 5
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 6
+type$ -- 18
 warning$ -- 0
-while$ -- 5
-width$ -- 3
-write$ -- 23
+while$ -- 15
+width$ -- 6
+write$ -- 56
 (There were 2 error messages)
