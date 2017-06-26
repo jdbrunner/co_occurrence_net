@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  23 JUN 2017 15:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  26 JUN 2017 15:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -678,11 +678,12 @@ Package cleveref Info: `amsthm' support loaded on input line 2858.
 )
 \c@theorem=\count143
 \c@lemma=\count144
-\c@corollary=\count145
-\c@clm=\count146
-\c@rmk=\count147
-\c@note=\count148
-\c@definition=\count149
+\c@conj=\count145
+\c@corollary=\count146
+\c@clm=\count147
+\c@rmk=\count148
+\c@note=\count149
+\c@definition=\count150
 
 (./co_occurrance.aux)
 \openout1 = `co_occurrance.aux'.
@@ -736,16 +737,16 @@ LaTeX Font Info:    ... okay on input line 140.
 
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count150
+\scratchcounter=\count151
 \scratchdimen=\dimen267
 \scratchbox=\box49
-\nofMPsegments=\count151
-\nofMParguments=\count152
+\nofMPsegments=\count152
+\nofMParguments=\count153
 \everyMPshowfont=\toks49
-\MPscratchCnt=\count153
+\MPscratchCnt=\count154
 \MPscratchDim=\dimen268
-\MPnumerator=\count154
-\makeMPintoPDFobject=\count155
+\MPnumerator=\count155
+\makeMPintoPDFobject=\count156
 \everyMPtoPDFconversion=\toks50
 ) (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
@@ -813,15 +814,15 @@ Package xypdf Info: Line width: 0.39998pt on input line 140.
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
  [4] [5]
-(./co_occurrance.bbl
+[6] (./co_occurrance.bbl
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¼ in font cmr10!
-) [6] (./co_occurrance.aux) ) 
+) [7] (./co_occurrance.aux) ) 
 Here is how much of TeX's memory you used:
- 19293 strings out of 492995
- 352470 string characters out of 6132704
+ 19318 strings out of 492995
+ 352898 string characters out of 6132704
  462622 words of memory out of 5000000
- 22444 multiletter control sequences out of 15000+600000
+ 22469 multiletter control sequences out of 15000+600000
  20659 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,15n,54p,3240b,716s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -849,10 +850,10 @@ mti10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 ti7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
 9.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/m
 sbm10.pfb>
-Output written on co_occurrance.pdf (6 pages, 262679 bytes).
+Output written on co_occurrance.pdf (7 pages, 276758 bytes).
 PDF statistics:
- 118 PDF objects out of 1000 (max. 8388607)
- 86 compressed objects within 1 object stream
+ 123 PDF objects out of 1000 (max. 8388607)
+ 90 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
