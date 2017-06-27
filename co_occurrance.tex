@@ -418,50 +418,81 @@ where $v$ takes values in the vertex set of the graph. Put the initial mass on n
 \[
 U(v) = \int_{0}^{\infty} u(v,t) dt
 \]
-Higher should be more likely. This should tell us something like $P(v|v_{initial})$. I'll need to prove that. Let's go ahead and formulate the conjecture.
+Higher should be more likely. 
 
 \begin{conj}\label{initalCond}
-Consider a random markov field with configurations in $\{0,1\}^N$. Assume that $P(v_i = 1|v_j = 1) \geq P(v_i = 1)$, with strict inequality if and only if there exists an edge connecting $v_i$ and $v_j$. Consider two configurations $\b{x}$ and $\b{y}$ which differ only in two nodes, so that in $\b{x}$ we have $\b{x}(v_1) = 1$, $\b{x}(v_2) = 0$ and in the other $\b{y}(v_1) = 0$ and $\b{y}(v_2) = 1$.
+Consider a random markov field with configurations in $\{0,1\}^N$. Assume that $P(v_i = 1|v_j = 1) \geq P(v_i = 1)$ and $P(v_i = 1|v_j = 0) \leq  P(v_i = 1)$, with strict inequality if there exists an edge connecting $v_i$ and $v_j$. 
 
 Let $u_i(t)$ be the solution at node $v_i$ to the discete diffusion problem
 \[
 \frac{d}{dt}\b{u}(t)  = - L\b{u}
 \]
-where $L$ is the  graph laplacian with initial conditions $u_1 = u_2 = 0$ and other nodes initialized to $0$ or $1$ according $\b{x}$ and $\b{y}$, and no-flux boundary conditions. 
+where $L$ is the  graph laplacian with initial conditions given by a known set of nodes $\{v_l\}$. Suppose $v_1,v_2 \not\in \{v_l\}$ (so the initial vector has support on the known nodes).
 
 Then, 
 \[
-\int_0^{\infty} u_1(t) dt > \int_0^{\infty} u_2(t) dt  \Leftrightarrow  P(\b{x}) > P(\b{y})
+\int_0^{\infty} u_1(t) dt - \int_0^{\infty} u_2(t) dt >  0 \Leftrightarrow  P(v_1=  1|\{v_l\}) > P(v_2 = 1|\{v_l\})
 \]
 \end{conj}
 
-or alternatively...
+If this is true we can very easily compute these comparisons. Solutions are
+\[
+\b{u} = \sum_{i=1}^a c_i \b{1} + \sum_{i=a+1}^n c_i e^{\lambda_i t} \b{v}_i 
+\]
+where $a$ is the number of connected components of the graph. Note that each eigenvalue $\lambda_i \leq 0$, with $\lambda_i<0$ for $i = a+1,...,n$ \cite{vonLuxburg2007}. Then, assuming there is some intial mass on the connected components containing $v_1$ and $v_2$, 
+\[
+\int_0^{\infty} u_1(t) dt - \int_0^{\infty} u_2(t) dt =   \sum_{i=a}^n c_i  (v_{i1} - v_{i2}) \int_0^{\infty} e^{\lambda_i t} dt = \sum_{i=a}^n \frac{-c_i}{\lambda_i}  (v_{i1} - v_{i2}) 
+\]
+and $\b{c} = V^{-1}\b{u}(0)$. 
 
-\begin{conj}\label{boundarVal}
-	Consider a random markov field with configurations in $\{0,1\}^N$. Assume that $P(v_i = 1|v_j = 1) \geq P(v_i = 1)$, with strict inequality if and only if there exists an edge connecting $v_i$ and $v_j$. Suppose that $m$ node values are known. Let $u_i(t)$ be the the solution to
+
+Alternatively:
+
+\begin{conj}\label{forcing}
+	Consider a random markov field with configurations in $\{0,1\}^N$. Assume that $P(v_i = 1|v_j = 1) \geq P(v_i = 1)$ and $P(v_i = 1|v_j = 0) \leq  P(v_i = 1)$, with strict inequality if there exists an edge connecting $v_i$ and $v_j$. Suppose that $m$ node values are known. Let $u_i(t)$ be the the solution to
 	\[
-	\frac{d}{dt}\b{u}(t) = -L\b{u}
+	\frac{d}{dt}\b{u}(t) = -L\b{u} + \b{f}
 	\]
-	where $L$ is the graph Laplacian, we have initial conditions $0$ for unknown nodes and known node vales fixed (as a boundary condition). Then,
+	where $L$ is the graph Laplacian, we have initial conditions $0$ for unknown nodes and $f\in \b{1}^{\perp}$ has support at known nodes (positive at known ``on" nodes, and negative at known ``off" nodes). Then,
 	\[
 	\lim_{t\rightarrow \infty} u_i(t) >\lim_{t\rightarrow \infty} u_j(t) \Leftrightarrow P(v_i = 1|\text{ known node values}) > P(v_j = 1 | \text{ known node values})
 	\]
 \end{conj}
 
-We really just need the $\Rightarrow$ direction. It would also be nice to expand to a set of unknown nodes. The natural extension is to specify a known subset and ranking unknown nodes based on the above.
+And the last version is the boundary value version:
 
-\begin{proof}[proof (\cref{initalCond}).]
-	($\int_0^{\infty} u_1(t) dt > \int_0^{\infty} u_2(t) dt  \Rightarrow  P(\b{x}) > P(\b{y})$). We can show this by showing that 
+\begin{conj}\label{boundarVal}
+	Consider a random markov field with configurations in $\{0,1\}^N$. Assume that $P(v_i = 1|v_j = 1) \geq P(v_i = 1)$ and $P(v_i = 1|v_j = 0) \leq  P(v_i = 1)$, with strict inequality if there exists an edge connecting $v_i$ and $v_j$. Suppose that $m$ node values are known. Let $u_i(t)$ be the the solution to
 	\[
-	\prod_{\{c|v_1 \in c \,\mathit{or}\, v_2 \in c\}}\frac{\psi_c(\b{x})}{\psi_c(\b{y})} >1
+	\frac{d}{dt}\b{u}(t) = -L|_{unknown}\b{u} + \b{b}
 	\]
-\end{proof}
+	where $L$ is the graph Laplacian with rows and columns corresponding to known nodes delated, and $b$ is the ``forcing" due to boundary conditions. Then,
+	\[
+		\lim_{t\rightarrow \infty} u_i(t) >\lim_{t\rightarrow \infty} u_j(t) \Leftrightarrow P(v_i = 1|\text{ known node values}) > P(v_j = 1 | \text{ known node values})
+	\]
+\end{conj}
 
-\begin{proof}[proof (\cref{boundarVal}).]
-	We hope to prove this by constructing a dynamical system with the desired property, because it is likely this will be the diffusion equation on the graph. Or maybe not. I don't know....
-	
-	Consider a Baysian network. Seems like it works there.
-\end{proof}
+For a good answer, both the second two I think need the known nodes vector to live in $\b{1}^{\perp}$. The first idea works, where we probably want to put $-1$ on known $0$ nodes (which would morally correspond to the assumption that $P(v_i = 1|v_j = 0) < P(v_i = 1)$ if $i$ and $j$ are connected.
+
+We really just need the $\Rightarrow$ direction. We need to decide on what assumptions on the various conditional probabilities make these true. Let me call the known set of node values $\xi$. To compare $P(v_1 =1 | \xi)$ and $P(v_2 = 1 | \xi)$, let $X$ be the configurations with $\xi$ and $v_1 = 1$, and $Y$ the configurations with $\xi$ and $v_2 = 1$. Then,
+\[
+P(v_1 = 1| \xi) = \sum_{x\in X} \frac{P(x)}{P(\xi)}
+\]
+and so
+\[
+P(v_1 = 1| \xi) > P(v_2 = 1|\xi) \Leftrightarrow \sum_{x\in X\setminus Y} P(x) >\sum_{y \in Y\setminus X} P(y)
+\]
+but inspecting $X$ and $Y$, we see that this is equivalent to 
+\[
+\sum_{x\in X\setminus Y} (P(x) - P(\tilde{x})) > 0
+\]
+where $\tilde{x} = x$ for all nodes except $v_1$ and $v_2$, while $x(v_1) = \tilde{x}(v_2) = 1$ and $x(v_2) = \tilde{x}(v_1) = 0$. This can be written
+\begin{equation}
+\sum_{x\in X\setminus Y}\prod_{c:v_1,v_2 \not \in c}\psi_c(x)\left(\prod_{c:v_1\text{ or }v_2  \in c}\psi(x) - \prod_{c:v_1\text{ or }v_2  \in c}\psi(\tilde{x}) \right) >0
+\end{equation}
+where $c$ are maximal cliques of the RMF.
+
+
 	
 \bibliographystyle{plain}
 \bibliography{../../summer17}
