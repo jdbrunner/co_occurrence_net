@@ -126,7 +126,7 @@ def diffusion_ivp(known_on,known_off, network):
 	#construct graph laplacian
 	L = diag(sum(network,axis = 0)) - network
 	#then its easy
-	[eval, evec] = eig(L)
+	[eval, evec] = eig(-L)
 	u0 = zeros(len(network))
 	u0[known_on] = 1
 	#u0[known_off] = -1
@@ -203,6 +203,8 @@ def diffusion_forced(known_on,known_off, network):
 	rel_eq = equib[unknown]
 	tmp = rel_eq.argsort()
 	ranked = empty(len(tmp),int)
+	requib = empty(len(tmp),int)
+	requib = rel_eq[tmp[::-1]]
 	ranked = array(unknown)[tmp[::-1]]
 	ust, whch = unique(rel_eq.round(6), return_inverse = True)
 	if len(ust) != len(rel_eq):
@@ -210,9 +212,9 @@ def diffusion_forced(known_on,known_off, network):
 		for j in range(len(ust)):
 			if sum([j == w for w in whch]) > 1:
 				ties = ties + [unknown[where(rel_eq.round(6) == ust[j])]]
-		return [ranked,ties]
+		return [ranked,ties,requib]
 	else:
-		return ranked
+		return [ranked,requib]
 	
 	
 
@@ -237,23 +239,30 @@ coocc_mat = pd.read_csv(coocc_mat_name, sep = '\t', index_col = 0)
 #trim the sample to just the level we are looking at
 sample = sample.iloc[where([i == level for i in sample['LEVEL']])]
 
-#and trim off Taxa that aren't in my network
-in_net = [(ta in coocc_mat.index) for ta in sample['TAXA']]
-sample = sample.iloc[where(in_net)]
+
 
 #who is there
 N = len(sample)
 present = nonzero(sample['abundance'])[0]
 present_names = sample['TAXA'][present]
-#print(len(present))
+print(len(present))
+
+#and trim off Taxa that aren't in my network
+in_net = [(ta in coocc_mat.index) for ta in sample['TAXA']]
+not_in = sample.iloc[where(invert(in_net))]
+pres_not_in = nonzero(not_in['abundance'])[0]
+pres_not_in_names = not_in['TAXA'][pres_not_in]
+print(len(pres_not_in_names))
+sample = sample.iloc[where(in_net)]
+
 
 net = coocc_mat.values
 mean_samp = mean(sample['abundance'])
 samp_on = list(where(sample['abundance'] > mean_samp)[0])
 samp_off = list(where(sample['abundance'] == 0)[0])
-print(diffusion_ivp(samp_on,samp_off,net))
-print(diffusion_bdvp(samp_on,samp_off,net))
-#print(diffusion_forced(samp_on,samp_off,net))
+print(diffusion_ivp(samp_on,samp_off,net)[:-1])
+print(diffusion_bdvp(samp_on,samp_off,net)[:-1])
+print(diffusion_forced(samp_on,samp_off,net)[:-1])
 
 
 #construct the network from the sample.
