@@ -314,7 +314,7 @@ for i in level:
 				normed = dot(diag(1/rsums),ab_np_array)
 				dims = normed.shape[0]
 				adj_matrix_pre = dot(normed,transpose(normed)) - eye(dims)
-				cutoff = 0.01
+				cutoff = 0.8
 				adj_matrix_pre[where(adj_matrix_pre < cutoff)] = 0 
 			elif cortype == 'pearson':
 				#but pearson's correlation coefficient might not make a ton of sense with

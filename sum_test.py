@@ -84,26 +84,30 @@ def diffusion_ivp(known_on,known_off, network):
 	[eval, evec] = eig(-L)
 	u0 = zeros(len(network))
 	u0[known_on] = 1
-	u0[known_off] = -1
+	#u0[known_off] = -1
 	ci = solve(evec,u0)
 	zers = where(abs(eval) > 10**(-5))
 	rel_c = ci[zers]
 	rel_l = eval[zers]
 	ratio_c_l = -rel_c/rel_l
-	unknown = argwhere(u0 == 0).flatten()
+	known = known_on + known_off
+	known = array(known)
+	unknown = delete(array(range(len(network))),known)
 	strengths = array([dot(ratio_c_l,transpose(evec[i,zers])) for i in unknown]).flatten()
 	tmp = strengths.argsort()
 	ranked = empty(len(tmp),int)
-	ranked[tmp[::-1]] = unknown
-	ust, whch = unique(strengths, return_inverse = True)
+	rstren = empty(len(tmp),int)
+	rstren = strengths[tmp[::-1]]
+	ranked = array(unknown)[tmp[::-1]]
+	ust, whch = unique(strengths.round(6), return_inverse = True)
 	if len(ust) != len(strengths):
 		ties = []
 		for j in range(len(ust)):
 			if sum([j == w for w in whch]) > 1:
-				ties = ties + [unknown[where(strengths == ust[j])]]
-		return [ranked,ties]
+				ties = ties + [unknown[where(strengths.round(6) == ust[j])]]
+		return [ranked,ties,rstren]
 	else:
-		return ranked
+		return [ranked,rstren]
 	
 def diffusion_bdvp(known_on,known_off, network):
 	'''Using diffusion on the graph, rank the nodes we don't know about. Find equilibrium
@@ -117,19 +121,21 @@ def diffusion_bdvp(known_on,known_off, network):
 	Lrestr = L[unknown]
 	Lrestr = Lrestr[:,unknown]
 	force = array([sum(L[i,known_on]) for i in unknown])
-	equib = array(lstsq(-Lrestr,force))[0]
+	equib = array(solve(-Lrestr,force))
 	tmp = equib.argsort()
 	ranked = empty(len(tmp),int)
-	ranked[tmp[::-1]] = unknown
-	ust, whch = unique(equib, return_inverse = True)
+	requib = empty(len(tmp),int)
+	requib = equib[tmp[::-1]]
+	ranked = array(unknown)[tmp[::-1]]
+	ust, whch = unique(equib.round(6), return_inverse = True)
 	if len(ust) != len(equib):
 		ties = []
 		for j in range(len(ust)):
 			if sum([j == w for w in whch]) > 1:
-				ties = ties + [unknown[where(equib == ust[j])]]
-		return [ranked,ties]
+				ties = ties + [unknown[where(equib.round(6) == ust[j])]]
+		return [ranked,ties,requib]
 	else:
-		return ranked
+		return [ranked,requib]
 
 	
 def diffusion_forced(known_on,known_off, network):
@@ -152,7 +158,9 @@ def diffusion_forced(known_on,known_off, network):
 	rel_eq = equib[unknown]
 	tmp = rel_eq.argsort()
 	ranked = empty(len(tmp),int)
-	ranked[tmp[::-1]] = unknown
+	requib = empty(len(tmp),int)
+	requib = rel_eq[tmp[::-1]]
+	ranked = array(unknown)[tmp[::-1]]
 	ust, whch = unique(rel_eq, return_inverse = True)
 	if len(ust) != len(rel_eq):
 		ties = []
@@ -160,9 +168,9 @@ def diffusion_forced(known_on,known_off, network):
 		for j in range(len(ust)):
 			if sum([j == w for w in whch]) > 1:
 				ties = ties + [unknown[where(rel_eq == ust[j])]]
-		return [ranked,ties]
+		return [ranked,ties,requib]
 	else:
-		return ranked
+		return [ranked,requib]
 	
 	
 samp1 = zeros(7)
@@ -187,13 +195,13 @@ adj = adj + transpose(adj)
 
 
 
-print(diff_cliques(samp1,samp2,adj))
+# print(diff_cliques(samp1,samp2,adj))
 print(diffusion_ivp([0,1,2],[6],adj))
 print(diffusion_bdvp([0,1,2],[6],adj))
 print(diffusion_forced([0,1,2],[6],adj))
-
+# 
 adj2 = array([[0,1,1,0],[1,0,1,0],[1,1,0,1],[0,0,1,0]])
-
+# 
 print(diffusion_ivp([0,2],[],adj2))
 print(diffusion_bdvp([0,2],[],adj2))
 print(diffusion_forced([0,2],[],adj2))

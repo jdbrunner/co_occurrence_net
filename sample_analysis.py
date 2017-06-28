@@ -126,29 +126,33 @@ def diffusion_ivp(known_on,known_off, network):
 	#construct graph laplacian
 	L = diag(sum(network,axis = 0)) - network
 	#then its easy
-	[eval, evec] = eig(-L)
+	[eval, evec] = eig(L)
 	u0 = zeros(len(network))
 	u0[known_on] = 1
-	u0[known_off] = -1
+	#u0[known_off] = -1
 	ci = solve(evec,u0)
 	zers = where(abs(eval) > 10**(-5))
 	rel_c = ci[zers]
 	rel_l = eval[zers]
 	ratio_c_l = -rel_c/rel_l
-	unknown = argwhere(u0 == 0).flatten()
+	known = known_on + known_off
+	known = array(known)
+	unknown = delete(array(range(len(network))),known)
 	strengths = array([dot(ratio_c_l,transpose(evec[i,zers])) for i in unknown]).flatten()
 	tmp = strengths.argsort()
 	ranked = empty(len(tmp),int)
-	ranked[tmp[::-1]] = unknown
-	ust, whch = unique(strengths, return_inverse = True)
+	rstren = empty(len(tmp),int)
+	rstren = strengths[tmp[::-1]]
+	ranked = array(unknown)[tmp[::-1]]
+	ust, whch = unique(strengths.round(6), return_inverse = True)
 	if len(ust) != len(strengths):
 		ties = []
 		for j in range(len(ust)):
 			if sum([j == w for w in whch]) > 1:
-				ties = ties + [unknown[where(strengths == ust[j])]]
-		return [ranked,ties]
+				ties = ties + [unknown[where(strengths.round(6) == ust[j])]]
+		return [ranked,ties,rstren]
 	else:
-		return ranked
+		return [ranked,rstren]
 	
 def diffusion_bdvp(known_on,known_off, network):
 	'''Using diffusion on the graph, rank the nodes we don't know about. Find equilibrium
@@ -162,19 +166,21 @@ def diffusion_bdvp(known_on,known_off, network):
 	Lrestr = L[unknown]
 	Lrestr = Lrestr[:,unknown]
 	force = array([sum(L[i,known_on]) for i in unknown])
-	equib = array(lstsq(-Lrestr,force))[0]
+	equib = array(solve(-Lrestr,force))
 	tmp = equib.argsort()
 	ranked = empty(len(tmp),int)
-	ranked[tmp[::-1]] = unknown
-	ust, whch = unique(equib, return_inverse = True)
+	requib = empty(len(tmp),int)
+	requib = equib[tmp[::-1]]
+	ranked = array(unknown)[tmp[::-1]]
+	ust, whch = unique(equib.round(6), return_inverse = True)
 	if len(ust) != len(equib):
 		ties = []
 		for j in range(len(ust)):
 			if sum([j == w for w in whch]) > 1:
-				ties = ties + [unknown[where(equib == ust[j])]]
-		return [ranked,ties]
+				ties = ties + [unknown[where(equib.round(6) == ust[j])]]
+		return [ranked,ties,requib]
 	else:
-		return ranked
+		return [ranked,requib]
 
 	
 def diffusion_forced(known_on,known_off, network):
@@ -197,14 +203,13 @@ def diffusion_forced(known_on,known_off, network):
 	rel_eq = equib[unknown]
 	tmp = rel_eq.argsort()
 	ranked = empty(len(tmp),int)
-	ranked[tmp[::-1]] = unknown
-	ust, whch = unique(rel_eq, return_inverse = True)
+	ranked = array(unknown)[tmp[::-1]]
+	ust, whch = unique(rel_eq.round(6), return_inverse = True)
 	if len(ust) != len(rel_eq):
 		ties = []
-		print(ust)
 		for j in range(len(ust)):
 			if sum([j == w for w in whch]) > 1:
-				ties = ties + [unknown[where(rel_eq == ust[j])]]
+				ties = ties + [unknown[where(rel_eq.round(6) == ust[j])]]
 		return [ranked,ties]
 	else:
 		return ranked
@@ -214,26 +219,42 @@ def diffusion_forced(known_on,known_off, network):
 
 ######################
 sample_name = sys.argv[1]
-coin_net_name = sys.argv[2]
-coin_mat_name = sys.argv[3]
-coocc_net_name = sys.argv[4]
-coocc_mat_name = sys.argv[5]
-level = sys.argv[6]
+# coin_net_name = sys.argv[2]
+# coin_mat_name = sys.argv[3]
+# coocc_net_name = sys.argv[4]
+# coocc_mat_name = sys.argv[5]
+# level = sys.argv[6]
+
+coocc_mat_name = sys.argv[2]
+level = sys.argv[3]
 
 sample = pd.read_csv(sample_name, sep = ' ')
-coin_net = pd.read_csv(coin_net_name, sep = '\t')
-coin_mat = pd.read_csv(coin_mat_name, sep = '\t', index_col = 0)
-coocc_net = pd.read_csv(coocc_net_name, sep = '\t')
+# coin_net = pd.read_csv(coin_net_name, sep = '\t')
+# coin_mat = pd.read_csv(coin_mat_name, sep = '\t', index_col = 0)
+# coocc_net = pd.read_csv(coocc_net_name, sep = '\t')
 coocc_mat = pd.read_csv(coocc_mat_name, sep = '\t', index_col = 0)
 
 #trim the sample to just the level we are looking at
 sample = sample.iloc[where([i == level for i in sample['LEVEL']])]
 
+#and trim off Taxa that aren't in my network
+in_net = [(ta in coocc_mat.index) for ta in sample['TAXA']]
+sample = sample.iloc[where(in_net)]
+
 #who is there
 N = len(sample)
 present = nonzero(sample['abundance'])[0]
 present_names = sample['TAXA'][present]
-print(len(present))
+#print(len(present))
+
+net = coocc_mat.values
+mean_samp = mean(sample['abundance'])
+samp_on = list(where(sample['abundance'] > mean_samp)[0])
+samp_off = list(where(sample['abundance'] == 0)[0])
+print(diffusion_ivp(samp_on,samp_off,net))
+print(diffusion_bdvp(samp_on,samp_off,net))
+#print(diffusion_forced(samp_on,samp_off,net))
+
 
 #construct the network from the sample.
 # samp_net = zeros([N,N])
@@ -245,18 +266,18 @@ print(len(present))
 #get the induced subgraph of the coincidence and cooccurrence networks.
 # induced_coin = coin_mat[present_names]
 # induced_coin = induced_coin.loc[present_names]
-induced_edges_coin = where([(coin_net['source'][i] in array(present_names)) & (coin_net['target'][i] in array(present_names))
-			for i in range(len(coin_net))])
-induced_coin_net = coin_net.iloc[induced_edges_coin]
+# induced_edges_coin = where([(coin_net['source'][i] in array(present_names)) & (coin_net['target'][i] in array(present_names))
+# 			for i in range(len(coin_net))])
+# induced_coin_net = coin_net.iloc[induced_edges_coin]
 
 # induced_coocc = coocc_mat[present_names]
 # induced_coocc = induced_coocc.loc[present_names]
-induced_edges_coocc = where([(coocc_net['source'][i] in array(present_names)) & (coocc_net['target'][i] in array(present_names))
-			for i in range(len(coocc_net))])
-repped_sources = where([coocc_net['source'][i] in array(present_names) for i in range(len(coocc_net))])
-samp_prob = est_prob(repped_sources,induced_edges_coocc,coocc_net,coocc_net['num_samps'][0])
-induced_coocc_net = coocc_net.iloc[induced_edges_coocc]
-print(samp_prob)
+# induced_edges_coocc = where([(coocc_net['source'][i] in array(present_names)) & (coocc_net['target'][i] in array(present_names))
+# 			for i in range(len(coocc_net))])
+# repped_sources = where([coocc_net['source'][i] in array(present_names) for i in range(len(coocc_net))])
+# samp_prob = est_prob(repped_sources,induced_edges_coocc,coocc_net,coocc_net['num_samps'][0])
+# induced_coocc_net = coocc_net.iloc[induced_edges_coocc]
+# print(samp_prob)
 
 #save the induced networks for loading into cytoscape.
 # induced_coin_net.to_csv(sample_name[:-4]+'_induced_coin.tsv', sep = '\t')
