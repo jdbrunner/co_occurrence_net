@@ -23,27 +23,7 @@ level = sys.argv[2]
 
 template = pd.read_csv(template_name, sep = ' ')
 
-def make_sample(templ):
-	'''create a random sample with the organsims in the real data'''
-	rsamp = pd.DataFrame(templ['LEVEL'], columns = ['LEVEL'])
-	rsamp['TAXA'] = templ['TAXA']
-	N = len(rsamp)
-	abds = zeros(N)
-	min20N = min([N,63])
-	nonzer = sample(range(N), k = min20N)
-	nonzerval = rand(len(nonzer))
-	abds[nonzer] = nonzerval
-	rsamp['abundance'] = abds
-	return rsamp
 
-def get_sample(daata):
-	'''grab a real sample (column) from the template data'''
-	samp = pd.DataFrame(daata['LEVEL'], columns = ['LEVEL'])
-	samp['TAXA'] = daata['TAXA']
-	L = len(daata.columns) - 2
-	which = daata.columns[randint(L)+2]
-	samp['abundance'] = daata[which]
-	return samp
 	
 
 

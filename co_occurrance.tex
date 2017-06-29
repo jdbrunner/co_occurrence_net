@@ -38,6 +38,7 @@
 \newtheorem{clm}{Claim}
 \newtheorem{rmk}{Remark}
 \newtheorem{note}{NOTE}
+\newtheorem{method}{Method}
 
 \theoremstyle{definition}
 \newtheorem*{def*}{Definition}
@@ -76,11 +77,21 @@
 \newenvironment{inbox}[1]
 {\begin{center}
 		\begin{tabular}{|p{0.9\textwidth}|}
-			\hline\\
+			\hline
 			{\bf #1}\\
 		}
 		{ 
 			\\\\\hline
+		\end{tabular} 
+	\end{center}
+}
+\newenvironment{inbox2}
+{\begin{center}
+		\begin{tabular}{|p{0.9\textwidth}|}
+			\hline \vspace{-0.5 cm}
+		}
+		{ 
+			\\ \hline
 		\end{tabular} 
 	\end{center}
 }
@@ -379,7 +390,7 @@ and using Stirling's formula,
 \]
 
 \subsection{Comparing configurations without specifying $\psi$}
-Mayby I don't need to figure out $\psi_{st}$ and $\psi_s$. Maybe I can conclude something like 
+To compare two configurations $\b{x}$ and $\b{y}$, we can inspect
 \[
 \frac{P(\b{x})}{P(\b{y})} > 1
 \]
@@ -412,72 +423,8 @@ and in general makes sense for $n$ even. It makes sense for $n$ odd as well. It 
 \frac{\psi(k+2)}{\psi(k)} = \frac{\psi(k+2)}{\psi(k+1)}\frac{\psi(k+1)}{\psi(k)}
 \]
 That is, a discrete analogue to the chain rule.
-\subsection{Diffusion based method.}
-Here's an idea inspired by spectral clustering: Solve the diffusion equation on the graph:
-\[
-\frac{\partial}{\partial t} u(v,t) = L u(v,t)
-\]
-where $v$ takes values in the vertex set of the graph. Put the initial mass on nodes you are confident in or something like that. Then, compare
-\[
-U(v) = \int_{0}^{\infty} u(v,t) dt
-\]
-Higher should be more likely. 
 
-\begin{conj}\label{initalCond}
-Consider a random markov field with configurations in $\{0,1\}^N$. Assume that $P(v_i = 1|v_j = 1) \geq P(v_i = 1)$ and $P(v_i = 1|v_j = 0) \leq  P(v_i = 1)$, with strict inequality if there exists an edge connecting $v_i$ and $v_j$. 
-
-Let $u_i(t)$ be the solution at node $v_i$ to the discete diffusion problem
-\[
-\frac{d}{dt}\b{u}(t)  = - L\b{u}
-\]
-where $L$ is the  graph laplacian with initial conditions given by a known set of nodes $\{v_l\}$. Suppose $v_1,v_2 \not\in \{v_l\}$ (so the initial vector has support on the known nodes).
-
-Then, 
-\[
-\int_0^{\infty} u_1(t) dt - \int_0^{\infty} u_2(t) dt >  0 \Leftrightarrow  P(v_1=  1|\{v_l\}) > P(v_2 = 1|\{v_l\})
-\]
-\end{conj}
-
-If this is true we can very easily compute these comparisons. Solutions are
-\[
-\b{u} = \sum_{i=1}^a c_i \b{1} + \sum_{i=a+1}^n c_i e^{\lambda_i t} \b{v}_i 
-\]
-where $a$ is the number of connected components of the graph. Note that each eigenvalue $\lambda_i \leq 0$, with $\lambda_i<0$ for $i = a+1,...,n$ \cite{vonLuxburg2007}. Then, assuming there is some intial mass on the connected components containing $v_1$ and $v_2$, 
-\[
-\int_0^{\infty} u_1(t) dt - \int_0^{\infty} u_2(t) dt =   \sum_{i=a}^n c_i  (v_{i1} - v_{i2}) \int_0^{\infty} e^{\lambda_i t} dt = \sum_{i=a}^n \frac{-c_i}{\lambda_i}  (v_{i1} - v_{i2}) 
-\]
-and $\b{c} = V^{-1}\b{u}(0)$. 
-
-
-Alternatively:
-
-\begin{conj}\label{forcing}
-	Consider a random markov field with configurations in $\{0,1\}^N$. Assume that $P(v_i = 1|v_j = 1) \geq P(v_i = 1)$ and $P(v_i = 1|v_j = 0) \leq  P(v_i = 1)$, with strict inequality if there exists an edge connecting $v_i$ and $v_j$. Suppose that $m$ node values are known. Let $u_i(t)$ be the the solution to
-	\[
-	\frac{d}{dt}\b{u}(t) = -L\b{u} + \b{f}
-	\]
-	where $L$ is the graph Laplacian, we have initial conditions $0$ for unknown nodes and $f\in \b{1}^{\perp}$ has support at known nodes (positive at known ``on" nodes, and negative at known ``off" nodes). Then,
-	\[
-	\lim_{t\rightarrow \infty} u_i(t) >\lim_{t\rightarrow \infty} u_j(t) \Leftrightarrow P(v_i = 1|\text{ known node values}) > P(v_j = 1 | \text{ known node values})
-	\]
-\end{conj}
-
-And the last version is the boundary value version:
-
-\begin{conj}\label{boundarVal}
-	Consider a random markov field with configurations in $\{0,1\}^N$. Assume that $P(v_i = 1|v_j = 1) \geq P(v_i = 1)$ and $P(v_i = 1|v_j = 0) \leq  P(v_i = 1)$, with strict inequality if there exists an edge connecting $v_i$ and $v_j$. Suppose that $m$ node values are known. Let $u_i(t)$ be the the solution to
-	\[
-	\frac{d}{dt}\b{u}(t) = -L|_{unknown}\b{u} + \b{b}
-	\]
-	where $L$ is the graph Laplacian with rows and columns corresponding to known nodes delated, and $b$ is the ``forcing" due to boundary conditions. Then,
-	\[
-		\lim_{t\rightarrow \infty} u_i(t) >\lim_{t\rightarrow \infty} u_j(t) \Leftrightarrow P(v_i = 1|\text{ known node values}) > P(v_j = 1 | \text{ known node values})
-	\]
-\end{conj}
-
-For a good answer, both the second two I think need the known nodes vector to live in $\b{1}^{\perp}$. The first idea works, where we probably want to put $-1$ on known $0$ nodes (which would morally correspond to the assumption that $P(v_i = 1|v_j = 0) < P(v_i = 1)$ if $i$ and $j$ are connected.
-
-We really just need the $\Rightarrow$ direction. We need to decide on what assumptions on the various conditional probabilities make these true. Let me call the known set of node values $\xi$. To compare $P(v_1 =1 | \xi)$ and $P(v_2 = 1 | \xi)$, let $X$ be the configurations with $\xi$ and $v_1 = 1$, and $Y$ the configurations with $\xi$ and $v_2 = 1$. Then,
+To compare $P(v_1 =1 | \xi)$ and $P(v_2 = 1 | \xi)$, let $X$ be the configurations with $\xi$ and $v_1 = 1$, and $Y$ the configurations with $\xi$ and $v_2 = 1$. Then,
 \[
 P(v_1 = 1| \xi) = \sum_{x\in X} \frac{P(x)}{P(\xi)}
 \]
@@ -495,41 +442,72 @@ where $\tilde{x} = x$ for all nodes except $v_1$ and $v_2$, while $x(v_1) = \til
 \end{equation}
 where $c$ are maximal cliques of the RMF.
 
-We can regard the initial value problem version as the Kolmogorov forward equation of a jump process that transitions from taxa to taxa which have an edge between them at a linear rate (see \cref{kfor}). This inspires one last version of this idea, similar to the forced idea, which is to use the forward equations for a jump process with inflow and outflow at known on and off nodes, respectively. However, that would be a lot more complicated because of the infinite state space. The forward equations would not be closed. We could deal directly with that model, I suppose, but that doesn't seem worth it.
+
+\subsection{Diffusion based method.}
+Here's an idea inspired by spectral clustering: Solve the diffusion equation on the graph:
+\[
+\frac{\partial}{\partial t} u(v,t) = L u(v,t)
+\]
+where $v$ takes values in the vertex set of the graph. Then, we can encode ``known" information in three ways: initial values, boundary values, or a forcing vector.
+
+\begin{inbox2}
+\begin{method}[Initial Value Problem]\label{initalCond}
+Let $u_i(t)$ be the solution at node $v_i$ to the discete diffusion problem
+\[
+\frac{d}{dt}\b{u}(t)  = - L\b{u}
+\]
+where $L$ is the  graph laplacian with initial conditions $u_i = 1$ if node $v_i$ is known to be ``on", $u_j = 0$ if $v_j$ is known to be ``off", and $u_k = 0.5$ (or $0$, or perhaps encoded with some confidence in $[0,1)$) if $v_k$ is unknown. We then normalize the initial vector so that it represents a probability distribution on the nodes.
+
+Then, if $\b{K}$ is the information ``known" and the values of $v_{k}$ and $v_{l}$ are unknown,
+\[
+\int_0^{\infty} u_k(t) dt - \int_0^{\infty} u_l(t) dt >  0 \Rightarrow  P(v_k=  1|\b{K}) > P(v_l = 1|\b{K})
+\]
+\end{method}
+\end{inbox2}
+We can easily compute these comparisons. Solutions to the diffusion equation are of the form
+\[
+\b{u} = \sum_{i=1}^a c_i \b{1} + \sum_{i=a+1}^n c_i e^{\lambda_i t} \b{\xi}_i 
+\]
+where $a$ is the number of connected components of the graph, and $\lambda_i,\b{\xi}_i$ are eigenvalue, eigenvector pairs of $L$. Note that each eigenvalue $\lambda_i \leq 0$, with $\lambda_i<0$ for $i = a+1,...,n$ \cite{vonLuxburg2007}. Then, assuming there is some intial mass on the connected components containing $v_1$ and $v_2$, 
+\[
+\int_0^{\infty} u_k(t) dt - \int_0^{\infty} u_l(t) dt =   \sum_{i=a+1}^n c_i  (v_{ik} - v_{il}) \int_0^{\infty} e^{\lambda_i t} dt = \sum_{i=a+1}^n \frac{-c_i}{\lambda_i}  (\xi_{il} - \xi_{ik}) 
+\]
+and $\b{c} = V^{-1}\b{u}(0)$. Therefore, it is straightforward to compute and compare the transitive terms of the solution:
+\[
+\int_0^{\infty}\left( u_k(t) - \sum_{i=1}^a c_i \right) dt = \sum_{i=a+1}^n \frac{-c_i}{\lambda_i}\xi_{ik}
+\]
 
 
-\begin{figure}
-	\begin{subfigure}[b]{0.5\linewidth}
-			\begin{center}
-			\begin{tikzpicture}[scale = 4]
-			\node (a) at (0,1) [circle, fill = nicepink] {$T_1$};
-			\node (b) at (0.8,1.2) [circle, fill = nicepink] {$T_2$};
-			\node (c) at (1.4,0.5) [circle, fill = nicepink] {$T_3$};
-			\draw (b) edge (c);
-			\draw (a) edge (b);
-			\end{tikzpicture}
-		\end{center}
-		\caption{A small network example}
-	\end{subfigure}
-	\begin{subfigure}[b]{0.5\linewidth}
-		\begin{center}
-			\begin{tikzpicture}[scale = 4]
-				\draw[->] (0,0)--(0,1);
-				\draw[->] (0,0)--(0.8,-0.4);
-				\draw[->] (0,0)--(-0.8,-0.4);
-				\fill (0,0.7) circle (1 pt);
-				\fill (0.5,-0.25) circle (1 pt);
-				\fill (-0.5,-0.25) circle (1 pt);
-				\draw[{Latex[length=4mm]}-{Latex[length=4mm]}] (0,0.7) -- (0.5,-0.25);
-				\draw[{Latex[length=4mm]}-{Latex[length=4mm]}] (0.5,-0.25) -- (-0.5,-0.25);
-				\end{tikzpicture}
-		\end{center}
-	\caption{State transition graph for the IVP}
-\end{subfigure}
-\caption{Diffusion is equivalent to the Kolmogorov forward equations for the above system.}\label{kfor}
-\end{figure}
+We can regard this method as the Kolmogorov forward equation of a jump process that transitions from taxa to taxa which have an edge between them at a linear rate (see \cref{kfor}). The state space of this process is the affine space $\b{1}^{\perp} + \b{b}_1\cap \bZ^n_{\geq 0}$, where $\b{b}_i$ are the standard basis vectors. At any time $t$, $u_l(t)$ is the probability that the process is in the state $\b{e}_l$. This model clearly admits no extinction events and is complex balanced deficiency zero. In the deterministic setting, it has globally attracting equilibrium $\frac{1}{n}\b{1}$. Therefore, according to \cite{Anderson2010}, it has stationary distribution on each connected component
+\[
+\pi(\b{x}) = \frac{1}{Z_{cc}} \prod_{i=1}^n \frac{\left(\frac{1}{n}\right)^{x_i}}{x_i!}e^{-\frac{1}{n}}
+\]
+The state space of the system is $\{\b{b}_j\}$, and we note that for $j = 1,...,a$
+\[
+c_j = \pi(\b{b}_j) = \frac{1}{Z_{cc} n}e^{-\frac{1}{n}}
+\]
+and so the distribution is uniform. We therefore must look at the transient behavior, which we take by the integral above, subtracting this stationary distribution. Unfortunately, this is going to allow us to compare nodes in the same connected component. We can add back the stationary distribution to get a better comparison. Then, we are choosing first the most likely connected components and then ranking within those by transient behavior. 
 
-I suppose I need to ask the question of whether or not the boundary value version will always have an equilibrium. That is a question about the kernel of $L$. A ``boundary value" set on the graph is a set of fixed node values (probably $1,0,-1$). Clearly, this defines an affine subspace, the span of the standard basis vectors in the unknown dimensions plus the specified point (putting $0$ in the unknown dimensions). This doesn't have to intersect the kernel of $L$ (which always includes $\b{1}$). If it doesn't, there is not an equilibrium solution to the diffusion problem which gives those values at boundary nodes. However, this doesn't mean the boundary value problem (or, more precisely, the equvalent forced problem on the unknown subset) doesn't have an equilibrium solution. Take for example a complete graph on three nodes. If we prescribe one node as $1$ and one as $0$, the reduced problem is
+Interestingly, we can regard this as the reaction network directly, deterministically modeled, which is the volume scaling limit of the jump process described above.
+
+This method is the only one of the three that is well suited for judging the entire network, without confidence in the preknowledge encoded in the initial conditions. The other two require at least one (\cref{boundarVal}) or two (\cref{forcing}) confident assertion for each connected component of the graph.
+
+\begin{inbox2}
+	\begin{method}[Boundary Value Problem]\label{boundarVal}
+Let $u_i(t)$ be the solution at node $v_i$ to the discete diffusion problem
+\[
+\frac{d}{dt}\b{u}(t)  = - L\b{u}
+\]
+where $L$ is the  graph laplacian with fixed values (which can be regarded as boundary values) $u_i = 1$ if node $v_i$ is known to be ``on", $u_j = 0$ if $v_j$ is known to be ``off". 
+
+Then, if $\b{K}$ is the information ``known" and the values of $v_{k}$ and $v_{l}$ are unknown, and $\b{\tilde{u}}$ is the equilibrium solution to the diffusion problem,
+\[
+\tilde{u}_k dt >  \tilde{u}_l \Leftrightarrow  P(v_k=  1|\b{K}) > P(v_l = 1|\b{K})
+\]
+	\end{method}
+\end{inbox2}
+
+First, we establish conditions under which the boundary value version will always have an equilibrium. A ``boundary value" set on the graph is a set of fixed node values. We have seen already that the equilibrium of the diffusion problem is uniform, and so if we only have known ``on" nodes $\b{\tilde{u}} = \b{1}$.  If we specify off nodes as well, then there is not an equilibrium solution to the diffusion problem which gives those values at boundary nodes. However, this doesn't mean the boundary value problem (or, more precisely, the equvalent forced problem on the unknown subset) doesn't have an equilibrium solution. Take for example a complete graph on three nodes. If we prescribe one node as $1$ and one as $0$, the reduced problem is
 \[
 \frac{d}{dt} u = -2u + 1
 \]
@@ -545,9 +523,78 @@ which has an equilibrium at $u = \nhalf$. This is not an equilirium to the entir
 -\nicefrac{3}{2} \\ 0 \\ \nicefrac{3}{2}
 \end{pmatrix}
 \]
-The nullity of $L$ is the number of connected components of the graph. Removing a column from a matrix doesn't lower the rank of that matrix if the column was a linear combination of some others, which is the case precisely when the columns is the first one removed that corresponds to a connected component of the graph. Therefore, as long as we specify at least one ``boundary value" from each connected component, the restricted matrix is non-singular and there exists a unique equilibrium to the boundary value problem.
+The boundary value problem is equivalent to the forced problem on unknown nodes
+\[
+\frac{d}{dt}\b{u}|_{\b{U}} = L|_{\b{U}}\b{u} + f_{\b{K}}
+\]
+where $\b{u}|_{\b{U}}$ is the projection of $\b{u}$ onto the unknown set of nodes, $L|_{\b{U}}$ is $L$ with the rows and columns of the known nodes removed, and $f_{\b{K}}$ is the forcing due to the boundary conditions.
+	
+The nullity of $L$ is the number of connected components of the graph. Removing a column from a matrix will not lower the rank of that matrix if the column was a linear combination of other columns, which is the case precisely when the column is the first one removed that corresponds to some connected component of the graph. Therefore, as long as we specify at least one ``boundary value" from each connected component, $L|_{\b{U}}$ is non-singular and there exists a unique equilibrium to the boundary value problem.
 
-The boundary value problem can be interpreted as the forward equations for the same process as the IVP, but with a "walker" added to the known ``on" nodes whenever one leaves, and any walker who enters a known ``off" node is removed from the problem. The result is not a probability distribution, but it can be scaled to be one.
+The equilibrium is simply computed by solving 
+\[
+0 = L|_{\b{U}}\b{\tilde{u}} + f_{\b{K}}
+\]
+
+The boundary value problem can be interpreted as a population walking around the graph, with the population at some nodes maintained at fixed values. We then assume that probability that a node is ``on" is proportional to the size of the population at that node. Perhaps ``voters" are a good analogy. 
+
+It can also be interpreted as the same reaction network as \cref{initalCond}, but the values of some species fixed.
+
+\begin{inbox2}
+\begin{method}[Forced Problem]\label{forcing}
+Let $u_i(t)$ be the solution at node $v_i$ to the discete diffusion problem
+\[
+\frac{d}{dt}\b{u}(t)  = - L\b{u} + f
+\]
+where $L$ is the  graph laplacian and $f$ a forcing vector with $f_i = \alpha_{cc}$ if node $v_i$ is known to be ``on", $f_j = -\beta_{cc}$ if $v_j$ is known to be ``off", where $cc$ denotes a connected component of the graph. We choose $\alpha_{cc}$ and $\beta_{cc}$ so that on any connected component $cc$, $\sum \alpha_{cc}= \sum \beta_{cc}= 1$. 
+
+Then, if $\b{K}$ is the information ``known" and the values of $v_{k}$ and $v_{l}$ are unknown, and $\b{\tilde{u}}$ is the equilibrium solution to the diffusion problem,
+\[
+\tilde{u}_k dt >  \tilde{u}_l \Leftrightarrow  P(v_k=  1|\b{K}) > P(v_l = 1|\b{K})
+\]
+\end{method}
+\end{inbox2}
+
+Notice that the kernel of $L$ is $\mathit{span}(\{\b{1}|_{cc}\})$, where $cc$ denotes a connected component of the graph. For an equilibrium solution to exist, any connected component with an ``on" node must also have an ``off" node, so that $f \in \mathit{span}(\{\b{1}|_{cc}\})^{\perp}$, which is the range of $L$ because $L$ is symmetric. 
+
+We can easily compute the equilibrium solution by solving, as long as we have guarenteed that $f \in \mathit{range}(L)$. On a practical note, we use numpy's least squares solver because the matrix $L$ is singular. Unfortunately, if we do not specify an off node in a connected component in which we do specify an on node (or vice versa), there is no equilibrium solution.
+
+The third method can be interpreted much like \cref{boundarVal}. However, instead of the population being maintained at known nodes, we have a constant inflow or outflow from the graph at these nodes. 
+
+This can also be regarded as the same chemical reaction network model as \cref{initalCond}, but now with inflow and outflow. 
+
+\begin{figure}
+	\begin{subfigure}[b]{0.5\linewidth}
+			\begin{center}
+			\begin{tikzpicture}[scale = 3]
+			\node (a) at (0,1) [circle, fill = nicepink] {$T_1$};
+			\node (b) at (0.8,1.2) [circle, fill = nicepink] {$T_2$};
+			\node (c) at (1.4,0.5) [circle, fill = nicepink] {$T_3$};
+			\draw (b) edge (c);
+			\draw (a) edge (b);
+			\end{tikzpicture}
+		\end{center}
+		\caption{A small network example}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.5\linewidth}
+		\begin{center}
+			\begin{tikzpicture}[scale = 3]
+				\draw[->] (0,0)--(0,1);
+				\draw[->] (0,0)--(0.8,-0.4);
+				\draw[->] (0,0)--(-0.8,-0.4);
+				\fill (0,0.7) circle (1 pt);
+				\fill (0.5,-0.25) circle (1 pt);
+				\fill (-0.5,-0.25) circle (1 pt);
+				\draw[{Latex[length=4mm]}-{Latex[length=4mm]}] (0,0.7) -- (0.5,-0.25);
+				\draw[{Latex[length=4mm]}-{Latex[length=4mm]}] (0.5,-0.25) -- (-0.5,-0.25);
+				\end{tikzpicture}
+		\end{center}
+	\caption{State transition graph for the IVP}
+\end{subfigure}
+\caption{Diffusion is equivalent to the Kolmogorov forward equations for the above system.}\label{kfor}
+\end{figure}
+
+
 
 \subsubsection{Tests of these methods}
 I tested these three ideas on two small (unweighted) graphs, shown in \cref{tests}.
@@ -622,7 +669,7 @@ I tested these three ideas on two small (unweighted) graphs, shown in \cref{test
 	 & BVP & 4, 2 & 4, 2 \\ \cline{2-4}
 	 & Forcing & 2, 4 & none \\
 	\hline
-		\cref{tests}(b) &  IVP & 4, 2 & 4, 2 \\ \cline{2-4}
+		\cref{tests}(b) &  IVP & 4, 2 &none \\ \cline{2-4}
 	& BVP &4, 2 & none  \\ \cline{2-4}
 	& Forcing &4, 2 & none\\
 	\hline
