@@ -520,7 +520,7 @@ def diff_cliques(s1,s2,network):
 	comparison = prod(comparison)
 	return comparison
 	
-def diffusion_ivp(known_on,known_off, network, suspected =0.5, non_suspected = 0, probably = 1, all = False):
+def diffusion_ivp(known_on,known_off, network, suspected =0.5, non_suspected = 0, probably = 1, sample = [], all = False):
 	'''Using diffusion on the graph, rank the nodes we don't know about. Solve diffusion with
 	initial condition being 1 for known on nodes and -1 for known off nodes. Network should be
 	the adjacency graph (probably unweighted) given as a numpy array.'''
@@ -528,10 +528,16 @@ def diffusion_ivp(known_on,known_off, network, suspected =0.5, non_suspected = 0
 	L = diag(sum(network,axis = 0)) - network
 	#then its easy
 	[eval, evec] = eig(L)
-	#set up initial conditions, giving some initial mass to the nodes we are questioning about
-	u0 = suspected*ones(len(network))
-	u0[known_on] = probably #option to give less weight to ones we thing are on
-	u0[known_off] = non_suspected #option to give some weight to the ones we think are off.
+	if len(sample) == 0:
+		#set up initial conditions, giving some initial mass to the nodes we are questioning about
+		u0 = suspected*ones(len(network))
+		u0[known_on] = probably #option to give less weight to ones we thing are on
+		u0[known_off] = non_suspected #option to give some weight to the ones we think are off.
+	elif len(sample) == len(network):
+		u0 = sample.astype(float)
+	else:
+		print('Initial distribution must cover whole network')
+		return False
 	u0 = u0/norm(u0)
 	#find the coefficients c_i
 	ci = solve(evec,u0)
@@ -624,7 +630,9 @@ def diffusion_bdvp(known_on,known_off, network):
 				tied_guys = unknown[where(equib.round(6) == ust[j])]
 				tied_which = where([guy in tied_guys for guy in ranked])
 				tied_rank = min(tied_which[0])
-				ranked = list(delete(ranked,tied_which))
+				ranked = list(ranked)
+				for gy in tied_guys:
+					ranked.remove(gy)
 				ranked.insert(tied_rank,list(tied_guys))
 		return [ranked,requib]
 	else:
@@ -663,7 +671,9 @@ def diffusion_forced(known_on,known_off, network):
 				tied_guys = unknown[where(rel_eq == ust[j])]
 				tied_which = where([guy in tied_guys for guy in ranked])
 				tied_rank = min(tied_which[0])
-				ranked = list(delete(ranked,tied_which))
+				ranked = list(ranked)
+				for gy in tied_guys:
+					ranked.remove(gy)
 				ranked.insert(tied_rank,list(tied_guys))
 		return [ranked,requib]
 	else:

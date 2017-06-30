@@ -106,6 +106,7 @@
 \definecolor{nicepink}{RGB}{255, 0, 102}
 \definecolor{nicered}{RGB}{255, 80, 80}
 \definecolor{lblue}{RGB}{102, 163, 255}
+\definecolor{lgray}{RGB}{217, 217, 217}
 
 \newcommand{\bE}{\mathbb{E}}
 \newcommand{\bP}{\mathbb{P}}
@@ -486,7 +487,7 @@ The state space of the system is $\{\b{b}_j\}$, and we note that for $j = 1,...,
 \[
 c_j = \pi(\b{b}_j) = \frac{1}{Z_{cc} n}e^{-\frac{1}{n}}
 \]
-and so the distribution is uniform. We therefore must look at the transient behavior, which we take by the integral above, subtracting this stationary distribution. Unfortunately, this is going to allow us to compare nodes in the same connected component. We can add back the stationary distribution to get a better comparison. Then, we are choosing first the most likely connected components and then ranking within those by transient behavior. 
+and so the distribution is uniform on each conected component. If it is higher on one connected  component than an other, the above integral will be larger on that component. To compare within a connected component of the graph, we must look at the transient behavior, which we take by the integral above, subtracting this stationary distribution. This is going to allow us to compare nodes in the same connected component. We are choosing first the most likely connected components and then ranking within those by transient behavior. 
 
 Interestingly, we can regard this as the reaction network directly, deterministically modeled, which is the volume scaling limit of the jump process described above.
 
@@ -603,10 +604,10 @@ I tested these three ideas on two small (unweighted) graphs, shown in \cref{test
 		\begin{subfigure}[b]{0.33\linewidth}
 		\begin{center}
 			\begin{tikzpicture}[scale = 2]
-			\node (a) at (1,2) [circle, fill = lgreen] {$1$};
-			\node (b) at (1.4,1.2) [circle, fill = lblue] {$2$};
-			\node (c) at (0,1) [circle, fill = lgreen] {$3$};
-			\node (d) at (0.4,0) [circle, fill = lblue] {$4$};
+			\node (a) at (1,2) [circle, fill = nicered] {$1$};
+			\node (b) at (1.4,1.2) [circle, fill = lgray] {$2$};
+			\node (c) at (0,1) [circle, fill = nicered] {$3$};
+			\node (d) at (0.4,0) [circle, fill = lgray] {$4$};
 			\draw (b) edge (c);
 			\draw (a) edge (b);
 			\draw (a) edge (c);
@@ -619,10 +620,10 @@ I tested these three ideas on two small (unweighted) graphs, shown in \cref{test
 		\begin{subfigure}[b]{0.33\linewidth}
 	\begin{center}
 		\begin{tikzpicture}[scale = 2]
-		\node (a) at (1,2) [circle, fill = nicered] {$1$};
-		\node (b) at (1.4,1.2) [circle, fill = lblue] {$2$};
-		\node (c) at (0,1) [circle, fill = lgreen] {$3$};
-		\node (d) at (0.4,0) [circle, fill = lblue] {$4$};
+		\node (a) at (1,2) [circle, fill = lblue] {$1$};
+		\node (b) at (1.4,1.2) [circle, fill = lgray] {$2$};
+		\node (c) at (0,1) [circle, fill = nicered] {$3$};
+		\node (d) at (0.4,0) [circle, fill = lgray] {$4$};
 		\draw (b) edge (c);
 		\draw (a) edge (b);
 		\draw (a) edge (c);
@@ -635,13 +636,13 @@ I tested these three ideas on two small (unweighted) graphs, shown in \cref{test
 	\begin{subfigure}[b]{0.33\linewidth}
 		\begin{center}
 			\begin{tikzpicture}[scale = 2]
-			\node (a) at (1,2.3) [circle, fill = lgreen] {$1$};
-			\node (b) at (0,0) [circle, fill = lgreen] {$2$};
-			\node (c) at (-0.4,0.9) [circle, fill = lgreen] {$3$};
-			\node (d) at (-0.1,1.7) [circle, fill = lblue] {$4$};
-			\node (e) at (1,-0.1) [circle, fill = lblue] {$5$};
-			\node (f) at (1.5,1.5) [circle, fill = lblue] {$6$};
-			\node (g) at (1.3,0.3)[circle, fill = nicered] {$7$};
+			\node (a) at (1,2.3) [circle, fill = nicered] {$1$};
+			\node (b) at (0,0) [circle, fill = nicered] {$2$};
+			\node (c) at (-0.4,0.9) [circle, fill = nicered] {$3$};
+			\node (d) at (-0.1,1.7) [circle, fill = lgray] {$4$};
+			\node (e) at (1,-0.1) [circle, fill = lgray] {$5$};
+			\node (f) at (1.5,1.5) [circle, fill = lgray] {$6$};
+			\node (g) at (1.3,0.3)[circle, fill = lblue] {$7$};
 			\draw (a) edge (b);
 			\draw (a) edge (c);
 			\draw (a) edge (d);
@@ -657,7 +658,7 @@ I tested these three ideas on two small (unweighted) graphs, shown in \cref{test
 		\end{center}
 		\caption{One tested configuration}
 	\end{subfigure}
-	\caption{Test networks. Blue nodes were ``unknown", red nodes ``off", and green ``on".}\label{tests}
+	\caption{Test networks. Gray nodes were ``unknown", blue nodes ``off", and red ``on".}\label{tests}
 \end{figure}
 
 \begin{table}
@@ -681,6 +682,34 @@ I tested these three ideas on two small (unweighted) graphs, shown in \cref{test
 \end{center}
 \caption{Results of ranking nodes by liklihood of being ``on" by the three above methods}\label{rankres}
 \end{table}
+	
+I also tested these methods on a genus level network built from Pearson correlation higher than $0.8$ with $p < 0.05$ (determined by Monte Carlo simulation). This network had a number of connected components. I used a column of the sample data used to creat the network as my configuration, with nodes with larger than mean abundance take ``on" and no abundance taken ``off", while taxa with non-zero but below mean abundance taken as ``unknown". By analysing all nodes using \cref{initalCond} (\cref{diffusion_sample}), positive likelihood can be assigned to nodes assumed ``off" if they are connected to nodes assumed ``on". In the other two methods, only unkown and nodes assumed on can have positive likelihood (\cref{diffusion_sample2}).
+
+\begin{figure}
+	\begin{center}
+	\begin{subfigure}[b]{0.48\linewidth}
+	\begin{center}
+\includegraphics[scale = 0.3]{ranked_ivp.png}	
+\end{center}
+\caption{Result of \cref{initalCond}, with all nodes analyzed. Hotter colors indicate higher likelihood.}
+\end{subfigure}
+\begin{subfigure}[b]{0.48\linewidth}
+		\begin{center}
+		\includegraphics[scale = 0.3]{ranked_bdvp.png}	
+	\end{center}
+	\caption{Result of \cref{boundarVal}. Hotter colors indicate higher likelihood, with red indicating assumed ``on".}
+\end{subfigure}
+\begin{subfigure}[b]{0.48\linewidth}
+		\begin{center}
+		\includegraphics[scale = 0.3]{ranked_known_nodes.png}	
+	\end{center}
+	\caption{The ``known" set - blue is off and red is on, while grey is unknown.}
+\end{subfigure}
+\caption{Result of diffusion methods. Edge color represents the shared sample type of the nodes (i.e. samply type the taxa was found most often in), with gray indicating different types.}
+\end{center}
+\end{figure}	
+
+
 	
 \section{Comparison of Networks}
 At some point here, I'm going to want to compare networks. Luckily, there's things to do. There are of course the simple and obvious: size, radius, various connectivity and clustering metrics. There are also more interesting things, like the random walk kernel on graphs. Graph kernels are similar to an inner product on two graphs.

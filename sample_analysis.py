@@ -71,7 +71,7 @@ bdvp_r = empty(len(sample_trim))
 forced_r = empty(len(sample_trim))
 
 
-ivp = diffusion_ivp(samp_on,samp_off,net, all = True)
+ivp = diffusion_ivp(samp_on,samp_off,net,sample = sample_trim['abundance'].values, all = True)
 bdvp = diffusion_bdvp(samp_on,samp_off,net)
 forced = diffusion_forced(samp_on,samp_off,net)
 
@@ -176,7 +176,7 @@ coocc_net[sample_name_short+'_ivp_col'] = ivp_col_net
 coocc_net[sample_name_short+'_bdvp_col'] = bdvp_col_net
 coocc_net[sample_name_short+'_forced_col'] = forced_col_net
 
-coocc_net.to_csv(coocc_net_name[:-4]+'_s.tsv', sep = '\t')
+coocc_net.to_csv(coocc_net_name, sep = '\t')
 
 #construct the network from the sample.
 # samp_net = zeros([N,N])
