@@ -88,6 +88,9 @@
 \definecolor{dgreen}{RGB}{49,128,23}
 \definecolor{nicepink}{RGB}{255, 0, 102}
 \definecolor{nicered}{RGB}{255, 80, 80}
+\definecolor{lblue}{RGB}{102, 163, 255}
+\definecolor{lgray}{RGB}{217, 217, 217}
+
 
 \newcommand{\kr}{\text{k}}
 %
@@ -151,26 +154,234 @@ how often two organisms appear in the same bin.
 \begin{frame}
 \frametitle{Cooccurrance Network}
 Same idea but now edges weights are compared to a random graph (null model). 
-\[
-w_{jk}^2 = \left\{ \begin{array}{c c}
-1 & P(w_{jk}^N \geq w_{jk}^1) \leq t\\
-0 & P(w_{jk}^N < w_{jk}^1) > t
-\end{array}\right.
-\]
 So we only keep edges that have a higher than ``random" weight.
+\includegraphics[scale = 0.2]{june20/june20_species.png}
 \end{frame}
 %--------------------------------------------------------------------------------------------------
 %--------------------------------------------------------------------------------------------------
 \begin{frame}
-\frametitle{Using a Network}
+\frametitle{Cooccurrance Network - Pearson Correlation}
+We can also compute the Pearson correlation coefficient between taxa across the samples. 
+\[
+\rho_{xy} = \frac{1}{N}\frac{(\b{x}- \mu_x\b{1}) \cdot (\b{y} - \mu_y\b{1})}{\sigma_x \sigma_y}
+\]
+Then, we keep an edge if $\rho > 0.8$ and $p< 0.05$, where $p$ is the chance of correlation higher than $\rho_{xy}$ in a random model. The random model assigns abundances as a binomial with parameters determined by sample and taxa. The $p$ values are calculated using a Monte Carlo simulation with 1000 trials. 
+
+The species level network using this method had $\sim \nhalf$ as many edges.
+\end{frame}
+%--------------------------------------------------------------------------------------------------
+%--------------------------------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Cooccurrance Network - Pearson Correlation}
+\begin{center}
+\includegraphics[scale = 0.4]{pearson_species.png}
+\end{center}
+\end{frame}
+%--------------------------------------------------------------------------------------------------
+%--------------------------------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Clustering}
+We can cluster the network to attempt to determine or evaluate meaningful groups of taxa.
+\begin{itemize}
+	\item Community clustering
+	\begin{itemize}\item Minimize a function based on ``edge betweeness". Determines edges that are between clusters.\end{itemize}
+	\item Spectral clustering
+	\begin{itemize}
+		\item Performs a random walk on the network.
+	\end{itemize} 
+\end{itemize}
+\end{frame}
+%--------------------------------------------------------------------------------------------------
+%--------------------------------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Analyzing a sample}
 \begin{itemize}
 	\item Filter GOTTCHA results - try to determine probability of seeing groups of organisms - Random Markov Field
-	\item Compare networks in different situations (clustering, connectivity, etc)
+ 	\item Diffusion on graph
 \end{itemize}
-\includegraphics[scale = 0.2]{june20/june20_species.png}
+\[
+\frac{\partial}{\partial t} u(v,t) = L u(v,t)
+\]
+where $v$ takes values in the vertex set of the graph. Then, we can encode ``known" information in three ways: initial values, boundary values, or a forcing vector.
+
+
 
 \end{frame}
 %--------------------------------------------------------------------------------------------------
+%--------------------------------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Initial Values}
+\begin{block}{Initial Value Problem}
+	Let $u_i(t)$ be the solution at node $v_i$ to the discete diffusion problem
+	\[
+	\frac{d}{dt}\b{u}(t)  = - L\b{u}
+	\]
+	where $L$ is the  graph laplacian with initial conditions determined by sample information.
+	
+	Then, if $\b{K}$ is the information ``known" from the sample and the values of $v_{k}$ and $v_{l}$ are unknown,
+	\[
+	\int_0^{\infty} u_k(t) dt - \int_0^{\infty} u_l(t) dt >  0 \Rightarrow  P(v_k=  1|\b{K}) > P(v_l = 1|\b{K})
+	\]
+\end{block}
+\end{frame}
+%--------------------------------------------------------------------------------------------------
+%--------------------------------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Boundary Values}
+	\begin{block}{Boundary Value Problem}
+	Let $u_i(t)$ be the solution at node $v_i$ to the discete diffusion problem
+	\[
+	\frac{d}{dt}\b{u}(t)  = - L\b{u}
+	\]
+	where $L$ is the  graph laplacian with fixed values (which can be regarded as boundary values) $u_i = 1$ if node $v_i$ is known to be ``on", $u_j = 0$ if $v_j$ is known to be ``off". 
+	
+	Then, if $\b{K}$ is the information ``known" and the values of $v_{k}$ and $v_{l}$ are unknown, and $\b{\tilde{u}}$ is the equilibrium solution to the diffusion problem,
+	\[
+	\tilde{u}_k dt >  \tilde{u}_l \Leftrightarrow  P(v_k=  1|\b{K}) > P(v_l = 1|\b{K})
+	\]
+\end{block}
+\end{frame}
+%--------------------------------------------------------------------------------------------------
+%--------------------------------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Forcing Function}
+\begin{block}{Forced Problem}
+	Let $u_i(t)$ be the solution at node $v_i$ to the discete diffusion problem
+	\[
+	\frac{d}{dt}\b{u}(t)  = - L\b{u} + f
+	\]
+	where $L$ is the  graph laplacian and $f$ a forcing vector with $f_i = \alpha_{cc}$ if node $v_i$ is known to be ``on", $f_j = -\beta_{cc}$ if $v_j$ is known to be ``off", where $cc$ denotes a connected component of the graph. We choose $\alpha_{cc}$ and $\beta_{cc}$ so that on any connected component $cc$, $\sum \alpha_{cc}= \sum \beta_{cc}= 1$. 
+	
+	Then, if $\b{K}$ is the information ``known" and the values of $v_{k}$ and $v_{l}$ are unknown, and $\b{\tilde{u}}$ is the equilibrium solution to the diffusion problem,
+	\[
+	\tilde{u}_k dt >  \tilde{u}_l \Leftrightarrow  P(v_k=  1|\b{K}) > P(v_l = 1|\b{K})
+	\]
+\end{block}
+\end{frame}
+%--------------------------------------------------------------------------------------------------
+%--------------------------------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Small Network Examples}
+\begin{figure}
+	\begin{subfigure}[b]{0.3\linewidth}
+		\begin{center}
+			\begin{tikzpicture}[scale = 1]
+			\node (a) at (1,2) [circle, fill = nicered] {$1$};
+			\node (b) at (1.4,1.2) [circle, fill = lgray] {$2$};
+			\node (c) at (0,1) [circle, fill = nicered] {$3$};
+			\node (d) at (0.4,0) [circle, fill = lgray] {$4$};
+			\draw (b) edge (c);
+			\draw (a) edge (b);
+			\draw (a) edge (c);
+			\draw (b) edge (c);
+			\draw (c) edge (d);
+			\end{tikzpicture}
+		\end{center}
+		\caption{Small network, two on.}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.3\linewidth}
+		\begin{center}
+			\begin{tikzpicture}[scale = 1]
+			\node (a) at (1,2) [circle, fill = lblue] {$1$};
+			\node (b) at (1.4,1.2) [circle, fill = lgray] {$2$};
+			\node (c) at (0,1) [circle, fill = nicered] {$3$};
+			\node (d) at (0.4,0) [circle, fill = lgray] {$4$};
+			\draw (b) edge (c);
+			\draw (a) edge (b);
+			\draw (a) edge (c);
+			\draw (b) edge (c);
+			\draw (c) edge (d);
+			\end{tikzpicture}
+		\end{center}
+		\caption{small network, one on one off}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.3\linewidth}
+		\begin{center}
+			\begin{tikzpicture}[scale = 1]
+			\node (a) at (1,2.3) [circle, fill = nicered] {$1$};
+			\node (b) at (0,0) [circle, fill = nicered] {$2$};
+			\node (c) at (-0.4,0.9) [circle, fill = nicered] {$3$};
+			\node (d) at (-0.1,1.7) [circle, fill = lgray] {$4$};
+			\node (e) at (1,-0.1) [circle, fill = lgray] {$5$};
+			\node (f) at (1.5,1.5) [circle, fill = lgray] {$6$};
+			\node (g) at (1.5,0.5)[circle, fill = lblue] {$7$};
+			\draw (a) edge (b);
+			\draw (a) edge (c);
+			\draw (a) edge (d);
+			\draw (b) edge (c);
+			\draw (b) edge (d);
+			\draw (c) edge (d);
+			\draw (d) edge (f);
+			\draw (f) edge (g);
+			\draw (e) edge (g);
+			\draw (c) edge (e);
+			\draw (b) edge (e);
+			\end{tikzpicture}
+		\end{center}
+		\caption{Larger network}
+	\end{subfigure}
+	\caption{Test networks. Gray nodes were ``unknown", blue nodes ``off", and red ``on".}
+\end{figure}
+\end{frame}
+%--------------------------------------------------------------------------------------------------
+%--------------------------------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Small Network Examples}
+	\begin{center}
+		\begin{tabular}{|l|l|l|l|}
+			\hline Configuration & Method & Ranking & Ties\\
+			\hline
+			(a) Small Network, two on. &  IVP & 2, 4 & none  \\ \cline{2-4}
+			& BVP & 4, 2 & 4, 2 \\ \cline{2-4}
+			& Forcing & 2, 4 & none \\
+			\hline
+			(b) Small Network, one on one off &  IVP & 4, 2 &none \\ \cline{2-4}
+			& BVP &4, 2 & none  \\ \cline{2-4}
+			& Forcing &4, 2 & none\\
+			\hline
+			(c) Larger network &  IVP & 4, 5, 6& none \\ \cline{2-4}
+			& BVP & 4, 5, 6&  none\\ \cline{2-4}
+			& Forcing &  4, 5, 6& none \\
+			\hline
+		\end{tabular}
+	\end{center}
+\end{frame}
+%--------------------------------------------------------------------------------------------------
+%--------------------------------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Network Examples}
+\begin{figure}
+		\begin{center}
+	\includegraphics[scale = 0.25]{ranked_known_nodes.png}	
+\end{center}
+\caption{The ``known" set - blue is off and red is on, while yellow is unknown.}
+\end{figure}
+\end{frame}
+%--------------------------------------------------------------------------------------------------
+%--------------------------------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Network Examples}
+	\begin{figure}
+	\begin{center}
+		\includegraphics[scale = 0.25]{ranked_ivp.png}	
+	\end{center}
+	\caption{Result of initial value problem, with all nodes analyzed. Hotter colors indicate higher likelihood.}
+\end{figure}
+\end{frame}
+%--------------------------------------------------------------------------------------------------
+%--------------------------------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Network Examples}
+\begin{figure}
+	\begin{center}
+	\includegraphics[scale = 0.25]{ranked_bdvp.png}	
+\end{center}
+\caption{Result of boundary value problem. Hotter colors indicate higher likelihood, with red indicating assumed ``on".}
+\end{figure}
+\end{frame}
+%--------------------------------------------------------------------------------------------------
+%--------------------------------------------------------------------------------------------------
+
 %\begin{frame}
 %\frametitle{References}
 %\bibliographystyle{unsrt}

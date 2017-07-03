@@ -683,7 +683,7 @@ I tested these three ideas on two small (unweighted) graphs, shown in \cref{test
 \caption{Results of ranking nodes by liklihood of being ``on" by the three above methods}\label{rankres}
 \end{table}
 	
-I also tested these methods on a genus level network built from Pearson correlation higher than $0.8$ with $p < 0.05$ (determined by Monte Carlo simulation). This network had a number of connected components. I used a column of the sample data used to creat the network as my configuration, with nodes with larger than mean abundance take ``on" and no abundance taken ``off", while taxa with non-zero but below mean abundance taken as ``unknown". By analysing all nodes using \cref{initalCond} (\cref{diffusion_sample}), positive likelihood can be assigned to nodes assumed ``off" if they are connected to nodes assumed ``on". In the other two methods, only unkown and nodes assumed on can have positive likelihood (\cref{diffusion_sample2}).
+I also tested these methods on a genus level network built from Pearson correlation higher than $0.8$ with $p < 0.05$ (determined by Monte Carlo simulation). This network had a number of connected components. I used a column of the sample data used to creat the network as my configuration, with nodes with larger than mean abundance take ``on" and no abundance taken ``off", while taxa with non-zero but below mean abundance taken as ``unknown". By analysing all nodes using \cref{initalCond} (\cref{diffusion_sample} (a)), positive likelihood can be assigned to nodes assumed ``off" if they are connected to nodes assumed ``on". In the other two methods, only unkown and nodes assumed on can have positive likelihood (\cref{diffusion_sample} (b)).
 
 \begin{figure}
 	\begin{center}
@@ -703,11 +703,22 @@ I also tested these methods on a genus level network built from Pearson correlat
 		\begin{center}
 		\includegraphics[scale = 0.3]{ranked_known_nodes.png}	
 	\end{center}
-	\caption{The ``known" set - blue is off and red is on, while grey is unknown.}
+	\caption{The ``known" set - blue is off and red is on, while yellow is unknown.}
 \end{subfigure}
-\caption{Result of diffusion methods. Edge color represents the shared sample type of the nodes (i.e. samply type the taxa was found most often in), with gray indicating different types.}
+\caption{Result of diffusion methods. Edge color represents the shared sample type of the nodes (i.e. samply type the taxa was found most often in), with gray indicating different types.}\label{diffusion_sample}
 \end{center}
 \end{figure}	
+
+\subsection{Read based analysis}
+Another way to think about the question of which taxa are present given a sample is to think specifically about the reads, and which taxa produce them. This would give us a ``reaction network" of the type 
+\[
+\xymatrix@R = 1 pt{
+t_1 \ar[r] \ar[ddr] & r_1	\\
+t_2 \ar[r] \ar[ur] & r_2\\
+t_3 \ar[r] \ar[dr] \ar[uur] & r_3\\
+ & r_4}
+\]
+Then, what we observe is the equilibrium condition of the reaction network, and we want to determine the initial condition. Or, perhaps we treat it as an I/O system in which we observe the output and want to know the input.
 
 
 	
