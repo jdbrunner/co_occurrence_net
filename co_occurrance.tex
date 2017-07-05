@@ -709,7 +709,7 @@ I also tested these methods on a genus level network built from Pearson correlat
 \end{center}
 \end{figure}	
 
-\subsection{Read based analysis}
+\subsection{Read production based analysis}
 Another way to think about the question of which taxa are present given a sample is to think specifically about the reads, and which taxa produce them. This would give us a ``reaction network" of the type 
 \[
 \xymatrix@R = 1 pt{
@@ -720,8 +720,69 @@ t_3 \ar[r] \ar[dr] \ar[uur] & r_3\\
 \]
 Then, what we observe is the equilibrium condition of the reaction network, and we want to determine the initial condition. Or, perhaps we treat it as an I/O system in which we observe the output and want to know the input.
 
+However, I don't think our taxa genomes get consumed. So $t_i \rightarrow r_j$ is probably either
+\[
+t_i \rightarrow t+i + r_j
+\]
+or 
+\[
+t_i + s \leftrightarrow s_{t_i} \rightarrow t_i + s + r_j
+\]
+If it's the second, we can probably do a quasi steady state approximation and just replace $t_i$ with $\lambda(t_i)$. 
 
-	
+If we believe that the read production can be abstracted to the above,
+\[
+\b{r}(\tau) = \b{r}(0) + \sum_{i,j|t_i\rightarrow r_j} Y_{ij}\left(\int_0^{\tau} \lambda(t_i(\sigma))d\sigma\right)\b{e}_j
+\]
+($Y_{ij}(\tau)$ is a unit rate Poisson process) or if we take a deterministic version
+\[
+\b{r}(\tau) = \b{r}(0) + \sum_{j|t_i\rightarrow r_j} \lambda(t_i)\tau
+\]
+If we assume that $r(0) = 0$ and we have the deterministic model, then
+\[
+\frac{r_j(\tau)}{r_k(\tau)} = \frac{\sum_{j|t_i\rightarrow r_j} \lambda(t_i)}{\sum_{k|t_l\rightarrow r_k} \lambda(t_l)}
+\]
+Letting $T_j = \sum_{j|t_i\rightarrow r_j} \lambda(t_i)$ and $R_{kj} = \frac{r_j(\tau)}{r_k(\tau)}$, we have then
+\[
+(\b{R}T)_j  = T_{1}R_{1j} + T_2R_{2j} + \cdots + T_nR_{nj} = nT_j
+\]
+and so we can get $T$ by solving the eignvalue problem. Notice this only determines $T$ up to multiplicative constant (assuming the multiplicity of $n$ is 1). If we are wrong about what $n$ is, finding the eigenvalues of $R$ could correct us, I guess (of course, that's taking our model as truth). If we know $n$, then, we can find $T$ up to multiplicative constant $c$. Finally, we have
+\[
+(cT)_j = c\sum_{j|t_i\rightarrow r_j} \lambda(t_i)
+\]
+and so
+\[
+cT = \Gamma c\lambda(\b{t})
+\]
+where $\Gamma_{ij} = 1_{t_i \rightarrow r_j}$. Then let's say we can solve, so we have $\b{\xi} = c\lambda(\b{t})$, and if we know and can invert $\lambda$ we finally have relative abundances $\frac{t_i}{t_j}$. 
+
+This is of course full of problems. Right off the bat, deterministic modeling is probably wrong. If we use the stochastic model, we can play a similar game. Let $P_j = \sum_{i|t_i\rightarrow r_j} Y_{ij}\left(\int_0^{\tau} \lambda(t_i(\sigma))d\sigma\right)$. Then, we can still solve for $cP$ just like we did for $cT$. The issue comes from turning that into the $\lambda(t_i)$. Of course, we still have constant $t_i$ (by construction or some quasi steady-state justification), so we can solve for
+\[
+cP_j = c\sum_{i|t_i\rightarrow r_j} Y_{ij}\left(\lambda(t_i)\tau\right)
+\]
+Then, we can solve for relative expected abundances
+\[
+\bE(cP_j)  = c\sum_{i|t_i \rightarrow r_j} \lambda(t_i)\tau
+\]
+so we can solve for $c\lambda(t_i)\tau$ and so get relative abundances, if we think we know $\bE(cP)$, meaning we think we have $\bE \b{R}$ I suppose. More generally, we can write down a distribution for $P$, but it doesn't do us a whole lot of good. Notice that solving for the expected abundances is the same as solving in the deterministic setting, which makes sense due to the Kurtz scaling limit and LLN. 
+
+Lastly we might like the model 
+\[
+t_i + s \leftrightarrow s_{t_i} \rightarrow t_i + s + r_j
+\] 
+better. Then, a quasi steady state (i.e., assuming $t_i$, $s$, and $s_{t_i}$ bound complex are constant), gives
+\[
+\lambda(t_i) = \frac{s_0 t_i}{1 + t_i}
+\]
+(by solving the system $\dot{t_i} = 0$, $\dot{s} = 0$, 	$s_{t_i} = s_0 - s$). Then,
+\[
+t_i = \frac{\xi_i}{cs_0  - \xi_i} 
+\]
+which is a problem for getting rid of $c$. We can calculate
+\[
+\frac{\xi_i}{\xi_j} = \frac{t_i(1+t_j)}{t_j(1+t_i)}
+\]
+
 \section{Comparison of Networks}
 At some point here, I'm going to want to compare networks. Luckily, there's things to do. There are of course the simple and obvious: size, radius, various connectivity and clustering metrics. There are also more interesting things, like the random walk kernel on graphs. Graph kernels are similar to an inner product on two graphs.
 
