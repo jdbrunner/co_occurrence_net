@@ -1,0 +1,747 @@
+	TAXAtest_samples/07_07_01_samps/species/Supragingival_plaque	abundancetest_samples/07_07_01_samps/species/Supragingival_plaque	Detectedtest_samples/07_07_01_samps/species/Supragingival_plaque	Removedtest_samples/07_07_01_samps/species/Supragingival_plaque	Addedtest_samples/07_07_01_samps/species/Supragingival_plaque	ivptest_samples/07_07_01_samps/species/Supragingival_plaque	bdvptest_samples/07_07_01_samps/species/Supragingival_plaque	forcedtest_samples/07_07_01_samps/species/Supragingival_plaque	ivp_eqtest_samples/07_07_01_samps/species/Supragingival_plaque	ivp_transienttest_samples/07_07_01_samps/species/Supragingival_plaque	bdvp_eqtest_samples/07_07_01_samps/species/Supragingival_plaque	forced_eqtest_samples/07_07_01_samps/species/Supragingival_plaque	ivp_coltest_samples/07_07_01_samps/species/Supragingival_plaque	bdvp_coltest_samples/07_07_01_samps/species/Supragingival_plaque	forced_coltest_samples/07_07_01_samps/species/Supragingival_plaque	sample_coltest_samples/07_07_01_samps/species/Supragingival_plaque	ivp_eq_colortest_samples/07_07_01_samps/species/Supragingival_plaque	ivp_transient_colortest_samples/07_07_01_samps/species/Supragingival_plaque	bdvp_eq_colortest_samples/07_07_01_samps/species/Supragingival_plaque	forced_eq_colortest_samples/07_07_01_samps/species/Supragingival_plaque
+0	[Actinobacillus] muris	0.0	False	False	False	192.0	15.0	245.0	0.0001	0.000161	2.8033131371785203e-15	-20892655079.64066	#dfdbd9	#ecd3c5	#f5c1a9	#3b4cc0	#3b4cc0	#d2dbe8	#a9c6fd	#a9c6fd
+1	[Bacteroides] pectinophilus	0.0	False	False	False	216.0	20.0	413.0	4.9e-05	0.028718	-0.05118738692143151	-69356484518.60175	#cedaeb	#cad8ef	#bcd2f7	#3b4cc0	#3b4cc0	#d5dbe5	#9fbfff	#a3c2fe
+3	[Clostridium] aminophilum	0.0	False	False	False	262.0	20.0	424.0	4.9e-05	-0.003162	-0.05118738692143151	-69356484518.60281	#aac7fd	#cad8ef	#b7cff9	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+4	[Clostridium] asparagiforme	0.0	False	False	False	239.0	20.0	279.0	4.9e-05	0.003638	-0.05118738692143151	-69356484518.47348	#bed2f6	#cad8ef	#efcebd	#3b4cc0	#3b4cc0	#d3dbe7	#9fbfff	#a3c2fe
+6	[Clostridium] bolteae	0.0	False	False	False	329.0	20.0	467.0	4.9e-05	-0.00378	-0.05118738692143151	-69356484518.61621	#6e90f2	#cad8ef	#a2c1ff	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+11	[Clostridium] citroniae	0.0	False	False	False	331.0	20.0	388.0	4.9e-05	-0.003783	-0.05118738692143151	-69356484518.59857	#6c8ff1	#cad8ef	#c7d7f0	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+13	[Clostridium] clostridioforme	0.0	False	False	False	331.0	20.0	483.0	4.9e-05	-0.003783	-0.05118738692143151	-69356484518.82014	#6c8ff1	#cad8ef	#9abbff	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+14	[Clostridium] glycyrrhizinilyticum	0.0	False	False	False	393.0	35.0	108.0	-0.0	0.0	-0.6326947911854885	191359279403.21533	#3b4cc0	#4257c9	#e67259	#3b4cc0	#3b4cc0	#d2dbe8	#3b4cc0	#bbd1f8
+17	[Clostridium] innocuum	0.0	False	False	False	373.0	20.0	433.0	4.9e-05	-0.006081	-0.05118738692143151	-69356484518.6038	#4a63d3	#cad8ef	#b3cdfb	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+19	[Clostridium] leptum	0.0	False	False	False	185.0	22.0	44.0	0.000105	-7e-06	-0.08477785949835788	514733528965.16797	#e3d9d3	#b9d0f9	#cc403a	#3b4cc0	#3b4cc0	#d2dbe8	#9abbff	#d5dbe5
+26	[Clostridium] saccharogumia	0.0	False	False	False	246.0	20.0	405.0	4.9e-05	0.000715	-0.05118738692143151	-69356484518.59975	#b7cff9	#cad8ef	#c0d4f5	#3b4cc0	#3b4cc0	#d3dbe7	#9fbfff	#a3c2fe
+28	[Clostridium] scindens	0.0	False	False	False	275.0	20.0	372.0	4.9e-05	-0.003416	-0.05118738692143151	-69356484518.59784	#9ebeff	#cad8ef	#cedaeb	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+29	[Clostridium] sordellii	0.0	False	False	False	309.0	20.0	332.0	4.9e-05	-0.003711	-0.05118738692143151	-69356484518.58585	#80a3fa	#cad8ef	#dedcdb	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+30	[Clostridium] spiroforme	0.0	False	False	False	331.0	20.0	421.0	4.9e-05	-0.003783	-0.05118738692143151	-69356484518.60266	#6c8ff1	#cad8ef	#b9d0f9	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+34	[Clostridium] symbiosum	0.0	False	False	False	341.0	20.0	369.0	4.9e-05	-0.004032	-0.05118738692143151	-69356484518.59735	#6485ec	#cad8ef	#d1dae9	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+37	[Eubacterium] cellulosolvens	0.0	False	False	False	324.0	20.0	384.0	4.9e-05	-0.00377	-0.05118738692143151	-69356484518.59834	#7396f5	#cad8ef	#cad8ef	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+39	[Eubacterium] eligens	0.0	False	False	False	250.0	20.0	444.0	4.9e-05	0.000376	-0.05118738692143151	-69356484518.60774	#b3cdfb	#cad8ef	#adc9fd	#3b4cc0	#3b4cc0	#d3dbe7	#9fbfff	#a3c2fe
+41	[Eubacterium] hallii	0.0	False	False	False	308.0	20.0	392.0	4.9e-05	-0.003707	-0.05118738692143151	-69356484518.59879	#81a4fb	#cad8ef	#c6d6f1	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+42	[Eubacterium] infirmum	0.0002	True	False	False	82.0	4.0	145.0	0.003053	0.0	0.23845302692849618	51584219258.091736	#f08a6c	#e16751	#f08b6e	#506bda	#455cce	#d2dbe8	#d1dae9	#aec9fc
+46	[Eubacterium] sulci	0.0	False	False	False	114.0	6.0	258.0	0.000382	-0.000123	0.1375789517020132	-42620045919.384895	#f7aa8c	#ec8165	#f3c7b1	#3b4cc0	#3c4ec2	#d2dbe8	#c0d4f5	#a6c4fe
+47	[Eubacterium] yurii	0.0001	True	False	False	85.0	23.0	137.0	0.002065	0.0051	-0.16810345155412262	66845875985.17448	#f18d6f	#afcafc	#ee8669	#455cce	#4257c9	#d3dbe7	#8badfd	#afcafc
+48	[Haemophilus] ducreyi	0.0	False	False	False	195.0	15.0	256.0	0.0001	0.000145	2.8033131371785203e-15	-20892655079.641567	#dddcdc	#ecd3c5	#f4c6af	#3b4cc0	#3b4cc0	#d2dbe8	#a9c6fd	#a9c6fd
+49	[Haemophilus] parasuis	0.0	False	False	False	190.0	15.0	248.0	0.0001	0.000304	2.8033131371785203e-15	-20892655079.640694	#e0dbd8	#ecd3c5	#f5c2aa	#3b4cc0	#3b4cc0	#d3dbe7	#a9c6fd	#a9c6fd
+50	[Mannheimia] succiniciproducens	0.0	False	False	False	199.0	15.0	238.0	0.0001	-6.6e-05	2.8033131371785203e-15	-20892655079.640507	#dadce0	#ecd3c5	#f6bea4	#3b4cc0	#3b4cc0	#d2dbe8	#a9c6fd	#a9c6fd
+52	[Ruminococcus] gnavus	0.0	False	False	False	299.0	20.0	385.0	4.9e-05	-0.003636	-0.05118738692143151	-69356484518.59836	#89acfd	#cad8ef	#cad8ef	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+56	Acetivibrio ethanolgignens	0.0	False	False	False	212.0	20.0	419.0	4.9e-05	0.028966	-0.05118738692143151	-69356484518.60248	#d2dbe8	#cad8ef	#bad0f8	#3b4cc0	#3b4cc0	#d5dbe5	#9fbfff	#a3c2fe
+74	Acidaminococcus intestini	0.0	False	False	False	331.0	20.0	269.0	4.9e-05	-0.003783	-0.05118738692143151	-69356484518.4037	#6c8ff1	#cad8ef	#f2cbb7	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+75	Acidaminococcus sp. BV3L6	0.0	False	False	False	221.0	20.0	271.0	4.9e-05	0.01039	-0.05118738692143151	-69356484518.40477	#cbd8ee	#cad8ef	#f1ccb8	#3b4cc0	#3b4cc0	#d3dbe7	#9fbfff	#a3c2fe
+77	Acidaminococcus sp. HPA0509	0.0	False	False	False	291.0	20.0	262.0	4.9e-05	-0.003566	-0.05118738692143151	-69356484518.40234	#90b2fe	#cad8ef	#f3c8b2	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+81	Acidovorax caeni	0.0	False	False	False	393.0	9.0	21.0	-0.0	0.0	0.08239587487357558	714475213071.6093	#3b4cc0	#f6a283	#c12b30	#3b4cc0	#3b4cc0	#d2dbe8	#b7cff9	#e2dad5
+82	Acidovorax delafieldii	0.0	False	False	False	393.0	28.0	508.0	-0.0	-0.0	-0.22535442050771975	-91156318128.86543	#3b4cc0	#81a4fb	#8caffe	#3b4cc0	#3b4cc0	#d2dbe8	#80a3fa	#a2c1ff
+83	Acidovorax ebreus	0.0	False	False	False	393.0	28.0	509.0	-0.0	0.0	-0.22535442050771975	-91156318128.86592	#3b4cc0	#81a4fb	#8caffe	#3b4cc0	#3b4cc0	#d2dbe8	#80a3fa	#a2c1ff
+85	Acidovorax sp. JS42	0.0	False	False	False	393.0	28.0	500.0	-0.0	0.0	-0.22535442050771975	-91156318128.86456	#3b4cc0	#81a4fb	#90b2fe	#3b4cc0	#3b4cc0	#d2dbe8	#80a3fa	#a2c1ff
+87	Acidovorax temperans	0.0	False	False	False	68.0	1.0	211.0	0.004783	-0.001458	1.0000000000000293	-18372832130.16636	#e97a5f	#c83836	#f7b194	#3b4cc0	#4b64d5	#d2dbe8	#e36b54	#a9c6fd
+88	Acinetobacter baumannii	0.0	False	False	False	185.0	22.0	31.0	0.000105	-7e-06	-0.08477785949835788	514733528965.17017	#e3d9d3	#b9d0f9	#c73635	#3b4cc0	#3b4cc0	#d2dbe8	#9abbff	#d5dbe5
+94	Acinetobacter johnsonii	0.0	False	False	False	185.0	22.0	42.0	0.000105	-7e-06	-0.08477785949835788	514733528965.1681	#e3d9d3	#b9d0f9	#cc403a	#3b4cc0	#3b4cc0	#d2dbe8	#9abbff	#d5dbe5
+95	Acinetobacter junii	0.0	False	False	False	185.0	22.0	45.0	0.000105	-7e-06	-0.08477785949835788	514733528965.16785	#e3d9d3	#b9d0f9	#cd423b	#3b4cc0	#3b4cc0	#d2dbe8	#9abbff	#d5dbe5
+96	Acinetobacter lwoffii	0.0	False	False	False	188.0	22.0	30.0	0.000105	-0.000142	-0.08477785949835788	514733528965.1705	#e1dad6	#b9d0f9	#c53334	#3b4cc0	#3b4cc0	#d2dbe8	#9abbff	#d5dbe5
+99	Acinetobacter sp. MDS7A	0.0	False	False	False	184.0	22.0	35.0	0.000105	2e-06	-0.08477785949835788	514733528965.1691	#e4d9d2	#b9d0f9	#c83836	#3b4cc0	#3b4cc0	#d2dbe8	#9abbff	#d5dbe5
+103	Acinetobacter towneri	0.0	False	False	False	185.0	22.0	32.0	0.000105	-7e-06	-0.08477785949835788	514733528965.1695	#e3d9d3	#b9d0f9	#c73635	#3b4cc0	#3b4cc0	#d2dbe8	#9abbff	#d5dbe5
+107	Actinobacillus minor	0.0	False	False	False	193.0	15.0	241.0	0.0001	0.000151	2.8033131371785203e-15	-20892655079.64061	#dedcdb	#ecd3c5	#f6bfa6	#3b4cc0	#3b4cc0	#d2dbe8	#a9c6fd	#a9c6fd
+108	Actinobacillus pleuropneumoniae	0.0	False	False	False	196.0	15.0	237.0	0.0001	0.000125	2.8033131371785203e-15	-20892655079.640503	#dcdddd	#ecd3c5	#f6bea4	#3b4cc0	#3b4cc0	#d2dbe8	#a9c6fd	#a9c6fd
+109	Actinobacillus succinogenes	0.0	False	False	False	206.0	15.0	223.0	0.0001	-0.000131	2.8033131371785203e-15	-20892655079.63848	#d6dce4	#ecd3c5	#f7b89c	#3b4cc0	#3b4cc0	#d2dbe8	#a9c6fd	#a9c6fd
+111	Actinobacillus ureae	0.0	False	False	False	196.0	15.0	243.0	0.0001	0.000125	2.8033131371785203e-15	-20892655079.64063	#dcdddd	#ecd3c5	#f5c0a7	#3b4cc0	#3b4cc0	#d2dbe8	#a9c6fd	#a9c6fd
+119	Actinomyces georgiae	0.0002	True	False	False	82.0	4.0	144.0	0.003053	0.0	0.23845302692849618	51584219258.09917	#f08a6c	#e16751	#f08b6e	#506bda	#455cce	#d2dbe8	#d1dae9	#aec9fc
+122	Actinomyces israelii	0.0248	True	False	False	18.0	-1.0	-1.0	0.082314	-0.697434	1.275369900904602	2525253436959.793	#c73635	#b40426	#b40426	#cf453c	#b40426	#81a4fb	#3b4cc0	#3b4cc0
+125	Actinomyces meyeri	0.0003	True	False	False	44.0	1.0	88.0	0.014015	-0.049783	1.0000000000000293	371044891420.06396	#dc5d4a	#c83836	#e0654f	#5d7ce6	#7093f3	#cdd9ec	#e36b54	#cad8ef
+127	Actinomyces neuii	0.0	False	False	False	182.0	3.0	611.0	0.000127	-1.1e-05	0.439179255529685	-533219820966.86945	#e5d8d1	#d95847	#5977e3	#3b4cc0	#3b4cc0	#d2dbe8	#ebd3c6	#799cf8
+128	Actinomyces odontolyticus	0.0001	True	False	False	110.0	5.0	110.0	0.000654	-0.000103	0.22236504364995083	153521408162.7198	#f7a688	#e7745b	#e7745b	#455cce	#3d50c3	#d2dbe8	#cedaeb	#b7cff9
+130	Actinomyces slackii	0.0	False	False	False	96.0	23.0	131.0	0.002065	-0.004218	-0.16810345155412262	66845875985.197945	#f4987a	#afcafc	#ed8366	#3b4cc0	#4257c9	#d2dbe8	#8badfd	#afcafc
+131	Actinomyces sp. HPA0247	0.0	False	False	False	169.0	26.0	528.0	0.000254	-0.008098	-0.21826251770388724	-124158162730.48381	#edd2c3	#93b5fe	#82a6fb	#3b4cc0	#3b4cc0	#d2dbe8	#81a4fb	#9fbfff
+132	Actinomyces sp. ICM39	0.0	False	False	False	172.0	26.0	549.0	0.000254	-0.008169	-0.21826251770388724	-124158162730.48813	#ebd3c6	#93b5fe	#779af7	#3b4cc0	#3b4cc0	#d2dbe8	#81a4fb	#9fbfff
+134	Actinomyces sp. ICM54	0.0	False	False	False	172.0	26.0	539.0	0.000254	-0.008169	-0.21826251770388724	-124158162730.4867	#ebd3c6	#93b5fe	#7da0f9	#3b4cc0	#3b4cc0	#d2dbe8	#81a4fb	#9fbfff
+135	Actinomyces sp. ICM58	0.0	False	False	False	176.0	26.0	545.0	0.000254	-0.008699	-0.21826251770388724	-124158162730.48766	#e9d5cb	#93b5fe	#799cf8	#3b4cc0	#3b4cc0	#d2dbe8	#81a4fb	#9fbfff
+139	Actinomyces sp. oral taxon 172	0.0	False	False	False	167.0	26.0	533.0	0.000254	-0.00778	-0.21826251770388724	-124158162730.48541	#edd1c2	#93b5fe	#80a3fa	#3b4cc0	#3b4cc0	#d2dbe8	#81a4fb	#9fbfff
+141	Actinomyces sp. oral taxon 178	0.0	False	False	False	93.0	23.0	140.0	0.002065	-0.004057	-0.16810345155412262	66845875985.16336	#f39577	#afcafc	#ef886b	#3b4cc0	#4257c9	#d2dbe8	#8badfd	#afcafc
+143	Actinomyces sp. oral taxon 181	0.0	False	False	False	121.0	26.0	530.0	0.000254	0.007904	-0.21826251770388724	-124158162730.48415	#f7b093	#93b5fe	#81a4fb	#3b4cc0	#3b4cc0	#d3dbe7	#81a4fb	#9fbfff
+145	Actinomyces sp. oral taxon 448	0.0465	True	False	False	4.0	-1.0	-1.0	0.082314	0.861794	1.275369900904602	2525253436959.793	#ba162b	#b40426	#b40426	#b40426	#b40426	#f39577	#3b4cc0	#3b4cc0
+147	Actinomyces sp. oral taxon 849	0.0005	True	False	False	59.0	21.0	7.0	0.010684	-0.00412	-0.07654850267510734	818353130796.7965	#e46e56	#c1d4f4	#ba162b	#7699f6	#6384eb	#d2dbe8	#9bbcff	#e9d5cb
+148	Actinomyces sp. oral taxon 877	0.0	False	False	False	88.0	23.0	133.0	0.002065	0.002649	-0.16810345155412262	66845875985.1966	#f29072	#afcafc	#ee8468	#3b4cc0	#4257c9	#d3dbe7	#8badfd	#afcafc
+149	Actinomyces sp. ph3	0.0	False	False	False	154.0	26.0	557.0	0.000254	-0.002912	-0.21826251770388724	-124158162730.48904	#f2cab5	#93b5fe	#7396f5	#3b4cc0	#3b4cc0	#d2dbe8	#81a4fb	#9fbfff
+163	Adlercreutzia equolifaciens	0.0	False	False	False	338.0	20.0	393.0	4.9e-05	-0.003824	-0.05118738692143151	-69356484518.59882	#6788ee	#cad8ef	#c6d6f1	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+166	Aerococcus christensenii	0.0	False	False	False	389.0	17.0	198.0	2.4e-05	-0.000228	-0.02089760466071046	-14245085424.379663	#3e51c5	#dfdbd9	#f7aa8c	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+169	Aerococcus viridans	0.0	False	False	False	393.0	14.0	667.0	-0.0	-0.0	0.01452303984424084	-992873655463.118	#3b4cc0	#f1cdba	#3f53c6	#3b4cc0	#3b4cc0	#d2dbe8	#abc8fd	#506bda
+174	Afipia birgiae	0.0	False	False	False	105.0	11.0	663.0	0.000678	-7.9e-05	0.04159684433658343	-901019537094.8739	#f6a283	#f7b599	#4055c8	#3b4cc0	#3d50c3	#d2dbe8	#b1cbfc	#5875e1
+175	Afipia broomeae	0.0	False	False	False	385.0	17.0	176.0	2.4e-05	0.00022	-0.02089760466071046	-14245085424.236883	#4055c8	#dfdbd9	#f59f80	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+178	Aggregatibacter aphrophilus	0.0045	True	False	False	70.0	-1.0	-1.0	0.004783	-0.001839	1.275369900904602	2525253436959.793	#ea7b60	#b40426	#b40426	#f7ac8e	#4b64d5	#d2dbe8	#3b4cc0	#3b4cc0
+179	Aggregatibacter segnis	0.0001	True	False	False	100.0	0.0	9.0	0.000763	-0.000192	1.275369900904602	804776541201.9968	#f59d7e	#be242e	#ba162b	#455cce	#3d50c3	#d2dbe8	#b40426	#e8d6cc
+182	Akkermansia muciniphila	0.0	False	False	False	366.0	20.0	293.0	4.9e-05	-0.005985	-0.05118738692143151	-69356484518.47836	#506bda	#cad8ef	#ecd3c5	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+199	Alistipes finegoldii	0.0	False	False	False	375.0	20.0	320.0	4.9e-05	-0.006169	-0.05118738692143151	-69356484518.58261	#4961d2	#cad8ef	#e3d9d3	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+200	Alistipes indistinctus	0.0	False	False	False	219.0	20.0	272.0	4.9e-05	0.023986	-0.05118738692143151	-69356484518.40652	#ccd9ed	#cad8ef	#f1ccb8	#3b4cc0	#3b4cc0	#d5dbe5	#9fbfff	#a3c2fe
+201	Alistipes inops	0.0	False	False	False	217.0	20.0	311.0	4.9e-05	0.028177	-0.05118738692143151	-69356484518.56909	#cedaeb	#cad8ef	#e6d7cf	#3b4cc0	#3b4cc0	#d5dbe5	#9fbfff	#a3c2fe
+202	Alistipes obesi	0.0	False	False	False	357.0	20.0	263.0	4.9e-05	-0.005907	-0.05118738692143151	-69356484518.40247	#5673e0	#cad8ef	#f2c9b4	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+203	Alistipes onderdonkii	0.0	False	False	False	232.0	20.0	389.0	4.9e-05	0.007704	-0.05118738692143151	-69356484518.59866	#c3d5f4	#cad8ef	#c7d7f0	#3b4cc0	#3b4cc0	#d3dbe7	#9fbfff	#a3c2fe
+205	Alistipes senegalensis	0.0	False	False	False	378.0	20.0	275.0	4.9e-05	-0.006307	-0.05118738692143151	-69356484518.4624	#465ecf	#cad8ef	#f1cdba	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+207	Alistipes sp. AL-1	0.0	False	False	False	209.0	20.0	274.0	4.9e-05	0.030155	-0.05118738692143151	-69356484518.45926	#d4dbe6	#cad8ef	#f1cdba	#3b4cc0	#3b4cc0	#d5dbe5	#9fbfff	#a3c2fe
+208	Alistipes sp. HGB5	0.0	False	False	False	238.0	20.0	352.0	4.9e-05	0.007588	-0.05118738692143151	-69356484518.58856	#bed2f6	#cad8ef	#d7dce3	#3b4cc0	#3b4cc0	#d3dbe7	#9fbfff	#a3c2fe
+210	Alistipes timonensis	0.0	False	False	False	214.0	20.0	409.0	4.9e-05	0.028929	-0.05118738692143151	-69356484518.60034	#d1dae9	#cad8ef	#bfd3f6	#3b4cc0	#3b4cc0	#d5dbe5	#9fbfff	#a3c2fe
+211	Aliterella atlantica	0.0	False	False	False	186.0	22.0	49.0	0.000105	-8e-06	-0.08477785949835788	514733528965.1671	#e3d9d3	#b9d0f9	#cf453c	#3b4cc0	#3b4cc0	#d2dbe8	#9abbff	#d5dbe5
+220	Alloprevotella rava	0.0009	True	False	False	169.0	26.0	568.0	0.000254	-0.008098	-0.21826251770388724	-124158162730.51848	#edd2c3	#93b5fe	#6e90f2	#aac7fd	#3b4cc0	#d2dbe8	#81a4fb	#9fbfff
+226	alpha proteobacterium LLX12A	0.0	False	False	False	185.0	22.0	29.0	0.000105	-7e-06	-0.08477785949835788	514733528965.17065	#e3d9d3	#b9d0f9	#c53334	#3b4cc0	#3b4cc0	#d2dbe8	#9abbff	#d5dbe5
+228	Alysiella crassa	0.0	False	False	False	204.0	15.0	219.0	0.0001	-0.000127	2.8033131371785203e-15	-20892655079.637978	#d7dce3	#ecd3c5	#f7b599	#3b4cc0	#3b4cc0	#d2dbe8	#a9c6fd	#a9c6fd
+236	Anaerococcus hydrogenalis	0.0	False	False	False	393.0	25.0	675.0	-0.0	-0.0	-0.2077520928979567	-1273345473902.0762	#3b4cc0	#9dbdff	#3c4ec2	#3b4cc0	#3b4cc0	#d2dbe8	#82a6fb	#3b4cc0
+237	Anaerococcus lactolyticus	0.0	False	False	False	393.0	25.0	674.0	-0.0	0.0	-0.2077520928979567	-1273345473902.0718	#3b4cc0	#9dbdff	#3c4ec2	#3b4cc0	#3b4cc0	#d2dbe8	#82a6fb	#3b4cc0
+239	Anaerococcus prevotii	0.0	False	False	False	390.0	17.0	168.0	2.4e-05	-0.000672	-0.02089760466071046	-14245085424.236485	#3d50c3	#dfdbd9	#f49a7b	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+240	Anaerococcus provenciensis	0.0	False	False	False	393.0	9.0	13.0	-0.0	0.0	0.08239587487357558	714475213071.6124	#3b4cc0	#f6a283	#bd1f2d	#3b4cc0	#3b4cc0	#d2dbe8	#b7cff9	#e2dad5
+243	Anaerococcus sp. PH9	0.0	False	False	False	393.0	25.0	673.0	-0.0	0.0	-0.2077520928979567	-1273345473902.07	#3b4cc0	#9dbdff	#3c4ec2	#3b4cc0	#3b4cc0	#d2dbe8	#82a6fb	#3b4cc0
+245	Anaerococcus tetradius	0.0	False	False	False	181.0	3.0	619.0	0.000127	0.000121	0.439179255529685	-533219820966.87225	#e6d7cf	#d95847	#5572df	#3b4cc0	#3b4cc0	#d2dbe8	#ebd3c6	#799cf8
+246	Anaerococcus vaginalis	0.0	False	False	False	352.0	20.0	438.0	4.9e-05	-0.005816	-0.05118738692143151	-69356484518.60455	#5b7ae5	#cad8ef	#b1cbfc	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+247	Anaerofustis stercorihominis	0.0	False	False	False	305.0	20.0	392.0	4.9e-05	-0.003683	-0.05118738692143151	-69356484518.59879	#84a7fc	#cad8ef	#c6d6f1	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+248	Anaeroglobus geminatus	0.0014	True	False	False	12.0	1.0	641.0	0.082314	0.418137	1.0000000000000293	-708893536231.433	#c12b30	#c83836	#4a63d3	#d7dce3	#b40426	#f2c9b4	#e36b54	#688aef
+253	Anaerostipes caccae	0.0	False	False	False	319.0	20.0	488.0	4.9e-05	-0.003759	-0.05118738692143151	-69356484518.8227	#779af7	#cad8ef	#97b8ff	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+254	Anaerostipes hadrus	0.0	False	False	False	319.0	20.0	350.0	4.9e-05	-0.003759	-0.05118738692143151	-69356484518.58762	#779af7	#cad8ef	#d8dce2	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+255	Anaerostipes sp. 3_2_56FAA	0.0	False	False	False	319.0	20.0	493.0	4.9e-05	-0.003759	-0.05118738692143151	-69356484518.82521	#779af7	#cad8ef	#94b6ff	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+256	Anaerotruncus colihominis	0.0	False	False	False	337.0	20.0	402.0	4.9e-05	-0.003797	-0.05118738692143151	-69356484518.59935	#6788ee	#cad8ef	#c1d4f4	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+277	Arcanobacterium haemolyticum	0.0001	True	False	False	6.0	1.0	638.0	0.082314	0.702878	1.0000000000000293	-708893536231.3907	#bb1b2c	#c83836	#4c66d6	#455cce	#b40426	#f7aa8c	#e36b54	#688aef
+278	Arcanobacterium sp. S3PF19	0.0	False	False	False	393.0	10.0	625.0	-0.0	0.0	0.05285922412917797	-660639087651.4742	#3b4cc0	#f7ac8e	#516ddb	#3b4cc0	#3b4cc0	#d2dbe8	#b2ccfb	#6e90f2
+296	Atopobacter phocae	0.0	False	False	False	393.0	14.0	672.0	-0.0	-0.0	0.01452303984424084	-992873655463.1344	#3b4cc0	#f1cdba	#3d50c3	#3b4cc0	#3b4cc0	#d2dbe8	#abc8fd	#506bda
+299	Atopobium parvulum	0.0001	True	False	False	128.0	26.0	520.0	0.000254	0.001373	-0.21826251770388724	-124158162730.47484	#f7b79b	#93b5fe	#86a9fc	#455cce	#3b4cc0	#d3dbe7	#81a4fb	#9fbfff
+301	Atopobium sp. BS2	0.0	False	False	False	155.0	26.0	541.0	0.000254	-0.003051	-0.21826251770388724	-124158162730.48743	#f2cab5	#93b5fe	#7b9ff9	#3b4cc0	#3b4cc0	#d2dbe8	#81a4fb	#9fbfff
+303	Atopobium sp. ICM42b	0.0	False	False	False	142.0	26.0	546.0	0.000254	-0.00069	-0.21826251770388724	-124158162730.48778	#f5c1a9	#93b5fe	#799cf8	#3b4cc0	#3b4cc0	#d2dbe8	#81a4fb	#9fbfff
+304	Atopobium sp. oral taxon 199	0.0	False	False	False	147.0	26.0	555.0	0.000254	-0.000862	-0.21826251770388724	-124158162730.48888	#f4c5ad	#93b5fe	#7597f6	#3b4cc0	#3b4cc0	#d2dbe8	#81a4fb	#9fbfff
+305	Atopobium sp. oral taxon 810	0.0	False	False	False	393.0	28.0	498.0	-0.0	0.0	-0.22535442050771975	-91156318128.86386	#3b4cc0	#81a4fb	#92b4fe	#3b4cc0	#3b4cc0	#d2dbe8	#80a3fa	#a2c1ff
+306	Atopobium vaginae	0.0	False	False	False	182.0	3.0	620.0	0.000127	-1.1e-05	0.439179255529685	-533219820966.8726	#e5d8d1	#d95847	#5470de	#3b4cc0	#3b4cc0	#d2dbe8	#ebd3c6	#799cf8
+308	Aureimonas altamirensis	0.0	False	False	False	393.0	10.0	622.0	-0.0	0.0	0.05285922412917797	-660639087651.4734	#3b4cc0	#f7ac8e	#5470de	#3b4cc0	#3b4cc0	#d2dbe8	#b2ccfb	#6e90f2
+310	Avibacterium paragallinarum	0.0	False	False	False	208.0	15.0	254.0	0.0001	-0.000252	2.8033131371785203e-15	-20892655079.641144	#d5dbe5	#ecd3c5	#f4c5ad	#3b4cc0	#3b4cc0	#d2dbe8	#a9c6fd	#a9c6fd
+312	Azohydromonas australica	0.0	False	False	False	184.0	22.0	48.0	0.000105	2e-06	-0.08477785949835788	514733528965.1673	#e4d9d2	#b9d0f9	#cf453c	#3b4cc0	#3b4cc0	#d2dbe8	#9abbff	#d5dbe5
+327	Bacillus cereus	0.0	False	False	False	393.0	10.0	627.0	-0.0	-0.0	0.05285922412917797	-660639087651.4745	#3b4cc0	#f7ac8e	#516ddb	#3b4cc0	#3b4cc0	#d2dbe8	#b2ccfb	#6e90f2
+361	Bacillus thermoamylovorans	0.0	False	False	False	185.0	22.0	46.0	0.000105	-7e-06	-0.08477785949835788	514733528965.1676	#e3d9d3	#b9d0f9	#cd423b	#3b4cc0	#3b4cc0	#d2dbe8	#9abbff	#d5dbe5
+369	bacterium LF-3	0.0	False	False	False	291.0	20.0	375.0	4.9e-05	-0.003566	-0.05118738692143151	-69356484518.59799	#90b2fe	#cad8ef	#cdd9ec	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+377	Bacteroidaceae bacterium MS4	0.0	False	False	False	271.0	20.0	492.0	4.9e-05	-0.003366	-0.05118738692143151	-69356484518.82484	#a2c1ff	#cad8ef	#94b6ff	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+382	Bacteroides cellulosilyticus	0.0	False	False	False	319.0	20.0	324.0	4.9e-05	-0.003759	-0.05118738692143151	-69356484518.58406	#779af7	#cad8ef	#e1dad6	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+383	Bacteroides clarus	0.0	False	False	False	367.0	20.0	473.0	4.9e-05	-0.005989	-0.05118738692143151	-69356484518.62239	#4f69d9	#cad8ef	#9ebeff	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+385	Bacteroides coprophilus	0.0	False	False	False	319.0	20.0	484.0	4.9e-05	-0.003759	-0.05118738692143151	-69356484518.82149	#779af7	#cad8ef	#98b9ff	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+386	Bacteroides coprosuis	0.0	False	False	False	332.0	20.0	266.0	4.9e-05	-0.003784	-0.05118738692143151	-69356484518.40326	#6c8ff1	#cad8ef	#f2cab5	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+387	Bacteroides dorei	0.0	False	False	False	332.0	20.0	494.0	4.9e-05	-0.003784	-0.05118738692143151	-69356484518.82764	#6c8ff1	#cad8ef	#94b6ff	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+389	Bacteroides faecichinchillae	0.0	False	False	False	323.0	20.0	297.0	4.9e-05	-0.003767	-0.05118738692143151	-69356484518.48952	#7396f5	#cad8ef	#ebd3c6	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+393	Bacteroides fragilis	0.0	False	False	False	298.0	20.0	471.0	4.9e-05	-0.003635	-0.05118738692143151	-69356484518.61914	#89acfd	#cad8ef	#9fbfff	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+394	Bacteroides gallinarum	0.0	False	False	False	344.0	20.0	446.0	4.9e-05	-0.00577	-0.05118738692143151	-69356484518.60938	#6282ea	#cad8ef	#adc9fd	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+395	Bacteroides graminisolvens	0.0	False	False	False	348.0	20.0	485.0	4.9e-05	-0.005808	-0.05118738692143151	-69356484518.82219	#5e7de7	#cad8ef	#98b9ff	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+396	Bacteroides helcogenes	0.0	False	False	False	248.0	20.0	440.0	4.9e-05	0.000412	-0.05118738692143151	-69356484518.60588	#b6cefa	#cad8ef	#afcafc	#3b4cc0	#3b4cc0	#d3dbe7	#9fbfff	#a3c2fe
+397	Bacteroides intestinalis	0.0	False	False	False	319.0	20.0	329.0	4.9e-05	-0.003759	-0.05118738692143151	-69356484518.58453	#779af7	#cad8ef	#e0dbd8	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+399	Bacteroides nordii	0.0	False	False	False	380.0	20.0	475.0	4.9e-05	-0.006323	-0.05118738692143151	-69356484518.63074	#455cce	#cad8ef	#9ebeff	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+400	Bacteroides oleiciplenus	0.0	False	False	False	315.0	20.0	444.0	4.9e-05	-0.00374	-0.05118738692143151	-69356484518.60774	#7b9ff9	#cad8ef	#adc9fd	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+402	Bacteroides paurosaccharolyticus	0.0	False	False	False	393.0	7.0	102.0	-0.0	-0.0	0.13117290373138454	321616865524.2353	#3b4cc0	#f18d6f	#e46e56	#3b4cc0	#3b4cc0	#d2dbe8	#c0d4f5	#c6d6f1
+403	Bacteroides plebeius	0.0	False	False	False	260.0	20.0	306.0	4.9e-05	-0.003156	-0.05118738692143151	-69356484518.56783	#abc8fd	#cad8ef	#e8d6cc	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+405	Bacteroides pyogenes	0.0	False	False	False	294.0	20.0	333.0	4.9e-05	-0.003571	-0.05118738692143151	-69356484518.5859	#8db0fe	#cad8ef	#dedcdb	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+406	Bacteroides reticulotermitis	0.0	False	False	False	291.0	20.0	486.0	4.9e-05	-0.003566	-0.05118738692143151	-69356484518.82236	#90b2fe	#cad8ef	#98b9ff	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+407	Bacteroides salanitronis	0.0	False	False	False	393.0	7.0	99.0	-0.0	0.0	0.13117290373138454	321616865524.2387	#3b4cc0	#f18d6f	#e36c55	#3b4cc0	#3b4cc0	#d2dbe8	#c0d4f5	#c6d6f1
+408	Bacteroides salyersiae	0.0	False	False	False	210.0	20.0	300.0	4.9e-05	0.029018	-0.05118738692143151	-69356484518.49226	#d3dbe7	#cad8ef	#ead5c9	#3b4cc0	#3b4cc0	#d5dbe5	#9fbfff	#a3c2fe
+409	Bacteroides sartorii	0.0	False	False	False	320.0	20.0	449.0	4.9e-05	-0.00376	-0.05118738692143151	-69356484518.61429	#7699f6	#cad8ef	#abc8fd	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+410	Bacteroides sp. 1_1_30	0.0	False	False	False	393.0	7.0	97.0	-0.0	0.0	0.13117290373138454	321616865524.2424	#3b4cc0	#f18d6f	#e36b54	#3b4cc0	#3b4cc0	#d2dbe8	#c0d4f5	#c6d6f1
+411	Bacteroides sp. 1_1_6	0.0	False	False	False	238.0	20.0	342.0	4.9e-05	0.007588	-0.05118738692143151	-69356484518.58652	#bed2f6	#cad8ef	#dbdcde	#3b4cc0	#3b4cc0	#d3dbe7	#9fbfff	#a3c2fe
+412	Bacteroides sp. 14(A)	0.0	False	False	False	245.0	20.0	331.0	4.9e-05	0.000717	-0.05118738692143151	-69356484518.58478	#b9d0f9	#cad8ef	#dfdbd9	#3b4cc0	#3b4cc0	#d3dbe7	#9fbfff	#a3c2fe
+415	Bacteroides sp. 2_1_33B	0.0	False	False	False	291.0	20.0	318.0	4.9e-05	-0.003566	-0.05118738692143151	-69356484518.58153	#90b2fe	#cad8ef	#e4d9d2	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+416	Bacteroides sp. 2_1_56FAA	0.0	False	False	False	393.0	7.0	101.0	-0.0	0.0	0.13117290373138454	321616865524.2377	#3b4cc0	#f18d6f	#e46e56	#3b4cc0	#3b4cc0	#d2dbe8	#c0d4f5	#c6d6f1
+417	Bacteroides sp. 2_2_4	0.0	False	False	False	331.0	20.0	457.0	4.9e-05	-0.003783	-0.05118738692143151	-69356484518.61548	#6c8ff1	#cad8ef	#a6c4fe	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+421	Bacteroides sp. 3_1_33FAA	0.0	False	False	False	393.0	7.0	100.0	-0.0	0.0	0.13117290373138454	321616865524.2382	#3b4cc0	#f18d6f	#e36c55	#3b4cc0	#3b4cc0	#d2dbe8	#c0d4f5	#c6d6f1
+424	Bacteroides sp. 4_1_36	0.0	False	False	False	263.0	20.0	323.0	4.9e-05	-0.003268	-0.05118738692143151	-69356484518.58316	#a9c6fd	#cad8ef	#e2dad5	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+425	Bacteroides sp. 4_3_47FAA	0.0	False	False	False	300.0	20.0	474.0	4.9e-05	-0.003646	-0.05118738692143151	-69356484518.62383	#88abfd	#cad8ef	#9ebeff	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+428	Bacteroides sp. D20	0.0	False	False	False	393.0	7.0	98.0	-0.0	0.0	0.13117290373138454	321616865524.24	#3b4cc0	#f18d6f	#e36c55	#3b4cc0	#3b4cc0	#d2dbe8	#c0d4f5	#c6d6f1
+429	Bacteroides sp. D22	0.0	False	False	False	277.0	20.0	450.0	4.9e-05	-0.003443	-0.05118738692143151	-69356484518.61432	#9dbdff	#cad8ef	#aac7fd	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+430	Bacteroides sp. HPS0048	0.0	False	False	False	365.0	20.0	264.0	4.9e-05	-0.005982	-0.05118738692143151	-69356484518.4027	#506bda	#cad8ef	#f2c9b4	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+432	Bacteroides stercorirosoris	0.0	False	False	False	331.0	20.0	353.0	4.9e-05	-0.003783	-0.05118738692143151	-69356484518.59006	#6c8ff1	#cad8ef	#d7dce3	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+433	Bacteroides stercoris	0.0	False	False	False	331.0	20.0	379.0	4.9e-05	-0.003783	-0.05118738692143151	-69356484518.59819	#6c8ff1	#cad8ef	#ccd9ed	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+440	Barnesiella intestinihominis	0.0	False	False	False	393.0	33.0	105.0	-0.0	0.0	-0.5820817529256714	210901121614.51736	#3b4cc0	#536edd	#e57058	#3b4cc0	#3b4cc0	#d2dbe8	#4257c9	#bcd2f7
+441	Barnesiella viscericola	0.0	False	False	False	241.0	20.0	327.0	4.9e-05	0.002508	-0.05118738692143151	-69356484518.58441	#bbd1f8	#cad8ef	#e0dbd8	#3b4cc0	#3b4cc0	#d3dbe7	#9fbfff	#a3c2fe
+449	Bergeyella zoohelcum	0.0	False	False	False	7.0	1.0	655.0	0.082314	0.662016	1.0000000000000293	-708893536231.731	#bd1f2d	#c83836	#445acc	#3b4cc0	#b40426	#f7af91	#e36b54	#688aef
+454	Bibersteinia trehalosi	0.0	False	False	False	200.0	15.0	249.0	0.0001	-8.8e-05	2.8033131371785203e-15	-20892655079.640717	#dadce0	#ecd3c5	#f5c2aa	#3b4cc0	#3b4cc0	#d2dbe8	#a9c6fd	#a9c6fd
+456	Bifidobacterium adolescentis	0.0	False	False	False	259.0	20.0	316.0	4.9e-05	-0.003125	-0.05118738692143151	-69356484518.57993	#adc9fd	#cad8ef	#e4d9d2	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+462	Bifidobacterium breve	0.0	False	False	False	371.0	20.0	461.0	4.9e-05	-0.006021	-0.05118738692143151	-69356484518.61578	#4b64d5	#cad8ef	#a5c3fe	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+471	Bifidobacterium kashiwanohense	0.0	False	False	False	331.0	20.0	456.0	4.9e-05	-0.003783	-0.05118738692143151	-69356484518.61536	#6c8ff1	#cad8ef	#a7c5fe	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+472	Bifidobacterium longum	0.0	False	False	False	261.0	20.0	365.0	4.9e-05	-0.003158	-0.05118738692143151	-69356484518.59679	#aac7fd	#cad8ef	#d2dbe8	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+478	Bifidobacterium pseudocatenulatum	0.0	False	False	False	361.0	20.0	469.0	4.9e-05	-0.005945	-0.05118738692143151	-69356484518.61664	#5470de	#cad8ef	#a1c0ff	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+483	Bifidobacterium ruminantium	0.0	False	False	False	267.0	20.0	459.0	4.9e-05	-0.003325	-0.05118738692143151	-69356484518.61565	#a5c3fe	#cad8ef	#a6c4fe	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+484	Bifidobacterium saeculare	0.0	False	False	False	343.0	20.0	426.0	4.9e-05	-0.005582	-0.05118738692143151	-69356484518.60301	#6282ea	#cad8ef	#b6cefa	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+489	Bifidobacterium subtile	0.0	False	False	False	138.0	26.0	596.0	0.000254	-0.000123	-0.21826251770388724	-124158162730.52322	#f6bea4	#93b5fe	#5f7fe8	#3b4cc0	#3b4cc0	#d2dbe8	#81a4fb	#9fbfff
+492	Bilophila sp. 4_1_30	0.0	False	False	False	393.0	33.0	106.0	-0.0	0.0	-0.5820817529256714	210901121614.51077	#3b4cc0	#536edd	#e67259	#3b4cc0	#3b4cc0	#d2dbe8	#4257c9	#bcd2f7
+493	Bilophila wadsworthia	0.0	False	False	False	291.0	20.0	265.0	4.9e-05	-0.003566	-0.05118738692143151	-69356484518.40303	#90b2fe	#cad8ef	#f2c9b4	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+494	Blautia hansenii	0.0	False	False	False	382.0	20.0	466.0	4.9e-05	-0.006332	-0.05118738692143151	-69356484518.6161	#4358cb	#cad8ef	#a2c1ff	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+495	Blautia hydrogenotrophica	0.0	False	False	False	374.0	20.0	401.0	4.9e-05	-0.00611	-0.05118738692143151	-69356484518.5993	#4961d2	#cad8ef	#c3d5f4	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+496	Blautia obeum	0.0	False	False	False	250.0	20.0	443.0	4.9e-05	0.000376	-0.05118738692143151	-69356484518.60721	#b3cdfb	#cad8ef	#aec9fc	#3b4cc0	#3b4cc0	#d3dbe7	#9fbfff	#a3c2fe
+498	Blautia schinkii	0.0	False	False	False	222.0	20.0	439.0	4.9e-05	0.010233	-0.05118738692143151	-69356484518.60541	#cbd8ee	#cad8ef	#afcafc	#3b4cc0	#3b4cc0	#d3dbe7	#9fbfff	#a3c2fe
+499	Blautia sp. GD9	0.0	False	False	False	350.0	20.0	366.0	4.9e-05	-0.005811	-0.05118738692143151	-69356484518.59702	#5d7ce6	#cad8ef	#d2dbe8	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+500	Blautia sp. KLE 1732	0.0	False	False	False	282.0	20.0	362.0	4.9e-05	-0.003528	-0.05118738692143151	-69356484518.59601	#98b9ff	#cad8ef	#d3dbe7	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+501	Blautia wexlerae	0.0	False	False	False	368.0	20.0	477.0	4.9e-05	-0.006003	-0.05118738692143151	-69356484518.73401	#4e68d8	#cad8ef	#9dbdff	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+521	Brevibacterium massiliense	0.0	False	False	False	384.0	17.0	193.0	2.4e-05	0.000222	-0.02089760466071046	-14245085424.378672	#4257c9	#dfdbd9	#f7a889	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+524	Brevundimonas diminuta	0.0	False	False	False	393.0	16.0	93.0	-0.0	0.0	-0.006901944013460211	344361225088.7631	#3b4cc0	#e6d7cf	#e26952	#3b4cc0	#3b4cc0	#d2dbe8	#a7c5fe	#c7d7f0
+526	Brochothrix thermosphacta	0.0	False	False	False	124.0	26.0	588.0	0.000254	0.007892	-0.21826251770388724	-124158162730.52019	#f7b396	#93b5fe	#6384eb	#3b4cc0	#3b4cc0	#d3dbe7	#81a4fb	#9fbfff
+528	Bulleidia extructa	0.0	False	False	False	31.0	1.0	75.0	0.014015	0.056221	1.0000000000000293	371044891420.0722	#d1493f	#c83836	#da5a49	#3b4cc0	#7093f3	#d7dce3	#e36b54	#cad8ef
+530	Burkholderia cepacia	0.0	False	False	False	384.0	17.0	201.0	2.4e-05	0.000222	-0.02089760466071046	-14245085424.381126	#4257c9	#dfdbd9	#f7ac8e	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+541	Butyricicoccus pullicaecorum	0.0	False	False	False	369.0	20.0	363.0	4.9e-05	-0.006005	-0.05118738692143151	-69356484518.5961	#4e68d8	#cad8ef	#d3dbe7	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+542	Butyricimonas synergistica	0.0	False	False	False	348.0	20.0	302.0	4.9e-05	-0.005808	-0.05118738692143151	-69356484518.49529	#5e7de7	#cad8ef	#ead5c9	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+543	Butyricimonas virosa	0.0	False	False	False	336.0	20.0	261.0	4.9e-05	-0.003796	-0.05118738692143151	-69356484518.40071	#688aef	#cad8ef	#f3c8b2	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+544	Butyrivibrio crossotus	0.0	False	False	False	250.0	20.0	294.0	4.9e-05	0.000376	-0.05118738692143151	-69356484518.48315	#b3cdfb	#cad8ef	#ecd3c5	#3b4cc0	#3b4cc0	#d3dbe7	#9fbfff	#a3c2fe
+563	Butyrivibrio sp. NC3005	0.0	False	False	False	273.0	20.0	423.0	4.9e-05	-0.003405	-0.05118738692143151	-69356484518.60278	#a1c0ff	#cad8ef	#b7cff9	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+583	Calothrix sp. PCC 7103	0.0	False	False	False	393.0	14.0	668.0	-0.0	0.0	0.01452303984424084	-992873655463.1246	#3b4cc0	#f1cdba	#3e51c5	#3b4cc0	#3b4cc0	#d2dbe8	#abc8fd	#506bda
+588	Campylobacter curvus	0.0001	True	False	False	91.0	23.0	129.0	0.002065	-0.001567	-0.16810345155412262	66845875985.199974	#f39475	#afcafc	#ec8165	#455cce	#4257c9	#d2dbe8	#8badfd	#afcafc
+589	Campylobacter fetus	0.0	False	False	False	204.0	15.0	221.0	0.0001	-0.000127	2.8033131371785203e-15	-20892655079.638275	#d7dce3	#ecd3c5	#f7b79b	#3b4cc0	#3b4cc0	#d2dbe8	#a9c6fd	#a9c6fd
+590	Campylobacter gracilis	0.0268	True	False	False	3.0	-1.0	-1.0	0.082314	0.872669	1.275369900904602	2525253436959.793	#b8122a	#b40426	#b40426	#c32e31	#b40426	#f39475	#3b4cc0	#3b4cc0
+594	Campylobacter mucosalis	0.0	False	False	False	204.0	15.0	230.0	0.0001	-0.000127	2.8033131371785203e-15	-20892655079.638916	#d7dce3	#ecd3c5	#f7ba9f	#3b4cc0	#3b4cc0	#d2dbe8	#a9c6fd	#a9c6fd
+596	Campylobacter showae	0.0045	True	False	False	26.0	-1.0	-1.0	0.082314	-1.313329	1.275369900904602	2525253436959.793	#cd423b	#b40426	#b40426	#f7ac8e	#b40426	#3b4cc0	#3b4cc0	#3b4cc0
+597	Campylobacter sp. 10_1_50	0.0	False	False	False	129.0	26.0	538.0	0.000254	0.001114	-0.21826251770388724	-124158162730.48656	#f7b79b	#93b5fe	#7da0f9	#3b4cc0	#3b4cc0	#d3dbe7	#81a4fb	#9fbfff
+598	Campylobacter sp. FOBRC14	0.0	False	False	False	201.0	15.0	218.0	0.0001	-0.000119	2.8033131371785203e-15	-20892655079.63789	#d9dce1	#ecd3c5	#f7b599	#3b4cc0	#3b4cc0	#d2dbe8	#a9c6fd	#a9c6fd
+602	Campylobacter ureolyticus	0.0	False	False	False	393.0	2.0	599.0	-0.0	-0.0	0.4777518770771927	-180701824669.03903	#3b4cc0	#d1493f	#5e7de7	#3b4cc0	#3b4cc0	#d2dbe8	#efcfbf	#9abbff
+603	candidate division SR1 bacterium RAAC1_SR1_1	0.0	False	False	False	135.0	26.0	566.0	0.000254	0.00031	-0.21826251770388724	-124158162730.50293	#f7bca1	#93b5fe	#6f92f3	#3b4cc0	#3b4cc0	#d3dbe7	#81a4fb	#9fbfff
+606	Candidatus Alistipes marseilloanorexicus	0.0	False	False	False	358.0	20.0	321.0	4.9e-05	-0.005928	-0.05118738692143151	-69356484518.58286	#5673e0	#cad8ef	#e3d9d3	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+610	Candidatus Bacteroides timonensis	0.0	False	False	False	331.0	20.0	322.0	4.9e-05	-0.003783	-0.05118738692143151	-69356484518.58315	#6c8ff1	#cad8ef	#e2dad5	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+634	Capnocytophaga granulosa	0.0005	True	False	False	89.0	23.0	136.0	0.002065	9.3e-05	-0.16810345155412262	66845875985.18462	#f29274	#afcafc	#ee8669	#7699f6	#4257c9	#d2dbe8	#8badfd	#afcafc
+635	Capnocytophaga ochracea	0.0012	True	False	False	10.0	1.0	646.0	0.082314	0.578929	1.0000000000000293	-708893536231.4955	#c0282f	#c83836	#4961d2	#c1d4f4	#b40426	#f7b99e	#e36b54	#688aef
+636	Capnocytophaga sp. CM59	0.001	True	False	False	90.0	23.0	134.0	0.002065	-7e-06	-0.16810345155412262	66845875985.19176	#f29274	#afcafc	#ee8468	#b6cefa	#4257c9	#d2dbe8	#8badfd	#afcafc
+637	Capnocytophaga sp. oral taxon 323	0.0007	True	False	False	0.0	1.0	640.0	0.082314	1.534291	1.0000000000000293	-708893536231.4318	#b50927	#c83836	#4b64d5	#90b2fe	#b40426	#b40426	#e36b54	#688aef
+638	Capnocytophaga sp. oral taxon 324	0.0017	True	False	False	21.0	1.0	642.0	0.082314	-1.00956	1.0000000000000293	-708893536231.4365	#ca3b37	#c83836	#4a63d3	#e1dad6	#b40426	#5b7ae5	#e36b54	#688aef
+641	Capnocytophaga sp. oral taxon 332	0.0026	True	False	False	27.0	1.0	656.0	0.082314	-1.321068	1.0000000000000293	-708893536231.7427	#cf453c	#c83836	#445acc	#f5c4ac	#b40426	#3b4cc0	#e36b54	#688aef
+642	Capnocytophaga sp. oral taxon 335	0.0003	True	False	False	23.0	1.0	645.0	0.082314	-1.223926	1.0000000000000293	-708893536231.4779	#cb3e38	#c83836	#4961d2	#5d7ce6	#b40426	#445acc	#e36b54	#688aef
+643	Capnocytophaga sp. oral taxon 336	0.0009	True	False	False	1.0	1.0	648.0	0.082314	1.236355	1.0000000000000293	-708893536231.579	#b70d28	#c83836	#485fd1	#aac7fd	#b40426	#d85646	#e36b54	#688aef
+644	Capnocytophaga sp. oral taxon 338	0.0026	True	False	False	51.0	1.0	87.0	0.014015	-0.063378	1.0000000000000293	371044891420.06433	#e0654f	#c83836	#e0654f	#f5c4ac	#7093f3	#ccd9ed	#e36b54	#cad8ef
+645	Capnocytophaga sp. oral taxon 380	0.0008	True	False	False	24.0	1.0	643.0	0.082314	-1.238708	1.0000000000000293	-708893536231.4436	#cc403a	#c83836	#4a63d3	#9dbdff	#b40426	#4358cb	#e36b54	#688aef
+646	Capnocytophaga sp. oral taxon 412	0.0005	True	False	False	20.0	1.0	644.0	0.082314	-0.892272	1.0000000000000293	-708893536231.4675	#c83836	#c83836	#4961d2	#7699f6	#b40426	#6a8bef	#e36b54	#688aef
+647	Capnocytophaga sp. oral taxon 863	0.0	False	True	False	57.0	21.0	2.0	0.010684	0.007712	-0.07654850267510734	818353130796.8103	#e36c55	#c1d4f4	#b70d28	#3b4cc0	#6384eb	#d3dbe7	#9bbcff	#e9d5cb
+649	Cardiobacterium hominis	0.005	True	False	False	5.0	-1.0	-1.0	0.082314	0.78852	1.275369900904602	2525253436959.793	#ba162b	#b40426	#b40426	#f18f71	#b40426	#f59f80	#3b4cc0	#3b4cc0
+651	Carnobacterium divergens	0.0	False	False	False	140.0	26.0	582.0	0.000254	-0.000384	-0.21826251770388724	-124158162730.5199	#f5c0a7	#93b5fe	#6788ee	#3b4cc0	#3b4cc0	#d2dbe8	#81a4fb	#9fbfff
+662	Catabacter hongkongensis	0.0	False	False	False	266.0	20.0	428.0	4.9e-05	-0.003295	-0.05118738692143151	-69356484518.60312	#a6c4fe	#cad8ef	#b5cdfa	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+665	Catenibacterium mitsuokai	0.0	False	False	False	250.0	20.0	296.0	4.9e-05	0.000376	-0.05118738692143151	-69356484518.48889	#b3cdfb	#cad8ef	#ebd3c6	#3b4cc0	#3b4cc0	#d3dbe7	#9fbfff	#a3c2fe
+671	Cellulomonas carbonis	0.0	False	False	False	250.0	20.0	283.0	4.9e-05	0.000376	-0.05118738692143151	-69356484518.4763	#b3cdfb	#cad8ef	#efcfbf	#3b4cc0	#3b4cc0	#d3dbe7	#9fbfff	#a3c2fe
+680	Centipeda periodontii	0.0	False	True	False	81.0	29.0	96.0	0.003561	-0.005844	-0.29512475214655526	334972311366.7364	#ef886b	#779af7	#e36b54	#3b4cc0	#485fd1	#d2dbe8	#7396f5	#c6d6f1
+708	Chryseobacterium haifense	0.0	False	False	False	391.0	17.0	199.0	2.4e-05	-0.000697	-0.02089760466071046	-14245085424.379665	#3c4ec2	#dfdbd9	#f7ac8e	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+742	Clostridia bacterium UC5.1-1D1	0.0	False	False	False	313.0	20.0	358.0	4.9e-05	-0.003735	-0.05118738692143151	-69356484518.59389	#7da0f9	#cad8ef	#d5dbe5	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+743	Clostridia bacterium UC5.1-1D10	0.0	False	False	False	250.0	20.0	399.0	4.9e-05	0.000376	-0.05118738692143151	-69356484518.59903	#b3cdfb	#cad8ef	#c3d5f4	#3b4cc0	#3b4cc0	#d3dbe7	#9fbfff	#a3c2fe
+745	Clostridia bacterium UC5.1-2F7	0.0	False	False	False	219.0	20.0	313.0	4.9e-05	0.023986	-0.05118738692143151	-69356484518.57375	#ccd9ed	#cad8ef	#e6d7cf	#3b4cc0	#3b4cc0	#d5dbe5	#9fbfff	#a3c2fe
+746	Clostridia bacterium UC5.1-2H11	0.0	False	False	False	393.0	30.0	12.0	-0.0	-0.0	-0.3169334882043817	757753514595.3497	#3b4cc0	#6e90f2	#bb1b2c	#3b4cc0	#3b4cc0	#d2dbe8	#6f92f3	#e5d8d1
+749	Clostridiaceae bacterium MS3	0.0	False	False	False	302.0	20.0	392.0	4.9e-05	-0.003661	-0.05118738692143151	-69356484518.59879	#86a9fc	#cad8ef	#c6d6f1	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+752	Clostridiales bacterium 1_7_47FAA	0.0	False	False	False	223.0	20.0	371.0	4.9e-05	0.010231	-0.05118738692143151	-69356484518.59766	#cad8ef	#cad8ef	#cfdaea	#3b4cc0	#3b4cc0	#d3dbe7	#9fbfff	#a3c2fe
+755	Clostridiales bacterium NK3B98	0.0	False	False	False	250.0	20.0	376.0	4.9e-05	0.000376	-0.05118738692143151	-69356484518.598	#b3cdfb	#cad8ef	#cdd9ec	#3b4cc0	#3b4cc0	#d3dbe7	#9fbfff	#a3c2fe
+757	Clostridiales bacterium S5-A14a	0.0	False	False	False	384.0	17.0	183.0	2.4e-05	0.000222	-0.02089760466071046	-14245085424.237366	#4257c9	#dfdbd9	#f6a385	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+760	Clostridiales bacterium VE202-01	0.0	False	False	False	368.0	20.0	349.0	4.9e-05	-0.006003	-0.05118738692143151	-69356484518.58752	#4e68d8	#cad8ef	#d8dce2	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+761	Clostridiales bacterium VE202-03	0.0	False	False	False	264.0	20.0	481.0	4.9e-05	-0.00327	-0.05118738692143151	-69356484518.80379	#a7c5fe	#cad8ef	#9abbff	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+766	Clostridiales bacterium VE202-13	0.0	False	False	False	251.0	20.0	361.0	4.9e-05	0.000368	-0.05118738692143151	-69356484518.59576	#b3cdfb	#cad8ef	#d4dbe6	#3b4cc0	#3b4cc0	#d3dbe7	#9fbfff	#a3c2fe
+767	Clostridiales bacterium VE202-14	0.0	False	False	False	234.0	20.0	364.0	4.9e-05	0.0076	-0.05118738692143151	-69356484518.59666	#c1d4f4	#cad8ef	#d2dbe8	#3b4cc0	#3b4cc0	#d3dbe7	#9fbfff	#a3c2fe
+768	Clostridiales bacterium VE202-15	0.0	False	False	False	252.0	20.0	388.0	4.9e-05	0.000363	-0.05118738692143151	-69356484518.59857	#b2ccfb	#cad8ef	#c7d7f0	#3b4cc0	#3b4cc0	#d3dbe7	#9fbfff	#a3c2fe
+769	Clostridiales bacterium VE202-16	0.0	False	False	False	359.0	20.0	403.0	4.9e-05	-0.00593	-0.05118738692143151	-69356484518.59943	#5572df	#cad8ef	#c1d4f4	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+771	Clostridiales bacterium VE202-21	0.0	False	False	False	355.0	20.0	415.0	4.9e-05	-0.005875	-0.05118738692143151	-69356484518.60202	#5977e3	#cad8ef	#bbd1f8	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+772	Clostridiales bacterium VE202-27	0.0	False	False	False	233.0	20.0	410.0	4.9e-05	0.007603	-0.05118738692143151	-69356484518.6008	#c1d4f4	#cad8ef	#bed2f6	#3b4cc0	#3b4cc0	#d3dbe7	#9fbfff	#a3c2fe
+773	Clostridiales bacterium VE202-28	0.0	False	False	False	393.0	30.0	11.0	-0.0	0.0	-0.3169334882043817	757753514595.3589	#3b4cc0	#6e90f2	#bb1b2c	#3b4cc0	#3b4cc0	#d2dbe8	#6f92f3	#e5d8d1
+784	Clostridium botulinum	0.0	False	False	False	292.0	20.0	367.0	4.9e-05	-0.003568	-0.05118738692143151	-69356484518.59709	#8fb1fe	#cad8ef	#d1dae9	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+791	Clostridium colicanis	0.0	False	False	False	384.0	17.0	181.0	2.4e-05	0.000222	-0.02089760466071046	-14245085424.237152	#4257c9	#dfdbd9	#f6a283	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+793	Clostridium dakarense	0.0	False	False	False	278.0	20.0	335.0	4.9e-05	-0.00347	-0.05118738692143151	-69356484518.58598	#9bbcff	#cad8ef	#dddcdc	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+802	Clostridium perfringens	0.0	False	False	False	242.0	20.0	395.0	4.9e-05	0.001416	-0.05118738692143151	-69356484518.5989	#bbd1f8	#cad8ef	#c5d6f2	#3b4cc0	#3b4cc0	#d3dbe7	#9fbfff	#a3c2fe
+806	Clostridium sartagoforme	0.0	False	False	False	255.0	20.0	392.0	4.9e-05	-0.002674	-0.05118738692143151	-69356484518.59879	#afcafc	#cad8ef	#c6d6f1	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+810	Clostridium sp. 7_2_43FAA	0.0	False	False	False	226.0	20.0	383.0	4.9e-05	0.009429	-0.05118738692143151	-69356484518.59833	#c7d7f0	#cad8ef	#cad8ef	#3b4cc0	#3b4cc0	#d3dbe7	#9fbfff	#a3c2fe
+811	Clostridium sp. 7_3_54FAA	0.0	False	False	False	237.0	20.0	476.0	4.9e-05	0.00759	-0.05118738692143151	-69356484518.65297	#bfd3f6	#cad8ef	#9dbdff	#3b4cc0	#3b4cc0	#d3dbe7	#9fbfff	#a3c2fe
+815	Clostridium sp. ASF502	0.0	False	False	False	225.0	20.0	407.0	4.9e-05	0.010153	-0.05118738692143151	-69356484518.60025	#c9d7f0	#cad8ef	#bfd3f6	#3b4cc0	#3b4cc0	#d3dbe7	#9fbfff	#a3c2fe
+816	Clostridium sp. ATCC 29733	0.0	False	False	False	220.0	20.0	431.0	4.9e-05	0.011389	-0.05118738692143151	-69356484518.60367	#ccd9ed	#cad8ef	#b3cdfb	#3b4cc0	#3b4cc0	#d3dbe7	#9fbfff	#a3c2fe
+817	Clostridium sp. ATCC BAA-442	0.0	False	False	False	307.0	20.0	418.0	4.9e-05	-0.003704	-0.05118738692143151	-69356484518.60243	#82a6fb	#cad8ef	#bad0f8	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+819	Clostridium sp. C8	0.0	False	False	False	295.0	20.0	397.0	4.9e-05	-0.003577	-0.05118738692143151	-69356484518.59894	#8caffe	#cad8ef	#c4d5f3	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+825	Clostridium sp. FS41	0.0	False	False	False	363.0	20.0	435.0	4.9e-05	-0.005967	-0.05118738692143151	-69356484518.60385	#536edd	#cad8ef	#b2ccfb	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+826	Clostridium sp. GD3	0.0	False	False	False	229.0	20.0	479.0	4.9e-05	0.008612	-0.05118738692143151	-69356484518.78513	#c5d6f2	#cad8ef	#9bbcff	#3b4cc0	#3b4cc0	#d3dbe7	#9fbfff	#a3c2fe
+827	Clostridium sp. HGF2	0.0	False	False	False	231.0	20.0	267.0	4.9e-05	0.008333	-0.05118738692143151	-69356484518.40338	#c4d5f3	#cad8ef	#f2cab5	#3b4cc0	#3b4cc0	#d3dbe7	#9fbfff	#a3c2fe
+830	Clostridium sp. JCC	0.0	False	False	False	283.0	20.0	331.0	4.9e-05	-0.003529	-0.05118738692143151	-69356484518.58478	#97b8ff	#cad8ef	#dfdbd9	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+832	Clostridium sp. KLE 1755	0.0	False	False	False	330.0	20.0	286.0	4.9e-05	-0.003782	-0.05118738692143151	-69356484518.47668	#6e90f2	#cad8ef	#eed0c0	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+835	Clostridium sp. KNHs214	0.0	False	False	False	288.0	20.0	425.0	4.9e-05	-0.003557	-0.05118738692143151	-69356484518.60284	#93b5fe	#cad8ef	#b7cff9	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+836	Clostridium sp. L2-50	0.0	False	False	False	301.0	20.0	436.0	4.9e-05	-0.003648	-0.05118738692143151	-69356484518.60394	#88abfd	#cad8ef	#b1cbfc	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+838	Clostridium sp. M62/1	0.0	False	False	False	362.0	20.0	408.0	4.9e-05	-0.005965	-0.05118738692143151	-69356484518.60031	#536edd	#cad8ef	#bfd3f6	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+841	Clostridium sp. ND2	0.0	False	False	False	384.0	17.0	179.0	2.4e-05	0.000222	-0.02089760466071046	-14245085424.237091	#4257c9	#dfdbd9	#f5a081	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+853	Collinsella aerofaciens	0.0	False	False	False	289.0	20.0	345.0	4.9e-05	-0.003561	-0.05118738692143151	-69356484518.58717	#92b4fe	#cad8ef	#dadce0	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+854	Collinsella intestinalis	0.0	False	False	False	268.0	20.0	309.0	4.9e-05	-0.003337	-0.05118738692143151	-69356484518.56873	#a5c3fe	#cad8ef	#e7d7ce	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+855	Collinsella sp. 4_8_47FAA	0.0	False	False	False	370.0	20.0	355.0	4.9e-05	-0.00602	-0.05118738692143151	-69356484518.59239	#4c66d6	#cad8ef	#d6dce4	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+857	Collinsella stercoris	0.0	False	False	False	346.0	20.0	422.0	4.9e-05	-0.005785	-0.05118738692143151	-69356484518.6027	#5f7fe8	#cad8ef	#b9d0f9	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+858	Collinsella tanakaei	0.0	False	False	False	393.0	33.0	104.0	-0.0	-0.0	-0.5820817529256714	210901121614.5215	#3b4cc0	#536edd	#e57058	#3b4cc0	#3b4cc0	#d2dbe8	#4257c9	#bcd2f7
+860	Comamonas aquatica	0.0	False	False	False	393.0	28.0	495.0	-0.0	0.0	-0.22535442050771975	-91156318128.8627	#3b4cc0	#81a4fb	#93b5fe	#3b4cc0	#3b4cc0	#d2dbe8	#80a3fa	#a2c1ff
+862	Comamonas testosteroni	0.0	False	False	False	384.0	17.0	157.0	2.4e-05	0.000222	-0.02089760466071046	-14245085424.23587	#4257c9	#dfdbd9	#f39475	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+863	Conchiformibius kuhniae	0.0	False	False	False	105.0	11.0	666.0	0.000678	-7.9e-05	0.04159684433658343	-901019537094.8759	#f6a283	#f7b599	#3f53c6	#3b4cc0	#3d50c3	#d2dbe8	#b1cbfc	#5875e1
+864	Conchiformibius steedae	0.0	False	False	False	105.0	11.0	661.0	0.000678	-7.9e-05	0.04159684433658343	-901019537094.8724	#f6a283	#f7b599	#4257c9	#3b4cc0	#3d50c3	#d2dbe8	#b1cbfc	#5875e1
+866	Coprobacillus sp. 3_3_56FAA	0.0	False	False	False	335.0	20.0	343.0	4.9e-05	-0.003792	-0.05118738692143151	-69356484518.58694	#6a8bef	#cad8ef	#dadce0	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+867	Coprobacillus sp. 8_1_38FAA	0.0	False	False	False	393.0	30.0	10.0	-0.0	0.0	-0.3169334882043817	757753514595.3676	#3b4cc0	#6e90f2	#bb1b2c	#3b4cc0	#3b4cc0	#d2dbe8	#6f92f3	#e5d8d1
+870	Coprobacter fastidiosus	0.0	False	False	False	393.0	33.0	107.0	-0.0	-0.0	-0.5820817529256714	210901121614.50873	#3b4cc0	#536edd	#e67259	#3b4cc0	#3b4cc0	#d2dbe8	#4257c9	#bcd2f7
+872	Coprococcus comes	0.0	False	False	False	348.0	20.0	348.0	4.9e-05	-0.005808	-0.05118738692143151	-69356484518.58736	#5e7de7	#cad8ef	#d8dce2	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+873	Coprococcus eutactus	0.0	False	False	False	348.0	20.0	411.0	4.9e-05	-0.005808	-0.05118738692143151	-69356484518.60089	#5e7de7	#cad8ef	#bed2f6	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+874	Coprococcus sp. HPP0048	0.0	False	False	False	351.0	20.0	464.0	4.9e-05	-0.005812	-0.05118738692143151	-69356484518.61597	#5b7ae5	#cad8ef	#a3c2fe	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+875	Coprococcus sp. HPP0074	0.0	False	False	False	325.0	20.0	463.0	4.9e-05	-0.003772	-0.05118738692143151	-69356484518.61592	#7295f4	#cad8ef	#a3c2fe	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+877	Coriobacteriaceae bacterium BV3Ac1	0.0	False	False	False	384.0	17.0	163.0	2.4e-05	0.000222	-0.02089760466071046	-14245085424.236145	#4257c9	#dfdbd9	#f39778	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+880	Corynebacterium ammoniagenes	0.0	False	False	False	393.0	10.0	624.0	-0.0	-0.0	0.05285922412917797	-660639087651.4738	#3b4cc0	#f7ac8e	#536edd	#3b4cc0	#3b4cc0	#d2dbe8	#b2ccfb	#6e90f2
+881	Corynebacterium argentoratense	0.0	False	False	False	95.0	23.0	132.0	0.002065	-0.004081	-0.16810345155412262	66845875985.19685	#f39778	#afcafc	#ed8366	#3b4cc0	#4257c9	#d2dbe8	#8badfd	#afcafc
+883	Corynebacterium aurimucosum	0.0	False	False	False	77.0	1.0	210.0	0.004783	-0.00839	1.0000000000000293	-18372832130.16549	#ee8468	#c83836	#f7b194	#3b4cc0	#4b64d5	#d2dbe8	#e36b54	#a9c6fd
+886	Corynebacterium camporealensis	0.0	False	False	False	393.0	10.0	636.0	-0.0	0.0	0.05285922412917797	-660639087651.4766	#3b4cc0	#f7ac8e	#4c66d6	#3b4cc0	#3b4cc0	#d2dbe8	#b2ccfb	#6e90f2
+887	Corynebacterium casei	0.0	False	False	False	393.0	2.0	598.0	-0.0	0.0	0.4777518770771927	-180701824669.03888	#3b4cc0	#d1493f	#5f7fe8	#3b4cc0	#3b4cc0	#d2dbe8	#efcfbf	#9abbff
+890	Corynebacterium diphtheriae	0.0	False	False	False	393.0	9.0	16.0	-0.0	-0.0	0.08239587487357558	714475213071.6108	#3b4cc0	#f6a283	#be242e	#3b4cc0	#3b4cc0	#d2dbe8	#b7cff9	#e2dad5
+897	Corynebacterium genitalium	0.0	False	False	False	393.0	16.0	90.0	-0.0	0.0	-0.006901944013460211	344361225088.7667	#3b4cc0	#e6d7cf	#e16751	#3b4cc0	#3b4cc0	#d2dbe8	#a7c5fe	#c7d7f0
+903	Corynebacterium jeikeium	0.0	False	False	False	393.0	9.0	17.0	-0.0	0.0	0.08239587487357558	714475213071.6106	#3b4cc0	#f6a283	#be242e	#3b4cc0	#3b4cc0	#d2dbe8	#b7cff9	#e2dad5
+904	Corynebacterium kroppenstedtii	0.0	False	False	False	393.0	10.0	630.0	-0.0	-0.0	0.05285922412917797	-660639087651.4749	#3b4cc0	#f7ac8e	#506bda	#3b4cc0	#3b4cc0	#d2dbe8	#b2ccfb	#6e90f2
+909	Corynebacterium massiliense	0.0	False	False	False	393.0	16.0	91.0	-0.0	0.0	-0.006901944013460211	344361225088.76483	#3b4cc0	#e6d7cf	#e16751	#3b4cc0	#3b4cc0	#d2dbe8	#a7c5fe	#c7d7f0
+911	Corynebacterium minutissimum	0.0	False	False	False	78.0	1.0	208.0	0.004783	-0.008563	1.0000000000000293	-18372832130.164562	#ee8468	#c83836	#f7b093	#3b4cc0	#4b64d5	#d2dbe8	#e36b54	#a9c6fd
+914	Corynebacterium propinquum	0.0	False	False	False	393.0	9.0	17.0	-0.0	-0.0	0.08239587487357558	714475213071.6106	#3b4cc0	#f6a283	#be242e	#3b4cc0	#3b4cc0	#d2dbe8	#b7cff9	#e2dad5
+915	Corynebacterium pseudodiphtheriticum	0.0	False	False	False	393.0	9.0	25.0	-0.0	-0.0	0.08239587487357558	714475213071.6082	#3b4cc0	#f6a283	#c32e31	#3b4cc0	#3b4cc0	#d2dbe8	#b7cff9	#e2dad5
+916	Corynebacterium pseudogenitalium	0.0	False	False	False	393.0	9.0	22.0	-0.0	-0.0	0.08239587487357558	714475213071.6091	#3b4cc0	#f6a283	#c12b30	#3b4cc0	#3b4cc0	#d2dbe8	#b7cff9	#e2dad5
+919	Corynebacterium renale	0.0	False	False	False	393.0	14.0	670.0	-0.0	0.0	0.01452303984424084	-992873655463.1277	#3b4cc0	#f1cdba	#3e51c5	#3b4cc0	#3b4cc0	#d2dbe8	#abc8fd	#506bda
+921	Corynebacterium riegelii	0.0	False	False	False	383.0	17.0	191.0	2.4e-05	0.000261	-0.02089760466071046	-14245085424.378195	#4358cb	#dfdbd9	#f7a889	#3b4cc0	#3b4cc0	#d3dbe7	#a5c3fe	#a9c6fd
+923	Corynebacterium sp. GD7	0.0	False	False	False	393.0	10.0	621.0	-0.0	0.0	0.05285922412917797	-660639087651.4724	#3b4cc0	#f7ac8e	#5470de	#3b4cc0	#3b4cc0	#d2dbe8	#b2ccfb	#6e90f2
+925	Corynebacterium sp. KPL1818	0.0	False	False	False	71.0	1.0	214.0	0.004783	-0.001851	1.0000000000000293	-18372832130.18414	#eb7d62	#c83836	#f7b396	#3b4cc0	#4b64d5	#d2dbe8	#e36b54	#a9c6fd
+926	Corynebacterium sp. KPL1824	0.0	False	False	False	69.0	1.0	215.0	0.004783	-0.001762	1.0000000000000293	-18372832130.187904	#ea7b60	#c83836	#f7b497	#3b4cc0	#4b64d5	#d2dbe8	#e36b54	#a9c6fd
+932	Corynebacterium tuberculostearicum	0.0	False	False	False	67.0	1.0	207.0	0.004783	-0.001374	1.0000000000000293	-18372832130.164284	#e9785d	#c83836	#f7b093	#3b4cc0	#4b64d5	#d2dbe8	#e36b54	#a9c6fd
+944	Crocosphaera watsonii	0.0	False	False	False	393.0	10.0	624.0	-0.0	0.0	0.05285922412917797	-660639087651.4738	#3b4cc0	#f7ac8e	#536edd	#3b4cc0	#3b4cc0	#d2dbe8	#b2ccfb	#6e90f2
+948	Cupriavidus basilensis	0.0	False	False	False	386.0	17.0	186.0	2.4e-05	0.000219	-0.02089760466071046	-14245085424.302822	#4055c8	#dfdbd9	#f6a586	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+949	Cupriavidus metallidurans	0.0	False	False	False	348.0	20.0	330.0	4.9e-05	-0.005808	-0.05118738692143151	-69356484518.58466	#5e7de7	#cad8ef	#dfdbd9	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+959	Dechloromonas agitata	0.0	False	False	False	393.0	28.0	505.0	-0.0	-0.0	-0.22535442050771975	-91156318128.86496	#3b4cc0	#81a4fb	#8db0fe	#3b4cc0	#3b4cc0	#d2dbe8	#80a3fa	#a2c1ff
+963	Dehalobacter sp. FTH1	0.0	False	False	False	204.0	15.0	231.0	0.0001	-0.000127	2.8033131371785203e-15	-20892655079.639977	#d7dce3	#ecd3c5	#f7bca1	#3b4cc0	#3b4cc0	#d2dbe8	#a9c6fd	#a9c6fd
+971	Delftia sp. Cs1-4	0.0	False	False	False	187.0	22.0	40.0	0.000105	-1.4e-05	-0.08477785949835788	514733528965.1684	#e2dad5	#b9d0f9	#cb3e38	#3b4cc0	#3b4cc0	#d2dbe8	#9abbff	#d5dbe5
+1012	Desulfotomaculum nigrificans	0.0	False	False	False	291.0	20.0	382.0	4.9e-05	-0.003566	-0.05118738692143151	-69356484518.59827	#90b2fe	#cad8ef	#cbd8ee	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1022	Desulfovibrio desulfuricans	0.0	False	False	False	319.0	20.0	344.0	4.9e-05	-0.003759	-0.05118738692143151	-69356484518.58696	#779af7	#cad8ef	#dadce0	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1028	Desulfovibrio piger	0.0	False	False	False	215.0	20.0	396.0	4.9e-05	0.028729	-0.05118738692143151	-69356484518.59892	#cfdaea	#cad8ef	#c4d5f3	#3b4cc0	#3b4cc0	#d5dbe5	#9fbfff	#a3c2fe
+1044	Dialister micraerophilus	0.0001	True	False	False	182.0	3.0	620.0	0.000127	-1.1e-05	0.439179255529685	-533219820966.8726	#e5d8d1	#d95847	#5470de	#455cce	#3b4cc0	#d2dbe8	#ebd3c6	#799cf8
+1045	Dialister succinatiphilus	0.0	False	False	False	236.0	20.0	301.0	4.9e-05	0.007591	-0.05118738692143151	-69356484518.49245	#c0d4f5	#cad8ef	#ead5c9	#3b4cc0	#3b4cc0	#d3dbe7	#9fbfff	#a3c2fe
+1057	Dorea formicigenerans	0.0	False	False	False	348.0	20.0	304.0	4.9e-05	-0.005808	-0.05118738692143151	-69356484518.56036	#5e7de7	#cad8ef	#e9d5cb	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1058	Dorea longicatena	0.0	False	False	False	349.0	20.0	359.0	4.9e-05	-0.005809	-0.05118738692143151	-69356484518.59402	#5e7de7	#cad8ef	#d4dbe6	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1060	Dorea sp. AGR2135	0.0	False	False	False	345.0	20.0	314.0	4.9e-05	-0.005781	-0.05118738692143151	-69356484518.5786	#6180e9	#cad8ef	#e5d8d1	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1074	Echinicola pacifica	0.0	False	False	False	203.0	15.0	235.0	0.0001	-0.000126	2.8033131371785203e-15	-20892655079.64045	#d8dce2	#ecd3c5	#f6bda2	#3b4cc0	#3b4cc0	#d2dbe8	#a9c6fd	#a9c6fd
+1080	Eggerthella sp. YY7918	0.0	False	False	False	364.0	20.0	427.0	4.9e-05	-0.005978	-0.05118738692143151	-69356484518.60306	#516ddb	#cad8ef	#b6cefa	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1082	Eggerthia catenaformis	0.0	False	False	False	54.0	1.0	61.0	0.014015	-0.065997	1.0000000000000293	371044891420.07916	#e26952	#c83836	#d55042	#3b4cc0	#7093f3	#ccd9ed	#e36b54	#cad8ef
+1083	Eikenella corrodens	0.0012	True	False	False	9.0	1.0	647.0	0.082314	0.608914	1.0000000000000293	-708893536231.5062	#be242e	#c83836	#485fd1	#c1d4f4	#b40426	#f7b599	#e36b54	#688aef
+1084	Elizabethkingia anophelis	0.0	False	False	False	393.0	28.0	503.0	-0.0	-0.0	-0.22535442050771975	-91156318128.86478	#3b4cc0	#81a4fb	#8fb1fe	#3b4cc0	#3b4cc0	#d2dbe8	#80a3fa	#a2c1ff
+1091	Enhydrobacter aerosaccus	0.0	False	False	False	384.0	17.0	165.0	2.4e-05	0.000222	-0.02089760466071046	-14245085424.236267	#4257c9	#dfdbd9	#f4987a	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+1093	Enterobacter aerogenes	0.0	False	False	False	393.0	2.0	602.0	-0.0	0.0	0.4777518770771927	-180701824669.04053	#3b4cc0	#d1493f	#5d7ce6	#3b4cc0	#3b4cc0	#d2dbe8	#efcfbf	#9abbff
+1107	Enterococcus cecorum	0.0	False	False	False	205.0	15.0	252.0	0.0001	-0.000129	2.8033131371785203e-15	-20892655079.64081	#d7dce3	#ecd3c5	#f4c5ad	#3b4cc0	#3b4cc0	#d2dbe8	#a9c6fd	#a9c6fd
+1112	Enterococcus faecium	0.0	False	False	False	317.0	20.0	374.0	4.9e-05	-0.003751	-0.05118738692143151	-69356484518.59796	#799cf8	#cad8ef	#cedaeb	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1127	Enterorhabdus mucosicola	0.0	False	False	False	279.0	20.0	291.0	4.9e-05	-0.00351	-0.05118738692143151	-69356484518.47696	#9bbcff	#cad8ef	#edd2c3	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1138	Erysipelotrichaceae bacterium 2_2_44A	0.0	False	False	False	331.0	20.0	416.0	4.9e-05	-0.003783	-0.05118738692143151	-69356484518.60226	#6c8ff1	#cad8ef	#bbd1f8	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1139	Erysipelotrichaceae bacterium 21_3	0.0	False	False	False	328.0	20.0	387.0	4.9e-05	-0.003779	-0.05118738692143151	-69356484518.59854	#6f92f3	#cad8ef	#c9d7f0	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1140	Erysipelotrichaceae bacterium 3_1_53	0.0	False	False	False	393.0	33.0	103.0	-0.0	-0.0	-0.5820817529256714	210901121614.53055	#3b4cc0	#536edd	#e57058	#3b4cc0	#3b4cc0	#d2dbe8	#4257c9	#bcd2f7
+1141	Erysipelotrichaceae bacterium 5_2_54FAA	0.0	False	False	False	234.0	20.0	386.0	4.9e-05	0.0076	-0.05118738692143151	-69356484518.59839	#c1d4f4	#cad8ef	#c9d7f0	#3b4cc0	#3b4cc0	#d3dbe7	#9fbfff	#a3c2fe
+1142	Erysipelotrichaceae bacterium 6_1_45	0.0	False	False	False	269.0	20.0	420.0	4.9e-05	-0.003353	-0.05118738692143151	-69356484518.60258	#a3c2fe	#cad8ef	#b9d0f9	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1146	Escherichia coli	0.0	False	False	False	353.0	20.0	286.0	4.9e-05	-0.005817	-0.05118738692143151	-69356484518.47668	#5a78e4	#cad8ef	#eed0c0	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1151	Eubacterium brachy	0.0039	True	False	False	38.0	-1.0	-1.0	0.014015	0.053955	1.275369900904602	2525253436959.793	#d75445	#b40426	#b40426	#f7b89c	#7093f3	#d7dce3	#3b4cc0	#3b4cc0
+1152	Eubacterium desmolans	0.0	False	False	False	348.0	20.0	429.0	4.9e-05	-0.005808	-0.05118738692143151	-69356484518.60315	#5e7de7	#cad8ef	#b5cdfa	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1153	Eubacterium limosum	0.0	False	False	False	342.0	20.0	394.0	4.9e-05	-0.005354	-0.05118738692143151	-69356484518.59885	#6384eb	#cad8ef	#c5d6f2	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1154	Eubacterium plexicaudatum	0.0	False	False	False	256.0	20.0	377.0	4.9e-05	-0.002839	-0.05118738692143151	-69356484518.59804	#afcafc	#cad8ef	#cdd9ec	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1155	Eubacterium ramulus	0.0	False	False	False	257.0	20.0	359.0	4.9e-05	-0.003101	-0.05118738692143151	-69356484518.59402	#aec9fc	#cad8ef	#d4dbe6	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1156	Eubacterium saphenum	0.0	False	False	False	92.0	23.0	128.0	0.002065	-0.00253	-0.16810345155412262	66845875985.20052	#f39577	#afcafc	#ec8165	#3b4cc0	#4257c9	#d2dbe8	#8badfd	#afcafc
+1158	Eubacterium sp. 3_1_31	0.0	False	False	False	393.0	10.0	632.0	-0.0	-0.0	0.05285922412917797	-660639087651.4757	#3b4cc0	#f7ac8e	#4f69d9	#3b4cc0	#3b4cc0	#d2dbe8	#b2ccfb	#6e90f2
+1159	Eubacterium sp. AB3007	0.0	False	False	False	274.0	20.0	347.0	4.9e-05	-0.003412	-0.05118738692143151	-69356484518.58734	#9fbfff	#cad8ef	#d9dce1	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1160	Eubacterium sp. ER2	0.0	False	False	False	281.0	20.0	489.0	4.9e-05	-0.003527	-0.05118738692143151	-69356484518.82343	#98b9ff	#cad8ef	#96b7ff	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1161	Eubacterium sp. SB2	0.0	False	False	False	354.0	20.0	391.0	4.9e-05	-0.005874	-0.05118738692143151	-69356484518.59874	#5977e3	#cad8ef	#c6d6f1	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1162	Eubacterium ventriosum	0.0	False	False	False	243.0	20.0	336.0	4.9e-05	0.001068	-0.05118738692143151	-69356484518.586	#bad0f8	#cad8ef	#dddcdc	#3b4cc0	#3b4cc0	#d3dbe7	#9fbfff	#a3c2fe
+1163	Eubacterium xylanophilum	0.0	False	False	False	105.0	11.0	660.0	0.000678	-7.9e-05	0.04159684433658343	-901019537094.8723	#f6a283	#f7b599	#4257c9	#3b4cc0	#3d50c3	#d2dbe8	#b1cbfc	#5875e1
+1165	Exiguobacterium marinum	0.0	False	False	False	393.0	10.0	632.0	-0.0	-0.0	0.05285922412917797	-660639087651.4757	#3b4cc0	#f7ac8e	#4f69d9	#3b4cc0	#3b4cc0	#d2dbe8	#b2ccfb	#6e90f2
+1167	Exiguobacterium sp. S17	0.0	False	False	False	384.0	17.0	174.0	2.4e-05	0.000222	-0.02089760466071046	-14245085424.236801	#4257c9	#dfdbd9	#f59d7e	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+1168	Facklamia hominis	0.0	False	False	False	393.0	14.0	671.0	-0.0	-0.0	0.01452303984424084	-992873655463.1288	#3b4cc0	#f1cdba	#3d50c3	#3b4cc0	#3b4cc0	#d2dbe8	#abc8fd	#506bda
+1169	Facklamia ignava	0.0	False	False	False	384.0	17.0	200.0	2.4e-05	0.000222	-0.02089760466071046	-14245085424.380413	#4257c9	#dfdbd9	#f7ac8e	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+1173	Faecalicoccus pleomorphus	0.0	False	False	False	356.0	20.0	430.0	4.9e-05	-0.005876	-0.05118738692143151	-69356484518.6034	#5875e1	#cad8ef	#b5cdfa	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1174	Faecalitalea cylindroides	0.0	False	False	False	318.0	20.0	390.0	4.9e-05	-0.003758	-0.05118738692143151	-69356484518.59871	#799cf8	#cad8ef	#c7d7f0	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1176	Fenollaria massiliensis	0.0	False	False	False	385.0	17.0	164.0	2.4e-05	0.00022	-0.02089760466071046	-14245085424.236221	#4055c8	#dfdbd9	#f39778	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+1186	Filifactor alocis	0.0012	True	False	False	53.0	1.0	63.0	0.014015	-0.065354	1.0000000000000293	371044891420.0783	#e16751	#c83836	#d65244	#c1d4f4	#7093f3	#ccd9ed	#e36b54	#cad8ef
+1187	Finegoldia magna	0.0	False	False	False	393.0	9.0	26.0	-0.0	0.0	0.08239587487357558	714475213071.6035	#3b4cc0	#f6a283	#c43032	#3b4cc0	#3b4cc0	#d2dbe8	#b7cff9	#e2dad5
+1208	Flavobacterium saliperosum	0.0	False	False	False	104.0	11.0	659.0	0.000678	0.000634	0.04159684433658343	-901019537094.8722	#f5a081	#f7b599	#4358cb	#3b4cc0	#3d50c3	#d3dbe7	#b1cbfc	#5875e1
+1217	Flavonifractor plautii	0.0	False	False	False	327.0	20.0	480.0	4.9e-05	-0.003778	-0.05118738692143151	-69356484518.78606	#7093f3	#cad8ef	#9bbcff	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1229	Fusobacterium hwasookii	0.0001	True	False	False	97.0	32.0	1.0	0.000763	0.000577	-0.5253278088340483	2525253436959.7686	#f49a7b	#5b7ae5	#b50927	#455cce	#3d50c3	#d3dbe7	#4b64d5	#b50927
+1231	Fusobacterium necrophorum	0.0	False	False	False	393.0	34.0	123.0	-0.0	-0.0	-0.6097006641508609	88475330553.91829	#3b4cc0	#4a63d3	#eb7d62	#3b4cc0	#3b4cc0	#d2dbe8	#3e51c5	#b2ccfb
+1232	Fusobacterium nucleatum	0.0049	True	False	False	50.0	-1.0	-1.0	0.014015	-0.062891	1.275369900904602	2525253436959.793	#df634e	#b40426	#b40426	#f59f80	#7093f3	#ccd9ed	#3b4cc0	#3b4cc0
+1236	Fusobacterium sp. CM1	0.0	False	False	False	50.0	1.0	76.0	0.014015	-0.062891	1.0000000000000293	371044891420.0712	#df634e	#c83836	#da5a49	#3b4cc0	#7093f3	#ccd9ed	#e36b54	#cad8ef
+1237	Fusobacterium sp. CM21	0.0	False	False	False	393.0	34.0	124.0	-0.0	0.0	-0.6097006641508609	88475330553.91795	#3b4cc0	#4a63d3	#eb7d62	#3b4cc0	#3b4cc0	#d2dbe8	#3e51c5	#b2ccfb
+1238	Fusobacterium sp. CM22	0.0	False	False	False	101.0	32.0	0.0	0.000763	-0.000193	-0.5253278088340483	2525253436959.793	#f59d7e	#5b7ae5	#b50927	#3b4cc0	#3d50c3	#d2dbe8	#4b64d5	#b40426
+1240	Fusobacterium sp. oral taxon 370	0.0	False	False	False	139.0	26.0	561.0	0.000254	-0.000287	-0.21826251770388724	-124158162730.48997	#f6bfa6	#93b5fe	#7093f3	#3b4cc0	#3b4cc0	#d2dbe8	#81a4fb	#9fbfff
+1241	Fusobacterium ulcerans	0.0	False	False	False	393.0	7.0	100.0	-0.0	-0.0	0.13117290373138454	321616865524.2382	#3b4cc0	#f18d6f	#e36c55	#3b4cc0	#3b4cc0	#d2dbe8	#c0d4f5	#c6d6f1
+1245	Gallibacterium anatis	0.0	False	False	False	192.0	15.0	250.0	0.0001	0.000161	2.8033131371785203e-15	-20892655079.640747	#dfdbd9	#ecd3c5	#f5c4ac	#3b4cc0	#3b4cc0	#d2dbe8	#a9c6fd	#a9c6fd
+1246	Gallibacterium genomosp. 1	0.0	False	False	False	202.0	15.0	251.0	0.0001	-0.000123	2.8033131371785203e-15	-20892655079.640762	#d8dce2	#ecd3c5	#f5c4ac	#3b4cc0	#3b4cc0	#d2dbe8	#a9c6fd	#a9c6fd
+1253	Gemella bergeri	0.0	False	False	False	192.0	15.0	253.0	0.0001	0.000161	2.8033131371785203e-15	-20892655079.641113	#dfdbd9	#ecd3c5	#f4c5ad	#3b4cc0	#3b4cc0	#d2dbe8	#a9c6fd	#a9c6fd
+1254	Gemella cuniculi	0.0	False	False	False	192.0	15.0	229.0	0.0001	0.000161	2.8033131371785203e-15	-20892655079.63878	#dfdbd9	#ecd3c5	#f7ba9f	#3b4cc0	#3b4cc0	#d2dbe8	#a9c6fd	#a9c6fd
+1256	Gemella morbillorum	0.0	False	True	False	94.0	23.0	138.0	0.002065	-0.004061	-0.16810345155412262	66845875985.1678	#f39778	#afcafc	#ef886b	#3b4cc0	#4257c9	#d2dbe8	#8badfd	#afcafc
+1286	Gordonibacter pamelaeae	0.0	False	False	False	312.0	20.0	376.0	4.9e-05	-0.00373	-0.05118738692143151	-69356484518.598	#7da0f9	#cad8ef	#cdd9ec	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1297	Gulbenkiania mobilis	0.0	False	False	False	393.0	10.0	626.0	-0.0	0.0	0.05285922412917797	-660639087651.4744	#3b4cc0	#f7ac8e	#516ddb	#3b4cc0	#3b4cc0	#d2dbe8	#b2ccfb	#6e90f2
+1305	Haemophilus sp. C1	0.0	False	False	False	99.0	0.0	8.0	0.000763	0.00045	1.275369900904602	804776541202.008	#f59c7d	#be242e	#ba162b	#3b4cc0	#3d50c3	#d3dbe7	#b40426	#e8d6cc
+1307	Haemophilus sp. oral taxon 851	0.0	False	False	False	192.0	15.0	228.0	0.0001	0.000161	2.8033131371785203e-15	-20892655079.638733	#dfdbd9	#ecd3c5	#f7ba9f	#3b4cc0	#3b4cc0	#d2dbe8	#a9c6fd	#a9c6fd
+1315	Hallella seregens	0.0	False	False	False	214.0	20.0	292.0	4.9e-05	0.028929	-0.05118738692143151	-69356484518.47713	#d1dae9	#cad8ef	#ecd3c5	#3b4cc0	#3b4cc0	#d5dbe5	#9fbfff	#a3c2fe
+1340	Helicobacter suis	0.0	False	False	False	393.0	10.0	635.0	-0.0	-0.0	0.05285922412917797	-660639087651.4761	#3b4cc0	#f7ac8e	#4e68d8	#3b4cc0	#3b4cc0	#d2dbe8	#b2ccfb	#6e90f2
+1344	Herbaspirillum huttiense	0.0	False	False	False	384.0	17.0	173.0	2.4e-05	0.000222	-0.02089760466071046	-14245085424.236725	#4257c9	#dfdbd9	#f59d7e	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+1346	Herbaspirillum sp. B39	0.0	False	False	False	384.0	17.0	178.0	2.4e-05	0.000222	-0.02089760466071046	-14245085424.237	#4257c9	#dfdbd9	#f5a081	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+1352	Holdemanella biformis	0.0	False	False	False	272.0	20.0	398.0	4.9e-05	-0.00337	-0.05118738692143151	-69356484518.59897	#a1c0ff	#cad8ef	#c4d5f3	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1353	Holdemania filiformis	0.0	False	False	False	211.0	20.0	417.0	4.9e-05	0.029017	-0.05118738692143151	-69356484518.60239	#d3dbe7	#cad8ef	#bbd1f8	#3b4cc0	#3b4cc0	#d5dbe5	#9fbfff	#a3c2fe
+1354	Holdemania massiliensis	0.0	False	False	False	339.0	20.0	406.0	4.9e-05	-0.003873	-0.05118738692143151	-69356484518.59984	#6687ed	#cad8ef	#c0d4f5	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1356	Hungatella hathewayi	0.0	False	False	False	290.0	20.0	378.0	4.9e-05	-0.003564	-0.05118738692143151	-69356484518.59814	#92b4fe	#cad8ef	#ccd9ed	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1370	Intestinimonas butyriciproducens	0.0	False	False	False	211.0	20.0	437.0	4.9e-05	0.029017	-0.05118738692143151	-69356484518.604	#d3dbe7	#cad8ef	#b1cbfc	#3b4cc0	#3b4cc0	#d5dbe5	#9fbfff	#a3c2fe
+1372	Isoptericola variabilis	0.0	False	False	False	134.0	26.0	527.0	0.000254	0.000345	-0.21826251770388724	-124158162730.4832	#f7bca1	#93b5fe	#82a6fb	#3b4cc0	#3b4cc0	#d3dbe7	#81a4fb	#9fbfff
+1373	Janibacter hoylei	0.0	False	False	False	107.0	11.0	665.0	0.000678	-8.2e-05	0.04159684433658343	-901019537094.8757	#f6a385	#f7b599	#3f53c6	#3b4cc0	#3d50c3	#d2dbe8	#b1cbfc	#5875e1
+1380	Johnsonella ignava	0.0	False	False	False	83.0	23.0	143.0	0.002065	0.010072	-0.16810345155412262	66845875985.15156	#f08b6e	#afcafc	#f08b6e	#3b4cc0	#4257c9	#d3dbe7	#8badfd	#afcafc
+1386	Kandleria vitulina	0.0	False	False	False	322.0	20.0	299.0	4.9e-05	-0.003764	-0.05118738692143151	-69356484518.4918	#7597f6	#cad8ef	#ead4c8	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1390	Kingella denitrificans	0.015	True	False	False	17.0	-1.0	-1.0	0.082314	-0.59501	1.275369900904602	2525253436959.793	#c53334	#b40426	#b40426	#da5a49	#b40426	#8db0fe	#3b4cc0	#3b4cc0
+1391	Kingella kingae	0.0001	True	False	False	198.0	15.0	222.0	0.0001	-5e-05	2.8033131371785203e-15	-20892655079.638466	#dbdcde	#ecd3c5	#f7b79b	#455cce	#3b4cc0	#d2dbe8	#a9c6fd	#a9c6fd
+1393	Kingella sp. Sch538	0.0	False	False	False	205.0	15.0	225.0	0.0001	-0.000129	2.8033131371785203e-15	-20892655079.638546	#d7dce3	#ecd3c5	#f7b89c	#3b4cc0	#3b4cc0	#d2dbe8	#a9c6fd	#a9c6fd
+1394	Klebsiella oxytoca	0.0	False	False	False	393.0	9.0	24.0	-0.0	0.0	0.08239587487357558	714475213071.6086	#3b4cc0	#f6a283	#c32e31	#3b4cc0	#3b4cc0	#d2dbe8	#b7cff9	#e2dad5
+1398	Kocuria kristinae	0.0	False	False	False	393.0	14.0	669.0	-0.0	0.0	0.01452303984424084	-992873655463.1255	#3b4cc0	#f1cdba	#3e51c5	#3b4cc0	#3b4cc0	#d2dbe8	#abc8fd	#506bda
+1400	Kocuria rhizophila	0.0	False	False	False	393.0	10.0	627.0	-0.0	-0.0	0.05285922412917797	-660639087651.4745	#3b4cc0	#f7ac8e	#516ddb	#3b4cc0	#3b4cc0	#d2dbe8	#b2ccfb	#6e90f2
+1406	Kytococcus sedentarius	0.0	False	False	False	120.0	26.0	531.0	0.000254	0.008234	-0.21826251770388724	-124158162730.48479	#f7b093	#93b5fe	#81a4fb	#3b4cc0	#3b4cc0	#d3dbe7	#81a4fb	#9fbfff
+1408	Lachnoanaerobaculum sp. ICM7	0.0	False	False	False	145.0	26.0	564.0	0.000254	-0.0008	-0.21826251770388724	-124158162730.49182	#f5c4ac	#93b5fe	#6f92f3	#3b4cc0	#3b4cc0	#d2dbe8	#81a4fb	#9fbfff
+1409	Lachnoanaerobaculum sp. MSX33	0.0	False	False	False	144.0	26.0	556.0	0.000254	-0.000769	-0.21826251770388724	-124158162730.48894	#f5c2aa	#93b5fe	#7396f5	#3b4cc0	#3b4cc0	#d2dbe8	#81a4fb	#9fbfff
+1410	Lachnoanaerobaculum sp. OBRC5-5	0.0	False	False	False	151.0	26.0	550.0	0.000254	-0.002596	-0.21826251770388724	-124158162730.48814	#f3c8b2	#93b5fe	#779af7	#3b4cc0	#3b4cc0	#d2dbe8	#81a4fb	#9fbfff
+1413	Lachnospira multipara	0.0	False	False	False	212.0	20.0	445.0	4.9e-05	0.028966	-0.05118738692143151	-69356484518.60928	#d2dbe8	#cad8ef	#adc9fd	#3b4cc0	#3b4cc0	#d5dbe5	#9fbfff	#a3c2fe
+1414	Lachnospiraceae bacterium 1_4_56FAA	0.0	False	False	False	224.0	20.0	462.0	4.9e-05	0.010166	-0.05118738692143151	-69356484518.61581	#c9d7f0	#cad8ef	#a5c3fe	#3b4cc0	#3b4cc0	#d3dbe7	#9fbfff	#a3c2fe
+1416	Lachnospiraceae bacterium 2_1_46FAA	0.0	False	False	False	306.0	20.0	458.0	4.9e-05	-0.003696	-0.05118738692143151	-69356484518.61559	#82a6fb	#cad8ef	#a6c4fe	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1417	Lachnospiraceae bacterium 2_1_58FAA	0.0	False	False	False	331.0	20.0	447.0	4.9e-05	-0.003783	-0.05118738692143151	-69356484518.61073	#6c8ff1	#cad8ef	#abc8fd	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1419	Lachnospiraceae bacterium 3_1_46FAA	0.0	False	False	False	258.0	20.0	370.0	4.9e-05	-0.003107	-0.05118738692143151	-69356484518.59752	#adc9fd	#cad8ef	#cfdaea	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1420	Lachnospiraceae bacterium 3_1_57FAA_CT1	0.0	False	False	False	325.0	20.0	373.0	4.9e-05	-0.003772	-0.05118738692143151	-69356484518.5979	#7295f4	#cad8ef	#cedaeb	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1421	Lachnospiraceae bacterium 3-1	0.0	False	False	False	340.0	20.0	441.0	4.9e-05	-0.003928	-0.05118738692143151	-69356484518.6066	#6485ec	#cad8ef	#afcafc	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1425	Lachnospiraceae bacterium 6_1_37FAA	0.0	False	False	False	393.0	35.0	109.0	-0.0	-0.0	-0.6326947911854885	191359279403.21158	#3b4cc0	#4257c9	#e7745b	#3b4cc0	#3b4cc0	#d2dbe8	#3b4cc0	#bbd1f8
+1426	Lachnospiraceae bacterium 6_1_63FAA	0.0	False	False	False	230.0	20.0	472.0	4.9e-05	0.008384	-0.05118738692143151	-69356484518.62032	#c4d5f3	#cad8ef	#9fbfff	#3b4cc0	#3b4cc0	#d3dbe7	#9fbfff	#a3c2fe
+1427	Lachnospiraceae bacterium 7_1_58FAA	0.0	False	False	False	347.0	20.0	478.0	4.9e-05	-0.005789	-0.05118738692143151	-69356484518.75731	#5f7fe8	#cad8ef	#9dbdff	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1428	Lachnospiraceae bacterium 9_1_43BFAA	0.0	False	False	False	314.0	20.0	470.0	4.9e-05	-0.003736	-0.05118738692143151	-69356484518.61768	#7b9ff9	#cad8ef	#a1c0ff	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1429	Lachnospiraceae bacterium A2	0.0	False	False	False	311.0	20.0	340.0	4.9e-05	-0.003718	-0.05118738692143151	-69356484518.58635	#7ea1fa	#cad8ef	#dbdcde	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1456	Lachnospiraceae bacterium oral taxon 500	0.0001	True	False	False	16.0	1.0	657.0	0.082314	-0.187114	1.0000000000000293	-708893536231.7544	#c43032	#c83836	#4358cb	#455cce	#b40426	#bfd3f6	#e36b54	#688aef
+1459	Lachnospiraceae bacterium TF01-11	0.0	False	False	False	282.0	20.0	346.0	4.9e-05	-0.003528	-0.05118738692143151	-69356484518.5873	#98b9ff	#cad8ef	#d9dce1	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1467	Lactobacillus acidophilus	0.0	False	False	False	185.0	22.0	47.0	0.000105	-7e-06	-0.08477785949835788	514733528965.1675	#e3d9d3	#b9d0f9	#cf453c	#3b4cc0	#3b4cc0	#d2dbe8	#9abbff	#d5dbe5
+1470	Lactobacillus amylovorus	0.0	False	False	False	393.0	8.0	27.0	-0.0	0.0	0.10925390222022313	518075332865.6098	#3b4cc0	#f4987a	#c43032	#3b4cc0	#3b4cc0	#d2dbe8	#bcd2f7	#d5dbe5
+1472	Lactobacillus antri	0.0	False	False	False	384.0	17.0	196.0	2.4e-05	0.000222	-0.02089760466071046	-14245085424.379107	#4257c9	#dfdbd9	#f7a98b	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+1474	Lactobacillus brevis	0.0	False	False	False	185.0	22.0	44.0	0.000105	-7e-06	-0.08477785949835788	514733528965.16797	#e3d9d3	#b9d0f9	#cc403a	#3b4cc0	#3b4cc0	#d2dbe8	#9abbff	#d5dbe5
+1478	Lactobacillus coleohominis	0.0	False	False	False	384.0	17.0	188.0	2.4e-05	0.000222	-0.02089760466071046	-14245085424.375532	#4257c9	#dfdbd9	#f6a586	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+1480	Lactobacillus coryniformis	0.0	False	False	False	150.0	26.0	594.0	0.000254	-0.002078	-0.21826251770388724	-124158162730.52216	#f3c7b1	#93b5fe	#6180e9	#3b4cc0	#3b4cc0	#d2dbe8	#81a4fb	#9fbfff
+1483	Lactobacillus curvatus	0.0	False	False	False	153.0	26.0	569.0	0.000254	-0.002773	-0.21826251770388724	-124158162730.51889	#f2c9b4	#93b5fe	#6c8ff1	#3b4cc0	#3b4cc0	#d2dbe8	#81a4fb	#9fbfff
+1489	Lactobacillus fermentum	0.0	False	False	False	393.0	10.0	628.0	-0.0	0.0	0.05285922412917797	-660639087651.4746	#3b4cc0	#f7ac8e	#506bda	#3b4cc0	#3b4cc0	#d2dbe8	#b2ccfb	#6e90f2
+1492	Lactobacillus frumenti	0.0	False	False	False	384.0	17.0	192.0	2.4e-05	0.000222	-0.02089760466071046	-14245085424.378641	#4257c9	#dfdbd9	#f7a889	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+1494	Lactobacillus gasseri	0.0	False	False	False	384.0	17.0	158.0	2.4e-05	0.000222	-0.02089760466071046	-14245085424.235916	#4257c9	#dfdbd9	#f39475	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+1496	Lactobacillus gigeriorum	0.0	False	False	False	393.0	25.0	677.0	-0.0	-0.0	-0.2077520928979567	-1273345473902.08	#3b4cc0	#9dbdff	#3b4cc0	#3b4cc0	#3b4cc0	#d2dbe8	#82a6fb	#3b4cc0
+1501	Lactobacillus helveticus	0.0	False	False	False	171.0	26.0	572.0	0.000254	-0.008166	-0.21826251770388724	-124158162730.5193	#ebd3c6	#93b5fe	#6b8df0	#3b4cc0	#3b4cc0	#d2dbe8	#81a4fb	#9fbfff
+1502	Lactobacillus hominis	0.0	False	False	False	385.0	17.0	172.0	2.4e-05	0.00022	-0.02089760466071046	-14245085424.236664	#4055c8	#dfdbd9	#f59c7d	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+1507	Lactobacillus johnsonii	0.0	False	False	False	384.0	17.0	195.0	2.4e-05	0.000222	-0.02089760466071046	-14245085424.379017	#4257c9	#dfdbd9	#f7a98b	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+1521	Lactobacillus oris	0.0	False	False	False	384.0	17.0	187.0	2.4e-05	0.000222	-0.02089760466071046	-14245085424.375051	#4257c9	#dfdbd9	#f6a586	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+1523	Lactobacillus panis	0.0	False	False	False	391.0	17.0	189.0	2.4e-05	-0.000697	-0.02089760466071046	-14245085424.37622	#3c4ec2	#dfdbd9	#f7a688	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+1530	Lactobacillus plantarum	0.0	False	False	False	393.0	10.0	628.0	-0.0	0.0	0.05285922412917797	-660639087651.4746	#3b4cc0	#f7ac8e	#506bda	#3b4cc0	#3b4cc0	#d2dbe8	#b2ccfb	#6e90f2
+1532	Lactobacillus psittaci	0.0	False	False	False	393.0	25.0	676.0	-0.0	0.0	-0.2077520928979567	-1273345473902.0767	#3b4cc0	#9dbdff	#3b4cc0	#3b4cc0	#3b4cc0	#d2dbe8	#82a6fb	#3b4cc0
+1536	Lactobacillus ruminis	0.0	False	False	False	377.0	20.0	442.0	4.9e-05	-0.006288	-0.05118738692143151	-69356484518.60712	#465ecf	#cad8ef	#aec9fc	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1549	Lactobacillus vaginalis	0.0	False	False	False	391.0	17.0	190.0	2.4e-05	-0.000697	-0.02089760466071046	-14245085424.377754	#3c4ec2	#dfdbd9	#f7a688	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+1570	Lelliottia amnigena	0.0	False	False	False	72.0	1.0	202.0	0.004783	-0.00186	1.0000000000000293	-18372832130.1584	#ec7f63	#c83836	#f7ad90	#3b4cc0	#4b64d5	#d2dbe8	#e36b54	#a9c6fd
+1575	Leptotrichia buccalis	0.0	False	False	False	22.0	1.0	658.0	0.082314	-1.108074	1.0000000000000293	-708893536231.7656	#ca3b37	#c83836	#4358cb	#3b4cc0	#b40426	#516ddb	#e36b54	#688aef
+1576	Leptotrichia goodfellowii	0.0007	True	False	False	14.0	1.0	649.0	0.082314	0.339345	1.0000000000000293	-708893536231.6561	#c32e31	#c83836	#465ecf	#90b2fe	#b40426	#efcfbf	#e36b54	#688aef
+1577	Leptotrichia hofstadii	0.0	False	False	False	93.0	23.0	135.0	0.002065	-0.004057	-0.16810345155412262	66845875985.18897	#f39577	#afcafc	#ee8669	#3b4cc0	#4257c9	#d2dbe8	#8badfd	#afcafc
+1581	Leptotrichia sp. oral taxon 225	0.0	False	False	False	13.0	1.0	651.0	0.082314	0.377159	1.0000000000000293	-708893536231.6947	#c32e31	#c83836	#465ecf	#3b4cc0	#b40426	#f1cdba	#e36b54	#688aef
+1583	Leptotrichia trevisanii	0.0004	True	False	False	86.0	23.0	141.0	0.002065	0.004784	-0.16810345155412262	66845875985.158775	#f18f71	#afcafc	#f08a6c	#688aef	#4257c9	#d3dbe7	#8badfd	#afcafc
+1586	Leucobacter sp. CBX151	0.0	False	False	False	393.0	10.0	633.0	-0.0	0.0	0.05285922412917797	-660639087651.4758	#3b4cc0	#f7ac8e	#4e68d8	#3b4cc0	#3b4cc0	#d2dbe8	#b2ccfb	#6e90f2
+1587	Leuconostoc carnosum	0.0	False	False	False	157.0	26.0	581.0	0.000254	-0.003278	-0.21826251770388724	-124158162730.51987	#f2cbb7	#93b5fe	#6788ee	#3b4cc0	#3b4cc0	#d2dbe8	#81a4fb	#9fbfff
+1588	Leuconostoc gelidum	0.0	False	False	False	170.0	26.0	567.0	0.000254	-0.008102	-0.21826251770388724	-124158162730.51831	#ecd3c5	#93b5fe	#6e90f2	#3b4cc0	#3b4cc0	#d2dbe8	#81a4fb	#9fbfff
+1589	Leuconostoc mesenteroides	0.0	False	False	False	224.0	20.0	338.0	4.9e-05	0.010166	-0.05118738692143151	-69356484518.5863	#c9d7f0	#cad8ef	#dcdddd	#3b4cc0	#3b4cc0	#d3dbe7	#9fbfff	#a3c2fe
+1592	Levyella massiliensis	0.0	False	False	False	254.0	20.0	434.0	4.9e-05	-0.00234	-0.05118738692143151	-69356484518.60382	#b1cbfc	#cad8ef	#b2ccfb	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1607	Mageeibacillus indolicus	0.0	False	False	False	182.0	3.0	618.0	0.000127	-1.1e-05	0.439179255529685	-533219820966.8717	#e5d8d1	#d95847	#5572df	#3b4cc0	#3b4cc0	#d2dbe8	#ebd3c6	#799cf8
+1612	Mannheimia haemolytica	0.0	False	False	False	206.0	15.0	242.0	0.0001	-0.000131	2.8033131371785203e-15	-20892655079.640625	#d6dce4	#ecd3c5	#f5c0a7	#3b4cc0	#3b4cc0	#d2dbe8	#a9c6fd	#a9c6fd
+1613	Mannheimia sp. MG13	0.0	False	False	False	117.0	31.0	60.0	0.000305	-5.6e-05	-0.38303187057407523	394390469552.75	#f7ad90	#6485ec	#d44e41	#3b4cc0	#3b4cc0	#d2dbe8	#6384eb	#cbd8ee
+1614	Mannheimia varigena	0.0	False	False	False	207.0	15.0	239.0	0.0001	-0.000141	2.8033131371785203e-15	-20892655079.640564	#d5dbe5	#ecd3c5	#f6bfa6	#3b4cc0	#3b4cc0	#d2dbe8	#a9c6fd	#a9c6fd
+1624	Marvinbryantia formatexigens	0.0	False	False	False	348.0	20.0	356.0	4.9e-05	-0.005808	-0.05118738692143151	-69356484518.5928	#5e7de7	#cad8ef	#d5dbe5	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1625	Megamonas funiformis	0.0	False	False	False	348.0	20.0	451.0	4.9e-05	-0.005808	-0.05118738692143151	-69356484518.6146	#5e7de7	#cad8ef	#aac7fd	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1626	Megamonas hypermegale	0.0	False	False	False	348.0	20.0	454.0	4.9e-05	-0.005808	-0.05118738692143151	-69356484518.61496	#5e7de7	#cad8ef	#a9c6fd	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1627	Megamonas rupellensis	0.0	False	False	False	380.0	20.0	460.0	4.9e-05	-0.006323	-0.05118738692143151	-69356484518.61566	#455cce	#cad8ef	#a5c3fe	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1628	Megasphaera cerevisiae	0.0	False	False	False	322.0	20.0	308.0	4.9e-05	-0.003764	-0.05118738692143151	-69356484518.56854	#7597f6	#cad8ef	#e7d7ce	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1633	Megasphaera sp. BV3C16-1	0.0	False	False	False	124.0	26.0	562.0	0.000254	0.007892	-0.21826251770388724	-124158162730.4902	#f7b396	#93b5fe	#7093f3	#3b4cc0	#3b4cc0	#d3dbe7	#81a4fb	#9fbfff
+1635	Megasphaera sp. UPII 135-E	0.0	False	False	False	182.0	3.0	615.0	0.000127	-1.1e-05	0.439179255529685	-533219820966.87103	#e5d8d1	#d95847	#5673e0	#3b4cc0	#3b4cc0	#d2dbe8	#ebd3c6	#799cf8
+1642	Methylobacterium aquaticum	0.0	False	False	False	393.0	10.0	637.0	-0.0	0.0	0.05285922412917797	-660639087651.4769	#3b4cc0	#f7ac8e	#4c66d6	#3b4cc0	#3b4cc0	#d2dbe8	#b2ccfb	#6e90f2
+1655	Micrococcus luteus	0.0	False	False	False	393.0	10.0	629.0	-0.0	0.0	0.05285922412917797	-660639087651.4747	#3b4cc0	#f7ac8e	#506bda	#3b4cc0	#3b4cc0	#d2dbe8	#b2ccfb	#6e90f2
+1661	Mitsuokella sp. oral taxon 131	0.0	False	False	False	174.0	26.0	589.0	0.000254	-0.00841	-0.21826251770388724	-124158162730.52045	#ead4c8	#93b5fe	#6384eb	#3b4cc0	#3b4cc0	#d2dbe8	#81a4fb	#9fbfff
+1663	Mobiluncus curtisii	0.0	False	False	False	182.0	3.0	617.0	0.000127	-1.1e-05	0.439179255529685	-533219820966.8713	#e5d8d1	#d95847	#5572df	#3b4cc0	#3b4cc0	#d2dbe8	#ebd3c6	#799cf8
+1664	Mobiluncus mulieris	0.0	False	False	False	182.0	3.0	610.0	0.000127	-1.1e-05	0.439179255529685	-533219820966.869	#e5d8d1	#d95847	#5977e3	#3b4cc0	#3b4cc0	#d2dbe8	#ebd3c6	#799cf8
+1665	Modestobacter caceresii	0.0	False	False	False	185.0	22.0	33.0	0.000105	-7e-06	-0.08477785949835788	514733528965.16943	#e3d9d3	#b9d0f9	#c73635	#3b4cc0	#3b4cc0	#d2dbe8	#9abbff	#d5dbe5
+1668	Mogibacterium timidum	0.0	False	False	False	37.0	1.0	65.0	0.014015	0.054072	1.0000000000000293	371044891420.0782	#d65244	#c83836	#d65244	#3b4cc0	#7093f3	#d7dce3	#e36b54	#cad8ef
+1672	Moraxella boevrei	0.0	False	False	False	393.0	2.0	604.0	-0.0	0.0	0.4777518770771927	-180701824669.04083	#3b4cc0	#d1493f	#5b7ae5	#3b4cc0	#3b4cc0	#d2dbe8	#efcfbf	#9abbff
+1673	Moraxella bovoculi	0.0	False	False	False	393.0	2.0	601.0	-0.0	0.0	0.4777518770771927	-180701824669.04034	#3b4cc0	#d1493f	#5d7ce6	#3b4cc0	#3b4cc0	#d2dbe8	#efcfbf	#9abbff
+1674	Moraxella caprae	0.0	False	False	False	393.0	2.0	603.0	-0.0	0.0	0.4777518770771927	-180701824669.0407	#3b4cc0	#d1493f	#5d7ce6	#3b4cc0	#3b4cc0	#d2dbe8	#efcfbf	#9abbff
+1675	Moraxella catarrhalis	0.0	False	False	False	393.0	2.0	605.0	-0.0	-0.0	0.4777518770771927	-180701824669.0435	#3b4cc0	#d1493f	#5b7ae5	#3b4cc0	#3b4cc0	#d2dbe8	#efcfbf	#9abbff
+1676	Moraxella macacae	0.0	False	False	False	66.0	1.0	205.0	0.004783	0.001338	1.0000000000000293	-18372832130.16221	#e9785d	#c83836	#f7af91	#3b4cc0	#4b64d5	#d3dbe7	#e36b54	#a9c6fd
+1678	Moritella viscosa	0.0	False	False	False	122.0	26.0	548.0	0.000254	0.007902	-0.21826251770388724	-124158162730.488	#f7b194	#93b5fe	#779af7	#3b4cc0	#3b4cc0	#d3dbe7	#81a4fb	#9fbfff
+1686	Mycobacterium abscessus	0.0	False	False	False	384.0	17.0	152.0	2.4e-05	0.000222	-0.02089760466071046	-14245085424.235146	#4257c9	#dfdbd9	#f29072	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+1688	Mycobacterium chelonae	0.0	False	False	False	384.0	17.0	171.0	2.4e-05	0.000222	-0.02089760466071046	-14245085424.236633	#4257c9	#dfdbd9	#f59c7d	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+1690	Mycobacterium immunogenum	0.0	False	False	False	393.0	14.0	671.0	-0.0	0.0	0.01452303984424084	-992873655463.1288	#3b4cc0	#f1cdba	#3d50c3	#3b4cc0	#3b4cc0	#d2dbe8	#abc8fd	#506bda
+1691	Mycobacterium iranicum	0.0	False	False	False	184.0	22.0	43.0	0.000105	2e-06	-0.08477785949835788	514733528965.168	#e4d9d2	#b9d0f9	#cc403a	#3b4cc0	#3b4cc0	#d2dbe8	#9abbff	#d5dbe5
+1705	Mycoplasma hominis	0.0	False	False	False	182.0	3.0	616.0	0.000127	-1.1e-05	0.439179255529685	-533219820966.87115	#e5d8d1	#d95847	#5673e0	#3b4cc0	#3b4cc0	#d2dbe8	#ebd3c6	#799cf8
+1708	Mycoplasma orale	0.0	False	False	False	119.0	31.0	59.0	0.000305	-0.000241	-0.38303187057407523	394390469552.75183	#f7af91	#6485ec	#d44e41	#3b4cc0	#3b4cc0	#d2dbe8	#6384eb	#cbd8ee
+1709	Mycoplasma ovipneumoniae	0.0	False	False	False	169.0	26.0	511.0	0.000254	-0.008098	-0.21826251770388724	-124158162730.4359	#edd2c3	#93b5fe	#8badfd	#3b4cc0	#3b4cc0	#d2dbe8	#81a4fb	#9fbfff
+1720	Necropsobacter massiliensis	0.0	False	False	False	191.0	15.0	240.0	0.0001	0.000162	2.8033131371785203e-15	-20892655079.64058	#e0dbd8	#ecd3c5	#f6bfa6	#3b4cc0	#3b4cc0	#d2dbe8	#a9c6fd	#a9c6fd
+1721	Necropsobacter rosorum	0.0	False	False	False	180.0	26.0	542.0	0.000254	-0.011455	-0.21826251770388724	-124158162730.48747	#e7d7ce	#93b5fe	#7b9ff9	#3b4cc0	#3b4cc0	#d1dae9	#81a4fb	#9fbfff
+1722	Neisseria bacilliformis	0.0	False	False	False	105.0	11.0	659.0	0.000678	-7.9e-05	0.04159684433658343	-901019537094.8722	#f6a283	#f7b599	#4358cb	#3b4cc0	#3d50c3	#d2dbe8	#b1cbfc	#5875e1
+1726	Neisseria gonorrhoeae	0.0	False	False	False	391.0	17.0	194.0	2.4e-05	-0.000697	-0.02089760466071046	-14245085424.378702	#3c4ec2	#dfdbd9	#f7a98b	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+1731	Neisseria polysaccharea	0.0	False	False	False	192.0	15.0	226.0	0.0001	0.000161	2.8033131371785203e-15	-20892655079.63855	#dfdbd9	#ecd3c5	#f7b99e	#3b4cc0	#3b4cc0	#d2dbe8	#a9c6fd	#a9c6fd
+1733	Neisseria sicca	0.0002	True	False	False	110.0	5.0	116.0	0.000654	-0.000103	0.22236504364995083	153521408162.71622	#f7a688	#e7745b	#e9785d	#506bda	#3d50c3	#d2dbe8	#cedaeb	#b7cff9
+1736	Neisseria sp. GT4A_CT1	0.0002	True	False	False	98.0	24.0	607.0	0.000763	0.000455	-0.1747894052563901	-366399513275.5349	#f49a7b	#a6c4fe	#5a78e4	#506bda	#3d50c3	#d3dbe7	#89acfd	#88abfd
+1737	Neisseria sp. HMSC06F02	0.0	False	False	False	393.0	27.0	52.0	-0.0	-0.0	-0.2233329018461887	411791986485.1339	#3b4cc0	#8badfd	#d0473d	#3b4cc0	#3b4cc0	#d2dbe8	#80a3fa	#cdd9ec
+1739	Neisseria sp. oral taxon 014	0.0006	True	False	False	25.0	1.0	654.0	0.082314	-1.273491	1.0000000000000293	-708893536231.729	#cc403a	#c83836	#455cce	#82a6fb	#b40426	#3f53c6	#e36b54	#688aef
+1740	Neisseria sp. oral taxon 020	0.0004	True	False	False	106.0	11.0	662.0	0.000678	-8e-05	0.04159684433658343	-901019537094.8734	#f6a385	#f7b599	#4257c9	#688aef	#3d50c3	#d2dbe8	#b1cbfc	#5875e1
+1761	Nocardia otitidiscaviarum	0.0	False	False	False	384.0	17.0	161.0	2.4e-05	0.000222	-0.02089760466071046	-14245085424.236023	#4257c9	#dfdbd9	#f39577	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+1766	Nosocomiicoccus massiliensis	0.0	False	False	False	384.0	17.0	197.0	2.4e-05	0.000222	-0.02089760466071046	-14245085424.379381	#4257c9	#dfdbd9	#f7aa8c	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+1769	Novosphingobium subterraneum	0.0	False	False	False	105.0	11.0	664.0	0.000678	-7.9e-05	0.04159684433658343	-901019537094.8744	#f6a283	#f7b599	#4055c8	#3b4cc0	#3d50c3	#d2dbe8	#b1cbfc	#5875e1
+1772	Odoribacter laneus	0.0	False	False	False	103.0	24.0	609.0	0.000763	-0.000455	-0.1747894052563901	-366399513275.53705	#f5a081	#a6c4fe	#5977e3	#3b4cc0	#3d50c3	#d2dbe8	#89acfd	#88abfd
+1778	Olsenella profusa	0.0	False	False	False	393.0	28.0	510.0	-0.0	-0.0	-0.22535442050771975	-91156318128.86594	#3b4cc0	#81a4fb	#8caffe	#3b4cc0	#3b4cc0	#d2dbe8	#80a3fa	#a2c1ff
+1781	Olsenella sp. SIT9	0.0	False	False	False	393.0	28.0	496.0	-0.0	0.0	-0.22535442050771975	-91156318128.86366	#3b4cc0	#81a4fb	#93b5fe	#3b4cc0	#3b4cc0	#d2dbe8	#80a3fa	#a2c1ff
+1785	Oribacterium asaccharolyticum	0.0	False	False	False	169.0	26.0	526.0	0.000254	-0.008098	-0.21826251770388724	-124158162730.48235	#edd2c3	#93b5fe	#84a7fc	#3b4cc0	#3b4cc0	#d2dbe8	#81a4fb	#9fbfff
+1791	Oribacterium sp. oral taxon 108	0.0	False	False	False	121.0	26.0	551.0	0.000254	0.007904	-0.21826251770388724	-124158162730.48827	#f7b093	#93b5fe	#7699f6	#3b4cc0	#3b4cc0	#d3dbe7	#81a4fb	#9fbfff
+1798	Oscillibacter ruminantium	0.0	False	False	False	376.0	20.0	288.0	4.9e-05	-0.006183	-0.05118738692143151	-69356484518.47676	#485fd1	#cad8ef	#edd1c2	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1799	Oscillibacter sp. 1-3	0.0	False	False	False	328.0	20.0	435.0	4.9e-05	-0.003779	-0.05118738692143151	-69356484518.60385	#6f92f3	#cad8ef	#b2ccfb	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1803	Oscillibacter valericigenes	0.0	False	False	False	360.0	20.0	295.0	4.9e-05	-0.005937	-0.05118738692143151	-69356484518.48737	#5470de	#cad8ef	#ebd3c6	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1804	Oscillospiraceae bacterium VE202-24	0.0	False	False	False	381.0	20.0	491.0	4.9e-05	-0.006327	-0.05118738692143151	-69356484518.82474	#445acc	#cad8ef	#96b7ff	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1808	Oxalobacter formigenes	0.0	False	False	False	228.0	20.0	307.0	4.9e-05	0.008915	-0.05118738692143151	-69356484518.56834	#c6d6f1	#cad8ef	#e8d6cc	#3b4cc0	#3b4cc0	#d3dbe7	#9fbfff	#a3c2fe
+1861	Parabacteroides goldsteinii	0.0	False	False	False	291.0	20.0	270.0	4.9e-05	-0.003566	-0.05118738692143151	-69356484518.40372	#90b2fe	#cad8ef	#f2cbb7	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1862	Parabacteroides gordonii	0.0	False	False	False	270.0	20.0	468.0	4.9e-05	-0.003363	-0.05118738692143151	-69356484518.61638	#a3c2fe	#cad8ef	#a1c0ff	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1863	Parabacteroides johnsonii	0.0	False	False	False	293.0	20.0	360.0	4.9e-05	-0.00357	-0.05118738692143151	-69356484518.59412	#8fb1fe	#cad8ef	#d4dbe6	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1865	Parabacteroides sp. 2_1_7	0.0	False	False	False	319.0	20.0	487.0	4.9e-05	-0.003759	-0.05118738692143151	-69356484518.8226	#779af7	#cad8ef	#97b8ff	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1867	Parabacteroides sp. D13	0.0	False	False	False	303.0	20.0	482.0	4.9e-05	-0.003677	-0.05118738692143151	-69356484518.81973	#85a8fc	#cad8ef	#9abbff	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1868	Parabacteroides sp. D26	0.0	False	False	False	277.0	20.0	319.0	4.9e-05	-0.003443	-0.05118738692143151	-69356484518.58197	#9dbdff	#cad8ef	#e3d9d3	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1869	Parabacteroides sp. HGS0025	0.0	False	False	False	286.0	20.0	339.0	4.9e-05	-0.003553	-0.05118738692143151	-69356484518.58633	#94b6ff	#cad8ef	#dcdddd	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1878	Paracoccus sp. 228	0.0	False	False	False	393.0	28.0	502.0	-0.0	-0.0	-0.22535442050771975	-91156318128.86472	#3b4cc0	#81a4fb	#90b2fe	#3b4cc0	#3b4cc0	#d2dbe8	#80a3fa	#a2c1ff
+1881	Paracoccus sp. PAMC 22219	0.0	False	False	False	384.0	17.0	162.0	2.4e-05	0.000222	-0.02089760466071046	-14245085424.2361	#4257c9	#dfdbd9	#f39778	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+1882	Paracoccus sp. S4493	0.0	False	False	False	393.0	28.0	497.0	-0.0	0.0	-0.22535442050771975	-91156318128.8637	#3b4cc0	#81a4fb	#92b4fe	#3b4cc0	#3b4cc0	#d2dbe8	#80a3fa	#a2c1ff
+1883	Paracoccus versutus	0.0	False	False	False	393.0	28.0	506.0	-0.0	0.0	-0.22535442050771975	-91156318128.86539	#3b4cc0	#81a4fb	#8db0fe	#3b4cc0	#3b4cc0	#d2dbe8	#80a3fa	#a2c1ff
+1884	Paracoccus yeei	0.0	False	False	False	393.0	9.0	16.0	-0.0	-0.0	0.08239587487357558	714475213071.6108	#3b4cc0	#f6a283	#be242e	#3b4cc0	#3b4cc0	#d2dbe8	#b7cff9	#e2dad5
+1887	Paraprevotella clara	0.0007	True	False	False	333.0	20.0	283.0	4.9e-05	-0.003785	-0.05118738692143151	-69356484518.4763	#6b8df0	#cad8ef	#efcfbf	#90b2fe	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1888	Paraprevotella xylaniphila	0.0	False	False	False	227.0	20.0	280.0	4.9e-05	0.009321	-0.05118738692143151	-69356484518.47614	#c6d6f1	#cad8ef	#efcebd	#3b4cc0	#3b4cc0	#d3dbe7	#9fbfff	#a3c2fe
+1890	Parasutterella excrementihominis	0.0	False	False	False	319.0	20.0	465.0	4.9e-05	-0.003759	-0.05118738692143151	-69356484518.61606	#779af7	#cad8ef	#a2c1ff	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1891	Parvimonas micra	0.0007	True	False	False	50.0	1.0	70.0	0.014015	-0.062891	1.0000000000000293	371044891420.07635	#df634e	#c83836	#d85646	#90b2fe	#7093f3	#ccd9ed	#e36b54	#cad8ef
+1892	Parvimonas sp. oral taxon 110	0.0002	True	False	False	41.0	1.0	89.0	0.014015	0.044061	1.0000000000000293	371044891420.0482	#d95847	#c83836	#e0654f	#506bda	#7093f3	#d6dce4	#e36b54	#cad8ef
+1894	Pasteurella bettyae	0.0	False	False	False	192.0	15.0	241.0	0.0001	0.000161	2.8033131371785203e-15	-20892655079.64061	#dfdbd9	#ecd3c5	#f6bfa6	#3b4cc0	#3b4cc0	#d2dbe8	#a9c6fd	#a9c6fd
+1895	Pasteurella dagmatis	0.0	False	False	False	108.0	5.0	113.0	0.000654	0.000389	0.22236504364995083	153521408162.7178	#f6a586	#e7745b	#e8765c	#3b4cc0	#3d50c3	#d3dbe7	#cedaeb	#b7cff9
+1896	Pasteurella multocida	0.0	False	False	False	206.0	15.0	233.0	0.0001	-0.000131	2.8033131371785203e-15	-20892655079.64035	#d6dce4	#ecd3c5	#f7bca1	#3b4cc0	#3b4cc0	#d2dbe8	#a9c6fd	#a9c6fd
+1906	Pedobacter agri	0.0	False	False	False	73.0	1.0	203.0	0.004783	-0.001877	1.0000000000000293	-18372832130.15914	#ec7f63	#c83836	#f7ad90	#3b4cc0	#4b64d5	#d2dbe8	#e36b54	#a9c6fd
+1922	Peptoclostridium difficile	0.0	False	False	False	296.0	20.0	412.0	4.9e-05	-0.003618	-0.05118738692143151	-69356484518.60138	#8caffe	#cad8ef	#bcd2f7	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1924	Peptoniphilaceae bacterium SIT14	0.0	False	False	False	391.0	17.0	169.0	2.4e-05	-0.000697	-0.02089760466071046	-14245085424.236496	#3c4ec2	#dfdbd9	#f49a7b	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+1925	Peptoniphilus duerdenii	0.0	False	False	False	113.0	6.0	259.0	0.000382	0.000591	0.1375789517020132	-42620045919.38568	#f7a98b	#ec8165	#f3c7b1	#3b4cc0	#3c4ec2	#d3dbe7	#c0d4f5	#a6c4fe
+1926	Peptoniphilus grossensis	0.0	False	False	False	384.0	17.0	184.0	2.4e-05	0.000222	-0.02089760466071046	-14245085424.238525	#4257c9	#dfdbd9	#f6a385	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+1927	Peptoniphilus harei	0.0	False	False	False	393.0	9.0	14.0	-0.0	-0.0	0.08239587487357558	714475213071.6111	#3b4cc0	#f6a283	#bd1f2d	#3b4cc0	#3b4cc0	#d2dbe8	#b7cff9	#e2dad5
+1931	Peptoniphilus rhinitidis	0.0	False	False	False	393.0	9.0	18.0	-0.0	-0.0	0.08239587487357558	714475213071.6101	#3b4cc0	#f6a283	#c0282f	#3b4cc0	#3b4cc0	#d2dbe8	#b7cff9	#e2dad5
+1934	Peptoniphilus sp. BV3AC2	0.0	False	False	False	384.0	17.0	177.0	2.4e-05	0.000222	-0.02089760466071046	-14245085424.236938	#4257c9	#dfdbd9	#f59f80	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+1935	Peptoniphilus sp. BV3C26	0.0	False	False	False	182.0	3.0	612.0	0.000127	-1.1e-05	0.439179255529685	-533219820966.87	#e5d8d1	#d95847	#5875e1	#3b4cc0	#3b4cc0	#d2dbe8	#ebd3c6	#799cf8
+1941	Peptostreptococcaceae bacterium ACC19a	0.0	False	False	False	32.0	1.0	66.0	0.014015	0.055551	1.0000000000000293	371044891420.0772	#d24b40	#c83836	#d75445	#3b4cc0	#7093f3	#d7dce3	#e36b54	#cad8ef
+1942	Peptostreptococcaceae bacterium AS15	0.0002	True	False	False	93.0	23.0	139.0	0.002065	-0.004057	-0.16810345155412262	66845875985.166985	#f39577	#afcafc	#ef886b	#506bda	#4257c9	#d2dbe8	#8badfd	#afcafc
+1944	Peptostreptococcaceae bacterium CM5	0.0	False	False	False	31.0	1.0	67.0	0.014015	0.056221	1.0000000000000293	371044891420.07697	#d1493f	#c83836	#d75445	#3b4cc0	#7093f3	#d7dce3	#e36b54	#cad8ef
+1945	Peptostreptococcaceae bacterium OBRC8	0.0	False	False	False	130.0	26.0	560.0	0.000254	0.001055	-0.21826251770388724	-124158162730.48962	#f7b89c	#93b5fe	#7295f4	#3b4cc0	#3b4cc0	#d3dbe7	#81a4fb	#9fbfff
+1946	Peptostreptococcaceae bacterium oral taxon 113	0.0	False	False	False	52.0	1.0	64.0	0.014015	-0.063528	1.0000000000000293	371044891420.07825	#e16751	#c83836	#d65244	#3b4cc0	#7093f3	#ccd9ed	#e36b54	#cad8ef
+1947	Peptostreptococcaceae bacterium VA2	0.0	False	False	False	349.0	20.0	337.0	4.9e-05	-0.005809	-0.05118738692143151	-69356484518.58601	#5e7de7	#cad8ef	#dddcdc	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1950	Peptostreptococcus stomatis	0.0	False	False	False	40.0	1.0	71.0	0.014015	0.046795	1.0000000000000293	371044891420.07605	#d85646	#c83836	#d95847	#3b4cc0	#7093f3	#d7dce3	#e36b54	#cad8ef
+1952	Phascolarctobacterium succinatutens	0.0	False	False	False	274.0	20.0	453.0	4.9e-05	-0.003412	-0.05118738692143151	-69356484518.61485	#9fbfff	#cad8ef	#a9c6fd	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+1957	Photobacterium iliopiscarium	0.0	False	False	False	184.0	22.0	34.0	0.000105	2e-06	-0.08477785949835788	514733528965.1692	#e4d9d2	#b9d0f9	#c83836	#3b4cc0	#3b4cc0	#d2dbe8	#9abbff	#d5dbe5
+1984	Porphyrobacter donghaensis	0.0	False	False	False	393.0	27.0	55.0	-0.0	-0.0	-0.2233329018461887	411791986485.12756	#3b4cc0	#8badfd	#d24b40	#3b4cc0	#3b4cc0	#d2dbe8	#80a3fa	#cdd9ec
+1985	Porphyromonadaceae bacterium COT-184 OH4590	0.0	False	False	False	49.0	1.0	86.0	0.014015	-0.062224	1.0000000000000293	371044891420.06573	#df634e	#c83836	#df634e	#3b4cc0	#7093f3	#ccd9ed	#e36b54	#cad8ef
+1988	Porphyromonas bennonis	0.0001	True	False	False	384.0	17.0	159.0	2.4e-05	0.000222	-0.02089760466071046	-14245085424.235962	#4257c9	#dfdbd9	#f39577	#455cce	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+1989	Porphyromonas cangingivalis	0.0	False	False	False	121.0	26.0	553.0	0.000254	0.007904	-0.21826251770388724	-124158162730.48853	#f7b093	#93b5fe	#7597f6	#3b4cc0	#3b4cc0	#d3dbe7	#81a4fb	#9fbfff
+1990	Porphyromonas canoris	0.0	False	False	False	189.0	15.0	217.0	0.0001	0.00061	2.8033131371785203e-15	-20892655079.637672	#e1dad6	#ecd3c5	#f7b497	#3b4cc0	#3b4cc0	#d3dbe7	#a9c6fd	#a9c6fd
+1992	Porphyromonas crevioricanis	0.0	False	False	False	247.0	20.0	490.0	4.9e-05	0.000414	-0.05118738692143151	-69356484518.82402	#b6cefa	#cad8ef	#96b7ff	#3b4cc0	#3b4cc0	#d3dbe7	#9fbfff	#a3c2fe
+1996	Porphyromonas gulae	0.0	False	False	False	126.0	26.0	540.0	0.000254	0.007862	-0.21826251770388724	-124158162730.4869	#f7b497	#93b5fe	#7b9ff9	#3b4cc0	#3b4cc0	#d3dbe7	#81a4fb	#9fbfff
+1999	Porphyromonas somerae	0.0	False	False	False	152.0	26.0	544.0	0.000254	-0.002611	-0.21826251770388724	-124158162730.48752	#f3c8b2	#93b5fe	#7a9df8	#3b4cc0	#3b4cc0	#d2dbe8	#81a4fb	#9fbfff
+2003	Porphyromonas sp. COT-239 OH1446	0.0	False	False	False	121.0	26.0	536.0	0.000254	0.007904	-0.21826251770388724	-124158162730.48604	#f7b093	#93b5fe	#7ea1fa	#3b4cc0	#3b4cc0	#d3dbe7	#81a4fb	#9fbfff
+2009	Prevotella albensis	0.0	False	False	False	291.0	20.0	277.0	4.9e-05	-0.003566	-0.05118738692143151	-69356484518.46382	#90b2fe	#cad8ef	#f0cdbb	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+2011	Prevotella aurantiaca	0.0001	True	False	False	121.0	26.0	548.0	0.000254	0.007904	-0.21826251770388724	-124158162730.488	#f7b093	#93b5fe	#779af7	#455cce	#3b4cc0	#d3dbe7	#81a4fb	#9fbfff
+2012	Prevotella baroniae	0.0	False	False	False	45.0	1.0	74.0	0.014015	-0.055226	1.0000000000000293	371044891420.0726	#dc5d4a	#c83836	#da5a49	#3b4cc0	#7093f3	#cdd9ec	#e36b54	#cad8ef
+2013	Prevotella bergensis	0.0001	True	False	False	379.0	20.0	290.0	4.9e-05	-0.006309	-0.05118738692143151	-69356484518.47685	#455cce	#cad8ef	#edd2c3	#455cce	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+2015	Prevotella brevis	0.0	False	False	False	202.0	15.0	224.0	0.0001	-0.000123	2.8033131371785203e-15	-20892655079.63852	#d8dce2	#ecd3c5	#f7b89c	#3b4cc0	#3b4cc0	#d2dbe8	#a9c6fd	#a9c6fd
+2016	Prevotella bryantii	0.0	False	False	False	310.0	20.0	297.0	4.9e-05	-0.003717	-0.05118738692143151	-69356484518.48952	#80a3fa	#cad8ef	#ebd3c6	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+2022	Prevotella dentalis	0.0	False	False	False	372.0	20.0	276.0	4.9e-05	-0.006074	-0.05118738692143151	-69356484518.4631	#4b64d5	#cad8ef	#f0cdbb	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+2023	Prevotella dentasini	0.0	False	False	False	204.0	15.0	255.0	0.0001	-0.000127	2.8033131371785203e-15	-20892655079.641228	#d7dce3	#ecd3c5	#f4c6af	#3b4cc0	#3b4cc0	#d2dbe8	#a9c6fd	#a9c6fd
+2024	Prevotella denticola	0.0145	True	False	False	8.0	-1.0	-1.0	0.082314	0.622204	1.275369900904602	2525253436959.793	#bd1f2d	#b40426	#b40426	#ec7f63	#b40426	#f7b497	#3b4cc0	#3b4cc0
+2026	Prevotella enoeca	0.0	False	False	False	2.0	1.0	652.0	0.082314	1.216619	1.0000000000000293	-708893536231.6967	#b70d28	#c83836	#455cce	#3b4cc0	#b40426	#da5a49	#e36b54	#688aef
+2027	Prevotella falsenii	0.0	False	False	False	39.0	1.0	62.0	0.014015	0.053259	1.0000000000000293	371044891420.0787	#d75445	#c83836	#d55042	#3b4cc0	#7093f3	#d7dce3	#e36b54	#cad8ef
+2031	Prevotella loescheii	0.0018	True	False	False	56.0	21.0	6.0	0.010684	0.018042	-0.07654850267510734	818353130796.8008	#e36b54	#c1d4f4	#b8122a	#ead5c9	#6384eb	#d4dbe6	#9bbcff	#e9d5cb
+2033	Prevotella marshii	0.0	False	False	False	80.0	29.0	94.0	0.003561	-0.001442	-0.29512475214655526	334972311366.74036	#ef886b	#779af7	#e26952	#3b4cc0	#485fd1	#d2dbe8	#7396f5	#c6d6f1
+2035	Prevotella micans	0.0007	True	False	False	79.0	29.0	95.0	0.003561	0.007286	-0.29512475214655526	334972311366.73773	#ee8669	#779af7	#e36b54	#90b2fe	#485fd1	#d3dbe7	#7396f5	#c6d6f1
+2037	Prevotella multisaccharivorax	0.0	False	False	False	366.0	20.0	284.0	4.9e-05	-0.005985	-0.05118738692143151	-69356484518.47652	#506bda	#cad8ef	#eed0c0	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+2050	Prevotella scopos	0.0001	True	False	False	118.0	31.0	57.0	0.000305	-0.000211	-0.38303187057407523	394390469552.75354	#f7ad90	#6485ec	#d24b40	#455cce	#3b4cc0	#d2dbe8	#6384eb	#cbd8ee
+2055	Prevotella sp. BV3P1	0.0	False	False	False	182.0	3.0	613.0	0.000127	-1.1e-05	0.439179255529685	-533219820966.8703	#e5d8d1	#d95847	#5875e1	#3b4cc0	#3b4cc0	#d2dbe8	#ebd3c6	#799cf8
+2058	Prevotella sp. FD3004	0.0	False	False	False	204.0	15.0	234.0	0.0001	-0.000127	2.8033131371785203e-15	-20892655079.64044	#d7dce3	#ecd3c5	#f6bda2	#3b4cc0	#3b4cc0	#d2dbe8	#a9c6fd	#a9c6fd
+2059	Prevotella sp. HJM029	0.0001	True	False	False	114.0	6.0	257.0	0.000382	-0.000123	0.1375789517020132	-42620045919.38438	#f7aa8c	#ec8165	#f4c6af	#455cce	#3c4ec2	#d2dbe8	#c0d4f5	#a6c4fe
+2060	Prevotella sp. HUN102	0.0	False	False	False	160.0	26.0	516.0	0.000254	-0.005467	-0.21826251770388724	-124158162730.47137	#f1cdba	#93b5fe	#88abfd	#3b4cc0	#3b4cc0	#d2dbe8	#81a4fb	#9fbfff
+2061	Prevotella sp. ICM33	0.0	False	False	False	117.0	31.0	56.0	0.000305	-5.6e-05	-0.38303187057407523	394390469552.7559	#f7ad90	#6485ec	#d24b40	#3b4cc0	#3b4cc0	#d2dbe8	#6384eb	#cbd8ee
+2063	Prevotella sp. MSX73	0.0	False	False	False	47.0	1.0	73.0	0.014015	-0.058393	1.0000000000000293	371044891420.07513	#dd5f4b	#c83836	#d95847	#3b4cc0	#7093f3	#ccd9ed	#e36b54	#cad8ef
+2065	Prevotella sp. oral taxon 306	0.0001	True	False	False	121.0	26.0	563.0	0.000254	0.007904	-0.21826251770388724	-124158162730.49097	#f7b093	#93b5fe	#7093f3	#455cce	#3b4cc0	#d3dbe7	#81a4fb	#9fbfff
+2067	Prevotella sp. oral taxon 472	0.0019	True	False	False	58.0	21.0	3.0	0.010684	-0.002272	-0.07654850267510734	818353130796.8066	#e46e56	#c1d4f4	#b70d28	#f1cdba	#6384eb	#d2dbe8	#9bbcff	#e9d5cb
+2069	Prevotella sp. P4-65	0.0	False	False	False	334.0	20.0	287.0	4.9e-05	-0.003789	-0.05118738692143151	-69356484518.47672	#6a8bef	#cad8ef	#edd1c2	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+2070	Prevotella sp. P4-76	0.0	False	False	False	366.0	20.0	282.0	4.9e-05	-0.005985	-0.05118738692143151	-69356484518.47623	#506bda	#cad8ef	#efcfbf	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+2071	Prevotella sp. P5-119	0.0	False	False	False	297.0	20.0	285.0	4.9e-05	-0.00362	-0.05118738692143151	-69356484518.47653	#8badfd	#cad8ef	#eed0c0	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+2072	Prevotella sp. P5-125	0.0	False	False	False	287.0	20.0	278.0	4.9e-05	-0.003555	-0.05118738692143151	-69356484518.47336	#94b6ff	#cad8ef	#f0cdbb	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+2073	Prevotella sp. P5-60	0.0	False	False	False	291.0	20.0	432.0	4.9e-05	-0.003566	-0.05118738692143151	-69356484518.6037	#90b2fe	#cad8ef	#b3cdfb	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+2079	Prevotella stercorea	0.0	False	False	False	380.0	20.0	289.0	4.9e-05	-0.006323	-0.05118738692143151	-69356484518.4768	#455cce	#cad8ef	#edd1c2	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+2080	Prevotella timonensis	0.0	False	False	False	393.0	2.0	597.0	-0.0	0.0	0.4777518770771927	-180701824669.03702	#3b4cc0	#d1493f	#5f7fe8	#3b4cc0	#3b4cc0	#d2dbe8	#efcfbf	#9abbff
+2085	Propionibacterium acidifaciens	0.0	False	False	False	168.0	26.0	583.0	0.000254	-0.007796	-0.21826251770388724	-124158162730.51993	#edd2c3	#93b5fe	#6687ed	#3b4cc0	#3b4cc0	#d2dbe8	#81a4fb	#9fbfff
+2087	Propionibacterium acnes	0.0	False	False	False	184.0	22.0	50.0	0.000105	2e-06	-0.08477785949835788	514733528965.1667	#e4d9d2	#b9d0f9	#d0473d	#3b4cc0	#3b4cc0	#d2dbe8	#9abbff	#d5dbe5
+2088	Propionibacterium avidum	0.0	False	False	False	75.0	1.0	212.0	0.004783	-0.003063	1.0000000000000293	-18372832130.16757	#ed8366	#c83836	#f7b194	#3b4cc0	#4b64d5	#d2dbe8	#e36b54	#a9c6fd
+2089	Propionibacterium freudenreichii	0.0	False	False	False	149.0	26.0	580.0	0.000254	-0.001317	-0.21826251770388724	-124158162730.51979	#f4c6af	#93b5fe	#6788ee	#3b4cc0	#3b4cc0	#d2dbe8	#81a4fb	#9fbfff
+2091	Propionibacterium humerusii	0.0	False	False	False	184.0	22.0	40.0	0.000105	2e-06	-0.08477785949835788	514733528965.1684	#e4d9d2	#b9d0f9	#cb3e38	#3b4cc0	#3b4cc0	#d2dbe8	#9abbff	#d5dbe5
+2094	Propionibacterium sp. HGH0353	0.0	False	False	False	393.0	9.0	19.0	-0.0	-0.0	0.08239587487357558	714475213071.61	#3b4cc0	#f6a283	#c0282f	#3b4cc0	#3b4cc0	#d2dbe8	#b7cff9	#e2dad5
+2095	Propionibacterium sp. KPL1844	0.0	False	False	False	184.0	22.0	36.0	0.000105	2e-06	-0.08477785949835788	514733528965.169	#e4d9d2	#b9d0f9	#c83836	#3b4cc0	#3b4cc0	#d2dbe8	#9abbff	#d5dbe5
+2096	Propionibacterium sp. oral taxon 192	0.0001	True	False	False	11.0	1.0	650.0	0.082314	0.55503	1.0000000000000293	-708893536231.6655	#c0282f	#c83836	#465ecf	#455cce	#b40426	#f7bca1	#e36b54	#688aef
+2105	Proteiniphilum acetatigenes	0.0	False	False	False	204.0	15.0	246.0	0.0001	-0.000127	2.8033131371785203e-15	-20892655079.640667	#d7dce3	#ecd3c5	#f5c1a9	#3b4cc0	#3b4cc0	#d2dbe8	#a9c6fd	#a9c6fd
+2122	Pseudoflavonifractor capillosus	0.0	False	False	False	291.0	20.0	415.0	4.9e-05	-0.003566	-0.05118738692143151	-69356484518.60202	#90b2fe	#cad8ef	#bbd1f8	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+2124	Pseudomonas aeruginosa	0.0	False	False	False	384.0	17.0	185.0	2.4e-05	0.000222	-0.02089760466071046	-14245085424.242727	#4257c9	#dfdbd9	#f6a385	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+2133	Pseudomonas fluorescens	0.0	False	False	False	185.0	22.0	51.0	0.000105	-7e-06	-0.08477785949835788	514733528965.1598	#e3d9d3	#b9d0f9	#d0473d	#3b4cc0	#3b4cc0	#d2dbe8	#9abbff	#d5dbe5
+2134	Pseudomonas fragi	0.0	False	False	False	125.0	26.0	591.0	0.000254	0.00789	-0.21826251770388724	-124158162730.52061	#f7b497	#93b5fe	#6282ea	#3b4cc0	#3b4cc0	#d3dbe7	#81a4fb	#9fbfff
+2135	Pseudomonas frederiksbergensis	0.0	False	False	False	384.0	17.0	167.0	2.4e-05	0.000222	-0.02089760466071046	-14245085424.23639	#4257c9	#dfdbd9	#f49a7b	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+2138	Pseudomonas libanensis	0.0	False	False	False	384.0	17.0	155.0	2.4e-05	0.000222	-0.02089760466071046	-14245085424.235825	#4257c9	#dfdbd9	#f29274	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+2141	Pseudomonas mandelii	0.0	False	False	False	391.0	17.0	154.0	2.4e-05	-0.000697	-0.02089760466071046	-14245085424.235596	#3c4ec2	#dfdbd9	#f29274	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+2144	Pseudomonas orientalis	0.0	False	False	False	384.0	17.0	151.0	2.4e-05	0.000222	-0.02089760466071046	-14245085424.235107	#4257c9	#dfdbd9	#f29072	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+2151	Pseudomonas sp. 20_BN	0.0	False	False	False	393.0	28.0	507.0	-0.0	-0.0	-0.22535442050771975	-91156318128.8654	#3b4cc0	#81a4fb	#8db0fe	#3b4cc0	#3b4cc0	#d2dbe8	#80a3fa	#a2c1ff
+2152	Pseudomonas sp. 313	0.0	False	False	False	112.0	5.0	115.0	0.000654	-0.000174	0.22236504364995083	153521408162.71725	#f7a889	#e7745b	#e9785d	#3b4cc0	#3d50c3	#d2dbe8	#cedaeb	#b7cff9
+2153	Pseudomonas sp. Ag1	0.0	False	False	False	391.0	17.0	156.0	2.4e-05	-0.000697	-0.02089760466071046	-14245085424.23584	#3c4ec2	#dfdbd9	#f29274	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+2159	Pseudomonas sp. DSM 28140	0.0	False	False	False	384.0	17.0	159.0	2.4e-05	0.000222	-0.02089760466071046	-14245085424.235962	#4257c9	#dfdbd9	#f39577	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+2160	Pseudomonas sp. DSM 28142	0.0	False	False	False	388.0	17.0	160.0	2.4e-05	0.000193	-0.02089760466071046	-14245085424.235977	#3e51c5	#dfdbd9	#f39577	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+2161	Pseudomonas sp. DSM 29164	0.0	False	False	False	384.0	17.0	163.0	2.4e-05	0.000222	-0.02089760466071046	-14245085424.236145	#4257c9	#dfdbd9	#f39778	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+2162	Pseudomonas sp. DSM 29167	0.0	False	False	False	384.0	17.0	150.0	2.4e-05	0.000222	-0.02089760466071046	-14245085424.234955	#4257c9	#dfdbd9	#f18f71	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+2164	Pseudomonas sp. Eur1 9.41	0.0	False	False	False	384.0	17.0	161.0	2.4e-05	0.000222	-0.02089760466071046	-14245085424.236023	#4257c9	#dfdbd9	#f39577	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+2165	Pseudomonas sp. FH1	0.0	False	False	False	387.0	17.0	175.0	2.4e-05	0.000213	-0.02089760466071046	-14245085424.236816	#3f53c6	#dfdbd9	#f59f80	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+2167	Pseudomonas sp. L10.10	0.0	False	False	False	161.0	26.0	576.0	0.000254	-0.005768	-0.21826251770388724	-124158162730.51965	#f0cdbb	#93b5fe	#6a8bef	#3b4cc0	#3b4cc0	#d2dbe8	#81a4fb	#9fbfff
+2169	Pseudomonas sp. NBRC 111132	0.0	False	False	False	384.0	17.0	159.0	2.4e-05	0.000222	-0.02089760466071046	-14245085424.235962	#4257c9	#dfdbd9	#f39577	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+2170	Pseudomonas sp. NBRC 111134	0.0	False	False	False	391.0	17.0	165.0	2.4e-05	-0.000697	-0.02089760466071046	-14245085424.236267	#3c4ec2	#dfdbd9	#f4987a	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+2176	Pseudomonas sp. Root9	0.0	False	False	False	384.0	17.0	153.0	2.4e-05	0.000222	-0.02089760466071046	-14245085424.235535	#4257c9	#dfdbd9	#f29072	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+2179	Pseudomonas stutzeri	0.0	False	False	False	184.0	22.0	39.0	0.000105	2e-06	-0.08477785949835788	514733528965.1685	#e4d9d2	#b9d0f9	#cb3e38	#3b4cc0	#3b4cc0	#d2dbe8	#9abbff	#d5dbe5
+2180	Pseudomonas synxantha	0.0	False	False	False	392.0	17.0	166.0	2.4e-05	-0.000699	-0.02089760466071046	-14245085424.236359	#3c4ec2	#dfdbd9	#f4987a	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+2183	Pseudomonas thermotolerans	0.0	False	False	False	393.0	28.0	499.0	-0.0	0.0	-0.22535442050771975	-91156318128.86404	#3b4cc0	#81a4fb	#92b4fe	#3b4cc0	#3b4cc0	#d2dbe8	#80a3fa	#a2c1ff
+2184	Pseudomonas tolaasii	0.0	False	False	False	391.0	17.0	182.0	2.4e-05	-0.000697	-0.02089760466071046	-14245085424.237183	#3c4ec2	#dfdbd9	#f6a283	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+2188	Pseudoramibacter alactolyticus	0.0	False	False	False	84.0	23.0	130.0	0.002065	0.005397	-0.16810345155412262	66845875985.19919	#f08b6e	#afcafc	#ed8366	#3b4cc0	#4257c9	#d3dbe7	#8badfd	#afcafc
+2193	Psychrobacter aquaticus	0.0	False	False	False	121.0	26.0	576.0	0.000254	0.007904	-0.21826251770388724	-124158162730.51965	#f7b093	#93b5fe	#6a8bef	#3b4cc0	#3b4cc0	#d3dbe7	#81a4fb	#9fbfff
+2194	Psychrobacter arcticus	0.0	False	False	False	133.0	26.0	587.0	0.000254	0.000535	-0.21826251770388724	-124158162730.52011	#f7ba9f	#93b5fe	#6485ec	#3b4cc0	#3b4cc0	#d3dbe7	#81a4fb	#9fbfff
+2195	Psychrobacter cryohalolentis	0.0	False	False	False	156.0	26.0	585.0	0.000254	-0.003264	-0.21826251770388724	-124158162730.52005	#f2cbb7	#93b5fe	#6485ec	#3b4cc0	#3b4cc0	#d2dbe8	#81a4fb	#9fbfff
+2196	Psychrobacter glacincola	0.0	False	False	False	146.0	26.0	571.0	0.000254	-0.000829	-0.21826251770388724	-124158162730.51929	#f5c4ac	#93b5fe	#6c8ff1	#3b4cc0	#3b4cc0	#d2dbe8	#81a4fb	#9fbfff
+2197	Psychrobacter lutiphocae	0.0	False	False	False	393.0	2.0	600.0	-0.0	0.0	0.4777518770771927	-180701824669.04	#3b4cc0	#d1493f	#5e7de7	#3b4cc0	#3b4cc0	#d2dbe8	#efcfbf	#9abbff
+2198	Psychrobacter phenylpyruvicus	0.0	False	False	False	173.0	26.0	574.0	0.000254	-0.008247	-0.21826251770388724	-124158162730.51953	#ead4c8	#93b5fe	#6b8df0	#3b4cc0	#3b4cc0	#d2dbe8	#81a4fb	#9fbfff
+2199	Psychrobacter piscatorii	0.0	False	False	False	158.0	26.0	585.0	0.000254	-0.00459	-0.21826251770388724	-124158162730.52005	#f1ccb8	#93b5fe	#6485ec	#3b4cc0	#3b4cc0	#d2dbe8	#81a4fb	#9fbfff
+2200	Psychrobacter sp. 1501(2011)	0.0	False	False	False	137.0	26.0	577.0	0.000254	-0.000114	-0.21826251770388724	-124158162730.51967	#f6bea4	#93b5fe	#688aef	#3b4cc0	#3b4cc0	#d2dbe8	#81a4fb	#9fbfff
+2202	Psychrobacter sp. ENNN9_III	0.0	False	False	False	43.0	1.0	68.0	0.014015	-0.02619	1.0000000000000293	371044891420.0766	#da5a49	#c83836	#d75445	#3b4cc0	#7093f3	#cfdaea	#e36b54	#cad8ef
+2204	Psychrobacter sp. P11F6	0.0	False	False	False	143.0	26.0	578.0	0.000254	-0.000764	-0.21826251770388724	-124158162730.51968	#f5c1a9	#93b5fe	#688aef	#3b4cc0	#3b4cc0	#d2dbe8	#81a4fb	#9fbfff
+2205	Psychrobacter sp. P11G3	0.0	False	False	False	178.0	26.0	575.0	0.000254	-0.01119	-0.21826251770388724	-124158162730.51955	#e8d6cc	#93b5fe	#6a8bef	#3b4cc0	#3b4cc0	#d1dae9	#81a4fb	#9fbfff
+2206	Psychrobacter sp. PAMC 21119	0.0	False	False	False	179.0	26.0	592.0	0.000254	-0.011453	-0.21826251770388724	-124158162730.52072	#e7d7ce	#93b5fe	#6282ea	#3b4cc0	#3b4cc0	#d1dae9	#81a4fb	#9fbfff
+2207	Psychrobacter sp. PRwf-1	0.0	False	False	False	121.0	26.0	584.0	0.000254	0.007904	-0.21826251770388724	-124158162730.51994	#f7b093	#93b5fe	#6687ed	#3b4cc0	#3b4cc0	#d3dbe7	#81a4fb	#9fbfff
+2227	Rhodopseudomonas sp. AAP120	0.0	False	False	False	391.0	17.0	174.0	2.4e-05	-0.000697	-0.02089760466071046	-14245085424.236801	#3c4ec2	#dfdbd9	#f59d7e	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+2230	Riemerella anatipestifer	0.0	False	False	False	192.0	15.0	242.0	0.0001	0.000161	2.8033131371785203e-15	-20892655079.640625	#dfdbd9	#ecd3c5	#f5c0a7	#3b4cc0	#3b4cc0	#d2dbe8	#a9c6fd	#a9c6fd
+2232	Rikenella microfusus	0.0	False	False	False	321.0	20.0	273.0	4.9e-05	-0.003761	-0.05118738692143151	-69356484518.45009	#7699f6	#cad8ef	#f1ccb8	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+2233	Risungbinella massiliensis	0.0	False	False	False	393.0	10.0	628.0	-0.0	-0.0	0.05285922412917797	-660639087651.4746	#3b4cc0	#f7ac8e	#506bda	#3b4cc0	#3b4cc0	#d2dbe8	#b2ccfb	#6e90f2
+2239	Roseburia hominis	0.0	False	False	False	331.0	20.0	357.0	4.9e-05	-0.003783	-0.05118738692143151	-69356484518.59354	#6c8ff1	#cad8ef	#d5dbe5	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+2258	Ruminococcaceae bacterium 585-1	0.0	False	False	False	249.0	20.0	393.0	4.9e-05	0.000378	-0.05118738692143151	-69356484518.59882	#b5cdfa	#cad8ef	#c6d6f1	#3b4cc0	#3b4cc0	#d3dbe7	#9fbfff	#a3c2fe
+2259	Ruminococcaceae bacterium 668	0.0	False	False	False	319.0	20.0	400.0	4.9e-05	-0.003759	-0.05118738692143151	-69356484518.59909	#779af7	#cad8ef	#c3d5f4	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+2262	Ruminococcaceae bacterium AM2	0.0	False	False	False	218.0	20.0	414.0	4.9e-05	0.024046	-0.05118738692143151	-69356484518.60199	#cdd9ec	#cad8ef	#bcd2f7	#3b4cc0	#3b4cc0	#d5dbe5	#9fbfff	#a3c2fe
+2263	Ruminococcaceae bacterium cv2	0.0	False	False	False	304.0	20.0	398.0	4.9e-05	-0.003682	-0.05118738692143151	-69356484518.59897	#85a8fc	#cad8ef	#c4d5f3	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+2264	Ruminococcaceae bacterium D16	0.0	False	False	False	331.0	20.0	303.0	4.9e-05	-0.003783	-0.05118738692143151	-69356484518.49841	#6c8ff1	#cad8ef	#e9d5cb	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+2266	Ruminococcaceae bacterium GD6	0.0	False	False	False	326.0	20.0	298.0	4.9e-05	-0.003774	-0.05118738692143151	-69356484518.4909	#7093f3	#cad8ef	#ead4c8	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+2268	Ruminococcus albus	0.0	False	False	False	284.0	20.0	315.0	4.9e-05	-0.003543	-0.05118738692143151	-69356484518.57863	#97b8ff	#cad8ef	#e5d8d1	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+2270	Ruminococcus callidus	0.0	False	False	False	212.0	20.0	368.0	4.9e-05	0.028966	-0.05118738692143151	-69356484518.5971	#d2dbe8	#cad8ef	#d1dae9	#3b4cc0	#3b4cc0	#d5dbe5	#9fbfff	#a3c2fe
+2271	Ruminococcus champanellensis	0.0	False	False	False	213.0	20.0	305.0	4.9e-05	0.02895	-0.05118738692143151	-69356484518.56361	#d1dae9	#cad8ef	#e9d5cb	#3b4cc0	#3b4cc0	#d5dbe5	#9fbfff	#a3c2fe
+2272	Ruminococcus faecis	0.0	False	False	False	285.0	20.0	351.0	4.9e-05	-0.003549	-0.05118738692143151	-69356484518.58775	#96b7ff	#cad8ef	#d7dce3	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+2273	Ruminococcus flavefaciens	0.0	False	False	False	259.0	20.0	312.0	4.9e-05	-0.003125	-0.05118738692143151	-69356484518.5695	#adc9fd	#cad8ef	#e6d7cf	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+2275	Ruminococcus lactaris	0.0	False	False	False	219.0	20.0	354.0	4.9e-05	0.023986	-0.05118738692143151	-69356484518.59224	#ccd9ed	#cad8ef	#d6dce4	#3b4cc0	#3b4cc0	#d5dbe5	#9fbfff	#a3c2fe
+2276	Ruminococcus sp. 5_1_39BFAA	0.0	False	False	False	393.0	9.0	15.0	-0.0	0.0	0.08239587487357558	714475213071.611	#3b4cc0	#f6a283	#be242e	#3b4cc0	#3b4cc0	#d2dbe8	#b7cff9	#e2dad5
+2277	Ruminococcus sp. AT10	0.0	False	False	False	280.0	20.0	381.0	4.9e-05	-0.003525	-0.05118738692143151	-69356484518.59824	#9abbff	#cad8ef	#cbd8ee	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+2278	Ruminococcus sp. FC2018	0.0	False	False	False	234.0	20.0	328.0	4.9e-05	0.0076	-0.05118738692143151	-69356484518.58447	#c1d4f4	#cad8ef	#e0dbd8	#3b4cc0	#3b4cc0	#d3dbe7	#9fbfff	#a3c2fe
+2279	Ruminococcus sp. HUN007	0.0	False	False	False	212.0	20.0	317.0	4.9e-05	0.028966	-0.05118738692143151	-69356484518.58028	#d2dbe8	#cad8ef	#e4d9d2	#3b4cc0	#3b4cc0	#d5dbe5	#9fbfff	#a3c2fe
+2280	Ruminococcus sp. JC304	0.0	False	False	False	316.0	20.0	380.0	4.9e-05	-0.003744	-0.05118738692143151	-69356484518.5982	#7a9df8	#cad8ef	#cbd8ee	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+2281	Ruminococcus sp. NK3A76	0.0	False	False	False	251.0	20.0	310.0	4.9e-05	0.000368	-0.05118738692143151	-69356484518.56877	#b3cdfb	#cad8ef	#e7d7ce	#3b4cc0	#3b4cc0	#d3dbe7	#9fbfff	#a3c2fe
+2304	Salmonella enterica	0.0	False	False	False	76.0	1.0	213.0	0.004783	-0.005306	1.0000000000000293	-18372832130.169376	#ed8366	#c83836	#f7b396	#3b4cc0	#4b64d5	#d2dbe8	#e36b54	#a9c6fd
+2305	Sanguibacter keddieii	0.0	False	False	False	131.0	26.0	565.0	0.000254	0.000948	-0.21826251770388724	-124158162730.4935	#f7b99e	#93b5fe	#6f92f3	#3b4cc0	#3b4cc0	#d3dbe7	#81a4fb	#9fbfff
+2306	Sanguibacteroides justesenii	0.0	False	False	False	253.0	20.0	455.0	4.9e-05	0.00022	-0.05118738692143151	-69356484518.61531	#b2ccfb	#cad8ef	#a7c5fe	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+2310	Scardovia wiggsiae	0.0	False	False	False	60.0	21.0	5.0	0.010684	-0.005023	-0.07654850267510734	818353130796.8048	#e57058	#c1d4f4	#b8122a	#3b4cc0	#6384eb	#d2dbe8	#9bbcff	#e9d5cb
+2318	Selenomonas artemidis	0.0	False	True	False	93.0	23.0	142.0	0.002065	-0.004057	-0.16810345155412262	66845875985.15709	#f39577	#afcafc	#f08a6c	#3b4cc0	#4257c9	#d2dbe8	#8badfd	#afcafc
+2320	Selenomonas flueggei	0.0001	True	False	False	123.0	26.0	554.0	0.000254	0.007901	-0.21826251770388724	-124158162730.48875	#f7b396	#93b5fe	#7597f6	#455cce	#3b4cc0	#d3dbe7	#81a4fb	#9fbfff
+2321	Selenomonas infelix	0.0013	True	False	False	63.0	19.0	117.0	0.007123	-0.001797	-0.049259091578594	113003546907.76962	#e7745b	#d2dbe8	#e97a5f	#cdd9ec	#5572df	#d2dbe8	#9fbfff	#b5cdfa
+2328	Selenomonas sp. FOBRC6	0.0	False	False	False	62.0	19.0	119.0	0.007123	0.011928	-0.049259091578594	113003546907.76625	#e67259	#d2dbe8	#ea7b60	#3b4cc0	#5572df	#d4dbe6	#9fbfff	#b5cdfa
+2329	Selenomonas sp. FOBRC9	0.0001	True	False	False	46.0	1.0	81.0	0.014015	-0.057409	1.0000000000000293	371044891420.06775	#dd5f4b	#c83836	#dd5f4b	#455cce	#7093f3	#ccd9ed	#e36b54	#cad8ef
+2331	Selenomonas sp. oral taxon 137	0.0007	True	False	False	19.0	1.0	639.0	0.082314	-0.794983	1.0000000000000293	-708893536231.4132	#c73635	#c83836	#4b64d5	#90b2fe	#b40426	#7597f6	#e36b54	#688aef
+2332	Selenomonas sp. oral taxon 138	0.0001	True	False	False	64.0	19.0	118.0	0.007123	-0.010131	-0.049259091578594	113003546907.76707	#e7745b	#d2dbe8	#e97a5f	#455cce	#5572df	#d2dbe8	#9fbfff	#b5cdfa
+2333	Selenomonas sp. oral taxon 149	0.0001	True	False	False	121.0	26.0	559.0	0.000254	0.007904	-0.21826251770388724	-124158162730.48958	#f7b093	#93b5fe	#7295f4	#455cce	#3b4cc0	#d3dbe7	#81a4fb	#9fbfff
+2334	Selenomonas sp. oral taxon 478	0.0	False	False	False	132.0	26.0	552.0	0.000254	0.000939	-0.21826251770388724	-124158162730.48837	#f7b99e	#93b5fe	#7699f6	#3b4cc0	#3b4cc0	#d3dbe7	#81a4fb	#9fbfff
+2335	Selenomonas sp. oral taxon 892	0.0003	True	False	False	15.0	1.0	653.0	0.082314	0.280109	1.0000000000000293	-708893536231.7098	#c43032	#c83836	#455cce	#5d7ce6	#b40426	#ead4c8	#e36b54	#688aef
+2338	Senegalimassilia anaerobia	0.0	False	False	False	212.0	20.0	268.0	4.9e-05	0.028966	-0.05118738692143151	-69356484518.4034	#d2dbe8	#cad8ef	#f2cbb7	#3b4cc0	#3b4cc0	#d5dbe5	#9fbfff	#a3c2fe
+2342	Serratia grimesii	0.0	False	False	False	180.0	26.0	579.0	0.000254	-0.011455	-0.21826251770388724	-124158162730.51976	#e7d7ce	#93b5fe	#688aef	#3b4cc0	#3b4cc0	#d1dae9	#81a4fb	#9fbfff
+2343	Serratia liquefaciens	0.0	False	False	False	121.0	26.0	593.0	0.000254	0.007904	-0.21826251770388724	-124158162730.52098	#f7b093	#93b5fe	#6180e9	#3b4cc0	#3b4cc0	#d3dbe7	#81a4fb	#9fbfff
+2344	Serratia marcescens	0.0	False	False	False	121.0	26.0	570.0	0.000254	0.007904	-0.21826251770388724	-124158162730.51918	#f7b093	#93b5fe	#6c8ff1	#3b4cc0	#3b4cc0	#d3dbe7	#81a4fb	#9fbfff
+2346	Serratia plymuthica	0.0	False	False	False	162.0	26.0	586.0	0.000254	-0.006008	-0.21826251770388724	-124158162730.52007	#efcebd	#93b5fe	#6485ec	#3b4cc0	#3b4cc0	#d2dbe8	#81a4fb	#9fbfff
+2347	Serratia proteamaculans	0.0	False	False	False	166.0	26.0	573.0	0.000254	-0.007072	-0.21826251770388724	-124158162730.51949	#eed0c0	#93b5fe	#6b8df0	#3b4cc0	#3b4cc0	#d2dbe8	#81a4fb	#9fbfff
+2350	Serratia sp. S4	0.0	False	False	False	121.0	26.0	574.0	0.000254	0.007904	-0.21826251770388724	-124158162730.51953	#f7b093	#93b5fe	#6b8df0	#3b4cc0	#3b4cc0	#d3dbe7	#81a4fb	#9fbfff
+2360	Shuttleworthia sp. MSX8B	0.0	False	False	False	393.0	10.0	625.0	-0.0	0.0	0.05285922412917797	-660639087651.4742	#3b4cc0	#f7ac8e	#516ddb	#3b4cc0	#3b4cc0	#d2dbe8	#b2ccfb	#6e90f2
+2364	Simonsiella muelleri	0.0	False	False	False	204.0	15.0	217.0	0.0001	-0.000127	2.8033131371785203e-15	-20892655079.637672	#d7dce3	#ecd3c5	#f7b497	#3b4cc0	#3b4cc0	#d2dbe8	#a9c6fd	#a9c6fd
+2367	Sinorhizobium sp. GL28	0.0	False	False	False	240.0	20.0	281.0	4.9e-05	0.002673	-0.05118738692143151	-69356484518.47618	#bcd2f7	#cad8ef	#efcebd	#3b4cc0	#3b4cc0	#d3dbe7	#9fbfff	#a3c2fe
+2369	Slackia exigua	0.0	False	False	False	52.0	1.0	72.0	0.014015	-0.063528	1.0000000000000293	371044891420.076	#e16751	#c83836	#d95847	#3b4cc0	#7093f3	#ccd9ed	#e36b54	#cad8ef
+2371	Slackia piriformis	0.0	False	False	False	265.0	20.0	325.0	4.9e-05	-0.003292	-0.05118738692143151	-69356484518.58435	#a7c5fe	#cad8ef	#e1dad6	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+2372	Slackia sp. CM382	0.0	False	False	False	34.0	1.0	69.0	0.014015	0.054238	1.0000000000000293	371044891420.0765	#d44e41	#c83836	#d85646	#3b4cc0	#7093f3	#d7dce3	#e36b54	#cad8ef
+2373	Sneathia amnii	0.0	False	False	False	182.0	3.0	614.0	0.000127	-1.1e-05	0.439179255529685	-533219820966.8705	#e5d8d1	#d95847	#5875e1	#3b4cc0	#3b4cc0	#d2dbe8	#ebd3c6	#799cf8
+2387	Sphingobacterium sp. IITKGP-BTPF85	0.0	False	False	False	393.0	9.0	23.0	-0.0	0.0	0.08239587487357558	714475213071.6089	#3b4cc0	#f6a283	#c32e31	#3b4cc0	#3b4cc0	#d2dbe8	#b7cff9	#e2dad5
+2399	Sphingobium yanoikuyae	0.0	False	False	False	184.0	22.0	40.0	0.000105	2e-06	-0.08477785949835788	514733528965.1684	#e4d9d2	#b9d0f9	#cb3e38	#3b4cc0	#3b4cc0	#d2dbe8	#9abbff	#d5dbe5
+2403	Sphingomonas sanxanigenens	0.0	False	False	False	384.0	17.0	163.0	2.4e-05	0.000222	-0.02089760466071046	-14245085424.236145	#4257c9	#dfdbd9	#f39778	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+2404	Sphingomonas sp. Ag1	0.0	False	False	False	393.0	10.0	623.0	-0.0	0.0	0.05285922412917797	-660639087651.4735	#3b4cc0	#f7ac8e	#536edd	#3b4cc0	#3b4cc0	#d2dbe8	#b2ccfb	#6e90f2
+2405	Sphingomonas sp. Ant H11	0.0	False	False	False	109.0	5.0	112.0	0.000654	0.00026	0.22236504364995083	153521408162.71796	#f7a688	#e7745b	#e8765c	#3b4cc0	#3d50c3	#d3dbe7	#cedaeb	#b7cff9
+2406	Sphingomonas sp. MEA3-1	0.0	False	False	False	384.0	17.0	149.0	2.4e-05	0.000222	-0.02089760466071046	-14245085424.234879	#4257c9	#dfdbd9	#f18f71	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+2411	Sphingopyxis fribergensis	0.0	False	False	False	391.0	17.0	173.0	2.4e-05	-0.000697	-0.02089760466071046	-14245085424.236725	#3c4ec2	#dfdbd9	#f59d7e	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+2412	Sphingopyxis macrogoltabida	0.0	False	False	False	391.0	17.0	163.0	2.4e-05	-0.000697	-0.02089760466071046	-14245085424.236145	#3c4ec2	#dfdbd9	#f39778	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+2415	Sphingopyxis sp. H050	0.0	False	False	False	393.0	12.0	148.0	-0.0	0.0	0.019335816817042717	41907761011.26318	#3b4cc0	#f6bea4	#f18d6f	#3b4cc0	#3b4cc0	#d2dbe8	#adc9fd	#aec9fc
+2416	Sphingopyxis sp. H115	0.0	False	False	False	384.0	17.0	180.0	2.4e-05	0.000222	-0.02089760466071046	-14245085424.237106	#4257c9	#dfdbd9	#f5a081	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+2417	Sphingopyxis sp. LC363	0.0	False	False	False	384.0	17.0	180.0	2.4e-05	0.000222	-0.02089760466071046	-14245085424.237106	#4257c9	#dfdbd9	#f5a081	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+2418	Sphingopyxis sp. LC81	0.0	False	False	False	393.0	12.0	147.0	-0.0	0.0	0.019335816817042717	41907761011.26449	#3b4cc0	#f6bea4	#f18d6f	#3b4cc0	#3b4cc0	#d2dbe8	#adc9fd	#aec9fc
+2420	Sphingopyxis sp. Root1497	0.0	False	False	False	393.0	12.0	146.0	-0.0	0.0	0.019335816817042717	41907761011.26451	#3b4cc0	#f6bea4	#f18d6f	#3b4cc0	#3b4cc0	#d2dbe8	#adc9fd	#aec9fc
+2439	Staphylococcus aureus	0.0	False	False	False	393.0	10.0	631.0	-0.0	-0.0	0.05285922412917797	-660639087651.4751	#3b4cc0	#f7ac8e	#4f69d9	#3b4cc0	#3b4cc0	#d2dbe8	#b2ccfb	#6e90f2
+2440	Staphylococcus auricularis	0.0	False	False	False	66.0	1.0	206.0	0.004783	0.001338	1.0000000000000293	-18372832130.163486	#e9785d	#c83836	#f7af91	#3b4cc0	#4b64d5	#d3dbe7	#e36b54	#a9c6fd
+2441	Staphylococcus capitis	0.0	False	False	False	393.0	16.0	92.0	-0.0	0.0	-0.006901944013460211	344361225088.76416	#3b4cc0	#e6d7cf	#e16751	#3b4cc0	#3b4cc0	#d2dbe8	#a7c5fe	#c7d7f0
+2443	Staphylococcus epidermidis	0.0	False	False	False	65.0	1.0	204.0	0.004783	0.03675	1.0000000000000293	-18372832130.15976	#e8765c	#c83836	#f7ad90	#3b4cc0	#4b64d5	#d6dce4	#e36b54	#a9c6fd
+2445	Staphylococcus haemolyticus	0.0	False	False	False	393.0	10.0	634.0	-0.0	0.0	0.05285922412917797	-660639087651.476	#3b4cc0	#f7ac8e	#4e68d8	#3b4cc0	#3b4cc0	#d2dbe8	#b2ccfb	#6e90f2
+2458	Stenotrophomonas maltophilia	0.0	False	False	False	183.0	22.0	34.0	0.000105	0.000229	-0.08477785949835788	514733528965.1692	#e5d8d1	#b9d0f9	#c83836	#3b4cc0	#3b4cc0	#d2dbe8	#9abbff	#d5dbe5
+2460	Stomatobaculum longum	0.0001	True	False	False	141.0	26.0	595.0	0.000254	-0.000546	-0.21826251770388724	-124158162730.52272	#f5c0a7	#93b5fe	#6180e9	#455cce	#3b4cc0	#d2dbe8	#81a4fb	#9fbfff
+2462	Streptobacillus moniliformis	0.0	False	False	False	197.0	15.0	251.0	0.0001	0.0001	2.8033131371785203e-15	-20892655079.640762	#dcdddd	#ecd3c5	#f5c4ac	#3b4cc0	#3b4cc0	#d2dbe8	#a9c6fd	#a9c6fd
+2465	Streptococcus australis	0.0	False	False	False	121.0	26.0	515.0	0.000254	0.007904	-0.21826251770388724	-124158162730.45782	#f7b093	#93b5fe	#89acfd	#3b4cc0	#3b4cc0	#d3dbe7	#81a4fb	#9fbfff
+2471	Streptococcus cristatus	0.0	False	False	False	393.0	18.0	125.0	-0.0	0.0	-0.025898091598185458	73043559724.18422	#3b4cc0	#d9dce1	#ec7f63	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#b1cbfc
+2473	Streptococcus dentisani	0.0	False	False	False	208.0	15.0	247.0	0.0001	-0.000252	2.8033131371785203e-15	-20892655079.64067	#d5dbe5	#ecd3c5	#f5c2aa	#3b4cc0	#3b4cc0	#d2dbe8	#a9c6fd	#a9c6fd
+2478	Streptococcus equi	0.0	False	False	False	393.0	9.0	20.0	-0.0	0.0	0.08239587487357558	714475213071.6096	#3b4cc0	#f6a283	#c0282f	#3b4cc0	#3b4cc0	#d2dbe8	#b7cff9	#e2dad5
+2479	Streptococcus equinus	0.0	False	False	False	393.0	28.0	501.0	-0.0	-0.0	-0.22535442050771975	-91156318128.8646	#3b4cc0	#81a4fb	#90b2fe	#3b4cc0	#3b4cc0	#d2dbe8	#80a3fa	#a2c1ff
+2487	Streptococcus infantis	0.0	False	False	False	121.0	26.0	519.0	0.000254	0.007904	-0.21826251770388724	-124158162730.4734	#f7b093	#93b5fe	#86a9fc	#3b4cc0	#3b4cc0	#d3dbe7	#81a4fb	#9fbfff
+2489	Streptococcus intermedius	0.0002	True	False	False	74.0	1.0	209.0	0.004783	-0.002081	1.0000000000000293	-18372832130.16546	#ec8165	#c83836	#f7b093	#506bda	#4b64d5	#d2dbe8	#e36b54	#a9c6fd
+2492	Streptococcus macedonicus	0.0	False	False	False	184.0	22.0	45.0	0.000105	2e-06	-0.08477785949835788	514733528965.16785	#e4d9d2	#b9d0f9	#cd423b	#3b4cc0	#3b4cc0	#d2dbe8	#9abbff	#d5dbe5
+2494	Streptococcus massiliensis	0.0	False	False	False	87.0	23.0	127.0	0.002065	0.004596	-0.16810345155412262	66845875985.20067	#f18f71	#afcafc	#ec8165	#3b4cc0	#4257c9	#d3dbe7	#8badfd	#afcafc
+2498	Streptococcus mutans	0.0	False	False	False	393.0	28.0	504.0	-0.0	0.0	-0.22535442050771975	-91156318128.86485	#3b4cc0	#81a4fb	#8fb1fe	#3b4cc0	#3b4cc0	#d2dbe8	#80a3fa	#a2c1ff
+2499	Streptococcus oligofermentans	0.0	False	False	False	393.0	18.0	126.0	-0.0	0.0	-0.025898091598185458	73043559724.18385	#3b4cc0	#d9dce1	#ec7f63	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#b1cbfc
+2500	Streptococcus oralis	0.0002	True	False	False	191.0	15.0	232.0	0.0001	0.000162	2.8033131371785203e-15	-20892655079.640022	#e0dbd8	#ecd3c5	#f7bca1	#506bda	#3b4cc0	#d2dbe8	#a9c6fd	#a9c6fd
+2506	Streptococcus peroris	0.0	False	False	False	136.0	26.0	521.0	0.000254	-6.8e-05	-0.21826251770388724	-124158162730.47597	#f6bda2	#93b5fe	#85a8fc	#3b4cc0	#3b4cc0	#d2dbe8	#81a4fb	#9fbfff
+2514	Streptococcus pyogenes	0.0	False	False	False	393.0	13.0	121.0	-0.0	0.0	0.017086506417203218	91615449639.40546	#3b4cc0	#f4c6af	#ea7b60	#3b4cc0	#3b4cc0	#d2dbe8	#abc8fd	#b2ccfb
+2518	Streptococcus sinensis	0.0	False	False	False	111.0	5.0	111.0	0.000654	-0.000165	0.22236504364995083	153521408162.7182	#f7a889	#e7745b	#e8765c	#3b4cc0	#3d50c3	#d2dbe8	#cedaeb	#b7cff9
+2519	Streptococcus sobrinus	0.0	False	False	False	110.0	5.0	114.0	0.000654	-0.000103	0.22236504364995083	153521408162.7176	#f7a688	#e7745b	#e9785d	#3b4cc0	#3d50c3	#d2dbe8	#cedaeb	#b7cff9
+2520	Streptococcus sp. 1171_SSPC	0.0	False	False	False	122.0	26.0	518.0	0.000254	0.007902	-0.21826251770388724	-124158162730.47263	#f7b194	#93b5fe	#88abfd	#3b4cc0	#3b4cc0	#d3dbe7	#81a4fb	#9fbfff
+2522	Streptococcus sp. 263_SSPC	0.0	False	False	False	127.0	26.0	517.0	0.000254	0.002506	-0.21826251770388724	-124158162730.47145	#f7b599	#93b5fe	#88abfd	#3b4cc0	#3b4cc0	#d3dbe7	#81a4fb	#9fbfff
+2525	Streptococcus sp. 449_SSPC	0.0	False	False	False	121.0	26.0	524.0	0.000254	0.007904	-0.21826251770388724	-124158162730.48088	#f7b093	#93b5fe	#84a7fc	#3b4cc0	#3b4cc0	#d3dbe7	#81a4fb	#9fbfff
+2526	Streptococcus sp. ACS2	0.0	False	False	False	206.0	15.0	244.0	0.0001	-0.000131	2.8033131371785203e-15	-20892655079.640648	#d6dce4	#ecd3c5	#f5c1a9	#3b4cc0	#3b4cc0	#d2dbe8	#a9c6fd	#a9c6fd
+2528	Streptococcus sp. AS20	0.0	False	False	False	393.0	13.0	122.0	-0.0	0.0	0.017086506417203218	91615449639.40514	#3b4cc0	#f4c6af	#eb7d62	#3b4cc0	#3b4cc0	#d2dbe8	#abc8fd	#b2ccfb
+2529	Streptococcus sp. C150	0.0	False	False	False	102.0	24.0	606.0	0.000763	-0.00045	-0.1747894052563901	-366399513275.53455	#f59f80	#a6c4fe	#5b7ae5	#3b4cc0	#3d50c3	#d2dbe8	#89acfd	#88abfd
+2532	Streptococcus sp. CCH8-C6	0.0	False	False	False	393.0	27.0	53.0	-0.0	-0.0	-0.2233329018461887	411791986485.1315	#3b4cc0	#8badfd	#d1493f	#3b4cc0	#3b4cc0	#d2dbe8	#80a3fa	#cdd9ec
+2538	Streptococcus sp. F0442	0.0	False	False	False	177.0	26.0	532.0	0.000254	-0.009924	-0.21826251770388724	-124158162730.48514	#e9d5cb	#93b5fe	#80a3fa	#3b4cc0	#3b4cc0	#d2dbe8	#81a4fb	#9fbfff
+2540	Streptococcus sp. HPH0090	0.0	False	False	False	121.0	26.0	525.0	0.000254	0.007904	-0.21826251770388724	-124158162730.48232	#f7b093	#93b5fe	#84a7fc	#3b4cc0	#3b4cc0	#d3dbe7	#81a4fb	#9fbfff
+2543	Streptococcus sp. I-G2	0.0	False	False	False	164.0	26.0	514.0	0.000254	-0.006602	-0.21826251770388724	-124158162730.44344	#efcfbf	#93b5fe	#89acfd	#3b4cc0	#3b4cc0	#d2dbe8	#81a4fb	#9fbfff
+2544	Streptococcus sp. I-P16	0.0	False	False	False	121.0	26.0	512.0	0.000254	0.007904	-0.21826251770388724	-124158162730.43863	#f7b093	#93b5fe	#8badfd	#3b4cc0	#3b4cc0	#d3dbe7	#81a4fb	#9fbfff
+2545	Streptococcus sp. M143	0.0	False	False	False	194.0	15.0	227.0	0.0001	0.000147	2.8033131371785203e-15	-20892655079.638702	#dedcdb	#ecd3c5	#f7b99e	#3b4cc0	#3b4cc0	#d2dbe8	#a9c6fd	#a9c6fd
+2550	Streptococcus sp. oral taxon 071	0.0	False	False	False	204.0	15.0	239.0	0.0001	-0.000127	2.8033131371785203e-15	-20892655079.640564	#d7dce3	#ecd3c5	#f6bfa6	#3b4cc0	#3b4cc0	#d2dbe8	#a9c6fd	#a9c6fd
+2551	Streptococcus sp. oral taxon 431	0.0	False	False	False	148.0	26.0	522.0	0.000254	-0.000937	-0.21826251770388724	-124158162730.4779	#f4c6af	#93b5fe	#85a8fc	#3b4cc0	#3b4cc0	#d2dbe8	#81a4fb	#9fbfff
+2552	Streptococcus sp. SK140	0.0	False	False	False	163.0	26.0	523.0	0.000254	-0.006319	-0.21826251770388724	-124158162730.47946	#efcebd	#93b5fe	#85a8fc	#3b4cc0	#3b4cc0	#d2dbe8	#81a4fb	#9fbfff
+2553	Streptococcus sp. SK643	0.0	False	False	False	200.0	15.0	236.0	0.0001	-8.8e-05	2.8033131371785203e-15	-20892655079.640488	#dadce0	#ecd3c5	#f6bea4	#3b4cc0	#3b4cc0	#d2dbe8	#a9c6fd	#a9c6fd
+2554	Streptococcus sp. SR1	0.0	False	False	False	393.0	13.0	120.0	-0.0	-0.0	0.017086506417203218	91615449639.4061	#3b4cc0	#f4c6af	#ea7b60	#3b4cc0	#3b4cc0	#d2dbe8	#abc8fd	#b2ccfb
+2555	Streptococcus sp. SR4	0.0	False	False	False	175.0	26.0	513.0	0.000254	-0.00855	-0.21826251770388724	-124158162730.43974	#ead5c9	#93b5fe	#89acfd	#3b4cc0	#3b4cc0	#d2dbe8	#81a4fb	#9fbfff
+2557	Streptococcus sp. X13SY08	0.0	False	False	False	192.0	15.0	220.0	0.0001	0.000161	2.8033131371785203e-15	-20892655079.638214	#dfdbd9	#ecd3c5	#f7b599	#3b4cc0	#3b4cc0	#d2dbe8	#a9c6fd	#a9c6fd
+2558	Streptococcus suis	0.0	False	False	False	393.0	9.0	20.0	-0.0	-0.0	0.08239587487357558	714475213071.6096	#3b4cc0	#f6a283	#c0282f	#3b4cc0	#3b4cc0	#d2dbe8	#b7cff9	#e2dad5
+2559	Streptococcus thermophilus	0.0002	True	False	False	184.0	22.0	38.0	0.000105	2e-06	-0.08477785949835788	514733528965.16864	#e4d9d2	#b9d0f9	#ca3b37	#506bda	#3b4cc0	#d2dbe8	#9abbff	#d5dbe5
+2563	Streptococcus urinalis	0.0	False	False	False	115.0	6.0	260.0	0.000382	-0.000345	0.1375789517020132	-42620045919.38829	#f7aa8c	#ec8165	#f3c8b2	#3b4cc0	#3c4ec2	#d2dbe8	#c0d4f5	#a6c4fe
+2566	Streptomyces sp. MUSC119T	0.0	False	False	False	393.0	10.0	630.0	-0.0	-0.0	0.05285922412917797	-660639087651.4749	#3b4cc0	#f7ac8e	#506bda	#3b4cc0	#3b4cc0	#d2dbe8	#b2ccfb	#6e90f2
+2568	Subdoligranulum sp. 4_3_54A2FAA	0.0	False	False	False	234.0	20.0	448.0	4.9e-05	0.0076	-0.05118738692143151	-69356484518.6122	#c1d4f4	#cad8ef	#abc8fd	#3b4cc0	#3b4cc0	#d3dbe7	#9fbfff	#a3c2fe
+2569	Subdoligranulum variabile	0.0	False	False	False	244.0	20.0	404.0	4.9e-05	0.000775	-0.05118738692143151	-69356484518.59962	#b9d0f9	#cad8ef	#c0d4f5	#3b4cc0	#3b4cc0	#d3dbe7	#9fbfff	#a3c2fe
+2602	Tannerella forsythia	0.0147	True	False	False	29.0	-1.0	-1.0	0.014015	0.058559	1.275369900904602	2525253436959.793	#d0473d	#b40426	#b40426	#e36c55	#7093f3	#d8dce2	#3b4cc0	#3b4cc0
+2608	Tepidiphilus thermophilus	0.0	False	False	False	184.0	22.0	40.0	0.000105	2e-06	-0.08477785949835788	514733528965.1684	#e4d9d2	#b9d0f9	#cb3e38	#3b4cc0	#3b4cc0	#d2dbe8	#9abbff	#d5dbe5
+2612	Terrisporobacter othiniensis	0.0	False	False	False	224.0	20.0	334.0	4.9e-05	0.010166	-0.05118738692143151	-69356484518.58595	#c9d7f0	#cad8ef	#dedcdb	#3b4cc0	#3b4cc0	#d3dbe7	#9fbfff	#a3c2fe
+2619	Thauera sp. 28	0.0	False	False	False	61.0	21.0	4.0	0.010684	-0.014339	-0.07654850267510734	818353130796.8053	#e67259	#c1d4f4	#b70d28	#3b4cc0	#6384eb	#d1dae9	#9bbcff	#e9d5cb
+2640	Thermus aquaticus	0.0	False	False	False	100.0	24.0	608.0	0.000763	-0.000192	-0.1747894052563901	-366399513275.5353	#f59d7e	#a6c4fe	#5a78e4	#3b4cc0	#3d50c3	#d2dbe8	#89acfd	#88abfd
+2650	Tissierellia bacterium GD9	0.0	False	False	False	234.0	20.0	390.0	4.9e-05	0.0076	-0.05118738692143151	-69356484518.59871	#c1d4f4	#cad8ef	#c7d7f0	#3b4cc0	#3b4cc0	#d3dbe7	#9fbfff	#a3c2fe
+2651	Tissierellia bacterium S5-A11	0.0	False	False	False	391.0	17.0	170.0	2.4e-05	-0.000697	-0.02089760466071046	-14245085424.236542	#3c4ec2	#dfdbd9	#f59c7d	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+2652	Tissierellia bacterium S7-1-4	0.0	False	False	False	384.0	17.0	182.0	2.4e-05	0.000222	-0.02089760466071046	-14245085424.237183	#4257c9	#dfdbd9	#f6a283	#3b4cc0	#3b4cc0	#d2dbe8	#a5c3fe	#a9c6fd
+2660	Treponema lecithinolyticum	0.0001	True	False	False	28.0	1.0	78.0	0.014015	0.1134	1.0000000000000293	371044891420.07	#cf453c	#c83836	#dc5d4a	#455cce	#7093f3	#dddcdc	#e36b54	#cad8ef
+2662	Treponema medium	0.0005	True	False	False	36.0	1.0	82.0	0.014015	0.05416	1.0000000000000293	371044891420.0671	#d55042	#c83836	#de614d	#7699f6	#7093f3	#d7dce3	#e36b54	#cad8ef
+2663	Treponema pedis	0.0	False	False	False	31.0	1.0	83.0	0.014015	0.056221	1.0000000000000293	371044891420.0669	#d1493f	#c83836	#de614d	#3b4cc0	#7093f3	#d7dce3	#e36b54	#cad8ef
+2664	Treponema phagedenis	0.0	False	False	False	35.0	1.0	80.0	0.014015	0.054175	1.0000000000000293	371044891420.0683	#d55042	#c83836	#dd5f4b	#3b4cc0	#7093f3	#d7dce3	#e36b54	#cad8ef
+2666	Treponema putidum	0.0	False	False	False	33.0	1.0	84.0	0.014015	0.05469	1.0000000000000293	371044891420.0668	#d24b40	#c83836	#de614d	#3b4cc0	#7093f3	#d7dce3	#e36b54	#cad8ef
+2667	Treponema saccharophilum	0.0	False	False	False	42.0	1.0	77.0	0.014015	0.030325	1.0000000000000293	371044891420.07117	#d95847	#c83836	#dc5d4a	#3b4cc0	#7093f3	#d5dbe5	#e36b54	#cad8ef
+2671	Treponema sp. OMZ 838	0.0008	True	False	False	55.0	1.0	85.0	0.014015	-0.071654	1.0000000000000293	371044891420.06604	#e36b54	#c83836	#df634e	#9dbdff	#7093f3	#cbd8ee	#e36b54	#cad8ef
+2672	Treponema succinifaciens	0.0	False	False	False	48.0	1.0	79.0	0.014015	-0.062024	1.0000000000000293	371044891420.06946	#de614d	#c83836	#dd5f4b	#3b4cc0	#7093f3	#ccd9ed	#e36b54	#cad8ef
+2673	Treponema vincentii	0.0003	True	False	False	30.0	1.0	83.0	0.014015	0.057458	1.0000000000000293	371044891420.0669	#d1493f	#c83836	#de614d	#5d7ce6	#7093f3	#d8dce2	#e36b54	#cad8ef
+2676	Trueperella pyogenes	0.0	False	False	False	165.0	26.0	543.0	0.000254	-0.00663	-0.21826251770388724	-124158162730.4875	#eed0c0	#93b5fe	#7a9df8	#3b4cc0	#3b4cc0	#d2dbe8	#81a4fb	#9fbfff
+2678	Turicibacter sanguinis	0.0	False	False	False	224.0	20.0	341.0	4.9e-05	0.010166	-0.05118738692143151	-69356484518.5864	#c9d7f0	#cad8ef	#dbdcde	#3b4cc0	#3b4cc0	#d3dbe7	#9fbfff	#a3c2fe
+2679	Turicibacter sp. HGF1	0.0	False	False	False	276.0	20.0	326.0	4.9e-05	-0.003417	-0.05118738692143151	-69356484518.58437	#9ebeff	#cad8ef	#e1dad6	#3b4cc0	#3b4cc0	#d2dbe8	#9fbfff	#a3c2fe
+2681	Tyzzerella nexilis	0.0	False	False	False	235.0	20.0	452.0	4.9e-05	0.007592	-0.05118738692143151	-69356484518.61469	#c0d4f5	#cad8ef	#a9c6fd	#3b4cc0	#3b4cc0	#d3dbe7	#9fbfff	#a3c2fe
+2683	Ureaplasma parvum	0.0	False	False	False	393.0	8.0	28.0	-0.0	-0.0	0.10925390222022313	518075332865.6004	#3b4cc0	#f4987a	#c43032	#3b4cc0	#3b4cc0	#d2dbe8	#bcd2f7	#d5dbe5
+2688	Veillonella atypica	0.0	False	False	False	122.0	26.0	558.0	0.000254	0.007902	-0.21826251770388724	-124158162730.48917	#f7b194	#93b5fe	#7396f5	#3b4cc0	#3b4cc0	#d3dbe7	#81a4fb	#9fbfff
+2690	Veillonella magna	0.0	False	False	False	204.0	15.0	216.0	0.0001	-0.000127	2.8033131371785203e-15	-20892655079.637585	#d7dce3	#ecd3c5	#f7b497	#3b4cc0	#3b4cc0	#d2dbe8	#a9c6fd	#a9c6fd
+2696	Veillonella sp. ACP1	0.0	False	False	False	121.0	26.0	537.0	0.000254	0.007904	-0.21826251770388724	-124158162730.48648	#f7b093	#93b5fe	#7da0f9	#3b4cc0	#3b4cc0	#d3dbe7	#81a4fb	#9fbfff
+2697	Veillonella sp. AS16	0.0	False	False	False	123.0	26.0	547.0	0.000254	0.007901	-0.21826251770388724	-124158162730.48781	#f7b396	#93b5fe	#799cf8	#3b4cc0	#3b4cc0	#d3dbe7	#81a4fb	#9fbfff
+2698	Veillonella sp. HPA0037	0.0	False	False	False	159.0	26.0	535.0	0.000254	-0.004899	-0.21826251770388724	-124158162730.48564	#f1cdba	#93b5fe	#7ea1fa	#3b4cc0	#3b4cc0	#d2dbe8	#81a4fb	#9fbfff
+2699	Veillonella sp. ICM51a	0.0	False	False	False	124.0	26.0	534.0	0.000254	0.007892	-0.21826251770388724	-124158162730.48553	#f7b396	#93b5fe	#80a3fa	#3b4cc0	#3b4cc0	#d3dbe7	#81a4fb	#9fbfff
+2703	Veillonella tobetsuensis	0.0	False	False	False	116.0	31.0	58.0	0.000305	0.000563	-0.38303187057407523	394390469552.7525	#f7ac8e	#6485ec	#d44e41	#3b4cc0	#3b4cc0	#d3dbe7	#6384eb	#cbd8ee
+2710	Vibrio cholerae	0.0	False	False	False	393.0	27.0	54.0	-0.0	-0.0	-0.2233329018461887	411791986485.13086	#3b4cc0	#8badfd	#d1493f	#3b4cc0	#3b4cc0	#d2dbe8	#80a3fa	#cdd9ec
+2717	Vibrio vulnificus	0.0	False	False	False	185.0	22.0	37.0	0.000105	-7e-06	-0.08477785949835788	514733528965.1689	#e3d9d3	#b9d0f9	#ca3b37	#3b4cc0	#3b4cc0	#d2dbe8	#9abbff	#d5dbe5
+2729	Xanthomonas campestris	0.0	False	False	False	184.0	22.0	41.0	0.000105	2e-06	-0.08477785949835788	514733528965.16833	#e4d9d2	#b9d0f9	#cb3e38	#3b4cc0	#3b4cc0	#d2dbe8	#9abbff	#d5dbe5
+2734	Xenorhabdus bovienii	0.0	False	False	False	121.0	26.0	590.0	0.000254	0.007904	-0.21826251770388724	-124158162730.52051	#f7b093	#93b5fe	#6384eb	#3b4cc0	#3b4cc0	#d3dbe7	#81a4fb	#9fbfff
+2735	Xylanimonas cellulosilytica	0.0	False	False	False	121.0	26.0	529.0	0.000254	0.007904	-0.21826251770388724	-124158162730.4839	#f7b093	#93b5fe	#81a4fb	#3b4cc0	#3b4cc0	#d3dbe7	#81a4fb	#9fbfff

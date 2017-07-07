@@ -33,6 +33,20 @@ if sample_types == 'True':
 else:
 	sample_types = False
 
+##I have to parse the level input I guess...
+if level != 'all':
+	lvl_list = []
+	if level[0] == '[' and level[-1] == ']':
+		commas = argwhere([let == ',' for let in level])
+		word_start = 1
+		for com in commas:
+			lvl_list = lvl_list + [level[word_start:com[0]]]
+			word_start = com[0]+1
+		lvl_list = lvl_list+[level[word_start:-1]]
+	else:
+		lvl_list  = [level]
+	level = lvl_list
+
 
 ######Import the abundance matrix
 #Makes a pandas DataFrame, use abundance_array.keys() to see column labels, 
@@ -50,7 +64,7 @@ if level == 'all':
 	level = array(abundance_array_full['LEVEL'].values)
 	level = array(unique(level))
 else:
-	level = array([level])
+	level = array(level)
 
 #need to check that the levels given as argument actually exist
 levels_allowed = array(abundance_array_full['LEVEL'].values)
@@ -60,6 +74,8 @@ for i in level:
 	if not i in levels_allowed:
 		print(levels_allowed)
 		sys.exit('Bad level argument. Choose a level from the list above or type all')
+
+
 
 #Combine samples of the same kind (that is, the same part of the body) so that we can 
 #color according to where abundance of a genome is highest.
@@ -93,10 +109,13 @@ if sample_types:
 else:
 	ab_arrays = [abundance_array_full]
 
-adjacency_frames = dict()
-source_target_frames = dict()
-adjecency_frames_pre = dict()
-source_target_frames_pre = dict()
+
+old_way = True
+new_way = True
+adjacency_frames_bins = dict()
+source_target_frames_bins = dict()
+adjacency_frames_pear = dict()
+source_target_frames_pear = dict()
 #colors = dict()
 for i in level:
 	print(i)
@@ -104,7 +123,7 @@ for i in level:
 		if sample_types:
 			stype = diff_samps_types[ii]
 		else:
-			stype = 'all'
+			stype = ''
 		abundance_array = ab_arrays[ii]
 		#start by getting the indices of the members of the level
 		in_level = where(abundance_array['LEVEL'] == i)[0]
@@ -120,192 +139,192 @@ for i in level:
 		lvl_abundance_array = lvl_abundance_array.drop(n_seen_ind)
 		ab_np_array = lvl_abundance_array.values[:,1:].astype(float)
 		
-		old_way = False
 		
 		if old_way:
-		#Create numpy array of co-occurrence fractions. This is the incidence matrix for our weighted
-		#graph.
-			#t1 = time.time()
+	#Create numpy array of co-occurrence fractions. This is the incidence matrix for our weighted
+	#graph.
+		#t1 = time.time()
 			occur_probs = occ_probs(lvl_abundance_array,0.05,5)
-			adj_matrix_pre = asarray([[0 if x == y else both_same_bin(ab_np_array[x],ab_np_array[y], 0.05, 5) 
+			adj_matrix_pre_bins = asarray([[0 if x == y else both_same_bin(ab_np_array[x],ab_np_array[y], 0.05, 5) 
 										for x in range(len(ab_np_array))] for y in range(len(ab_np_array))])
-			#print(time.time() - t1)	
+			
+			degs_b = sum(adj_matrix_pre_bins,1)
+			unconnected_b = where(degs_b == 0)
+			adj_matrix_pre_bins = delete(adj_matrix_pre_bins,unconnected_b,0)
+			adj_matrix_pre_bins = delete(adj_matrix_pre_bins,unconnected_b,1)
+			ab_np_array_bins = delete(ab_np_array,unconnected_b,0)
+			if ab_np_array_bins.shape[0] == 0:
+				break
+			in_level_b = delete(in_level,unconnected_b)
+			
+			stringency_b = 0.05
+			N = len(ab_np_array[0])
+			tot_seen_b = [sum([abd != 0 for abd in row]) for row in ab_np_array]
+			
+			adj_size_b = adj_matrix_pre_bins.shape
+			adj_matrix_bins = zeros(adj_size_b)
+			for k in range(adj_size_b[0]):
+				for j in range(adj_size_b[1]):
+					if adj_matrix_pre_bins[k,j] != 0:
+						p = approx_rand_prob(occur_probs,adj_matrix_pre_bins[k,j],k,j)
+						if p <= stringency_b:
+							adj_matrix_bins[k,j] = adj_matrix_pre_bins[k,j] 
+			
+			degs2_b = sum(adj_matrix_bins,1)
+			unconnected2_b = where(degs2_b == 0)
+			adj_matrix_bins = delete(adj_matrix_bins,unconnected2_b,0)
+			adj_matrix_bins = delete(adj_matrix_bins,unconnected2_b,1)
+			tot_seen_2_b = delete(tot_seen_b,unconnected2_b)
+				
+			in_level_2_b = delete(in_level_b,unconnected2_b)				
+							
+			adjacency_frames_bins[i + '_' + stype] = pd.DataFrame(adj_matrix_bins, index = abundance_array['TAXA'][in_level_2_b], columns = abundance_array['TAXA'][in_level_2_b])
+
+			toedge = True
+			if toedge:
+				#create a list of edges - source in one column, target in the other. This is an alternative to the adjacency matrix
+				#that might make it easier to load in to cytoscape.
+				num_edge_b = count_nonzero(adj_matrix_bins)
+				source_target_data_bins = []#empty([num_edge,3], dtype = 'string')	
+				for l in range(len(adj_matrix_bins)):
+					for k in range(l+1):
+							if adj_matrix_bins[l,k] != 0:
+								s_type1 = color_picker(samp_type_abund.iloc[in_level_2_b[l]][:-1])
+								s_type2 = color_picker(samp_type_abund.iloc[in_level_2_b[k]][:-1])
+								edge_samp = matchyn(s_type1,s_type2)
+								#include the "reverse" edge as well so that cytoscape doesn't have gaps in 
+								#it's classification of nodes.
+								edge =  [abundance_array['TAXA'][in_level_2_b[l]], abundance_array['TAXA'][in_level_2_b[k]],
+															str(adj_matrix_bins[l,k]), str(tot_seen_2_b[l]),str(tot_seen_2_b[k]),
+															s_type1[0],s_type2[0],edge_samp[0],s_type1[1],s_type2[1],edge_samp[1],N]
+								rev_edge = [abundance_array['TAXA'][in_level_2_b[k]], abundance_array['TAXA'][in_level_2_b[l]],
+															str(adj_matrix_bins[l,k]),str(tot_seen_2_b[k]),str(tot_seen_2_b[l]),
+															s_type2[0],s_type1[0],edge_samp[0],s_type2[1],s_type1[1],edge_samp[1],N]
+								source_target_data_bins += [edge]
+								source_target_data_bins += [rev_edge]
+		
+				
+				#turn list into a dataframe
+				source_target_frames_bins[i + '_' + stype] = pd.DataFrame(source_target_data_bins, columns = ['source','target','weight','source_freq',
+									'target_freq','first_sample','second_sample','edge_sample','fscolor','sscolor','edcolor','num_samps'])
+			
+
 								
-		else:
+		if new_way:
 		#Just the matrix product of the normalized abundance vectors will give cosine of the angle between them
-			#t1 = time.time()
-			cortype = 'pearson'
-			if cortype == 'spheres':
-				rsums = sum(ab_np_array,1)
-				normed = dot(diag(1/rsums),ab_np_array)
-				dims = normed.shape[0]
-				adj_matrix_pre = dot(normed,transpose(normed)) - eye(dims)
-				cutoff = 0.8
-				adj_matrix_pre[where(adj_matrix_pre < cutoff)] = 0 
-			elif cortype == 'pearson':
-				#but pearson's correlation coefficient might not make a ton of sense with
-				#different sample types. so. let's have the option to average them across sample types.
-				#meanss = zeros(len(ab_np_array),diff_samps_types)
-				pears = array(ab_np_array)
-				avgit = False
-				if avgit:
-					if stype == 'all':
-						dsamp_types = diff_samps_types
-					else:
-						dsamp_types = [stype]
-					for idx in dsamp_types:
-						selec = lvl_abundance_array.columns.map(lambda x: bool(re.search(idx,x)))
-						selllec = where(selec[1:])
-						meanss = mean(lvl_abundance_array[lvl_abundance_array.columns[selllec]],axis = 1).values
-						vars = std(lvl_abundance_array[lvl_abundance_array.columns[selllec]],axis = 1).values
-						pears[:,selllec[0]] = pears[:,selllec[0]] - outer(meanss,ones(len(selllec[0])))
-						vars[where(vars == 0)] = 1
-						for idx2 in range(len(pears)):
-							pears[idx2,selllec[0]] = pears[idx2,selllec[0]]/vars[idx2]
-						adj_matrix_pre = (1/pears.shape[1])*dot(pears,transpose(pears))
+		#t1 = time.time()
+			#but pearson's correlation coefficient might not make a ton of sense with
+			#different sample types. so. let's have the option to average them across sample types.
+			pears = array(ab_np_array)
+			avgit = False
+			if avgit:
+				if stype == 'all':
+					dsamp_types = diff_samps_types
 				else:
-					means = mean(pears,axis = 1)
-					vars = std(pears,axis =1)
+					dsamp_types = [stype]
+				for idx in dsamp_types:
+					selec = lvl_abundance_array.columns.map(lambda x: bool(re.search(idx,x)))
+					selllec = where(selec[1:])
+					meanss = mean(lvl_abundance_array[lvl_abundance_array.columns[selllec]],axis = 1).values
+					vars = std(lvl_abundance_array[lvl_abundance_array.columns[selllec]],axis = 1).values
+					pears[:,selllec[0]] = pears[:,selllec[0]] - outer(meanss,ones(len(selllec[0])))
 					vars[where(vars == 0)] = 1
-					pears = transpose(transpose(pears) - means)
-					pears = dot(diag(1/vars),pears)
-					adj_matrix_pre = (1/pears.shape[1])*dot(pears,transpose(pears)) - eye(pears.shape[0])
-				cutoff = 0.8
-				adj_matrix_pre[where(adj_matrix_pre < cutoff)] = 0 
+					for idx2 in range(len(pears)):
+						pears[idx2,selllec[0]] = pears[idx2,selllec[0]]/vars[idx2]
+					adj_matrix_pre_pear = (1/pears.shape[1])*dot(pears,transpose(pears))
+			else:
+				means = mean(pears,axis = 1)
+				vars = std(pears,axis =1)
+				vars[where(vars == 0)] = 1
+				pears = transpose(transpose(pears) - means)
+				pears = dot(diag(1/vars),pears)
+				adj_matrix_pre_pear = (1/pears.shape[1])*dot(pears,transpose(pears)) - eye(pears.shape[0])
+			cutoff = 0.8
+			adj_matrix_pre_pear[where(adj_matrix_pre_pear < cutoff)] = 0 
 			#print(time.time()-t1)
 			
-		degs = sum(adj_matrix_pre,1)
-		unconnected = where(degs == 0)
-		adj_matrix_pre = delete(adj_matrix_pre,unconnected,0)
-		adj_matrix_pre = delete(adj_matrix_pre,unconnected,1)
-		ab_np_array = delete(ab_np_array,unconnected,0)
-		if ab_np_array.shape[0] == 0:
-			break
-		in_level = delete(in_level,unconnected)
-		
-		adjecency_frames_pre[i + '_' + stype] = pd.DataFrame(adj_matrix_pre, index = abundance_array['TAXA'][in_level], columns = abundance_array['TAXA'][in_level])
+			degs_p = sum(adj_matrix_pre_pear,1)
+			unconnected_p = where(degs_p == 0)
+			adj_matrix_pre_pear = delete(adj_matrix_pre_pear,unconnected_p,0)
+			adj_matrix_pre_pear = delete(adj_matrix_pre_pear,unconnected_p,1)
+			ab_np_array_pear = delete(ab_np_array,unconnected_p,0)
+			if ab_np_array_pear.shape[0] == 0:
+				break
+			in_level_p = delete(in_level,unconnected_p)
 
-		
-		stringency = 0.05
-		
-		N = len(ab_np_array[0])
-		tot_seen = [sum([abd != 0 for abd in row]) for row in ab_np_array]
-		
-		if old_way:
-			#t2 = time.time()
-			adj_size = adj_matrix_pre.shape
-			adj_matrix = zeros(adj_size)
-			for k in range(adj_size[0]):
-				for j in range(adj_size[1]):
-					if adj_matrix_pre[k,j] != 0:
-						p = approx_rand_prob(occur_probs,adj_matrix_pre[k,j],k,j)
-						if p <= stringency:
-							adj_matrix[k,j] = adj_matrix_pre[k,j] 
-			#print(time.time()-t2)
-		
-		else:
-			if cortype == 'pearson':
-				ab_masked = mask.masked_values(ab_np_array,0,copy = False)
-				the_ns_v = sum(ab_np_array,1)/(ab_masked.min(axis = 1))
-				the_ns_v = the_ns_v.data
-				the_ns_v = around(the_ns_v)
-				the_ns = outer(the_ns_v,ones(len(ab_np_array[0])))
-				the_ps_v = sum(ab_np_array,0)/sum(ab_np_array)
-				the_ps = outer(ones(len(ab_np_array)),the_ps_v)
-				adj_size = adj_matrix_pre.shape
-				adj_matrix = zeros(adj_size) 
-				mc_test = mc_pearson(the_ns,the_ps,adj_matrix_pre)#,dsamp_types, lvl_abundance_array.columns)		
-				#adj_matrix = adj_matrix_pre - mc_test
-				adj_matrix[where(mc_test <stringency)] = adj_matrix_pre[where(mc_test <stringency)]
-			elif cortype == 'spheres':
-				ab_masked = mask.masked_values(ab_np_array,0,copy = False)
-				the_ns_v = sum(ab_np_array,1)/(ab_masked.min(axis = 1))
-				the_ns_v = the_ns_v.data
-				the_ns_v = around(the_ns_v)
-				the_ns = outer(the_ns_v,ones(len(ab_np_array[0])))
-				the_ps_v = sum(ab_np_array,0)/sum(ab_np_array)
-				the_ps = outer(ones(len(ab_np_array)),the_ps_v)
-				adj_size = adj_matrix_pre.shape
-				adj_matrix = zeros(adj_size)
-				mc_test = mc_dot_prod(the_ns,the_ps,adj_matrix_pre)		
-				#adj_matrix = adj_matrix_pre - mc_test
-				adj_matrix[where(mc_test <stringency)] = adj_matrix_pre[where(mc_test <stringency)]
-			#print(time.time()-t2)
+			stringency = 0.05
+			N = len(ab_np_array[0])
+			tot_seen_p = [sum([abd != 0 for abd in row]) for row in ab_np_array]
+
+
+			ab_masked = mask.masked_values(ab_np_array_pear,0,copy = False)
+			the_ns_v = sum(ab_np_array_pear,1)/(ab_masked.min(axis = 1))
+			the_ns_v = the_ns_v.data
+			the_ns_v = around(the_ns_v)
+			the_ns = outer(the_ns_v,ones(len(ab_np_array_pear[0])))
+			the_ps_v = sum(ab_np_array_pear,0)/sum(ab_np_array_pear)
+			the_ps = outer(ones(len(ab_np_array_pear)),the_ps_v)
+			adj_size_p = adj_matrix_pre_pear.shape
+			adj_matrix_pear = zeros(adj_size_p) 
+			mc_test = mc_pearson(the_ns,the_ps,adj_matrix_pre_pear)#,dsamp_types, lvl_abundance_array.columns)		
+			#adj_matrix = adj_matrix_pre - mc_test
+			adj_matrix_pear[where(mc_test <stringency)] = adj_matrix_pre_pear[where(mc_test <stringency)]
+
 			
 		
-		degs2 = sum(adj_matrix,1)
-		unconnected2 = where(degs2 == 0)
-		adj_matrix = delete(adj_matrix,unconnected2,0)
-		adj_matrix = delete(adj_matrix,unconnected2,1)
-		tot_seen_2 = delete(tot_seen,unconnected2)
+			degs2_p = sum(adj_matrix_pear,1)
+			unconnected2_p = where(degs2_p == 0)
+			adj_matrix_pear = delete(adj_matrix_pear,unconnected2_p,0)
+			adj_matrix_pear = delete(adj_matrix_pear,unconnected2_p,1)
+			tot_seen_2_p = delete(tot_seen_p,unconnected2_p)
 				
-		in_level_2 = delete(in_level,unconnected2)
-		
-		adjacency_frames[i + '_' + stype] = pd.DataFrame(adj_matrix, index = abundance_array['TAXA'][in_level_2], columns = abundance_array['TAXA'][in_level_2])
+			in_level_2_p = delete(in_level_p,unconnected2_p)
+			
+			adjacency_frames_pear[i + '_' + stype] = pd.DataFrame(adj_matrix_pear, index = abundance_array['TAXA'][in_level_2_p], columns = abundance_array['TAXA'][in_level_2_p])
 	
-		toedge = True
-		if toedge:
-			#create a list of edges - source in one column, target in the other. This is an alternative to the adjacency matrix
-			#that might make it easier to load in to cytoscape.
-			num_edge = count_nonzero(adj_matrix)
-	# 		print(i)
-	# 		print(num_edge/2)
-			source_target_data = []#empty([num_edge,3], dtype = 'string')	
-			for l in range(len(adj_matrix)):
-				for k in range(l+1):
-						if adj_matrix[l,k] != 0:
-							s_type1 = color_picker(samp_type_abund.iloc[in_level_2[l]][:-1])
-							s_type2 = color_picker(samp_type_abund.iloc[in_level_2[k]][:-1])
-							edge_samp = matchyn(s_type1,s_type2)
-							#include the "reverse" edge as well so that cytoscape doesn't have gaps in 
-							#it's classification of nodes.
-							edge =  [abundance_array['TAXA'][in_level_2[l]], abundance_array['TAXA'][in_level_2[k]],
-														str(adj_matrix[l,k]), str(tot_seen[l]),str(tot_seen[k]),
-														s_type1[0],s_type2[0],edge_samp[0],s_type1[1],s_type2[1],edge_samp[1],N]
-							rev_edge = [abundance_array['TAXA'][in_level_2[k]], abundance_array['TAXA'][in_level_2[l]],
-														str(adj_matrix[l,k]),str(tot_seen_2[k]),str(tot_seen_2 [l]),
-														s_type2[0],s_type1[0],edge_samp[0],s_type2[1],s_type1[1],edge_samp[1],N]
-							source_target_data += [edge]
-							source_target_data += [rev_edge]
+			toedge = True
+			if toedge:
+				#create a list of edges - source in one column, target in the other. This is an alternative to the adjacency matrix
+				#that might make it easier to load in to cytoscape.
+				num_edge_p = count_nonzero(adj_matrix_pear)
+				source_target_data_pear = []#empty([num_edge,3], dtype = 'string')	
+				for l in range(len(adj_matrix_pear)):
+					for k in range(l+1):
+							if adj_matrix_pear[l,k] != 0:
+								s_type1 = color_picker(samp_type_abund.iloc[in_level_2_p[l]][:-1])
+								s_type2 = color_picker(samp_type_abund.iloc[in_level_2_p[k]][:-1])
+								edge_samp = matchyn(s_type1,s_type2)
+								#include the "reverse" edge as well so that cytoscape doesn't have gaps in 
+								#it's classification of nodes.
+								edge =  [abundance_array['TAXA'][in_level_2_p[l]], abundance_array['TAXA'][in_level_2_p[k]],
+															str(adj_matrix_pear[l,k]), str(tot_seen_2_p[l]),str(tot_seen_2_p[k]),
+															s_type1[0],s_type2[0],edge_samp[0],s_type1[1],s_type2[1],edge_samp[1],N]
+								rev_edge = [abundance_array['TAXA'][in_level_2_p[k]], abundance_array['TAXA'][in_level_2_p[l]],
+															str(adj_matrix_pear[l,k]),str(tot_seen_2_p[k]),str(tot_seen_2_p[l]),
+															s_type2[0],s_type1[0],edge_samp[0],s_type2[1],s_type1[1],edge_samp[1],N]
+								source_target_data_pear += [edge]
+								source_target_data_pear += [rev_edge]
 		
-			source_target_data_pre = []#empty([num_edge,3], dtype = 'string')	
-			for l in range(len(adj_matrix_pre)):
-				for k in range(l+1):
-						if adj_matrix_pre[l,k] != 0:
-							s_type1 = color_picker(samp_type_abund.iloc[in_level[l]][:-1])
-							s_type2 = color_picker(samp_type_abund.iloc[in_level[k]][:-1])
-							edge_samp = matchyn(s_type1,s_type2)
-							#include the "reverse" edge as well so that cytoscape doesn't have gaps in 
-							#it's classification of nodes.
-							edge =  [abundance_array['TAXA'][in_level[l]], abundance_array['TAXA'][in_level[k]],
-														str(adj_matrix_pre[l,k]),str(tot_seen[l]),str(tot_seen[k]),s_type1[0],s_type2[0],edge_samp[0],s_type1[1],s_type2[1],edge_samp[1]]
-							rev_edge = [abundance_array['TAXA'][in_level[k]], abundance_array['TAXA'][in_level[l]],
-														str(adj_matrix_pre[l,k]),str(tot_seen[k]),str(tot_seen[l]),s_type2[0],s_type1[0],edge_samp[0],s_type2[1],s_type1[1],edge_samp[1]]
-							source_target_data_pre += [edge]
-							source_target_data_pre += [rev_edge]
 				
-			#turn list into a dataframe
-			source_target_frames[i + '_' + stype] = pd.DataFrame(source_target_data, columns = ['source','target','weight','source_freq',
-								'target_freq','first_sample','second_sample','edge_sample','fscolor','sscolor','edcolor','num_samps'])
-			source_target_frames_pre[i + '_' + stype] = pd.DataFrame(source_target_data_pre, columns = ['source','target','weight','source_freq',
-								'target_freq','first_sample','second_sample','edge_sample','fscolor','sscolor','edcolor'])
-	
-		#Assign a color to each node based on where they are most abundant (what sample type)
+					#turn list into a dataframe
+					source_target_frames_pear[i + '_' + stype] = pd.DataFrame(source_target_data_pear, columns = ['source','target','weight','source_freq',
+									'target_freq','first_sample','second_sample','edge_sample','fscolor','sscolor','edcolor','num_samps'])
+			
 
 #Save adjacency_frames to save the (weighted) adjacency matrix. This can be loaded into 
 #cytoscape. Save source_target_frames to save a list of edges. This can also be loaded into
 #cytoscape and provides a way to include edge or node attributes.
 save = True
 if save:
-	for j in source_target_frames_pre.keys():
-		flname1 = net_name+'_'+j+'_coin_adj.tsv'
-		flname2 = net_name+'_'+j+'_coin_list.tsv'
-		flname3 = net_name+'_'+j+'_coocc_adj.tsv'
-		flname4 = net_name+'_'+j+'_coocc_list.tsv'
-		adjecency_frames_pre[j].to_csv(flname1, sep = '\t')
-		source_target_frames_pre[j].to_csv(flname2, sep = '\t')
-		adjacency_frames[j].to_csv(flname3, sep = '\t')
-		source_target_frames[j].to_csv(flname4, sep = '\t')
+	for j in source_target_frames_pear.keys():
+		flname1 = net_name+'/bins/'+j+'_adj.tsv'
+		flname2 = net_name+'/bins/'+j+'_list.tsv'
+		flname3 = net_name+'/pears/'+j+'_adj.tsv'
+		flname4 = net_name+'/pears/'+j+'_list.tsv'
+		adjacency_frames_bins[j].to_csv(flname1, sep = '\t')
+		source_target_frames_bins[j].to_csv(flname2, sep = '\t')
+		adjacency_frames_pear[j].to_csv(flname3, sep = '\t')
+		source_target_frames_pear[j].to_csv(flname4, sep = '\t')
 
 
 #### TO DO #####################

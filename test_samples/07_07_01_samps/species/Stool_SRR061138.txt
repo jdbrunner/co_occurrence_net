@@ -1,0 +1,2750 @@
+ LEVEL TAXA abundance Detected Removed Added
+1328 species "[Actinobacillus] muris" 0.0 False False False
+1329 species "[Bacteroides] pectinophilus" 0.0003 True False False
+1330 species "[Clostridium] aerotolerans" 0.0 False False False
+1331 species "[Clostridium] aminophilum" 0.0 False False False
+1332 species "[Clostridium] asparagiforme" 0.0003 True False False
+1333 species "[Clostridium] bifermentans" 0.0 False False False
+1334 species "[Clostridium] bolteae" 0.0006 True False False
+1335 species "[Clostridium] celerecrescens" 0.0 False False False
+1336 species "[Clostridium] cellobioparum" 0.0 False False False
+1337 species "[Clostridium] cellulolyticum" 0.0 False False False
+1338 species "[Clostridium] cellulosi" 0.0 False False False
+1339 species "[Clostridium] citroniae" 0.0001 True False False
+1340 species "[Clostridium] clariflavum" 0.0 False False False
+1341 species "[Clostridium] clostridioforme" 0.0007 True False False
+1342 species "[Clostridium] glycyrrhizinilyticum" 0.0002 True False False
+1343 species "[Clostridium] hiranonis" 0.0 False False False
+1344 species "[Clostridium] hylemonae" 0.0 False False False
+1345 species "[Clostridium] innocuum" 0.0 False False False
+1346 species "[Clostridium] josui" 0.0 False False False
+1347 species "[Clostridium] leptum" 0.0005 True False False
+1348 species "[Clostridium] litorale" 0.0 False False False
+1349 species "[Clostridium] mangenotii" 0.0 False False False
+1350 species "[Clostridium] methoxybenzovorans" 0.0 False False False
+1351 species "[Clostridium] methylpentosum" 0.0 False False False
+1352 species "[Clostridium] papyrosolvens" 0.0 False False False
+1353 species "[Clostridium] purinilyticum" 0.0 False False False
+1354 species "[Clostridium] saccharogumia" 0.0001 True False False
+1355 species "[Clostridium] saccharolyticum" 0.0 False False False
+1356 species "[Clostridium] scindens" 0.0 False False False
+1357 species "[Clostridium] sordellii" 0.0 False False False
+1358 species "[Clostridium] spiroforme" 0.0 False False False
+1359 species "[Clostridium] sporosphaeroides" 0.0 False False False
+1360 species "[Clostridium] sticklandii" 0.0 False False False
+1361 species "[Clostridium] straminisolvens" 0.0 False False False
+1362 species "[Clostridium] symbiosum" 0.0001 True False False
+1363 species "[Clostridium] ultunense" 0.0 False False False
+1364 species "[Clostridium] viride" 0.0 False False False
+1365 species "[Eubacterium] cellulosolvens" 0.0 False False False
+1366 species "[Eubacterium] dolichum" 0.0 False False False
+1367 species "[Eubacterium] eligens" 0.01 True False False
+1368 species "[Eubacterium] fissicatena" 0.0 False False False
+1369 species "[Eubacterium] hallii" 0.0002 True False False
+1370 species "[Eubacterium] infirmum" 0.0 False False False
+1371 species "[Eubacterium] nodatum" 0.0 False False False
+1372 species "[Eubacterium] rectale" 0.1298 True False False
+1373 species "[Eubacterium] siraeum" 0.0514 True False False
+1374 species "[Eubacterium] sulci" 0.0 False False False
+1375 species "[Eubacterium] yurii" 0.0 False False False
+1376 species "[Haemophilus] ducreyi" 0.0 False False False
+1377 species "[Haemophilus] parasuis" 0.0 False False False
+1378 species "[Mannheimia] succiniciproducens" 0.0 False False False
+1379 species "[Pasteurella] pneumotropica" 0.0 False False False
+1380 species "[Ruminococcus] gnavus" 0.0001 True False False
+1381 species "[Ruminococcus] torques" 0.0001 True False False
+1382 species "Abiotrophia defectiva" 0.0 False False False
+1383 species "Acetivibrio cellulolyticus" 0.0 False False False
+1384 species "Acetivibrio ethanolgignens" 0.0003 True False False
+1385 species "Acetobacter aceti" 0.0 False False False
+1386 species "Acetobacteraceae bacterium AT-5844" 0.0 False False False
+1387 species "Acetobacterium bakii" 0.0 False False False
+1388 species "Acetobacterium dehalogenans" 0.0 False False False
+1389 species "Acetobacterium woodii" 0.0 False False False
+1390 species "Acetohalobium arabaticum" 0.0 False False False
+1391 species "Acetonema longum" 0.0 False False False
+1392 species "Acholeplasma axanthum" 0.0 False False False
+1393 species "Acholeplasma equifetale" 0.0 False False False
+1394 species "Acholeplasma granularum" 0.0 False False False
+1395 species "Acholeplasma hippikon" 0.0 False False False
+1396 species "Acholeplasma modicum" 0.0 False False False
+1397 species "Acholeplasma oculi" 0.0 False False False
+1398 species "Achromobacter sp." 0.0 False False False
+1399 species "Achromobacter sp. DMS1" 0.0 False False False
+1400 species "Achromobacter xylosoxidans" 0.0 False False False
+1401 species "Acidaminococcus fermentans" 0.0 False False False
+1402 species "Acidaminococcus intestini" 0.0 False False False
+1403 species "Acidaminococcus sp. BV3L6" 0.0 False False False
+1404 species "Acidaminococcus sp. D21" 0.0 False False False
+1405 species "Acidaminococcus sp. HPA0509" 0.0 False False False
+1406 species "Acidithiobacillus caldus" 0.0 False False False
+1407 species "Acidithiobacillus ferrivorans" 0.0 False False False
+1408 species "Acidobacterium capsulatum" 0.0 False False False
+1409 species "Acidovorax caeni" 0.0 False False False
+1410 species "Acidovorax delafieldii" 0.0 False False False
+1411 species "Acidovorax ebreus" 0.0 False False False
+1412 species "Acidovorax sp. JHL-9" 0.0 False False False
+1413 species "Acidovorax sp. JS42" 0.0 False False False
+1414 species "Acidovorax sp. NO-1" 0.0 False False False
+1415 species "Acidovorax temperans" 0.0 False False False
+1416 species "Acinetobacter baumannii" 0.0 False False False
+1417 species "Acinetobacter beijerinckii" 0.0 False False False
+1418 species "Acinetobacter calcoaceticus" 0.0 False False False
+1419 species "Acinetobacter gerneri" 0.0 False False False
+1420 species "Acinetobacter guillouiae" 0.0 False False False
+1421 species "Acinetobacter indicus" 0.0 False False False
+1422 species "Acinetobacter johnsonii" 0.0 False False False
+1423 species "Acinetobacter junii" 0.0 False False False
+1424 species "Acinetobacter lwoffii" 0.0 False False False
+1425 species "Acinetobacter nosocomialis" 0.0 False False False
+1426 species "Acinetobacter pittii" 0.0 False False False
+1427 species "Acinetobacter sp. MDS7A" 0.0 False False False
+1428 species "Acinetobacter sp. Root1280" 0.0 False False False
+1429 species "Acinetobacter sp. Ver3" 0.0 False False False
+1430 species "Acinetobacter tjernbergiae" 0.0 False False False
+1431 species "Acinetobacter towneri" 0.0 False False False
+1432 species "Acinetobacter ursingii" 0.0 False False False
+1433 species "Actinobacillus capsulatus" 0.0 False False False
+1434 species "Actinobacillus equuli" 0.0 False False False
+1435 species "Actinobacillus minor" 0.0 False False False
+1436 species "Actinobacillus pleuropneumoniae" 0.0 False False False
+1437 species "Actinobacillus succinogenes" 0.0 False False False
+1438 species "Actinobacillus suis" 0.0 False False False
+1439 species "Actinobacillus ureae" 0.0 False False False
+1440 species "Actinobaculum massiliense" 0.0 False False False
+1441 species "Actinobaculum sp. oral taxon 183" 0.0 False False False
+1442 species "Actinobaculum suis" 0.0 False False False
+1443 species "Actinomyces cardiffensis" 0.0 False False False
+1444 species "Actinomyces coleocanis" 0.0 False False False
+1445 species "Actinomyces dentalis" 0.0 False False False
+1446 species "Actinomyces europaeus" 0.0 False False False
+1447 species "Actinomyces georgiae" 0.0 False False False
+1448 species "Actinomyces gerencseriae" 0.0 False False False
+1449 species "Actinomyces graevenitzii" 0.0 False False False
+1450 species "Actinomyces israelii" 0.0 False False False
+1451 species "Actinomyces johnsonii" 0.0 False False False
+1452 species "Actinomyces massiliensis" 0.0 False False False
+1453 species "Actinomyces meyeri" 0.0 False False False
+1454 species "Actinomyces naeslundii" 0.0 False False False
+1455 species "Actinomyces neuii" 0.0 False False False
+1456 species "Actinomyces odontolyticus" 0.0 False False False
+1457 species "Actinomyces oris" 0.0 False False False
+1458 species "Actinomyces slackii" 0.0 False False False
+1459 species "Actinomyces sp. HPA0247" 0.0 False False False
+1460 species "Actinomyces sp. ICM39" 0.0 False False False
+1461 species "Actinomyces sp. ICM47" 0.0 False False False
+1462 species "Actinomyces sp. ICM54" 0.0 False False False
+1463 species "Actinomyces sp. ICM58" 0.0 False False False
+1464 species "Actinomyces sp. MS2" 0.0 False False False
+1465 species "Actinomyces sp. oral taxon 170" 0.0 False False False
+1466 species "Actinomyces sp. oral taxon 171" 0.0 False False False
+1467 species "Actinomyces sp. oral taxon 172" 0.0 False False False
+1468 species "Actinomyces sp. oral taxon 175" 0.0 False False False
+1469 species "Actinomyces sp. oral taxon 178" 0.0 False False False
+1470 species "Actinomyces sp. oral taxon 180" 0.0 False False False
+1471 species "Actinomyces sp. oral taxon 181" 0.0 False False False
+1472 species "Actinomyces sp. oral taxon 414" 0.0 False False False
+1473 species "Actinomyces sp. oral taxon 448" 0.0 False False False
+1474 species "Actinomyces sp. oral taxon 848" 0.0 False False False
+1475 species "Actinomyces sp. oral taxon 849" 0.0 False False False
+1476 species "Actinomyces sp. oral taxon 877" 0.0 False False False
+1477 species "Actinomyces sp. ph3" 0.0 False False False
+1478 species "Actinomyces sp. S4-C9" 0.0 False False False
+1479 species "Actinomyces sp. S6-Spd3" 0.0 False False False
+1480 species "Actinomyces sp. SD1" 0.0 False False False
+1481 species "Actinomyces suimastitidis" 0.0 False False False
+1482 species "Actinomyces timonensis" 0.0 False False False
+1483 species "Actinomyces turicensis" 0.0 False False False
+1484 species "Actinomyces urogenitalis" 0.0 False False False
+1485 species "Actinomyces vaccimaxillae" 0.0 False False False
+1486 species "Actinomyces viscosus" 0.0 False False False
+1487 species "Actinoplanes sp. N902-109" 0.0 False False False
+1488 species "Actinospica robiniae" 0.0 False False False
+1489 species "Actinotignum schaalii" 0.0 False False False
+1490 species "Actinotignum urinale" 0.0 False False False
+1491 species "Adlercreutzia equolifaciens" 0.0002 True False False
+1492 species "Advenella kashmirensis" 0.0 False False False
+1493 species "Aequorivita sublithincola" 0.0 False False False
+1494 species "Aerococcus christensenii" 0.0 False False False
+1495 species "Aerococcus urinae" 0.0 False False False
+1496 species "Aerococcus urinaeequi" 0.0 False False False
+1497 species "Aerococcus viridans" 0.0 False False False
+1498 species "Aeromicrobium sp. Root472D3" 0.0 False False False
+1499 species "Aeromonas salmonicida" 0.0 False False False
+1500 species "Aeromonas veronii" 0.0 False False False
+1501 species "Aestuariimicrobium kwangyangense" 0.0 False False False
+1502 species "Afipia birgiae" 0.0 False False False
+1503 species "Afipia broomeae" 0.0 False False False
+1504 species "Agarivorans gilvus" 0.0 False False False
+1505 species "Aggregatibacter actinomycetemcomitans" 0.0 False False False
+1506 species "Aggregatibacter aphrophilus" 0.0 False False False
+1507 species "Aggregatibacter segnis" 0.0 False False False
+1508 species "Aggregatibacter sp. oral taxon 458" 0.0 False False False
+1509 species "Agrobacterium tumefaciens" 0.0 False False False
+1510 species "Akkermansia muciniphila" 0.0018 True False False
+1511 species "Alcaligenes faecalis" 0.0 False False False
+1512 species "Alcanivorax jadensis" 0.0 False False False
+1513 species "Algibacter alginolytica" 0.0 False False False
+1514 species "Algibacter lectus" 0.0 False False False
+1515 species "Algicola sagamiensis" 0.0 False False False
+1516 species "Algoriphagus marincola" 0.0 False False False
+1517 species "Algoriphagus terrigena" 0.0 False False False
+1518 species "Algoriphagus vanfongensis" 0.0 False False False
+1519 species "Alicycliphilus denitrificans" 0.0 False False False
+1520 species "Alicycliphilus sp. B1" 0.0 False False False
+1521 species "Alicycliphilus sp. CRZ1" 0.0 False False False
+1522 species "Alicyclobacillus acidocaldarius" 0.0 False False False
+1523 species "Alicyclobacillus herbarius" 0.0 False False False
+1524 species "Alicyclobacillus pomorum" 0.0 False False False
+1525 species "Aliiglaciecola lipolytica" 0.0 False False False
+1526 species "Aliivibrio wodanis" 0.0 False False False
+1527 species "Alistipes finegoldii" 0.0003 True False False
+1528 species "Alistipes indistinctus" 0.0 False False False
+1529 species "Alistipes inops" 0.0 False False False
+1530 species "Alistipes obesi" 0.0018 True False False
+1531 species "Alistipes onderdonkii" 0.0004 True False False
+1532 species "Alistipes putredinis" 0.0818 True False False
+1533 species "Alistipes senegalensis" 0.0002 True False False
+1534 species "Alistipes shahii" 0.0042 True False False
+1535 species "Alistipes sp. AL-1" 0.0003 True False False
+1536 species "Alistipes sp. HGB5" 0.0001 True False False
+1537 species "Alistipes sp. ZOR0009" 0.0 False False False
+1538 species "Alistipes timonensis" 0.0001 True False False
+1539 species "Aliterella atlantica" 0.0 False False False
+1540 species "Alkaliflexus imshenetskii" 0.0 False False False
+1541 species "Alkaliphilus metalliredigens" 0.0 False False False
+1542 species "Alkaliphilus oremlandii" 0.0 False False False
+1543 species "Alkaliphilus transvaalensis" 0.0 False False False
+1544 species "Alkanindiges illinoisensis" 0.0 False False False
+1545 species "Allobaculum stercoricanis" 0.0 False False False
+1546 species "Allofustis seminis" 0.0 False False False
+1547 species "Alloiococcus otitis" 0.0 False False False
+1548 species "Alloprevotella rava" 0.0 False False False
+1549 species "Alloprevotella tannerae" 0.0001 True False False
+1550 species "Allosalinactinospora lopnorensis" 0.0 False False False
+1551 species "Alloscardovia criceti" 0.0 False False False
+1552 species "Alloscardovia omnicolens" 0.0 False False False
+1553 species "alpha proteobacterium IMCC14465" 0.0 False False False
+1554 species "alpha proteobacterium LLX12A" 0.0 False False False
+1555 species "Altibacter lentus" 0.0 False False False
+1556 species "Alysiella crassa" 0.0 False False False
+1557 species "Amantichitinum ursilacus" 0.0 False False False
+1558 species "Aminiphilus circumscriptus" 0.0 False False False
+1559 species "Aminobacterium mobile" 0.0 False False False
+1560 species "Aminomonas paucivorans" 0.0 False False False
+1561 species "Ammonifex degensii" 0.0 False False False
+1562 species "Amphibacillus xylanus" 0.0 False False False
+1563 species "Anaerobiospirillum succiniciproducens" 0.0 False False False
+1564 species "Anaerococcus hydrogenalis" 0.0 False False False
+1565 species "Anaerococcus lactolyticus" 0.0 False False False
+1566 species "Anaerococcus obesiensis" 0.0 False False False
+1567 species "Anaerococcus prevotii" 0.0 False False False
+1568 species "Anaerococcus provenciensis" 0.0 False False False
+1569 species "Anaerococcus senegalensis" 0.0 False False False
+1570 species "Anaerococcus sp. MT16" 0.0 False False False
+1571 species "Anaerococcus sp. PH9" 0.0 False False False
+1572 species "Anaerococcus sp. SB3" 0.0 False False False
+1573 species "Anaerococcus tetradius" 0.0 False False False
+1574 species "Anaerococcus vaginalis" 0.0 False False False
+1575 species "Anaerofustis stercorihominis" 0.0 False False False
+1576 species "Anaeroglobus geminatus" 0.0 False False False
+1577 species "Anaerolinea thermophila" 0.0 False False False
+1578 species "Anaeromusa acidaminophila" 0.0 False False False
+1579 species "Anaerophaga thermohalophila" 0.0 False False False
+1580 species "Anaerosalibacter sp. ND1" 0.0 False False False
+1581 species "Anaerostipes caccae" 0.0 False False False
+1582 species "Anaerostipes hadrus" 0.0001 True False False
+1583 species "Anaerostipes sp. 3_2_56FAA" 0.0 False False False
+1584 species "Anaerotruncus colihominis" 0.0003 True False False
+1585 species "Anaerotruncus sp. G3(2012)" 0.0 False False False
+1586 species "Anaerovibrio lipolyticus" 0.0 False False False
+1587 species "Anaerovibrio sp. RM50" 0.0 False False False
+1588 species "Anaerovorax odorimutans" 0.0 False False False
+1589 species "Anaplasma phagocytophilum" 0.0 False False False
+1590 species "Anditalea andensis" 0.0 False False False
+1591 species "Aneurinibacillus terranovensis" 0.0 False False False
+1592 species "Aneurinibacillus tyrosinisolvens" 0.0 False False False
+1593 species "Anoxybacillus flavithermus" 0.0 False False False
+1594 species "Anoxybacillus geothermalis" 0.0 False False False
+1595 species "Apibacter mensalis" 0.0 False False False
+1596 species "Aquabacterium parvum" 0.0 False False False
+1597 species "Aquabacterium sp. NJ1" 0.0 False False False
+1598 species "Aquaspirillum serpens" 0.0 False False False
+1599 species "Aquimarina agarilytica" 0.0 False False False
+1600 species "Aquimarina agarivorans" 0.0 False False False
+1601 species "Aquimarina latercula" 0.0 False False False
+1602 species "Aquimarina muelleri" 0.0 False False False
+1603 species "Aquimarina pacifica" 0.0 False False False
+1604 species "Aquitalea magnusonii" 0.0 False False False
+1605 species "Arcanobacterium haemolyticum" 0.0 False False False
+1606 species "Arcanobacterium sp. S3PF19" 0.0 False False False
+1607 species "Arcobacter anaerophilus" 0.0 False False False
+1608 species "Arcobacter butzleri" 0.0 False False False
+1609 species "Arcticibacter svalbardensis" 0.0 False False False
+1610 species "Ardenticatena maritima" 0.0 False False False
+1611 species "Arenibacter algicola" 0.0 False False False
+1612 species "Arenibacter latericius" 0.0 False False False
+1613 species "Arthrobacter sanguinis" 0.0 False False False
+1614 species "Arthrobacter sp. 35/47" 0.0 False False False
+1615 species "Arthrobacter sp. A3" 0.0 False False False
+1616 species "Arthrobacter sp. AK-YN10" 0.0 False False False
+1617 species "Arthrobacter sp. Edens01" 0.0 False False False
+1618 species "Arthrobacter sp. H5" 0.0 False False False
+1619 species "Arthrobacter sp. Hiyo1" 0.0 False False False
+1620 species "Arthrobacter sp. IHBB 11108" 0.0 False False False
+1621 species "Arthrobacter sp. Soil782" 0.0 False False False
+1622 species "Asticcacaulis excentricus" 0.0 False False False
+1623 species "Asticcacaulis sp. YBE204" 0.0 False False False
+1624 species "Atopobacter phocae" 0.0 False False False
+1625 species "Atopobium fossor" 0.0 False False False
+1626 species "Atopobium minutum" 0.0 False False False
+1627 species "Atopobium parvulum" 0.0 False False False
+1628 species "Atopobium rimae" 0.0 False False False
+1629 species "Atopobium sp. BS2" 0.0 False False False
+1630 species "Atopobium sp. BV3Ac4" 0.0 False False False
+1631 species "Atopobium sp. ICM42b" 0.0 False False False
+1632 species "Atopobium sp. oral taxon 199" 0.0 False False False
+1633 species "Atopobium sp. oral taxon 810" 0.0 False False False
+1634 species "Atopobium vaginae" 0.0 False False False
+1635 species "Atopococcus tabaci" 0.0 False False False
+1636 species "Aureimonas altamirensis" 0.0 False False False
+1637 species "Austwickia chelonae" 0.0 False False False
+1638 species "Avibacterium paragallinarum" 0.0 False False False
+1639 species "Azoarcus sp. KH32C" 0.0 False False False
+1640 species "Azohydromonas australica" 0.0 False False False
+1641 species "Azonexus hydrophilus" 0.0 False False False
+1642 species "Azospirillum sp. B4" 0.0 False False False
+1643 species "Azotobacter chroococcum" 0.0 False False False
+1644 species "Azotobacter vinelandii" 0.0 False False False
+1645 species "Azovibrio restrictus" 0.0 False False False
+1646 species "Bacillus acidiproducens" 0.0 False False False
+1647 species "Bacillus aidingensis" 0.0 False False False
+1648 species "Bacillus akibai" 0.0 False False False
+1649 species "Bacillus anthracis" 0.0 False False False
+1650 species "Bacillus aquimaris" 0.0 False False False
+1651 species "Bacillus azotoformans" 0.0 False False False
+1652 species "Bacillus bataviensis" 0.0 False False False
+1653 species "Bacillus cecembensis" 0.0 False False False
+1654 species "Bacillus cellulosilyticus" 0.0 False False False
+1655 species "Bacillus cereus" 0.0 False False False
+1656 species "Bacillus chagannorensis" 0.0 False False False
+1657 species "Bacillus cihuensis" 0.0 False False False
+1658 species "Bacillus circulans" 0.0 False False False
+1659 species "Bacillus clausii" 0.0 False False False
+1660 species "Bacillus coagulans" 0.0 False False False
+1661 species "Bacillus coahuilensis" 0.0 False False False
+1662 species "Bacillus flexus" 0.0 False False False
+1663 species "Bacillus fordii" 0.0 False False False
+1664 species "Bacillus ginsengihumi" 0.0 False False False
+1665 species "Bacillus gobiensis" 0.0 False False False
+1666 species "Bacillus koreensis" 0.0 False False False
+1667 species "Bacillus mannanilyticus" 0.0 False False False
+1668 species "Bacillus massiliogorillae" 0.0 False False False
+1669 species "Bacillus massiliosenegalensis" 0.0 False False False
+1670 species "Bacillus methanolicus" 0.0 False False False
+1671 species "Bacillus nealsonii" 0.0 False False False
+1672 species "Bacillus niacini" 0.0 False False False
+1673 species "Bacillus okhensis" 0.0 False False False
+1674 species "Bacillus pumilus" 0.0 False False False
+1675 species "Bacillus rubiinfantis" 0.0 False False False
+1676 species "Bacillus smithii" 0.0 False False False
+1677 species "Bacillus sp. B-jedd" 0.0 False False False
+1678 species "Bacillus sp. FJAT-18043" 0.0 False False False
+1679 species "Bacillus sp. FJAT-25509" 0.0 False False False
+1680 species "Bacillus sp. FJAT-27245" 0.0 False False False
+1681 species "Bacillus sp. FJAT-27445" 0.0 False False False
+1682 species "Bacillus sp. FJAT-27916" 0.0 False False False
+1683 species "Bacillus sp. FJAT-28004" 0.0 False False False
+1684 species "Bacillus sp. J37" 0.0 False False False
+1685 species "Bacillus sp. Leaf13" 0.0 False False False
+1686 species "Bacillus sp. URHB0009" 0.0 False False False
+1687 species "Bacillus sp. X1(2014)" 0.0 False False False
+1688 species "Bacillus subterraneus" 0.0 False False False
+1689 species "Bacillus thermoamylovorans" 0.0 False False False
+1690 species "Bacillus thuringiensis" 0.0 False False False
+1691 species "Bacillus timonensis" 0.0 False False False
+1692 species "bacteria symbiont BFo1 of Frankliniella occidentalis" 0.0 False False False
+1693 species "Bacteriovorax sp. DB6_IX" 0.0 False False False
+1694 species "bacterium 336/3" 0.0 False False False
+1695 species "bacterium JKG1" 0.0 False False False
+1696 species "bacterium L21-Spi-D4" 0.0 False False False
+1697 species "bacterium LF-3" 0.0016 True False False
+1698 species "bacterium MS4" 0.0 False False False
+1699 species "bacterium mt3" 0.0 False False False
+1700 species "Bacterium of Hyalesthes Obsoletus" 0.0 False False False
+1701 species "bacterium OL-1" 0.0 False False False
+1702 species "bacterium SIT7" 0.0 False False False
+1703 species "bacterium UASB14" 0.0 False False False
+1704 species "bacterium UASB270" 0.0 False False False
+1705 species "Bacteroidaceae bacterium MS4" 0.0 False False False
+1706 species "Bacteroidales bacterium CF" 0.0 False False False
+1707 species "Bacteroides acidifaciens" 0.0001 True False False
+1708 species "Bacteroides barnesiae" 0.0 False False False
+1709 species "Bacteroides caccae" 0.0146 True False False
+1710 species "Bacteroides cellulosilyticus" 0.0096 True False False
+1711 species "Bacteroides clarus" 0.0019 True False False
+1712 species "Bacteroides coprocola" 0.0493 True False False
+1713 species "Bacteroides coprophilus" 0.0002 True False False
+1714 species "Bacteroides coprosuis" 0.0 False False False
+1715 species "Bacteroides dorei" 0.0006 True False False
+1716 species "Bacteroides eggerthii" 0.0048 True False False
+1717 species "Bacteroides faecichinchillae" 0.0 False False False
+1718 species "Bacteroides faecis" 0.0 False False False
+1719 species "Bacteroides finegoldii" 0.0022 True False False
+1720 species "Bacteroides fluxus" 0.0001 True False False
+1721 species "Bacteroides fragilis" 0.0061 True False False
+1722 species "Bacteroides gallinarum" 0.0008 True False False
+1723 species "Bacteroides graminisolvens" 0.0 False False False
+1724 species "Bacteroides helcogenes" 0.0006 True False False
+1725 species "Bacteroides intestinalis" 0.0026 True False False
+1726 species "Bacteroides massiliensis" 0.1121 True False False
+1727 species "Bacteroides nordii" 0.0 False True False
+1728 species "Bacteroides oleiciplenus" 0.0002 True False False
+1729 species "Bacteroides ovatus" 0.0128 True False False
+1730 species "Bacteroides paurosaccharolyticus" 0.0 False False False
+1731 species "Bacteroides plebeius" 0.0001 True False False
+1732 species "Bacteroides propionicifaciens" 0.0 False False False
+1733 species "Bacteroides pyogenes" 0.0001 True False False
+1734 species "Bacteroides reticulotermitis" 0.0 False False False
+1735 species "Bacteroides salanitronis" 0.0001 True False False
+1736 species "Bacteroides salyersiae" 0.0 False False False
+1737 species "Bacteroides sartorii" 0.0002 True False False
+1738 species "Bacteroides sp. 1_1_30" 0.0 False False False
+1739 species "Bacteroides sp. 1_1_6" 0.0003 True False False
+1740 species "Bacteroides sp. 14(A)" 0.0018 True False False
+1741 species "Bacteroides sp. 2_1_16" 0.0 False False False
+1742 species "Bacteroides sp. 2_1_22" 0.0 False False False
+1743 species "Bacteroides sp. 2_1_33B" 0.0004 True False False
+1744 species "Bacteroides sp. 2_1_56FAA" 0.0 False False False
+1745 species "Bacteroides sp. 2_2_4" 0.0 False False False
+1746 species "Bacteroides sp. 3_1_13" 0.0 False False False
+1747 species "Bacteroides sp. 3_1_19" 0.0003 True False False
+1748 species "Bacteroides sp. 3_1_23" 0.0 False False False
+1749 species "Bacteroides sp. 3_1_33FAA" 0.0001 True False False
+1750 species "Bacteroides sp. 3_1_40A" 0.0003 True False False
+1751 species "Bacteroides sp. 3_2_5" 0.0 False False False
+1752 species "Bacteroides sp. 4_1_36" 0.0002 True False False
+1753 species "Bacteroides sp. 4_3_47FAA" 0.0001 True False False
+1754 species "Bacteroides sp. 9_1_42FAA" 0.0 False False False
+1755 species "Bacteroides sp. D2" 0.0 False False False
+1756 species "Bacteroides sp. D20" 0.0008 True False False
+1757 species "Bacteroides sp. D22" 0.0003 True False False
+1758 species "Bacteroides sp. HPS0048" 0.0004 True False False
+1759 species "Bacteroides sp. UW" 0.0 False False False
+1760 species "Bacteroides stercorirosoris" 0.0008 True False False
+1761 species "Bacteroides stercoris" 0.12 True False False
+1762 species "Bacteroides thetaiotaomicron" 0.0 False True False
+1763 species "Bacteroides uniformis" 0.0055 True False False
+1764 species "Bacteroides vulgatus" 0.0106 True False False
+1765 species "Bacteroides xylanisolvens" 0.0 False False False
+1766 species "Bacteroidetes bacterium oral taxon 272" 0.0 False False False
+1767 species "Bacteroidetes oral taxon 274" 0.0 False False False
+1768 species "Barnesiella intestinihominis" 0.0 False False False
+1769 species "Barnesiella viscericola" 0.0 False False False
+1770 species "Bartonella bacilliformis" 0.0 False False False
+1771 species "Bartonella queenslandensis" 0.0 False False False
+1772 species "Bartonella tamiae" 0.0 False False False
+1773 species "Bavariicoccus seileri" 0.0 False False False
+1774 species "Bdellovibrio bacteriovorus" 0.0 False False False
+1775 species "Belliella baltica" 0.0 False False False
+1776 species "Belnapia moabensis" 0.0 False False False
+1777 species "Bergeyella zoohelcum" 0.0 False False False
+1778 species "beta proteobacterium AAP99" 0.0 False False False
+1779 species "beta proteobacterium L13" 0.0 False False False
+1780 species "Beutenbergia cavernae" 0.0 False False False
+1781 species "Bhargavaea cecembensis" 0.0 False False False
+1782 species "Bibersteinia trehalosi" 0.0 False False False
+1783 species "Bifidobacterium actinocoloniiforme" 0.0 False False False
+1784 species "Bifidobacterium adolescentis" 0.0002 True False False
+1785 species "Bifidobacterium angulatum" 0.0 False False False
+1786 species "Bifidobacterium animalis" 0.0 False False False
+1787 species "Bifidobacterium biavatii" 0.0 False False False
+1788 species "Bifidobacterium bifidum" 0.0 False False False
+1789 species "Bifidobacterium boum" 0.0 False False False
+1790 species "Bifidobacterium breve" 0.0 False False False
+1791 species "Bifidobacterium callitrichos" 0.0 False False False
+1792 species "Bifidobacterium catenulatum" 0.0 False False False
+1793 species "Bifidobacterium choerinum" 0.0 False False False
+1794 species "Bifidobacterium crudilactis" 0.0 False False False
+1795 species "Bifidobacterium cuniculi" 0.0 False False False
+1796 species "Bifidobacterium dentium" 0.0 False False False
+1797 species "Bifidobacterium gallicum" 0.0 False False False
+1798 species "Bifidobacterium gallinarum" 0.0 False False False
+1799 species "Bifidobacterium kashiwanohense" 0.0 False False False
+1800 species "Bifidobacterium longum" 0.0 False False False
+1801 species "Bifidobacterium magnum" 0.0 False False False
+1802 species "Bifidobacterium merycicum" 0.0 False False False
+1803 species "Bifidobacterium minimum" 0.0 False False False
+1804 species "Bifidobacterium mongoliense" 0.0 False False False
+1805 species "Bifidobacterium moukalabense" 0.0 False False False
+1806 species "Bifidobacterium pseudocatenulatum" 0.0 False False False
+1807 species "Bifidobacterium pseudolongum" 0.0 False False False
+1808 species "Bifidobacterium psychraerophilum" 0.0 False False False
+1809 species "Bifidobacterium pullorum" 0.0 False False False
+1810 species "Bifidobacterium reuteri" 0.0 False False False
+1811 species "Bifidobacterium ruminantium" 0.0 False False False
+1812 species "Bifidobacterium saeculare" 0.0 False False False
+1813 species "Bifidobacterium saguini" 0.0 False False False
+1814 species "Bifidobacterium sp. 12_1_47BFAA" 0.0 False False False
+1815 species "Bifidobacterium sp. MSTE12" 0.0 False False False
+1816 species "Bifidobacterium stellenboschense" 0.0 False False False
+1817 species "Bifidobacterium subtile" 0.0 False False False
+1818 species "Bifidobacterium thermacidophilum" 0.0 False False False
+1819 species "Bifidobacterium thermophilum" 0.0 False False False
+1820 species "Bilophila sp. 4_1_30" 0.0002 True False False
+1821 species "Bilophila wadsworthia" 0.0014 True False False
+1822 species "Blautia hansenii" 0.0 False False False
+1823 species "Blautia hydrogenotrophica" 0.0 False False False
+1824 species "Blautia obeum" 0.0016 True False False
+1825 species "Blautia producta" 0.0001 True False False
+1826 species "Blautia schinkii" 0.0 False False False
+1827 species "Blautia sp. GD9" 0.0002 True False False
+1828 species "Blautia sp. KLE 1732" 0.0003 True False False
+1829 species "Blautia wexlerae" 0.0003 True False False
+1830 species "Bordetella avium" 0.0 False False False
+1831 species "Bordetella bronchiseptica" 0.0 False False False
+1832 species "Bordetella petrii" 0.0 False False False
+1833 species "Bordetella sp. FB-8" 0.0 False False False
+1834 species "Bordetella trematum" 0.0 False False False
+1835 species "Brachybacterium muris" 0.0 False False False
+1836 species "Brachymonas chironomi" 0.0 False False False
+1837 species "Brachyspira hyodysenteriae" 0.0 False False False
+1838 species "Brachyspira pilosicoli" 0.0 False False False
+1839 species "Bradyrhizobium japonicum" 0.0 False False False
+1840 species "Bradyrhizobium sp. BTAi1" 0.0 False False False
+1841 species "Bradyrhizobium sp. CCH5-F6" 0.0 False False False
+1842 species "Bradyrhizobium tropiciagri" 0.0 False False False
+1843 species "Brevibacillus borstelensis" 0.0 False False False
+1844 species "Brevibacillus laterosporus" 0.0 False False False
+1845 species "Brevibacillus massiliensis" 0.0 False False False
+1846 species "Brevibacillus panacihumi" 0.0 False False False
+1847 species "Brevibacterium casei" 0.0 False False False
+1848 species "Brevibacterium linens" 0.0 False False False
+1849 species "Brevibacterium massiliense" 0.0 False False False
+1850 species "Brevibacterium mcbrellneri" 0.0 False False False
+1851 species "Brevibacterium senegalense" 0.0 False False False
+1852 species "Brevundimonas diminuta" 0.0 False False False
+1853 species "Brochothrix campestris" 0.0 False False False
+1854 species "Brochothrix thermosphacta" 0.0 False False False
+1855 species "Buchnera aphidicola" 0.0 False False False
+1856 species "Bulleidia extructa" 0.0 False False False
+1857 species "Burkholderia cenocepacia" 0.0 False False False
+1858 species "Burkholderia cepacia" 0.0 False False False
+1859 species "Burkholderia gladioli" 0.0 False False False
+1860 species "Burkholderia multivorans" 0.0 False False False
+1861 species "Burkholderia pseudomallei" 0.0 False False False
+1862 species "Burkholderia pseudomultivorans" 0.0 False False False
+1863 species "Burkholderia sp." 0.0 False False False
+1864 species "Burkholderia ubonensis" 0.0 False False False
+1865 species "Burkholderia vietnamiensis" 0.0 False False False
+1866 species "Burkholderiaceae bacterium 16" 0.0 False False False
+1867 species "Burkholderiales bacterium 1_1_47" 0.0034 True False False
+1868 species "Buttiauxella agrestis" 0.0 False False False
+1869 species "Butyricicoccus pullicaecorum" 0.002 True False False
+1870 species "Butyricimonas synergistica" 0.0 False False False
+1871 species "Butyricimonas virosa" 0.0 False False False
+1872 species "Butyrivibrio crossotus" 0.0008 True False False
+1873 species "Butyrivibrio fibrisolvens" 0.0 False False False
+1874 species "Butyrivibrio hungatei" 0.0 False False False
+1875 species "Butyrivibrio proteoclasticus" 0.0 False False False
+1876 species "Butyrivibrio sp. AC2005" 0.0 False False False
+1877 species "Butyrivibrio sp. AD3002" 0.0 False False False
+1878 species "Butyrivibrio sp. AE2015" 0.0 False False False
+1879 species "Butyrivibrio sp. AE2032" 0.0 False False False
+1880 species "Butyrivibrio sp. AE3003" 0.0 False False False
+1881 species "Butyrivibrio sp. AE3004" 0.0 False False False
+1882 species "Butyrivibrio sp. AE3006" 0.0 False False False
+1883 species "Butyrivibrio sp. AE3009" 0.0 False False False
+1884 species "Butyrivibrio sp. FC2001" 0.0 False False False
+1885 species "Butyrivibrio sp. FCS006" 0.0 False False False
+1886 species "Butyrivibrio sp. FCS014" 0.0 False False False
+1887 species "Butyrivibrio sp. LB2008" 0.0 False False False
+1888 species "Butyrivibrio sp. MC2013" 0.0 False False False
+1889 species "Butyrivibrio sp. MC2021" 0.0 False False False
+1890 species "Butyrivibrio sp. NC2002" 0.0 False False False
+1891 species "Butyrivibrio sp. NC3005" 0.0 False False False
+1892 species "Butyrivibrio sp. VCB2001" 0.0 False False False
+1893 species "Butyrivibrio sp. VCB2006" 0.0 False False False
+1894 species "Butyrivibrio sp. VCD2006" 0.0 False False False
+1895 species "Butyrivibrio sp. WCD2001" 0.0 False False False
+1896 species "Butyrivibrio sp. WCD3002" 0.0 False False False
+1897 species "Butyrivibrio sp. WCE2006" 0.0 False False False
+1898 species "Butyrivibrio sp. XBB1001" 0.0 False False False
+1899 species "Butyrivibrio sp. XPD2006" 0.0 False False False
+1900 species "Caldanaerobacter subterraneus" 0.0 False False False
+1901 species "Caldanaerobius polysaccharolyticus" 0.0 False False False
+1902 species "Caldibacillus debilis" 0.0 False False False
+1903 species "Caldicoprobacter oshimai" 0.0 False False False
+1904 species "Caldisalinibacter kiritimatiensis" 0.0 False False False
+1905 species "Calditerricola satsumensis" 0.0 False False False
+1906 species "Calditerrivibrio nitroreducens" 0.0 False False False
+1907 species "Caloramator australicus" 0.0 False False False
+1908 species "Caloramator mitchellensis" 0.0 False False False
+1909 species "Caloramator sp. ALD01" 0.0 False False False
+1910 species "Caloranaerobacter azorensis" 0.0 False False False
+1911 species "Calothrix sp. PCC 7103" 0.0 False False False
+1912 species "Caminibacter mediatlanticus" 0.0 False False False
+1913 species "Campylobacter coli" 0.0 False False False
+1914 species "Campylobacter concisus" 0.0 False False False
+1915 species "Campylobacter corcagiensis" 0.0 False False False
+1916 species "Campylobacter curvus" 0.0 False False False
+1917 species "Campylobacter fetus" 0.0 False False False
+1918 species "Campylobacter gracilis" 0.0 False False False
+1919 species "Campylobacter hominis" 0.0 False False False
+1920 species "Campylobacter iguaniorum" 0.0 False False False
+1921 species "Campylobacter jejuni" 0.0 False False False
+1922 species "Campylobacter mucosalis" 0.0 False False False
+1923 species "Campylobacter rectus" 0.0 False False False
+1924 species "Campylobacter showae" 0.0 False False False
+1925 species "Campylobacter sp. 10_1_50" 0.0 False False False
+1926 species "Campylobacter sp. FOBRC14" 0.0 False False False
+1927 species "Campylobacter sp. MIT 97-5078" 0.0 False False False
+1928 species "Campylobacter sputorum" 0.0 False False False
+1929 species "Campylobacter upsaliensis" 0.0 False False False
+1930 species "Campylobacter ureolyticus" 0.0 False False False
+1931 species "candidate division SR1 bacterium RAAC1_SR1_1" 0.0 False False False
+1932 species "candidate division TM7 genomosp. GTL1" 0.0 False False False
+1933 species "Candidatus Accumulibacter phosphatis" 0.0 False False False
+1934 species "Candidatus Alistipes marseilloanorexicus" 0.0033 True False False
+1935 species "Candidatus Arthromitus sp. SFB-mouse" 0.0 False False False
+1936 species "Candidatus Arthromitus sp. SFB-rat-Yit" 0.0 False False False
+1937 species "Candidatus Azobacteroides pseudotrichonymphae" 0.0 False False False
+1938 species "Candidatus Bacteroides timonensis" 0.0004 True False False
+1939 species "Candidatus Baumannia cicadellinicola" 0.0 False False False
+1940 species "Candidatus Brocadia sinica" 0.0 False False False
+1941 species "Candidatus Cloacimonas acidaminovorans" 0.0 False False False
+1942 species "Candidatus Clostridium anorexicamassiliense" 0.0 False False False
+1943 species "Candidatus Desulforudis audaxviator" 0.0 False False False
+1944 species "Candidatus Hamiltonella defensa" 0.0 False False False
+1945 species "Candidatus Jettenia caeni" 0.0 False False False
+1946 species "Candidatus Liberibacter solanacearum" 0.0 False False False
+1947 species "Candidatus Microthrix parvicella" 0.0 False False False
+1948 species "Candidatus Pelagibacter ubique" 0.0 False False False
+1949 species "Candidatus Photodesmus blepharus" 0.0 False False False
+1950 species "Candidatus Photodesmus katoptron" 0.0 False False False
+1951 species "Candidatus Saccharibacteria bacterium RAAC3_TM7_1" 0.0 False False False
+1952 species "Candidatus Saccharibacteria oral taxon TM7x" 0.0 False False False
+1953 species "Candidatus Soleaferrea massiliensis" 0.0 False False False
+1954 species "Candidatus Solibacter usitatus" 0.0 False False False
+1955 species "Candidatus Stoquefichus massiliensis" 0.0 False False False
+1956 species "Candidatus Stoquefichus sp. SB1" 0.0 False False False
+1957 species "Candidatus Symbiobacter mobilis" 0.0 False False False
+1958 species "Candidatus Symbiothrix dinenymphae" 0.0 False False False
+1959 species "Capnocytophaga canimorsus" 0.0 False False False
+1960 species "Capnocytophaga cynodegmi" 0.0 False False False
+1961 species "Capnocytophaga gingivalis" 0.0 False False False
+1962 species "Capnocytophaga granulosa" 0.0 False False False
+1963 species "Capnocytophaga ochracea" 0.0 False False False
+1964 species "Capnocytophaga sp. CM59" 0.0 False False False
+1965 species "Capnocytophaga sp. oral taxon 323" 0.0 False False False
+1966 species "Capnocytophaga sp. oral taxon 324" 0.0 False False False
+1967 species "Capnocytophaga sp. oral taxon 326" 0.0 False False False
+1968 species "Capnocytophaga sp. oral taxon 329" 0.0 False False False
+1969 species "Capnocytophaga sp. oral taxon 332" 0.0 False False False
+1970 species "Capnocytophaga sp. oral taxon 335" 0.0 False False False
+1971 species "Capnocytophaga sp. oral taxon 336" 0.0 False False False
+1972 species "Capnocytophaga sp. oral taxon 338" 0.0 False False False
+1973 species "Capnocytophaga sp. oral taxon 380" 0.0 False False False
+1974 species "Capnocytophaga sp. oral taxon 412" 0.0 False False False
+1975 species "Capnocytophaga sp. oral taxon 863" 0.0 False False False
+1976 species "Capnocytophaga sputigena" 0.0 False False False
+1977 species "Cardiobacterium hominis" 0.0 False False False
+1978 species "Cardiobacterium valvarum" 0.0 False False False
+1979 species "Carnobacterium divergens" 0.0 False False False
+1980 species "Carnobacterium funditum" 0.0 False False False
+1981 species "Carnobacterium gallinarum" 0.0 False False False
+1982 species "Carnobacterium inhibens" 0.0 False False False
+1983 species "Carnobacterium maltaromaticum" 0.0 False False False
+1984 species "Carnobacterium mobile" 0.0 False False False
+1985 species "Carnobacterium sp. 1290_CSPC" 0.0 False False False
+1986 species "Carnobacterium sp. 17-4" 0.0 False False False
+1987 species "Carnobacterium sp. WN1374" 0.0 False False False
+1988 species "Carnobacterium sp. ZWU0011" 0.0 False False False
+1989 species "Castellaniella defragrans" 0.0 False False False
+1990 species "Catabacter hongkongensis" 0.0 False False False
+1991 species "Catellicoccus marimammalium" 0.0 False False False
+1992 species "Catelliglobosispora koreensis" 0.0 False False False
+1993 species "Catenibacterium mitsuokai" 0.0003 True False False
+1994 species "Catenovulum agarivorans" 0.0 False False False
+1995 species "Catonella morbi" 0.0 False False False
+1996 species "Caulobacter segnis" 0.0 False False False
+1997 species "Caulobacter vibrioides" 0.0 False False False
+1998 species "Cecembia lonarensis" 0.0 False False False
+1999 species "Cellulomonas carbonis" 0.0 False False False
+2000 species "Cellulomonas flavigena" 0.0 False False False
+2001 species "Cellulophaga algicola" 0.0 False False False
+2002 species "Cellulophaga baltica" 0.0 False False False
+2003 species "Cellulosilyticum lentocellum" 0.0 False False False
+2004 species "Cellulosilyticum ruminicola" 0.0 False False False
+2005 species "Cellulosimicrobium cellulans" 0.0 False False False
+2006 species "Cellvibrio mixtus" 0.0 False False False
+2007 species "Cellvibrio sp. BR" 0.0 False False False
+2008 species "Centipeda periodontii" 0.0 False False False
+2009 species "Cetobacterium somerae" 0.0 False False False
+2010 species "Chamaesiphon minutus" 0.0 False False False
+2011 species "Chania multitudinisentens" 0.0 False False False
+2012 species "Chelatococcus sambhunathii" 0.0 False False False
+2013 species "Chelonobacter oris" 0.0 False False False
+2014 species "Chitiniphilus shinanonensis" 0.0 False False False
+2015 species "Chitinivibrio alkaliphilus" 0.0 False False False
+2016 species "Chitinophaga pinensis" 0.0 False False False
+2017 species "Chitinophagaceae bacterium PMP191F" 0.0 False False False
+2018 species "Chlamydia psittaci" 0.0 False False False
+2019 species "Chlamydia suis" 0.0 False False False
+2020 species "Chlamydia trachomatis" 0.0 False False False
+2021 species "Chlorobaculum parvum" 0.0 False False False
+2022 species "Chlorobaculum tepidum" 0.0 False False False
+2023 species "Chlorobium ferrooxidans" 0.0 False False False
+2024 species "Chlorobium limicola" 0.0 False False False
+2025 species "Chlorobium phaeobacteroides" 0.0 False False False
+2026 species "Chlorobium phaeovibrioides" 0.0 False False False
+2027 species "Chloroherpeton thalassium" 0.0 False False False
+2028 species "Chondromyces apiculatus" 0.0 False False False
+2029 species "Chryseobacterium angstadtii" 0.0 False False False
+2030 species "Chryseobacterium antarcticum" 0.0 False False False
+2031 species "Chryseobacterium caeni" 0.0 False False False
+2032 species "Chryseobacterium daeguense" 0.0 False False False
+2033 species "Chryseobacterium formosense" 0.0 False False False
+2034 species "Chryseobacterium gleum" 0.0 False False False
+2035 species "Chryseobacterium gregarium" 0.0 False False False
+2036 species "Chryseobacterium haifense" 0.0 False False False
+2037 species "Chryseobacterium hispalense" 0.0 False False False
+2038 species "Chryseobacterium indologenes" 0.0 False False False
+2039 species "Chryseobacterium jeonii" 0.0 False False False
+2040 species "Chryseobacterium koreense" 0.0 False False False
+2041 species "Chryseobacterium oranimense" 0.0 False False False
+2042 species "Chryseobacterium palustre" 0.0 False False False
+2043 species "Chryseobacterium piperi" 0.0 False False False
+2044 species "Chryseobacterium soli" 0.0 False False False
+2045 species "Chryseobacterium solincola" 0.0 False False False
+2046 species "Chryseobacterium sp. CF356" 0.0 False False False
+2047 species "Chryseobacterium sp. CF365" 0.0 False False False
+2048 species "Chryseobacterium sp. ERMR1:04" 0.0 False False False
+2049 species "Chryseobacterium sp. FF12" 0.0 False False False
+2050 species "Chryseobacterium sp. FH2" 0.0 False False False
+2051 species "Chryseobacterium sp. JAH" 0.0 False False False
+2052 species "Chryseobacterium sp. Leaf180" 0.0 False False False
+2053 species "Chryseobacterium sp. Leaf201" 0.0 False False False
+2054 species "Chryseobacterium sp. Leaf394" 0.0 False False False
+2055 species "Chryseobacterium sp. Leaf405" 0.0 False False False
+2056 species "Chryseobacterium sp. OV259" 0.0 False False False
+2057 species "Chryseobacterium sp. OV705" 0.0 False False False
+2058 species "Chryseobacterium sp. YR460" 0.0 False False False
+2059 species "Chryseobacterium sp. YR561" 0.0 False False False
+2060 species "Chryseobacterium vrystaatense" 0.0 False False False
+2061 species "Chrysiogenes arsenatis" 0.0 False False False
+2062 species "Chthoniobacter flavus" 0.0 False False False
+2063 species "Citrobacter koseri" 0.0 False False False
+2064 species "Citrobacter sp. FDAARGOS_156" 0.0 False False False
+2065 species "Citrobacter sp. MGH109" 0.0 False False False
+2066 species "Citrobacter youngae" 0.0 False False False
+2067 species "Clavibacter michiganensis" 0.0 False False False
+2068 species "Cloacibacillus evryensis" 0.0 False False False
+2069 species "Clostridia bacterium UC5.1-1C12" 0.0 False False False
+2070 species "Clostridia bacterium UC5.1-1D1" 0.0002 True False False
+2071 species "Clostridia bacterium UC5.1-1D10" 0.0089 True False False
+2072 species "Clostridia bacterium UC5.1-1E11" 0.0001 True False False
+2073 species "Clostridia bacterium UC5.1-2F7" 0.0004 True False False
+2074 species "Clostridia bacterium UC5.1-2H11" 0.0 False False False
+2075 species "Clostridia bacterium UC5.1-2H6" 0.0 False False False
+2076 species "Clostridiaceae bacterium GM1" 0.0 False False False
+2077 species "Clostridiaceae bacterium MS3" 0.0001 True False False
+2078 species "Clostridiaceae bacterium mt10" 0.0 False False False
+2079 species "Clostridiaceae bacterium mt12" 0.0 False False False
+2080 species "Clostridiales bacterium 1_7_47FAA" 0.0 False False False
+2081 species "Clostridiales bacterium DRI-13" 0.0 False False False
+2082 species "Clostridiales bacterium mt11" 0.0 False False False
+2083 species "Clostridiales bacterium NK3B98" 0.0 False False False
+2084 species "Clostridiales bacterium oral taxon 876" 0.0 False False False
+2085 species "Clostridiales bacterium S5-A14a" 0.0 False False False
+2086 species "Clostridiales bacterium SIT11" 0.0 False False False
+2087 species "Clostridiales bacterium SIT13" 0.0 False False False
+2088 species "Clostridiales bacterium VE202-01" 0.0004 True False False
+2089 species "Clostridiales bacterium VE202-03" 0.0008 True False False
+2090 species "Clostridiales bacterium VE202-06" 0.0 False False False
+2091 species "Clostridiales bacterium VE202-07" 0.0 False False False
+2092 species "Clostridiales bacterium VE202-08" 0.0 False False False
+2093 species "Clostridiales bacterium VE202-09" 0.0 False False False
+2094 species "Clostridiales bacterium VE202-13" 0.0001 True False False
+2095 species "Clostridiales bacterium VE202-14" 0.0001 True False False
+2096 species "Clostridiales bacterium VE202-15" 0.0 False False False
+2097 species "Clostridiales bacterium VE202-16" 0.0001 True False False
+2098 species "Clostridiales bacterium VE202-18" 0.0 False False False
+2099 species "Clostridiales bacterium VE202-21" 0.0002 True False False
+2100 species "Clostridiales bacterium VE202-27" 0.0002 True False False
+2101 species "Clostridiales bacterium VE202-28" 0.0 False False False
+2102 species "Clostridiisalibacter paucivorans" 0.0 False False False
+2103 species "Clostridium aceticum" 0.0 False False False
+2104 species "Clostridium acetobutylicum" 0.0 False False False
+2105 species "Clostridium akagii" 0.0 False False False
+2106 species "Clostridium algidicarnis" 0.0 False False False
+2107 species "Clostridium arbusti" 0.0 False False False
+2108 species "Clostridium argentinense" 0.0 False False False
+2109 species "Clostridium baratii" 0.0 False False False
+2110 species "Clostridium beijerinckii" 0.0 False False False
+2111 species "Clostridium bornimense" 0.0 False False False
+2112 species "Clostridium botulinum" 0.0 False False False
+2113 species "Clostridium butyricum" 0.0 False False False
+2114 species "Clostridium cadaveris" 0.0 False False False
+2115 species "Clostridium carboxidivorans" 0.0 False False False
+2116 species "Clostridium celatum" 0.0 False False False
+2117 species "Clostridium cellulovorans" 0.0 False False False
+2118 species "Clostridium chauvoei" 0.0 False False False
+2119 species "Clostridium colicanis" 0.0 False False False
+2120 species "Clostridium cylindrosporum" 0.0 False False False
+2121 species "Clostridium dakarense" 0.0 False False False
+2122 species "Clostridium homopropionicum" 0.0 False False False
+2123 species "Clostridium hydrogeniformans" 0.0 False False False
+2124 species "Clostridium intestinale" 0.0 False False False
+2125 species "Clostridium kluyveri" 0.0 False False False
+2126 species "Clostridium lundense" 0.0 False False False
+2127 species "Clostridium neonatale" 0.0 False False False
+2128 species "Clostridium paraputrificum" 0.0 False False False
+2129 species "Clostridium pasteurianum" 0.0 False False False
+2130 species "Clostridium perfringens" 0.0 False False False
+2131 species "Clostridium polynesiense" 0.0 False False False
+2132 species "Clostridium saccharobutylicum" 0.0 False False False
+2133 species "Clostridium saccharoperbutylacetonicum" 0.0 False False False
+2134 species "Clostridium sartagoforme" 0.0 False False False
+2135 species "Clostridium senegalense" 0.0 False False False
+2136 species "Clostridium sp. 1_1_41A1FAA" 0.0 False False False
+2137 species "Clostridium sp. 12(A)" 0.0 False False False
+2138 species "Clostridium sp. 7_2_43FAA" 0.0 False False False
+2139 species "Clostridium sp. 7_3_54FAA" 0.0001 True False False
+2140 species "Clostridium sp. Ade.TY" 0.0 False False False
+2141 species "Clostridium sp. ASBs410" 0.0 False False False
+2142 species "Clostridium sp. ASF356" 0.0 False False False
+2143 species "Clostridium sp. ASF502" 0.0001 True False False
+2144 species "Clostridium sp. ATCC 29733" 0.0001 True False False
+2145 species "Clostridium sp. ATCC BAA-442" 0.0008 True False False
+2146 species "Clostridium sp. BL8" 0.0 False False False
+2147 species "Clostridium sp. C8" 0.0 False False False
+2148 species "Clostridium sp. CL-2" 0.0 False False False
+2149 species "Clostridium sp. CL-6" 0.0 False False False
+2150 species "Clostridium sp. D5" 0.0 False False False
+2151 species "Clostridium sp. DL-VIII" 0.0 False False False
+2152 species "Clostridium sp. DMHC 10" 0.0 False False False
+2153 species "Clostridium sp. FS41" 0.0 False False False
+2154 species "Clostridium sp. GD3" 0.0032 True False False
+2155 species "Clostridium sp. HGF2" 0.0 False False False
+2156 species "Clostridium sp. HMP27" 0.0 False False False
+2157 species "Clostridium sp. JC272" 0.0 False False False
+2158 species "Clostridium sp. JCC" 0.0 False False False
+2159 species "Clostridium sp. JCD" 0.0 False False False
+2160 species "Clostridium sp. KLE 1755" 0.0 False False False
+2161 species "Clostridium sp. KNHs205" 0.0 False False False
+2162 species "Clostridium sp. KNHs209" 0.0 False False False
+2163 species "Clostridium sp. KNHs214" 0.0 False False False
+2164 species "Clostridium sp. L2-50" 0.0003 True False False
+2165 species "Clostridium sp. LF2" 0.0 False False False
+2166 species "Clostridium sp. M62/1" 0.0033 True False False
+2167 species "Clostridium sp. MSTE9" 0.0 False False False
+2168 species "Clostridium sp. mt5" 0.0 False False False
+2169 species "Clostridium sp. ND2" 0.0 False False False
+2170 species "Clostridium sp. SS2/1" 0.0 False False False
+2171 species "Clostridium sp. SY8519" 0.0 False False False
+2172 species "Clostridium sporogenes" 0.0 False False False
+2173 species "Clostridium sulfidigenes" 0.0 False False False
+2174 species "Clostridium tetani" 0.0 False False False
+2175 species "Clostridium tunisiense" 0.0 False False False
+2176 species "Clostridium tyrobutyricum" 0.0 False False False
+2177 species "Clostridium ventriculi" 0.0 False False False
+2178 species "Cohnella laeviribosi" 0.0 False False False
+2179 species "Cohnella panacarvi" 0.0 False False False
+2180 species "Coleofasciculus chthonoplastes" 0.0 False False False
+2181 species "Collinsella aerofaciens" 0.0001 True False False
+2182 species "Collinsella intestinalis" 0.0 False False False
+2183 species "Collinsella sp. 4_8_47FAA" 0.0002 True False False
+2184 species "Collinsella sp. MS5" 0.0 False False False
+2185 species "Collinsella stercoris" 0.0 False False False
+2186 species "Collinsella tanakaei" 0.0 False False False
+2187 species "Colwellia psychrerythraea" 0.0 False False False
+2188 species "Comamonas aquatica" 0.0 False False False
+2189 species "Comamonas granuli" 0.0 False False False
+2190 species "Comamonas testosteroni" 0.0 False False False
+2191 species "Conchiformibius kuhniae" 0.0 False False False
+2192 species "Conchiformibius steedae" 0.0 False False False
+2193 species "Congregibacter litoralis" 0.0 False False False
+2194 species "Coprobacillus sp. 3_3_56FAA" 0.0 False False False
+2195 species "Coprobacillus sp. 8_1_38FAA" 0.0 False True False
+2196 species "Coprobacillus sp. 8_2_54BFAA" 0.0 False False False
+2197 species "Coprobacillus sp. D7" 0.0 False False False
+2198 species "Coprobacter fastidiosus" 0.0 False False False
+2199 species "Coprobacter secundus" 0.0 False False False
+2200 species "Coprococcus comes" 0.0035 True False False
+2201 species "Coprococcus eutactus" 0.0045 True False False
+2202 species "Coprococcus sp. HPP0048" 0.0 False False False
+2203 species "Coprococcus sp. HPP0074" 0.0 False False False
+2204 species "Coriobacteriaceae bacterium 68-1-3" 0.0 False False False
+2205 species "Coriobacteriaceae bacterium BV3Ac1" 0.0 False False False
+2206 species "Coriobacterium glomerans" 0.0 False False False
+2207 species "Corynebacterium accolens" 0.0 False False False
+2208 species "Corynebacterium ammoniagenes" 0.0 False False False
+2209 species "Corynebacterium argentoratense" 0.0 False False False
+2210 species "Corynebacterium atypicum" 0.0 False False False
+2211 species "Corynebacterium aurimucosum" 0.0 False False False
+2212 species "Corynebacterium auriscanis" 0.0 False False False
+2213 species "Corynebacterium callunae" 0.0 False False False
+2214 species "Corynebacterium camporealensis" 0.0 False False False
+2215 species "Corynebacterium casei" 0.0 False False False
+2216 species "Corynebacterium caspium" 0.0 False False False
+2217 species "Corynebacterium ciconiae" 0.0 False False False
+2218 species "Corynebacterium diphtheriae" 0.0 False False False
+2219 species "Corynebacterium doosanense" 0.0 False False False
+2220 species "Corynebacterium durum" 0.0 False False False
+2221 species "Corynebacterium efficiens" 0.0 False False False
+2222 species "Corynebacterium epidermidicanis" 0.0 False False False
+2223 species "Corynebacterium falsenii" 0.0 False False False
+2224 species "Corynebacterium freiburgense" 0.0 False False False
+2225 species "Corynebacterium genitalium" 0.0 False False False
+2226 species "Corynebacterium glucuronolyticum" 0.0 False False False
+2227 species "Corynebacterium glyciniphilum" 0.0 False False False
+2228 species "Corynebacterium halotolerans" 0.0 False False False
+2229 species "Corynebacterium humireducens" 0.0 False False False
+2230 species "Corynebacterium imitans" 0.0 False False False
+2231 species "Corynebacterium jeikeium" 0.0 False False False
+2232 species "Corynebacterium kroppenstedtii" 0.0 False False False
+2233 species "Corynebacterium kutscheri" 0.0 False False False
+2234 species "Corynebacterium lipophiloflavum" 0.0 False False False
+2235 species "Corynebacterium lubricantis" 0.0 False False False
+2236 species "Corynebacterium maris" 0.0 False False False
+2237 species "Corynebacterium massiliense" 0.0 False False False
+2238 species "Corynebacterium matruchotii" 0.0 False False False
+2239 species "Corynebacterium minutissimum" 0.0 False False False
+2240 species "Corynebacterium mustelae" 0.0 False False False
+2241 species "Corynebacterium pilosum" 0.0 False False False
+2242 species "Corynebacterium propinquum" 0.0 False False False
+2243 species "Corynebacterium pseudodiphtheriticum" 0.0 False False False
+2244 species "Corynebacterium pseudogenitalium" 0.0 False False False
+2245 species "Corynebacterium pseudotuberculosis" 0.0 False False False
+2246 species "Corynebacterium pyruviciproducens" 0.0 False False False
+2247 species "Corynebacterium renale" 0.0 False False False
+2248 species "Corynebacterium resistens" 0.0 False False False
+2249 species "Corynebacterium riegelii" 0.0 False False False
+2250 species "Corynebacterium singulare" 0.0 False False False
+2251 species "Corynebacterium sp. GD7" 0.0 False False False
+2252 species "Corynebacterium sp. JCB" 0.0 False False False
+2253 species "Corynebacterium sp. KPL1818" 0.0 False False False
+2254 species "Corynebacterium sp. KPL1824" 0.0 False False False
+2255 species "Corynebacterium sp. L2-79-05" 0.0 False False False
+2256 species "Corynebacterium sp. NML 130206" 0.0 False False False
+2257 species "Corynebacterium sp. NML 130210" 0.0 False False False
+2258 species "Corynebacterium striatum" 0.0 False False False
+2259 species "Corynebacterium testudinoris" 0.0 False False False
+2260 species "Corynebacterium tuberculostearicum" 0.0 False False False
+2261 species "Corynebacterium tuscaniense" 0.0 False False False
+2262 species "Corynebacterium ulcerans" 0.0 False False False
+2263 species "Corynebacterium urealyticum" 0.0 False False False
+2264 species "Corynebacterium ureicelerivorans" 0.0 False False False
+2265 species "Corynebacterium uterequi" 0.0 False False False
+2266 species "Corynebacterium vitaeruminis" 0.0 False False False
+2267 species "Corynebacterium xerosis" 0.0 False False False
+2268 species "Coxiella burnetii" 0.0 False False False
+2269 species "Coxiella-like endosymbiont" 0.0 False False False
+2270 species "Criblamydia sequanensis" 0.0 False False False
+2271 species "Croceibacter atlanticus" 0.0 False False False
+2272 species "Crocosphaera watsonii" 0.0 False False False
+2273 species "Cryobacterium roopkundense" 0.0 False False False
+2274 species "Cryobacterium sp. MLB-32" 0.0 False False False
+2275 species "Cryptobacterium curtum" 0.0 False False False
+2276 species "Cupriavidus basilensis" 0.0 False False False
+2277 species "Cupriavidus metallidurans" 0.0 False False False
+2278 species "Cupriavidus sp. SK-3" 0.0 False False False
+2279 species "Curtobacterium sp. S6" 0.0 False False False
+2280 species "Curvibacter gracilis" 0.0 False False False
+2281 species "Curvibacter lanceolatus" 0.0 False False False
+2282 species "Curvibacter sp. PAE-UM" 0.0 False False False
+2283 species "Cyanothece sp. PCC 7425" 0.0 False False False
+2284 species "Cytophaga aurantiaca" 0.0 False False False
+2285 species "Cytophagales bacterium B6" 0.0 False False False
+2286 species "Cytophagales bacterium MC1A" 0.0 False False False
+2287 species "Dechloromonas agitata" 0.0 False False False
+2288 species "Deferribacter desulfuricans" 0.0 False False False
+2289 species "Defluviitalea phaphyphila" 0.0 False False False
+2290 species "Dehalobacter restrictus" 0.0 False False False
+2291 species "Dehalobacter sp. FTH1" 0.0 False False False
+2292 species "Dehalobacter sp. UNSWDHB" 0.0 False False False
+2293 species "Dehalococcoides mccartyi" 0.0 False False False
+2294 species "Dehalogenimonas lykanthroporepellens" 0.0 False False False
+2295 species "Deinococcus geothermalis" 0.0 False False False
+2296 species "Deinococcus peraridilitoris" 0.0 False False False
+2297 species "Deinococcus wulumuqiensis" 0.0 False False False
+2298 species "Delftia acidovorans" 0.0 False False False
+2299 species "Delftia sp. Cs1-4" 0.0 False False False
+2300 species "delta proteobacterium MLMS-1" 0.0 False False False
+2301 species "delta proteobacterium NaphS2" 0.0 False False False
+2302 species "Dermabacter hominis" 0.0 False False False
+2303 species "Dermacoccus sp. PE3" 0.0 False False False
+2304 species "Dermatophilus congolensis" 0.0 False False False
+2305 species "Derxia gummosa" 0.0 False False False
+2306 species "Desmospora sp. 8437" 0.0 False False False
+2307 species "Desulfarculus baarsii" 0.0 False False False
+2308 species "Desulfatiglans anilini" 0.0 False False False
+2309 species "Desulfatirhabdium butyrativorans" 0.0 False False False
+2310 species "Desulfitibacter alkalitolerans" 0.0 False False False
+2311 species "Desulfitobacterium dichloroeliminans" 0.0 False False False
+2312 species "Desulfitobacterium hafniense" 0.0 False False False
+2313 species "Desulfitobacterium metallireducens" 0.0 False False False
+2314 species "Desulfobacter postgatei" 0.0 False False False
+2315 species "Desulfobacterium autotrophicum" 0.0 False False False
+2316 species "Desulfobulbus mediterraneus" 0.0 False False False
+2317 species "Desulfocapsa sulfexigens" 0.0 False False False
+2318 species "Desulfocarbo indianensis" 0.0 False False False
+2319 species "Desulfococcus multivorans" 0.0 False False False
+2320 species "Desulfomicrobium escambiense" 0.0 False False False
+2321 species "Desulfonatronum thiodismutans" 0.0 False False False
+2322 species "Desulforegula conservatrix" 0.0 False False False
+2323 species "Desulfosarcina cetonica" 0.0 False False False
+2324 species "Desulfosarcina sp. BuS5" 0.0 False False False
+2325 species "Desulfospira joergensenii" 0.0 False False False
+2326 species "Desulfosporosinus acididurans" 0.0 False False False
+2327 species "Desulfosporosinus orientis" 0.0 False False False
+2328 species "Desulfosporosinus sp. HMP52" 0.0 False False False
+2329 species "Desulfosporosinus sp. I2" 0.0 False False False
+2330 species "Desulfosporosinus youngiae" 0.0 False False False
+2331 species "Desulfotalea psychrophila" 0.0 False False False
+2332 species "Desulfotignum balticum" 0.0 False False False
+2333 species "Desulfotignum phosphitoxidans" 0.0 False False False
+2334 species "Desulfotomaculum acetoxidans" 0.0 False False False
+2335 species "Desulfotomaculum alcoholivorax" 0.0 False False False
+2336 species "Desulfotomaculum alkaliphilum" 0.0 False False False
+2337 species "Desulfotomaculum gibsoniae" 0.0 False False False
+2338 species "Desulfotomaculum hydrothermale" 0.0 False False False
+2339 species "Desulfotomaculum kuznetsovii" 0.0 False False False
+2340 species "Desulfotomaculum nigrificans" 0.0 False False False
+2341 species "Desulfotomaculum reducens" 0.0 False False False
+2342 species "Desulfotomaculum ruminis" 0.0 False False False
+2343 species "Desulfotomaculum thermocisternum" 0.0 False False False
+2344 species "Desulfovermiculus halophilus" 0.0 False False False
+2345 species "Desulfovibrio aespoeensis" 0.0 False False False
+2346 species "Desulfovibrio africanus" 0.0 False False False
+2347 species "Desulfovibrio alaskensis" 0.0 False False False
+2348 species "Desulfovibrio alkalitolerans" 0.0 False False False
+2349 species "Desulfovibrio cuneatus" 0.0 False False False
+2350 species "Desulfovibrio desulfuricans" 0.0 False False False
+2351 species "Desulfovibrio frigidus" 0.0 False False False
+2352 species "Desulfovibrio hydrothermalis" 0.0 False False False
+2353 species "Desulfovibrio inopinatus" 0.0 False False False
+2354 species "Desulfovibrio oxyclinae" 0.0 False False False
+2355 species "Desulfovibrio piezophilus" 0.0 False False False
+2356 species "Desulfovibrio piger" 0.0 False False False
+2357 species "Desulfovibrio putealis" 0.0 False False False
+2358 species "Desulfovibrio salexigens" 0.0 False False False
+2359 species "Desulfovibrio sp. 3_1_syn3" 0.0 False False False
+2360 species "Desulfovibrio sp. 6_1_46AFAA" 0.0 False False False
+2361 species "Desulfovibrio vulgaris" 0.0 False False False
+2362 species "Desulfovirgula thermocuniculi" 0.0 False False False
+2363 species "Desulfurispirillum indicum" 0.0 False False False
+2364 species "Desulfurispora thermophila" 0.0 False False False
+2365 species "Desulfuromonas acetoxidans" 0.0 False False False
+2366 species "Desulfuromonas sp. TF" 0.0 False False False
+2367 species "Dethiobacter alkaliphilus" 0.0 False False False
+2368 species "Dethiosulfatarculus sandiegensis" 0.0 False False False
+2369 species "Dethiosulfovibrio peptidovorans" 0.0 False False False
+2370 species "Devriesea agamarum" 0.0 False False False
+2371 species "Dialister invisus" 0.0 False True False
+2372 species "Dialister micraerophilus" 0.0 False False False
+2373 species "Dialister succinatiphilus" 0.0 False False False
+2374 species "Diaphorobacter sp. J5-51" 0.0 False False False
+2375 species "Dichelobacter nodosus" 0.0 False False False
+2376 species "Dickeya paradisiaca" 0.0 False False False
+2377 species "Dickeya sp. DW 0440" 0.0 False False False
+2378 species "Dickeya zeae" 0.0 False False False
+2379 species "Dielma fastidiosa" 0.0 False False False
+2380 species "Dietzia sp. UCD-THP" 0.0 False False False
+2381 species "Diplosphaera colitermitum" 0.0 False False False
+2382 species "Dokdonia sp. PRO95" 0.0 False False False
+2383 species "Dolichospermum circinale" 0.0 False False False
+2384 species "Dolosigranulum pigrum" 0.0 False False False
+2385 species "Dorea formicigenerans" 0.0004 True False False
+2386 species "Dorea longicatena" 0.0017 True False False
+2387 species "Dorea sp. 5-2" 0.0 False False False
+2388 species "Dorea sp. AGR2135" 0.0002 True False False
+2389 species "Dorea sp. D27" 0.0 False False False
+2390 species "Draconibacterium orientale" 0.0 False False False
+2391 species "Draconibacterium sediminis" 0.0 False False False
+2392 species "Dyadobacter alkalitolerans" 0.0 False False False
+2393 species "Dyadobacter beijingensis" 0.0 False False False
+2394 species "Dyadobacter fermentans" 0.0 False False False
+2395 species "Dyadobacter sp. Leaf189" 0.0 False False False
+2396 species "Dyadobacter tibetensis" 0.0 False False False
+2397 species "Dysgonomonas capnocytophagoides" 0.0 False False False
+2398 species "Dysgonomonas gadei" 0.0 False False False
+2399 species "Dysgonomonas mossii" 0.0 False False False
+2400 species "Dysgonomonas sp. BGC7" 0.0 False False False
+2401 species "Dysgonomonas sp. HGC4" 0.0 False False False
+2402 species "Echinicola pacifica" 0.0 False False False
+2403 species "Echinicola vietnamensis" 0.0 False False False
+2404 species "Edwardsiella tarda" 0.0 False False False
+2405 species "Eggerthella lenta" 0.0 False False False
+2406 species "Eggerthella sp. 1_3_56FAA" 0.0 False False False
+2407 species "Eggerthella sp. HGA1" 0.0 False False False
+2408 species "Eggerthella sp. YY7918" 0.0 False False False
+2409 species "Eggerthellaceae bacterium AT8" 0.0 False False False
+2410 species "Eggerthia catenaformis" 0.0 False False False
+2411 species "Eikenella corrodens" 0.0 False False False
+2412 species "Elizabethkingia anophelis" 0.0 False False False
+2413 species "Elizabethkingia meningoseptica" 0.0 False False False
+2414 species "Empedobacter brevis" 0.0 False False False
+2415 species "Empedobacter falsenii" 0.0 False False False
+2416 species "Endomicrobium proavitum" 0.0 False False False
+2417 species "Endozoicomonas elysicola" 0.0 False False False
+2418 species "Endozoicomonas montiporae" 0.0 False False False
+2419 species "Enhydrobacter aerosaccus" 0.0 False False False
+2420 species "Enorma massiliensis" 0.0 False False False
+2421 species "Enterobacter aerogenes" 0.0 False False False
+2422 species "Enterobacter asburiae" 0.0 False False False
+2423 species "Enterobacter cloacae" 0.0 False False False
+2424 species "Enterobacter cloacae complex 'Hoffmann cluster IV'" 0.0 False False False
+2425 species "Enterobacter hormaechei" 0.0 False False False
+2426 species "Enterobacter kobei" 0.0 False False False
+2427 species "Enterobacter lignolyticus" 0.0 False False False
+2428 species "Enterobacter mori" 0.0 False False False
+2429 species "Enterobacter sp. 35669" 0.0 False False False
+2430 species "Enterobacter sp. MGH 10" 0.0 False False False
+2431 species "Enterobacteriaceae bacterium 9_2_54FAA" 0.0 False False False
+2432 species "Enterococcus asini" 0.0 False False False
+2433 species "Enterococcus caccae" 0.0 False False False
+2434 species "Enterococcus casseliflavus" 0.0 False False False
+2435 species "Enterococcus cecorum" 0.0 False False False
+2436 species "Enterococcus columbae" 0.0 False False False
+2437 species "Enterococcus dispar" 0.0 False False False
+2438 species "Enterococcus durans" 0.0 False False False
+2439 species "Enterococcus faecalis" 0.0 False False False
+2440 species "Enterococcus faecium" 0.0 False False False
+2441 species "Enterococcus gallinarum" 0.0 False False False
+2442 species "Enterococcus gilvus" 0.0 False False False
+2443 species "Enterococcus haemoperoxidus" 0.0 False False False
+2444 species "Enterococcus italicus" 0.0 False False False
+2445 species "Enterococcus malodoratus" 0.0 False False False
+2446 species "Enterococcus moraviensis" 0.0 False False False
+2447 species "Enterococcus mundtii" 0.0 False False False
+2448 species "Enterococcus pallens" 0.0 False False False
+2449 species "Enterococcus phoeniculicola" 0.0 False False False
+2450 species "Enterococcus raffinosus" 0.0 False False False
+2451 species "Enterococcus saccharolyticus" 0.0 False False False
+2452 species "Enterococcus sulfureus" 0.0 False False False
+2453 species "Enterococcus villorum" 0.0 False False False
+2454 species "Enterorhabdus caecimuris" 0.0 False False False
+2455 species "Enterorhabdus mucosicola" 0.0 False False False
+2456 species "Enterovibrio calviensis" 0.0 False False False
+2457 species "Enterovibrio norvegicus" 0.0 False False False
+2458 species "Epilithonimonas sp. FH1" 0.0 False False False
+2459 species "Epilithonimonas tenax" 0.0 False False False
+2460 species "Epulopiscium sp. 'N.t. morphotype B'" 0.0 False False False
+2461 species "Eremococcus coleocola" 0.0 False False False
+2462 species "Erwinia tracheiphila" 0.0 False False False
+2463 species "Erysipelatoclostridium ramosum" 0.0 False False False
+2464 species "Erysipelothrix rhusiopathiae" 0.0 False False False
+2465 species "Erysipelothrix tonsillarum" 0.0 False False False
+2466 species "Erysipelotrichaceae bacterium 2_2_44A" 0.0001 True False False
+2467 species "Erysipelotrichaceae bacterium 21_3" 0.0001 True False False
+2468 species "Erysipelotrichaceae bacterium 3_1_53" 0.0 False False False
+2469 species "Erysipelotrichaceae bacterium 5_2_54FAA" 0.0002 True False False
+2470 species "Erysipelotrichaceae bacterium 6_1_45" 0.0002 True False False
+2471 species "Erysipelotrichaceae bacterium NK3D112" 0.0 False False False
+2472 species "Erythrobacter marinus" 0.0 False False False
+2473 species "Escherichia albertii" 0.0 False False False
+2474 species "Escherichia coli" 0.0 False False False
+2475 species "Escherichia fergusonii" 0.0 False False False
+2476 species "Escherichia vulneris" 0.0 False False False
+2477 species "Ethanoligenens harbinense" 0.0 False False False
+2478 species "Eubacterium acidaminophilum" 0.0 False False False
+2479 species "Eubacterium brachy" 0.0 False False False
+2480 species "Eubacterium desmolans" 0.0 False False False
+2481 species "Eubacterium limosum" 0.0 False False False
+2482 species "Eubacterium plexicaudatum" 0.0 False False False
+2483 species "Eubacterium ramulus" 0.0025 True False False
+2484 species "Eubacterium saphenum" 0.0 False False False
+2485 species "Eubacterium sp. 14-2" 0.0 False False False
+2486 species "Eubacterium sp. 3_1_31" 0.0002 True False False
+2487 species "Eubacterium sp. AB3007" 0.0 False False False
+2488 species "Eubacterium sp. ER2" 0.0 False False False
+2489 species "Eubacterium sp. SB2" 0.0 False False False
+2490 species "Eubacterium ventriosum" 0.0004 True False False
+2491 species "Eubacterium xylanophilum" 0.0 False False False
+2492 species "Ewingella americana" 0.0 False False False
+2493 species "Exiguobacterium marinum" 0.0 False False False
+2494 species "Exiguobacterium sp. NG55" 0.0 False False False
+2495 species "Exiguobacterium sp. S17" 0.0 False False False
+2496 species "Facklamia hominis" 0.0 False False False
+2497 species "Facklamia ignava" 0.0 False False False
+2498 species "Facklamia languida" 0.0 False False False
+2499 species "Facklamia sourekii" 0.0 False False False
+2500 species "Faecalibacterium prausnitzii" 0.1272 True False False
+2501 species "Faecalicoccus pleomorphus" 0.0 False False False
+2502 species "Faecalitalea cylindroides" 0.0002 True False False
+2503 species "Fangia hongkongensis" 0.0 False False False
+2504 species "Fenollaria massiliensis" 0.0 False False False
+2505 species "Fermentimonas caenicola" 0.0 False False False
+2506 species "Ferrimonas balearica" 0.0 False False False
+2507 species "Ferrimonas futtsuensis" 0.0 False False False
+2508 species "Ferrovum sp. JA12" 0.0 False False False
+2509 species "Fervidicella metallireducens" 0.0 False False False
+2510 species "Fibrella aestuarina" 0.0 False False False
+2511 species "Fibrisoma limi" 0.0 False False False
+2512 species "Fibrobacter succinogenes" 0.0 False False False
+2513 species "Fictibacillus gelatini" 0.0 False False False
+2514 species "Filifactor alocis" 0.0 False False False
+2515 species "Finegoldia magna" 0.0 False False False
+2516 species "Firmicutes bacterium ASF500" 0.0 False False False
+2517 species "Firmicutes bacterium M10-2" 0.0 False False False
+2518 species "Firmicutes bacterium ZOR0006" 0.0 False False False
+2519 species "Flagellimonas sp. DK169" 0.0 False False False
+2520 species "Flaviflexus sp. SIT4" 0.0 False False False
+2521 species "Flavihumibacter petaseus" 0.0 False False False
+2522 species "Flavihumibacter solisilvae" 0.0 False False False
+2523 species "Flavihumibacter sp. ZG627" 0.0 False False False
+2524 species "Flavobacteria bacterium MS024-2A" 0.0 False False False
+2525 species "Flavobacteriaceae bacterium 3519-10" 0.0 False False False
+2526 species "Flavobacteriaceae bacterium S85" 0.0 False False False
+2527 species "Flavobacterium akiainvivens" 0.0 False False False
+2528 species "Flavobacterium aquatile" 0.0 False False False
+2529 species "Flavobacterium branchiophilum" 0.0 False False False
+2530 species "Flavobacterium daejeonense" 0.0 False False False
+2531 species "Flavobacterium enshiense" 0.0 False False False
+2532 species "Flavobacterium filum" 0.0 False False False
+2533 species "Flavobacterium limnosediminis" 0.0 False False False
+2534 species "Flavobacterium psychrophilum" 0.0 False False False
+2535 species "Flavobacterium rivuli" 0.0 False False False
+2536 species "Flavobacterium saliperosum" 0.0 False False False
+2537 species "Flavobacterium sasangense" 0.0 False False False
+2538 species "Flavobacterium sp. EM1308" 0.0 False False False
+2539 species "Flavobacterium sp. Leaf359" 0.0 False False False
+2540 species "Flavobacterium sp. WG21" 0.0 False False False
+2541 species "Flavobacterium subsaxonicum" 0.0 False False False
+2542 species "Flavobacterium succinicans" 0.0 False False False
+2543 species "Flavobacterium suncheonense" 0.0 False False False
+2544 species "Flavobacterium tegetincola" 0.0 False False False
+2545 species "Flavonifractor plautii" 0.0002 True False False
+2546 species "Flectobacillus major" 0.0 False False False
+2547 species "Flexibacter elegans" 0.0 False False False
+2548 species "Flexibacter litoralis" 0.0 False False False
+2549 species "Flexibacter roseolus" 0.0 False False False
+2550 species "Flexithrix dorotheae" 0.0 False False False
+2551 species "Formosa algae" 0.0 False False False
+2552 species "Francisella tularensis" 0.0 False False False
+2553 species "Frischella perrara" 0.0 False False False
+2554 species "Fulvivirga imtechensis" 0.0 False False False
+2555 species "Fusobacterium equinum" 0.0 False False False
+2556 species "Fusobacterium gonidiaformans" 0.0 False False False
+2557 species "Fusobacterium hwasookii" 0.0 False False False
+2558 species "Fusobacterium mortiferum" 0.0 False False False
+2559 species "Fusobacterium necrophorum" 0.0 False False False
+2560 species "Fusobacterium nucleatum" 0.0 False False False
+2561 species "Fusobacterium perfoetens" 0.0 False False False
+2562 species "Fusobacterium periodonticum" 0.0 False False False
+2563 species "Fusobacterium russii" 0.0 False False False
+2564 species "Fusobacterium sp. CM1" 0.0 False False False
+2565 species "Fusobacterium sp. CM21" 0.0 False False False
+2566 species "Fusobacterium sp. CM22" 0.0 False False False
+2567 species "Fusobacterium sp. OBRC1" 0.0 False False False
+2568 species "Fusobacterium sp. oral taxon 370" 0.0 False False False
+2569 species "Fusobacterium ulcerans" 0.0 False False False
+2570 species "Fusobacterium varium" 0.0 False False False
+2571 species "Galbibacter marinus" 0.0 False False False
+2572 species "Gallaecimonas pentaromativorans" 0.0 False False False
+2573 species "Gallibacterium anatis" 0.0 False False False
+2574 species "Gallibacterium genomosp. 1" 0.0 False False False
+2575 species "Gallibacterium genomosp. 2" 0.0 False False False
+2576 species "gamma proteobacterium HdN1" 0.0 False False False
+2577 species "gamma proteobacterium L18" 0.0 False False False
+2578 species "gamma proteobacterium WG36" 0.0 False False False
+2579 species "Gardnerella vaginalis" 0.0 False False False
+2580 species "Gayadomonas joobiniege" 0.0 False False False
+2581 species "Gemella bergeri" 0.0 False False False
+2582 species "Gemella cuniculi" 0.0 False False False
+2583 species "Gemella haemolysans" 0.0 False False False
+2584 species "Gemella morbillorum" 0.0 False False False
+2585 species "Gemella sanguinis" 0.0 False False False
+2586 species "Geminicoccus roseus" 0.0 False False False
+2587 species "Gemmatimonas phototrophica" 0.0 False False False
+2588 species "Geoalkalibacter ferrihydriticus" 0.0 False False False
+2589 species "Geoalkalibacter subterraneus" 0.0 False False False
+2590 species "Geobacillus sp. WCH70" 0.0 False False False
+2591 species "Geobacter daltonii" 0.0 False False False
+2592 species "Geobacter lovleyi" 0.0 False False False
+2593 species "Geobacter soli" 0.0 False False False
+2594 species "Geobacter sp. M18" 0.0 False False False
+2595 species "Geobacter sp. OR-1" 0.0 False False False
+2596 species "Geobacter uraniireducens" 0.0 False False False
+2597 species "Geopsychrobacter electrodiphilus" 0.0 False False False
+2598 species "Georgenia sp. SUBG003" 0.0 False False False
+2599 species "Geovibrio sp. L21-Ace-BES" 0.0 False False False
+2600 species "Gilliamella apicola" 0.0 False False False
+2601 species "Gillisia limnaea" 0.0 False False False
+2602 species "Gillisia sp. JM1" 0.0 False False False
+2603 species "Gluconobacter oxydans" 0.0 False False False
+2604 species "Glutamicibacter arilaitensis" 0.0 False False False
+2605 species "Glycomyces sp. NRRL B-16210" 0.0 False False False
+2606 species "Gordonia amarae" 0.0 False False False
+2607 species "Gordonia otitidis" 0.0 False False False
+2608 species "Gordonia polyisoprenivorans" 0.0 False False False
+2609 species "Gordonia rhizosphera" 0.0 False False False
+2610 species "Gordonia sp. NB4-1Y" 0.0 False False False
+2611 species "Gordonia sp. SGD-V-85" 0.0 False False False
+2612 species "Gordonia sputi" 0.0 False False False
+2613 species "Gordonia terrae" 0.0 False False False
+2614 species "Gordonibacter pamelaeae" 0.0001 True False False
+2615 species "Gorillibacterium massiliense" 0.0 False False False
+2616 species "Gorillibacterium sp. SN4" 0.0 False False False
+2617 species "Gottschalkia acidurici" 0.0 False False False
+2618 species "Gracilibacillus boraciitolerans" 0.0 False False False
+2619 species "Gracilibacillus lacisalsi" 0.0 False False False
+2620 species "Gracilibacillus sp. Awa-1" 0.0 False False False
+2621 species "Gramella forsetii" 0.0 False False False
+2622 species "Granulicatella adiacens" 0.0 False False False
+2623 species "Granulicatella elegans" 0.0 False False False
+2624 species "Granulicoccus phenolivorans" 0.0 False False False
+2625 species "Gulbenkiania mobilis" 0.0 False False False
+2626 species "Gulosibacter molinativorax" 0.0 False False False
+2627 species "Haematobacter massiliensis" 0.0 False False False
+2628 species "Haemophilus haemolyticus" 0.0 False False False
+2629 species "Haemophilus influenzae" 0.0 False False False
+2630 species "Haemophilus parahaemolyticus" 0.0 False False False
+2631 species "Haemophilus parainfluenzae" 0.0 False False False
+2632 species "Haemophilus paraphrohaemolyticus" 0.0 False False False
+2633 species "Haemophilus sp. C1" 0.0 False False False
+2634 species "Haemophilus sp. FF7" 0.0 False False False
+2635 species "Haemophilus sp. oral taxon 851" 0.0 False False False
+2636 species "Haemophilus sputorum" 0.0 False False False
+2637 species "Hafnia alvei" 0.0 False False False
+2638 species "Halalkalibacillus halophilus" 0.0 False False False
+2639 species "Halanaerobium hydrogeniformans" 0.0 False False False
+2640 species "Halanaerobium praevalens" 0.0 False False False
+2641 species "Haliangium ochraceum" 0.0 False False False
+2642 species "Haliscomenobacter hydrossis" 0.0 False False False
+2643 species "Hallella seregens" 0.0 False False False
+2644 species "haloalkaliphilic bacterium ACht6-1" 0.0 False False False
+2645 species "Halobacteroides halobius" 0.0 False False False
+2646 species "Haloferula sp. BvORR071" 0.0 False False False
+2647 species "Halomonas huangheensis" 0.0 False False False
+2648 species "Halomonas sp. PR-M31" 0.0 False False False
+2649 species "Halomonas zhanjiangensis" 0.0 False False False
+2650 species "Halonatronum saccharophilum" 0.0 False False False
+2651 species "Haloplasma contractile" 0.0 False False False
+2652 species "Hassallia byssoidea" 0.0 False False False
+2653 species "Helcobacillus massiliensis" 0.0 False False False
+2654 species "Helcococcus kunzii" 0.0 False False False
+2655 species "Helcococcus sueciensis" 0.0 False False False
+2656 species "Helicobacter bilis" 0.0 False False False
+2657 species "Helicobacter canadensis" 0.0 False False False
+2658 species "Helicobacter canis" 0.0 False False False
+2659 species "Helicobacter cinaedi" 0.0 False False False
+2660 species "Helicobacter heilmannii" 0.0 False False False
+2661 species "Helicobacter macacae" 0.0 False False False
+2662 species "Helicobacter muridarum" 0.0 False False False
+2663 species "Helicobacter pullorum" 0.0 False False False
+2664 species "Helicobacter pylori" 0.0 False False False
+2665 species "Helicobacter sanguini" 0.0 False False False
+2666 species "Helicobacter sp. MIT 09-6949" 0.0 False False False
+2667 species "Helicobacter sp. MIT 11-5569" 0.0 False False False
+2668 species "Helicobacter suis" 0.0 False False False
+2669 species "Heliobacterium modesticaldum" 0.0 False False False
+2670 species "Herbaspirillum autotrophicum" 0.0 False False False
+2671 species "Herbaspirillum chlorophenolicum" 0.0 False False False
+2672 species "Herbaspirillum huttiense" 0.0 False False False
+2673 species "Herbaspirillum rubrisubalbicans" 0.0 False False False
+2674 species "Herbaspirillum sp. B39" 0.0 False False False
+2675 species "Herbaspirillum sp. GW103" 0.0 False False False
+2676 species "Herbinix sp. SD1D" 0.0 False False False
+2677 species "Herminiimonas sp. CN" 0.0 False False False
+2678 species "Hippea maritima" 0.0 False False False
+2679 species "Histophilus somni" 0.0 False False False
+2680 species "Holdemanella biformis" 0.0 False True False
+2681 species "Holdemania filiformis" 0.0 False False False
+2682 species "Holdemania massiliensis" 0.0023 True False False
+2683 species "Holophaga foetida" 0.0 False False False
+2684 species "Hungatella hathewayi" 0.0 False True False
+2685 species "Hylemonella gracilis" 0.0 False False False
+2686 species "Hymenobacter aerophilus" 0.0 False False False
+2687 species "Hymenobacter norwichensis" 0.0 False False False
+2688 species "Hymenobacter sp. AT01-02" 0.0 False False False
+2689 species "Hymenobacter sp. MIMtkLc17" 0.0 False False False
+2690 species "Ideonella sakaiensis" 0.0 False False False
+2691 species "Ideonella sp. B508-1" 0.0 False False False
+2692 species "Idiomarina abyssalis" 0.0 False False False
+2693 species "Idiomarina zobellii" 0.0 False False False
+2694 species "Ilyobacter polytropus" 0.0 False False False
+2695 species "Imtechella halotolerans" 0.0 False False False
+2696 species "Indibacter alkaliphilus" 0.0 False False False
+2697 species "Intestinibacter bartlettii" 0.0 False False False
+2698 species "Intestinimonas butyriciproducens" 0.0014 True False False
+2699 species "Intestinimonas sp. GD2" 0.0002 True False False
+2700 species "Isoptericola variabilis" 0.0 False False False
+2701 species "Janibacter hoylei" 0.0 False False False
+2702 species "Jannaschia seosinensis" 0.0 False False False
+2703 species "Janthinobacterium sp. Marseille" 0.0 False False False
+2704 species "Jejuia pallidilutea" 0.0 False False False
+2705 species "Jeotgalibacillus campisalis" 0.0 False False False
+2706 species "Jeotgalibacillus soli Cunha et al. 2012" 0.0 False False False
+2707 species "Jeotgalicoccus sp. 13MG44_air" 0.0 False False False
+2708 species "Johnsonella ignava" 0.0 False False False
+2709 species "Jonesia quinghaiensis" 0.0 False False False
+2710 species "Jonquetella anthropi" 0.0 False False False
+2711 species "Joostella marina" 0.0 False False False
+2712 species "Kallipyga massiliensis" 0.0 False False False
+2713 species "Kallipyga sp. GM4" 0.0 False False False
+2714 species "Kandleria vitulina" 0.0 False False False
+2715 species "Kangiella koreensis" 0.0 False False False
+2716 species "Kiloniella litopenaei" 0.0 False False False
+2717 species "Kineosphaera limosa" 0.0 False False False
+2718 species "Kingella denitrificans" 0.0 False False False
+2719 species "Kingella kingae" 0.0 False False False
+2720 species "Kingella oralis" 0.0 False False False
+2721 species "Kingella sp. Sch538" 0.0 False False False
+2722 species "Klebsiella oxytoca" 0.0 False False False
+2723 species "Klebsiella pneumoniae" 0.0 False False False
+2724 species "Klebsiella sp. 4_1_44FAA" 0.0 False False False
+2725 species "Kluyvera ascorbata" 0.0 False False False
+2726 species "Kocuria kristinae" 0.0 False False False
+2727 species "Kocuria palustris" 0.0 False False False
+2728 species "Kocuria rhizophila" 0.0 False False False
+2729 species "Kocuria sp. ZOR0020" 0.0 False False False
+2730 species "Kosmotoga olearia" 0.0 False False False
+2731 species "Kosmotoga pacifica" 0.0 False False False
+2732 species "Kozakia baliensis" 0.0 False False False
+2733 species "Kyrpidia tusciae" 0.0 False False False
+2734 species "Kytococcus sedentarius" 0.0 False False False
+2735 species "Lachnoanaerobaculum saburreum" 0.0 False False False
+2736 species "Lachnoanaerobaculum sp. ICM7" 0.0 False False False
+2737 species "Lachnoanaerobaculum sp. MSX33" 0.0 False False False
+2738 species "Lachnoanaerobaculum sp. OBRC5-5" 0.0 False False False
+2739 species "Lachnobacterium bovis" 0.0 False False False
+2740 species "Lachnoclostridium phytofermentans" 0.0 False False False
+2741 species "Lachnospira multipara" 0.0002 True False False
+2742 species "Lachnospiraceae bacterium 1_4_56FAA" 0.0 False False False
+2743 species "Lachnospiraceae bacterium 10-1" 0.0 False False False
+2744 species "Lachnospiraceae bacterium 2_1_46FAA" 0.0 False False False
+2745 species "Lachnospiraceae bacterium 2_1_58FAA" 0.0 False False False
+2746 species "Lachnospiraceae bacterium 28-4" 0.0 False False False
+2747 species "Lachnospiraceae bacterium 3_1_46FAA" 0.0003 True False False
+2748 species "Lachnospiraceae bacterium 3_1_57FAA_CT1" 0.0017 True False False
+2749 species "Lachnospiraceae bacterium 3-1" 0.0001 True False False
+2750 species "Lachnospiraceae bacterium 3-2" 0.0 False False False
+2751 species "Lachnospiraceae bacterium 5_1_57FAA" 0.0 False False False
+2752 species "Lachnospiraceae bacterium 5_1_63FAA" 0.0 False False False
+2753 species "Lachnospiraceae bacterium 6_1_37FAA" 0.0001 True False False
+2754 species "Lachnospiraceae bacterium 6_1_63FAA" 0.0 False False False
+2755 species "Lachnospiraceae bacterium 7_1_58FAA" 0.0015 True False False
+2756 species "Lachnospiraceae bacterium 9_1_43BFAA" 0.0 False False False
+2757 species "Lachnospiraceae bacterium A2" 0.0 False False False
+2758 species "Lachnospiraceae bacterium A4" 0.0 False False False
+2759 species "Lachnospiraceae bacterium AB2028" 0.0 False False False
+2760 species "Lachnospiraceae bacterium AC2012" 0.0 False False False
+2761 species "Lachnospiraceae bacterium AC2014" 0.0 False False False
+2762 species "Lachnospiraceae bacterium AC2028" 0.0 False False False
+2763 species "Lachnospiraceae bacterium AC2029" 0.0 False False False
+2764 species "Lachnospiraceae bacterium AC2031" 0.0 False False False
+2765 species "Lachnospiraceae bacterium AC3007" 0.0 False False False
+2766 species "Lachnospiraceae bacterium AD3010" 0.0 False False False
+2767 species "Lachnospiraceae bacterium C6A11" 0.0 False False False
+2768 species "Lachnospiraceae bacterium COE1" 0.0 False False False
+2769 species "Lachnospiraceae bacterium FD2005" 0.0 False False False
+2770 species "Lachnospiraceae bacterium FE2018" 0.0 False False False
+2771 species "Lachnospiraceae bacterium JC7" 0.0 False False False
+2772 species "Lachnospiraceae bacterium M18-1" 0.0 False False False
+2773 species "Lachnospiraceae bacterium MA2020" 0.0 False False False
+2774 species "Lachnospiraceae bacterium MC2017" 0.0 False False False
+2775 species "Lachnospiraceae bacterium MD2004" 0.0 False False False
+2776 species "Lachnospiraceae bacterium mt14" 0.0 False False False
+2777 species "Lachnospiraceae bacterium NC2004" 0.0 False False False
+2778 species "Lachnospiraceae bacterium NC2008" 0.0 False False False
+2779 species "Lachnospiraceae bacterium ND2006" 0.0 False False False
+2780 species "Lachnospiraceae bacterium NK4A136" 0.0 False False False
+2781 species "Lachnospiraceae bacterium NK4A144" 0.0 False False False
+2782 species "Lachnospiraceae bacterium NK4A179" 0.0 False False False
+2783 species "Lachnospiraceae bacterium oral taxon 082" 0.0 False False False
+2784 species "Lachnospiraceae bacterium oral taxon 500" 0.0 False False False
+2785 species "Lachnospiraceae bacterium P6A3" 0.0 False False False
+2786 species "Lachnospiraceae bacterium P6B14" 0.0 False False False
+2787 species "Lachnospiraceae bacterium TF01-11" 0.0001 True False False
+2788 species "Lachnospiraceae bacterium TWA4" 0.0 False False False
+2789 species "Lachnospiraceae bacterium V9D3004" 0.0 False False False
+2790 species "Lachnospiraceae bacterium YSB2008" 0.0 False False False
+2791 species "Lacinutrix himadriensis" 0.0 False False False
+2792 species "Lacticigenium naphtae" 0.0 False False False
+2793 species "Lactobacillus acetotolerans" 0.0 False False False
+2794 species "Lactobacillus acidipiscis" 0.0 False False False
+2795 species "Lactobacillus acidophilus" 0.0 False False False
+2796 species "Lactobacillus agilis" 0.0 False False False
+2797 species "Lactobacillus algidus" 0.0 False False False
+2798 species "Lactobacillus amylovorus" 0.0 False False False
+2799 species "Lactobacillus animalis" 0.0 False False False
+2800 species "Lactobacillus antri" 0.0 False False False
+2801 species "Lactobacillus apodemi" 0.0 False False False
+2802 species "Lactobacillus brevis" 0.0 False False False
+2803 species "Lactobacillus buchneri" 0.0 False False False
+2804 species "Lactobacillus camelliae" 0.0 False False False
+2805 species "Lactobacillus ceti" 0.0 False False False
+2806 species "Lactobacillus coleohominis" 0.0 False False False
+2807 species "Lactobacillus collinoides" 0.0 False False False
+2808 species "Lactobacillus coryniformis" 0.0 False False False
+2809 species "Lactobacillus crispatus" 0.0002 True False False
+2810 species "Lactobacillus curieae" 0.0 False False False
+2811 species "Lactobacillus curvatus" 0.0 False False False
+2812 species "Lactobacillus delbrueckii" 0.0 False False False
+2813 species "Lactobacillus equi" 0.0 False False False
+2814 species "Lactobacillus equicursoris" 0.0 False False False
+2815 species "Lactobacillus equigenerosi" 0.0 False False False
+2816 species "Lactobacillus fabifermentans" 0.0 False False False
+2817 species "Lactobacillus fermentum" 0.0 False False False
+2818 species "Lactobacillus floricola" 0.0 False False False
+2819 species "Lactobacillus florum" 0.0 False False False
+2820 species "Lactobacillus frumenti" 0.0 False False False
+2821 species "Lactobacillus gallinarum" 0.0 False False False
+2822 species "Lactobacillus gasseri" 0.0 False False False
+2823 species "Lactobacillus gastricus" 0.0 False False False
+2824 species "Lactobacillus gigeriorum" 0.0 False False False
+2825 species "Lactobacillus graminis" 0.0 False False False
+2826 species "Lactobacillus harbinensis" 0.0 False False False
+2827 species "Lactobacillus hayakitensis" 0.0 False False False
+2828 species "Lactobacillus heilongjiangensis" 0.0 False False False
+2829 species "Lactobacillus helveticus" 0.0 False False False
+2830 species "Lactobacillus hominis" 0.0 False False False
+2831 species "Lactobacillus hordei" 0.0 False False False
+2832 species "Lactobacillus iners" 0.0 False False False
+2833 species "Lactobacillus ingluviei" 0.0 False False False
+2834 species "Lactobacillus jensenii" 0.0001 True False False
+2835 species "Lactobacillus johnsonii" 0.0 False False False
+2836 species "Lactobacillus kalixensis" 0.0 False False False
+2837 species "Lactobacillus kefiranofaciens" 0.0 False False False
+2838 species "Lactobacillus kimchicus" 0.0 False False False
+2839 species "Lactobacillus koreensis" 0.0 False False False
+2840 species "Lactobacillus kunkeei" 0.0 False False False
+2841 species "Lactobacillus mali" 0.0 False False False
+2842 species "Lactobacillus mellifer" 0.0 False False False
+2843 species "Lactobacillus mucosae" 0.0 False False False
+2844 species "Lactobacillus murinus" 0.0 False False False
+2845 species "Lactobacillus namurensis" 0.0 False False False
+2846 species "Lactobacillus nantensis" 0.0 False False False
+2847 species "Lactobacillus nasuensis" 0.0 False False False
+2848 species "Lactobacillus oeni" 0.0 False False False
+2849 species "Lactobacillus oris" 0.0 False False False
+2850 species "Lactobacillus ozensis" 0.0 False False False
+2851 species "Lactobacillus panis" 0.0 False False False
+2852 species "Lactobacillus parabuchneri" 0.0 False False False
+2853 species "Lactobacillus paracasei" 0.0 False False False
+2854 species "Lactobacillus paracollinoides" 0.0 False False False
+2855 species "Lactobacillus parafarraginis" 0.0 False False False
+2856 species "Lactobacillus paralimentarius" 0.0 False False False
+2857 species "Lactobacillus pasteurii" 0.0 False False False
+2858 species "Lactobacillus plantarum" 0.0 False False False
+2859 species "Lactobacillus pontis" 0.0 False False False
+2860 species "Lactobacillus psittaci" 0.0 False False False
+2861 species "Lactobacillus reuteri" 0.0 False False False
+2862 species "Lactobacillus rhamnosus" 0.0 False False False
+2863 species "Lactobacillus rossiae" 0.0 False False False
+2864 species "Lactobacillus ruminis" 0.0001 True False False
+2865 species "Lactobacillus saerimneri" 0.0 False False False
+2866 species "Lactobacillus sakei" 0.0 False False False
+2867 species "Lactobacillus salivarius" 0.0 False False False
+2868 species "Lactobacillus secaliphilus" 0.0 False False False
+2869 species "Lactobacillus selangorensis" 0.0 False False False
+2870 species "Lactobacillus shenzhenensis" 0.0 False False False
+2871 species "Lactobacillus similis" 0.0 False False False
+2872 species "Lactobacillus sp. 7_1_47FAA" 0.0 False False False
+2873 species "Lactobacillus suebicus" 0.0 False False False
+2874 species "Lactobacillus taiwanensis" 0.0 False False False
+2875 species "Lactobacillus tucceti" 0.0 False False False
+2876 species "Lactobacillus ultunensis" 0.0 False False False
+2877 species "Lactobacillus vaginalis" 0.0 False False False
+2878 species "Lactobacillus vini" 0.0 False False False
+2879 species "Lactococcus garvieae" 0.0 False False False
+2880 species "Lactococcus lactis" 0.0002 True False False
+2881 species "Lactococcus piscium" 0.0 False False False
+2882 species "Lactococcus raffinolactis" 0.0 False False False
+2883 species "Laribacter hongkongensis" 0.0 False False False
+2884 species "Lautropia mirabilis" 0.0 False False False
+2885 species "Lawsonella clevelandensis" 0.0 False False False
+2886 species "Leadbetterella byssophila" 0.0 False False False
+2887 species "Leadbetterella sp. JN14-9" 0.0 False False False
+2888 species "Leeia oryzae" 0.0 False False False
+2889 species "Leeuwenhoekiella blandensis" 0.0 False False False
+2890 species "Leeuwenhoekiella sp. Hel_I_48" 0.0 False False False
+2891 species "Leeuwenhoekiella sp. MAR_2009_132" 0.0 False False False
+2892 species "Legionella jordanis" 0.0 False False False
+2893 species "Legionella longbeachae" 0.0 False False False
+2894 species "Legionella oakridgensis" 0.0 False False False
+2895 species "Legionella pneumophila" 0.0 False False False
+2896 species "Legionella spiritensis" 0.0 False False False
+2897 species "Leifsonia xyli" 0.0 False False False
+2898 species "Lelliottia amnigena" 0.0 False False False
+2899 species "Lentzea albidocapillata" 0.0 False False False
+2900 species "Leptolyngbya sp. PCC 6406" 0.0 False False False
+2901 species "Leptonema illini" 0.0 False False False
+2902 species "Leptospirillum ferriphilum" 0.0 False False False
+2903 species "Leptotrichia buccalis" 0.0 False False False
+2904 species "Leptotrichia goodfellowii" 0.0 False False False
+2905 species "Leptotrichia hofstadii" 0.0 False False False
+2906 species "Leptotrichia shahii" 0.0 False False False
+2907 species "Leptotrichia sp. oral taxon 212" 0.0 False False False
+2908 species "Leptotrichia sp. oral taxon 215" 0.0 False False False
+2909 species "Leptotrichia sp. oral taxon 225" 0.0 False False False
+2910 species "Leptotrichia sp. oral taxon 879" 0.0 False False False
+2911 species "Leptotrichia trevisanii" 0.0 False False False
+2912 species "Leptotrichia wadei" 0.0 False False False
+2913 species "Leucobacter chironomi" 0.0 False False False
+2914 species "Leucobacter sp. CBX151" 0.0 False False False
+2915 species "Leuconostoc carnosum" 0.0 False False False
+2916 species "Leuconostoc gelidum" 0.0 False False False
+2917 species "Leuconostoc mesenteroides" 0.0 False False False
+2918 species "Leuconostoc pseudomesenteroides" 0.0 False False False
+2919 species "Leuconostoc sp. C2" 0.0 False False False
+2920 species "Levyella massiliensis" 0.0001 True False False
+2921 species "Lewinella cohaerens" 0.0 False False False
+2922 species "Lewinella persica" 0.0 False False False
+2923 species "Limnohabitans planktonicus" 0.0 False False False
+2924 species "Listeria aquatica" 0.0 False False False
+2925 species "Listeria fleischmannii" 0.0 False False False
+2926 species "Listeria grayi" 0.0 False False False
+2927 species "Listeria monocytogenes" 0.0 False False False
+2928 species "Listeria seeligeri" 0.0 False False False
+2929 species "Lunatimonas lonarensis" 0.0 False False False
+2930 species "Luteibacter sp. 9135" 0.0 False False False
+2931 species "Lysinibacillus contaminans" 0.0 False False False
+2932 species "Lysinibacillus manganicus" 0.0 False False False
+2933 species "Lysinibacillus sinduriensis" 0.0 False False False
+2934 species "Lysobacter sp. Root494" 0.0 False False False
+2935 species "Mageeibacillus indolicus" 0.0 False False False
+2936 species "Mahella australiensis" 0.0 False False False
+2937 species "Mangrovimonas sp. ST2L12" 0.0 False False False
+2938 species "Mangrovimonas sp. ST2L15" 0.0 False False False
+2939 species "Mangrovimonas yunxiaonensis" 0.0 False False False
+2940 species "Mannheimia haemolytica" 0.0 False False False
+2941 species "Mannheimia sp. MG13" 0.0 False False False
+2942 species "Mannheimia varigena" 0.0 False False False
+2943 species "Maribacter thermophilus" 0.0 False False False
+2944 species "Marinifilum fragile" 0.0 False False False
+2945 species "Marinilabilia salmonicolor" 0.0 False False False
+2946 species "Mariniradius saccharolyticus" 0.0 False False False
+2947 species "Marinobacterium rhizophilum" 0.0 False False False
+2948 species "Marinococcus halotolerans" 0.0 False False False
+2949 species "Marinomonas sp. MWYL1" 0.0 False False False
+2950 species "Marinospirillum minutulum" 0.0 False False False
+2951 species "Marivirga tractuosa" 0.0 False False False
+2952 species "Marvinbryantia formatexigens" 0.0001 True False False
+2953 species "Megamonas funiformis" 0.0 False False False
+2954 species "Megamonas hypermegale" 0.0 False False False
+2955 species "Megamonas rupellensis" 0.0 False False False
+2956 species "Megasphaera cerevisiae" 0.0 False False False
+2957 species "Megasphaera elsdenii" 0.0 False False False
+2958 species "Megasphaera genomosp. type_1" 0.0 False False False
+2959 species "Megasphaera massiliensis" 0.0 False False False
+2960 species "Megasphaera micronuciformis" 0.0 False False False
+2961 species "Megasphaera sp. BV3C16-1" 0.0 False False False
+2962 species "Megasphaera sp. DJF_B143" 0.0 False False False
+2963 species "Megasphaera sp. UPII 135-E" 0.0 False False False
+2964 species "Megasphaera sp. UPII 199-6" 0.0 False False False
+2965 species "Meiothermus rufus" 0.0 False False False
+2966 species "Melissococcus plutonius" 0.0 False False False
+2967 species "Mesoflavibacter zeaxanthinifaciens" 0.0 False False False
+2968 species "Mesorhizobium sp. UASWS1009" 0.0 False False False
+2969 species "Methylobacillus flagellatus" 0.0 False False False
+2970 species "Methylobacterium aquaticum" 0.0 False False False
+2971 species "Methylobacterium extorquens" 0.0 False False False
+2972 species "Methylobacterium populi" 0.0 False False False
+2973 species "Methylococcus capsulatus" 0.0 False False False
+2974 species "Methylomonas methanica" 0.0 False False False
+2975 species "Methylophaga thiooxydans" 0.0 False False False
+2976 species "Methylotenera versatilis" 0.0 False False False
+2977 species "Methyloversatilis universalis" 0.0 False False False
+2978 species "Microbacterium hydrocarbonoxydans" 0.0 False False False
+2979 species "Microbacterium luticocti" 0.0 False False False
+2980 species "Microbacterium profundi" 0.0 False False False
+2981 species "Microbacterium sp. CH12i" 0.0 False False False
+2982 species "Microbacterium sp. No. 7" 0.0 False False False
+2983 species "Micrococcus luteus" 0.0 False False False
+2984 species "Microcystis aeruginosa" 0.0 False False False
+2985 species "Microlunatus phosphovorus" 0.0 False False False
+2986 species "Microvirgula aerodenitrificans" 0.0 False False False
+2987 species "Mitsuokella jalaludinii" 0.0 False False False
+2988 species "Mitsuokella multacida" 0.0 False False False
+2989 species "Mitsuokella sp. oral taxon 131" 0.0 False False False
+2990 species "Mobilicoccus sp. SIT2" 0.0 False False False
+2991 species "Mobiluncus curtisii" 0.0 False False False
+2992 species "Mobiluncus mulieris" 0.0 False False False
+2993 species "Modestobacter caceresii" 0.0 False False False
+2994 species "Moellerella wisconsensis" 0.0 False False False
+2995 species "Mogibacterium sp. CM50" 0.0 False False False
+2996 species "Mogibacterium timidum" 0.0 False False False
+2997 species "Mollicutes bacterium HR1" 0.0 False False False
+2998 species "Moorella glycerini" 0.0 False False False
+2999 species "Moorella thermoacetica" 0.0 False False False
+3000 species "Moraxella boevrei" 0.0 False False False
+3001 species "Moraxella bovoculi" 0.0 False False False
+3002 species "Moraxella caprae" 0.0 False False False
+3003 species "Moraxella catarrhalis" 0.0 False False False
+3004 species "Moraxella macacae" 0.0 False False False
+3005 species "Morganella morganii" 0.0 False False False
+3006 species "Moritella viscosa" 0.0 False False False
+3007 species "Morococcus cerebrosus" 0.0 False False False
+3008 species "Mucilaginibacter paludis" 0.0 False False False
+3009 species "Mucinivorans hirudinis" 0.0 False False False
+3010 species "Mucispirillum schaedleri" 0.0 False False False
+3011 species "Muricauda lutaonensis" 0.0 False False False
+3012 species "Muricauda ruestringensis" 0.0 False False False
+3013 species "Muricauda sp. MAR_2010_75" 0.0 False False False
+3014 species "Mycobacterium abscessus" 0.0 False False False
+3015 species "Mycobacterium avium" 0.0 False False False
+3016 species "Mycobacterium chelonae" 0.0 False False False
+3017 species "Mycobacterium chubuense" 0.0 False False False
+3018 species "Mycobacterium immunogenum" 0.0 False False False
+3019 species "Mycobacterium iranicum" 0.0 False False False
+3020 species "Mycobacterium mucogenicum" 0.0 False False False
+3021 species "Mycobacterium obuense" 0.0 False False False
+3022 species "Mycobacterium senegalense" 0.0 False False False
+3023 species "Mycobacterium tuberculosis" 0.0 False False False
+3024 species "Mycobacterium vulneris" 0.0 False False False
+3025 species "Mycoplasma anseris" 0.0 False False False
+3026 species "Mycoplasma arthritidis" 0.0 False False False
+3027 species "Mycoplasma californicum" 0.0 False False False
+3028 species "Mycoplasma canis" 0.0 False False False
+3029 species "Mycoplasma cloacale" 0.0 False False False
+3030 species "Mycoplasma cynos" 0.0 False False False
+3031 species "Mycoplasma feriruminatoris" 0.0 False False False
+3032 species "Mycoplasma haemofelis" 0.0 False False False
+3033 species "Mycoplasma hominis" 0.0 False False False
+3034 species "Mycoplasma hyosynoviae" 0.0 False False False
+3035 species "Mycoplasma imitans" 0.0 False False False
+3036 species "Mycoplasma orale" 0.0 False False False
+3037 species "Mycoplasma ovipneumoniae" 0.0 False False False
+3038 species "Mycoplasma penetrans" 0.0 False False False
+3039 species "Mycoplasma salivarium" 0.0 False False False
+3040 species "Mycoplasma yeatsii" 0.0 False False False
+3041 species "Myroides odoratimimus" 0.0 False False False
+3042 species "Myroides odoratus" 0.0 False False False
+3043 species "Myxosarcina sp. GI1" 0.0 False False False
+3044 species "Nafulsella turpanensis" 0.0 False False False
+3045 species "Nakamurella multipartita" 0.0 False False False
+3046 species "Natranaerobius thermophilus" 0.0 False False False
+3047 species "Nautilia profundicola" 0.0 False False False
+3048 species "Necropsobacter massiliensis" 0.0 False False False
+3049 species "Necropsobacter rosorum" 0.0 False False False
+3050 species "Neisseria bacilliformis" 0.0 False False False
+3051 species "Neisseria cinerea" 0.0 False False False
+3052 species "Neisseria elongata" 0.0 False False False
+3053 species "Neisseria flavescens" 0.0 False False False
+3054 species "Neisseria gonorrhoeae" 0.0 False False False
+3055 species "Neisseria lactamica" 0.0 False False False
+3056 species "Neisseria macacae" 0.0 False False False
+3057 species "Neisseria meningitidis" 0.0 False False False
+3058 species "Neisseria mucosa" 0.0 False False False
+3059 species "Neisseria polysaccharea" 0.0 False False False
+3060 species "Neisseria shayeganii" 0.0 False False False
+3061 species "Neisseria sicca" 0.0 False False False
+3062 species "Neisseria sp. 74A18" 0.0 False False False
+3063 species "Neisseria sp. 83E34" 0.0 False False False
+3064 species "Neisseria sp. GT4A_CT1" 0.0 False False False
+3065 species "Neisseria sp. HMSC06F02" 0.0 False False False
+3066 species "Neisseria sp. KH1503" 0.0 False False False
+3067 species "Neisseria sp. oral taxon 014" 0.0 False False False
+3068 species "Neisseria sp. oral taxon 020" 0.0 False False False
+3069 species "Neisseria subflava" 0.0 False False False
+3070 species "Neisseria wadsworthii" 0.0 False False False
+3071 species "Neisseria weaveri" 0.0 False False False
+3072 species "Nesterenkonia sp. NP1" 0.0 False False False
+3073 species "Niabella aurantiaca" 0.0 False False False
+3074 species "Niabella soli" 0.0 False False False
+3075 species "Niastella koreensis" 0.0 False False False
+3076 species "Nitratireductor sp. ZZ-1" 0.0 False False False
+3077 species "Nitratiruptor sp. SB155-2" 0.0 False False False
+3078 species "Nitrincola lacisaponensis" 0.0 False False False
+3079 species "Nitrincola sp. A-D6" 0.0 False False False
+3080 species "Nitrolancea hollandica" 0.0 False False False
+3081 species "Nitrosomonas communis" 0.0 False False False
+3082 species "Nitrosomonas europaea" 0.0 False False False
+3083 species "Nitrosomonas eutropha" 0.0 False False False
+3084 species "Nitrosomonas sp. AL212" 0.0 False False False
+3085 species "Nitrospina gracilis" 0.0 False False False
+3086 species "Nitrospira defluvii" 0.0 False False False
+3087 species "Nitrospira moscoviensis" 0.0 False False False
+3088 species "Nocardia carnea" 0.0 False False False
+3089 species "Nocardia otitidiscaviarum" 0.0 False False False
+3090 species "Nocardia sp. Root136" 0.0 False False False
+3091 species "Nocardioidaceae bacterium Broad-1" 0.0 False False False
+3092 species "Nonlabens dokdonensis" 0.0 False False False
+3093 species "Nonlabens sp. YIK11" 0.0 False False False
+3094 species "Nosocomiicoccus massiliensis" 0.0 False False False
+3095 species "Novosphingobium sp. AAP1" 0.0 False False False
+3096 species "Novosphingobium sp. ST904" 0.0 False False False
+3097 species "Novosphingobium subterraneum" 0.0 False False False
+3098 species "Oceanobacillus iheyensis" 0.0 False False False
+3099 species "Oceanobacillus oncorhynchi" 0.0 False False False
+3100 species "Odoribacter laneus" 0.0 False False False
+3101 species "Odoribacter splanchnicus" 0.0171 True False False
+3102 species "Oenococcus kitaharae" 0.0 False False False
+3103 species "Oenococcus oeni" 0.0 False False False
+3104 species "Oligella urethralis" 0.0 False False False
+3105 species "Olivibacter sitiensis" 0.0 False False False
+3106 species "Olsenella profusa" 0.0 False False False
+3107 species "Olsenella scatoligenes" 0.0 False False False
+3108 species "Olsenella sp. oral taxon 809" 0.0 False False False
+3109 species "Olsenella sp. SIT9" 0.0 False False False
+3110 species "Olsenella uli" 0.0 False False False
+3111 species "Opitutus terrae" 0.0 False False False
+3112 species "Orenia marismortui" 0.0 False False False
+3113 species "Oribacterium asaccharolyticum" 0.0 False False False
+3114 species "Oribacterium parvum" 0.0 False False False
+3115 species "Oribacterium sinus" 0.0 False False False
+3116 species "Oribacterium sp. FC2011" 0.0 False False False
+3117 species "Oribacterium sp. NK2B42" 0.0 False False False
+3118 species "Oribacterium sp. oral taxon 078" 0.0 False False False
+3119 species "Oribacterium sp. oral taxon 108" 0.0 False False False
+3120 species "Oribacterium sp. P6A1" 0.0 False False False
+3121 species "Orientia tsutsugamushi" 0.0 False False False
+3122 species "Ornithinibacillus californiensis" 0.0 False False False
+3123 species "Ornithinibacillus contaminans" 0.0 False False False
+3124 species "Ornithinibacillus scapharcae" 0.0 False False False
+3125 species "Ornithobacterium rhinotracheale" 0.0 False False False
+3126 species "Oscillibacter ruminantium" 0.0 False False False
+3127 species "Oscillibacter sp. 1-3" 0.0 False False False
+3128 species "Oscillibacter sp. ER4" 0.0225 True False False
+3129 species "Oscillibacter sp. KLE 1728" 0.0 False False False
+3130 species "Oscillibacter sp. KLE 1745" 0.0 False False False
+3131 species "Oscillibacter valericigenes" 0.0 False False False
+3132 species "Oscillospiraceae bacterium VE202-24" 0.0005 True False False
+3133 species "Ottowia sp. oral taxon 894" 0.0 False False False
+3134 species "Ottowia thiooxydans" 0.0 False False False
+3135 species "Owenweeksia hongkongensis" 0.0 False False False
+3136 species "Oxalobacter formigenes" 0.0 False False False
+3137 species "Oxalobacteraceae bacterium IMCC9480" 0.0 False False False
+3138 species "Oxobacter pfennigii" 0.0 False False False
+3139 species "Paenibacillus beijingensis" 0.0 False False False
+3140 species "Paenibacillus curdlanolyticus" 0.0 False False False
+3141 species "Paenibacillus daejeonensis" 0.0 False False False
+3142 species "Paenibacillus dendritiformis" 0.0 False False False
+3143 species "Paenibacillus durus" 0.0 False False False
+3144 species "Paenibacillus fonticola" 0.0 False False False
+3145 species "Paenibacillus forsythiae" 0.0 False False False
+3146 species "Paenibacillus ginsengihumi" 0.0 False False False
+3147 species "Paenibacillus gorillae" 0.0 False False False
+3148 species "Paenibacillus harenae" 0.0 False False False
+3149 species "Paenibacillus larvae" 0.0 False False False
+3150 species "Paenibacillus macerans" 0.0 False False False
+3151 species "Paenibacillus mucilaginosus" 0.0 False False False
+3152 species "Paenibacillus pasadenensis" 0.0 False False False
+3153 species "Paenibacillus pinihumi" 0.0 False False False
+3154 species "Paenibacillus riograndensis" 0.0 False False False
+3155 species "Paenibacillus sanguinis" 0.0 False False False
+3156 species "Paenibacillus senegalensis" 0.0 False False False
+3157 species "Paenibacillus sophorae" 0.0 False False False
+3158 species "Paenibacillus sp. DMB20" 0.0 False False False
+3159 species "Paenibacillus sp. FF9" 0.0 False False False
+3160 species "Paenibacillus sp. FJAT-27812" 0.0 False False False
+3161 species "Paenibacillus sp. FSL H7-0357" 0.0 False False False
+3162 species "Paenibacillus sp. GD11" 0.0 False False False
+3163 species "Paenibacillus sp. GD6" 0.0 False False False
+3164 species "Paenibacillus sp. HW567" 0.0 False False False
+3165 species "Paenibacillus sp. JCM 10914" 0.0 False False False
+3166 species "Paenibacillus sp. JDR-2" 0.0 False False False
+3167 species "Paenibacillus sp. OSY-SE" 0.0 False False False
+3168 species "Paenibacillus sp. P1XP2" 0.0 False False False
+3169 species "Paenibacillus sp. Root52" 0.0 False False False
+3170 species "Paenibacillus sp. TCA20" 0.0 False False False
+3171 species "Paenibacillus sp. UNC451MF" 0.0 False False False
+3172 species "Paenibacillus sp. URHA0014" 0.0 False False False
+3173 species "Paenibacillus sp. VKM B-2647" 0.0 False False False
+3174 species "Paenibacillus stellifer" 0.0 False False False
+3175 species "Paenibacillus taiwanensis" 0.0 False False False
+3176 species "Paenibacillus terrigena" 0.0 False False False
+3177 species "Paenibacillus wulumuqiensis" 0.0 False False False
+3178 species "Paenibacillus wynnii" 0.0 False False False
+3179 species "Paenisporosarcina sp. TG-14" 0.0 False False False
+3180 species "Paludibacter propionicigenes" 0.0 False False False
+3181 species "Paludibacterium yongneupense" 0.0 False False False
+3182 species "Pandoraea norimbergensis" 0.0 False False False
+3183 species "Pandoraea pnomenusa" 0.0 False False False
+3184 species "Pandoraea sp. B-6" 0.0 False False False
+3185 species "Pantoea ananatis" 0.0 False False False
+3186 species "Pantoea sp. PSNIH1" 0.0 False False False
+3187 species "Pantoea sp. PSNIH2" 0.0 False False False
+3188 species "Parabacteroides distasonis" 0.0039 True False False
+3189 species "Parabacteroides goldsteinii" 0.0001 True False False
+3190 species "Parabacteroides gordonii" 0.0001 True False False
+3191 species "Parabacteroides johnsonii" 0.0002 True False False
+3192 species "Parabacteroides merdae" 0.009000000000000001 True False False
+3193 species "Parabacteroides sp. 2_1_7" 0.0 False False False
+3194 species "Parabacteroides sp. 20_3" 0.0001 True False False
+3195 species "Parabacteroides sp. D13" 0.0002 True False False
+3196 species "Parabacteroides sp. D26" 0.0007 True False False
+3197 species "Parabacteroides sp. HGS0025" 0.0 False False False
+3198 species "Paraburkholderia ferrariae" 0.0 False False False
+3199 species "Paraburkholderia sacchari" 0.0 False False False
+3200 species "Paraburkholderia sordidicola" 0.0 False False False
+3201 species "Parachlamydia acanthamoebae" 0.0 False False False
+3202 species "Paracoccus aestuarii" 0.0 False False False
+3203 species "Paracoccus denitrificans" 0.0 False False False
+3204 species "Paracoccus pantotrophus" 0.0 False False False
+3205 species "Paracoccus sanguinis" 0.0 False False False
+3206 species "Paracoccus sp. 228" 0.0 False False False
+3207 species "Paracoccus sp. MKU1" 0.0 False False False
+3208 species "Paracoccus sp. N5" 0.0 False False False
+3209 species "Paracoccus sp. PAMC 22219" 0.0 False False False
+3210 species "Paracoccus sp. S4493" 0.0 False False False
+3211 species "Paracoccus versutus" 0.0 False False False
+3212 species "Paracoccus yeei" 0.0 False False False
+3213 species "Paraglaciecola polaris" 0.0 False False False
+3214 species "Paraglaciecola psychrophila" 0.0 False False False
+3215 species "Paraprevotella clara" 0.0 False False False
+3216 species "Paraprevotella xylaniphila" 0.0001 True False False
+3217 species "Parascardovia denticolens" 0.0 False False False
+3218 species "Parasutterella excrementihominis" 0.0026 True False False
+3219 species "Parvimonas micra" 0.0 False False False
+3220 species "Parvimonas sp. oral taxon 110" 0.0 False False False
+3221 species "Parvimonas sp. oral taxon 393" 0.0 False False False
+3222 species "Pasteurella bettyae" 0.0 False False False
+3223 species "Pasteurella dagmatis" 0.0 False False False
+3224 species "Pasteurella multocida" 0.0 False False False
+3225 species "Paucisalibacillus globulus" 0.0 False False False
+3226 species "Pectobacterium atrosepticum" 0.0 False False False
+3227 species "Pectobacterium betavasculorum" 0.0 False False False
+3228 species "Pectobacterium carotovorum" 0.0 False False False
+3229 species "Pectobacterium wasabiae" 0.0 False False False
+3230 species "Pediococcus argentinicus" 0.0 False False False
+3231 species "Pediococcus claussenii" 0.0 False False False
+3232 species "Pediococcus ethanolidurans" 0.0 False False False
+3233 species "Pediococcus parvulus" 0.0 False False False
+3234 species "Pedobacter agri" 0.0 False False False
+3235 species "Pedobacter arcticus" 0.0 False False False
+3236 species "Pedobacter glucosidilyticus" 0.0 False False False
+3237 species "Pedobacter heparinus" 0.0 False False False
+3238 species "Pedobacter jeongneungensis" 0.0 False False False
+3239 species "Pedobacter kyungheensis" 0.0 False False False
+3240 species "Pedobacter sp. BAL39" 0.0 False False False
+3241 species "Pedobacter sp. Leaf194" 0.0 False False False
+3242 species "Pedobacter sp. NL19" 0.0 False False False
+3243 species "Pedobacter sp. R20-19" 0.0 False False False
+3244 species "Pedosphaera parvula" 0.0 False False False
+3245 species "Pelistega indica" 0.0 False False False
+3246 species "Pelobacter propionicus" 0.0 False False False
+3247 species "Pelosinus fermentans" 0.0 False False False
+3248 species "Pelosinus sp. UFO1" 0.0 False False False
+3249 species "Pelotomaculum thermopropionicum" 0.0 False False False
+3250 species "Peptoclostridium difficile" 0.0002 True False False
+3251 species "Peptococcaceae bacterium CEB3" 0.0 False False False
+3252 species "Peptoniphilaceae bacterium SIT14" 0.0 False False False
+3253 species "Peptoniphilus duerdenii" 0.0 False False False
+3254 species "Peptoniphilus grossensis" 0.0 False False False
+3255 species "Peptoniphilus harei" 0.0 False False False
+3256 species "Peptoniphilus indolicus" 0.0 False False False
+3257 species "Peptoniphilus lacrimalis" 0.0 False False False
+3258 species "Peptoniphilus obesi" 0.0 False False False
+3259 species "Peptoniphilus rhinitidis" 0.0 False False False
+3260 species "Peptoniphilus senegalensis" 0.0 False False False
+3261 species "Peptoniphilus sp. 1-1" 0.0 False False False
+3262 species "Peptoniphilus sp. BV3AC2" 0.0 False False False
+3263 species "Peptoniphilus sp. BV3C26" 0.0 False False False
+3264 species "Peptoniphilus sp. ChDC B134" 0.0 False False False
+3265 species "Peptoniphilus sp. oral taxon 375" 0.0 False False False
+3266 species "Peptoniphilus sp. oral taxon 386" 0.0 False False False
+3267 species "Peptoniphilus sp. oral taxon 836" 0.0 False False False
+3268 species "Peptoniphilus timonensis" 0.0 False False False
+3269 species "Peptostreptococcaceae bacterium ACC19a" 0.0 False False False
+3270 species "Peptostreptococcaceae bacterium AS15" 0.0 False False False
+3271 species "Peptostreptococcaceae bacterium CM2" 0.0 False False False
+3272 species "Peptostreptococcaceae bacterium CM5" 0.0 False False False
+3273 species "Peptostreptococcaceae bacterium OBRC8" 0.0 False False False
+3274 species "Peptostreptococcaceae bacterium oral taxon 113" 0.0 False False False
+3275 species "Peptostreptococcaceae bacterium VA2" 0.0 False False False
+3276 species "Peptostreptococcus anaerobius" 0.0 False False False
+3277 species "Peptostreptococcus sp. MV1" 0.0 False False False
+3278 species "Peptostreptococcus stomatis" 0.0 False False False
+3279 species "Phaeodactylibacter xiamenensis" 0.0 False False False
+3280 species "Phascolarctobacterium succinatutens" 0.0 False False False
+3281 species "Phocaeicola abscessus" 0.0 False False False
+3282 species "Photobacterium damselae" 0.0 False False False
+3283 species "Photobacterium gaetbulicola" 0.0 False False False
+3284 species "Photobacterium halotolerans" 0.0 False False False
+3285 species "Photobacterium iliopiscarium" 0.0 False False False
+3286 species "Photobacterium leiognathi" 0.0 False False False
+3287 species "Photobacterium profundum" 0.0 False False False
+3288 species "Photobacterium swingsii" 0.0 False False False
+3289 species "Photorhabdus luminescens" 0.0 False False False
+3290 species "Photorhabdus temperata" 0.0 False False False
+3291 species "Piscirickettsia salmonis" 0.0 False False False
+3292 species "Planctopirus limnophila" 0.0 False False False
+3293 species "Planktothricoides sp. SR001" 0.0 False False False
+3294 species "Planococcus donghaensis" 0.0 False False False
+3295 species "Planococcus halocryophilus" 0.0 False False False
+3296 species "Planococcus sp. CAU13" 0.0 False False False
+3297 species "Planomicrobium glaciei" 0.0 False False False
+3298 species "Pleomorphomonas koreensis" 0.0 False False False
+3299 species "Pleomorphomonas oryzae" 0.0 False False False
+3300 species "Pleurocapsa minor" 0.0 False False False
+3301 species "Pluralibacter gergoviae" 0.0 False False False
+3302 species "Polaribacter sp. Hel1_85" 0.0 False False False
+3303 species "Polaromonas sp. JS666" 0.0 False False False
+3304 species "Polynucleobacter necessarius" 0.0 False False False
+3305 species "Pontibacillus chungwhensis" 0.0 False False False
+3306 species "Pontibacillus litoralis" 0.0 False False False
+3307 species "Pontibacillus marinus" 0.0 False False False
+3308 species "Pontibacter actiniarum" 0.0 False False False
+3309 species "Pontibacter korlensis" 0.0 False False False
+3310 species "Pontibacter roseus" 0.0 False False False
+3311 species "Pontibacter sp. BAB1700" 0.0 False False False
+3312 species "Porphyrobacter donghaensis" 0.0 False False False
+3313 species "Porphyromonadaceae bacterium COT-184 OH4590" 0.0 False False False
+3314 species "Porphyromonadaceae bacterium GM3" 0.0 False False False
+3315 species "Porphyromonas asaccharolytica" 0.0 False False False
+3316 species "Porphyromonas bennonis" 0.0 False False False
+3317 species "Porphyromonas cangingivalis" 0.0 False False False
+3318 species "Porphyromonas canoris" 0.0 False False False
+3319 species "Porphyromonas catoniae" 0.0 False False False
+3320 species "Porphyromonas crevioricanis" 0.0 False False False
+3321 species "Porphyromonas endodontalis" 0.0 False False False
+3322 species "Porphyromonas gingivalis" 0.0 False False False
+3323 species "Porphyromonas gingivicanis" 0.0 False False False
+3324 species "Porphyromonas gulae" 0.0 False False False
+3325 species "Porphyromonas levii" 0.0 False False False
+3326 species "Porphyromonas macacae" 0.0 False False False
+3327 species "Porphyromonas somerae" 0.0 False False False
+3328 species "Porphyromonas sp. COT-052 OH4946" 0.0 False False False
+3329 species "Porphyromonas sp. COT-108 OH1349" 0.0 False False False
+3330 species "Porphyromonas sp. COT-108 OH2963" 0.0 False False False
+3331 species "Porphyromonas sp. COT-239 OH1446" 0.0 False False False
+3332 species "Porphyromonas sp. COT-290 OH860" 0.0 False False False
+3333 species "Porphyromonas sp. KLE 1280" 0.0 False False False
+3334 species "Porphyromonas sp. oral taxon 278" 0.0 False False False
+3335 species "Porphyromonas sp. oral taxon 279" 0.0 False False False
+3336 species "Porphyromonas uenonis" 0.0 False False False
+3337 species "Prevotella albensis" 0.0 False False False
+3338 species "Prevotella amnii" 0.0 False False False
+3339 species "Prevotella aurantiaca" 0.0 False False False
+3340 species "Prevotella baroniae" 0.0 False False False
+3341 species "Prevotella bergensis" 0.0 False False False
+3342 species "Prevotella bivia" 0.0 False False False
+3343 species "Prevotella brevis" 0.0 False False False
+3344 species "Prevotella bryantii" 0.0 False False False
+3345 species "Prevotella buccae" 0.0 False False False
+3346 species "Prevotella buccalis" 0.0 False False False
+3347 species "Prevotella conceptionensis" 0.0 False False False
+3348 species "Prevotella copri" 0.0 False False False
+3349 species "Prevotella corporis" 0.0 False False False
+3350 species "Prevotella dentalis" 0.0 False False False
+3351 species "Prevotella dentasini" 0.0 False False False
+3352 species "Prevotella denticola" 0.0 False False False
+3353 species "Prevotella disiens" 0.0 False False False
+3354 species "Prevotella enoeca" 0.0 False False False
+3355 species "Prevotella falsenii" 0.0 False False False
+3356 species "Prevotella fusca" 0.0 False False False
+3357 species "Prevotella histicola" 0.0 False False False
+3358 species "Prevotella intermedia" 0.0 False False False
+3359 species "Prevotella loescheii" 0.0 False False False
+3360 species "Prevotella maculosa" 0.0 False False False
+3361 species "Prevotella marshii" 0.0 False False False
+3362 species "Prevotella melaninogenica" 0.0 False False False
+3363 species "Prevotella micans" 0.0 False False False
+3364 species "Prevotella multiformis" 0.0001 True False False
+3365 species "Prevotella multisaccharivorax" 0.0 False False False
+3366 species "Prevotella nanceiensis" 0.0 False False False
+3367 species "Prevotella nigrescens" 0.0 False False False
+3368 species "Prevotella oralis" 0.0 False False False
+3369 species "Prevotella oris" 0.0 False False False
+3370 species "Prevotella oryzae" 0.0 False False False
+3371 species "Prevotella oulorum" 0.0 False False False
+3372 species "Prevotella pallens" 0.0 False False False
+3373 species "Prevotella paludivivens" 0.0 False False False
+3374 species "Prevotella pleuritidis" 0.0 False False False
+3375 species "Prevotella ruminicola" 0.0 False False False
+3376 species "Prevotella saccharolytica" 0.0 False False False
+3377 species "Prevotella salivae" 0.0 False False False
+3378 species "Prevotella scopos" 0.0 False False False
+3379 species "Prevotella shahii" 0.0 False False False
+3380 species "Prevotella sp. 10(H)" 0.0 False False False
+3381 species "Prevotella sp. 109" 0.0 False False False
+3382 species "Prevotella sp. AGR2160" 0.0 False False False
+3383 species "Prevotella sp. BV3P1" 0.0 False False False
+3384 species "Prevotella sp. C561" 0.0 False False False
+3385 species "Prevotella sp. F0091" 0.0 False False False
+3386 species "Prevotella sp. FD3004" 0.0 False False False
+3387 species "Prevotella sp. HJM029" 0.0 False False False
+3388 species "Prevotella sp. HUN102" 0.0 False False False
+3389 species "Prevotella sp. ICM33" 0.0 False False False
+3390 species "Prevotella sp. MA2016" 0.0 False False False
+3391 species "Prevotella sp. MSX73" 0.0 False False False
+3392 species "Prevotella sp. oral taxon 299" 0.0 False False False
+3393 species "Prevotella sp. oral taxon 306" 0.0 False False False
+3394 species "Prevotella sp. oral taxon 317" 0.0001 True False False
+3395 species "Prevotella sp. oral taxon 472" 0.0 False False False
+3396 species "Prevotella sp. oral taxon 473" 0.0 False False False
+3397 species "Prevotella sp. P4-65" 0.0 False False False
+3398 species "Prevotella sp. P4-76" 0.0 False False False
+3399 species "Prevotella sp. P5-119" 0.0 False False False
+3400 species "Prevotella sp. P5-125" 0.0 False False False
+3401 species "Prevotella sp. P5-60" 0.0 False False False
+3402 species "Prevotella sp. P6B1" 0.0 False False False
+3403 species "Prevotella sp. P6B4" 0.0 False False False
+3404 species "Prevotella sp. RM4" 0.0 False False False
+3405 species "Prevotella sp. S7 MS 2" 0.0 False False False
+3406 species "Prevotella sp. S7-1-8" 0.0 False False False
+3407 species "Prevotella stercorea" 0.0 False False False
+3408 species "Prevotella timonensis" 0.0 False False False
+3409 species "Prevotella veroralis" 0.0 False False False
+3410 species "Prochlorococcus marinus" 0.0 False False False
+3411 species "Prolixibacter bellariivorans" 0.0 False False False
+3412 species "Propionibacteriaceae bacterium P6A17" 0.0 False False False
+3413 species "Propionibacterium acidifaciens" 0.0 False False False
+3414 species "Propionibacterium acidipropionici" 0.0 False False False
+3415 species "Propionibacterium acnes" 0.0 False False False
+3416 species "Propionibacterium avidum" 0.0 False False False
+3417 species "Propionibacterium freudenreichii" 0.0 False False False
+3418 species "Propionibacterium granulosum" 0.0 False False False
+3419 species "Propionibacterium humerusii" 0.0 False False False
+3420 species "Propionibacterium jensenii" 0.0 False False False
+3421 species "Propionibacterium propionicum" 0.0 False False False
+3422 species "Propionibacterium sp. HGH0353" 0.0 False False False
+3423 species "Propionibacterium sp. KPL1844" 0.0 False False False
+3424 species "Propionibacterium sp. oral taxon 192" 0.0 False False False
+3425 species "Propionibacterium thoenii" 0.0 False False False
+3426 species "Propionicicella superfundia" 0.0 False False False
+3427 species "Propionimicrobium lymphophilum" 0.0 False False False
+3428 species "Propionimicrobium sp. BV2F7" 0.0 False False False
+3429 species "Propionispira raffinosivorans" 0.0 False False False
+3430 species "Propionispora sp. Iso2/2" 0.0 False False False
+3431 species "Prosthecochloris aestuarii" 0.0 False False False
+3432 species "Proteiniclasticum ruminis" 0.0 False False False
+3433 species "Proteiniphilum acetatigenes" 0.0 False False False
+3434 species "Proteocatella sphenisci" 0.0 False False False
+3435 species "Providencia alcalifaciens" 0.0 False False False
+3436 species "Providencia burhodogranariea" 0.0 False False False
+3437 species "Providencia rettgeri" 0.0 False False False
+3438 species "Providencia rustigianii" 0.0 False False False
+3439 species "Providencia stuartii" 0.0 False False False
+3440 species "Pseudacidovorax intermedius" 0.0 False False False
+3441 species "Pseudoalteromonas luteoviolacea" 0.0 False False False
+3442 species "Pseudoalteromonas rubra" 0.0 False False False
+3443 species "Pseudoalteromonas sp. 643A" 0.0 False False False
+3444 species "Pseudoalteromonas sp. H105" 0.0 False False False
+3445 species "Pseudobacteroides cellulosolvens" 0.0 False False False
+3446 species "Pseudobutyrivibrio ruminis" 0.0 False False False
+3447 species "Pseudobutyrivibrio sp. LB2011" 0.0 False False False
+3448 species "Pseudobutyrivibrio sp. MD2005" 0.0 False False False
+3449 species "Pseudoclavibacter soli" 0.0 False False False
+3450 species "Pseudoflavonifractor capillosus" 0.0001 True False False
+3451 species "Pseudoglutamicibacter albus" 0.0 False False False
+3452 species "Pseudomonas aeruginosa" 0.0 False False False
+3453 species "Pseudomonas alcaligenes" 0.0 False False False
+3454 species "Pseudomonas amygdali" 0.0 False False False
+3455 species "Pseudomonas brassicacearum" 0.0 False False False
+3456 species "Pseudomonas caeni" 0.0 False False False
+3457 species "Pseudomonas caricapapayae" 0.0 False False False
+3458 species "Pseudomonas chloritidismutans" 0.0 False False False
+3459 species "Pseudomonas deceptionensis" 0.0 False False False
+3460 species "Pseudomonas extremaustralis" 0.0 False False False
+3461 species "Pseudomonas fluorescens" 0.0 False False False
+3462 species "Pseudomonas fragi" 0.0 False False False
+3463 species "Pseudomonas frederiksbergensis" 0.0 False False False
+3464 species "Pseudomonas fuscovaginae" 0.0 False False False
+3465 species "Pseudomonas helleri" 0.0 False False False
+3466 species "Pseudomonas libanensis" 0.0 False False False
+3467 species "Pseudomonas lundensis" 0.0 False False False
+3468 species "Pseudomonas lutea" 0.0 False False False
+3469 species "Pseudomonas mandelii" 0.0 False False False
+3470 species "Pseudomonas marginalis" 0.0 False False False
+3471 species "Pseudomonas monteilii" 0.0 False False False
+3472 species "Pseudomonas orientalis" 0.0 False False False
+3473 species "Pseudomonas oryzihabitans" 0.0 False False False
+3474 species "Pseudomonas pseudoalcaligenes" 0.0 False False False
+3475 species "Pseudomonas psychrophila" 0.0 False False False
+3476 species "Pseudomonas psychrotolerans" 0.0 False False False
+3477 species "Pseudomonas putida" 0.0 False False False
+3478 species "Pseudomonas savastanoi" 0.0 False False False
+3479 species "Pseudomonas sp. 20_BN" 0.0 False False False
+3480 species "Pseudomonas sp. 313" 0.0 False False False
+3481 species "Pseudomonas sp. Ag1" 0.0 False False False
+3482 species "Pseudomonas sp. C5pp" 0.0 False False False
+3483 species "Pseudomonas sp. CF149" 0.0 False False False
+3484 species "Pseudomonas sp. CFII64" 0.0 False False False
+3485 species "Pseudomonas sp. CFT9" 0.0 False False False
+3486 species "Pseudomonas sp. CHM02" 0.0 False False False
+3487 species "Pseudomonas sp. DSM 28140" 0.0 False False False
+3488 species "Pseudomonas sp. DSM 28142" 0.0 False False False
+3489 species "Pseudomonas sp. DSM 29164" 0.0 False False False
+3490 species "Pseudomonas sp. DSM 29167" 0.0 False False False
+3491 species "Pseudomonas sp. ES3-33" 0.0 False False False
+3492 species "Pseudomonas sp. Eur1 9.41" 0.0 False False False
+3493 species "Pseudomonas sp. FH1" 0.0 False False False
+3494 species "Pseudomonas sp. GTC 16482" 0.0 False False False
+3495 species "Pseudomonas sp. L10.10" 0.0 False False False
+3496 species "Pseudomonas sp. Lz4W" 0.0 False False False
+3497 species "Pseudomonas sp. NBRC 111132" 0.0 False False False
+3498 species "Pseudomonas sp. NBRC 111134" 0.0 False False False
+3499 species "Pseudomonas sp. NBRC 111137" 0.0 False False False
+3500 species "Pseudomonas sp. NBRC 111138" 0.0 False False False
+3501 species "Pseudomonas sp. NBRC 111140" 0.0 False False False
+3502 species "Pseudomonas sp. RIT357" 0.0 False False False
+3503 species "Pseudomonas sp. Root569" 0.0 False False False
+3504 species "Pseudomonas sp. Root9" 0.0 False False False
+3505 species "Pseudomonas sp. TTU2014-080ASC" 0.0 False False False
+3506 species "Pseudomonas sp. VLB120" 0.0 False False False
+3507 species "Pseudomonas stutzeri" 0.0 False False False
+3508 species "Pseudomonas synxantha" 0.0 False False False
+3509 species "Pseudomonas syringae" 0.0 False False False
+3510 species "Pseudomonas taetrolens" 0.0 False False False
+3511 species "Pseudomonas thermotolerans" 0.0 False False False
+3512 species "Pseudomonas tolaasii" 0.0 False False False
+3513 species "Pseudomonas veronii" 0.0 False False False
+3514 species "Pseudonocardia sp. P2" 0.0 False False False
+3515 species "Pseudopedobacter saltans" 0.0 False False False
+3516 species "Pseudoramibacter alactolyticus" 0.0 False False False
+3517 species "Pseudorhodoferax sp. Leaf265" 0.0 False False False
+3518 species "Pseudoxanthomonas sp. GW2" 0.0 False False False
+3519 species "Pseudoxanthomonas suwonensis" 0.0 False False False
+3520 species "Psychrilyobacter atlanticus" 0.0 False False False
+3521 species "Psychrobacter aquaticus" 0.0 False False False
+3522 species "Psychrobacter arcticus" 0.0 False False False
+3523 species "Psychrobacter cryohalolentis" 0.0 False False False
+3524 species "Psychrobacter glacincola" 0.0 False False False
+3525 species "Psychrobacter lutiphocae" 0.0 False False False
+3526 species "Psychrobacter phenylpyruvicus" 0.0 False False False
+3527 species "Psychrobacter piscatorii" 0.0 False False False
+3528 species "Psychrobacter sp. 1501(2011)" 0.0 False False False
+3529 species "Psychrobacter sp. DAB_AL60" 0.0 False False False
+3530 species "Psychrobacter sp. ENNN9_III" 0.0 False False False
+3531 species "Psychrobacter sp. G" 0.0 False False False
+3532 species "Psychrobacter sp. P11F6" 0.0 False False False
+3533 species "Psychrobacter sp. P11G3" 0.0 False False False
+3534 species "Psychrobacter sp. PAMC 21119" 0.0 False False False
+3535 species "Psychrobacter sp. PRwf-1" 0.0 False False False
+3536 species "Psychromonas arctica" 0.0 False False False
+3537 species "Pyramidobacter piscolens" 0.0 False False False
+3538 species "Ralstonia pickettii" 0.0 False False False
+3539 species "Ralstonia solanacearum" 0.0 False False False
+3540 species "Ralstonia sp. MD27" 0.0 False False False
+3541 species "Reinekea blandensis" 0.0 False False False
+3542 species "Renibacterium salmoninarum" 0.0 False False False
+3543 species "Rheinheimera sp. IITR-13" 0.0 False False False
+3544 species "Rheinheimera sp. KL1" 0.0 False False False
+3545 species "Rhizobacter sp. Root404" 0.0 False False False
+3546 species "Rhodobacter sphaeroides" 0.0 False False False
+3547 species "Rhodococcus fascians" 0.0 False False False
+3548 species "Rhodococcus sp. HA99" 0.0 False False False
+3549 species "Rhodococcus sp. Leaf247" 0.0 False False False
+3550 species "Rhodocyclaceae bacterium Paddy-1" 0.0 False False False
+3551 species "Rhodoferax ferrireducens" 0.0 False False False
+3552 species "Rhodonellum psychrophilum" 0.0 False False False
+3553 species "Rhodopirellula sallentina" 0.0 False False False
+3554 species "Rhodopseudomonas palustris" 0.0 False False False
+3555 species "Rhodopseudomonas sp. AAP120" 0.0 False False False
+3556 species "Rhodothermus marinus" 0.0 False False False
+3557 species "Rickettsiella grylli" 0.0 False False False
+3558 species "Riemerella anatipestifer" 0.0 False False False
+3559 species "Riemerella columbina" 0.0 False False False
+3560 species "Rikenella microfusus" 0.0 False False False
+3561 species "Risungbinella massiliensis" 0.0 False False False
+3562 species "Rivularia sp. PCC 7116" 0.0 False False False
+3563 species "Robiginitalea biformata" 0.0 False False False
+3564 species "Robinsoniella peoriensis" 0.0 False False False
+3565 species "Robinsoniella sp. KNHs210" 0.0 False False False
+3566 species "Roseburia faecis" 0.0058 True False False
+3567 species "Roseburia hominis" 0.0017 True False False
+3568 species "Roseburia intestinalis" 0.0086 True False False
+3569 species "Roseburia inulinivorans" 0.0458 True False False
+3570 species "Roseiflexus castenholzii" 0.0 False False False
+3571 species "Roseomonas cervicalis" 0.0 False False False
+3572 species "Roseomonas gilardii" 0.0 False False False
+3573 species "Roseomonas mucosa" 0.0 False False False
+3574 species "Rothia aeria" 0.0 False False False
+3575 species "Rothia dentocariosa" 0.0 False False False
+3576 species "Rothia mucilaginosa" 0.0 False False False
+3577 species "Ruania albidiflava" 0.0 False False False
+3578 species "Rubidibacter lacunae" 0.0 False False False
+3579 species "Rubritalea marina" 0.0 False False False
+3580 species "Rubrivivax benzoatilyticus" 0.0 False False False
+3581 species "Rubrobacter radiotolerans" 0.0 False False False
+3582 species "Rudanella lutea" 0.0 False False False
+3583 species "Rufibacter sp. DG31D" 0.0 False False False
+3584 species "Ruminiclostridium thermocellum" 0.0 False False False
+3585 species "Ruminobacter sp. RM87" 0.0 False False False
+3586 species "Ruminococcaceae bacterium 585-1" 0.0004 True False False
+3587 species "Ruminococcaceae bacterium 668" 0.0 False True False
+3588 species "Ruminococcaceae bacterium AB4001" 0.0 False False False
+3589 species "Ruminococcaceae bacterium AE2021" 0.0 False False False
+3590 species "Ruminococcaceae bacterium AM2" 0.0002 True False False
+3591 species "Ruminococcaceae bacterium cv2" 0.0 False True False
+3592 species "Ruminococcaceae bacterium D16" 0.0009 True False False
+3593 species "Ruminococcaceae bacterium GD1" 0.0 False False False
+3594 species "Ruminococcaceae bacterium GD6" 0.0 False False False
+3595 species "Ruminococcaceae bacterium mt9" 0.0 False False False
+3596 species "Ruminococcus albus" 0.0 False False False
+3597 species "Ruminococcus bicirculans" 0.0001 True False False
+3598 species "Ruminococcus callidus" 0.0004 True False False
+3599 species "Ruminococcus champanellensis" 0.0001 True False False
+3600 species "Ruminococcus faecis" 0.0013 True False False
+3601 species "Ruminococcus flavefaciens" 0.0 False True False
+3602 species "Ruminococcus gauvreauii" 0.0 False False False
+3603 species "Ruminococcus lactaris" 0.0007 True False False
+3604 species "Ruminococcus sp. 5_1_39BFAA" 0.0004 True False False
+3605 species "Ruminococcus sp. AT10" 0.0 False False False
+3606 species "Ruminococcus sp. FC2018" 0.0 False False False
+3607 species "Ruminococcus sp. HUN007" 0.0 False False False
+3608 species "Ruminococcus sp. JC304" 0.0002 True False False
+3609 species "Ruminococcus sp. NK3A76" 0.0 False False False
+3610 species "Runella limosa" 0.0 False False False
+3611 species "Runella slithyformis" 0.0 False False False
+3612 species "Saccharibacillus kuerlensis" 0.0 False False False
+3613 species "Saccharibacter floricola" 0.0 False False False
+3614 species "Saccharicrinis fermentans" 0.0 False False False
+3615 species "Saccharopolyspora rectivirgula" 0.0 False False False
+3616 species "Saccharothrix sp. ST-888" 0.0 False False False
+3617 species "Salegentibacter sp. Hel_I_6" 0.0 False False False
+3618 species "Salimicrobium jeotgali" 0.0 False False False
+3619 species "Salinibacter ruber" 0.0 False False False
+3620 species "Salinibacterium sp. PAMC 21357" 0.0 False False False
+3621 species "Salinicoccus halodurans" 0.0 False False False
+3622 species "Salinicoccus luteus" 0.0 False False False
+3623 species "Salinicoccus roseus" 0.0 False False False
+3624 species "Salinicoccus sp. YB14-2" 0.0 False False False
+3625 species "Salinimicrobium terrae" 0.0 False False False
+3626 species "Salinimicrobium xinjiangense" 0.0 False False False
+3627 species "Salinimonas chungwhensis" 0.0 False False False
+3628 species "Salinispira pacifica" 0.0 False False False
+3629 species "Salinispora pacifica" 0.0 False False False
+3630 species "Salinivibrio sp. KP-1" 0.0 False False False
+3631 species "Salisaeta longa" 0.0 False False False
+3632 species "Salmonella enterica" 0.0001 True False False
+3633 species "Sanguibacter keddieii" 0.0 False False False
+3634 species "Sanguibacteroides justesenii" 0.0 False False False
+3635 species "Sanguibacteroides sp. GM7" 0.0 False False False
+3636 species "Saprospira grandis" 0.0 False False False
+3637 species "Scardovia inopinata" 0.0 False False False
+3638 species "Scardovia wiggsiae" 0.0 False False False
+3639 species "Sciscionella sp. SE31" 0.0 False False False
+3640 species "Sebaldella termitidis" 0.0 False False False
+3641 species "secondary endosymbiont of Heteropsylla cubana" 0.0 False False False
+3642 species "Sedimentibacter sp. B4" 0.0 False False False
+3643 species "Sediminibacter sp. Hel_I_10" 0.0 False False False
+3644 species "Sediminimonas qiaohouensis" 0.0 False False False
+3645 species "Segetibacter koreensis" 0.0 False False False
+3646 species "Selenomonas artemidis" 0.0 False False False
+3647 species "Selenomonas bovis" 0.0 False False False
+3648 species "Selenomonas flueggei" 0.0 False False False
+3649 species "Selenomonas infelix" 0.0 False False False
+3650 species "Selenomonas noxia" 0.0 False False False
+3651 species "Selenomonas ruminantium" 0.0 False False False
+3652 species "Selenomonas sp. AE3005" 0.0 False False False
+3653 species "Selenomonas sp. CM52" 0.0 False False False
+3654 species "Selenomonas sp. F0473" 0.0 False False False
+3655 species "Selenomonas sp. FC4001" 0.0 False False False
+3656 species "Selenomonas sp. FOBRC6" 0.0 False False False
+3657 species "Selenomonas sp. FOBRC9" 0.0 False False False
+3658 species "Selenomonas sp. ND2010" 0.0 False False False
+3659 species "Selenomonas sp. oral taxon 137" 0.0 False False False
+3660 species "Selenomonas sp. oral taxon 138" 0.0 False False False
+3661 species "Selenomonas sp. oral taxon 149" 0.0 False False False
+3662 species "Selenomonas sp. oral taxon 478" 0.0 False False False
+3663 species "Selenomonas sp. oral taxon 892" 0.0 False False False
+3664 species "Selenomonas sputigena" 0.0 False False False
+3665 species "Sellimonas intestinalis" 0.0 False False False
+3666 species "Senegalimassilia anaerobia" 0.0 False False False
+3667 species "Serinicoccus chungangensis" 0.0 False False False
+3668 species "Serinicoccus profundi" 0.0 False False False
+3669 species "Serratia fonticola" 0.0 False False False
+3670 species "Serratia grimesii" 0.0 False False False
+3671 species "Serratia liquefaciens" 0.0 False False False
+3672 species "Serratia marcescens" 0.0 False False False
+3673 species "Serratia odorifera" 0.0 False False False
+3674 species "Serratia plymuthica" 0.0 False False False
+3675 species "Serratia proteamaculans" 0.0 False False False
+3676 species "Serratia sp. DD3" 0.0 False False False
+3677 species "Serratia sp. Leaf51" 0.0 False False False
+3678 species "Serratia sp. S4" 0.0 False False False
+3679 species "Serratia symbiotica" 0.0 False False False
+3680 species "Sharpea azabuensis" 0.0 False False False
+3681 species "Shewanella baltica" 0.0 False False False
+3682 species "Shewanella frigidimarina" 0.0 False False False
+3683 species "Shewanella marina" 0.0 False False False
+3684 species "Shewanella sediminis" 0.0 False False False
+3685 species "Shimazuella kribbensis" 0.0 False False False
+3686 species "Shinella sp. DD12" 0.0 False False False
+3687 species "Shuttleworthia satelles" 0.0 False False False
+3688 species "Shuttleworthia sp. MSX8B" 0.0 False False False
+3689 species "Siansivirga zeaxanthinifaciens" 0.0 False False False
+3690 species "Silvibacterium bohemicum" 0.0 False False False
+3691 species "Simiduia agarivorans" 0.0 False False False
+3692 species "Simonsiella muelleri" 0.0 False False False
+3693 species "Singulisphaera acidiphila" 0.0 False False False
+3694 species "Sinomonas humi" 0.0 False False False
+3695 species "Sinorhizobium sp. GL28" 0.0 False False False
+3696 species "Skermanella aerolata" 0.0 False False False
+3697 species "Slackia exigua" 0.0 False False False
+3698 species "Slackia heliotrinireducens" 0.0 False False False
+3699 species "Slackia piriformis" 0.0 False False False
+3700 species "Slackia sp. CM382" 0.0 False False False
+3701 species "Sneathia amnii" 0.0 False False False
+3702 species "Snodgrassella alvi" 0.0 False False False
+3703 species "Solitalea canadensis" 0.0 False False False
+3704 species "Solobacterium moorei" 0.0 False False False
+3705 species "Sorangium cellulosum" 0.0 False False False
+3706 species "Sphaerochaeta coccoides" 0.0 False False False
+3707 species "Sphaerochaeta globosa" 0.0 False False False
+3708 species "Sphaerochaeta pleomorpha" 0.0 False False False
+3709 species "Sphaerotilus natans" 0.0 False False False
+3710 species "Sphingobacteriaceae bacterium DW12" 0.0 False False False
+3711 species "Sphingobacterium paucimobilis" 0.0 False False False
+3712 species "Sphingobacterium sp. 21" 0.0 False False False
+3713 species "Sphingobacterium sp. ACCC 05744" 0.0 False False False
+3714 species "Sphingobacterium sp. Ag1" 0.0 False False False
+3715 species "Sphingobacterium sp. IITKGP-BTPF85" 0.0 False False False
+3716 species "Sphingobacterium sp. ML3W" 0.0 False False False
+3717 species "Sphingobacterium sp. T2" 0.0 False False False
+3718 species "Sphingobacterium spiritivorum" 0.0 False False False
+3719 species "Sphingobacterium thalpophilum" 0.0 False False False
+3720 species "Sphingobium japonicum" 0.0 False False False
+3721 species "Sphingobium lucknowense" 0.0 False False False
+3722 species "Sphingobium sp. ba1" 0.0 False False False
+3723 species "Sphingobium sp. C100" 0.0 False False False
+3724 species "Sphingobium sp. DC-2" 0.0 False False False
+3725 species "Sphingobium ummariense" 0.0 False False False
+3726 species "Sphingobium xenophagum" 0.0 False False False
+3727 species "Sphingobium yanoikuyae" 0.0 False False False
+3728 species "Sphingomonas echinoides" 0.0 False False False
+3729 species "Sphingomonas melonis" 0.0 False False False
+3730 species "Sphingomonas paucimobilis" 0.0 False False False
+3731 species "Sphingomonas sanxanigenens" 0.0 False False False
+3732 species "Sphingomonas sp. Ag1" 0.0 False False False
+3733 species "Sphingomonas sp. Ant H11" 0.0 False False False
+3734 species "Sphingomonas sp. MEA3-1" 0.0 False False False
+3735 species "Sphingomonas sp. RIT328" 0.0 False False False
+3736 species "Sphingomonas sp. SRS2" 0.0 False False False
+3737 species "Sphingomonas taxi" 0.0 False False False
+3738 species "Sphingopyxis alaskensis" 0.0 False False False
+3739 species "Sphingopyxis fribergensis" 0.0 False False False
+3740 species "Sphingopyxis macrogoltabida" 0.0 False False False
+3741 species "Sphingopyxis sp. 113P3" 0.0 False False False
+3742 species "Sphingopyxis sp. A083" 0.0 False False False
+3743 species "Sphingopyxis sp. H050" 0.0 False False False
+3744 species "Sphingopyxis sp. H115" 0.0 False False False
+3745 species "Sphingopyxis sp. LC363" 0.0 False False False
+3746 species "Sphingopyxis sp. LC81" 0.0 False False False
+3747 species "Sphingopyxis sp. MC1" 0.0 False False False
+3748 species "Sphingopyxis sp. Root1497" 0.0 False False False
+3749 species "Spirochaeta africana" 0.0 False False False
+3750 species "Spirochaeta alkalica" 0.0 False False False
+3751 species "Spirochaeta cellobiosiphila" 0.0 False False False
+3752 species "Spirochaeta lutea" 0.0 False False False
+3753 species "Spirochaeta smaragdinae" 0.0 False False False
+3754 species "Spirochaeta sp. JC202" 0.0 False False False
+3755 species "Spirochaeta thermophila" 0.0 False False False
+3756 species "Spiroplasma poulsonii" 0.0 False False False
+3757 species "Spirosoma panaciterrae" 0.0 False False False
+3758 species "Spirosoma radiotolerans" 0.0 False False False
+3759 species "Spirosoma spitsbergense" 0.0 False False False
+3760 species "Sporocytophaga myxococcoides" 0.0 False False False
+3761 species "Sporolactobacillus vineae" 0.0 False False False
+3762 species "Sporomusa ovata" 0.0 False False False
+3763 species "Sporosarcina globispora" 0.0 False False False
+3764 species "Sporosarcina koreensis" 0.0 False False False
+3765 species "Sporosarcina newyorkensis" 0.0 False False False
+3766 species "Staphylococcus agnetis" 0.0 False False False
+3767 species "Staphylococcus aureus" 0.0 False False False
+3768 species "Staphylococcus auricularis" 0.0 False False False
+3769 species "Staphylococcus capitis" 0.0 False False False
+3770 species "Staphylococcus cohnii" 0.0 False False False
+3771 species "Staphylococcus epidermidis" 0.0 False False False
+3772 species "Staphylococcus equorum" 0.0 False False False
+3773 species "Staphylococcus haemolyticus" 0.0 False False False
+3774 species "Staphylococcus hominis" 0.0 False False False
+3775 species "Staphylococcus lugdunensis" 0.0 False False False
+3776 species "Staphylococcus massiliensis" 0.0 False False False
+3777 species "Staphylococcus pasteuri" 0.0 False False False
+3778 species "Staphylococcus pseudintermedius" 0.0 False False False
+3779 species "Staphylococcus saprophyticus" 0.0 False False False
+3780 species "Staphylococcus schleiferi" 0.0 False False False
+3781 species "Staphylococcus simulans" 0.0 False False False
+3782 species "Staphylococcus warneri" 0.0 False False False
+3783 species "Staphylococcus xylosus" 0.0 False False False
+3784 species "Stenotrophomonas acidaminiphila" 0.0 False False False
+3785 species "Stenotrophomonas chelatiphaga" 0.0 False False False
+3786 species "Stenotrophomonas maltophilia" 0.0 False False False
+3787 species "Stenoxybacter acetivorans" 0.0 False False False
+3788 species "Stomatobaculum longum" 0.0 False False False
+3789 species "Streptacidiphilus albus" 0.0 False False False
+3790 species "Streptobacillus moniliformis" 0.0 False False False
+3791 species "Streptococcus agalactiae" 0.0 False False False
+3792 species "Streptococcus anginosus" 0.0 False False False
+3793 species "Streptococcus australis" 0.0 False False False
+3794 species "Streptococcus caballi" 0.0 False False False
+3795 species "Streptococcus canis" 0.0 False False False
+3796 species "Streptococcus castoreus" 0.0 False False False
+3797 species "Streptococcus constellatus" 0.0 False False False
+3798 species "Streptococcus criceti" 0.0 False False False
+3799 species "Streptococcus cristatus" 0.0 False False False
+3800 species "Streptococcus dentasini" 0.0 False False False
+3801 species "Streptococcus dentisani" 0.0 False False False
+3802 species "Streptococcus devriesei" 0.0 False False False
+3803 species "Streptococcus didelphis" 0.0 False False False
+3804 species "Streptococcus dysgalactiae" 0.0 False False False
+3805 species "Streptococcus entericus" 0.0 False False False
+3806 species "Streptococcus equi" 0.0 False False False
+3807 species "Streptococcus equinus" 0.0 False False False
+3808 species "Streptococcus ferus" 0.0 False False False
+3809 species "Streptococcus gallolyticus" 0.0 False False False
+3810 species "Streptococcus gordonii" 0.0 False False False
+3811 species "Streptococcus henryi" 0.0 False False False
+3812 species "Streptococcus hyovaginalis" 0.0 False False False
+3813 species "Streptococcus ictaluri" 0.0 False False False
+3814 species "Streptococcus infantarius" 0.0 False False False
+3815 species "Streptococcus infantis" 0.0 False False False
+3816 species "Streptococcus iniae" 0.0 False False False
+3817 species "Streptococcus intermedius" 0.0 False False False
+3818 species "Streptococcus lutetiensis" 0.0 False False False
+3819 species "Streptococcus macacae" 0.0 False False False
+3820 species "Streptococcus macedonicus" 0.0 False False False
+3821 species "Streptococcus marimammalium" 0.0 False False False
+3822 species "Streptococcus massiliensis" 0.0 False False False
+3823 species "Streptococcus merionis" 0.0 False False False
+3824 species "Streptococcus minor" 0.0 False False False
+3825 species "Streptococcus mitis" 0.0 False False False
+3826 species "Streptococcus mutans" 0.0 False False False
+3827 species "Streptococcus oligofermentans" 0.0 False False False
+3828 species "Streptococcus oralis" 0.0 False False False
+3829 species "Streptococcus orisratti" 0.0 False False False
+3830 species "Streptococcus ovis" 0.0 False False False
+3831 species "Streptococcus parasanguinis" 0.0 False False False
+3832 species "Streptococcus parauberis" 0.0 False False False
+3833 species "Streptococcus pasteurianus" 0.0 False False False
+3834 species "Streptococcus peroris" 0.0 False False False
+3835 species "Streptococcus phocae" 0.0 False False False
+3836 species "Streptococcus plurextorum" 0.0 False False False
+3837 species "Streptococcus pneumoniae" 0.0 False False False
+3838 species "Streptococcus porci" 0.0 False False False
+3839 species "Streptococcus porcinus" 0.0 False False False
+3840 species "Streptococcus pseudopneumoniae" 0.0 False False False
+3841 species "Streptococcus pseudoporcinus" 0.0 False False False
+3842 species "Streptococcus pyogenes" 0.0 False False False
+3843 species "Streptococcus ratti" 0.0 False False False
+3844 species "Streptococcus salivarius" 0.0 False False False
+3845 species "Streptococcus sanguinis" 0.0 False False False
+3846 species "Streptococcus sinensis" 0.0 False False False
+3847 species "Streptococcus sobrinus" 0.0 False False False
+3848 species "Streptococcus sp. 1171_SSPC" 0.0 False False False
+3849 species "Streptococcus sp. 2_1_36FAA" 0.0 False False False
+3850 species "Streptococcus sp. 263_SSPC" 0.0 False False False
+3851 species "Streptococcus sp. 343_SSPC" 0.0 False False False
+3852 species "Streptococcus sp. 400_SSPC" 0.0 False False False
+3853 species "Streptococcus sp. 449_SSPC" 0.0 False False False
+3854 species "Streptococcus sp. ACS2" 0.0 False False False
+3855 species "Streptococcus sp. AS14" 0.0 False False False
+3856 species "Streptococcus sp. AS20" 0.0 False False False
+3857 species "Streptococcus sp. C150" 0.0 False False False
+3858 species "Streptococcus sp. C300" 0.0 False False False
+3859 species "Streptococcus sp. CCH5-D3" 0.0 False False False
+3860 species "Streptococcus sp. CCH8-C6" 0.0 False False False
+3861 species "Streptococcus sp. CCH8-G7" 0.0 False False False
+3862 species "Streptococcus sp. CCH8-H5" 0.0 False False False
+3863 species "Streptococcus sp. CM6" 0.0 False False False
+3864 species "Streptococcus sp. CM7" 0.0 False False False
+3865 species "Streptococcus sp. F0441" 0.0 False False False
+3866 species "Streptococcus sp. F0442" 0.0 False False False
+3867 species "Streptococcus sp. FDAARGOS_146" 0.0 False False False
+3868 species "Streptococcus sp. HPH0090" 0.0 False False False
+3869 species "Streptococcus sp. HSISS1" 0.0 False False False
+3870 species "Streptococcus sp. HSISS3" 0.0 False False False
+3871 species "Streptococcus sp. I-G2" 0.0 False False False
+3872 species "Streptococcus sp. I-P16" 0.0 False False False
+3873 species "Streptococcus sp. M143" 0.0 False False False
+3874 species "Streptococcus sp. M334" 0.0 False False False
+3875 species "Streptococcus sp. OBRC6" 0.0 False False False
+3876 species "Streptococcus sp. oral taxon 056" 0.0 False False False
+3877 species "Streptococcus sp. oral taxon 058" 0.0 False False False
+3878 species "Streptococcus sp. oral taxon 071" 0.0 False False False
+3879 species "Streptococcus sp. oral taxon 431" 0.0 False False False
+3880 species "Streptococcus sp. SK140" 0.0 False False False
+3881 species "Streptococcus sp. SK643" 0.0 False False False
+3882 species "Streptococcus sp. SR1" 0.0 False False False
+3883 species "Streptococcus sp. SR4" 0.0 False False False
+3884 species "Streptococcus sp. VT 162" 0.0 False False False
+3885 species "Streptococcus sp. X13SY08" 0.0 False False False
+3886 species "Streptococcus suis" 0.0004 True False False
+3887 species "Streptococcus thermophilus" 0.0001 True False False
+3888 species "Streptococcus thoraltensis" 0.0 False False False
+3889 species "Streptococcus tigurinus" 0.0 False False False
+3890 species "Streptococcus uberis" 0.0 False False False
+3891 species "Streptococcus urinalis" 0.0 False False False
+3892 species "Streptococcus vestibularis" 0.0 False False False
+3893 species "Streptomyces albus" 0.0 False False False
+3894 species "Streptomyces sp. MUSC119T" 0.0 False False False
+3895 species "Streptosporangium roseum" 0.0 False False False
+3896 species "Subdoligranulum sp. 4_3_54A2FAA" 0.0005 True False False
+3897 species "Subdoligranulum variabile" 0.0019 True False False
+3898 species "Succinatimonas hippei" 0.0 False False False
+3899 species "Succinimonas amylolytica" 0.0 False False False
+3900 species "Succinispira mobilis" 0.0 False False False
+3901 species "Succinivibrio dextrinosolvens" 0.0 False False False
+3902 species "Succinivibrionaceae bacterium WG-1" 0.0 False False False
+3903 species "Sulfuricurvum kujiense" 0.0 False False False
+3904 species "Sulfurimonas denitrificans" 0.0 False False False
+3905 species "Sulfurimonas gotlandica" 0.0 False False False
+3906 species "Sulfurimonas sp. AST-10" 0.0 False False False
+3907 species "Sulfurospirillum cavolei" 0.0 False False False
+3908 species "Sulfurospirillum deleyianum" 0.0 False False False
+3909 species "Sulfurospirillum multivorans" 0.0 False False False
+3910 species "Sulfurovum sp. NBC37-1" 0.0 False False False
+3911 species "Sunxiuqinia dokdonensis" 0.0 False False False
+3912 species "Sutterella parvirubra" 0.0 False False False
+3913 species "Sutterella wadsworthensis" 0.0001 True False False
+3914 species "Sutterellaceae bacterium ND3" 0.0 False False False
+3915 species "Symbiobacterium thermophilum" 0.0 False False False
+3916 species "Synechococcus sp. NKBG15041c" 0.0 False False False
+3917 species "Synechococcus sp. PCC 6312" 0.0 False False False
+3918 species "Synechococcus sp. PCC 7502" 0.0 False False False
+3919 species "Synergistes jonesii" 0.0 False False False
+3920 species "Synergistes sp. 3_1_syn1" 0.0 False False False
+3921 species "Syntrophaceticus schinkii" 0.0 False False False
+3922 species "Syntrophobacter fumaroxidans" 0.0 False False False
+3923 species "Syntrophobotulus glycolicus" 0.0 False False False
+3924 species "Syntrophomonas palmitatica" 0.0 False False False
+3925 species "Syntrophomonas wolfei" 0.0 False False False
+3926 species "Syntrophomonas zehnderi" 0.0 False False False
+3927 species "Syntrophorhabdus aromaticivorans" 0.0 False False False
+3928 species "Syntrophothermus lipocalidus" 0.0 False False False
+3929 species "Syntrophus aciditrophicus" 0.0 False False False
+3930 species "Tannerella forsythia" 0.0 False False False
+3931 species "Tannerella sp. 6_1_58FAA_CT1" 0.0 False False False
+3932 species "Taylorella asinigenitalis" 0.0 False False False
+3933 species "Tenacibaculum maritimum" 0.0 False False False
+3934 species "Tepidanaerobacter acetatoxydans" 0.0 False False False
+3935 species "Tepidanaerobacter syntrophicus" 0.0 False False False
+3936 species "Tepidiphilus thermophilus" 0.0 False False False
+3937 species "Terrabacter sp. 28" 0.0 False False False
+3938 species "Terrimonas ferruginea" 0.0 False False False
+3939 species "Terrisporobacter glycolicus" 0.0 False False False
+3940 species "Terrisporobacter othiniensis" 0.0 False False False
+3941 species "Tessaracoccus sp. SIT7" 0.0 False False False
+3942 species "Tetragenococcus muriaticus" 0.0 False False False
+3943 species "Tetrasphaera australiensis" 0.0 False False False
+3944 species "Tetrasphaera elongata" 0.0 False False False
+3945 species "Tetrasphaera jenkinsii" 0.0 False False False
+3946 species "Thalassospira lucentensis" 0.0 False False False
+3947 species "Thauera sp. 28" 0.0 False False False
+3948 species "Thauera sp. MZ1T" 0.0 False False False
+3949 species "Thauera terpenica" 0.0 False False False
+3950 species "Thermacetogenium phaeum" 0.0 False False False
+3951 species "Thermaerobacter subterraneus" 0.0 False False False
+3952 species "Thermanaerovibrio acidaminovorans" 0.0 False False False
+3953 species "Thermanaerovibrio velox" 0.0 False False False
+3954 species "Thermoactinomyces daqus" 0.0 False False False
+3955 species "Thermoanaerobacter kivui" 0.0 False False False
+3956 species "Thermoanaerobacterium thermosaccharolyticum" 0.0 False False False
+3957 species "Thermoanaerobaculum aquaticum" 0.0 False False False
+3958 species "Thermobacillus composti" 0.0 False False False
+3959 species "Thermobaculum terrenum" 0.0 False False False
+3960 species "Thermobrachium celere" 0.0 False False False
+3961 species "Thermodesulfovibrio aggregans" 0.0 False False False
+3962 species "Thermogemmatispora carboxidivorans" 0.0 False False False
+3963 species "Thermonema rossianum" 0.0 False False False
+3964 species "Thermophagus xiamenensis" 0.0 False False False
+3965 species "Thermosediminibacter oceani" 0.0 False False False
+3966 species "Thermosinus carboxydivorans" 0.0 False False False
+3967 species "Thermosipho melanesiensis" 0.0 False False False
+3968 species "Thermus aquaticus" 0.0 False False False
+3969 species "Thioalkalivibrio sp. HK1" 0.0 False False False
+3970 species "Thiohalocapsa sp. ML1" 0.0 False False False
+3971 species "Thiomicrospira sp. Milos-T2" 0.0 False False False
+3972 species "Thiomonas sp. FB-Cd" 0.0 False False False
+3973 species "Thiorhodococcus drewsii" 0.0 False False False
+3974 species "Thiothrix disciformis" 0.0 False False False
+3975 species "Thiothrix flexilis" 0.0 False False False
+3976 species "Thiothrix nivea" 0.0 False False False
+3977 species "Timonella senegalensis" 0.0 False False False
+3978 species "Tissierellia bacterium GD9" 0.0 False False False
+3979 species "Tissierellia bacterium S5-A11" 0.0 False False False
+3980 species "Tissierellia bacterium S7-1-4" 0.0 False False False
+3981 species "Tolumonas auensis" 0.0 False False False
+3982 species "Treponema azotonutricium" 0.0 False False False
+3983 species "Treponema brennaborense" 0.0 False False False
+3984 species "Treponema bryantii" 0.0 False False False
+3985 species "Treponema caldarium" 0.0 False False False
+3986 species "Treponema denticola" 0.0 False False False
+3987 species "Treponema endosymbiont of Eucomonympha sp." 0.0 False False False
+3988 species "Treponema lecithinolyticum" 0.0 False False False
+3989 species "Treponema maltophilum" 0.0 False False False
+3990 species "Treponema medium" 0.0 False False False
+3991 species "Treponema pedis" 0.0 False False False
+3992 species "Treponema phagedenis" 0.0 False False False
+3993 species "Treponema primitia" 0.0 False False False
+3994 species "Treponema putidum" 0.0 False False False
+3995 species "Treponema saccharophilum" 0.0 False False False
+3996 species "Treponema socranskii" 0.0 False False False
+3997 species "Treponema sp. C6A8" 0.0 False False False
+3998 species "Treponema sp. JC4" 0.0 False False False
+3999 species "Treponema sp. OMZ 838" 0.0 False False False
+4000 species "Treponema succinifaciens" 0.0 False False False
+4001 species "Treponema vincentii" 0.0 False False False
+4002 species "Trichodesmium erythraeum" 0.0 False False False
+4003 species "Tropheryma whipplei" 0.0 False False False
+4004 species "Trueperella pyogenes" 0.0 False False False
+4005 species "Tumebacillus flagellatus" 0.0 False False False
+4006 species "Turicibacter sanguinis" 0.0 False False False
+4007 species "Turicibacter sp. HGF1" 0.0 False False False
+4008 species "Turneriella parva" 0.0 False False False
+4009 species "Tyzzerella nexilis" 0.0004 True False False
+4010 species "uncultured bacterium AST2" 0.0 False False False
+4011 species "Ureaplasma parvum" 0.0 False False False
+4012 species "Ureaplasma urealyticum" 0.0 False False False
+4013 species "Vagococcus lutrae" 0.0 False False False
+4014 species "Varibaculum cambriense" 0.0 False False False
+4015 species "Variovorax paradoxus" 0.0 False False False
+4016 species "Veillonella atypica" 0.0 False False False
+4017 species "Veillonella dispar" 0.0 False False False
+4018 species "Veillonella magna" 0.0 False False False
+4019 species "Veillonella montpellierensis" 0.0 False False False
+4020 species "Veillonella parvula" 0.0 False False False
+4021 species "Veillonella seminalis" 0.0 False False False
+4022 species "Veillonella sp. 3_1_44" 0.0 False False False
+4023 species "Veillonella sp. 6_1_27" 0.0 False False False
+4024 species "Veillonella sp. ACP1" 0.0 False False False
+4025 species "Veillonella sp. AS16" 0.0 False False False
+4026 species "Veillonella sp. HPA0037" 0.0 False False False
+4027 species "Veillonella sp. ICM51a" 0.0 False False False
+4028 species "Veillonella sp. OK1" 0.0 False False False
+4029 species "Veillonella sp. oral taxon 158" 0.0 False False False
+4030 species "Veillonella sp. oral taxon 780" 0.0 False False False
+4031 species "Veillonella tobetsuensis" 0.0 False False False
+4032 species "Verminephrobacter aporrectodeae" 0.0 False False False
+4033 species "Verminephrobacter eiseniae" 0.0 False False False
+4034 species "Verrucomicrobia bacterium IMCC26134" 0.0 False False False
+4035 species "Verrucomicrobia bacterium L21-Fru-AB" 0.0 False False False
+4036 species "Verrucomicrobia bacterium LP2A" 0.0 False False False
+4037 species "Verrucomicrobiae bacterium DG1235" 0.0 False False False
+4038 species "Vibrio cholerae" 0.0 False False False
+4039 species "Vibrio fluvialis" 0.0 False False False
+4040 species "Vibrio metschnikovii" 0.0 False False False
+4041 species "Vibrio natriegens" 0.0 False False False
+4042 species "Vibrio nigripulchritudo" 0.0 False False False
+4043 species "Vibrio parahaemolyticus" 0.0 False False False
+4044 species "Vibrio tubiashii" 0.0 False False False
+4045 species "Vibrio vulnificus" 0.0 False False False
+4046 species "Virgibacillus soli" 0.0 False False False
+4047 species "Vitreoscilla sp. SN6" 0.0 False False False
+4048 species "Vitreoscilla stercoraria" 0.0 False False False
+4049 species "Weeksella sp. FF8" 0.0 False False False
+4050 species "Weeksella virosa" 0.0 False False False
+4051 species "Weissella cibaria" 0.0 False False False
+4052 species "Weissella confusa" 0.0 False False False
+4053 species "Weissella koreensis" 0.0 False False False
+4054 species "Williamsia sp. D3" 0.0 False False False
+4055 species "Wohlfahrtiimonas chitiniclastica" 0.0 False False False
+4056 species "Wolinella succinogenes" 0.0 False False False
+4057 species "Xanthomonas campestris" 0.0 False False False
+4058 species "Xanthomonas oryzae" 0.0 False False False
+4059 species "Xanthomonas sacchari" 0.0 False False False
+4060 species "Xanthomonas sp. SHU308" 0.0 False False False
+4061 species "Xanthomonas vesicatoria" 0.0 False False False
+4062 species "Xenorhabdus bovienii" 0.0 False False False
+4063 species "Xylanimonas cellulosilytica" 0.0 False False False
+4064 species "Xylella fastidiosa" 0.0 False False False
+4065 species "Yersinia aldovae" 0.0 False False False
+4066 species "Yersinia enterocolitica" 0.0 False False False
+4067 species "Yersinia frederiksenii" 0.0 False False False
+4068 species "Yersinia pseudotuberculosis" 0.0 False False False
+4069 species "Yersinia rohdei" 0.0 False False False
+4070 species "Yersinia ruckeri" 0.0 False False False
+4071 species "Youngiibacter fragilis" 0.0 False False False
+4072 species "Zetaproteobacteria bacterium TAG-1" 0.0 False False False
+4073 species "Zhouia amylolytica" 0.0 False False False
+4074 species "Zobellia galactanivorans" 0.0 False False False
+4075 species "Zunongwangia profunda" 0.0 False False False
+4076 species "Zymomonas mobilis" 0.0 False False False

@@ -21,6 +21,7 @@ from numpy.random import binomial as bino
 import re
 import numpy.ma as mask
 from scipy import misc, sparse, cluster
+from random import sample
 
 
 
@@ -350,7 +351,7 @@ def com_clust(network):
 #	removed = []
 	Q = [sum(diag(deltaQ))]
 	cluster_list = []
-	for i in range(adj_mat.shape[0]):
+	for i in range(adjmat.shape[0]):
 		cluster_list = cluster_list+[[i]]
 	while deltaQ[maxDQ] > 10**(-10):#deltaQ.shape[0] > 1:
 #		removed = removed+[maxDQ]
@@ -387,11 +388,8 @@ def spectral_cluster(adj_mat):
 	evects = evects[:,ord].real
 	max_cl = len(argwhere(evals.round(10) == 0)) + 10
 	most_gaps = min([len(evals),max_cl])
-	print(most_gaps)
 	sgaps = [evals.round(10)[i] - evals.round(10)[i-1] for i in range(1,most_gaps)]
-	print(len(sgaps))
 	num_clus = 5 + argmax(sgaps[5:])
-	print(num_clus)
 	V = evects[:,:num_clus].astype(float)
 	Vwhite = cluster.vq.whiten(V)
 	cents = cluster.vq.kmeans(Vwhite,num_clus)[0]
@@ -402,14 +400,23 @@ def spectral_cluster(adj_mat):
 
 
 
-def color_picker2(r,the_map = cm.rainbow):
+def color_picker2(r,the_map = cm.rainbow, weighted = False):
 	'''Takes in vector r and maps to hex colors'''
 	muncols = len(r)
-	colors = linspace(0,255,muncols)
+	if weighted:
+		ma = max(r)
+		mi = min(r)
+		if ma - mi != 0:
+			slp = 255/(ma - mi)
+			colors = (r*slp - slp*mi).astype(int)
+		else:
+			colors = zeros(muncols,dtype = int)
+	else:
+		colors = linspace(0,255,muncols).astype(int)
+	rgb_value_array = the_map(colors)
 	collist = []
 	for i in range(muncols):
-		colori = colors[i]
-		rgb_value = the_map(colori.astype(int))
+		rgb_value = rgb_value_array[i]
 		hex_value = matplotlib.colors.rgb2hex(rgb_value)
 		collist = collist + [hex_value]
 	return collist
@@ -440,8 +447,8 @@ def est_prob(source,induced,whole,N):
 	edge_there = argwhere([node in induced[0] for node in source[0]])
 	repped = delete(source,edge_there)
 	uni_induced = delete(induced,range(1,len(induced[0]),2))
-	print(len(uni_induced))
-	print(len(repped))                 
+# 	print(len(uni_induced))
+# 	print(len(repped))                 
 	psi1 = log([0.5*all_p_s_given_t[i] + 0.5*all_p_s_given_t[i+1] for i in uni_induced])
 	psi2 = log([all_freq[i]/N for i in repped])
 	produ = sum(psi1) + sum(psi2) - log(Z)
@@ -600,9 +607,9 @@ def diffusion_ivp(known_on,known_off, network, suspected =0.5, non_suspected = 0
 				for po2 in their_str_rk:
 					rstren.remove(po2)
 				rstren.insert(tied_rank,list(their_str_rk))
-		return [ranked, requib, rstren]
+		return [ranked, real(requib), real(rstren)]
 	else:
-		return [ranked,requib, rstren]
+		return [ranked,real(requib), real(rstren)]
 	
 def diffusion_bdvp(known_on,known_off, network):
 	'''Using diffusion on the graph, rank the nodes we don't know about. Find equilibrium
@@ -616,7 +623,7 @@ def diffusion_bdvp(known_on,known_off, network):
 	Lrestr = L[unknown]
 	Lrestr = Lrestr[:,unknown]
 	force = -array([sum(L[i,known_on]) for i in unknown])
-	equib = array(solve(Lrestr,force))
+	equib = array(lstsq(Lrestr,force))[0]
 	tmp = equib.argsort()
 	ranked = empty(len(tmp),int)
 	requib = empty(len(tmp),int)
@@ -634,9 +641,9 @@ def diffusion_bdvp(known_on,known_off, network):
 				for gy in tied_guys:
 					ranked.remove(gy)
 				ranked.insert(tied_rank,list(tied_guys))
-		return [ranked,requib]
+		return [ranked,real(requib)]
 	else:
-		return [ranked,requib]
+		return [ranked,real(requib)]
 
 	
 def diffusion_forced(known_on,known_off, network):
@@ -665,7 +672,6 @@ def diffusion_forced(known_on,known_off, network):
 	ranked = list(ranked)
 	ust, whch = unique(rel_eq, return_inverse = True)
 	if len(ust) != len(rel_eq):
-		print(ust)
 		for j in range(len(ust)):
 			if sum([j == w for w in whch]) > 1:
 				tied_guys = unknown[where(rel_eq == ust[j])]
@@ -675,9 +681,9 @@ def diffusion_forced(known_on,known_off, network):
 				for gy in tied_guys:
 					ranked.remove(gy)
 				ranked.insert(tied_rank,list(tied_guys))
-		return [ranked,requib]
+		return [ranked,real(requib)]
 	else:
-		return [ranked,requib]
+		return [ranked,real(requib)]
 		
 #########################################################################################
 
@@ -702,9 +708,11 @@ def get_sample(daata):
 	samp = pd.DataFrame(daata['LEVEL'], columns = ['LEVEL'])
 	samp['TAXA'] = daata['TAXA']
 	L = len(daata.columns) - 2
-	which = daata.columns[randint(L)+2]
+	this = randint(L)+2
+	which = daata.columns[this]
 	samp['abundance'] = daata[which]
-	return samp
+	samp_stype = daata.columns[this]
+	return [samp,samp_stype]
 	
 #########################################################################################
 
