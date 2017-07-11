@@ -1,0 +1,29 @@
+	source	source_freq	first_sample	fscolor	spect_cluster	commun_cluster	spect_color	comm_color
+0	Corynebacterium pseudodiphtheriticum	4	Anterior_nares	#8000ff	2.0	3.0	#01b3ec	#7effb5
+1	Corynebacterium propinquum	4	Anterior_nares	#8000ff	2.0	3.0	#01b3ec	#7effb5
+2	Lawsonella clevelandensis	7	Anterior_nares	#8000ff	3.0	5.0	#3febd5	#ff8143
+3	Gemella haemolysans	5	Buccal_mucosa	#1996f3	3.0	5.0	#3febd5	#ff8143
+4	Parabacteroides merdae	3	Stool	#b2f396	5.0	1.0	#beec8e	#2c7ef7
+5	Corynebacterium ammoniagenes	3	Anterior_nares	#8000ff	5.0	1.0	#beec8e	#2c7ef7
+6	Propionibacterium avidum	3	Anterior_nares	#8000ff	8.0	2.0	#ff0000	#2adddd
+7	Corynebacterium durum	5	Supragingival_plaque	#ff964f	1.0	2.0	#425ffa	#2adddd
+8	Propionibacterium granulosum	7	Anterior_nares	#8000ff	4.0	0.0	#7effb5	#8000ff
+9	Actinomyces oris	3	Supragingival_plaque	#ff964f	7.0	0.0	#ff6232	#8000ff
+10	Propionibacterium granulosum	7	Anterior_nares	#8000ff	4.0	0.0	#7effb5	#8000ff
+11	Alistipes putredinis	5	Stool	#b2f396	4.0	0.0	#7effb5	#8000ff
+12	Propionibacterium propionicum	4	Supragingival_plaque	#ff964f	3.0	5.0	#3febd5	#ff8143
+13	Lawsonella clevelandensis	7	Anterior_nares	#8000ff	3.0	5.0	#3febd5	#ff8143
+14	Propionibacterium sp. KPL1844	6	Anterior_nares	#8000ff	0.0	0.0	#8000ff	#8000ff
+15	Actinomyces oris	3	Supragingival_plaque	#ff964f	7.0	0.0	#ff6232	#8000ff
+16	Propionibacterium sp. KPL1844	6	Anterior_nares	#8000ff	0.0	0.0	#8000ff	#8000ff
+17	Propionibacterium humerusii	5	Anterior_nares	#8000ff	0.0	0.0	#8000ff	#8000ff
+18	Rothia dentocariosa	6	Supragingival_plaque	#ff964f	7.0	0.0	#ff6232	#8000ff
+19	Actinomyces oris	3	Supragingival_plaque	#ff964f	7.0	0.0	#ff6232	#8000ff
+20	Ruminococcus faecis	4	Stool	#b2f396	3.0	4.0	#3febd5	#d4dd80
+21	Corynebacterium sp. KPL1818	6	Anterior_nares	#8000ff	3.0	4.0	#3febd5	#d4dd80
+22	Streptococcus sanguinis	5	Supragingival_plaque	#ff964f	3.0	5.0	#3febd5	#ff8143
+23	Lawsonella clevelandensis	7	Anterior_nares	#8000ff	3.0	5.0	#3febd5	#ff8143
+24	Streptococcus sanguinis	5	Supragingival_plaque	#ff964f	3.0	5.0	#3febd5	#ff8143
+25	Propionibacterium propionicum	4	Supragingival_plaque	#ff964f	3.0	5.0	#3febd5	#ff8143
+26	Veillonella parvula	3	Buccal_mucosa	#1996f3	6.0	6.0	#feb562	#ff0000
+27	Lautropia mirabilis	5	Supragingival_plaque	#ff964f	6.0	6.0	#feb562	#ff0000

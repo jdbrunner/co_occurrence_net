@@ -1,0 +1,793 @@
+	source	source_freq	first_sample	fscolor	spect_cluster	commun_cluster	spect_color	comm_color
+0	Actinomyces oris	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+1	Actinomyces naeslundii	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+2	Actinomyces sp. ICM47	2	Tongue_dorsum	#ff0000	0.0	0.0	#8000ff	#8000ff
+3	Actinomyces naeslundii	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+4	Actinomyces sp. ICM47	2	Tongue_dorsum	#ff0000	0.0	0.0	#8000ff	#8000ff
+5	Actinomyces oris	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+6	Actinomyces sp. oral taxon 170	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+7	Actinomyces naeslundii	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+8	Actinomyces sp. oral taxon 170	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+9	Actinomyces oris	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+10	Actinomyces sp. oral taxon 170	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+11	Actinomyces sp. ICM47	2	Tongue_dorsum	#ff0000	0.0	0.0	#8000ff	#8000ff
+12	Actinomyces sp. oral taxon 171	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+13	Actinomyces naeslundii	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+14	Actinomyces sp. oral taxon 171	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+15	Actinomyces oris	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+16	Actinomyces sp. oral taxon 171	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+17	Actinomyces sp. ICM47	2	Tongue_dorsum	#ff0000	0.0	0.0	#8000ff	#8000ff
+18	Actinomyces sp. oral taxon 171	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+19	Actinomyces sp. oral taxon 170	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+20	Candidatus Saccharibacteria oral taxon TM7x	2	Saliva	#7effb5	3.0	1.0	#feb562	#ff0000
+21	Alloprevotella tannerae	2	Subgingival_plaque	#e4cf74	3.0	1.0	#feb562	#ff0000
+22	Capnocytophaga sp. oral taxon 329	2	Supragingival_plaque	#ff964f	3.0	1.0	#feb562	#ff0000
+23	Alloprevotella tannerae	2	Subgingival_plaque	#e4cf74	3.0	1.0	#feb562	#ff0000
+24	Capnocytophaga sp. oral taxon 329	2	Supragingival_plaque	#ff964f	3.0	1.0	#feb562	#ff0000
+25	Candidatus Saccharibacteria oral taxon TM7x	2	Saliva	#7effb5	3.0	1.0	#feb562	#ff0000
+26	Capnocytophaga sp. oral taxon 332	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+27	Actinomyces naeslundii	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+28	Capnocytophaga sp. oral taxon 332	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+29	Actinomyces oris	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+30	Capnocytophaga sp. oral taxon 332	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+31	Actinomyces sp. ICM47	2	Tongue_dorsum	#ff0000	0.0	0.0	#8000ff	#8000ff
+32	Capnocytophaga sp. oral taxon 332	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+33	Actinomyces sp. oral taxon 170	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+34	Capnocytophaga sp. oral taxon 332	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+35	Actinomyces sp. oral taxon 171	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+36	Capnocytophaga sputigena	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+37	Actinomyces naeslundii	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+38	Capnocytophaga sputigena	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+39	Actinomyces oris	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+40	Capnocytophaga sputigena	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+41	Actinomyces sp. ICM47	2	Tongue_dorsum	#ff0000	0.0	0.0	#8000ff	#8000ff
+42	Capnocytophaga sputigena	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+43	Actinomyces sp. oral taxon 170	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+44	Capnocytophaga sputigena	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+45	Actinomyces sp. oral taxon 171	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+46	Capnocytophaga sputigena	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+47	Capnocytophaga sp. oral taxon 332	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+48	Chlamydia trachomatis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+49	Alloprevotella tannerae	2	Subgingival_plaque	#e4cf74	3.0	1.0	#feb562	#ff0000
+50	Chlamydia trachomatis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+51	Candidatus Saccharibacteria oral taxon TM7x	2	Saliva	#7effb5	3.0	1.0	#feb562	#ff0000
+52	Chlamydia trachomatis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+53	Capnocytophaga sp. oral taxon 329	2	Supragingival_plaque	#ff964f	3.0	1.0	#feb562	#ff0000
+54	Corynebacterium durum	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+55	Actinomyces naeslundii	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+56	Corynebacterium durum	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+57	Actinomyces oris	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+58	Corynebacterium durum	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+59	Actinomyces sp. ICM47	2	Tongue_dorsum	#ff0000	0.0	0.0	#8000ff	#8000ff
+60	Corynebacterium durum	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+61	Actinomyces sp. oral taxon 170	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+62	Corynebacterium durum	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+63	Actinomyces sp. oral taxon 171	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+64	Corynebacterium durum	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+65	Capnocytophaga sp. oral taxon 332	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+66	Corynebacterium durum	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+67	Capnocytophaga sputigena	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+68	Corynebacterium matruchotii	1	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+69	Actinomyces naeslundii	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+70	Corynebacterium matruchotii	1	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+71	Actinomyces oris	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+72	Corynebacterium matruchotii	1	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+73	Actinomyces sp. ICM47	2	Tongue_dorsum	#ff0000	0.0	0.0	#8000ff	#8000ff
+74	Corynebacterium matruchotii	1	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+75	Actinomyces sp. oral taxon 170	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+76	Corynebacterium matruchotii	1	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+77	Actinomyces sp. oral taxon 171	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+78	Corynebacterium matruchotii	1	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+79	Capnocytophaga sp. oral taxon 332	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+80	Corynebacterium matruchotii	1	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+81	Capnocytophaga sputigena	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+82	Corynebacterium matruchotii	1	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+83	Corynebacterium durum	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+84	Gemella haemolysans	2	Buccal_mucosa	#1996f3	3.0	1.0	#feb562	#ff0000
+85	Alloprevotella tannerae	2	Subgingival_plaque	#e4cf74	3.0	1.0	#feb562	#ff0000
+86	Gemella haemolysans	2	Buccal_mucosa	#1996f3	3.0	1.0	#feb562	#ff0000
+87	Candidatus Saccharibacteria oral taxon TM7x	2	Saliva	#7effb5	3.0	1.0	#feb562	#ff0000
+88	Gemella haemolysans	2	Buccal_mucosa	#1996f3	3.0	1.0	#feb562	#ff0000
+89	Capnocytophaga sp. oral taxon 329	2	Supragingival_plaque	#ff964f	3.0	1.0	#feb562	#ff0000
+90	Gemella haemolysans	2	Buccal_mucosa	#1996f3	3.0	1.0	#feb562	#ff0000
+91	Chlamydia trachomatis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+92	Gemella sanguinis	2	Tongue_dorsum	#ff0000	2.0	1.0	#7effb5	#ff0000
+93	Alloprevotella tannerae	2	Subgingival_plaque	#e4cf74	3.0	1.0	#feb562	#ff0000
+94	Gemella sanguinis	2	Tongue_dorsum	#ff0000	2.0	1.0	#7effb5	#ff0000
+95	Candidatus Saccharibacteria oral taxon TM7x	2	Saliva	#7effb5	3.0	1.0	#feb562	#ff0000
+96	Gemella sanguinis	2	Tongue_dorsum	#ff0000	2.0	1.0	#7effb5	#ff0000
+97	Capnocytophaga sp. oral taxon 329	2	Supragingival_plaque	#ff964f	3.0	1.0	#feb562	#ff0000
+98	Gemella sanguinis	2	Tongue_dorsum	#ff0000	2.0	1.0	#7effb5	#ff0000
+99	Chlamydia trachomatis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+100	Gemella sanguinis	2	Tongue_dorsum	#ff0000	2.0	1.0	#7effb5	#ff0000
+101	Gemella haemolysans	2	Buccal_mucosa	#1996f3	3.0	1.0	#feb562	#ff0000
+102	Granulicatella elegans	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+103	Alloprevotella tannerae	2	Subgingival_plaque	#e4cf74	3.0	1.0	#feb562	#ff0000
+104	Granulicatella elegans	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+105	Candidatus Saccharibacteria oral taxon TM7x	2	Saliva	#7effb5	3.0	1.0	#feb562	#ff0000
+106	Granulicatella elegans	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+107	Capnocytophaga sp. oral taxon 329	2	Supragingival_plaque	#ff964f	3.0	1.0	#feb562	#ff0000
+108	Granulicatella elegans	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+109	Chlamydia trachomatis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+110	Granulicatella elegans	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+111	Gemella haemolysans	2	Buccal_mucosa	#1996f3	3.0	1.0	#feb562	#ff0000
+112	Granulicatella elegans	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+113	Gemella sanguinis	2	Tongue_dorsum	#ff0000	2.0	1.0	#7effb5	#ff0000
+114	Haemophilus haemolyticus	2	Attached	#4e4dfc	1.0	1.0	#01b3ec	#ff0000
+115	Alloprevotella tannerae	2	Subgingival_plaque	#e4cf74	3.0	1.0	#feb562	#ff0000
+116	Haemophilus haemolyticus	2	Attached	#4e4dfc	1.0	1.0	#01b3ec	#ff0000
+117	Candidatus Saccharibacteria oral taxon TM7x	2	Saliva	#7effb5	3.0	1.0	#feb562	#ff0000
+118	Haemophilus haemolyticus	2	Attached	#4e4dfc	1.0	1.0	#01b3ec	#ff0000
+119	Capnocytophaga sp. oral taxon 329	2	Supragingival_plaque	#ff964f	3.0	1.0	#feb562	#ff0000
+120	Haemophilus haemolyticus	2	Attached	#4e4dfc	1.0	1.0	#01b3ec	#ff0000
+121	Chlamydia trachomatis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+122	Haemophilus haemolyticus	2	Attached	#4e4dfc	1.0	1.0	#01b3ec	#ff0000
+123	Gemella haemolysans	2	Buccal_mucosa	#1996f3	3.0	1.0	#feb562	#ff0000
+124	Haemophilus haemolyticus	2	Attached	#4e4dfc	1.0	1.0	#01b3ec	#ff0000
+125	Gemella sanguinis	2	Tongue_dorsum	#ff0000	2.0	1.0	#7effb5	#ff0000
+126	Haemophilus haemolyticus	2	Attached	#4e4dfc	1.0	1.0	#01b3ec	#ff0000
+127	Granulicatella elegans	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+128	Haemophilus influenzae	2	Buccal_mucosa	#1996f3	1.0	1.0	#01b3ec	#ff0000
+129	Alloprevotella tannerae	2	Subgingival_plaque	#e4cf74	3.0	1.0	#feb562	#ff0000
+130	Haemophilus influenzae	2	Buccal_mucosa	#1996f3	1.0	1.0	#01b3ec	#ff0000
+131	Candidatus Saccharibacteria oral taxon TM7x	2	Saliva	#7effb5	3.0	1.0	#feb562	#ff0000
+132	Haemophilus influenzae	2	Buccal_mucosa	#1996f3	1.0	1.0	#01b3ec	#ff0000
+133	Capnocytophaga sp. oral taxon 329	2	Supragingival_plaque	#ff964f	3.0	1.0	#feb562	#ff0000
+134	Haemophilus influenzae	2	Buccal_mucosa	#1996f3	1.0	1.0	#01b3ec	#ff0000
+135	Chlamydia trachomatis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+136	Haemophilus influenzae	2	Buccal_mucosa	#1996f3	1.0	1.0	#01b3ec	#ff0000
+137	Gemella haemolysans	2	Buccal_mucosa	#1996f3	3.0	1.0	#feb562	#ff0000
+138	Haemophilus influenzae	2	Buccal_mucosa	#1996f3	1.0	1.0	#01b3ec	#ff0000
+139	Gemella sanguinis	2	Tongue_dorsum	#ff0000	2.0	1.0	#7effb5	#ff0000
+140	Haemophilus influenzae	2	Buccal_mucosa	#1996f3	1.0	1.0	#01b3ec	#ff0000
+141	Granulicatella elegans	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+142	Haemophilus influenzae	2	Buccal_mucosa	#1996f3	1.0	1.0	#01b3ec	#ff0000
+143	Haemophilus haemolyticus	2	Attached	#4e4dfc	1.0	1.0	#01b3ec	#ff0000
+144	Haemophilus parainfluenzae	2	Tongue_dorsum	#ff0000	2.0	1.0	#7effb5	#ff0000
+145	Alloprevotella tannerae	2	Subgingival_plaque	#e4cf74	3.0	1.0	#feb562	#ff0000
+146	Haemophilus parainfluenzae	2	Tongue_dorsum	#ff0000	2.0	1.0	#7effb5	#ff0000
+147	Candidatus Saccharibacteria oral taxon TM7x	2	Saliva	#7effb5	3.0	1.0	#feb562	#ff0000
+148	Haemophilus parainfluenzae	2	Tongue_dorsum	#ff0000	2.0	1.0	#7effb5	#ff0000
+149	Capnocytophaga sp. oral taxon 329	2	Supragingival_plaque	#ff964f	3.0	1.0	#feb562	#ff0000
+150	Haemophilus parainfluenzae	2	Tongue_dorsum	#ff0000	2.0	1.0	#7effb5	#ff0000
+151	Chlamydia trachomatis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+152	Haemophilus parainfluenzae	2	Tongue_dorsum	#ff0000	2.0	1.0	#7effb5	#ff0000
+153	Gemella haemolysans	2	Buccal_mucosa	#1996f3	3.0	1.0	#feb562	#ff0000
+154	Haemophilus parainfluenzae	2	Tongue_dorsum	#ff0000	2.0	1.0	#7effb5	#ff0000
+155	Gemella sanguinis	2	Tongue_dorsum	#ff0000	2.0	1.0	#7effb5	#ff0000
+156	Haemophilus parainfluenzae	2	Tongue_dorsum	#ff0000	2.0	1.0	#7effb5	#ff0000
+157	Granulicatella elegans	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+158	Haemophilus parainfluenzae	2	Tongue_dorsum	#ff0000	2.0	1.0	#7effb5	#ff0000
+159	Haemophilus haemolyticus	2	Attached	#4e4dfc	1.0	1.0	#01b3ec	#ff0000
+160	Haemophilus parainfluenzae	2	Tongue_dorsum	#ff0000	2.0	1.0	#7effb5	#ff0000
+161	Haemophilus influenzae	2	Buccal_mucosa	#1996f3	1.0	1.0	#01b3ec	#ff0000
+162	Haemophilus sp. oral taxon 851	2	Attached	#4e4dfc	1.0	1.0	#01b3ec	#ff0000
+163	Alloprevotella tannerae	2	Subgingival_plaque	#e4cf74	3.0	1.0	#feb562	#ff0000
+164	Haemophilus sp. oral taxon 851	2	Attached	#4e4dfc	1.0	1.0	#01b3ec	#ff0000
+165	Candidatus Saccharibacteria oral taxon TM7x	2	Saliva	#7effb5	3.0	1.0	#feb562	#ff0000
+166	Haemophilus sp. oral taxon 851	2	Attached	#4e4dfc	1.0	1.0	#01b3ec	#ff0000
+167	Capnocytophaga sp. oral taxon 329	2	Supragingival_plaque	#ff964f	3.0	1.0	#feb562	#ff0000
+168	Haemophilus sp. oral taxon 851	2	Attached	#4e4dfc	1.0	1.0	#01b3ec	#ff0000
+169	Chlamydia trachomatis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+170	Haemophilus sp. oral taxon 851	2	Attached	#4e4dfc	1.0	1.0	#01b3ec	#ff0000
+171	Gemella haemolysans	2	Buccal_mucosa	#1996f3	3.0	1.0	#feb562	#ff0000
+172	Haemophilus sp. oral taxon 851	2	Attached	#4e4dfc	1.0	1.0	#01b3ec	#ff0000
+173	Gemella sanguinis	2	Tongue_dorsum	#ff0000	2.0	1.0	#7effb5	#ff0000
+174	Haemophilus sp. oral taxon 851	2	Attached	#4e4dfc	1.0	1.0	#01b3ec	#ff0000
+175	Granulicatella elegans	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+176	Haemophilus sp. oral taxon 851	2	Attached	#4e4dfc	1.0	1.0	#01b3ec	#ff0000
+177	Haemophilus haemolyticus	2	Attached	#4e4dfc	1.0	1.0	#01b3ec	#ff0000
+178	Haemophilus sp. oral taxon 851	2	Attached	#4e4dfc	1.0	1.0	#01b3ec	#ff0000
+179	Haemophilus influenzae	2	Buccal_mucosa	#1996f3	1.0	1.0	#01b3ec	#ff0000
+180	Haemophilus sp. oral taxon 851	2	Attached	#4e4dfc	1.0	1.0	#01b3ec	#ff0000
+181	Haemophilus parainfluenzae	2	Tongue_dorsum	#ff0000	2.0	1.0	#7effb5	#ff0000
+182	Haemophilus sputorum	2	Buccal_mucosa	#1996f3	3.0	1.0	#feb562	#ff0000
+183	Alloprevotella tannerae	2	Subgingival_plaque	#e4cf74	3.0	1.0	#feb562	#ff0000
+184	Haemophilus sputorum	2	Buccal_mucosa	#1996f3	3.0	1.0	#feb562	#ff0000
+185	Candidatus Saccharibacteria oral taxon TM7x	2	Saliva	#7effb5	3.0	1.0	#feb562	#ff0000
+186	Haemophilus sputorum	2	Buccal_mucosa	#1996f3	3.0	1.0	#feb562	#ff0000
+187	Capnocytophaga sp. oral taxon 329	2	Supragingival_plaque	#ff964f	3.0	1.0	#feb562	#ff0000
+188	Haemophilus sputorum	2	Buccal_mucosa	#1996f3	3.0	1.0	#feb562	#ff0000
+189	Chlamydia trachomatis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+190	Haemophilus sputorum	2	Buccal_mucosa	#1996f3	3.0	1.0	#feb562	#ff0000
+191	Gemella haemolysans	2	Buccal_mucosa	#1996f3	3.0	1.0	#feb562	#ff0000
+192	Haemophilus sputorum	2	Buccal_mucosa	#1996f3	3.0	1.0	#feb562	#ff0000
+193	Gemella sanguinis	2	Tongue_dorsum	#ff0000	2.0	1.0	#7effb5	#ff0000
+194	Haemophilus sputorum	2	Buccal_mucosa	#1996f3	3.0	1.0	#feb562	#ff0000
+195	Granulicatella elegans	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+196	Haemophilus sputorum	2	Buccal_mucosa	#1996f3	3.0	1.0	#feb562	#ff0000
+197	Haemophilus haemolyticus	2	Attached	#4e4dfc	1.0	1.0	#01b3ec	#ff0000
+198	Haemophilus sputorum	2	Buccal_mucosa	#1996f3	3.0	1.0	#feb562	#ff0000
+199	Haemophilus influenzae	2	Buccal_mucosa	#1996f3	1.0	1.0	#01b3ec	#ff0000
+200	Haemophilus sputorum	2	Buccal_mucosa	#1996f3	3.0	1.0	#feb562	#ff0000
+201	Haemophilus parainfluenzae	2	Tongue_dorsum	#ff0000	2.0	1.0	#7effb5	#ff0000
+202	Haemophilus sputorum	2	Buccal_mucosa	#1996f3	3.0	1.0	#feb562	#ff0000
+203	Haemophilus sp. oral taxon 851	2	Attached	#4e4dfc	1.0	1.0	#01b3ec	#ff0000
+204	Leptotrichia shahii	2	Tongue_dorsum	#ff0000	1.0	1.0	#01b3ec	#ff0000
+205	Alloprevotella tannerae	2	Subgingival_plaque	#e4cf74	3.0	1.0	#feb562	#ff0000
+206	Leptotrichia shahii	2	Tongue_dorsum	#ff0000	1.0	1.0	#01b3ec	#ff0000
+207	Candidatus Saccharibacteria oral taxon TM7x	2	Saliva	#7effb5	3.0	1.0	#feb562	#ff0000
+208	Leptotrichia shahii	2	Tongue_dorsum	#ff0000	1.0	1.0	#01b3ec	#ff0000
+209	Capnocytophaga sp. oral taxon 329	2	Supragingival_plaque	#ff964f	3.0	1.0	#feb562	#ff0000
+210	Leptotrichia shahii	2	Tongue_dorsum	#ff0000	1.0	1.0	#01b3ec	#ff0000
+211	Chlamydia trachomatis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+212	Leptotrichia shahii	2	Tongue_dorsum	#ff0000	1.0	1.0	#01b3ec	#ff0000
+213	Gemella haemolysans	2	Buccal_mucosa	#1996f3	3.0	1.0	#feb562	#ff0000
+214	Leptotrichia shahii	2	Tongue_dorsum	#ff0000	1.0	1.0	#01b3ec	#ff0000
+215	Gemella sanguinis	2	Tongue_dorsum	#ff0000	2.0	1.0	#7effb5	#ff0000
+216	Leptotrichia shahii	2	Tongue_dorsum	#ff0000	1.0	1.0	#01b3ec	#ff0000
+217	Granulicatella elegans	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+218	Leptotrichia shahii	2	Tongue_dorsum	#ff0000	1.0	1.0	#01b3ec	#ff0000
+219	Haemophilus haemolyticus	2	Attached	#4e4dfc	1.0	1.0	#01b3ec	#ff0000
+220	Leptotrichia shahii	2	Tongue_dorsum	#ff0000	1.0	1.0	#01b3ec	#ff0000
+221	Haemophilus influenzae	2	Buccal_mucosa	#1996f3	1.0	1.0	#01b3ec	#ff0000
+222	Leptotrichia shahii	2	Tongue_dorsum	#ff0000	1.0	1.0	#01b3ec	#ff0000
+223	Haemophilus parainfluenzae	2	Tongue_dorsum	#ff0000	2.0	1.0	#7effb5	#ff0000
+224	Leptotrichia shahii	2	Tongue_dorsum	#ff0000	1.0	1.0	#01b3ec	#ff0000
+225	Haemophilus sp. oral taxon 851	2	Attached	#4e4dfc	1.0	1.0	#01b3ec	#ff0000
+226	Leptotrichia shahii	2	Tongue_dorsum	#ff0000	1.0	1.0	#01b3ec	#ff0000
+227	Haemophilus sputorum	2	Buccal_mucosa	#1996f3	3.0	1.0	#feb562	#ff0000
+228	Neisseria cinerea	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+229	Actinomyces naeslundii	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+230	Neisseria cinerea	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+231	Actinomyces oris	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+232	Neisseria cinerea	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+233	Actinomyces sp. ICM47	2	Tongue_dorsum	#ff0000	0.0	0.0	#8000ff	#8000ff
+234	Neisseria cinerea	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+235	Actinomyces sp. oral taxon 170	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+236	Neisseria cinerea	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+237	Actinomyces sp. oral taxon 171	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+238	Neisseria cinerea	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+239	Capnocytophaga sp. oral taxon 332	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+240	Neisseria cinerea	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+241	Capnocytophaga sputigena	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+242	Neisseria cinerea	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+243	Corynebacterium durum	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+244	Neisseria cinerea	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+245	Corynebacterium matruchotii	1	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+246	Neisseria meningitidis	2	Throat	#ff5029	0.0	0.0	#8000ff	#8000ff
+247	Actinomyces naeslundii	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+248	Neisseria meningitidis	2	Throat	#ff5029	0.0	0.0	#8000ff	#8000ff
+249	Actinomyces oris	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+250	Neisseria meningitidis	2	Throat	#ff5029	0.0	0.0	#8000ff	#8000ff
+251	Actinomyces sp. ICM47	2	Tongue_dorsum	#ff0000	0.0	0.0	#8000ff	#8000ff
+252	Neisseria meningitidis	2	Throat	#ff5029	0.0	0.0	#8000ff	#8000ff
+253	Actinomyces sp. oral taxon 170	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+254	Neisseria meningitidis	2	Throat	#ff5029	0.0	0.0	#8000ff	#8000ff
+255	Actinomyces sp. oral taxon 171	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+256	Neisseria meningitidis	2	Throat	#ff5029	0.0	0.0	#8000ff	#8000ff
+257	Capnocytophaga sp. oral taxon 332	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+258	Neisseria meningitidis	2	Throat	#ff5029	0.0	0.0	#8000ff	#8000ff
+259	Capnocytophaga sputigena	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+260	Neisseria meningitidis	2	Throat	#ff5029	0.0	0.0	#8000ff	#8000ff
+261	Corynebacterium durum	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+262	Neisseria meningitidis	2	Throat	#ff5029	0.0	0.0	#8000ff	#8000ff
+263	Corynebacterium matruchotii	1	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+264	Neisseria meningitidis	2	Throat	#ff5029	0.0	0.0	#8000ff	#8000ff
+265	Neisseria cinerea	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+266	Porphyromonas catoniae	2	Supragingival_plaque	#ff964f	3.0	1.0	#feb562	#ff0000
+267	Alloprevotella tannerae	2	Subgingival_plaque	#e4cf74	3.0	1.0	#feb562	#ff0000
+268	Porphyromonas catoniae	2	Supragingival_plaque	#ff964f	3.0	1.0	#feb562	#ff0000
+269	Candidatus Saccharibacteria oral taxon TM7x	2	Saliva	#7effb5	3.0	1.0	#feb562	#ff0000
+270	Porphyromonas catoniae	2	Supragingival_plaque	#ff964f	3.0	1.0	#feb562	#ff0000
+271	Capnocytophaga sp. oral taxon 329	2	Supragingival_plaque	#ff964f	3.0	1.0	#feb562	#ff0000
+272	Porphyromonas catoniae	2	Supragingival_plaque	#ff964f	3.0	1.0	#feb562	#ff0000
+273	Chlamydia trachomatis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+274	Porphyromonas catoniae	2	Supragingival_plaque	#ff964f	3.0	1.0	#feb562	#ff0000
+275	Gemella haemolysans	2	Buccal_mucosa	#1996f3	3.0	1.0	#feb562	#ff0000
+276	Porphyromonas catoniae	2	Supragingival_plaque	#ff964f	3.0	1.0	#feb562	#ff0000
+277	Gemella sanguinis	2	Tongue_dorsum	#ff0000	2.0	1.0	#7effb5	#ff0000
+278	Porphyromonas catoniae	2	Supragingival_plaque	#ff964f	3.0	1.0	#feb562	#ff0000
+279	Granulicatella elegans	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+280	Porphyromonas catoniae	2	Supragingival_plaque	#ff964f	3.0	1.0	#feb562	#ff0000
+281	Haemophilus haemolyticus	2	Attached	#4e4dfc	1.0	1.0	#01b3ec	#ff0000
+282	Porphyromonas catoniae	2	Supragingival_plaque	#ff964f	3.0	1.0	#feb562	#ff0000
+283	Haemophilus influenzae	2	Buccal_mucosa	#1996f3	1.0	1.0	#01b3ec	#ff0000
+284	Porphyromonas catoniae	2	Supragingival_plaque	#ff964f	3.0	1.0	#feb562	#ff0000
+285	Haemophilus parainfluenzae	2	Tongue_dorsum	#ff0000	2.0	1.0	#7effb5	#ff0000
+286	Porphyromonas catoniae	2	Supragingival_plaque	#ff964f	3.0	1.0	#feb562	#ff0000
+287	Haemophilus sp. oral taxon 851	2	Attached	#4e4dfc	1.0	1.0	#01b3ec	#ff0000
+288	Porphyromonas catoniae	2	Supragingival_plaque	#ff964f	3.0	1.0	#feb562	#ff0000
+289	Haemophilus sputorum	2	Buccal_mucosa	#1996f3	3.0	1.0	#feb562	#ff0000
+290	Porphyromonas catoniae	2	Supragingival_plaque	#ff964f	3.0	1.0	#feb562	#ff0000
+291	Leptotrichia shahii	2	Tongue_dorsum	#ff0000	1.0	1.0	#01b3ec	#ff0000
+292	Porphyromonas gingivalis	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+293	Actinomyces naeslundii	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+294	Porphyromonas gingivalis	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+295	Actinomyces oris	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+296	Porphyromonas gingivalis	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+297	Actinomyces sp. ICM47	2	Tongue_dorsum	#ff0000	0.0	0.0	#8000ff	#8000ff
+298	Porphyromonas gingivalis	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+299	Actinomyces sp. oral taxon 170	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+300	Porphyromonas gingivalis	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+301	Actinomyces sp. oral taxon 171	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+302	Porphyromonas gingivalis	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+303	Capnocytophaga sp. oral taxon 332	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+304	Porphyromonas gingivalis	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+305	Capnocytophaga sputigena	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+306	Porphyromonas gingivalis	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+307	Corynebacterium durum	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+308	Porphyromonas gingivalis	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+309	Corynebacterium matruchotii	1	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+310	Porphyromonas gingivalis	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+311	Neisseria cinerea	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+312	Porphyromonas gingivalis	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+313	Neisseria meningitidis	2	Throat	#ff5029	0.0	0.0	#8000ff	#8000ff
+314	Porphyromonas sp. oral taxon 278	2	Subgingival_plaque	#e4cf74	0.0	0.0	#8000ff	#8000ff
+315	Actinomyces naeslundii	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+316	Porphyromonas sp. oral taxon 278	2	Subgingival_plaque	#e4cf74	0.0	0.0	#8000ff	#8000ff
+317	Actinomyces oris	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+318	Porphyromonas sp. oral taxon 278	2	Subgingival_plaque	#e4cf74	0.0	0.0	#8000ff	#8000ff
+319	Actinomyces sp. ICM47	2	Tongue_dorsum	#ff0000	0.0	0.0	#8000ff	#8000ff
+320	Porphyromonas sp. oral taxon 278	2	Subgingival_plaque	#e4cf74	0.0	0.0	#8000ff	#8000ff
+321	Actinomyces sp. oral taxon 170	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+322	Porphyromonas sp. oral taxon 278	2	Subgingival_plaque	#e4cf74	0.0	0.0	#8000ff	#8000ff
+323	Actinomyces sp. oral taxon 171	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+324	Porphyromonas sp. oral taxon 278	2	Subgingival_plaque	#e4cf74	0.0	0.0	#8000ff	#8000ff
+325	Capnocytophaga sp. oral taxon 332	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+326	Porphyromonas sp. oral taxon 278	2	Subgingival_plaque	#e4cf74	0.0	0.0	#8000ff	#8000ff
+327	Capnocytophaga sputigena	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+328	Porphyromonas sp. oral taxon 278	2	Subgingival_plaque	#e4cf74	0.0	0.0	#8000ff	#8000ff
+329	Corynebacterium durum	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+330	Porphyromonas sp. oral taxon 278	2	Subgingival_plaque	#e4cf74	0.0	0.0	#8000ff	#8000ff
+331	Corynebacterium matruchotii	1	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+332	Porphyromonas sp. oral taxon 278	2	Subgingival_plaque	#e4cf74	0.0	0.0	#8000ff	#8000ff
+333	Neisseria cinerea	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+334	Porphyromonas sp. oral taxon 278	2	Subgingival_plaque	#e4cf74	0.0	0.0	#8000ff	#8000ff
+335	Neisseria meningitidis	2	Throat	#ff5029	0.0	0.0	#8000ff	#8000ff
+336	Porphyromonas sp. oral taxon 278	2	Subgingival_plaque	#e4cf74	0.0	0.0	#8000ff	#8000ff
+337	Porphyromonas gingivalis	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+338	Prevotella sp. oral taxon 473	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+339	Actinomyces naeslundii	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+340	Prevotella sp. oral taxon 473	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+341	Actinomyces oris	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+342	Prevotella sp. oral taxon 473	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+343	Actinomyces sp. ICM47	2	Tongue_dorsum	#ff0000	0.0	0.0	#8000ff	#8000ff
+344	Prevotella sp. oral taxon 473	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+345	Actinomyces sp. oral taxon 170	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+346	Prevotella sp. oral taxon 473	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+347	Actinomyces sp. oral taxon 171	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+348	Prevotella sp. oral taxon 473	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+349	Capnocytophaga sp. oral taxon 332	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+350	Prevotella sp. oral taxon 473	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+351	Capnocytophaga sputigena	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+352	Prevotella sp. oral taxon 473	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+353	Corynebacterium durum	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+354	Prevotella sp. oral taxon 473	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+355	Corynebacterium matruchotii	1	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+356	Prevotella sp. oral taxon 473	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+357	Neisseria cinerea	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+358	Prevotella sp. oral taxon 473	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+359	Neisseria meningitidis	2	Throat	#ff5029	0.0	0.0	#8000ff	#8000ff
+360	Prevotella sp. oral taxon 473	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+361	Porphyromonas gingivalis	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+362	Prevotella sp. oral taxon 473	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+363	Porphyromonas sp. oral taxon 278	2	Subgingival_plaque	#e4cf74	0.0	0.0	#8000ff	#8000ff
+364	Rothia mucilaginosa	2	Buccal_mucosa	#1996f3	4.0	1.0	#ff0000	#ff0000
+365	Alloprevotella tannerae	2	Subgingival_plaque	#e4cf74	3.0	1.0	#feb562	#ff0000
+366	Rothia mucilaginosa	2	Buccal_mucosa	#1996f3	4.0	1.0	#ff0000	#ff0000
+367	Candidatus Saccharibacteria oral taxon TM7x	2	Saliva	#7effb5	3.0	1.0	#feb562	#ff0000
+368	Rothia mucilaginosa	2	Buccal_mucosa	#1996f3	4.0	1.0	#ff0000	#ff0000
+369	Capnocytophaga sp. oral taxon 329	2	Supragingival_plaque	#ff964f	3.0	1.0	#feb562	#ff0000
+370	Rothia mucilaginosa	2	Buccal_mucosa	#1996f3	4.0	1.0	#ff0000	#ff0000
+371	Chlamydia trachomatis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+372	Rothia mucilaginosa	2	Buccal_mucosa	#1996f3	4.0	1.0	#ff0000	#ff0000
+373	Gemella haemolysans	2	Buccal_mucosa	#1996f3	3.0	1.0	#feb562	#ff0000
+374	Rothia mucilaginosa	2	Buccal_mucosa	#1996f3	4.0	1.0	#ff0000	#ff0000
+375	Gemella sanguinis	2	Tongue_dorsum	#ff0000	2.0	1.0	#7effb5	#ff0000
+376	Rothia mucilaginosa	2	Buccal_mucosa	#1996f3	4.0	1.0	#ff0000	#ff0000
+377	Granulicatella elegans	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+378	Rothia mucilaginosa	2	Buccal_mucosa	#1996f3	4.0	1.0	#ff0000	#ff0000
+379	Haemophilus haemolyticus	2	Attached	#4e4dfc	1.0	1.0	#01b3ec	#ff0000
+380	Rothia mucilaginosa	2	Buccal_mucosa	#1996f3	4.0	1.0	#ff0000	#ff0000
+381	Haemophilus influenzae	2	Buccal_mucosa	#1996f3	1.0	1.0	#01b3ec	#ff0000
+382	Rothia mucilaginosa	2	Buccal_mucosa	#1996f3	4.0	1.0	#ff0000	#ff0000
+383	Haemophilus parainfluenzae	2	Tongue_dorsum	#ff0000	2.0	1.0	#7effb5	#ff0000
+384	Rothia mucilaginosa	2	Buccal_mucosa	#1996f3	4.0	1.0	#ff0000	#ff0000
+385	Haemophilus sp. oral taxon 851	2	Attached	#4e4dfc	1.0	1.0	#01b3ec	#ff0000
+386	Rothia mucilaginosa	2	Buccal_mucosa	#1996f3	4.0	1.0	#ff0000	#ff0000
+387	Haemophilus sputorum	2	Buccal_mucosa	#1996f3	3.0	1.0	#feb562	#ff0000
+388	Rothia mucilaginosa	2	Buccal_mucosa	#1996f3	4.0	1.0	#ff0000	#ff0000
+389	Leptotrichia shahii	2	Tongue_dorsum	#ff0000	1.0	1.0	#01b3ec	#ff0000
+390	Rothia mucilaginosa	2	Buccal_mucosa	#1996f3	4.0	1.0	#ff0000	#ff0000
+391	Porphyromonas catoniae	2	Supragingival_plaque	#ff964f	3.0	1.0	#feb562	#ff0000
+392	Staphylococcus pasteuri	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+393	Alloprevotella tannerae	2	Subgingival_plaque	#e4cf74	3.0	1.0	#feb562	#ff0000
+394	Staphylococcus pasteuri	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+395	Candidatus Saccharibacteria oral taxon TM7x	2	Saliva	#7effb5	3.0	1.0	#feb562	#ff0000
+396	Staphylococcus pasteuri	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+397	Capnocytophaga sp. oral taxon 329	2	Supragingival_plaque	#ff964f	3.0	1.0	#feb562	#ff0000
+398	Staphylococcus pasteuri	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+399	Chlamydia trachomatis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+400	Staphylococcus pasteuri	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+401	Gemella haemolysans	2	Buccal_mucosa	#1996f3	3.0	1.0	#feb562	#ff0000
+402	Staphylococcus pasteuri	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+403	Gemella sanguinis	2	Tongue_dorsum	#ff0000	2.0	1.0	#7effb5	#ff0000
+404	Staphylococcus pasteuri	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+405	Granulicatella elegans	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+406	Staphylococcus pasteuri	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+407	Haemophilus haemolyticus	2	Attached	#4e4dfc	1.0	1.0	#01b3ec	#ff0000
+408	Staphylococcus pasteuri	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+409	Haemophilus influenzae	2	Buccal_mucosa	#1996f3	1.0	1.0	#01b3ec	#ff0000
+410	Staphylococcus pasteuri	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+411	Haemophilus parainfluenzae	2	Tongue_dorsum	#ff0000	2.0	1.0	#7effb5	#ff0000
+412	Staphylococcus pasteuri	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+413	Haemophilus sp. oral taxon 851	2	Attached	#4e4dfc	1.0	1.0	#01b3ec	#ff0000
+414	Staphylococcus pasteuri	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+415	Haemophilus sputorum	2	Buccal_mucosa	#1996f3	3.0	1.0	#feb562	#ff0000
+416	Staphylococcus pasteuri	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+417	Leptotrichia shahii	2	Tongue_dorsum	#ff0000	1.0	1.0	#01b3ec	#ff0000
+418	Staphylococcus pasteuri	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+419	Porphyromonas catoniae	2	Supragingival_plaque	#ff964f	3.0	1.0	#feb562	#ff0000
+420	Staphylococcus pasteuri	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+421	Rothia mucilaginosa	2	Buccal_mucosa	#1996f3	4.0	1.0	#ff0000	#ff0000
+422	Streptococcus dentisani	2	Buccal_mucosa	#1996f3	1.0	1.0	#01b3ec	#ff0000
+423	Alloprevotella tannerae	2	Subgingival_plaque	#e4cf74	3.0	1.0	#feb562	#ff0000
+424	Streptococcus dentisani	2	Buccal_mucosa	#1996f3	1.0	1.0	#01b3ec	#ff0000
+425	Candidatus Saccharibacteria oral taxon TM7x	2	Saliva	#7effb5	3.0	1.0	#feb562	#ff0000
+426	Streptococcus dentisani	2	Buccal_mucosa	#1996f3	1.0	1.0	#01b3ec	#ff0000
+427	Capnocytophaga sp. oral taxon 329	2	Supragingival_plaque	#ff964f	3.0	1.0	#feb562	#ff0000
+428	Streptococcus dentisani	2	Buccal_mucosa	#1996f3	1.0	1.0	#01b3ec	#ff0000
+429	Chlamydia trachomatis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+430	Streptococcus dentisani	2	Buccal_mucosa	#1996f3	1.0	1.0	#01b3ec	#ff0000
+431	Gemella haemolysans	2	Buccal_mucosa	#1996f3	3.0	1.0	#feb562	#ff0000
+432	Streptococcus dentisani	2	Buccal_mucosa	#1996f3	1.0	1.0	#01b3ec	#ff0000
+433	Gemella sanguinis	2	Tongue_dorsum	#ff0000	2.0	1.0	#7effb5	#ff0000
+434	Streptococcus dentisani	2	Buccal_mucosa	#1996f3	1.0	1.0	#01b3ec	#ff0000
+435	Granulicatella elegans	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+436	Streptococcus dentisani	2	Buccal_mucosa	#1996f3	1.0	1.0	#01b3ec	#ff0000
+437	Haemophilus haemolyticus	2	Attached	#4e4dfc	1.0	1.0	#01b3ec	#ff0000
+438	Streptococcus dentisani	2	Buccal_mucosa	#1996f3	1.0	1.0	#01b3ec	#ff0000
+439	Haemophilus influenzae	2	Buccal_mucosa	#1996f3	1.0	1.0	#01b3ec	#ff0000
+440	Streptococcus dentisani	2	Buccal_mucosa	#1996f3	1.0	1.0	#01b3ec	#ff0000
+441	Haemophilus parainfluenzae	2	Tongue_dorsum	#ff0000	2.0	1.0	#7effb5	#ff0000
+442	Streptococcus dentisani	2	Buccal_mucosa	#1996f3	1.0	1.0	#01b3ec	#ff0000
+443	Haemophilus sp. oral taxon 851	2	Attached	#4e4dfc	1.0	1.0	#01b3ec	#ff0000
+444	Streptococcus dentisani	2	Buccal_mucosa	#1996f3	1.0	1.0	#01b3ec	#ff0000
+445	Haemophilus sputorum	2	Buccal_mucosa	#1996f3	3.0	1.0	#feb562	#ff0000
+446	Streptococcus dentisani	2	Buccal_mucosa	#1996f3	1.0	1.0	#01b3ec	#ff0000
+447	Leptotrichia shahii	2	Tongue_dorsum	#ff0000	1.0	1.0	#01b3ec	#ff0000
+448	Streptococcus dentisani	2	Buccal_mucosa	#1996f3	1.0	1.0	#01b3ec	#ff0000
+449	Porphyromonas catoniae	2	Supragingival_plaque	#ff964f	3.0	1.0	#feb562	#ff0000
+450	Streptococcus dentisani	2	Buccal_mucosa	#1996f3	1.0	1.0	#01b3ec	#ff0000
+451	Rothia mucilaginosa	2	Buccal_mucosa	#1996f3	4.0	1.0	#ff0000	#ff0000
+452	Streptococcus dentisani	2	Buccal_mucosa	#1996f3	1.0	1.0	#01b3ec	#ff0000
+453	Staphylococcus pasteuri	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+454	Streptococcus gordonii	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+455	Alloprevotella tannerae	2	Subgingival_plaque	#e4cf74	3.0	1.0	#feb562	#ff0000
+456	Streptococcus gordonii	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+457	Candidatus Saccharibacteria oral taxon TM7x	2	Saliva	#7effb5	3.0	1.0	#feb562	#ff0000
+458	Streptococcus gordonii	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+459	Capnocytophaga sp. oral taxon 329	2	Supragingival_plaque	#ff964f	3.0	1.0	#feb562	#ff0000
+460	Streptococcus gordonii	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+461	Chlamydia trachomatis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+462	Streptococcus gordonii	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+463	Gemella haemolysans	2	Buccal_mucosa	#1996f3	3.0	1.0	#feb562	#ff0000
+464	Streptococcus gordonii	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+465	Gemella sanguinis	2	Tongue_dorsum	#ff0000	2.0	1.0	#7effb5	#ff0000
+466	Streptococcus gordonii	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+467	Granulicatella elegans	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+468	Streptococcus gordonii	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+469	Haemophilus haemolyticus	2	Attached	#4e4dfc	1.0	1.0	#01b3ec	#ff0000
+470	Streptococcus gordonii	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+471	Haemophilus influenzae	2	Buccal_mucosa	#1996f3	1.0	1.0	#01b3ec	#ff0000
+472	Streptococcus gordonii	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+473	Haemophilus parainfluenzae	2	Tongue_dorsum	#ff0000	2.0	1.0	#7effb5	#ff0000
+474	Streptococcus gordonii	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+475	Haemophilus sp. oral taxon 851	2	Attached	#4e4dfc	1.0	1.0	#01b3ec	#ff0000
+476	Streptococcus gordonii	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+477	Haemophilus sputorum	2	Buccal_mucosa	#1996f3	3.0	1.0	#feb562	#ff0000
+478	Streptococcus gordonii	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+479	Leptotrichia shahii	2	Tongue_dorsum	#ff0000	1.0	1.0	#01b3ec	#ff0000
+480	Streptococcus gordonii	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+481	Porphyromonas catoniae	2	Supragingival_plaque	#ff964f	3.0	1.0	#feb562	#ff0000
+482	Streptococcus gordonii	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+483	Rothia mucilaginosa	2	Buccal_mucosa	#1996f3	4.0	1.0	#ff0000	#ff0000
+484	Streptococcus gordonii	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+485	Staphylococcus pasteuri	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+486	Streptococcus gordonii	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+487	Streptococcus dentisani	2	Buccal_mucosa	#1996f3	1.0	1.0	#01b3ec	#ff0000
+488	Streptococcus mitis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+489	Alloprevotella tannerae	2	Subgingival_plaque	#e4cf74	3.0	1.0	#feb562	#ff0000
+490	Streptococcus mitis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+491	Candidatus Saccharibacteria oral taxon TM7x	2	Saliva	#7effb5	3.0	1.0	#feb562	#ff0000
+492	Streptococcus mitis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+493	Capnocytophaga sp. oral taxon 329	2	Supragingival_plaque	#ff964f	3.0	1.0	#feb562	#ff0000
+494	Streptococcus mitis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+495	Chlamydia trachomatis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+496	Streptococcus mitis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+497	Gemella haemolysans	2	Buccal_mucosa	#1996f3	3.0	1.0	#feb562	#ff0000
+498	Streptococcus mitis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+499	Gemella sanguinis	2	Tongue_dorsum	#ff0000	2.0	1.0	#7effb5	#ff0000
+500	Streptococcus mitis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+501	Granulicatella elegans	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+502	Streptococcus mitis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+503	Haemophilus haemolyticus	2	Attached	#4e4dfc	1.0	1.0	#01b3ec	#ff0000
+504	Streptococcus mitis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+505	Haemophilus influenzae	2	Buccal_mucosa	#1996f3	1.0	1.0	#01b3ec	#ff0000
+506	Streptococcus mitis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+507	Haemophilus parainfluenzae	2	Tongue_dorsum	#ff0000	2.0	1.0	#7effb5	#ff0000
+508	Streptococcus mitis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+509	Haemophilus sp. oral taxon 851	2	Attached	#4e4dfc	1.0	1.0	#01b3ec	#ff0000
+510	Streptococcus mitis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+511	Haemophilus sputorum	2	Buccal_mucosa	#1996f3	3.0	1.0	#feb562	#ff0000
+512	Streptococcus mitis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+513	Leptotrichia shahii	2	Tongue_dorsum	#ff0000	1.0	1.0	#01b3ec	#ff0000
+514	Streptococcus mitis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+515	Porphyromonas catoniae	2	Supragingival_plaque	#ff964f	3.0	1.0	#feb562	#ff0000
+516	Streptococcus mitis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+517	Rothia mucilaginosa	2	Buccal_mucosa	#1996f3	4.0	1.0	#ff0000	#ff0000
+518	Streptococcus mitis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+519	Staphylococcus pasteuri	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+520	Streptococcus mitis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+521	Streptococcus dentisani	2	Buccal_mucosa	#1996f3	1.0	1.0	#01b3ec	#ff0000
+522	Streptococcus mitis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+523	Streptococcus gordonii	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+524	Streptococcus oligofermentans	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+525	Alloprevotella tannerae	2	Subgingival_plaque	#e4cf74	3.0	1.0	#feb562	#ff0000
+526	Streptococcus oligofermentans	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+527	Candidatus Saccharibacteria oral taxon TM7x	2	Saliva	#7effb5	3.0	1.0	#feb562	#ff0000
+528	Streptococcus oligofermentans	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+529	Capnocytophaga sp. oral taxon 329	2	Supragingival_plaque	#ff964f	3.0	1.0	#feb562	#ff0000
+530	Streptococcus oligofermentans	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+531	Chlamydia trachomatis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+532	Streptococcus oligofermentans	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+533	Gemella haemolysans	2	Buccal_mucosa	#1996f3	3.0	1.0	#feb562	#ff0000
+534	Streptococcus oligofermentans	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+535	Gemella sanguinis	2	Tongue_dorsum	#ff0000	2.0	1.0	#7effb5	#ff0000
+536	Streptococcus oligofermentans	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+537	Granulicatella elegans	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+538	Streptococcus oligofermentans	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+539	Haemophilus haemolyticus	2	Attached	#4e4dfc	1.0	1.0	#01b3ec	#ff0000
+540	Streptococcus oligofermentans	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+541	Haemophilus influenzae	2	Buccal_mucosa	#1996f3	1.0	1.0	#01b3ec	#ff0000
+542	Streptococcus oligofermentans	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+543	Haemophilus parainfluenzae	2	Tongue_dorsum	#ff0000	2.0	1.0	#7effb5	#ff0000
+544	Streptococcus oligofermentans	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+545	Haemophilus sp. oral taxon 851	2	Attached	#4e4dfc	1.0	1.0	#01b3ec	#ff0000
+546	Streptococcus oligofermentans	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+547	Haemophilus sputorum	2	Buccal_mucosa	#1996f3	3.0	1.0	#feb562	#ff0000
+548	Streptococcus oligofermentans	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+549	Leptotrichia shahii	2	Tongue_dorsum	#ff0000	1.0	1.0	#01b3ec	#ff0000
+550	Streptococcus oligofermentans	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+551	Porphyromonas catoniae	2	Supragingival_plaque	#ff964f	3.0	1.0	#feb562	#ff0000
+552	Streptococcus oligofermentans	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+553	Rothia mucilaginosa	2	Buccal_mucosa	#1996f3	4.0	1.0	#ff0000	#ff0000
+554	Streptococcus oligofermentans	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+555	Staphylococcus pasteuri	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+556	Streptococcus oligofermentans	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+557	Streptococcus dentisani	2	Buccal_mucosa	#1996f3	1.0	1.0	#01b3ec	#ff0000
+558	Streptococcus oligofermentans	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+559	Streptococcus gordonii	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+560	Streptococcus oligofermentans	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+561	Streptococcus mitis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+562	Streptococcus parasanguinis	2	Tongue_dorsum	#ff0000	0.0	0.0	#8000ff	#8000ff
+563	Actinomyces naeslundii	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+564	Streptococcus parasanguinis	2	Tongue_dorsum	#ff0000	0.0	0.0	#8000ff	#8000ff
+565	Actinomyces oris	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+566	Streptococcus parasanguinis	2	Tongue_dorsum	#ff0000	0.0	0.0	#8000ff	#8000ff
+567	Actinomyces sp. ICM47	2	Tongue_dorsum	#ff0000	0.0	0.0	#8000ff	#8000ff
+568	Streptococcus parasanguinis	2	Tongue_dorsum	#ff0000	0.0	0.0	#8000ff	#8000ff
+569	Actinomyces sp. oral taxon 170	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+570	Streptococcus parasanguinis	2	Tongue_dorsum	#ff0000	0.0	0.0	#8000ff	#8000ff
+571	Actinomyces sp. oral taxon 171	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+572	Streptococcus parasanguinis	2	Tongue_dorsum	#ff0000	0.0	0.0	#8000ff	#8000ff
+573	Capnocytophaga sp. oral taxon 332	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+574	Streptococcus parasanguinis	2	Tongue_dorsum	#ff0000	0.0	0.0	#8000ff	#8000ff
+575	Capnocytophaga sputigena	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+576	Streptococcus parasanguinis	2	Tongue_dorsum	#ff0000	0.0	0.0	#8000ff	#8000ff
+577	Corynebacterium durum	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+578	Streptococcus parasanguinis	2	Tongue_dorsum	#ff0000	0.0	0.0	#8000ff	#8000ff
+579	Corynebacterium matruchotii	1	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+580	Streptococcus parasanguinis	2	Tongue_dorsum	#ff0000	0.0	0.0	#8000ff	#8000ff
+581	Neisseria cinerea	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+582	Streptococcus parasanguinis	2	Tongue_dorsum	#ff0000	0.0	0.0	#8000ff	#8000ff
+583	Neisseria meningitidis	2	Throat	#ff5029	0.0	0.0	#8000ff	#8000ff
+584	Streptococcus parasanguinis	2	Tongue_dorsum	#ff0000	0.0	0.0	#8000ff	#8000ff
+585	Porphyromonas gingivalis	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+586	Streptococcus parasanguinis	2	Tongue_dorsum	#ff0000	0.0	0.0	#8000ff	#8000ff
+587	Porphyromonas sp. oral taxon 278	2	Subgingival_plaque	#e4cf74	0.0	0.0	#8000ff	#8000ff
+588	Streptococcus parasanguinis	2	Tongue_dorsum	#ff0000	0.0	0.0	#8000ff	#8000ff
+589	Prevotella sp. oral taxon 473	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+590	Streptococcus pneumoniae	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+591	Actinomyces naeslundii	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+592	Streptococcus pneumoniae	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+593	Actinomyces oris	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+594	Streptococcus pneumoniae	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+595	Actinomyces sp. ICM47	2	Tongue_dorsum	#ff0000	0.0	0.0	#8000ff	#8000ff
+596	Streptococcus pneumoniae	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+597	Actinomyces sp. oral taxon 170	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+598	Streptococcus pneumoniae	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+599	Actinomyces sp. oral taxon 171	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+600	Streptococcus pneumoniae	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+601	Capnocytophaga sp. oral taxon 332	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+602	Streptococcus pneumoniae	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+603	Capnocytophaga sputigena	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+604	Streptococcus pneumoniae	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+605	Corynebacterium durum	2	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+606	Streptococcus pneumoniae	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+607	Corynebacterium matruchotii	1	Supragingival_plaque	#ff964f	0.0	0.0	#8000ff	#8000ff
+608	Streptococcus pneumoniae	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+609	Neisseria cinerea	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+610	Streptococcus pneumoniae	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+611	Neisseria meningitidis	2	Throat	#ff5029	0.0	0.0	#8000ff	#8000ff
+612	Streptococcus pneumoniae	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+613	Porphyromonas gingivalis	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+614	Streptococcus pneumoniae	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+615	Porphyromonas sp. oral taxon 278	2	Subgingival_plaque	#e4cf74	0.0	0.0	#8000ff	#8000ff
+616	Streptococcus pneumoniae	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+617	Prevotella sp. oral taxon 473	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+618	Streptococcus pneumoniae	2	Attached	#4e4dfc	0.0	0.0	#8000ff	#8000ff
+619	Streptococcus parasanguinis	2	Tongue_dorsum	#ff0000	0.0	0.0	#8000ff	#8000ff
+620	Streptococcus pseudopneumoniae	1	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+621	Alloprevotella tannerae	2	Subgingival_plaque	#e4cf74	3.0	1.0	#feb562	#ff0000
+622	Streptococcus pseudopneumoniae	1	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+623	Candidatus Saccharibacteria oral taxon TM7x	2	Saliva	#7effb5	3.0	1.0	#feb562	#ff0000
+624	Streptococcus pseudopneumoniae	1	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+625	Capnocytophaga sp. oral taxon 329	2	Supragingival_plaque	#ff964f	3.0	1.0	#feb562	#ff0000
+626	Streptococcus pseudopneumoniae	1	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+627	Chlamydia trachomatis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+628	Streptococcus pseudopneumoniae	1	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+629	Gemella haemolysans	2	Buccal_mucosa	#1996f3	3.0	1.0	#feb562	#ff0000
+630	Streptococcus pseudopneumoniae	1	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+631	Gemella sanguinis	2	Tongue_dorsum	#ff0000	2.0	1.0	#7effb5	#ff0000
+632	Streptococcus pseudopneumoniae	1	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+633	Granulicatella elegans	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+634	Streptococcus pseudopneumoniae	1	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+635	Haemophilus haemolyticus	2	Attached	#4e4dfc	1.0	1.0	#01b3ec	#ff0000
+636	Streptococcus pseudopneumoniae	1	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+637	Haemophilus influenzae	2	Buccal_mucosa	#1996f3	1.0	1.0	#01b3ec	#ff0000
+638	Streptococcus pseudopneumoniae	1	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+639	Haemophilus parainfluenzae	2	Tongue_dorsum	#ff0000	2.0	1.0	#7effb5	#ff0000
+640	Streptococcus pseudopneumoniae	1	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+641	Haemophilus sp. oral taxon 851	2	Attached	#4e4dfc	1.0	1.0	#01b3ec	#ff0000
+642	Streptococcus pseudopneumoniae	1	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+643	Haemophilus sputorum	2	Buccal_mucosa	#1996f3	3.0	1.0	#feb562	#ff0000
+644	Streptococcus pseudopneumoniae	1	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+645	Leptotrichia shahii	2	Tongue_dorsum	#ff0000	1.0	1.0	#01b3ec	#ff0000
+646	Streptococcus pseudopneumoniae	1	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+647	Porphyromonas catoniae	2	Supragingival_plaque	#ff964f	3.0	1.0	#feb562	#ff0000
+648	Streptococcus pseudopneumoniae	1	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+649	Rothia mucilaginosa	2	Buccal_mucosa	#1996f3	4.0	1.0	#ff0000	#ff0000
+650	Streptococcus pseudopneumoniae	1	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+651	Staphylococcus pasteuri	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+652	Streptococcus pseudopneumoniae	1	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+653	Streptococcus dentisani	2	Buccal_mucosa	#1996f3	1.0	1.0	#01b3ec	#ff0000
+654	Streptococcus pseudopneumoniae	1	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+655	Streptococcus gordonii	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+656	Streptococcus pseudopneumoniae	1	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+657	Streptococcus mitis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+658	Streptococcus pseudopneumoniae	1	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+659	Streptococcus oligofermentans	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+660	Streptococcus sp. F0442	2	Tongue_dorsum	#ff0000	3.0	1.0	#feb562	#ff0000
+661	Alloprevotella tannerae	2	Subgingival_plaque	#e4cf74	3.0	1.0	#feb562	#ff0000
+662	Streptococcus sp. F0442	2	Tongue_dorsum	#ff0000	3.0	1.0	#feb562	#ff0000
+663	Candidatus Saccharibacteria oral taxon TM7x	2	Saliva	#7effb5	3.0	1.0	#feb562	#ff0000
+664	Streptococcus sp. F0442	2	Tongue_dorsum	#ff0000	3.0	1.0	#feb562	#ff0000
+665	Capnocytophaga sp. oral taxon 329	2	Supragingival_plaque	#ff964f	3.0	1.0	#feb562	#ff0000
+666	Streptococcus sp. F0442	2	Tongue_dorsum	#ff0000	3.0	1.0	#feb562	#ff0000
+667	Chlamydia trachomatis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+668	Streptococcus sp. F0442	2	Tongue_dorsum	#ff0000	3.0	1.0	#feb562	#ff0000
+669	Gemella haemolysans	2	Buccal_mucosa	#1996f3	3.0	1.0	#feb562	#ff0000
+670	Streptococcus sp. F0442	2	Tongue_dorsum	#ff0000	3.0	1.0	#feb562	#ff0000
+671	Gemella sanguinis	2	Tongue_dorsum	#ff0000	2.0	1.0	#7effb5	#ff0000
+672	Streptococcus sp. F0442	2	Tongue_dorsum	#ff0000	3.0	1.0	#feb562	#ff0000
+673	Granulicatella elegans	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+674	Streptococcus sp. F0442	2	Tongue_dorsum	#ff0000	3.0	1.0	#feb562	#ff0000
+675	Haemophilus haemolyticus	2	Attached	#4e4dfc	1.0	1.0	#01b3ec	#ff0000
+676	Streptococcus sp. F0442	2	Tongue_dorsum	#ff0000	3.0	1.0	#feb562	#ff0000
+677	Haemophilus influenzae	2	Buccal_mucosa	#1996f3	1.0	1.0	#01b3ec	#ff0000
+678	Streptococcus sp. F0442	2	Tongue_dorsum	#ff0000	3.0	1.0	#feb562	#ff0000
+679	Haemophilus parainfluenzae	2	Tongue_dorsum	#ff0000	2.0	1.0	#7effb5	#ff0000
+680	Streptococcus sp. F0442	2	Tongue_dorsum	#ff0000	3.0	1.0	#feb562	#ff0000
+681	Haemophilus sp. oral taxon 851	2	Attached	#4e4dfc	1.0	1.0	#01b3ec	#ff0000
+682	Streptococcus sp. F0442	2	Tongue_dorsum	#ff0000	3.0	1.0	#feb562	#ff0000
+683	Haemophilus sputorum	2	Buccal_mucosa	#1996f3	3.0	1.0	#feb562	#ff0000
+684	Streptococcus sp. F0442	2	Tongue_dorsum	#ff0000	3.0	1.0	#feb562	#ff0000
+685	Leptotrichia shahii	2	Tongue_dorsum	#ff0000	1.0	1.0	#01b3ec	#ff0000
+686	Streptococcus sp. F0442	2	Tongue_dorsum	#ff0000	3.0	1.0	#feb562	#ff0000
+687	Porphyromonas catoniae	2	Supragingival_plaque	#ff964f	3.0	1.0	#feb562	#ff0000
+688	Streptococcus sp. F0442	2	Tongue_dorsum	#ff0000	3.0	1.0	#feb562	#ff0000
+689	Rothia mucilaginosa	2	Buccal_mucosa	#1996f3	4.0	1.0	#ff0000	#ff0000
+690	Streptococcus sp. F0442	2	Tongue_dorsum	#ff0000	3.0	1.0	#feb562	#ff0000
+691	Staphylococcus pasteuri	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+692	Streptococcus sp. F0442	2	Tongue_dorsum	#ff0000	3.0	1.0	#feb562	#ff0000
+693	Streptococcus dentisani	2	Buccal_mucosa	#1996f3	1.0	1.0	#01b3ec	#ff0000
+694	Streptococcus sp. F0442	2	Tongue_dorsum	#ff0000	3.0	1.0	#feb562	#ff0000
+695	Streptococcus gordonii	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+696	Streptococcus sp. F0442	2	Tongue_dorsum	#ff0000	3.0	1.0	#feb562	#ff0000
+697	Streptococcus mitis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+698	Streptococcus sp. F0442	2	Tongue_dorsum	#ff0000	3.0	1.0	#feb562	#ff0000
+699	Streptococcus oligofermentans	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+700	Streptococcus sp. F0442	2	Tongue_dorsum	#ff0000	3.0	1.0	#feb562	#ff0000
+701	Streptococcus pseudopneumoniae	1	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+702	Veillonella seminalis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+703	Alloprevotella tannerae	2	Subgingival_plaque	#e4cf74	3.0	1.0	#feb562	#ff0000
+704	Veillonella seminalis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+705	Candidatus Saccharibacteria oral taxon TM7x	2	Saliva	#7effb5	3.0	1.0	#feb562	#ff0000
+706	Veillonella seminalis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+707	Capnocytophaga sp. oral taxon 329	2	Supragingival_plaque	#ff964f	3.0	1.0	#feb562	#ff0000
+708	Veillonella seminalis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+709	Chlamydia trachomatis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+710	Veillonella seminalis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+711	Gemella haemolysans	2	Buccal_mucosa	#1996f3	3.0	1.0	#feb562	#ff0000
+712	Veillonella seminalis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+713	Gemella sanguinis	2	Tongue_dorsum	#ff0000	2.0	1.0	#7effb5	#ff0000
+714	Veillonella seminalis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+715	Granulicatella elegans	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+716	Veillonella seminalis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+717	Haemophilus haemolyticus	2	Attached	#4e4dfc	1.0	1.0	#01b3ec	#ff0000
+718	Veillonella seminalis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+719	Haemophilus influenzae	2	Buccal_mucosa	#1996f3	1.0	1.0	#01b3ec	#ff0000
+720	Veillonella seminalis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+721	Haemophilus parainfluenzae	2	Tongue_dorsum	#ff0000	2.0	1.0	#7effb5	#ff0000
+722	Veillonella seminalis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+723	Haemophilus sp. oral taxon 851	2	Attached	#4e4dfc	1.0	1.0	#01b3ec	#ff0000
+724	Veillonella seminalis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+725	Haemophilus sputorum	2	Buccal_mucosa	#1996f3	3.0	1.0	#feb562	#ff0000
+726	Veillonella seminalis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+727	Leptotrichia shahii	2	Tongue_dorsum	#ff0000	1.0	1.0	#01b3ec	#ff0000
+728	Veillonella seminalis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+729	Porphyromonas catoniae	2	Supragingival_plaque	#ff964f	3.0	1.0	#feb562	#ff0000
+730	Veillonella seminalis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+731	Rothia mucilaginosa	2	Buccal_mucosa	#1996f3	4.0	1.0	#ff0000	#ff0000
+732	Veillonella seminalis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+733	Staphylococcus pasteuri	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+734	Veillonella seminalis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+735	Streptococcus dentisani	2	Buccal_mucosa	#1996f3	1.0	1.0	#01b3ec	#ff0000
+736	Veillonella seminalis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+737	Streptococcus gordonii	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+738	Veillonella seminalis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+739	Streptococcus mitis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+740	Veillonella seminalis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+741	Streptococcus oligofermentans	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+742	Veillonella seminalis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+743	Streptococcus pseudopneumoniae	1	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+744	Veillonella seminalis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+745	Streptococcus sp. F0442	2	Tongue_dorsum	#ff0000	3.0	1.0	#feb562	#ff0000
+746	Veillonella sp. oral taxon 780	2	Attached	#4e4dfc	4.0	1.0	#ff0000	#ff0000
+747	Alloprevotella tannerae	2	Subgingival_plaque	#e4cf74	3.0	1.0	#feb562	#ff0000
+748	Veillonella sp. oral taxon 780	2	Attached	#4e4dfc	4.0	1.0	#ff0000	#ff0000
+749	Candidatus Saccharibacteria oral taxon TM7x	2	Saliva	#7effb5	3.0	1.0	#feb562	#ff0000
+750	Veillonella sp. oral taxon 780	2	Attached	#4e4dfc	4.0	1.0	#ff0000	#ff0000
+751	Capnocytophaga sp. oral taxon 329	2	Supragingival_plaque	#ff964f	3.0	1.0	#feb562	#ff0000
+752	Veillonella sp. oral taxon 780	2	Attached	#4e4dfc	4.0	1.0	#ff0000	#ff0000
+753	Chlamydia trachomatis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+754	Veillonella sp. oral taxon 780	2	Attached	#4e4dfc	4.0	1.0	#ff0000	#ff0000
+755	Gemella haemolysans	2	Buccal_mucosa	#1996f3	3.0	1.0	#feb562	#ff0000
+756	Veillonella sp. oral taxon 780	2	Attached	#4e4dfc	4.0	1.0	#ff0000	#ff0000
+757	Gemella sanguinis	2	Tongue_dorsum	#ff0000	2.0	1.0	#7effb5	#ff0000
+758	Veillonella sp. oral taxon 780	2	Attached	#4e4dfc	4.0	1.0	#ff0000	#ff0000
+759	Granulicatella elegans	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+760	Veillonella sp. oral taxon 780	2	Attached	#4e4dfc	4.0	1.0	#ff0000	#ff0000
+761	Haemophilus haemolyticus	2	Attached	#4e4dfc	1.0	1.0	#01b3ec	#ff0000
+762	Veillonella sp. oral taxon 780	2	Attached	#4e4dfc	4.0	1.0	#ff0000	#ff0000
+763	Haemophilus influenzae	2	Buccal_mucosa	#1996f3	1.0	1.0	#01b3ec	#ff0000
+764	Veillonella sp. oral taxon 780	2	Attached	#4e4dfc	4.0	1.0	#ff0000	#ff0000
+765	Haemophilus parainfluenzae	2	Tongue_dorsum	#ff0000	2.0	1.0	#7effb5	#ff0000
+766	Veillonella sp. oral taxon 780	2	Attached	#4e4dfc	4.0	1.0	#ff0000	#ff0000
+767	Haemophilus sp. oral taxon 851	2	Attached	#4e4dfc	1.0	1.0	#01b3ec	#ff0000
+768	Veillonella sp. oral taxon 780	2	Attached	#4e4dfc	4.0	1.0	#ff0000	#ff0000
+769	Haemophilus sputorum	2	Buccal_mucosa	#1996f3	3.0	1.0	#feb562	#ff0000
+770	Veillonella sp. oral taxon 780	2	Attached	#4e4dfc	4.0	1.0	#ff0000	#ff0000
+771	Leptotrichia shahii	2	Tongue_dorsum	#ff0000	1.0	1.0	#01b3ec	#ff0000
+772	Veillonella sp. oral taxon 780	2	Attached	#4e4dfc	4.0	1.0	#ff0000	#ff0000
+773	Porphyromonas catoniae	2	Supragingival_plaque	#ff964f	3.0	1.0	#feb562	#ff0000
+774	Veillonella sp. oral taxon 780	2	Attached	#4e4dfc	4.0	1.0	#ff0000	#ff0000
+775	Rothia mucilaginosa	2	Buccal_mucosa	#1996f3	4.0	1.0	#ff0000	#ff0000
+776	Veillonella sp. oral taxon 780	2	Attached	#4e4dfc	4.0	1.0	#ff0000	#ff0000
+777	Staphylococcus pasteuri	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+778	Veillonella sp. oral taxon 780	2	Attached	#4e4dfc	4.0	1.0	#ff0000	#ff0000
+779	Streptococcus dentisani	2	Buccal_mucosa	#1996f3	1.0	1.0	#01b3ec	#ff0000
+780	Veillonella sp. oral taxon 780	2	Attached	#4e4dfc	4.0	1.0	#ff0000	#ff0000
+781	Streptococcus gordonii	2	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+782	Veillonella sp. oral taxon 780	2	Attached	#4e4dfc	4.0	1.0	#ff0000	#ff0000
+783	Streptococcus mitis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+784	Veillonella sp. oral taxon 780	2	Attached	#4e4dfc	4.0	1.0	#ff0000	#ff0000
+785	Streptococcus oligofermentans	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000
+786	Veillonella sp. oral taxon 780	2	Attached	#4e4dfc	4.0	1.0	#ff0000	#ff0000
+787	Streptococcus pseudopneumoniae	1	Attached	#4e4dfc	2.0	1.0	#7effb5	#ff0000
+788	Veillonella sp. oral taxon 780	2	Attached	#4e4dfc	4.0	1.0	#ff0000	#ff0000
+789	Streptococcus sp. F0442	2	Tongue_dorsum	#ff0000	3.0	1.0	#feb562	#ff0000
+790	Veillonella sp. oral taxon 780	2	Attached	#4e4dfc	4.0	1.0	#ff0000	#ff0000
+791	Veillonella seminalis	2	Attached	#4e4dfc	3.0	1.0	#feb562	#ff0000

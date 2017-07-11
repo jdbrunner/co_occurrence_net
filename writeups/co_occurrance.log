@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  6 JUL 2017 11:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  10 JUL 2017 15:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -823,71 +823,72 @@ Package xypdf Info: Line width: 0.39998pt on input line 155.
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
  [4] [5]
 [6] [7] [8]
-Overfull \hbox (2.2222pt too wide) in paragraph at lines 568--595
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 600--627
 [][] [] 
  []
 
-<ranked_ivp.png, id=54, 700.6175pt x 659.46375pt>
+[9] [10] <ranked_ivp.png, id=60, 700.6175pt x 659.46375pt>
 File: ranked_ivp.png Graphic file (type png)
- <use ranked_ivp.png>
-Package pdftex.def Info: ranked_ivp.png used on input line 692.
-(pdftex.def)             Requested size: 210.18686pt x 197.84064pt.
 
-<ranked_bdvp.png, id=56, 697.60625pt x 641.39626pt>
+<use ranked_ivp.png>
+Package pdftex.def Info: ranked_ivp.png used on input line 724.
+(pdftex.def)             Requested size: 210.18686pt x 197.84064pt.
+ <ranked_bdvp.png, id=62, 697.60625pt x 641.39626pt>
 File: ranked_bdvp.png Graphic file (type png)
- <use ranked_bdvp.png>
-Package pdftex.def Info: ranked_bdvp.png used on input line 698.
+
+<use ranked_bdvp.png>
+Package pdftex.def Info: ranked_bdvp.png used on input line 730.
 (pdftex.def)             Requested size: 209.28348pt x 192.42035pt.
 
-<ranked_known_nodes.png, id=57, 693.59125pt x 649.42625pt>
+<ranked_known_nodes.png, id=63, 693.59125pt x 649.42625pt>
 File: ranked_known_nodes.png Graphic file (type png)
 
 <use ranked_known_nodes.png>
-Package pdftex.def Info: ranked_known_nodes.png used on input line 704.
+Package pdftex.def Info: ranked_known_nodes.png used on input line 736.
 (pdftex.def)             Requested size: 208.07898pt x 194.82938pt.
- <xymatrix 2x4 272> [9] [10] [11 <./ranked_ivp.png> <./ranked_bdvp.png> <./rank
-ed_known_nodes.png>] [12] [13] (./co_occurrance.bbl
+ <xymatrix 2x4 272> [11] [12 <./ranked_ivp.png> <./ranked_bdvp.png> <./ranked_k
+nown_nodes.png>] [13] [14] (./co_occurrance.bbl
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¼ in font cmr10!
-) [14] (./co_occurrance.aux) ) 
+)
+[15] (./co_occurrance.aux) ) 
 Here is how much of TeX's memory you used:
- 19778 strings out of 492995
- 363904 string characters out of 6132704
- 484878 words of memory out of 5000000
- 22921 multiletter control sequences out of 15000+600000
+ 19783 strings out of 492995
+ 363977 string characters out of 6132704
+ 485878 words of memory out of 5000000
+ 22926 multiletter control sequences out of 15000+600000
  20659 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,15n,67p,3240b,895s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2017/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pub
-lic/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmmib10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/a
-msfonts/cmextra/cmmib7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr17.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmsy7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmti10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mti7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
-i9.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/
-msbm10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/xypic/xyatip1
-0.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/xypic/xybtip10.pfb
->
-Output written on co_occurrance.pdf (14 pages, 584380 bytes).
+</usr/local/texlive/2017/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publi
+c/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmmi8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmmib10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/ams
+fonts/cmextra/cmmib7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr17.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmsy7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+ti10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
+i7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9
+.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/ms
+bm10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/xypic/xyatip10.
+pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/xypic/xybtip10.pfb>
+Output written on co_occurrance.pdf (15 pages, 591611 bytes).
 PDF statistics:
- 161 PDF objects out of 1000 (max. 8388607)
- 112 compressed objects within 2 object streams
+ 164 PDF objects out of 1000 (max. 8388607)
+ 114 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  28 words of extra memory for PDF output out of 10000 (max. 10000000)
 

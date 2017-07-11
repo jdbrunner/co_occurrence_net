@@ -548,7 +548,7 @@ def diffusion_ivp(known_on,known_off, network, suspected =0.5, non_suspected = 0
 	u0 = u0/norm(u0)
 	#find the coefficients c_i
 	ci = solve(evec,u0)
-	zers = where(abs(eval) > 10**(-5)) #find nonzero eigenvalues
+	zers = where(abs(eval) > 10**(-15)) #find nonzero eigenvalues
 	eqs = delete(range(len(eval)),zers) #and zero eigenvalues
 	equib = dot(evec[:,eqs],ci[eqs]) #equilibrium solution to the diffusion(the kernel of L)
 	rel_c = ci[zers]
@@ -577,7 +577,7 @@ def diffusion_ivp(known_on,known_off, network, suspected =0.5, non_suspected = 0
 		for j in range(len(ust)):
 			if sum([j == w for w in whch]) > 1:
 				tied_guys = unknown[where(equib_unk == ust[j])]
-				tied_which = where([guy in tied_guys for guy in ranked])
+				tied_which = [ranked.index(guy) for guy in tied_guys]
 				their_str = srt_str[tied_which]
 				tmp2 = their_str.argsort()
 				them_rked = empty(len(tied_guys))
@@ -589,14 +589,12 @@ def diffusion_ivp(known_on,known_off, network, suspected =0.5, non_suspected = 0
 					for k in range(len(ust2)):
 						if sum([k==ww for ww in wch2])>1:
 							stl_tied = tied_guys[where(their_str == ust2[k])]
-							stl_which = where([guyy in stl_tied for guyy in them_rked])
-							stl_rank = min(stl_which[0])
+							stl_which = [them_rked.index(guyy) for guyy in stl_tied]
+							stl_rank = min(stl_which)
 							for stl in stl_tied:
 								them_rked.remove(stl)
 							them_rked.insert(stl_rank,list(stl_tied))
-				tied_rank = min(tied_which[0])
-# 				print(ranked)
-# 				print(tied_which)
+				tied_rank = min(tied_which)
 				for po in them_rked:	
 					if shape(po) != ():
 						for ppo in po:
@@ -715,5 +713,29 @@ def get_sample(daata):
 	return [samp,samp_stype]
 	
 #########################################################################################
+
+
+########Flat it
+def flat_two_deep(li):
+	firstpass = []
+	for item in li:
+		if isinstance(item,list):
+			firstpass = firstpass + item
+		else:
+			firstpass = firstpass + [item]
+	final = []
+	for item2 in firstpass:
+		if isinstance(item2,list):
+			final = final + item2
+		else:
+			final = final + [item2]
+	return final
+			
+
+
+
+
+
+
 
 	

@@ -27,7 +27,7 @@ from co_occ_funs import *
 csv_name = sys.argv[1]
 level = sys.argv[2]
 net_name = sys.argv[3]
-sample_types = False #sys.argv[4]
+sample_types = sys.argv[4]
 if sample_types == 'True':
 	sample_types = True
 else:
@@ -110,12 +110,13 @@ else:
 	ab_arrays = [abundance_array_full]
 
 
+save = True
 old_way = True
 new_way = True
-adjacency_frames_bins = dict()
-source_target_frames_bins = dict()
-adjacency_frames_pear = dict()
-source_target_frames_pear = dict()
+# adjacency_frames_bins = dict()
+# source_target_frames_bins = dict()
+# adjacency_frames_pear = dict()
+# source_target_frames_pear = dict()
 #colors = dict()
 for i in level:
 	print(i)
@@ -153,35 +154,33 @@ for i in level:
 			adj_matrix_pre_bins = delete(adj_matrix_pre_bins,unconnected_b,0)
 			adj_matrix_pre_bins = delete(adj_matrix_pre_bins,unconnected_b,1)
 			ab_np_array_bins = delete(ab_np_array,unconnected_b,0)
-			if ab_np_array_bins.shape[0] == 0:
-				break
-			in_level_b = delete(in_level,unconnected_b)
+			if ab_np_array_bins.shape[0] != 0:
+				in_level_b = delete(in_level,unconnected_b)
 			
-			stringency_b = 0.05
-			N = len(ab_np_array[0])
-			tot_seen_b = [sum([abd != 0 for abd in row]) for row in ab_np_array]
+				stringency_b = 0.05
+				N = len(ab_np_array[0])
+				tot_seen_b = [sum([abd != 0 for abd in row]) for row in ab_np_array]
 			
-			adj_size_b = adj_matrix_pre_bins.shape
-			adj_matrix_bins = zeros(adj_size_b)
-			for k in range(adj_size_b[0]):
-				for j in range(adj_size_b[1]):
-					if adj_matrix_pre_bins[k,j] != 0:
-						p = approx_rand_prob(occur_probs,adj_matrix_pre_bins[k,j],k,j)
-						if p <= stringency_b:
-							adj_matrix_bins[k,j] = adj_matrix_pre_bins[k,j] 
+				adj_size_b = adj_matrix_pre_bins.shape
+				adj_matrix_bins = zeros(adj_size_b)
+				for k in range(adj_size_b[0]):
+					for j in range(adj_size_b[1]):
+						if adj_matrix_pre_bins[k,j] != 0:
+							p = approx_rand_prob(occur_probs,adj_matrix_pre_bins[k,j],k,j)
+							if p <= stringency_b:
+								adj_matrix_bins[k,j] = adj_matrix_pre_bins[k,j] 
 			
-			degs2_b = sum(adj_matrix_bins,1)
-			unconnected2_b = where(degs2_b == 0)
-			adj_matrix_bins = delete(adj_matrix_bins,unconnected2_b,0)
-			adj_matrix_bins = delete(adj_matrix_bins,unconnected2_b,1)
-			tot_seen_2_b = delete(tot_seen_b,unconnected2_b)
+				degs2_b = sum(adj_matrix_bins,1)
+				unconnected2_b = where(degs2_b == 0)
+				adj_matrix_bins = delete(adj_matrix_bins,unconnected2_b,0)
+				adj_matrix_bins = delete(adj_matrix_bins,unconnected2_b,1)
+				tot_seen_2_b = delete(tot_seen_b,unconnected2_b)
 				
-			in_level_2_b = delete(in_level_b,unconnected2_b)				
+				in_level_2_b = delete(in_level_b,unconnected2_b)				
 							
-			adjacency_frames_bins[i + '_' + stype] = pd.DataFrame(adj_matrix_bins, index = abundance_array['TAXA'][in_level_2_b], columns = abundance_array['TAXA'][in_level_2_b])
+				adjacency_frames_bins = pd.DataFrame(adj_matrix_bins, index = abundance_array['TAXA'][in_level_2_b], columns = abundance_array['TAXA'][in_level_2_b])
 
-			toedge = True
-			if toedge:
+
 				#create a list of edges - source in one column, target in the other. This is an alternative to the adjacency matrix
 				#that might make it easier to load in to cytoscape.
 				num_edge_b = count_nonzero(adj_matrix_bins)
@@ -202,14 +201,17 @@ for i in level:
 															s_type2[0],s_type1[0],edge_samp[0],s_type2[1],s_type1[1],edge_samp[1],N]
 								source_target_data_bins += [edge]
 								source_target_data_bins += [rev_edge]
-		
-				
-				#turn list into a dataframe
-				source_target_frames_bins[i + '_' + stype] = pd.DataFrame(source_target_data_bins, columns = ['source','target','weight','source_freq',
-									'target_freq','first_sample','second_sample','edge_sample','fscolor','sscolor','edcolor','num_samps'])
+	
 			
-
-								
+				#turn list into a dataframe
+				source_target_frames_bins = pd.DataFrame(source_target_data_bins, columns = ['source','target','weight','source_freq',
+									'target_freq','first_sample','second_sample','edge_sample','fscolor','sscolor','edcolor','num_samps'])
+				if save:
+					flname1 = net_name+'/bins/'+i + '_' + stype+'_adj.tsv'
+					flname2 = net_name+'/bins/'+i + '_' + stype+'_list.tsv'
+					adjacency_frames_bins.to_csv(flname1, sep = '\t')
+					source_target_frames_bins.to_csv(flname2, sep = '\t')
+		
 		if new_way:
 		#Just the matrix product of the normalized abundance vectors will give cosine of the angle between them
 		#t1 = time.time()
@@ -242,48 +244,42 @@ for i in level:
 			cutoff = 0.8
 			adj_matrix_pre_pear[where(adj_matrix_pre_pear < cutoff)] = 0 
 			#print(time.time()-t1)
-			
 			degs_p = sum(adj_matrix_pre_pear,1)
 			unconnected_p = where(degs_p == 0)
 			adj_matrix_pre_pear = delete(adj_matrix_pre_pear,unconnected_p,0)
 			adj_matrix_pre_pear = delete(adj_matrix_pre_pear,unconnected_p,1)
 			ab_np_array_pear = delete(ab_np_array,unconnected_p,0)
-			if ab_np_array_pear.shape[0] == 0:
-				break
-			in_level_p = delete(in_level,unconnected_p)
+			if ab_np_array_pear.shape[0] != 0:
+				in_level_p = delete(in_level,unconnected_p)
 
-			stringency = 0.05
-			N = len(ab_np_array[0])
-			tot_seen_p = [sum([abd != 0 for abd in row]) for row in ab_np_array]
+				stringency = 0.05
+				N = len(ab_np_array[0])
+				tot_seen_p = [sum([abd != 0 for abd in row]) for row in ab_np_array]
 
-
-			ab_masked = mask.masked_values(ab_np_array_pear,0,copy = False)
-			the_ns_v = sum(ab_np_array_pear,1)/(ab_masked.min(axis = 1))
-			the_ns_v = the_ns_v.data
-			the_ns_v = around(the_ns_v)
-			the_ns = outer(the_ns_v,ones(len(ab_np_array_pear[0])))
-			the_ps_v = sum(ab_np_array_pear,0)/sum(ab_np_array_pear)
-			the_ps = outer(ones(len(ab_np_array_pear)),the_ps_v)
-			adj_size_p = adj_matrix_pre_pear.shape
-			adj_matrix_pear = zeros(adj_size_p) 
-			mc_test = mc_pearson(the_ns,the_ps,adj_matrix_pre_pear)#,dsamp_types, lvl_abundance_array.columns)		
-			#adj_matrix = adj_matrix_pre - mc_test
-			adj_matrix_pear[where(mc_test <stringency)] = adj_matrix_pre_pear[where(mc_test <stringency)]
+				ab_masked = mask.masked_values(ab_np_array_pear,0,copy = False)
+				the_ns_v = sum(ab_np_array_pear,1)/(ab_masked.min(axis = 1))
+				the_ns_v = the_ns_v.data
+				the_ns_v = around(the_ns_v)
+				the_ns = outer(the_ns_v,ones(len(ab_np_array_pear[0])))
+				the_ps_v = sum(ab_np_array_pear,0)/sum(ab_np_array_pear)
+				the_ps = outer(ones(len(ab_np_array_pear)),the_ps_v)
+				adj_size_p = adj_matrix_pre_pear.shape
+				adj_matrix_pear = zeros(adj_size_p) 
+				mc_test = mc_pearson(the_ns,the_ps,adj_matrix_pre_pear)#,dsamp_types, lvl_abundance_array.columns)		
+				#adj_matrix = adj_matrix_pre - mc_test
+				adj_matrix_pear[where(mc_test <stringency)] = adj_matrix_pre_pear[where(mc_test <stringency)]
 
 			
 		
-			degs2_p = sum(adj_matrix_pear,1)
-			unconnected2_p = where(degs2_p == 0)
-			adj_matrix_pear = delete(adj_matrix_pear,unconnected2_p,0)
-			adj_matrix_pear = delete(adj_matrix_pear,unconnected2_p,1)
-			tot_seen_2_p = delete(tot_seen_p,unconnected2_p)
+				degs2_p = sum(adj_matrix_pear,1)
+				unconnected2_p = where(degs2_p == 0)
+				adj_matrix_pear = delete(adj_matrix_pear,unconnected2_p,0)
+				adj_matrix_pear = delete(adj_matrix_pear,unconnected2_p,1)
+				tot_seen_2_p = delete(tot_seen_p,unconnected2_p)
 				
-			in_level_2_p = delete(in_level_p,unconnected2_p)
+				in_level_2_p = delete(in_level_p,unconnected2_p)
 			
-			adjacency_frames_pear[i + '_' + stype] = pd.DataFrame(adj_matrix_pear, index = abundance_array['TAXA'][in_level_2_p], columns = abundance_array['TAXA'][in_level_2_p])
-	
-			toedge = True
-			if toedge:
+				adjacency_frames_pear = pd.DataFrame(adj_matrix_pear, index = abundance_array['TAXA'][in_level_2_p], columns = abundance_array['TAXA'][in_level_2_p])
 				#create a list of edges - source in one column, target in the other. This is an alternative to the adjacency matrix
 				#that might make it easier to load in to cytoscape.
 				num_edge_p = count_nonzero(adj_matrix_pear)
@@ -304,27 +300,36 @@ for i in level:
 															s_type2[0],s_type1[0],edge_samp[0],s_type2[1],s_type1[1],edge_samp[1],N]
 								source_target_data_pear += [edge]
 								source_target_data_pear += [rev_edge]
+	
 		
+				#turn list into a dataframe
+				source_target_frames_pear = pd.DataFrame(source_target_data_pear, columns = ['source','target','weight','source_freq',
+								'target_freq','first_sample','second_sample','edge_sample','fscolor','sscolor','edcolor','num_samps'])
+	
+				if save:
+					flname3 = net_name+'/pears/'+i + '_' + stype+'_adj.tsv'
+					flname4 = net_name+'/pears/'+i + '_' + stype+'_list.tsv'
+					adjacency_frames_pear.to_csv(flname3, sep = '\t')
+					source_target_frames_pear.to_csv(flname4, sep = '\t')
 				
-					#turn list into a dataframe
-					source_target_frames_pear[i + '_' + stype] = pd.DataFrame(source_target_data_pear, columns = ['source','target','weight','source_freq',
-									'target_freq','first_sample','second_sample','edge_sample','fscolor','sscolor','edcolor','num_samps'])
-			
 
 #Save adjacency_frames to save the (weighted) adjacency matrix. This can be loaded into 
 #cytoscape. Save source_target_frames to save a list of edges. This can also be loaded into
 #cytoscape and provides a way to include edge or node attributes.
-save = True
-if save:
-	for j in source_target_frames_pear.keys():
-		flname1 = net_name+'/bins/'+j+'_adj.tsv'
-		flname2 = net_name+'/bins/'+j+'_list.tsv'
-		flname3 = net_name+'/pears/'+j+'_adj.tsv'
-		flname4 = net_name+'/pears/'+j+'_list.tsv'
-		adjacency_frames_bins[j].to_csv(flname1, sep = '\t')
-		source_target_frames_bins[j].to_csv(flname2, sep = '\t')
-		adjacency_frames_pear[j].to_csv(flname3, sep = '\t')
-		source_target_frames_pear[j].to_csv(flname4, sep = '\t')
+
+# print(source_target_frames_pear.keys())
+# 
+# save = False
+# if save:
+# 	for j in source_target_frames_pear.keys():
+# 		flname1 = net_name+'/bins/'+j+'_adj.tsv'
+# 		flname2 = net_name+'/bins/'+j+'_list.tsv'
+# 		flname3 = net_name+'/pears/'+j+'_adj.tsv'
+# 		flname4 = net_name+'/pears/'+j+'_list.tsv'
+# 		adjacency_frames_bins[j].to_csv(flname1, sep = '\t')
+# 		source_target_frames_bins[j].to_csv(flname2, sep = '\t')
+# 		adjacency_frames_pear[j].to_csv(flname3, sep = '\t')
+# 		source_target_frames_pear[j].to_csv(flname4, sep = '\t')
 
 
 #### TO DO #####################

@@ -1,0 +1,793 @@
+	source	target	weight	edge_sample	edcolor
+0	Actinomyces oris	Actinomyces naeslundii	1.0	Supragingival_plaque	#ff964f
+1	Actinomyces naeslundii	Actinomyces oris	1.0	Supragingival_plaque	#ff964f
+2	Actinomyces sp. ICM47	Actinomyces naeslundii	1.0	Intertype	#cccccc
+3	Actinomyces naeslundii	Actinomyces sp. ICM47	1.0	Intertype	#cccccc
+4	Actinomyces sp. ICM47	Actinomyces oris	1.0	Intertype	#cccccc
+5	Actinomyces oris	Actinomyces sp. ICM47	1.0	Intertype	#cccccc
+6	Actinomyces sp. oral taxon 170	Actinomyces naeslundii	1.0	Supragingival_plaque	#ff964f
+7	Actinomyces naeslundii	Actinomyces sp. oral taxon 170	1.0	Supragingival_plaque	#ff964f
+8	Actinomyces sp. oral taxon 170	Actinomyces oris	1.0	Supragingival_plaque	#ff964f
+9	Actinomyces oris	Actinomyces sp. oral taxon 170	1.0	Supragingival_plaque	#ff964f
+10	Actinomyces sp. oral taxon 170	Actinomyces sp. ICM47	1.0	Intertype	#cccccc
+11	Actinomyces sp. ICM47	Actinomyces sp. oral taxon 170	1.0	Intertype	#cccccc
+12	Actinomyces sp. oral taxon 171	Actinomyces naeslundii	1.0	Supragingival_plaque	#ff964f
+13	Actinomyces naeslundii	Actinomyces sp. oral taxon 171	1.0	Supragingival_plaque	#ff964f
+14	Actinomyces sp. oral taxon 171	Actinomyces oris	1.0	Supragingival_plaque	#ff964f
+15	Actinomyces oris	Actinomyces sp. oral taxon 171	1.0	Supragingival_plaque	#ff964f
+16	Actinomyces sp. oral taxon 171	Actinomyces sp. ICM47	1.0	Intertype	#cccccc
+17	Actinomyces sp. ICM47	Actinomyces sp. oral taxon 171	1.0	Intertype	#cccccc
+18	Actinomyces sp. oral taxon 171	Actinomyces sp. oral taxon 170	1.0	Supragingival_plaque	#ff964f
+19	Actinomyces sp. oral taxon 170	Actinomyces sp. oral taxon 171	1.0	Supragingival_plaque	#ff964f
+20	Candidatus Saccharibacteria oral taxon TM7x	Alloprevotella tannerae	1.0	Intertype	#cccccc
+21	Alloprevotella tannerae	Candidatus Saccharibacteria oral taxon TM7x	1.0	Intertype	#cccccc
+22	Capnocytophaga sp. oral taxon 329	Alloprevotella tannerae	1.0	Intertype	#cccccc
+23	Alloprevotella tannerae	Capnocytophaga sp. oral taxon 329	1.0	Intertype	#cccccc
+24	Capnocytophaga sp. oral taxon 329	Candidatus Saccharibacteria oral taxon TM7x	1.0	Intertype	#cccccc
+25	Candidatus Saccharibacteria oral taxon TM7x	Capnocytophaga sp. oral taxon 329	1.0	Intertype	#cccccc
+26	Capnocytophaga sp. oral taxon 332	Actinomyces naeslundii	1.0	Supragingival_plaque	#ff964f
+27	Actinomyces naeslundii	Capnocytophaga sp. oral taxon 332	1.0	Supragingival_plaque	#ff964f
+28	Capnocytophaga sp. oral taxon 332	Actinomyces oris	1.0	Supragingival_plaque	#ff964f
+29	Actinomyces oris	Capnocytophaga sp. oral taxon 332	1.0	Supragingival_plaque	#ff964f
+30	Capnocytophaga sp. oral taxon 332	Actinomyces sp. ICM47	1.0	Intertype	#cccccc
+31	Actinomyces sp. ICM47	Capnocytophaga sp. oral taxon 332	1.0	Intertype	#cccccc
+32	Capnocytophaga sp. oral taxon 332	Actinomyces sp. oral taxon 170	1.0	Supragingival_plaque	#ff964f
+33	Actinomyces sp. oral taxon 170	Capnocytophaga sp. oral taxon 332	1.0	Supragingival_plaque	#ff964f
+34	Capnocytophaga sp. oral taxon 332	Actinomyces sp. oral taxon 171	1.0	Supragingival_plaque	#ff964f
+35	Actinomyces sp. oral taxon 171	Capnocytophaga sp. oral taxon 332	1.0	Supragingival_plaque	#ff964f
+36	Capnocytophaga sputigena	Actinomyces naeslundii	1.0	Supragingival_plaque	#ff964f
+37	Actinomyces naeslundii	Capnocytophaga sputigena	1.0	Supragingival_plaque	#ff964f
+38	Capnocytophaga sputigena	Actinomyces oris	1.0	Supragingival_plaque	#ff964f
+39	Actinomyces oris	Capnocytophaga sputigena	1.0	Supragingival_plaque	#ff964f
+40	Capnocytophaga sputigena	Actinomyces sp. ICM47	1.0	Intertype	#cccccc
+41	Actinomyces sp. ICM47	Capnocytophaga sputigena	1.0	Intertype	#cccccc
+42	Capnocytophaga sputigena	Actinomyces sp. oral taxon 170	1.0	Supragingival_plaque	#ff964f
+43	Actinomyces sp. oral taxon 170	Capnocytophaga sputigena	1.0	Supragingival_plaque	#ff964f
+44	Capnocytophaga sputigena	Actinomyces sp. oral taxon 171	1.0	Supragingival_plaque	#ff964f
+45	Actinomyces sp. oral taxon 171	Capnocytophaga sputigena	1.0	Supragingival_plaque	#ff964f
+46	Capnocytophaga sputigena	Capnocytophaga sp. oral taxon 332	1.0	Supragingival_plaque	#ff964f
+47	Capnocytophaga sp. oral taxon 332	Capnocytophaga sputigena	1.0	Supragingival_plaque	#ff964f
+48	Chlamydia trachomatis	Alloprevotella tannerae	1.0	Intertype	#cccccc
+49	Alloprevotella tannerae	Chlamydia trachomatis	1.0	Intertype	#cccccc
+50	Chlamydia trachomatis	Candidatus Saccharibacteria oral taxon TM7x	1.0	Intertype	#cccccc
+51	Candidatus Saccharibacteria oral taxon TM7x	Chlamydia trachomatis	1.0	Intertype	#cccccc
+52	Chlamydia trachomatis	Capnocytophaga sp. oral taxon 329	1.0	Intertype	#cccccc
+53	Capnocytophaga sp. oral taxon 329	Chlamydia trachomatis	1.0	Intertype	#cccccc
+54	Corynebacterium durum	Actinomyces naeslundii	1.0	Supragingival_plaque	#ff964f
+55	Actinomyces naeslundii	Corynebacterium durum	1.0	Supragingival_plaque	#ff964f
+56	Corynebacterium durum	Actinomyces oris	1.0	Supragingival_plaque	#ff964f
+57	Actinomyces oris	Corynebacterium durum	1.0	Supragingival_plaque	#ff964f
+58	Corynebacterium durum	Actinomyces sp. ICM47	1.0	Intertype	#cccccc
+59	Actinomyces sp. ICM47	Corynebacterium durum	1.0	Intertype	#cccccc
+60	Corynebacterium durum	Actinomyces sp. oral taxon 170	1.0	Supragingival_plaque	#ff964f
+61	Actinomyces sp. oral taxon 170	Corynebacterium durum	1.0	Supragingival_plaque	#ff964f
+62	Corynebacterium durum	Actinomyces sp. oral taxon 171	1.0	Supragingival_plaque	#ff964f
+63	Actinomyces sp. oral taxon 171	Corynebacterium durum	1.0	Supragingival_plaque	#ff964f
+64	Corynebacterium durum	Capnocytophaga sp. oral taxon 332	1.0	Supragingival_plaque	#ff964f
+65	Capnocytophaga sp. oral taxon 332	Corynebacterium durum	1.0	Supragingival_plaque	#ff964f
+66	Corynebacterium durum	Capnocytophaga sputigena	1.0	Supragingival_plaque	#ff964f
+67	Capnocytophaga sputigena	Corynebacterium durum	1.0	Supragingival_plaque	#ff964f
+68	Corynebacterium matruchotii	Actinomyces naeslundii	1.0	Supragingival_plaque	#ff964f
+69	Actinomyces naeslundii	Corynebacterium matruchotii	1.0	Supragingival_plaque	#ff964f
+70	Corynebacterium matruchotii	Actinomyces oris	1.0	Supragingival_plaque	#ff964f
+71	Actinomyces oris	Corynebacterium matruchotii	1.0	Supragingival_plaque	#ff964f
+72	Corynebacterium matruchotii	Actinomyces sp. ICM47	1.0	Intertype	#cccccc
+73	Actinomyces sp. ICM47	Corynebacterium matruchotii	1.0	Intertype	#cccccc
+74	Corynebacterium matruchotii	Actinomyces sp. oral taxon 170	1.0	Supragingival_plaque	#ff964f
+75	Actinomyces sp. oral taxon 170	Corynebacterium matruchotii	1.0	Supragingival_plaque	#ff964f
+76	Corynebacterium matruchotii	Actinomyces sp. oral taxon 171	1.0	Supragingival_plaque	#ff964f
+77	Actinomyces sp. oral taxon 171	Corynebacterium matruchotii	1.0	Supragingival_plaque	#ff964f
+78	Corynebacterium matruchotii	Capnocytophaga sp. oral taxon 332	1.0	Supragingival_plaque	#ff964f
+79	Capnocytophaga sp. oral taxon 332	Corynebacterium matruchotii	1.0	Supragingival_plaque	#ff964f
+80	Corynebacterium matruchotii	Capnocytophaga sputigena	1.0	Supragingival_plaque	#ff964f
+81	Capnocytophaga sputigena	Corynebacterium matruchotii	1.0	Supragingival_plaque	#ff964f
+82	Corynebacterium matruchotii	Corynebacterium durum	1.0	Supragingival_plaque	#ff964f
+83	Corynebacterium durum	Corynebacterium matruchotii	1.0	Supragingival_plaque	#ff964f
+84	Gemella haemolysans	Alloprevotella tannerae	1.0	Intertype	#cccccc
+85	Alloprevotella tannerae	Gemella haemolysans	1.0	Intertype	#cccccc
+86	Gemella haemolysans	Candidatus Saccharibacteria oral taxon TM7x	1.0	Intertype	#cccccc
+87	Candidatus Saccharibacteria oral taxon TM7x	Gemella haemolysans	1.0	Intertype	#cccccc
+88	Gemella haemolysans	Capnocytophaga sp. oral taxon 329	1.0	Intertype	#cccccc
+89	Capnocytophaga sp. oral taxon 329	Gemella haemolysans	1.0	Intertype	#cccccc
+90	Gemella haemolysans	Chlamydia trachomatis	1.0	Intertype	#cccccc
+91	Chlamydia trachomatis	Gemella haemolysans	1.0	Intertype	#cccccc
+92	Gemella sanguinis	Alloprevotella tannerae	1.0	Intertype	#cccccc
+93	Alloprevotella tannerae	Gemella sanguinis	1.0	Intertype	#cccccc
+94	Gemella sanguinis	Candidatus Saccharibacteria oral taxon TM7x	1.0	Intertype	#cccccc
+95	Candidatus Saccharibacteria oral taxon TM7x	Gemella sanguinis	1.0	Intertype	#cccccc
+96	Gemella sanguinis	Capnocytophaga sp. oral taxon 329	1.0	Intertype	#cccccc
+97	Capnocytophaga sp. oral taxon 329	Gemella sanguinis	1.0	Intertype	#cccccc
+98	Gemella sanguinis	Chlamydia trachomatis	1.0	Intertype	#cccccc
+99	Chlamydia trachomatis	Gemella sanguinis	1.0	Intertype	#cccccc
+100	Gemella sanguinis	Gemella haemolysans	1.0	Intertype	#cccccc
+101	Gemella haemolysans	Gemella sanguinis	1.0	Intertype	#cccccc
+102	Granulicatella elegans	Alloprevotella tannerae	1.0	Intertype	#cccccc
+103	Alloprevotella tannerae	Granulicatella elegans	1.0	Intertype	#cccccc
+104	Granulicatella elegans	Candidatus Saccharibacteria oral taxon TM7x	1.0	Intertype	#cccccc
+105	Candidatus Saccharibacteria oral taxon TM7x	Granulicatella elegans	1.0	Intertype	#cccccc
+106	Granulicatella elegans	Capnocytophaga sp. oral taxon 329	1.0	Intertype	#cccccc
+107	Capnocytophaga sp. oral taxon 329	Granulicatella elegans	1.0	Intertype	#cccccc
+108	Granulicatella elegans	Chlamydia trachomatis	1.0	Attached	#4e4dfc
+109	Chlamydia trachomatis	Granulicatella elegans	1.0	Attached	#4e4dfc
+110	Granulicatella elegans	Gemella haemolysans	1.0	Intertype	#cccccc
+111	Gemella haemolysans	Granulicatella elegans	1.0	Intertype	#cccccc
+112	Granulicatella elegans	Gemella sanguinis	1.0	Intertype	#cccccc
+113	Gemella sanguinis	Granulicatella elegans	1.0	Intertype	#cccccc
+114	Haemophilus haemolyticus	Alloprevotella tannerae	1.0	Intertype	#cccccc
+115	Alloprevotella tannerae	Haemophilus haemolyticus	1.0	Intertype	#cccccc
+116	Haemophilus haemolyticus	Candidatus Saccharibacteria oral taxon TM7x	1.0	Intertype	#cccccc
+117	Candidatus Saccharibacteria oral taxon TM7x	Haemophilus haemolyticus	1.0	Intertype	#cccccc
+118	Haemophilus haemolyticus	Capnocytophaga sp. oral taxon 329	1.0	Intertype	#cccccc
+119	Capnocytophaga sp. oral taxon 329	Haemophilus haemolyticus	1.0	Intertype	#cccccc
+120	Haemophilus haemolyticus	Chlamydia trachomatis	1.0	Attached	#4e4dfc
+121	Chlamydia trachomatis	Haemophilus haemolyticus	1.0	Attached	#4e4dfc
+122	Haemophilus haemolyticus	Gemella haemolysans	1.0	Intertype	#cccccc
+123	Gemella haemolysans	Haemophilus haemolyticus	1.0	Intertype	#cccccc
+124	Haemophilus haemolyticus	Gemella sanguinis	1.0	Intertype	#cccccc
+125	Gemella sanguinis	Haemophilus haemolyticus	1.0	Intertype	#cccccc
+126	Haemophilus haemolyticus	Granulicatella elegans	1.0	Attached	#4e4dfc
+127	Granulicatella elegans	Haemophilus haemolyticus	1.0	Attached	#4e4dfc
+128	Haemophilus influenzae	Alloprevotella tannerae	1.0	Intertype	#cccccc
+129	Alloprevotella tannerae	Haemophilus influenzae	1.0	Intertype	#cccccc
+130	Haemophilus influenzae	Candidatus Saccharibacteria oral taxon TM7x	1.0	Intertype	#cccccc
+131	Candidatus Saccharibacteria oral taxon TM7x	Haemophilus influenzae	1.0	Intertype	#cccccc
+132	Haemophilus influenzae	Capnocytophaga sp. oral taxon 329	1.0	Intertype	#cccccc
+133	Capnocytophaga sp. oral taxon 329	Haemophilus influenzae	1.0	Intertype	#cccccc
+134	Haemophilus influenzae	Chlamydia trachomatis	1.0	Intertype	#cccccc
+135	Chlamydia trachomatis	Haemophilus influenzae	1.0	Intertype	#cccccc
+136	Haemophilus influenzae	Gemella haemolysans	1.0	Buccal_mucosa	#1996f3
+137	Gemella haemolysans	Haemophilus influenzae	1.0	Buccal_mucosa	#1996f3
+138	Haemophilus influenzae	Gemella sanguinis	1.0	Intertype	#cccccc
+139	Gemella sanguinis	Haemophilus influenzae	1.0	Intertype	#cccccc
+140	Haemophilus influenzae	Granulicatella elegans	1.0	Intertype	#cccccc
+141	Granulicatella elegans	Haemophilus influenzae	1.0	Intertype	#cccccc
+142	Haemophilus influenzae	Haemophilus haemolyticus	1.0	Intertype	#cccccc
+143	Haemophilus haemolyticus	Haemophilus influenzae	1.0	Intertype	#cccccc
+144	Haemophilus parainfluenzae	Alloprevotella tannerae	1.0	Intertype	#cccccc
+145	Alloprevotella tannerae	Haemophilus parainfluenzae	1.0	Intertype	#cccccc
+146	Haemophilus parainfluenzae	Candidatus Saccharibacteria oral taxon TM7x	1.0	Intertype	#cccccc
+147	Candidatus Saccharibacteria oral taxon TM7x	Haemophilus parainfluenzae	1.0	Intertype	#cccccc
+148	Haemophilus parainfluenzae	Capnocytophaga sp. oral taxon 329	1.0	Intertype	#cccccc
+149	Capnocytophaga sp. oral taxon 329	Haemophilus parainfluenzae	1.0	Intertype	#cccccc
+150	Haemophilus parainfluenzae	Chlamydia trachomatis	1.0	Intertype	#cccccc
+151	Chlamydia trachomatis	Haemophilus parainfluenzae	1.0	Intertype	#cccccc
+152	Haemophilus parainfluenzae	Gemella haemolysans	1.0	Intertype	#cccccc
+153	Gemella haemolysans	Haemophilus parainfluenzae	1.0	Intertype	#cccccc
+154	Haemophilus parainfluenzae	Gemella sanguinis	1.0	Tongue_dorsum	#ff0000
+155	Gemella sanguinis	Haemophilus parainfluenzae	1.0	Tongue_dorsum	#ff0000
+156	Haemophilus parainfluenzae	Granulicatella elegans	1.0	Intertype	#cccccc
+157	Granulicatella elegans	Haemophilus parainfluenzae	1.0	Intertype	#cccccc
+158	Haemophilus parainfluenzae	Haemophilus haemolyticus	1.0	Intertype	#cccccc
+159	Haemophilus haemolyticus	Haemophilus parainfluenzae	1.0	Intertype	#cccccc
+160	Haemophilus parainfluenzae	Haemophilus influenzae	1.0	Intertype	#cccccc
+161	Haemophilus influenzae	Haemophilus parainfluenzae	1.0	Intertype	#cccccc
+162	Haemophilus sp. oral taxon 851	Alloprevotella tannerae	1.0	Intertype	#cccccc
+163	Alloprevotella tannerae	Haemophilus sp. oral taxon 851	1.0	Intertype	#cccccc
+164	Haemophilus sp. oral taxon 851	Candidatus Saccharibacteria oral taxon TM7x	1.0	Intertype	#cccccc
+165	Candidatus Saccharibacteria oral taxon TM7x	Haemophilus sp. oral taxon 851	1.0	Intertype	#cccccc
+166	Haemophilus sp. oral taxon 851	Capnocytophaga sp. oral taxon 329	1.0	Intertype	#cccccc
+167	Capnocytophaga sp. oral taxon 329	Haemophilus sp. oral taxon 851	1.0	Intertype	#cccccc
+168	Haemophilus sp. oral taxon 851	Chlamydia trachomatis	1.0	Attached	#4e4dfc
+169	Chlamydia trachomatis	Haemophilus sp. oral taxon 851	1.0	Attached	#4e4dfc
+170	Haemophilus sp. oral taxon 851	Gemella haemolysans	1.0	Intertype	#cccccc
+171	Gemella haemolysans	Haemophilus sp. oral taxon 851	1.0	Intertype	#cccccc
+172	Haemophilus sp. oral taxon 851	Gemella sanguinis	1.0	Intertype	#cccccc
+173	Gemella sanguinis	Haemophilus sp. oral taxon 851	1.0	Intertype	#cccccc
+174	Haemophilus sp. oral taxon 851	Granulicatella elegans	1.0	Attached	#4e4dfc
+175	Granulicatella elegans	Haemophilus sp. oral taxon 851	1.0	Attached	#4e4dfc
+176	Haemophilus sp. oral taxon 851	Haemophilus haemolyticus	1.0	Attached	#4e4dfc
+177	Haemophilus haemolyticus	Haemophilus sp. oral taxon 851	1.0	Attached	#4e4dfc
+178	Haemophilus sp. oral taxon 851	Haemophilus influenzae	1.0	Intertype	#cccccc
+179	Haemophilus influenzae	Haemophilus sp. oral taxon 851	1.0	Intertype	#cccccc
+180	Haemophilus sp. oral taxon 851	Haemophilus parainfluenzae	1.0	Intertype	#cccccc
+181	Haemophilus parainfluenzae	Haemophilus sp. oral taxon 851	1.0	Intertype	#cccccc
+182	Haemophilus sputorum	Alloprevotella tannerae	1.0	Intertype	#cccccc
+183	Alloprevotella tannerae	Haemophilus sputorum	1.0	Intertype	#cccccc
+184	Haemophilus sputorum	Candidatus Saccharibacteria oral taxon TM7x	1.0	Intertype	#cccccc
+185	Candidatus Saccharibacteria oral taxon TM7x	Haemophilus sputorum	1.0	Intertype	#cccccc
+186	Haemophilus sputorum	Capnocytophaga sp. oral taxon 329	1.0	Intertype	#cccccc
+187	Capnocytophaga sp. oral taxon 329	Haemophilus sputorum	1.0	Intertype	#cccccc
+188	Haemophilus sputorum	Chlamydia trachomatis	1.0	Intertype	#cccccc
+189	Chlamydia trachomatis	Haemophilus sputorum	1.0	Intertype	#cccccc
+190	Haemophilus sputorum	Gemella haemolysans	1.0	Buccal_mucosa	#1996f3
+191	Gemella haemolysans	Haemophilus sputorum	1.0	Buccal_mucosa	#1996f3
+192	Haemophilus sputorum	Gemella sanguinis	1.0	Intertype	#cccccc
+193	Gemella sanguinis	Haemophilus sputorum	1.0	Intertype	#cccccc
+194	Haemophilus sputorum	Granulicatella elegans	1.0	Intertype	#cccccc
+195	Granulicatella elegans	Haemophilus sputorum	1.0	Intertype	#cccccc
+196	Haemophilus sputorum	Haemophilus haemolyticus	1.0	Intertype	#cccccc
+197	Haemophilus haemolyticus	Haemophilus sputorum	1.0	Intertype	#cccccc
+198	Haemophilus sputorum	Haemophilus influenzae	1.0	Buccal_mucosa	#1996f3
+199	Haemophilus influenzae	Haemophilus sputorum	1.0	Buccal_mucosa	#1996f3
+200	Haemophilus sputorum	Haemophilus parainfluenzae	1.0	Intertype	#cccccc
+201	Haemophilus parainfluenzae	Haemophilus sputorum	1.0	Intertype	#cccccc
+202	Haemophilus sputorum	Haemophilus sp. oral taxon 851	1.0	Intertype	#cccccc
+203	Haemophilus sp. oral taxon 851	Haemophilus sputorum	1.0	Intertype	#cccccc
+204	Leptotrichia shahii	Alloprevotella tannerae	1.0	Intertype	#cccccc
+205	Alloprevotella tannerae	Leptotrichia shahii	1.0	Intertype	#cccccc
+206	Leptotrichia shahii	Candidatus Saccharibacteria oral taxon TM7x	1.0	Intertype	#cccccc
+207	Candidatus Saccharibacteria oral taxon TM7x	Leptotrichia shahii	1.0	Intertype	#cccccc
+208	Leptotrichia shahii	Capnocytophaga sp. oral taxon 329	1.0	Intertype	#cccccc
+209	Capnocytophaga sp. oral taxon 329	Leptotrichia shahii	1.0	Intertype	#cccccc
+210	Leptotrichia shahii	Chlamydia trachomatis	1.0	Intertype	#cccccc
+211	Chlamydia trachomatis	Leptotrichia shahii	1.0	Intertype	#cccccc
+212	Leptotrichia shahii	Gemella haemolysans	1.0	Intertype	#cccccc
+213	Gemella haemolysans	Leptotrichia shahii	1.0	Intertype	#cccccc
+214	Leptotrichia shahii	Gemella sanguinis	1.0	Tongue_dorsum	#ff0000
+215	Gemella sanguinis	Leptotrichia shahii	1.0	Tongue_dorsum	#ff0000
+216	Leptotrichia shahii	Granulicatella elegans	1.0	Intertype	#cccccc
+217	Granulicatella elegans	Leptotrichia shahii	1.0	Intertype	#cccccc
+218	Leptotrichia shahii	Haemophilus haemolyticus	1.0	Intertype	#cccccc
+219	Haemophilus haemolyticus	Leptotrichia shahii	1.0	Intertype	#cccccc
+220	Leptotrichia shahii	Haemophilus influenzae	1.0	Intertype	#cccccc
+221	Haemophilus influenzae	Leptotrichia shahii	1.0	Intertype	#cccccc
+222	Leptotrichia shahii	Haemophilus parainfluenzae	1.0	Tongue_dorsum	#ff0000
+223	Haemophilus parainfluenzae	Leptotrichia shahii	1.0	Tongue_dorsum	#ff0000
+224	Leptotrichia shahii	Haemophilus sp. oral taxon 851	1.0	Intertype	#cccccc
+225	Haemophilus sp. oral taxon 851	Leptotrichia shahii	1.0	Intertype	#cccccc
+226	Leptotrichia shahii	Haemophilus sputorum	1.0	Intertype	#cccccc
+227	Haemophilus sputorum	Leptotrichia shahii	1.0	Intertype	#cccccc
+228	Neisseria cinerea	Actinomyces naeslundii	1.0	Intertype	#cccccc
+229	Actinomyces naeslundii	Neisseria cinerea	1.0	Intertype	#cccccc
+230	Neisseria cinerea	Actinomyces oris	1.0	Intertype	#cccccc
+231	Actinomyces oris	Neisseria cinerea	1.0	Intertype	#cccccc
+232	Neisseria cinerea	Actinomyces sp. ICM47	1.0	Intertype	#cccccc
+233	Actinomyces sp. ICM47	Neisseria cinerea	1.0	Intertype	#cccccc
+234	Neisseria cinerea	Actinomyces sp. oral taxon 170	1.0	Intertype	#cccccc
+235	Actinomyces sp. oral taxon 170	Neisseria cinerea	1.0	Intertype	#cccccc
+236	Neisseria cinerea	Actinomyces sp. oral taxon 171	1.0	Intertype	#cccccc
+237	Actinomyces sp. oral taxon 171	Neisseria cinerea	1.0	Intertype	#cccccc
+238	Neisseria cinerea	Capnocytophaga sp. oral taxon 332	1.0	Intertype	#cccccc
+239	Capnocytophaga sp. oral taxon 332	Neisseria cinerea	1.0	Intertype	#cccccc
+240	Neisseria cinerea	Capnocytophaga sputigena	1.0	Intertype	#cccccc
+241	Capnocytophaga sputigena	Neisseria cinerea	1.0	Intertype	#cccccc
+242	Neisseria cinerea	Corynebacterium durum	1.0	Intertype	#cccccc
+243	Corynebacterium durum	Neisseria cinerea	1.0	Intertype	#cccccc
+244	Neisseria cinerea	Corynebacterium matruchotii	1.0	Intertype	#cccccc
+245	Corynebacterium matruchotii	Neisseria cinerea	1.0	Intertype	#cccccc
+246	Neisseria meningitidis	Actinomyces naeslundii	1.0	Intertype	#cccccc
+247	Actinomyces naeslundii	Neisseria meningitidis	1.0	Intertype	#cccccc
+248	Neisseria meningitidis	Actinomyces oris	1.0	Intertype	#cccccc
+249	Actinomyces oris	Neisseria meningitidis	1.0	Intertype	#cccccc
+250	Neisseria meningitidis	Actinomyces sp. ICM47	1.0	Intertype	#cccccc
+251	Actinomyces sp. ICM47	Neisseria meningitidis	1.0	Intertype	#cccccc
+252	Neisseria meningitidis	Actinomyces sp. oral taxon 170	1.0	Intertype	#cccccc
+253	Actinomyces sp. oral taxon 170	Neisseria meningitidis	1.0	Intertype	#cccccc
+254	Neisseria meningitidis	Actinomyces sp. oral taxon 171	1.0	Intertype	#cccccc
+255	Actinomyces sp. oral taxon 171	Neisseria meningitidis	1.0	Intertype	#cccccc
+256	Neisseria meningitidis	Capnocytophaga sp. oral taxon 332	1.0	Intertype	#cccccc
+257	Capnocytophaga sp. oral taxon 332	Neisseria meningitidis	1.0	Intertype	#cccccc
+258	Neisseria meningitidis	Capnocytophaga sputigena	1.0	Intertype	#cccccc
+259	Capnocytophaga sputigena	Neisseria meningitidis	1.0	Intertype	#cccccc
+260	Neisseria meningitidis	Corynebacterium durum	1.0	Intertype	#cccccc
+261	Corynebacterium durum	Neisseria meningitidis	1.0	Intertype	#cccccc
+262	Neisseria meningitidis	Corynebacterium matruchotii	1.0	Intertype	#cccccc
+263	Corynebacterium matruchotii	Neisseria meningitidis	1.0	Intertype	#cccccc
+264	Neisseria meningitidis	Neisseria cinerea	1.0	Intertype	#cccccc
+265	Neisseria cinerea	Neisseria meningitidis	1.0	Intertype	#cccccc
+266	Porphyromonas catoniae	Alloprevotella tannerae	1.0	Intertype	#cccccc
+267	Alloprevotella tannerae	Porphyromonas catoniae	1.0	Intertype	#cccccc
+268	Porphyromonas catoniae	Candidatus Saccharibacteria oral taxon TM7x	1.0	Intertype	#cccccc
+269	Candidatus Saccharibacteria oral taxon TM7x	Porphyromonas catoniae	1.0	Intertype	#cccccc
+270	Porphyromonas catoniae	Capnocytophaga sp. oral taxon 329	1.0	Supragingival_plaque	#ff964f
+271	Capnocytophaga sp. oral taxon 329	Porphyromonas catoniae	1.0	Supragingival_plaque	#ff964f
+272	Porphyromonas catoniae	Chlamydia trachomatis	1.0	Intertype	#cccccc
+273	Chlamydia trachomatis	Porphyromonas catoniae	1.0	Intertype	#cccccc
+274	Porphyromonas catoniae	Gemella haemolysans	1.0	Intertype	#cccccc
+275	Gemella haemolysans	Porphyromonas catoniae	1.0	Intertype	#cccccc
+276	Porphyromonas catoniae	Gemella sanguinis	1.0	Intertype	#cccccc
+277	Gemella sanguinis	Porphyromonas catoniae	1.0	Intertype	#cccccc
+278	Porphyromonas catoniae	Granulicatella elegans	1.0	Intertype	#cccccc
+279	Granulicatella elegans	Porphyromonas catoniae	1.0	Intertype	#cccccc
+280	Porphyromonas catoniae	Haemophilus haemolyticus	1.0	Intertype	#cccccc
+281	Haemophilus haemolyticus	Porphyromonas catoniae	1.0	Intertype	#cccccc
+282	Porphyromonas catoniae	Haemophilus influenzae	1.0	Intertype	#cccccc
+283	Haemophilus influenzae	Porphyromonas catoniae	1.0	Intertype	#cccccc
+284	Porphyromonas catoniae	Haemophilus parainfluenzae	1.0	Intertype	#cccccc
+285	Haemophilus parainfluenzae	Porphyromonas catoniae	1.0	Intertype	#cccccc
+286	Porphyromonas catoniae	Haemophilus sp. oral taxon 851	1.0	Intertype	#cccccc
+287	Haemophilus sp. oral taxon 851	Porphyromonas catoniae	1.0	Intertype	#cccccc
+288	Porphyromonas catoniae	Haemophilus sputorum	1.0	Intertype	#cccccc
+289	Haemophilus sputorum	Porphyromonas catoniae	1.0	Intertype	#cccccc
+290	Porphyromonas catoniae	Leptotrichia shahii	1.0	Intertype	#cccccc
+291	Leptotrichia shahii	Porphyromonas catoniae	1.0	Intertype	#cccccc
+292	Porphyromonas gingivalis	Actinomyces naeslundii	1.0	Intertype	#cccccc
+293	Actinomyces naeslundii	Porphyromonas gingivalis	1.0	Intertype	#cccccc
+294	Porphyromonas gingivalis	Actinomyces oris	1.0	Intertype	#cccccc
+295	Actinomyces oris	Porphyromonas gingivalis	1.0	Intertype	#cccccc
+296	Porphyromonas gingivalis	Actinomyces sp. ICM47	1.0	Intertype	#cccccc
+297	Actinomyces sp. ICM47	Porphyromonas gingivalis	1.0	Intertype	#cccccc
+298	Porphyromonas gingivalis	Actinomyces sp. oral taxon 170	1.0	Intertype	#cccccc
+299	Actinomyces sp. oral taxon 170	Porphyromonas gingivalis	1.0	Intertype	#cccccc
+300	Porphyromonas gingivalis	Actinomyces sp. oral taxon 171	1.0	Intertype	#cccccc
+301	Actinomyces sp. oral taxon 171	Porphyromonas gingivalis	1.0	Intertype	#cccccc
+302	Porphyromonas gingivalis	Capnocytophaga sp. oral taxon 332	1.0	Intertype	#cccccc
+303	Capnocytophaga sp. oral taxon 332	Porphyromonas gingivalis	1.0	Intertype	#cccccc
+304	Porphyromonas gingivalis	Capnocytophaga sputigena	1.0	Intertype	#cccccc
+305	Capnocytophaga sputigena	Porphyromonas gingivalis	1.0	Intertype	#cccccc
+306	Porphyromonas gingivalis	Corynebacterium durum	1.0	Intertype	#cccccc
+307	Corynebacterium durum	Porphyromonas gingivalis	1.0	Intertype	#cccccc
+308	Porphyromonas gingivalis	Corynebacterium matruchotii	1.0	Intertype	#cccccc
+309	Corynebacterium matruchotii	Porphyromonas gingivalis	1.0	Intertype	#cccccc
+310	Porphyromonas gingivalis	Neisseria cinerea	1.0	Attached	#4e4dfc
+311	Neisseria cinerea	Porphyromonas gingivalis	1.0	Attached	#4e4dfc
+312	Porphyromonas gingivalis	Neisseria meningitidis	1.0	Intertype	#cccccc
+313	Neisseria meningitidis	Porphyromonas gingivalis	1.0	Intertype	#cccccc
+314	Porphyromonas sp. oral taxon 278	Actinomyces naeslundii	1.0	Intertype	#cccccc
+315	Actinomyces naeslundii	Porphyromonas sp. oral taxon 278	1.0	Intertype	#cccccc
+316	Porphyromonas sp. oral taxon 278	Actinomyces oris	1.0	Intertype	#cccccc
+317	Actinomyces oris	Porphyromonas sp. oral taxon 278	1.0	Intertype	#cccccc
+318	Porphyromonas sp. oral taxon 278	Actinomyces sp. ICM47	1.0	Intertype	#cccccc
+319	Actinomyces sp. ICM47	Porphyromonas sp. oral taxon 278	1.0	Intertype	#cccccc
+320	Porphyromonas sp. oral taxon 278	Actinomyces sp. oral taxon 170	1.0	Intertype	#cccccc
+321	Actinomyces sp. oral taxon 170	Porphyromonas sp. oral taxon 278	1.0	Intertype	#cccccc
+322	Porphyromonas sp. oral taxon 278	Actinomyces sp. oral taxon 171	1.0	Intertype	#cccccc
+323	Actinomyces sp. oral taxon 171	Porphyromonas sp. oral taxon 278	1.0	Intertype	#cccccc
+324	Porphyromonas sp. oral taxon 278	Capnocytophaga sp. oral taxon 332	1.0	Intertype	#cccccc
+325	Capnocytophaga sp. oral taxon 332	Porphyromonas sp. oral taxon 278	1.0	Intertype	#cccccc
+326	Porphyromonas sp. oral taxon 278	Capnocytophaga sputigena	1.0	Intertype	#cccccc
+327	Capnocytophaga sputigena	Porphyromonas sp. oral taxon 278	1.0	Intertype	#cccccc
+328	Porphyromonas sp. oral taxon 278	Corynebacterium durum	1.0	Intertype	#cccccc
+329	Corynebacterium durum	Porphyromonas sp. oral taxon 278	1.0	Intertype	#cccccc
+330	Porphyromonas sp. oral taxon 278	Corynebacterium matruchotii	1.0	Intertype	#cccccc
+331	Corynebacterium matruchotii	Porphyromonas sp. oral taxon 278	1.0	Intertype	#cccccc
+332	Porphyromonas sp. oral taxon 278	Neisseria cinerea	1.0	Intertype	#cccccc
+333	Neisseria cinerea	Porphyromonas sp. oral taxon 278	1.0	Intertype	#cccccc
+334	Porphyromonas sp. oral taxon 278	Neisseria meningitidis	1.0	Intertype	#cccccc
+335	Neisseria meningitidis	Porphyromonas sp. oral taxon 278	1.0	Intertype	#cccccc
+336	Porphyromonas sp. oral taxon 278	Porphyromonas gingivalis	1.0	Intertype	#cccccc
+337	Porphyromonas gingivalis	Porphyromonas sp. oral taxon 278	1.0	Intertype	#cccccc
+338	Prevotella sp. oral taxon 473	Actinomyces naeslundii	1.0	Intertype	#cccccc
+339	Actinomyces naeslundii	Prevotella sp. oral taxon 473	1.0	Intertype	#cccccc
+340	Prevotella sp. oral taxon 473	Actinomyces oris	1.0	Intertype	#cccccc
+341	Actinomyces oris	Prevotella sp. oral taxon 473	1.0	Intertype	#cccccc
+342	Prevotella sp. oral taxon 473	Actinomyces sp. ICM47	1.0	Intertype	#cccccc
+343	Actinomyces sp. ICM47	Prevotella sp. oral taxon 473	1.0	Intertype	#cccccc
+344	Prevotella sp. oral taxon 473	Actinomyces sp. oral taxon 170	1.0	Intertype	#cccccc
+345	Actinomyces sp. oral taxon 170	Prevotella sp. oral taxon 473	1.0	Intertype	#cccccc
+346	Prevotella sp. oral taxon 473	Actinomyces sp. oral taxon 171	1.0	Intertype	#cccccc
+347	Actinomyces sp. oral taxon 171	Prevotella sp. oral taxon 473	1.0	Intertype	#cccccc
+348	Prevotella sp. oral taxon 473	Capnocytophaga sp. oral taxon 332	1.0	Intertype	#cccccc
+349	Capnocytophaga sp. oral taxon 332	Prevotella sp. oral taxon 473	1.0	Intertype	#cccccc
+350	Prevotella sp. oral taxon 473	Capnocytophaga sputigena	1.0	Intertype	#cccccc
+351	Capnocytophaga sputigena	Prevotella sp. oral taxon 473	1.0	Intertype	#cccccc
+352	Prevotella sp. oral taxon 473	Corynebacterium durum	1.0	Intertype	#cccccc
+353	Corynebacterium durum	Prevotella sp. oral taxon 473	1.0	Intertype	#cccccc
+354	Prevotella sp. oral taxon 473	Corynebacterium matruchotii	1.0	Intertype	#cccccc
+355	Corynebacterium matruchotii	Prevotella sp. oral taxon 473	1.0	Intertype	#cccccc
+356	Prevotella sp. oral taxon 473	Neisseria cinerea	1.0	Attached	#4e4dfc
+357	Neisseria cinerea	Prevotella sp. oral taxon 473	1.0	Attached	#4e4dfc
+358	Prevotella sp. oral taxon 473	Neisseria meningitidis	1.0	Intertype	#cccccc
+359	Neisseria meningitidis	Prevotella sp. oral taxon 473	1.0	Intertype	#cccccc
+360	Prevotella sp. oral taxon 473	Porphyromonas gingivalis	1.0	Attached	#4e4dfc
+361	Porphyromonas gingivalis	Prevotella sp. oral taxon 473	1.0	Attached	#4e4dfc
+362	Prevotella sp. oral taxon 473	Porphyromonas sp. oral taxon 278	1.0	Intertype	#cccccc
+363	Porphyromonas sp. oral taxon 278	Prevotella sp. oral taxon 473	1.0	Intertype	#cccccc
+364	Rothia mucilaginosa	Alloprevotella tannerae	1.0	Intertype	#cccccc
+365	Alloprevotella tannerae	Rothia mucilaginosa	1.0	Intertype	#cccccc
+366	Rothia mucilaginosa	Candidatus Saccharibacteria oral taxon TM7x	1.0	Intertype	#cccccc
+367	Candidatus Saccharibacteria oral taxon TM7x	Rothia mucilaginosa	1.0	Intertype	#cccccc
+368	Rothia mucilaginosa	Capnocytophaga sp. oral taxon 329	1.0	Intertype	#cccccc
+369	Capnocytophaga sp. oral taxon 329	Rothia mucilaginosa	1.0	Intertype	#cccccc
+370	Rothia mucilaginosa	Chlamydia trachomatis	1.0	Intertype	#cccccc
+371	Chlamydia trachomatis	Rothia mucilaginosa	1.0	Intertype	#cccccc
+372	Rothia mucilaginosa	Gemella haemolysans	1.0	Buccal_mucosa	#1996f3
+373	Gemella haemolysans	Rothia mucilaginosa	1.0	Buccal_mucosa	#1996f3
+374	Rothia mucilaginosa	Gemella sanguinis	1.0	Intertype	#cccccc
+375	Gemella sanguinis	Rothia mucilaginosa	1.0	Intertype	#cccccc
+376	Rothia mucilaginosa	Granulicatella elegans	1.0	Intertype	#cccccc
+377	Granulicatella elegans	Rothia mucilaginosa	1.0	Intertype	#cccccc
+378	Rothia mucilaginosa	Haemophilus haemolyticus	1.0	Intertype	#cccccc
+379	Haemophilus haemolyticus	Rothia mucilaginosa	1.0	Intertype	#cccccc
+380	Rothia mucilaginosa	Haemophilus influenzae	1.0	Buccal_mucosa	#1996f3
+381	Haemophilus influenzae	Rothia mucilaginosa	1.0	Buccal_mucosa	#1996f3
+382	Rothia mucilaginosa	Haemophilus parainfluenzae	1.0	Intertype	#cccccc
+383	Haemophilus parainfluenzae	Rothia mucilaginosa	1.0	Intertype	#cccccc
+384	Rothia mucilaginosa	Haemophilus sp. oral taxon 851	1.0	Intertype	#cccccc
+385	Haemophilus sp. oral taxon 851	Rothia mucilaginosa	1.0	Intertype	#cccccc
+386	Rothia mucilaginosa	Haemophilus sputorum	1.0	Buccal_mucosa	#1996f3
+387	Haemophilus sputorum	Rothia mucilaginosa	1.0	Buccal_mucosa	#1996f3
+388	Rothia mucilaginosa	Leptotrichia shahii	1.0	Intertype	#cccccc
+389	Leptotrichia shahii	Rothia mucilaginosa	1.0	Intertype	#cccccc
+390	Rothia mucilaginosa	Porphyromonas catoniae	1.0	Intertype	#cccccc
+391	Porphyromonas catoniae	Rothia mucilaginosa	1.0	Intertype	#cccccc
+392	Staphylococcus pasteuri	Alloprevotella tannerae	1.0	Intertype	#cccccc
+393	Alloprevotella tannerae	Staphylococcus pasteuri	1.0	Intertype	#cccccc
+394	Staphylococcus pasteuri	Candidatus Saccharibacteria oral taxon TM7x	1.0	Intertype	#cccccc
+395	Candidatus Saccharibacteria oral taxon TM7x	Staphylococcus pasteuri	1.0	Intertype	#cccccc
+396	Staphylococcus pasteuri	Capnocytophaga sp. oral taxon 329	1.0	Intertype	#cccccc
+397	Capnocytophaga sp. oral taxon 329	Staphylococcus pasteuri	1.0	Intertype	#cccccc
+398	Staphylococcus pasteuri	Chlamydia trachomatis	1.0	Attached	#4e4dfc
+399	Chlamydia trachomatis	Staphylococcus pasteuri	1.0	Attached	#4e4dfc
+400	Staphylococcus pasteuri	Gemella haemolysans	1.0	Intertype	#cccccc
+401	Gemella haemolysans	Staphylococcus pasteuri	1.0	Intertype	#cccccc
+402	Staphylococcus pasteuri	Gemella sanguinis	1.0	Intertype	#cccccc
+403	Gemella sanguinis	Staphylococcus pasteuri	1.0	Intertype	#cccccc
+404	Staphylococcus pasteuri	Granulicatella elegans	1.0	Attached	#4e4dfc
+405	Granulicatella elegans	Staphylococcus pasteuri	1.0	Attached	#4e4dfc
+406	Staphylococcus pasteuri	Haemophilus haemolyticus	1.0	Attached	#4e4dfc
+407	Haemophilus haemolyticus	Staphylococcus pasteuri	1.0	Attached	#4e4dfc
+408	Staphylococcus pasteuri	Haemophilus influenzae	1.0	Intertype	#cccccc
+409	Haemophilus influenzae	Staphylococcus pasteuri	1.0	Intertype	#cccccc
+410	Staphylococcus pasteuri	Haemophilus parainfluenzae	1.0	Intertype	#cccccc
+411	Haemophilus parainfluenzae	Staphylococcus pasteuri	1.0	Intertype	#cccccc
+412	Staphylococcus pasteuri	Haemophilus sp. oral taxon 851	1.0	Attached	#4e4dfc
+413	Haemophilus sp. oral taxon 851	Staphylococcus pasteuri	1.0	Attached	#4e4dfc
+414	Staphylococcus pasteuri	Haemophilus sputorum	1.0	Intertype	#cccccc
+415	Haemophilus sputorum	Staphylococcus pasteuri	1.0	Intertype	#cccccc
+416	Staphylococcus pasteuri	Leptotrichia shahii	1.0	Intertype	#cccccc
+417	Leptotrichia shahii	Staphylococcus pasteuri	1.0	Intertype	#cccccc
+418	Staphylococcus pasteuri	Porphyromonas catoniae	1.0	Intertype	#cccccc
+419	Porphyromonas catoniae	Staphylococcus pasteuri	1.0	Intertype	#cccccc
+420	Staphylococcus pasteuri	Rothia mucilaginosa	1.0	Intertype	#cccccc
+421	Rothia mucilaginosa	Staphylococcus pasteuri	1.0	Intertype	#cccccc
+422	Streptococcus dentisani	Alloprevotella tannerae	1.0	Intertype	#cccccc
+423	Alloprevotella tannerae	Streptococcus dentisani	1.0	Intertype	#cccccc
+424	Streptococcus dentisani	Candidatus Saccharibacteria oral taxon TM7x	1.0	Intertype	#cccccc
+425	Candidatus Saccharibacteria oral taxon TM7x	Streptococcus dentisani	1.0	Intertype	#cccccc
+426	Streptococcus dentisani	Capnocytophaga sp. oral taxon 329	1.0	Intertype	#cccccc
+427	Capnocytophaga sp. oral taxon 329	Streptococcus dentisani	1.0	Intertype	#cccccc
+428	Streptococcus dentisani	Chlamydia trachomatis	1.0	Intertype	#cccccc
+429	Chlamydia trachomatis	Streptococcus dentisani	1.0	Intertype	#cccccc
+430	Streptococcus dentisani	Gemella haemolysans	1.0	Buccal_mucosa	#1996f3
+431	Gemella haemolysans	Streptococcus dentisani	1.0	Buccal_mucosa	#1996f3
+432	Streptococcus dentisani	Gemella sanguinis	1.0	Intertype	#cccccc
+433	Gemella sanguinis	Streptococcus dentisani	1.0	Intertype	#cccccc
+434	Streptococcus dentisani	Granulicatella elegans	1.0	Intertype	#cccccc
+435	Granulicatella elegans	Streptococcus dentisani	1.0	Intertype	#cccccc
+436	Streptococcus dentisani	Haemophilus haemolyticus	1.0	Intertype	#cccccc
+437	Haemophilus haemolyticus	Streptococcus dentisani	1.0	Intertype	#cccccc
+438	Streptococcus dentisani	Haemophilus influenzae	1.0	Buccal_mucosa	#1996f3
+439	Haemophilus influenzae	Streptococcus dentisani	1.0	Buccal_mucosa	#1996f3
+440	Streptococcus dentisani	Haemophilus parainfluenzae	1.0	Intertype	#cccccc
+441	Haemophilus parainfluenzae	Streptococcus dentisani	1.0	Intertype	#cccccc
+442	Streptococcus dentisani	Haemophilus sp. oral taxon 851	1.0	Intertype	#cccccc
+443	Haemophilus sp. oral taxon 851	Streptococcus dentisani	1.0	Intertype	#cccccc
+444	Streptococcus dentisani	Haemophilus sputorum	1.0	Buccal_mucosa	#1996f3
+445	Haemophilus sputorum	Streptococcus dentisani	1.0	Buccal_mucosa	#1996f3
+446	Streptococcus dentisani	Leptotrichia shahii	1.0	Intertype	#cccccc
+447	Leptotrichia shahii	Streptococcus dentisani	1.0	Intertype	#cccccc
+448	Streptococcus dentisani	Porphyromonas catoniae	1.0	Intertype	#cccccc
+449	Porphyromonas catoniae	Streptococcus dentisani	1.0	Intertype	#cccccc
+450	Streptococcus dentisani	Rothia mucilaginosa	1.0	Buccal_mucosa	#1996f3
+451	Rothia mucilaginosa	Streptococcus dentisani	1.0	Buccal_mucosa	#1996f3
+452	Streptococcus dentisani	Staphylococcus pasteuri	1.0	Intertype	#cccccc
+453	Staphylococcus pasteuri	Streptococcus dentisani	1.0	Intertype	#cccccc
+454	Streptococcus gordonii	Alloprevotella tannerae	1.0	Intertype	#cccccc
+455	Alloprevotella tannerae	Streptococcus gordonii	1.0	Intertype	#cccccc
+456	Streptococcus gordonii	Candidatus Saccharibacteria oral taxon TM7x	1.0	Intertype	#cccccc
+457	Candidatus Saccharibacteria oral taxon TM7x	Streptococcus gordonii	1.0	Intertype	#cccccc
+458	Streptococcus gordonii	Capnocytophaga sp. oral taxon 329	1.0	Intertype	#cccccc
+459	Capnocytophaga sp. oral taxon 329	Streptococcus gordonii	1.0	Intertype	#cccccc
+460	Streptococcus gordonii	Chlamydia trachomatis	1.0	Attached	#4e4dfc
+461	Chlamydia trachomatis	Streptococcus gordonii	1.0	Attached	#4e4dfc
+462	Streptococcus gordonii	Gemella haemolysans	1.0	Intertype	#cccccc
+463	Gemella haemolysans	Streptococcus gordonii	1.0	Intertype	#cccccc
+464	Streptococcus gordonii	Gemella sanguinis	1.0	Intertype	#cccccc
+465	Gemella sanguinis	Streptococcus gordonii	1.0	Intertype	#cccccc
+466	Streptococcus gordonii	Granulicatella elegans	1.0	Attached	#4e4dfc
+467	Granulicatella elegans	Streptococcus gordonii	1.0	Attached	#4e4dfc
+468	Streptococcus gordonii	Haemophilus haemolyticus	1.0	Attached	#4e4dfc
+469	Haemophilus haemolyticus	Streptococcus gordonii	1.0	Attached	#4e4dfc
+470	Streptococcus gordonii	Haemophilus influenzae	1.0	Intertype	#cccccc
+471	Haemophilus influenzae	Streptococcus gordonii	1.0	Intertype	#cccccc
+472	Streptococcus gordonii	Haemophilus parainfluenzae	1.0	Intertype	#cccccc
+473	Haemophilus parainfluenzae	Streptococcus gordonii	1.0	Intertype	#cccccc
+474	Streptococcus gordonii	Haemophilus sp. oral taxon 851	1.0	Attached	#4e4dfc
+475	Haemophilus sp. oral taxon 851	Streptococcus gordonii	1.0	Attached	#4e4dfc
+476	Streptococcus gordonii	Haemophilus sputorum	1.0	Intertype	#cccccc
+477	Haemophilus sputorum	Streptococcus gordonii	1.0	Intertype	#cccccc
+478	Streptococcus gordonii	Leptotrichia shahii	1.0	Intertype	#cccccc
+479	Leptotrichia shahii	Streptococcus gordonii	1.0	Intertype	#cccccc
+480	Streptococcus gordonii	Porphyromonas catoniae	1.0	Intertype	#cccccc
+481	Porphyromonas catoniae	Streptococcus gordonii	1.0	Intertype	#cccccc
+482	Streptococcus gordonii	Rothia mucilaginosa	1.0	Intertype	#cccccc
+483	Rothia mucilaginosa	Streptococcus gordonii	1.0	Intertype	#cccccc
+484	Streptococcus gordonii	Staphylococcus pasteuri	1.0	Attached	#4e4dfc
+485	Staphylococcus pasteuri	Streptococcus gordonii	1.0	Attached	#4e4dfc
+486	Streptococcus gordonii	Streptococcus dentisani	1.0	Intertype	#cccccc
+487	Streptococcus dentisani	Streptococcus gordonii	1.0	Intertype	#cccccc
+488	Streptococcus mitis	Alloprevotella tannerae	1.0	Intertype	#cccccc
+489	Alloprevotella tannerae	Streptococcus mitis	1.0	Intertype	#cccccc
+490	Streptococcus mitis	Candidatus Saccharibacteria oral taxon TM7x	1.0	Intertype	#cccccc
+491	Candidatus Saccharibacteria oral taxon TM7x	Streptococcus mitis	1.0	Intertype	#cccccc
+492	Streptococcus mitis	Capnocytophaga sp. oral taxon 329	1.0	Intertype	#cccccc
+493	Capnocytophaga sp. oral taxon 329	Streptococcus mitis	1.0	Intertype	#cccccc
+494	Streptococcus mitis	Chlamydia trachomatis	1.0	Attached	#4e4dfc
+495	Chlamydia trachomatis	Streptococcus mitis	1.0	Attached	#4e4dfc
+496	Streptococcus mitis	Gemella haemolysans	1.0	Intertype	#cccccc
+497	Gemella haemolysans	Streptococcus mitis	1.0	Intertype	#cccccc
+498	Streptococcus mitis	Gemella sanguinis	1.0	Intertype	#cccccc
+499	Gemella sanguinis	Streptococcus mitis	1.0	Intertype	#cccccc
+500	Streptococcus mitis	Granulicatella elegans	1.0	Attached	#4e4dfc
+501	Granulicatella elegans	Streptococcus mitis	1.0	Attached	#4e4dfc
+502	Streptococcus mitis	Haemophilus haemolyticus	1.0	Attached	#4e4dfc
+503	Haemophilus haemolyticus	Streptococcus mitis	1.0	Attached	#4e4dfc
+504	Streptococcus mitis	Haemophilus influenzae	1.0	Intertype	#cccccc
+505	Haemophilus influenzae	Streptococcus mitis	1.0	Intertype	#cccccc
+506	Streptococcus mitis	Haemophilus parainfluenzae	1.0	Intertype	#cccccc
+507	Haemophilus parainfluenzae	Streptococcus mitis	1.0	Intertype	#cccccc
+508	Streptococcus mitis	Haemophilus sp. oral taxon 851	1.0	Attached	#4e4dfc
+509	Haemophilus sp. oral taxon 851	Streptococcus mitis	1.0	Attached	#4e4dfc
+510	Streptococcus mitis	Haemophilus sputorum	1.0	Intertype	#cccccc
+511	Haemophilus sputorum	Streptococcus mitis	1.0	Intertype	#cccccc
+512	Streptococcus mitis	Leptotrichia shahii	1.0	Intertype	#cccccc
+513	Leptotrichia shahii	Streptococcus mitis	1.0	Intertype	#cccccc
+514	Streptococcus mitis	Porphyromonas catoniae	1.0	Intertype	#cccccc
+515	Porphyromonas catoniae	Streptococcus mitis	1.0	Intertype	#cccccc
+516	Streptococcus mitis	Rothia mucilaginosa	1.0	Intertype	#cccccc
+517	Rothia mucilaginosa	Streptococcus mitis	1.0	Intertype	#cccccc
+518	Streptococcus mitis	Staphylococcus pasteuri	1.0	Attached	#4e4dfc
+519	Staphylococcus pasteuri	Streptococcus mitis	1.0	Attached	#4e4dfc
+520	Streptococcus mitis	Streptococcus dentisani	1.0	Intertype	#cccccc
+521	Streptococcus dentisani	Streptococcus mitis	1.0	Intertype	#cccccc
+522	Streptococcus mitis	Streptococcus gordonii	1.0	Attached	#4e4dfc
+523	Streptococcus gordonii	Streptococcus mitis	1.0	Attached	#4e4dfc
+524	Streptococcus oligofermentans	Alloprevotella tannerae	1.0	Intertype	#cccccc
+525	Alloprevotella tannerae	Streptococcus oligofermentans	1.0	Intertype	#cccccc
+526	Streptococcus oligofermentans	Candidatus Saccharibacteria oral taxon TM7x	1.0	Intertype	#cccccc
+527	Candidatus Saccharibacteria oral taxon TM7x	Streptococcus oligofermentans	1.0	Intertype	#cccccc
+528	Streptococcus oligofermentans	Capnocytophaga sp. oral taxon 329	1.0	Intertype	#cccccc
+529	Capnocytophaga sp. oral taxon 329	Streptococcus oligofermentans	1.0	Intertype	#cccccc
+530	Streptococcus oligofermentans	Chlamydia trachomatis	1.0	Attached	#4e4dfc
+531	Chlamydia trachomatis	Streptococcus oligofermentans	1.0	Attached	#4e4dfc
+532	Streptococcus oligofermentans	Gemella haemolysans	1.0	Intertype	#cccccc
+533	Gemella haemolysans	Streptococcus oligofermentans	1.0	Intertype	#cccccc
+534	Streptococcus oligofermentans	Gemella sanguinis	1.0	Intertype	#cccccc
+535	Gemella sanguinis	Streptococcus oligofermentans	1.0	Intertype	#cccccc
+536	Streptococcus oligofermentans	Granulicatella elegans	1.0	Attached	#4e4dfc
+537	Granulicatella elegans	Streptococcus oligofermentans	1.0	Attached	#4e4dfc
+538	Streptococcus oligofermentans	Haemophilus haemolyticus	1.0	Attached	#4e4dfc
+539	Haemophilus haemolyticus	Streptococcus oligofermentans	1.0	Attached	#4e4dfc
+540	Streptococcus oligofermentans	Haemophilus influenzae	1.0	Intertype	#cccccc
+541	Haemophilus influenzae	Streptococcus oligofermentans	1.0	Intertype	#cccccc
+542	Streptococcus oligofermentans	Haemophilus parainfluenzae	1.0	Intertype	#cccccc
+543	Haemophilus parainfluenzae	Streptococcus oligofermentans	1.0	Intertype	#cccccc
+544	Streptococcus oligofermentans	Haemophilus sp. oral taxon 851	1.0	Attached	#4e4dfc
+545	Haemophilus sp. oral taxon 851	Streptococcus oligofermentans	1.0	Attached	#4e4dfc
+546	Streptococcus oligofermentans	Haemophilus sputorum	1.0	Intertype	#cccccc
+547	Haemophilus sputorum	Streptococcus oligofermentans	1.0	Intertype	#cccccc
+548	Streptococcus oligofermentans	Leptotrichia shahii	1.0	Intertype	#cccccc
+549	Leptotrichia shahii	Streptococcus oligofermentans	1.0	Intertype	#cccccc
+550	Streptococcus oligofermentans	Porphyromonas catoniae	1.0	Intertype	#cccccc
+551	Porphyromonas catoniae	Streptococcus oligofermentans	1.0	Intertype	#cccccc
+552	Streptococcus oligofermentans	Rothia mucilaginosa	1.0	Intertype	#cccccc
+553	Rothia mucilaginosa	Streptococcus oligofermentans	1.0	Intertype	#cccccc
+554	Streptococcus oligofermentans	Staphylococcus pasteuri	1.0	Attached	#4e4dfc
+555	Staphylococcus pasteuri	Streptococcus oligofermentans	1.0	Attached	#4e4dfc
+556	Streptococcus oligofermentans	Streptococcus dentisani	1.0	Intertype	#cccccc
+557	Streptococcus dentisani	Streptococcus oligofermentans	1.0	Intertype	#cccccc
+558	Streptococcus oligofermentans	Streptococcus gordonii	1.0	Attached	#4e4dfc
+559	Streptococcus gordonii	Streptococcus oligofermentans	1.0	Attached	#4e4dfc
+560	Streptococcus oligofermentans	Streptococcus mitis	1.0	Attached	#4e4dfc
+561	Streptococcus mitis	Streptococcus oligofermentans	1.0	Attached	#4e4dfc
+562	Streptococcus parasanguinis	Actinomyces naeslundii	1.0	Intertype	#cccccc
+563	Actinomyces naeslundii	Streptococcus parasanguinis	1.0	Intertype	#cccccc
+564	Streptococcus parasanguinis	Actinomyces oris	1.0	Intertype	#cccccc
+565	Actinomyces oris	Streptococcus parasanguinis	1.0	Intertype	#cccccc
+566	Streptococcus parasanguinis	Actinomyces sp. ICM47	1.0	Tongue_dorsum	#ff0000
+567	Actinomyces sp. ICM47	Streptococcus parasanguinis	1.0	Tongue_dorsum	#ff0000
+568	Streptococcus parasanguinis	Actinomyces sp. oral taxon 170	1.0	Intertype	#cccccc
+569	Actinomyces sp. oral taxon 170	Streptococcus parasanguinis	1.0	Intertype	#cccccc
+570	Streptococcus parasanguinis	Actinomyces sp. oral taxon 171	1.0	Intertype	#cccccc
+571	Actinomyces sp. oral taxon 171	Streptococcus parasanguinis	1.0	Intertype	#cccccc
+572	Streptococcus parasanguinis	Capnocytophaga sp. oral taxon 332	1.0	Intertype	#cccccc
+573	Capnocytophaga sp. oral taxon 332	Streptococcus parasanguinis	1.0	Intertype	#cccccc
+574	Streptococcus parasanguinis	Capnocytophaga sputigena	1.0	Intertype	#cccccc
+575	Capnocytophaga sputigena	Streptococcus parasanguinis	1.0	Intertype	#cccccc
+576	Streptococcus parasanguinis	Corynebacterium durum	1.0	Intertype	#cccccc
+577	Corynebacterium durum	Streptococcus parasanguinis	1.0	Intertype	#cccccc
+578	Streptococcus parasanguinis	Corynebacterium matruchotii	1.0	Intertype	#cccccc
+579	Corynebacterium matruchotii	Streptococcus parasanguinis	1.0	Intertype	#cccccc
+580	Streptococcus parasanguinis	Neisseria cinerea	1.0	Intertype	#cccccc
+581	Neisseria cinerea	Streptococcus parasanguinis	1.0	Intertype	#cccccc
+582	Streptococcus parasanguinis	Neisseria meningitidis	1.0	Intertype	#cccccc
+583	Neisseria meningitidis	Streptococcus parasanguinis	1.0	Intertype	#cccccc
+584	Streptococcus parasanguinis	Porphyromonas gingivalis	1.0	Intertype	#cccccc
+585	Porphyromonas gingivalis	Streptococcus parasanguinis	1.0	Intertype	#cccccc
+586	Streptococcus parasanguinis	Porphyromonas sp. oral taxon 278	1.0	Intertype	#cccccc
+587	Porphyromonas sp. oral taxon 278	Streptococcus parasanguinis	1.0	Intertype	#cccccc
+588	Streptococcus parasanguinis	Prevotella sp. oral taxon 473	1.0	Intertype	#cccccc
+589	Prevotella sp. oral taxon 473	Streptococcus parasanguinis	1.0	Intertype	#cccccc
+590	Streptococcus pneumoniae	Actinomyces naeslundii	1.0	Intertype	#cccccc
+591	Actinomyces naeslundii	Streptococcus pneumoniae	1.0	Intertype	#cccccc
+592	Streptococcus pneumoniae	Actinomyces oris	1.0	Intertype	#cccccc
+593	Actinomyces oris	Streptococcus pneumoniae	1.0	Intertype	#cccccc
+594	Streptococcus pneumoniae	Actinomyces sp. ICM47	1.0	Intertype	#cccccc
+595	Actinomyces sp. ICM47	Streptococcus pneumoniae	1.0	Intertype	#cccccc
+596	Streptococcus pneumoniae	Actinomyces sp. oral taxon 170	1.0	Intertype	#cccccc
+597	Actinomyces sp. oral taxon 170	Streptococcus pneumoniae	1.0	Intertype	#cccccc
+598	Streptococcus pneumoniae	Actinomyces sp. oral taxon 171	1.0	Intertype	#cccccc
+599	Actinomyces sp. oral taxon 171	Streptococcus pneumoniae	1.0	Intertype	#cccccc
+600	Streptococcus pneumoniae	Capnocytophaga sp. oral taxon 332	1.0	Intertype	#cccccc
+601	Capnocytophaga sp. oral taxon 332	Streptococcus pneumoniae	1.0	Intertype	#cccccc
+602	Streptococcus pneumoniae	Capnocytophaga sputigena	1.0	Intertype	#cccccc
+603	Capnocytophaga sputigena	Streptococcus pneumoniae	1.0	Intertype	#cccccc
+604	Streptococcus pneumoniae	Corynebacterium durum	1.0	Intertype	#cccccc
+605	Corynebacterium durum	Streptococcus pneumoniae	1.0	Intertype	#cccccc
+606	Streptococcus pneumoniae	Corynebacterium matruchotii	1.0	Intertype	#cccccc
+607	Corynebacterium matruchotii	Streptococcus pneumoniae	1.0	Intertype	#cccccc
+608	Streptococcus pneumoniae	Neisseria cinerea	1.0	Attached	#4e4dfc
+609	Neisseria cinerea	Streptococcus pneumoniae	1.0	Attached	#4e4dfc
+610	Streptococcus pneumoniae	Neisseria meningitidis	1.0	Intertype	#cccccc
+611	Neisseria meningitidis	Streptococcus pneumoniae	1.0	Intertype	#cccccc
+612	Streptococcus pneumoniae	Porphyromonas gingivalis	1.0	Attached	#4e4dfc
+613	Porphyromonas gingivalis	Streptococcus pneumoniae	1.0	Attached	#4e4dfc
+614	Streptococcus pneumoniae	Porphyromonas sp. oral taxon 278	1.0	Intertype	#cccccc
+615	Porphyromonas sp. oral taxon 278	Streptococcus pneumoniae	1.0	Intertype	#cccccc
+616	Streptococcus pneumoniae	Prevotella sp. oral taxon 473	1.0	Attached	#4e4dfc
+617	Prevotella sp. oral taxon 473	Streptococcus pneumoniae	1.0	Attached	#4e4dfc
+618	Streptococcus pneumoniae	Streptococcus parasanguinis	1.0	Intertype	#cccccc
+619	Streptococcus parasanguinis	Streptococcus pneumoniae	1.0	Intertype	#cccccc
+620	Streptococcus pseudopneumoniae	Alloprevotella tannerae	1.0	Intertype	#cccccc
+621	Alloprevotella tannerae	Streptococcus pseudopneumoniae	1.0	Intertype	#cccccc
+622	Streptococcus pseudopneumoniae	Candidatus Saccharibacteria oral taxon TM7x	1.0	Intertype	#cccccc
+623	Candidatus Saccharibacteria oral taxon TM7x	Streptococcus pseudopneumoniae	1.0	Intertype	#cccccc
+624	Streptococcus pseudopneumoniae	Capnocytophaga sp. oral taxon 329	1.0	Intertype	#cccccc
+625	Capnocytophaga sp. oral taxon 329	Streptococcus pseudopneumoniae	1.0	Intertype	#cccccc
+626	Streptococcus pseudopneumoniae	Chlamydia trachomatis	1.0	Attached	#4e4dfc
+627	Chlamydia trachomatis	Streptococcus pseudopneumoniae	1.0	Attached	#4e4dfc
+628	Streptococcus pseudopneumoniae	Gemella haemolysans	1.0	Intertype	#cccccc
+629	Gemella haemolysans	Streptococcus pseudopneumoniae	1.0	Intertype	#cccccc
+630	Streptococcus pseudopneumoniae	Gemella sanguinis	1.0	Intertype	#cccccc
+631	Gemella sanguinis	Streptococcus pseudopneumoniae	1.0	Intertype	#cccccc
+632	Streptococcus pseudopneumoniae	Granulicatella elegans	1.0	Attached	#4e4dfc
+633	Granulicatella elegans	Streptococcus pseudopneumoniae	1.0	Attached	#4e4dfc
+634	Streptococcus pseudopneumoniae	Haemophilus haemolyticus	1.0	Attached	#4e4dfc
+635	Haemophilus haemolyticus	Streptococcus pseudopneumoniae	1.0	Attached	#4e4dfc
+636	Streptococcus pseudopneumoniae	Haemophilus influenzae	1.0	Intertype	#cccccc
+637	Haemophilus influenzae	Streptococcus pseudopneumoniae	1.0	Intertype	#cccccc
+638	Streptococcus pseudopneumoniae	Haemophilus parainfluenzae	1.0	Intertype	#cccccc
+639	Haemophilus parainfluenzae	Streptococcus pseudopneumoniae	1.0	Intertype	#cccccc
+640	Streptococcus pseudopneumoniae	Haemophilus sp. oral taxon 851	1.0	Attached	#4e4dfc
+641	Haemophilus sp. oral taxon 851	Streptococcus pseudopneumoniae	1.0	Attached	#4e4dfc
+642	Streptococcus pseudopneumoniae	Haemophilus sputorum	1.0	Intertype	#cccccc
+643	Haemophilus sputorum	Streptococcus pseudopneumoniae	1.0	Intertype	#cccccc
+644	Streptococcus pseudopneumoniae	Leptotrichia shahii	1.0	Intertype	#cccccc
+645	Leptotrichia shahii	Streptococcus pseudopneumoniae	1.0	Intertype	#cccccc
+646	Streptococcus pseudopneumoniae	Porphyromonas catoniae	1.0	Intertype	#cccccc
+647	Porphyromonas catoniae	Streptococcus pseudopneumoniae	1.0	Intertype	#cccccc
+648	Streptococcus pseudopneumoniae	Rothia mucilaginosa	1.0	Intertype	#cccccc
+649	Rothia mucilaginosa	Streptococcus pseudopneumoniae	1.0	Intertype	#cccccc
+650	Streptococcus pseudopneumoniae	Staphylococcus pasteuri	1.0	Attached	#4e4dfc
+651	Staphylococcus pasteuri	Streptococcus pseudopneumoniae	1.0	Attached	#4e4dfc
+652	Streptococcus pseudopneumoniae	Streptococcus dentisani	1.0	Intertype	#cccccc
+653	Streptococcus dentisani	Streptococcus pseudopneumoniae	1.0	Intertype	#cccccc
+654	Streptococcus pseudopneumoniae	Streptococcus gordonii	1.0	Attached	#4e4dfc
+655	Streptococcus gordonii	Streptococcus pseudopneumoniae	1.0	Attached	#4e4dfc
+656	Streptococcus pseudopneumoniae	Streptococcus mitis	1.0	Attached	#4e4dfc
+657	Streptococcus mitis	Streptococcus pseudopneumoniae	1.0	Attached	#4e4dfc
+658	Streptococcus pseudopneumoniae	Streptococcus oligofermentans	1.0	Attached	#4e4dfc
+659	Streptococcus oligofermentans	Streptococcus pseudopneumoniae	1.0	Attached	#4e4dfc
+660	Streptococcus sp. F0442	Alloprevotella tannerae	1.0	Intertype	#cccccc
+661	Alloprevotella tannerae	Streptococcus sp. F0442	1.0	Intertype	#cccccc
+662	Streptococcus sp. F0442	Candidatus Saccharibacteria oral taxon TM7x	1.0	Intertype	#cccccc
+663	Candidatus Saccharibacteria oral taxon TM7x	Streptococcus sp. F0442	1.0	Intertype	#cccccc
+664	Streptococcus sp. F0442	Capnocytophaga sp. oral taxon 329	1.0	Intertype	#cccccc
+665	Capnocytophaga sp. oral taxon 329	Streptococcus sp. F0442	1.0	Intertype	#cccccc
+666	Streptococcus sp. F0442	Chlamydia trachomatis	1.0	Intertype	#cccccc
+667	Chlamydia trachomatis	Streptococcus sp. F0442	1.0	Intertype	#cccccc
+668	Streptococcus sp. F0442	Gemella haemolysans	1.0	Intertype	#cccccc
+669	Gemella haemolysans	Streptococcus sp. F0442	1.0	Intertype	#cccccc
+670	Streptococcus sp. F0442	Gemella sanguinis	1.0	Tongue_dorsum	#ff0000
+671	Gemella sanguinis	Streptococcus sp. F0442	1.0	Tongue_dorsum	#ff0000
+672	Streptococcus sp. F0442	Granulicatella elegans	1.0	Intertype	#cccccc
+673	Granulicatella elegans	Streptococcus sp. F0442	1.0	Intertype	#cccccc
+674	Streptococcus sp. F0442	Haemophilus haemolyticus	1.0	Intertype	#cccccc
+675	Haemophilus haemolyticus	Streptococcus sp. F0442	1.0	Intertype	#cccccc
+676	Streptococcus sp. F0442	Haemophilus influenzae	1.0	Intertype	#cccccc
+677	Haemophilus influenzae	Streptococcus sp. F0442	1.0	Intertype	#cccccc
+678	Streptococcus sp. F0442	Haemophilus parainfluenzae	1.0	Tongue_dorsum	#ff0000
+679	Haemophilus parainfluenzae	Streptococcus sp. F0442	1.0	Tongue_dorsum	#ff0000
+680	Streptococcus sp. F0442	Haemophilus sp. oral taxon 851	1.0	Intertype	#cccccc
+681	Haemophilus sp. oral taxon 851	Streptococcus sp. F0442	1.0	Intertype	#cccccc
+682	Streptococcus sp. F0442	Haemophilus sputorum	1.0	Intertype	#cccccc
+683	Haemophilus sputorum	Streptococcus sp. F0442	1.0	Intertype	#cccccc
+684	Streptococcus sp. F0442	Leptotrichia shahii	1.0	Tongue_dorsum	#ff0000
+685	Leptotrichia shahii	Streptococcus sp. F0442	1.0	Tongue_dorsum	#ff0000
+686	Streptococcus sp. F0442	Porphyromonas catoniae	1.0	Intertype	#cccccc
+687	Porphyromonas catoniae	Streptococcus sp. F0442	1.0	Intertype	#cccccc
+688	Streptococcus sp. F0442	Rothia mucilaginosa	1.0	Intertype	#cccccc
+689	Rothia mucilaginosa	Streptococcus sp. F0442	1.0	Intertype	#cccccc
+690	Streptococcus sp. F0442	Staphylococcus pasteuri	1.0	Intertype	#cccccc
+691	Staphylococcus pasteuri	Streptococcus sp. F0442	1.0	Intertype	#cccccc
+692	Streptococcus sp. F0442	Streptococcus dentisani	1.0	Intertype	#cccccc
+693	Streptococcus dentisani	Streptococcus sp. F0442	1.0	Intertype	#cccccc
+694	Streptococcus sp. F0442	Streptococcus gordonii	1.0	Intertype	#cccccc
+695	Streptococcus gordonii	Streptococcus sp. F0442	1.0	Intertype	#cccccc
+696	Streptococcus sp. F0442	Streptococcus mitis	1.0	Intertype	#cccccc
+697	Streptococcus mitis	Streptococcus sp. F0442	1.0	Intertype	#cccccc
+698	Streptococcus sp. F0442	Streptococcus oligofermentans	1.0	Intertype	#cccccc
+699	Streptococcus oligofermentans	Streptococcus sp. F0442	1.0	Intertype	#cccccc
+700	Streptococcus sp. F0442	Streptococcus pseudopneumoniae	1.0	Intertype	#cccccc
+701	Streptococcus pseudopneumoniae	Streptococcus sp. F0442	1.0	Intertype	#cccccc
+702	Veillonella seminalis	Alloprevotella tannerae	1.0	Intertype	#cccccc
+703	Alloprevotella tannerae	Veillonella seminalis	1.0	Intertype	#cccccc
+704	Veillonella seminalis	Candidatus Saccharibacteria oral taxon TM7x	1.0	Intertype	#cccccc
+705	Candidatus Saccharibacteria oral taxon TM7x	Veillonella seminalis	1.0	Intertype	#cccccc
+706	Veillonella seminalis	Capnocytophaga sp. oral taxon 329	1.0	Intertype	#cccccc
+707	Capnocytophaga sp. oral taxon 329	Veillonella seminalis	1.0	Intertype	#cccccc
+708	Veillonella seminalis	Chlamydia trachomatis	1.0	Attached	#4e4dfc
+709	Chlamydia trachomatis	Veillonella seminalis	1.0	Attached	#4e4dfc
+710	Veillonella seminalis	Gemella haemolysans	1.0	Intertype	#cccccc
+711	Gemella haemolysans	Veillonella seminalis	1.0	Intertype	#cccccc
+712	Veillonella seminalis	Gemella sanguinis	1.0	Intertype	#cccccc
+713	Gemella sanguinis	Veillonella seminalis	1.0	Intertype	#cccccc
+714	Veillonella seminalis	Granulicatella elegans	1.0	Attached	#4e4dfc
+715	Granulicatella elegans	Veillonella seminalis	1.0	Attached	#4e4dfc
+716	Veillonella seminalis	Haemophilus haemolyticus	1.0	Attached	#4e4dfc
+717	Haemophilus haemolyticus	Veillonella seminalis	1.0	Attached	#4e4dfc
+718	Veillonella seminalis	Haemophilus influenzae	1.0	Intertype	#cccccc
+719	Haemophilus influenzae	Veillonella seminalis	1.0	Intertype	#cccccc
+720	Veillonella seminalis	Haemophilus parainfluenzae	1.0	Intertype	#cccccc
+721	Haemophilus parainfluenzae	Veillonella seminalis	1.0	Intertype	#cccccc
+722	Veillonella seminalis	Haemophilus sp. oral taxon 851	1.0	Attached	#4e4dfc
+723	Haemophilus sp. oral taxon 851	Veillonella seminalis	1.0	Attached	#4e4dfc
+724	Veillonella seminalis	Haemophilus sputorum	1.0	Intertype	#cccccc
+725	Haemophilus sputorum	Veillonella seminalis	1.0	Intertype	#cccccc
+726	Veillonella seminalis	Leptotrichia shahii	1.0	Intertype	#cccccc
+727	Leptotrichia shahii	Veillonella seminalis	1.0	Intertype	#cccccc
+728	Veillonella seminalis	Porphyromonas catoniae	1.0	Intertype	#cccccc
+729	Porphyromonas catoniae	Veillonella seminalis	1.0	Intertype	#cccccc
+730	Veillonella seminalis	Rothia mucilaginosa	1.0	Intertype	#cccccc
+731	Rothia mucilaginosa	Veillonella seminalis	1.0	Intertype	#cccccc
+732	Veillonella seminalis	Staphylococcus pasteuri	1.0	Attached	#4e4dfc
+733	Staphylococcus pasteuri	Veillonella seminalis	1.0	Attached	#4e4dfc
+734	Veillonella seminalis	Streptococcus dentisani	1.0	Intertype	#cccccc
+735	Streptococcus dentisani	Veillonella seminalis	1.0	Intertype	#cccccc
+736	Veillonella seminalis	Streptococcus gordonii	1.0	Attached	#4e4dfc
+737	Streptococcus gordonii	Veillonella seminalis	1.0	Attached	#4e4dfc
+738	Veillonella seminalis	Streptococcus mitis	1.0	Attached	#4e4dfc
+739	Streptococcus mitis	Veillonella seminalis	1.0	Attached	#4e4dfc
+740	Veillonella seminalis	Streptococcus oligofermentans	1.0	Attached	#4e4dfc
+741	Streptococcus oligofermentans	Veillonella seminalis	1.0	Attached	#4e4dfc
+742	Veillonella seminalis	Streptococcus pseudopneumoniae	1.0	Attached	#4e4dfc
+743	Streptococcus pseudopneumoniae	Veillonella seminalis	1.0	Attached	#4e4dfc
+744	Veillonella seminalis	Streptococcus sp. F0442	1.0	Intertype	#cccccc
+745	Streptococcus sp. F0442	Veillonella seminalis	1.0	Intertype	#cccccc
+746	Veillonella sp. oral taxon 780	Alloprevotella tannerae	1.0	Intertype	#cccccc
+747	Alloprevotella tannerae	Veillonella sp. oral taxon 780	1.0	Intertype	#cccccc
+748	Veillonella sp. oral taxon 780	Candidatus Saccharibacteria oral taxon TM7x	1.0	Intertype	#cccccc
+749	Candidatus Saccharibacteria oral taxon TM7x	Veillonella sp. oral taxon 780	1.0	Intertype	#cccccc
+750	Veillonella sp. oral taxon 780	Capnocytophaga sp. oral taxon 329	1.0	Intertype	#cccccc
+751	Capnocytophaga sp. oral taxon 329	Veillonella sp. oral taxon 780	1.0	Intertype	#cccccc
+752	Veillonella sp. oral taxon 780	Chlamydia trachomatis	1.0	Attached	#4e4dfc
+753	Chlamydia trachomatis	Veillonella sp. oral taxon 780	1.0	Attached	#4e4dfc
+754	Veillonella sp. oral taxon 780	Gemella haemolysans	1.0	Intertype	#cccccc
+755	Gemella haemolysans	Veillonella sp. oral taxon 780	1.0	Intertype	#cccccc
+756	Veillonella sp. oral taxon 780	Gemella sanguinis	1.0	Intertype	#cccccc
+757	Gemella sanguinis	Veillonella sp. oral taxon 780	1.0	Intertype	#cccccc
+758	Veillonella sp. oral taxon 780	Granulicatella elegans	1.0	Attached	#4e4dfc
+759	Granulicatella elegans	Veillonella sp. oral taxon 780	1.0	Attached	#4e4dfc
+760	Veillonella sp. oral taxon 780	Haemophilus haemolyticus	1.0	Attached	#4e4dfc
+761	Haemophilus haemolyticus	Veillonella sp. oral taxon 780	1.0	Attached	#4e4dfc
+762	Veillonella sp. oral taxon 780	Haemophilus influenzae	1.0	Intertype	#cccccc
+763	Haemophilus influenzae	Veillonella sp. oral taxon 780	1.0	Intertype	#cccccc
+764	Veillonella sp. oral taxon 780	Haemophilus parainfluenzae	1.0	Intertype	#cccccc
+765	Haemophilus parainfluenzae	Veillonella sp. oral taxon 780	1.0	Intertype	#cccccc
+766	Veillonella sp. oral taxon 780	Haemophilus sp. oral taxon 851	1.0	Attached	#4e4dfc
+767	Haemophilus sp. oral taxon 851	Veillonella sp. oral taxon 780	1.0	Attached	#4e4dfc
+768	Veillonella sp. oral taxon 780	Haemophilus sputorum	1.0	Intertype	#cccccc
+769	Haemophilus sputorum	Veillonella sp. oral taxon 780	1.0	Intertype	#cccccc
+770	Veillonella sp. oral taxon 780	Leptotrichia shahii	1.0	Intertype	#cccccc
+771	Leptotrichia shahii	Veillonella sp. oral taxon 780	1.0	Intertype	#cccccc
+772	Veillonella sp. oral taxon 780	Porphyromonas catoniae	1.0	Intertype	#cccccc
+773	Porphyromonas catoniae	Veillonella sp. oral taxon 780	1.0	Intertype	#cccccc
+774	Veillonella sp. oral taxon 780	Rothia mucilaginosa	1.0	Intertype	#cccccc
+775	Rothia mucilaginosa	Veillonella sp. oral taxon 780	1.0	Intertype	#cccccc
+776	Veillonella sp. oral taxon 780	Staphylococcus pasteuri	1.0	Attached	#4e4dfc
+777	Staphylococcus pasteuri	Veillonella sp. oral taxon 780	1.0	Attached	#4e4dfc
+778	Veillonella sp. oral taxon 780	Streptococcus dentisani	1.0	Intertype	#cccccc
+779	Streptococcus dentisani	Veillonella sp. oral taxon 780	1.0	Intertype	#cccccc
+780	Veillonella sp. oral taxon 780	Streptococcus gordonii	1.0	Attached	#4e4dfc
+781	Streptococcus gordonii	Veillonella sp. oral taxon 780	1.0	Attached	#4e4dfc
+782	Veillonella sp. oral taxon 780	Streptococcus mitis	1.0	Attached	#4e4dfc
+783	Streptococcus mitis	Veillonella sp. oral taxon 780	1.0	Attached	#4e4dfc
+784	Veillonella sp. oral taxon 780	Streptococcus oligofermentans	1.0	Attached	#4e4dfc
+785	Streptococcus oligofermentans	Veillonella sp. oral taxon 780	1.0	Attached	#4e4dfc
+786	Veillonella sp. oral taxon 780	Streptococcus pseudopneumoniae	1.0	Attached	#4e4dfc
+787	Streptococcus pseudopneumoniae	Veillonella sp. oral taxon 780	1.0	Attached	#4e4dfc
+788	Veillonella sp. oral taxon 780	Streptococcus sp. F0442	1.0	Intertype	#cccccc
+789	Streptococcus sp. F0442	Veillonella sp. oral taxon 780	1.0	Intertype	#cccccc
+790	Veillonella sp. oral taxon 780	Veillonella seminalis	1.0	Attached	#4e4dfc
+791	Veillonella seminalis	Veillonella sp. oral taxon 780	1.0	Attached	#4e4dfc

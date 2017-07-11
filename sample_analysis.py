@@ -40,36 +40,43 @@ coocc_net_name = sys.argv[2]#arguments[1]#
 coocc_mat_name = sys.argv[3]#arguments[2]#
 level = sys.argv[4]#arguments[3]#
 
-slsh = sample_name.rfind('/')
-sample_name_short = sample_name[slsh+1:-14]#sys.argv[5]#arguments[4]#
+ntype = ''
+if 'bins' in coocc_net_name:
+	ntype = '_bins'
+elif 'pear' in coocc_net_name:
+	ntype = '_pear'
 
-sample = pd.read_csv(sample_name, sep = ' ')
+slsh = coocc_net_name.rfind('/')
+unders = where([letter == '_' for letter in coocc_net_name])[0]
+sample_name_short = coocc_net_name[slsh+1:unders[-1]]+ntype #sample_name[slsh+1:-14]#sys.argv[5]#arguments[4]#
+
+sample = pd.read_csv(sample_name, sep = '\t')
 coocc_net = pd.read_csv(coocc_net_name, sep = '\t')
 coocc_mat = pd.read_csv(coocc_mat_name, sep = '\t', index_col = 0)
 
 #trim the sample to just the level we are looking at (shouldn't be needed with the samples I made)
-sample = sample.iloc[where([i == level for i in sample['LEVEL']])]
+samplelvl = sample.iloc[where([i == level for i in sample['LEVEL']])]
 
 #ilocs!
-rmved = where(sample['Removed'])
-added = where(sample['Added'])
+rmved = where(samplelvl['Removed'])
+added = where(samplelvl['Added'])
 
 #who is there
-N = len(sample)
-present = nonzero(sample['abundance'])[0]
-present_names = sample['TAXA'][present]
+N = len(samplelvl)
+present = nonzero(samplelvl['abundance'])[0]
+present_names = samplelvl['TAXA'][present]
 
 
 #and trim off Taxa that aren't in my network
-in_net = [(ta in coocc_mat.index) for ta in sample['TAXA']]
+in_net = [(ta in coocc_mat.index) for ta in samplelvl['TAXA']]
 #but first get a list of Taxa not in my network that are here, just in case
-not_in = sample.iloc[where(invert(in_net))]
+not_in = samplelvl.iloc[where(invert(in_net))]
 pres_not_in = nonzero(not_in['abundance'])[0]
 pres_not_in_names = not_in['TAXA'][pres_not_in]
 #trim
 in_net_ilocs = where(in_net)
-in_net_locs = sample.index[in_net_ilocs]
-sample_trim = sample.loc[in_net_locs]
+in_net_locs = samplelvl.index[in_net_ilocs]
+sample_trim = samplelvl.loc[in_net_locs]
 ####The above way fo defining a new DF keeps the old index!
 
 #it's possible that anything present in the sample isn't in my network yet
@@ -197,14 +204,14 @@ forced_cold[samp_on] = forced_cols[0]
 
 #ivp returns a list of lists (of lists if there are ties down to the transient behavior)
 l1 = 0
+l11 = 0
 p1 = 0
 for rk1 in ivp[0]:
 	if isinstance(rk1, list):
 		for rrk1 in rk1:
 			#ties at the transient level should get the same rank
 			ivp_r[rrk1] = l1
-			ivp_cold[rrk1] = ivp_cols[l1+1]
-			l1 = l1+1
+			ivp_cold[rrk1] = ivp_cols[l11+1]
 			#equib values is a flat list
 			ivp_vals_eq[rrk1] = ivp[1][p1]
 			ivp_vals_eq_col[rrk1] = ivp_eq_cols[p1]
@@ -214,13 +221,13 @@ for rk1 in ivp[0]:
 			else:
 				le = 1
 				cols = ivp_tr_cols[p1]
+			l1 = l1+le
 			ivp_vals_tr[rrk1] = flat_transient[p1:p1+le]
 			ivp_vals_tr_col[rrk1] = cols
 			p1 = p1 + le
 	else:
 		ivp_r[rk1] = l1
-		ivp_cold[rk1] = ivp_cols[l1+1]
-		l1 = l1+1
+		ivp_cold[rk1] = ivp_cols[l11+1]
 		ivp_vals_eq[rrk1] = ivp[1][p1]
 		ivp_vals_eq_col[rk1] = ivp_eq_cols[p1]
 		if isinstance(rk1, list):
@@ -229,17 +236,19 @@ for rk1 in ivp[0]:
 		else:
 			le = 1
 			ivp_tr_cols[p1]
+		l1 = l1+le
+		l11 = l11 +1
 		ivp_vals_tr[rk1] = flat_transient[p1:p1+le]
 		ivp_vals_tr_col[rk1] = cols
 		p1 = p1 + le
 	
 #bdvp has a list of lists (if there are ties): [t1,t2,[t3,t4],t5] means t3 & t4 are tied
 l2 = 0
+l22 = 0
 p2 = 0
 for rk2 in bdvp[0]:
 	bdvp_r[rk2] = l2
-	bdvp_cold[rk2] = bdvp_cols[l2+1]
-	l2 = l2+1
+	bdvp_cold[rk2] = bdvp_cols[l22+1]
 	bdvp_vals[rk2] = bdvp[1][p2]
 	bdvp_vals_col[rk2] = bdvp_eq_cols[p2]
 	if isinstance(rk2, list):
@@ -247,14 +256,17 @@ for rk2 in bdvp[0]:
 	else:
 		le = 1
 	p2 = p2 + le
+	l2 = l2+le
+	l22 = l22 + 1
+
 	
 #again, a list of lists (if there are ties)
 l3 = 0
+l33 = 0
 p3 = 0
 for rk3 in forced[0]:
 	forced_r[rk3] = l3
-	forced_cold[rk3] = forced_cols[l3+1]
-	l3 = l3+1
+	forced_cold[rk3] = forced_cols[l33+1]
 	forced_vals[rk3] = forced[1][p3]
 	forced_vals_col[rk3] = forced_eq_cols[p3]
 	if isinstance(rk3, list):
@@ -262,24 +274,26 @@ for rk3 in forced[0]:
 	else:
 		le = 1
 	p3 = p3+le
+	l3 = l3+le
+	l33 = l33 + 1
 
-sample_trim['ivp'] = ivp_r
-sample_trim['bdvp'] = bdvp_r
-sample_trim['forced'] = forced_r
-sample_trim['ivp_eq'] = ivp_vals_eq
-sample_trim['ivp_transient'] = ivp_vals_tr
-sample_trim['bdvp_eq'] = bdvp_vals
-sample_trim['forced_eq'] = forced_vals
+sample_trim['ivp'+'_'+sample_name_short] = ivp_r
+sample_trim['bdvp'+'_'+sample_name_short] = bdvp_r
+sample_trim['forced'+'_'+sample_name_short] = forced_r
+sample_trim['ivp_eq'+'_'+sample_name_short] = ivp_vals_eq
+sample_trim['ivp_transient'+'_'+sample_name_short] = ivp_vals_tr
+sample_trim['bdvp_eq'+'_'+sample_name_short] = bdvp_vals
+sample_trim['forced_eq'+'_'+sample_name_short] = forced_vals
 
-sample_trim['ivp_col'] = ivp_cold
-sample_trim['bdvp_col'] = bdvp_cold
-sample_trim['forced_col'] = forced_cold
+sample_trim['ivp_col'+'_'+sample_name_short] = ivp_cold
+sample_trim['bdvp_col'+'_'+sample_name_short] = bdvp_cold
+sample_trim['forced_col'+'_'+sample_name_short] = forced_cold
 samp_ord = unique(sample_trim['abundance'].values,return_inverse = True)[1]
 sample_trim['sample_col'] = array(samp_cols)[samp_ord.astype(int)]
-sample_trim['ivp_eq_color'] = ivp_vals_eq_col
-sample_trim['ivp_transient_color'] = ivp_vals_tr_col
-sample_trim['bdvp_eq_color'] = bdvp_vals_col
-sample_trim['forced_eq_color'] = forced_vals_col
+sample_trim['ivp_eq_color'+'_'+sample_name_short] = ivp_vals_eq_col
+sample_trim['ivp_transient_color'+'_'+sample_name_short] = ivp_vals_tr_col
+sample_trim['bdvp_eq_color'+'_'+sample_name_short] = bdvp_vals_col
+sample_trim['forced_eq_color'+'_'+sample_name_short] = forced_vals_col
 
 
 rmvd_ilocs = where([rtax in sample.loc[sample.index[rmved],'TAXA'].values for rtax in sample_trim['TAXA']])
@@ -289,40 +303,94 @@ rmvd_locs = sample_trim.index[rmvd_ilocs]
 term_out = False
 if term_out:
 	for rmd in rmvd_locs:
-		print(sample_trim.loc[rmd,'ivp'])
-		num_beat = sum((sample_trim['ivp'].values > sample_trim.loc[rmd,'ivp']).astype(int))
+		print(sample_trim.loc[rmd,'ivp'+'_'+sample_name_short])
+		num_beat = sum((sample_trim['ivp'+'_'+sample_name_short].values > sample_trim.loc[rmd,'ivp']).astype(int))
 		print(num_beat)
 
 	for rmd in rmvd_locs:
-		print(sample_trim.loc[rmd,'bdvp'])
-		num_beat = sum((sample_trim['bdvp'].values > sample_trim.loc[rmd,'bdvp']).astype(int))
+		print(sample_trim.loc[rmd,'bdvp'+'_'+sample_name_short])
+		num_beat = sum((sample_trim['bdvp'+'_'+sample_name_short].values > sample_trim.loc[rmd,'bdvp']).astype(int))
 		print(num_beat)
 
 
 	for rmd in rmvd_locs:
-		print(sample_trim.loc[rmd,'forced'])
-		num_beat = sum((sample_trim['forced'].values > sample_trim.loc[rmd,'forced']).astype(int))
+		print(sample_trim.loc[rmd,'forced'+'_'+sample_name_short])
+		num_beat = sum((sample_trim['forced'+'_'+sample_name_short].values > sample_trim.loc[rmd,'forced']).astype(int))
 		print(num_beat)
 
 
-##Save the sample the new columns. And clean it up a bit, make it nice for cytoscape
+##Save the sample with new columns. And clean it up a bit, make it nice for cytoscape
 
-sample_trim.drop('LEVEL',axis = 1, inplace = True)
-for col in unique(sample_trim.columns.values):
+max_r = len(sample_trim)
+
+sample['ivp'+'_'+sample_name_short] = max_r*ones(len(sample))
+# sample['ivp_eq'+'_'+sample_name_short] = zeros(len(sample))
+# sample['ivp_transient'+'_'+sample_name_short] = zeros(len(sample))
+sample['sample_col_'+sample_name_short] = array([' ']*len(sample))
+
+sample.index = sample['TAXA']
+sample.loc[sample_trim['TAXA'],'ivp'+'_'+sample_name_short] = sample_trim['ivp'+'_'+sample_name_short].values
+# sample.loc[sample_trim['TAXA'],'ivp_eq'+'_'+sample_name_short] = sample_trim['ivp_eq'+'_'+sample_name_short].values
+# sample.loc[sample_trim['TAXA'],'ivp_transient'+'_'+sample_name_short] = sample_trim['ivp_transient'+'_'+sample_name_short].values
+sample.loc[sample_trim['TAXA'],'sample_col_'+sample_name_short] = sample_trim['sample_col'].values
+
+
+other_probs = False
+if other_probs:
+	sample_trim['bdvp'+'_'+sample_name_short] = bdvp_r
+	sample_trim['forced'+'_'+sample_name_short] = forced_r
+	sample_trim['bdvp_eq'+'_'+sample_name_short] = bdvp_vals
+	sample_trim['forced_eq'+'_'+sample_name_short] = forced_vals
+	
+# 	sample['bdvp'+'_'+sample_name_short] = bdvp_r
+# 	sample['forced'+'_'+sample_name_short] = forced_r
+# 	sample['bdvp_eq'+'_'+sample_name_short] = bdvp_vals
+# 	sample['forced_eq'+'_'+sample_name_short] = forced_vals
+# 	
+# 	sample['bdvp'+'_'+sample_name_short] = bdvp_r
+# 	sample['forced'+'_'+sample_name_short] = forced_r
+# 	sample['bdvp_eq'+'_'+sample_name_short] = bdvp_vals
+# 	sample['forced_eq'+'_'+sample_name_short] = forced_vals
+
+color_it = True
+if color_it:
+	sample_trim['ivp_col'+'_'+sample_name_short] = ivp_cold
+	sample_trim['bdvp_col'+'_'+sample_name_short] = bdvp_cold
+	sample_trim['forced_col'+'_'+sample_name_short] = forced_cold
+	samp_ord = unique(sample_trim['abundance'].values,return_inverse = True)[1]
+	sample_trim['sample_col'] = array(samp_cols)[samp_ord.astype(int)]
+	sample_trim['ivp_eq_color'+'_'+sample_name_short] = ivp_vals_eq_col
+	sample_trim['ivp_transient_color'+'_'+sample_name_short] = ivp_vals_tr_col
+	sample_trim['bdvp_eq_color'+'_'+sample_name_short] = bdvp_vals_col
+	sample_trim['forced_eq_color'+'_'+sample_name_short] = forced_vals_col
+	
+	sample.loc[sample_trim['TAXA'],'ivp_col'+'_'+sample_name_short] = sample_trim['ivp_col'+'_'+sample_name_short].values
+	# sample.loc[sample_trim['TAXA'],'ivp_eq_color'+'_'+sample_name_short] = sample_trim['ivp_eq_color'+'_'+sample_name_short].values
+# 	sample.loc[sample_trim['TAXA'],'ivp_transient_color'+'_'+sample_name_short] = sample_trim['ivp_transient_color'+'_'+sample_name_short].values
+
+# 	if other_probs:
+# 		sample_trim['bdvp'+'_'+sample_name_short] = bdvp_r
+# 		sample_trim['forced'+'_'+sample_name_short] = forced_r
+# 		sample_trim['bdvp_eq'+'_'+sample_name_short] = bdvp_vals
+# 		sample_trim['forced_eq'+'_'+sample_name_short] = forced_vals
+
+
+#sample_trim.drop('LEVEL',axis = 1, inplace = True)
+for col in unique(sample.columns.values):
 	if 'Unnamed' in col:
-		sample_trim.drop(col,axis = 1, inplace = True)
-new_names = dict()
-for colu in sample_trim.columns:
-	new_names[colu] = colu+'_'+sample_name_short
-sample_trim.rename(columns = new_names, inplace = True)	
-ntype = ''
-if 'bins' in coocc_net_name:
-	ntype = 'bins'
-elif 'pear' in coocc_net_name:
-	ntype = 'pear'
-sample_trim.to_csv(flder+'/'+sample_name[slsh+1:-4]+'_rkd_'+ntype+'.tsv', sep = '\t')
+		sample.drop(col,axis = 1, inplace = True)
+	if 'TAXA.1' in col:
+		sample.drop(col,axis = 1, inplace = True)
+#new_names = dict()
+# for colu in sample_trim.columns:
+# 	new_names[colu] = colu+'_'+sample_name_short
+# sample_trim.rename(columns = new_names, inplace = True)	
 
-###here's the option to add it to the actual network file - this is really necessary, and cytoscape
+#slsh2 = sample_name.rfind('/')
+#flder+'/'+sample_name[slsh2+1:-4]+'_rkd_'+ntype+'.tsv'
+sample.to_csv(sample_name, sep = '\t')
+
+###here's the option to add it to the actual network file - this is not really necessary, and cytoscape
 ## can do it by importing sample_trim as a node table
 add_to_net = False
 if add_to_net:
@@ -352,23 +420,23 @@ if add_to_net:
 	q1 = 0
 	for lo in order_in_net:
 		sample_r_net[lo] = sample_trim['abundance'].values[q1]
-		ivp_r_net[lo] = sample_trim['ivp'].values[q1]
-		ivp_col_net[lo] = sample_trim['ivp_col'].values[q1]
-		bdvp_r_net[lo] = sample_trim['bdvp'].values[q1]
-		bdvp_col_net[lo] = sample_trim['bdvp_col'].values[q1]
-		forced_r_net[lo] = sample_trim['forced'].values[q1]
-		forced_col_net[lo] = sample_trim['forced_col'].values[q1]
-		sample_col_net[lo] = sample_trim['sample_col'].values[q1]
+		ivp_r_net[lo] = sample_trim['ivp'+'_'+sample_name_short].values[q1]
+		ivp_col_net[lo] = sample_trim['ivp_col'+'_'+sample_name_short].values[q1]
+		bdvp_r_net[lo] = sample_trim['bdvp'+'_'+sample_name_short].values[q1]
+		bdvp_col_net[lo] = sample_trim['bdvp_col'+'_'+sample_name_short].values[q1]
+		forced_r_net[lo] = sample_trim['forced'+'_'+sample_name_short].values[q1]
+		forced_col_net[lo] = sample_trim['forced_col'+'_'+sample_name_short].values[q1]
+		sample_col_net[lo] = sample_trim['sample_col'+'_'+sample_name_short].values[q1]
 	
-		ivp_val_eq_net[lo] = sample_trim['ivp_eq'].values[q1]
-		ivp_val_tr_net[lo] = sample_trim['ivp_transient'].values[q1]
-		bdvp_eq_net[lo] = sample_trim['bdvp_eq'].values[q1]
-		forced_eq_net[lo] = sample_trim['forced_eq'].values[q1]
+		ivp_val_eq_net[lo] = sample_trim['ivp_eq'+'_'+sample_name_short].values[q1]
+		ivp_val_tr_net[lo] = sample_trim['ivp_transient'+'_'+sample_name_short].values[q1]
+		bdvp_eq_net[lo] = sample_trim['bdvp_eq'+'_'+sample_name_short].values[q1]
+		forced_eq_net[lo] = sample_trim['forced_eq'+'_'+sample_name_short].values[q1]
 
-		ivp_eq_col_net[lo] = sample_trim['ivp_eq_color'].values[q1]
-		ivp_tr_col_net[lo] = sample_trim['ivp_transient_color'] .values[q1]
-		bdvp_eq_col_net[lo] = sample_trim['bdvp_eq_color'].values[q1]
-		forced_eq_col_net[lo] = sample_trim['forced_eq_color'].values[q1]
+		ivp_eq_col_net[lo] = sample_trim['ivp_eq_color'+'_'+sample_name_short].values[q1]
+		ivp_tr_col_net[lo] = sample_trim['ivp_transient_color'+'_'+sample_name_short] .values[q1]
+		bdvp_eq_col_net[lo] = sample_trim['bdvp_eq_color'+'_'+sample_name_short].values[q1]
+		forced_eq_col_net[lo] = sample_trim['forced_eq_color'+'_'+sample_name_short].values[q1]
 	
 		q1 = q1 + 1
 
@@ -376,25 +444,25 @@ if add_to_net:
 
 
 	coocc_net[sample_name_short+'_sample'] = sample_r_net
-	coocc_net[sample_name_short+'_ivp'] = ivp_r_net
-	coocc_net[sample_name_short+'_bdvp'] = bdvp_r_net
-	coocc_net[sample_name_short+'_forced'] = forced_r_net
+	coocc_net[sample_name_short+'_ivp'+'_'+sample_name_short] = ivp_r_net
+	coocc_net[sample_name_short+'_bdvp'+'_'+sample_name_short] = bdvp_r_net
+	coocc_net[sample_name_short+'_forced'+'_'+sample_name_short] = forced_r_net
 
-	coocc_net[sample_name_short+'ivp_eq'] = ivp_val_eq_net
-	coocc_net[sample_name_short+'_ivp_transient'] = ivp_val_tr_net
-	coocc_net[sample_name_short+'_bdvp_eq'] = bdvp_eq_net
-	coocc_net[sample_name_short+'_forced_eq'] = forced_eq_net
+	coocc_net[sample_name_short+'ivp_eq'+'_'+sample_name_short] = ivp_val_eq_net
+	coocc_net[sample_name_short+'_ivp_transient'+'_'+sample_name_short] = ivp_val_tr_net
+	coocc_net[sample_name_short+'_bdvp_eq'+'_'+sample_name_short] = bdvp_eq_net
+	coocc_net[sample_name_short+'_forced_eq'+'_'+sample_name_short] = forced_eq_net
 
 
-	coocc_net[sample_name_short+'_sample_col'] = sample_col_net
-	coocc_net[sample_name_short+'_ivp_col'] = ivp_col_net
-	coocc_net[sample_name_short+'_bdvp_col'] = bdvp_col_net
-	coocc_net[sample_name_short+'_forced_col'] = forced_col_net
+	coocc_net[sample_name_short+'_sample_col'+'_'+sample_name_short] = sample_col_net
+	coocc_net[sample_name_short+'_ivp_col'+'_'+sample_name_short] = ivp_col_net
+	coocc_net[sample_name_short+'_bdvp_col'+'_'+sample_name_short] = bdvp_col_net
+	coocc_net[sample_name_short+'_forced_col'+'_'+sample_name_short] = forced_col_net
 
-	coocc_net[sample_name_short+'ivp_eq_col'] = ivp_eq_col_net
-	coocc_net[sample_name_short+'_ivp_transient_col'] = ivp_tr_col_net
-	coocc_net[sample_name_short+'_bdvp_eq_col'] = bdvp_eq_col_net
-	coocc_net[sample_name_short+'_forced_eq_col'] = forced_eq_col_net
+	coocc_net[sample_name_short+'ivp_eq_col'+'_'+sample_name_short] = ivp_eq_col_net
+	coocc_net[sample_name_short+'_ivp_transient_col'+'_'+sample_name_short] = ivp_tr_col_net
+	coocc_net[sample_name_short+'_bdvp_eq_col'+'_'+sample_name_short] = bdvp_eq_col_net
+	coocc_net[sample_name_short+'_forced_eq_col'+'_'+sample_name_short] = forced_eq_col_net
 
 
 

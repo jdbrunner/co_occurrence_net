@@ -78,7 +78,7 @@ for lvl in level:
 	not_in_samp = colsamps[lvl][0].index[where(colsamps[lvl][0]['abundance'].values == 0)]
 	num_in_samp = len(in_samp)
 	num_not = len(not_in_samp)
-	rmv_amnt = max(1,int(num_in_samp*0.05))
+	rmv_amnt = 0#max(1,int(num_in_samp*0.05))
 	rmv = randint(num_in_samp,size = rmv_amnt)
 	# the indices of the taxa set to zero are in in_samp[rmv]
 	colsamps[lvl][0].loc[in_samp[rmv],'abundance'] = 0
@@ -102,8 +102,8 @@ for lvl in level:
 		flname1 = lvl+'_randsamp.txt'
 		rsamps[lvl].to_csv(flname1, sep = ' ')
 	
-	flname2 = lvl+'/'+colsamps[lvl][1]+'.txt'
-	colsamps[lvl][0].to_csv(flder+'/'+flname2, sep = ' ')
+	flname2 = lvl+'/'+colsamps[lvl][1]+'.tsv'
+	colsamps[lvl][0].to_csv(flder+'/'+flname2, sep = '\t')
 	print(flname2)
 	
 

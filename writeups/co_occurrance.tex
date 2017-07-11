@@ -467,15 +467,15 @@ Then, if $\b{K}$ is the information ``known" and the values of $v_{k}$ and $v_{l
 \end{inbox2}
 We can easily compute these comparisons. Solutions to the diffusion equation are of the form
 \[
-\b{u} = \sum_{i=1}^a c_i \b{1} + \sum_{i=a+1}^n c_i e^{\lambda_i t} \b{\xi}_i 
+\b{u} = \sum_{i=1}^a c_i \b{1}|_{cc} + \sum_{i=a+1}^n c_i e^{-\lambda_i t} \b{\xi}_i 
 \]
-where $a$ is the number of connected components of the graph, and $\lambda_i,\b{\xi}_i$ are eigenvalue, eigenvector pairs of $L$. Note that each eigenvalue $\lambda_i \leq 0$, with $\lambda_i<0$ for $i = a+1,...,n$ \cite{vonLuxburg2007}. Then, assuming there is some intial mass on the connected components containing $v_1$ and $v_2$, 
+where $a$ is the number of connected components of the graph, and $\lambda_i,\b{\xi}_i$ are eigenvalue, eigenvector pairs of $L$. Note that each eigenvalue $\lambda_i \geq 0$, with $\lambda_i>0$ for $i = a+1,...,n$ \cite{vonLuxburg2007}. Then, assuming there is some intial mass on the connected component containing $v_1$ and $v_2$, 
 \[
-\int_0^{\infty} u_k(t) dt - \int_0^{\infty} u_l(t) dt =   \sum_{i=a+1}^n c_i  (v_{ik} - v_{il}) \int_0^{\infty} e^{\lambda_i t} dt = \sum_{i=a+1}^n \frac{-c_i}{\lambda_i}  (\xi_{il} - \xi_{ik}) 
+\int_0^{\infty} u_k(t) dt - \int_0^{\infty} u_l(t) dt =   \sum_{i=a+1}^n c_i  (\xi_{ki} - \xi_{li}) \int_0^{\infty} e^{-\lambda_i t} dt = \sum_{i=a+1}^n \frac{c_i}{\lambda_i}  (\xi_{li} - \xi_{ki}) 
 \]
 and $\b{c} = V^{-1}\b{u}(0)$. Therefore, it is straightforward to compute and compare the transitive terms of the solution:
 \[
-\int_0^{\infty}\left( u_k(t) - \sum_{i=1}^a c_i \right) dt = \sum_{i=a+1}^n \frac{-c_i}{\lambda_i}\xi_{ik}
+\int_0^{\infty}\left( u_k(t) - \sum_{i=1}^a c_i \right) dt = \sum_{i=a+1}^n \frac{c_i}{\lambda_i}\xi_{ki}
 \]
 
 
@@ -492,6 +492,38 @@ and so the distribution is uniform on each conected component. If it is higher o
 Interestingly, we can regard this as the reaction network directly, deterministically modeled, which is the volume scaling limit of the jump process described above.
 
 This method is the only one of the three that is well suited for judging the entire network, without confidence in the preknowledge encoded in the initial conditions. The other two require at least one (\cref{boundarVal}) or two (\cref{forcing}) confident assertion for each connected component of the graph.
+
+
+	As a sanity check, let's show that the higest rank (rank $0$) node is the node given the initial mass.
+	
+	Let node $k$ be given initial mass, so $u(0) = \b{e}_k$. For any $l \neq k$, we must show
+	\begin{equation}\label{first_wins}
+	\sum_{i =a+1}^n \frac{c_i}{\lambda_i}\xi_{ki} > \sum_{i =a+1}^n \frac{c_i}{\lambda_i}\xi_{li}
+	\end{equation}
+	We can diagonalize $L$ as $L = X\Lambda X^{-1}$. Let $\hat{L}$, $\hat{X}$, and $\hat{\Lambda}$ be the $n-a\times n-a$ matrices formed from $L$, $X$, and $\Lambda$ by taking rows \& columns coresponding to non-zero eqigenvalues $\lambda_i$. Recall that $\b{c} = X^{-1}u(0) = (X^{-1})_k$, and because $L$ is symmetric we have $X^{-1} = X^T$. This implies that $c|_{\lambda >0} = \hat{X}^T_k$. Then, we have that
+	\begin{equation}
+	 \sum_{i =a+1}^n \frac{c_i}{\lambda_i}\xi_{li} = (\hat{\Lambda}^{-1} \hat{X}^T_k)\cdot \hat{X}^T_l
+	 \end{equation}
+	 Furthermore, $X$ is a unitary matrix. This means that 
+	 \begin{equation}
+	 X^T_k \cdot X^T_l = \left\{\begin{array}{c c}
+	 0 & k \neq l \\
+	 1 & k = l
+	 \end{array}\right.
+	 \end{equation}
+	Furthermore, $ \hat{X}^T_k|_{\lambda = 0} \cdot \hat{X}^T_l|_{\lambda = 0} = \nicefrac{1}{n}$. Then,
+	 \begin{equation}
+	\hat{X}^T_k \cdot \hat{X}^T_l = \left\{\begin{array}{c c}
+	-\nicefrac{1}{n} & k \neq l \\
+	1 - \nicefrac{1}{n} & k = l
+	\end{array}\right.
+	\end{equation}
+	Then, because $\hat{\Lambda}^{-1}$ is clearly positive definite, we can conclude that 
+	\begin{equation}
+	 \sum_{i =a+1}^n \frac{c_i}{\lambda_i}\xi_{ki} = (\hat{\Lambda}^{-1} \hat{X}^T_k)\cdot \hat{X}^T_k > 0>   (\hat{\Lambda}^{-1} \hat{X}^T_k)\cdot \hat{X}^T_l = \sum_{i =a+1}^n \frac{c_i}{\lambda_i}\xi_{li} 
+	\end{equation}
+	
+	This calculation reveals the nature of the relationship between this idea and spectral clustering. In spectral clustering, we ask about ``closeness" in the first $k$ eigenmodes of the diffusion process. Here, we ask a similar question, weighting the (transient) eigenmodes by their eigenvalue (and so rate of decay).
 
 \begin{inbox2}
 	\begin{method}[Boundary Value Problem]\label{boundarVal}
@@ -820,9 +852,9 @@ a_{21}B & \ddots & &\\
 a_{n1}B & & & a_{nm}B
 \end{pmatrix}
 \]
-A random walk on this graph is isomorphic to a random walk on either graph, and so one can consider a random walk on this graph as a simultaneous random walk on both. We can take the adjacency matrices normalized so row sums are 1, call those $A$, $A'$, and then
+A random walk on this graph is isomorphic to a random walk on either graph, and so one can consider a random walk on this graph as a simultaneous random walk on both. We can take the adjacency matrices normalized so row sums are 1, call those $A'$, $B'$, and then
 \[
-W_{\times}  = A \otimes A'
+W_{\times}  = A' \otimes B'
 \] 
 This gives a stochastic matrix $W_{\times}$. Given distributions $p$ and $p'$, define $p_{\times}  = p \otimes p'$. Define the kernel
 \[
@@ -830,7 +862,74 @@ k(G,G') = \sum_{k=0}^{\infty} \mu(k) q_{\times}^T W_{\times}^k p_{\times}
 \]
 where $q,q'$ are stopping probabilities, and $p,p'$ are initial distributions. This counts all the common random walks. The coefficients $\mu(k)$ serve two purposes. One is to make sure the sum is finite. The other allows one to tune the kernel to emphasize walks of certain lengths. I think it's called geometric if $\mu(k) = c^k$. However, this seems like it will overemphasize short walks, of which there will be many in common.
 
-	
+
+\subsection{Matching samples to networks}
+
+Suppose we have different networks built from different types of data - i.e. healthy and unhealthy, or different regions, etc. Can we match a sample with the network that makes most the sense? That is, can we say that a sample is more likely to be from one type of data than the other based on the network? 
+
+Clearly, the first pass is just asking how many taxa detected in the sample appear in each network. Next, we might ask how many clusters of a network are represented, or similarly how many taxa of the sample are in the same cluster in the network. The diffusion (\cref{initalCond}) idea can do something like this. We should see less nodes ranked highly that aren't in the sample if the sample ``fits" a network well. If we imagine a sample is created by performing a random walk on a graph and recording the nodes most often visited, the diffusion idea should identify nodes that the random walk ``should" have seen. If there are a bunch of those missing from the sample, we might think the network is not the right one. We could consider the map from rank to abundance, and integrate this against a kernel that weights towards the high ranks. As an example, let $\b{s}$ be the sample abundancs (so $s_i$ is the abundance of organism $i$), and $\b{r}$ the ranking (so $r_i$ is the rank of organism $i$). We might take 
+\[
+F(\b{s},\b{r}) = \sum_{i=1}^n c^{r_i} s_i
+\]
+where $c<1$. Given a sample, we get ranking from a network $N_j$. Let $\b{r}^j(\b{s})$ be the ranking given by diffusion on network $j$. Then,
+\[
+F_j(\b{s}) = F(\b{s},\b{r}^j(\b{s})) = \sum_{i=1}^n c^{r_i^j} s_i
+\]
+and we can attempt to optimize over the networks we have (if there's only a few that's easy). The conjecture is then
+\begin{conj}
+	Assume that $F_j(\b{s}) > F_k(\b{s})$. Then $P(\b{s}|N_j) > P(\b{s}|N_k)$.
+\end{conj}
+
+It isn't completely clear how to treat ties in this scenario.
+
+Let's start with a very simple example. Consider the two networks shown in \cref{more_tests}. Let's use this method to score 2 samples. 
+
+
+\begin{figure}
+	\begin{subfigure}[b]{0.46\linewidth}
+		\begin{center}
+			\begin{tikzpicture}[scale = 2]
+			\node (a) at (1,2.3) [circle, fill = lgray] {$1$};
+			\node (d) at (0,0) [circle, fill = lgray] {$4$};
+			\node (c) at (-0.4,0.9) [circle, fill = lgray] {$3$};
+			\node (b) at (-0.1,1.7) [circle, fill = lgray] {$2$};
+			\node (e) at (1,-0.1) [circle, fill = lgray] {$5$};
+			\node (f) at (1.5,1.5) [circle, fill = lgray] {$6$};
+			\draw (a) edge (b);
+			\draw (a) edge (c);
+			\draw (b) edge (c);
+			\draw (a) edge (d);
+			\draw (a) edge (e);
+			\draw (c) edge (f);
+			\draw (c) edge (e);
+			\end{tikzpicture}
+		\end{center}
+		\caption{One tested configuration}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.46\linewidth}
+		\begin{center}
+			\begin{tikzpicture}[scale = 2]
+			\node (a) at (1,2.3) [circle, fill = lgray] {$1$};
+			\node (d) at (0,0) [circle, fill = lgray] {$4$};
+			\node (c) at (-0.4,0.9) [circle, fill = lgray] {$3$};
+			\node (b) at (-0.1,1.7) [circle, fill = lgray] {$2$};
+			\node (e) at (1,-0.1) [circle, fill = lgray] {$5$};
+			\node (f) at (1.5,1.5) [circle, fill = lgray] {$6$};
+			\draw (a) edge (b);
+			\draw (a) edge (c);
+			\draw (b) edge (c);
+			\draw (a) edge (d);
+			\draw (e) edge (d);
+			\draw (d) edge (f);
+			\draw (f) edge (e);
+			\end{tikzpicture}
+		\end{center}
+		\caption{One tested configuration}
+	\end{subfigure}
+	\caption{Test networks. }\label{more_tests}
+\end{figure}
+
+
 \bibliographystyle{plain}
 \bibliography{../../../summer17}
 \end{document}

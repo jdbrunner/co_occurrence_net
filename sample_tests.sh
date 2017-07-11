@@ -1,8 +1,8 @@
 #!/bin/bash
 
 dt=$(date "+%m_%d_%M")
-mkdir -p test_samples/$dt'_samps/genus/ranked'
-mkdir -p test_samples/$dt'_samps/species/ranked'
+mkdir -p test_samples/$dt'_samps/genus'
+mkdir -p test_samples/$dt'_samps/species'
 
 
 for i in `seq 1 5`;do
@@ -12,10 +12,27 @@ done
 declare -a levels=("genus" "species")
 nets_flder=$1
 
+
+
+
 for lv in "${levels[@]}";do
-	for fl in test_samples/$dt'_samps/'$lv'/'*.txt;do
-		python3 sample_analysis.py $fl $nets_flder'/'$lv'/pears/clustered/'$lv'__list_clustered.tsv' $nets_flder'/'$lv'/pears/'$lv'__adj.tsv' $lv test_samples/$dt'_samps/'$lv'/ranked'
-		python3 sample_analysis.py $fl $nets_flder'/'$lv'/bins/clustered/'$lv'__list_clustered.tsv' $nets_flder'/'$lv'/bins/'$lv'__adj.tsv' $lv test_samples/$dt'_samps/'$lv'/ranked'
+	declare -a adjs_p=($nets_flder'/'$lv'/pears/'*_adj.tsv)
+	declare -a lists_p=($nets_flder'/'$lv'/pears/'*_list.tsv)
+	declare -a adjs_b=($nets_flder'/'$lv'/bins/'*_adj.tsv)
+	declare -a lists_b=($nets_flder'/'$lv'/bins/'*_list.tsv)
+	for fl in test_samples/$dt'_samps/'$lv'/'*.tsv;do
+		for (( i = 0 ; i < ${#adjs_p[@]} ; i=$i+1 ));
+		do
+			echo ${lists_p[${i}]}
+			echo ${adjs_p[${i}]}
+			python3 sample_analysis.py $fl ${lists_p[${i}]} ${adjs_p[${i}]} $lv test_samples/$dt'_samps/'$lv'/ranked'
+		done
+		for (( j = 0 ; j < ${#adjs_b[@]} ; j=$j+1 ));
+		do
+			echo ${lists_b[${j}]}
+			echo ${adjs_b[${j}]}
+			python3 sample_analysis.py $fl ${lists_b[${j}]} ${adjs_b[${j}]} $lv test_samples/$dt'_samps/'$lv'/ranked'
+		done
 	done
 done
 
