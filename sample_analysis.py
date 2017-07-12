@@ -24,7 +24,7 @@ from co_occ_funs import *
 ######################
 #param_file = sys.argv[1]
 
-flder = sys.argv[5]
+#flder = sys.argv[5]
 
 # with open(param_file,'r') as param:
 # 	pars = list(param)[1:]
@@ -225,6 +225,7 @@ for rk1 in ivp[0]:
 			ivp_vals_tr[rrk1] = flat_transient[p1:p1+le]
 			ivp_vals_tr_col[rrk1] = cols
 			p1 = p1 + le
+			l11 = l11 + 1
 	else:
 		ivp_r[rk1] = l1
 		ivp_cold[rk1] = ivp_cols[l11+1]
@@ -324,14 +325,14 @@ if term_out:
 max_r = len(sample_trim)
 
 sample['ivp'+'_'+sample_name_short] = max_r*ones(len(sample))
-# sample['ivp_eq'+'_'+sample_name_short] = zeros(len(sample))
-# sample['ivp_transient'+'_'+sample_name_short] = zeros(len(sample))
+sample['ivp_eq'+'_'+sample_name_short] = zeros(len(sample))
+sample['ivp_transient'+'_'+sample_name_short] = zeros(len(sample))
 sample['sample_col_'+sample_name_short] = array([' ']*len(sample))
 
 sample.index = sample['TAXA']
 sample.loc[sample_trim['TAXA'],'ivp'+'_'+sample_name_short] = sample_trim['ivp'+'_'+sample_name_short].values
-# sample.loc[sample_trim['TAXA'],'ivp_eq'+'_'+sample_name_short] = sample_trim['ivp_eq'+'_'+sample_name_short].values
-# sample.loc[sample_trim['TAXA'],'ivp_transient'+'_'+sample_name_short] = sample_trim['ivp_transient'+'_'+sample_name_short].values
+sample.loc[sample_trim['TAXA'],'ivp_eq'+'_'+sample_name_short] = sample_trim['ivp_eq'+'_'+sample_name_short].values
+sample.loc[sample_trim['TAXA'],'ivp_transient'+'_'+sample_name_short] = sample_trim['ivp_transient'+'_'+sample_name_short].values
 sample.loc[sample_trim['TAXA'],'sample_col_'+sample_name_short] = sample_trim['sample_col'].values
 
 
@@ -342,37 +343,48 @@ if other_probs:
 	sample_trim['bdvp_eq'+'_'+sample_name_short] = bdvp_vals
 	sample_trim['forced_eq'+'_'+sample_name_short] = forced_vals
 	
-# 	sample['bdvp'+'_'+sample_name_short] = bdvp_r
-# 	sample['forced'+'_'+sample_name_short] = forced_r
-# 	sample['bdvp_eq'+'_'+sample_name_short] = bdvp_vals
-# 	sample['forced_eq'+'_'+sample_name_short] = forced_vals
-# 	
-# 	sample['bdvp'+'_'+sample_name_short] = bdvp_r
-# 	sample['forced'+'_'+sample_name_short] = forced_r
-# 	sample['bdvp_eq'+'_'+sample_name_short] = bdvp_vals
-# 	sample['forced_eq'+'_'+sample_name_short] = forced_vals
+	sample['bdvp'+'_'+sample_name_short] = max_r*ones(len(sample))
+	sample['forced'+'_'+sample_name_short] = max_r*ones(len(sample))
+	sample['bdvp_eq'+'_'+sample_name_short] = zeros(len(sample))
+	sample['forced_eq'+'_'+sample_name_short] = zeros(len(sample))
+	
+	sample.loc[sample_trim['TAXA'],'bdvp'+'_'+sample_name_short] = sample_trim['bdvp'+'_'+sample_name_short]	
+	sample.loc[sample_trim['TAXA'],'forced'+'_'+sample_name_short] = sample_trim['forced'+'_'+sample_name_short]
+	sample.loc[sample_trim['TAXA'],'bdvp_eq'+'_'+sample_name_short] = sample_trim['bdvp_eq'+'_'+sample_name_short]
+	sample.loc[sample_trim['TAXA'],'forced_eq'+'_'+sample_name_short] = sample_trim['forced_eq'+'_'+sample_name_short]
 
 color_it = True
 if color_it:
 	sample_trim['ivp_col'+'_'+sample_name_short] = ivp_cold
-	sample_trim['bdvp_col'+'_'+sample_name_short] = bdvp_cold
-	sample_trim['forced_col'+'_'+sample_name_short] = forced_cold
+	
 	samp_ord = unique(sample_trim['abundance'].values,return_inverse = True)[1]
 	sample_trim['sample_col'] = array(samp_cols)[samp_ord.astype(int)]
 	sample_trim['ivp_eq_color'+'_'+sample_name_short] = ivp_vals_eq_col
 	sample_trim['ivp_transient_color'+'_'+sample_name_short] = ivp_vals_tr_col
-	sample_trim['bdvp_eq_color'+'_'+sample_name_short] = bdvp_vals_col
-	sample_trim['forced_eq_color'+'_'+sample_name_short] = forced_vals_col
+	
+	sample['ivp_col'+'_'+sample_name_short] =  array([' ']*len(sample))
+	sample['ivp_eq_color'+'_'+sample_name_short] =  array([' ']*len(sample))
+	sample['ivp_transient_color'+'_'+sample_name_short] =  array([' ']*len(sample))
 	
 	sample.loc[sample_trim['TAXA'],'ivp_col'+'_'+sample_name_short] = sample_trim['ivp_col'+'_'+sample_name_short].values
-	# sample.loc[sample_trim['TAXA'],'ivp_eq_color'+'_'+sample_name_short] = sample_trim['ivp_eq_color'+'_'+sample_name_short].values
-# 	sample.loc[sample_trim['TAXA'],'ivp_transient_color'+'_'+sample_name_short] = sample_trim['ivp_transient_color'+'_'+sample_name_short].values
+	sample.loc[sample_trim['TAXA'],'ivp_eq_color'+'_'+sample_name_short] = sample_trim['ivp_eq_color'+'_'+sample_name_short].values
+	sample.loc[sample_trim['TAXA'],'ivp_transient_color'+'_'+sample_name_short] = sample_trim['ivp_transient_color'+'_'+sample_name_short].values
 
-# 	if other_probs:
-# 		sample_trim['bdvp'+'_'+sample_name_short] = bdvp_r
-# 		sample_trim['forced'+'_'+sample_name_short] = forced_r
-# 		sample_trim['bdvp_eq'+'_'+sample_name_short] = bdvp_vals
-# 		sample_trim['forced_eq'+'_'+sample_name_short] = forced_vals
+	if other_probs:
+		sample_trim['bdvp_col'+'_'+sample_name_short] = bdvp_cold
+		sample_trim['forced_col'+'_'+sample_name_short] = forced_cold
+		sample_trim['bdvp_eq_color'+'_'+sample_name_short] = bdvp_vals_col
+		sample_trim['forced_eq_color'+'_'+sample_name_short] = forced_vals_col
+	
+		sample['bdvp_col'+'_'+sample_name_short] =  array([' ']*len(sample))
+		sample['forced_col'+'_'+sample_name_short] =  array([' ']*len(sample))
+		sample['bdvp_eq_color'+'_'+sample_name_short] =  array([' ']*len(sample))
+		sample['forced_eq_color'+'_'+sample_name_short] =  array([' ']*len(sample))
+	
+		sample.loc[sample_trim['TAXA'],'bdvp_col'+'_'+sample_name_short] = sample_trim['bdvp_col'+'_'+sample_name_short]
+		sample.loc[sample_trim['TAXA'],'forced_col'+'_'+sample_name_short] = sample_trim['forced_col'+'_'+sample_name_short]
+		sample.loc[sample_trim['TAXA'],'bdvp_eq_color'+'_'+sample_name_short] = sample_trim['bdvp_eq_color'+'_'+sample_name_short]
+		sample.loc[sample_trim['TAXA'],'forced_eq_color'+'_'+sample_name_short] = sample_trim['forced_eq_color'+'_'+sample_name_short]
 
 
 #sample_trim.drop('LEVEL',axis = 1, inplace = True)

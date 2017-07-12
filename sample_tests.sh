@@ -5,7 +5,7 @@ mkdir -p test_samples/$dt'_samps/genus'
 mkdir -p test_samples/$dt'_samps/species'
 
 
-for i in `seq 1 5`;do
+for i in `seq 1 2`;do
 	python3 rand_samp.py merged_assignment.txt [genus,species] test_samples/$dt'_samps'
 done    
 
@@ -25,13 +25,13 @@ for lv in "${levels[@]}";do
 		do
 			echo ${lists_p[${i}]}
 			echo ${adjs_p[${i}]}
-			python3 sample_analysis.py $fl ${lists_p[${i}]} ${adjs_p[${i}]} $lv test_samples/$dt'_samps/'$lv'/ranked'
+			python3 sample_analysis.py $fl ${lists_p[${i}]} ${adjs_p[${i}]} $lv
 		done
 		for (( j = 0 ; j < ${#adjs_b[@]} ; j=$j+1 ));
 		do
 			echo ${lists_b[${j}]}
 			echo ${adjs_b[${j}]}
-			python3 sample_analysis.py $fl ${lists_b[${j}]} ${adjs_b[${j}]} $lv test_samples/$dt'_samps/'$lv'/ranked'
+			python3 sample_analysis.py $fl ${lists_b[${j}]} ${adjs_b[${j}]} $lv
 		done
 	done
 done

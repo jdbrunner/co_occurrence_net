@@ -42,7 +42,7 @@ if level != 'all':
 	level = lvl_list
 
 
-rand_samp = False	
+rand_samp = True	
 
 if rand_samp:
 	rsamps = dict() 
@@ -71,6 +71,7 @@ for lvl in level:
 	lvl_template = template.iloc[in_level]
 	if rand_samp:
 		rsamps[lvl] = make_sample(lvl_template)
+	
 	colsamps[lvl] = get_sample(lvl_template)
 	samp_len = len(colsamps[lvl][0])
 	#in_samp is an array of indices (locs, not ilocs) that have non-zero abundance
@@ -91,6 +92,10 @@ for lvl in level:
 	colsamps[lvl][0]['Removed'] = array([False]*len(colsamps[lvl][0]))
 	colsamps[lvl][0]['Added'] = array([False]*len(colsamps[lvl][0]))
 	
+	rsamps[lvl]['Detected'] = array([False]*len(rsamps[lvl]))
+	rsamps[lvl]['Removed'] = array([False]*len(rsamps[lvl]))
+	rsamps[lvl]['Added'] = array([False]*len(rsamps[lvl]))
+	
 	det_loc_in_in_samp = delete(range(num_in_samp),rmv)
 	colsamps[lvl][0].loc[in_samp[det_loc_in_in_samp],'Detected'] = True
 	colsamps[lvl][0].loc[not_in_samp[add_em],'Detected'] = True
@@ -99,8 +104,8 @@ for lvl in level:
 	colsamps[lvl][0].loc[not_in_samp[add_em],'Added'] = True
 	
 	if rand_samp:
-		flname1 = lvl+'_randsamp.txt'
-		rsamps[lvl].to_csv(flname1, sep = ' ')
+		flname1 = lvl+'/rand.tsv'
+		rsamps[lvl].to_csv(flder+'/'+flname1, sep = '\t')
 	
 	flname2 = lvl+'/'+colsamps[lvl][1]+'.tsv'
 	colsamps[lvl][0].to_csv(flder+'/'+flname2, sep = '\t')

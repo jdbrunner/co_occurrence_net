@@ -1,0 +1,878 @@
+TAXA	LEVEL	TAXA	abundance	Detected	Removed	Added	ivp_genus__bins	ivp_eq_genus__bins	ivp_transient_genus__bins	sample_col_genus__bins	ivp_col_genus__bins	ivp_eq_color_genus__bins	ivp_transient_color_genus__bins
+Abiotrophia	genus	Abiotrophia	0.0	False	False	False	78.0	0.0	285771824133.6108	#3b4cc0	#f6bea4	#3b4cc0	#b50927
+Acetivibrio	genus	Acetivibrio	0.0	False	False	False	41.0	0.0	285771824133.64984	#3b4cc0	#eb7d62	#3b4cc0	#b50927
+Acetobacter	genus	Acetobacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Acetobacterium	genus	Acetobacterium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Acetohalobium	genus	Acetohalobium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Acetonema	genus	Acetonema	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Acholeplasma	genus	Acholeplasma	0.0	False	False	False	60.0	0.0	285771824133.6476	#3b4cc0	#f5a081	#3b4cc0	#b50927
+Achromobacter	genus	Achromobacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Acidaminococcus	genus	Acidaminococcus	0.0	False	False	False	66.0	0.0	285771824133.64435	#3b4cc0	#f7aa8c	#3b4cc0	#b50927
+Acidithiobacillus	genus	Acidithiobacillus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Acidobacterium	genus	Acidobacterium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Acidovorax	genus	Acidovorax	0.0	False	False	False	164.0	0.0	285771824133.58795	#3b4cc0	#97b8ff	#3b4cc0	#b50927
+Acinetobacter	genus	Acinetobacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Actinobacillus	genus	Actinobacillus	0.0	False	False	False	119.0	0.0	285771824133.60266	#3b4cc0	#d5dbe5	#3b4cc0	#b50927
+Actinobaculum	genus	Actinobaculum	0.0	False	False	False	74.0	0.0	285771824133.62036	#3b4cc0	#f7b89c	#3b4cc0	#b50927
+Actinokineospora	genus	Actinokineospora	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Actinomyces	genus	Actinomyces	0.0	False	False	False	98.0	0.0	285771824133.6057	#3b4cc0	#ead5c9	#3b4cc0	#b50927
+Actinoplanes	genus	Actinoplanes	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Actinopolyspora	genus	Actinopolyspora	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Actinospica	genus	Actinospica	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Actinotignum	genus	Actinotignum	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Adlercreutzia	genus	Adlercreutzia	0.0	False	False	False	40.0	0.0	285771824133.6499	#3b4cc0	#e97a5f	#3b4cc0	#b50927
+Advenella	genus	Advenella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Aequorivita	genus	Aequorivita	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Aerococcus	genus	Aerococcus	0.0	False	False	False	221.0	0.0	285771824133.5527	#3b4cc0	#445acc	#3b4cc0	#b50927
+Aeromicrobium	genus	Aeromicrobium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Aeromonas	genus	Aeromonas	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Aestuariimicrobium	genus	Aestuariimicrobium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Afipia	genus	Afipia	0.0	False	False	False	227.0	0.0	-534033912538.3631	#3b4cc0	#3c4ec2	#3b4cc0	#3b4cc0
+Agarivorans	genus	Agarivorans	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Aggregatibacter	genus	Aggregatibacter	0.0	False	False	False	88.0	0.0	285771824133.60803	#3b4cc0	#f1ccb8	#3b4cc0	#b50927
+Agrobacterium	genus	Agrobacterium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Agromyces	genus	Agromyces	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Akkermansia	genus	Akkermansia	0.0	False	False	False	53.0	0.0	285771824133.64856	#3b4cc0	#f29274	#3b4cc0	#b50927
+Alcaligenes	genus	Alcaligenes	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Alcanivorax	genus	Alcanivorax	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Algibacter	genus	Algibacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Algicola	genus	Algicola	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Algoriphagus	genus	Algoriphagus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Alicycliphilus	genus	Alicycliphilus	0.0	False	False	False	161.0	0.0	285771824133.5887	#3b4cc0	#9abbff	#3b4cc0	#b50927
+Alicyclobacillus	genus	Alicyclobacillus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Aliiglaciecola	genus	Aliiglaciecola	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Aliivibrio	genus	Aliivibrio	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Alistipes	genus	Alistipes	0.0	False	False	False	62.0	0.0	285771824133.6465	#3b4cc0	#f6a385	#3b4cc0	#b50927
+Aliterella	genus	Aliterella	0.0	False	False	False	210.0	0.0	285771824133.5679	#3b4cc0	#5572df	#3b4cc0	#b50927
+Alkaliflexus	genus	Alkaliflexus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Alkaliphilus	genus	Alkaliphilus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Alkanindiges	genus	Alkanindiges	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Allobaculum	genus	Allobaculum	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Allofustis	genus	Allofustis	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Alloiococcus	genus	Alloiococcus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Alloprevotella	genus	Alloprevotella	0.0	False	False	False	121.0	0.0	285771824133.60156	#3b4cc0	#d2dbe8	#3b4cc0	#b50927
+Allosalinactinospora	genus	Allosalinactinospora	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Alloscardovia	genus	Alloscardovia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Alteromonas	genus	Alteromonas	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Altibacter	genus	Altibacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Alysiella	genus	Alysiella	0.0	False	False	False	156.0	0.0	285771824133.5933	#3b4cc0	#a1c0ff	#3b4cc0	#b50927
+Amantichitinum	genus	Amantichitinum	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Aminiphilus	genus	Aminiphilus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Aminobacterium	genus	Aminobacterium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Aminomonas	genus	Aminomonas	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Ammonifex	genus	Ammonifex	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Amphibacillus	genus	Amphibacillus	0.0	False	False	False	216.0	0.0	285771824133.5603	#3b4cc0	#4c66d6	#3b4cc0	#b50927
+Anaerobaculum	genus	Anaerobaculum	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Anaerobiospirillum	genus	Anaerobiospirillum	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Anaerococcus	genus	Anaerococcus	0.0	False	False	False	2.0	0.0	285771824133.7071	#3b4cc0	#ba162b	#3b4cc0	#b50927
+Anaerofustis	genus	Anaerofustis	0.0	False	False	False	25.0	0.0	285771824133.65106	#3b4cc0	#df634e	#3b4cc0	#b50927
+Anaeroglobus	genus	Anaeroglobus	0.0	False	False	False	79.0	0.0	285771824133.60956	#3b4cc0	#f5c0a7	#3b4cc0	#b50927
+Anaerolinea	genus	Anaerolinea	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Anaeromusa	genus	Anaeromusa	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Anaerophaga	genus	Anaerophaga	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Anaerosalibacter	genus	Anaerosalibacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Anaerostipes	genus	Anaerostipes	0.0	False	False	False	32.0	0.0	285771824133.65045	#3b4cc0	#e36c55	#3b4cc0	#b50927
+Anaerotruncus	genus	Anaerotruncus	0.0	False	False	False	10.0	0.0	285771824133.65497	#3b4cc0	#c83836	#3b4cc0	#b50927
+Anaerovibrio	genus	Anaerovibrio	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Anaerovorax	genus	Anaerovorax	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Anaplasma	genus	Anaplasma	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Anditalea	genus	Anditalea	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Aneurinibacillus	genus	Aneurinibacillus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Anoxybacillus	genus	Anoxybacillus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Apibacter	genus	Apibacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Aquabacterium	genus	Aquabacterium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Aquaspirillum	genus	Aquaspirillum	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Aquimarina	genus	Aquimarina	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Aquitalea	genus	Aquitalea	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Arcanobacterium	genus	Arcanobacterium	0.0	False	False	False	179.0	0.0	285771824133.57794	#3b4cc0	#7da0f9	#3b4cc0	#b50927
+Arcobacter	genus	Arcobacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Arcticibacter	genus	Arcticibacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Ardenticatena	genus	Ardenticatena	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Arenibacter	genus	Arenibacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Arthrobacter	genus	Arthrobacter	0.0	False	False	False	194.0	0.0	285771824133.57294	#3b4cc0	#688aef	#3b4cc0	#b50927
+Asticcacaulis	genus	Asticcacaulis	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Atopobacter	genus	Atopobacter	0.0	False	False	False	212.0	0.0	285771824133.5673	#3b4cc0	#536edd	#3b4cc0	#b50927
+Atopobium	genus	Atopobium	0.0	False	False	False	125.0	0.0	285771824133.60114	#3b4cc0	#cdd9ec	#3b4cc0	#b50927
+Atopococcus	genus	Atopococcus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Aureimonas	genus	Aureimonas	0.0	False	False	False	183.0	0.0	285771824133.5766	#3b4cc0	#7699f6	#3b4cc0	#b50927
+Austwickia	genus	Austwickia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Avibacterium	genus	Avibacterium	0.0	False	False	False	142.0	0.0	285771824133.59674	#3b4cc0	#b7cff9	#3b4cc0	#b50927
+Azoarcus	genus	Azoarcus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Azohydromonas	genus	Azohydromonas	0.0	False	False	False	215.0	0.0	285771824133.5652	#3b4cc0	#4e68d8	#3b4cc0	#b50927
+Azonexus	genus	Azonexus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Azospirillum	genus	Azospirillum	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Azotobacter	genus	Azotobacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Azovibrio	genus	Azovibrio	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Bacillus	genus	Bacillus	0.0	False	False	False	197.0	0.0	285771824133.56964	#3b4cc0	#6384eb	#3b4cc0	#b50927
+Bacteriovorax	genus	Bacteriovorax	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Bacteroides	genus	Bacteroides	0.0	False	False	False	55.0	0.0	285771824133.64844	#3b4cc0	#f39778	#3b4cc0	#b50927
+Barnesiella	genus	Barnesiella	0.0	False	False	False	63.0	0.0	285771824133.6462	#3b4cc0	#f7a688	#3b4cc0	#b50927
+Bartonella	genus	Bartonella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Basfia	genus	Basfia	0.0	False	False	False	136.0	0.0	285771824133.5971	#3b4cc0	#bfd3f6	#3b4cc0	#b50927
+Bavariicoccus	genus	Bavariicoccus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Bdellovibrio	genus	Bdellovibrio	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Belliella	genus	Belliella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Belnapia	genus	Belnapia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Bergeyella	genus	Bergeyella	0.0	False	False	False	158.0	0.0	285771824133.59094	#3b4cc0	#9ebeff	#3b4cc0	#b50927
+Beutenbergia	genus	Beutenbergia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Bhargavaea	genus	Bhargavaea	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Bibersteinia	genus	Bibersteinia	0.0	False	False	False	146.0	0.0	285771824133.5958	#3b4cc0	#b2ccfb	#3b4cc0	#b50927
+Bifidobacterium	genus	Bifidobacterium	0.0	False	False	False	8.0	0.0	285771824133.65826	#3b4cc0	#c53334	#3b4cc0	#b50927
+Bilophila	genus	Bilophila	0.0	False	False	False	56.0	0.0	285771824133.6484	#3b4cc0	#f4987a	#3b4cc0	#b50927
+Blautia	genus	Blautia	0.0	False	False	False	44.0	0.0	285771824133.6495	#3b4cc0	#ec8165	#3b4cc0	#b50927
+Bordetella	genus	Bordetella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Bosea	genus	Bosea	0.0	False	False	False	152.0	0.0	285771824133.59393	#3b4cc0	#a7c5fe	#3b4cc0	#b50927
+Brachybacterium	genus	Brachybacterium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Brachymonas	genus	Brachymonas	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Brachyspira	genus	Brachyspira	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Bradyrhizobium	genus	Bradyrhizobium	0.0	False	False	False	226.0	0.0	-534033912538.3617	#3b4cc0	#3d50c3	#3b4cc0	#3b4cc0
+Brevibacillus	genus	Brevibacillus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Brevibacterium	genus	Brevibacterium	0.0	False	False	False	220.0	0.0	285771824133.5545	#3b4cc0	#465ecf	#3b4cc0	#b50927
+Brevundimonas	genus	Brevundimonas	0.0	False	False	False	214.0	0.0	285771824133.56665	#3b4cc0	#4f69d9	#3b4cc0	#b50927
+Brochothrix	genus	Brochothrix	0.0	False	False	False	84.0	0.0	285771824133.6086	#3b4cc0	#f3c7b1	#3b4cc0	#b50927
+Buchnera	genus	Buchnera	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Bulleidia	genus	Bulleidia	0.0	False	False	False	126.0	0.0	285771824133.6011	#3b4cc0	#ccd9ed	#3b4cc0	#b50927
+Burkholderia	genus	Burkholderia	0.0	False	False	False	218.0	0.0	285771824133.5569	#3b4cc0	#4961d2	#3b4cc0	#b50927
+Buttiauxella	genus	Buttiauxella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Butyricicoccus	genus	Butyricicoccus	0.0	False	False	False	41.0	0.0	285771824133.64984	#3b4cc0	#eb7d62	#3b4cc0	#b50927
+Butyricimonas	genus	Butyricimonas	0.0	False	False	False	48.0	0.0	285771824133.64905	#3b4cc0	#ef886b	#3b4cc0	#b50927
+Butyrivibrio	genus	Butyrivibrio	0.0	False	False	False	61.0	0.0	285771824133.6473	#3b4cc0	#f6a283	#3b4cc0	#b50927
+Caballeronia	genus	Caballeronia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Caldanaerobacter	genus	Caldanaerobacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Caldanaerobius	genus	Caldanaerobius	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Caldibacillus	genus	Caldibacillus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Caldicellulosiruptor	genus	Caldicellulosiruptor	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Caldicoprobacter	genus	Caldicoprobacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Caldisalinibacter	genus	Caldisalinibacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Calditerricola	genus	Calditerricola	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Calditerrivibrio	genus	Calditerrivibrio	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Caloramator	genus	Caloramator	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Caloranaerobacter	genus	Caloranaerobacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Calothrix	genus	Calothrix	0.0	False	False	False	209.0	0.0	285771824133.5685	#3b4cc0	#5673e0	#3b4cc0	#b50927
+Caminibacter	genus	Caminibacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Campylobacter	genus	Campylobacter	0.0	False	False	False	98.0	0.0	285771824133.6057	#3b4cc0	#ead5c9	#3b4cc0	#b50927
+Candidatus Accumulibacter	genus	Candidatus Accumulibacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Candidatus Arthromitus	genus	Candidatus Arthromitus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Candidatus Azobacteroides	genus	Candidatus Azobacteroides	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Candidatus Brocadia	genus	Candidatus Brocadia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Candidatus Cloacimonas	genus	Candidatus Cloacimonas	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Candidatus Desulforudis	genus	Candidatus Desulforudis	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Candidatus Hamiltonella	genus	Candidatus Hamiltonella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Candidatus Jettenia	genus	Candidatus Jettenia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Candidatus Liberibacter	genus	Candidatus Liberibacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Candidatus Microthrix	genus	Candidatus Microthrix	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Candidatus Pelagibacter	genus	Candidatus Pelagibacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Candidatus Photodesmus	genus	Candidatus Photodesmus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Candidatus Phytoplasma	genus	Candidatus Phytoplasma	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Candidatus Soleaferrea	genus	Candidatus Soleaferrea	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Candidatus Solibacter	genus	Candidatus Solibacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Candidatus Stoquefichus	genus	Candidatus Stoquefichus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Candidatus Symbiobacter	genus	Candidatus Symbiobacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Candidatus Symbiothrix	genus	Candidatus Symbiothrix	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Capnocytophaga	genus	Capnocytophaga	0.0	False	False	False	111.0	0.0	285771824133.6041	#3b4cc0	#dddcdc	#3b4cc0	#b50927
+Cardiobacterium	genus	Cardiobacterium	0.0	False	False	False	120.0	0.0	285771824133.6024	#3b4cc0	#d3dbe7	#3b4cc0	#b50927
+Carnobacterium	genus	Carnobacterium	0.0	False	False	False	97.0	0.0	285771824133.6059	#3b4cc0	#ead4c8	#3b4cc0	#b50927
+Castellaniella	genus	Castellaniella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Catabacter	genus	Catabacter	0.0	False	False	False	4.0	0.0	285771824133.6685	#3b4cc0	#be242e	#3b4cc0	#b50927
+Catellicoccus	genus	Catellicoccus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Catelliglobosispora	genus	Catelliglobosispora	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Catenibacterium	genus	Catenibacterium	0.0	False	False	False	46.0	0.0	285771824133.6491	#3b4cc0	#ee8669	#3b4cc0	#b50927
+Catenovulum	genus	Catenovulum	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Catonella	genus	Catonella	0.0	False	False	False	76.0	0.0	285771824133.6112	#3b4cc0	#f7bca1	#3b4cc0	#b50927
+Caulobacter	genus	Caulobacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Cecembia	genus	Cecembia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Cellulomonas	genus	Cellulomonas	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Cellulophaga	genus	Cellulophaga	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Cellulosilyticum	genus	Cellulosilyticum	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Cellulosimicrobium	genus	Cellulosimicrobium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Cellvibrio	genus	Cellvibrio	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Centipeda	genus	Centipeda	0.0	False	False	False	81.0	0.0	285771824133.60925	#3b4cc0	#f5c2aa	#3b4cc0	#b50927
+Cetobacterium	genus	Cetobacterium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Chamaesiphon	genus	Chamaesiphon	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Chania	genus	Chania	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Chelatococcus	genus	Chelatococcus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Chelonobacter	genus	Chelonobacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Chitiniphilus	genus	Chitiniphilus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Chitinivibrio	genus	Chitinivibrio	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Chitinophaga	genus	Chitinophaga	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Chlamydia	genus	Chlamydia	0.0001	True	False	False	68.0	0.0	285771824133.64044	#dcdddd	#f7af91	#3b4cc0	#b50927
+Chlorobaculum	genus	Chlorobaculum	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Chlorobium	genus	Chlorobium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Chloroflexus	genus	Chloroflexus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Chloroherpeton	genus	Chloroherpeton	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Chondromyces	genus	Chondromyces	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Chromobacterium	genus	Chromobacterium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Chryseobacterium	genus	Chryseobacterium	0.0	False	False	False	139.0	0.0	285771824133.5969	#3b4cc0	#bad0f8	#3b4cc0	#b50927
+Chrysiogenes	genus	Chrysiogenes	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Chthoniobacter	genus	Chthoniobacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Citrobacter	genus	Citrobacter	0.0	False	False	False	222.0	0.0	-534033912538.3598	#3b4cc0	#4358cb	#3b4cc0	#3b4cc0
+Clavibacter	genus	Clavibacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Cloacibacillus	genus	Cloacibacillus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Clostridiisalibacter	genus	Clostridiisalibacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Clostridium	genus	Clostridium	0.001	True	False	False	0.0	0.0	285771824133.73004	#b40426	#b70d28	#3b4cc0	#b40426
+Cobetia	genus	Cobetia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Cohnella	genus	Cohnella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Coleofasciculus	genus	Coleofasciculus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Collinsella	genus	Collinsella	0.0	False	False	False	57.0	0.0	285771824133.6482	#3b4cc0	#f49a7b	#3b4cc0	#b50927
+Colwellia	genus	Colwellia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Comamonas	genus	Comamonas	0.0	False	False	False	167.0	0.0	285771824133.58575	#3b4cc0	#92b4fe	#3b4cc0	#b50927
+Conchiformibius	genus	Conchiformibius	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Congregibacter	genus	Congregibacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Coprobacillus	genus	Coprobacillus	0.0	False	False	False	19.0	0.0	285771824133.65234	#3b4cc0	#d65244	#3b4cc0	#b50927
+Coprobacter	genus	Coprobacter	0.0	False	False	False	20.0	0.0	285771824133.6522	#3b4cc0	#d85646	#3b4cc0	#b50927
+Coprococcus	genus	Coprococcus	0.0	False	False	False	37.0	0.0	285771824133.65015	#3b4cc0	#e8765c	#3b4cc0	#b50927
+Coprothermobacter	genus	Coprothermobacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Coriobacterium	genus	Coriobacterium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Corynebacterium	genus	Corynebacterium	0.0	False	False	False	104.0	0.0	285771824133.6054	#3b4cc0	#e6d7cf	#3b4cc0	#b50927
+Coxiella	genus	Coxiella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Criblamydia	genus	Criblamydia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Croceibacter	genus	Croceibacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Crocosphaera	genus	Crocosphaera	0.0	False	False	False	190.0	0.0	285771824133.5751	#3b4cc0	#6e90f2	#3b4cc0	#b50927
+Cryobacterium	genus	Cryobacterium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Cryptobacterium	genus	Cryptobacterium	0.0	False	False	False	160.0	0.0	285771824133.5906	#3b4cc0	#9dbdff	#3b4cc0	#b50927
+Cupriavidus	genus	Cupriavidus	0.0	False	False	False	73.0	0.0	285771824133.6221	#3b4cc0	#f7b79b	#3b4cc0	#b50927
+Curtobacterium	genus	Curtobacterium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Curvibacter	genus	Curvibacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Cyanothece	genus	Cyanothece	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Cyclobacterium	genus	Cyclobacterium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Cytophaga	genus	Cytophaga	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Dechloromonas	genus	Dechloromonas	0.0	False	False	False	175.0	0.0	285771824133.5819	#3b4cc0	#84a7fc	#3b4cc0	#b50927
+Deferribacter	genus	Deferribacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Defluviitalea	genus	Defluviitalea	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Dehalobacter	genus	Dehalobacter	0.0	False	False	False	135.0	0.0	285771824133.5973	#3b4cc0	#c0d4f5	#3b4cc0	#b50927
+Dehalococcoides	genus	Dehalococcoides	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Dehalogenimonas	genus	Dehalogenimonas	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Deinococcus	genus	Deinococcus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Delftia	genus	Delftia	0.0	False	False	False	198.0	0.0	285771824133.56946	#3b4cc0	#6282ea	#3b4cc0	#b50927
+Dermabacter	genus	Dermabacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Dermacoccus	genus	Dermacoccus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Dermatophilus	genus	Dermatophilus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Derxia	genus	Derxia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Desmospora	genus	Desmospora	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Desulfarculus	genus	Desulfarculus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Desulfatiglans	genus	Desulfatiglans	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Desulfatirhabdium	genus	Desulfatirhabdium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Desulfitibacter	genus	Desulfitibacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Desulfitobacterium	genus	Desulfitobacterium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Desulfobacter	genus	Desulfobacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Desulfobacterium	genus	Desulfobacterium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Desulfobacula	genus	Desulfobacula	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Desulfobulbus	genus	Desulfobulbus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Desulfocapsa	genus	Desulfocapsa	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Desulfocarbo	genus	Desulfocarbo	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Desulfococcus	genus	Desulfococcus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Desulfomicrobium	genus	Desulfomicrobium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Desulfonatronum	genus	Desulfonatronum	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Desulforegula	genus	Desulforegula	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Desulfosarcina	genus	Desulfosarcina	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Desulfospira	genus	Desulfospira	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Desulfosporosinus	genus	Desulfosporosinus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Desulfotalea	genus	Desulfotalea	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Desulfotignum	genus	Desulfotignum	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Desulfotomaculum	genus	Desulfotomaculum	0.0	False	False	False	34.0	0.0	285771824133.6504	#3b4cc0	#e46e56	#3b4cc0	#b50927
+Desulfovermiculus	genus	Desulfovermiculus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Desulfovibrio	genus	Desulfovibrio	0.0	False	False	False	32.0	0.0	285771824133.65045	#3b4cc0	#e36c55	#3b4cc0	#b50927
+Desulfovirgula	genus	Desulfovirgula	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Desulfurispirillum	genus	Desulfurispirillum	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Desulfurispora	genus	Desulfurispora	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Desulfurobacterium	genus	Desulfurobacterium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Desulfuromonas	genus	Desulfuromonas	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Dethiobacter	genus	Dethiobacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Dethiosulfatarculus	genus	Dethiosulfatarculus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Dethiosulfovibrio	genus	Dethiosulfovibrio	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Devosia	genus	Devosia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Devriesea	genus	Devriesea	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Dialister	genus	Dialister	0.0	False	False	False	71.0	0.0	285771824133.6342	#3b4cc0	#f7b497	#3b4cc0	#b50927
+Diaphorobacter	genus	Diaphorobacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Dichelobacter	genus	Dichelobacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Dickeya	genus	Dickeya	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Dielma	genus	Dielma	0.0	False	False	False	25.0	0.0	285771824133.65106	#3b4cc0	#df634e	#3b4cc0	#b50927
+Dietzia	genus	Dietzia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Diplosphaera	genus	Diplosphaera	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Dokdonia	genus	Dokdonia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Dolichospermum	genus	Dolichospermum	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Dolosigranulum	genus	Dolosigranulum	0.0	False	False	False	211.0	0.0	285771824133.5678	#3b4cc0	#5470de	#3b4cc0	#b50927
+Domibacillus	genus	Domibacillus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Dorea	genus	Dorea	0.0	False	False	False	58.0	0.0	285771824133.64813	#3b4cc0	#f59c7d	#3b4cc0	#b50927
+Draconibacterium	genus	Draconibacterium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Dyadobacter	genus	Dyadobacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Dysgonomonas	genus	Dysgonomonas	0.0	False	False	False	51.0	0.0	285771824133.64874	#3b4cc0	#f18f71	#3b4cc0	#b50927
+Echinicola	genus	Echinicola	0.0	False	False	False	137.0	0.0	285771824133.59705	#3b4cc0	#bed2f6	#3b4cc0	#b50927
+Edwardsiella	genus	Edwardsiella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Eggerthella	genus	Eggerthella	0.0	False	False	False	7.0	0.0	285771824133.65967	#3b4cc0	#c32e31	#3b4cc0	#b50927
+Eggerthia	genus	Eggerthia	0.0	False	False	False	151.0	0.0	285771824133.59424	#3b4cc0	#aac7fd	#3b4cc0	#b50927
+Eikenella	genus	Eikenella	0.0	False	False	False	112.0	0.0	285771824133.60406	#3b4cc0	#dcdddd	#3b4cc0	#b50927
+Elizabethkingia	genus	Elizabethkingia	0.0	False	False	False	176.0	0.0	285771824133.58167	#3b4cc0	#82a6fb	#3b4cc0	#b50927
+Empedobacter	genus	Empedobacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Endomicrobium	genus	Endomicrobium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Endozoicomonas	genus	Endozoicomonas	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Enhydrobacter	genus	Enhydrobacter	0.0	False	False	False	174.0	0.0	285771824133.58203	#3b4cc0	#85a8fc	#3b4cc0	#b50927
+Enorma	genus	Enorma	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Enterobacter	genus	Enterobacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Enterococcus	genus	Enterococcus	0.0	False	False	False	65.0	0.0	285771824133.64496	#3b4cc0	#f7a98b	#3b4cc0	#b50927
+Enterorhabdus	genus	Enterorhabdus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Enterovibrio	genus	Enterovibrio	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Entomoplasma	genus	Entomoplasma	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Epilithonimonas	genus	Epilithonimonas	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Epulopiscium	genus	Epulopiscium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Eremococcus	genus	Eremococcus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Erwinia	genus	Erwinia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Erysipelatoclostridium	genus	Erysipelatoclostridium	0.0	False	False	False	18.0	0.0	285771824133.6528	#3b4cc0	#d55042	#3b4cc0	#b50927
+Erysipelothrix	genus	Erysipelothrix	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Erythrobacter	genus	Erythrobacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Escherichia	genus	Escherichia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Ethanoligenens	genus	Ethanoligenens	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Eubacterium	genus	Eubacterium	0.0	False	False	False	13.0	0.0	285771824133.6541	#3b4cc0	#cd423b	#3b4cc0	#b50927
+Ewingella	genus	Ewingella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Exiguobacterium	genus	Exiguobacterium	0.0	False	False	False	181.0	0.0	285771824133.5773	#3b4cc0	#7a9df8	#3b4cc0	#b50927
+Facklamia	genus	Facklamia	0.0	False	False	False	217.0	0.0	285771824133.5578	#3b4cc0	#4a63d3	#3b4cc0	#b50927
+Faecalibacterium	genus	Faecalibacterium	0.0	False	False	False	11.0	0.0	285771824133.6548	#3b4cc0	#ca3b37	#3b4cc0	#b50927
+Faecalicoccus	genus	Faecalicoccus	0.0	False	False	False	5.0	0.0	285771824133.66846	#3b4cc0	#c0282f	#3b4cc0	#b50927
+Faecalitalea	genus	Faecalitalea	0.0	False	False	False	23.0	0.0	285771824133.6513	#3b4cc0	#dc5d4a	#3b4cc0	#b50927
+Fangia	genus	Fangia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Fenollaria	genus	Fenollaria	0.0	False	False	False	155.0	0.0	285771824133.5934	#3b4cc0	#a3c2fe	#3b4cc0	#b50927
+Fermentimonas	genus	Fermentimonas	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Ferrimonas	genus	Ferrimonas	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Ferrovum	genus	Ferrovum	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Fervidicella	genus	Fervidicella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Fervidobacterium	genus	Fervidobacterium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Fibrella	genus	Fibrella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Fibrisoma	genus	Fibrisoma	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Fibrobacter	genus	Fibrobacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Fictibacillus	genus	Fictibacillus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Filifactor	genus	Filifactor	0.0	False	False	False	127.0	0.0	285771824133.60095	#3b4cc0	#cbd8ee	#3b4cc0	#b50927
+Finegoldia	genus	Finegoldia	0.0001	True	False	False	3.0	0.0	285771824133.67426	#dcdddd	#bb1b2c	#3b4cc0	#b50927
+Flagellimonas	genus	Flagellimonas	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Flammeovirga	genus	Flammeovirga	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Flaviflexus	genus	Flaviflexus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Flavihumibacter	genus	Flavihumibacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Flavobacterium	genus	Flavobacterium	0.0	False	False	False	223.0	0.0	-534033912538.3602	#3b4cc0	#4257c9	#3b4cc0	#3b4cc0
+Flavonifractor	genus	Flavonifractor	0.0	False	False	False	22.0	0.0	285771824133.65137	#3b4cc0	#da5a49	#3b4cc0	#b50927
+Flectobacillus	genus	Flectobacillus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Flexibacter	genus	Flexibacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Flexithrix	genus	Flexithrix	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Formosa	genus	Formosa	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Francisella	genus	Francisella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Frankia	genus	Frankia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Frischella	genus	Frischella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Fructobacillus	genus	Fructobacillus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Fulvivirga	genus	Fulvivirga	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Fusobacterium	genus	Fusobacterium	0.0	False	False	False	82.0	0.0	285771824133.60913	#3b4cc0	#f5c4ac	#3b4cc0	#b50927
+Galbibacter	genus	Galbibacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Gallaecimonas	genus	Gallaecimonas	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Gallibacterium	genus	Gallibacterium	0.0	False	False	False	133.0	0.0	285771824133.5986	#3b4cc0	#c4d5f3	#3b4cc0	#b50927
+Gardnerella	genus	Gardnerella	0.0	False	False	False	162.0	0.0	285771824133.58856	#3b4cc0	#98b9ff	#3b4cc0	#b50927
+Gayadomonas	genus	Gayadomonas	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Geitlerinema	genus	Geitlerinema	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Gemella	genus	Gemella	0.0	False	False	False	95.0	0.0	285771824133.60596	#3b4cc0	#ebd3c6	#3b4cc0	#b50927
+Geminicoccus	genus	Geminicoccus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Gemmatimonas	genus	Gemmatimonas	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Geoalkalibacter	genus	Geoalkalibacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Geobacillus	genus	Geobacillus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Geobacter	genus	Geobacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Geopsychrobacter	genus	Geopsychrobacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Georgenia	genus	Georgenia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Geovibrio	genus	Geovibrio	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Gilliamella	genus	Gilliamella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Gillisia	genus	Gillisia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Gilvimarinus	genus	Gilvimarinus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Glaciecola	genus	Glaciecola	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Gluconobacter	genus	Gluconobacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Glutamicibacter	genus	Glutamicibacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Glycomyces	genus	Glycomyces	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Gordonia	genus	Gordonia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Gordonibacter	genus	Gordonibacter	0.0	False	False	False	9.0	0.0	285771824133.65765	#3b4cc0	#c73635	#3b4cc0	#b50927
+Gorillibacterium	genus	Gorillibacterium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Gottschalkia	genus	Gottschalkia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Gracilibacillus	genus	Gracilibacillus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Gramella	genus	Gramella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Granulicatella	genus	Granulicatella	0.0	False	False	False	131.0	0.0	285771824133.5999	#3b4cc0	#c6d6f1	#3b4cc0	#b50927
+Granulicoccus	genus	Granulicoccus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Gulbenkiania	genus	Gulbenkiania	0.0	False	False	False	185.0	0.0	285771824133.5755	#3b4cc0	#7396f5	#3b4cc0	#b50927
+Gulosibacter	genus	Gulosibacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Haematobacter	genus	Haematobacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Haemophilus	genus	Haemophilus	0.0	False	False	False	128.0	0.0	285771824133.6006	#3b4cc0	#cad8ef	#3b4cc0	#b50927
+Hafnia	genus	Hafnia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Halalkalibacillus	genus	Halalkalibacillus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Halanaerobium	genus	Halanaerobium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Haliangium	genus	Haliangium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Haliscomenobacter	genus	Haliscomenobacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Hallella	genus	Hallella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Halobacteroides	genus	Halobacteroides	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Haloferula	genus	Haloferula	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Halomonas	genus	Halomonas	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Halonatronum	genus	Halonatronum	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Haloplasma	genus	Haloplasma	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Hassallia	genus	Hassallia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Helcobacillus	genus	Helcobacillus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Helcococcus	genus	Helcococcus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Helicobacter	genus	Helicobacter	0.0	False	False	False	192.0	0.0	285771824133.57477	#3b4cc0	#6c8ff1	#3b4cc0	#b50927
+Heliobacterium	genus	Heliobacterium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Herbaspirillum	genus	Herbaspirillum	0.0	False	False	False	172.0	0.0	285771824133.5835	#3b4cc0	#89acfd	#3b4cc0	#b50927
+Herbinix	genus	Herbinix	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Herminiimonas	genus	Herminiimonas	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Hippea	genus	Hippea	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Histophilus	genus	Histophilus	0.0	False	False	False	158.0	0.0	285771824133.59094	#3b4cc0	#9ebeff	#3b4cc0	#b50927
+Holdemanella	genus	Holdemanella	0.0	False	False	False	30.0	0.0	285771824133.65063	#3b4cc0	#e16751	#3b4cc0	#b50927
+Holdemania	genus	Holdemania	0.0	False	False	False	25.0	0.0	285771824133.65106	#3b4cc0	#df634e	#3b4cc0	#b50927
+Holophaga	genus	Holophaga	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Hungatella	genus	Hungatella	0.0	False	False	False	15.0	0.0	285771824133.6534	#3b4cc0	#d0473d	#3b4cc0	#b50927
+Hylemonella	genus	Hylemonella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Hymenobacter	genus	Hymenobacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Hyphomonas	genus	Hyphomonas	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Ideonella	genus	Ideonella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Idiomarina	genus	Idiomarina	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Ilyobacter	genus	Ilyobacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Imtechella	genus	Imtechella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Indibacter	genus	Indibacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Intestinibacter	genus	Intestinibacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Intestinimonas	genus	Intestinimonas	0.0	False	False	False	24.0	0.0	285771824133.6512	#3b4cc0	#de614d	#3b4cc0	#b50927
+Intrasporangium	genus	Intrasporangium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Isoptericola	genus	Isoptericola	0.0	False	False	False	98.0	0.0	285771824133.6057	#3b4cc0	#ead5c9	#3b4cc0	#b50927
+Janibacter	genus	Janibacter	0.0	False	False	False	224.0	0.0	-534033912538.3606	#3b4cc0	#4055c8	#3b4cc0	#3b4cc0
+Jannaschia	genus	Jannaschia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Janthinobacterium	genus	Janthinobacterium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Jejuia	genus	Jejuia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Jeotgalibacillus	genus	Jeotgalibacillus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Jeotgalicoccus	genus	Jeotgalicoccus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Johnsonella	genus	Johnsonella	0.0	False	False	False	124.0	0.0	285771824133.6013	#3b4cc0	#cfdaea	#3b4cc0	#b50927
+Jonesia	genus	Jonesia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Jonquetella	genus	Jonquetella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Joostella	genus	Joostella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Kallipyga	genus	Kallipyga	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Kandleria	genus	Kandleria	0.0	False	False	False	59.0	0.0	285771824133.6478	#3b4cc0	#f59f80	#3b4cc0	#b50927
+Kangiella	genus	Kangiella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Kiloniella	genus	Kiloniella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Kineosphaera	genus	Kineosphaera	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Kingella	genus	Kingella	0.0	False	False	False	90.0	0.0	285771824133.6068	#3b4cc0	#f0cdbb	#3b4cc0	#b50927
+Klebsiella	genus	Klebsiella	0.0	False	False	False	70.0	0.0	285771824133.6372	#3b4cc0	#f7b194	#3b4cc0	#b50927
+Kluyvera	genus	Kluyvera	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Kocuria	genus	Kocuria	0.0	False	False	False	187.0	0.0	285771824133.5753	#3b4cc0	#6f92f3	#3b4cc0	#b50927
+Kordia	genus	Kordia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Kosmotoga	genus	Kosmotoga	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Kozakia	genus	Kozakia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Kyrpidia	genus	Kyrpidia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Kytococcus	genus	Kytococcus	0.0	False	False	False	113.0	0.0	285771824133.60394	#3b4cc0	#dbdcde	#3b4cc0	#b50927
+Labrenzia	genus	Labrenzia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Lachnoanaerobaculum	genus	Lachnoanaerobaculum	0.0	False	False	False	106.0	0.0	285771824133.6051	#3b4cc0	#e4d9d2	#3b4cc0	#b50927
+Lachnobacterium	genus	Lachnobacterium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Lachnoclostridium	genus	Lachnoclostridium	0.0	False	False	False	29.0	0.0	285771824133.6507	#3b4cc0	#e0654f	#3b4cc0	#b50927
+Lachnospira	genus	Lachnospira	0.0	False	False	False	50.0	0.0	285771824133.6488	#3b4cc0	#f08b6e	#3b4cc0	#b50927
+Lacinutrix	genus	Lacinutrix	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Lacticigenium	genus	Lacticigenium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Lactobacillus	genus	Lactobacillus	0.9985	True	False	False	228.0	0.0	0.0	 	 	 	 
+Lactococcus	genus	Lactococcus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Laribacter	genus	Laribacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Lautropia	genus	Lautropia	0.0	False	False	False	94.0	0.0	285771824133.6061	#3b4cc0	#edd2c3	#3b4cc0	#b50927
+Lawsonella	genus	Lawsonella	0.0	False	False	False	195.0	0.0	285771824133.5724	#3b4cc0	#6788ee	#3b4cc0	#b50927
+Leadbetterella	genus	Leadbetterella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Leeia	genus	Leeia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Leeuwenhoekiella	genus	Leeuwenhoekiella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Legionella	genus	Legionella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Leifsonia	genus	Leifsonia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Lelliottia	genus	Lelliottia	0.0	False	False	False	193.0	0.0	285771824133.5736	#3b4cc0	#6a8bef	#3b4cc0	#b50927
+Lentzea	genus	Lentzea	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Leptolyngbya	genus	Leptolyngbya	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Leptonema	genus	Leptonema	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Leptospira	genus	Leptospira	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Leptospirillum	genus	Leptospirillum	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Leptotrichia	genus	Leptotrichia	0.0	False	False	False	92.0	0.0	285771824133.6062	#3b4cc0	#eed0c0	#3b4cc0	#b50927
+Leucobacter	genus	Leucobacter	0.0	False	False	False	171.0	0.0	285771824133.58405	#3b4cc0	#8badfd	#3b4cc0	#b50927
+Leuconostoc	genus	Leuconostoc	0.0	False	False	False	122.0	0.0	285771824133.60144	#3b4cc0	#d1dae9	#3b4cc0	#b50927
+Levyella	genus	Levyella	0.0	False	False	False	1.0	0.0	285771824133.7165	#3b4cc0	#b8122a	#3b4cc0	#b50927
+Lewinella	genus	Lewinella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Limnohabitans	genus	Limnohabitans	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Listeria	genus	Listeria	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Lunatimonas	genus	Lunatimonas	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Luteibacter	genus	Luteibacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Lysinibacillus	genus	Lysinibacillus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Lysobacter	genus	Lysobacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Mageeibacillus	genus	Mageeibacillus	0.0	False	False	False	173.0	0.0	285771824133.5823	#3b4cc0	#88abfd	#3b4cc0	#b50927
+Mahella	genus	Mahella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Mangrovimonas	genus	Mangrovimonas	0.0	False	False	False	139.0	0.0	285771824133.5969	#3b4cc0	#bad0f8	#3b4cc0	#b50927
+Mannheimia	genus	Mannheimia	0.0	False	False	False	122.0	0.0	285771824133.60144	#3b4cc0	#d1dae9	#3b4cc0	#b50927
+Maribacter	genus	Maribacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Marinifilum	genus	Marinifilum	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Marinilabilia	genus	Marinilabilia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Mariniradius	genus	Mariniradius	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Marinobacter	genus	Marinobacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Marinobacterium	genus	Marinobacterium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Marinococcus	genus	Marinococcus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Marinomonas	genus	Marinomonas	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Marinospirillum	genus	Marinospirillum	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Marivirga	genus	Marivirga	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Marvinbryantia	genus	Marvinbryantia	0.0	False	False	False	17.0	0.0	285771824133.6529	#3b4cc0	#d44e41	#3b4cc0	#b50927
+Massilia	genus	Massilia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Megamonas	genus	Megamonas	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Megasphaera	genus	Megasphaera	0.0	False	False	False	117.0	0.0	285771824133.603	#3b4cc0	#d7dce3	#3b4cc0	#b50927
+Meiothermus	genus	Meiothermus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Melissococcus	genus	Melissococcus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Mesoflavibacter	genus	Mesoflavibacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Mesorhizobium	genus	Mesorhizobium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Methylibium	genus	Methylibium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Methylobacillus	genus	Methylobacillus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Methylobacterium	genus	Methylobacterium	0.0	False	False	False	182.0	0.0	285771824133.5768	#3b4cc0	#779af7	#3b4cc0	#b50927
+Methylococcus	genus	Methylococcus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Methylomonas	genus	Methylomonas	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Methylophaga	genus	Methylophaga	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Methylosarcina	genus	Methylosarcina	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Methylotenera	genus	Methylotenera	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Methyloversatilis	genus	Methyloversatilis	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Microbacterium	genus	Microbacterium	0.0	False	False	False	184.0	0.0	285771824133.57556	#3b4cc0	#7597f6	#3b4cc0	#b50927
+Microbulbifer	genus	Microbulbifer	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Micrococcus	genus	Micrococcus	0.0	False	False	False	180.0	0.0	285771824133.5775	#3b4cc0	#7b9ff9	#3b4cc0	#b50927
+Microcystis	genus	Microcystis	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Microlunatus	genus	Microlunatus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Micromonospora	genus	Micromonospora	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Microvirga	genus	Microvirga	0.0	False	False	False	203.0	0.0	285771824133.569	#3b4cc0	#5d7ce6	#3b4cc0	#b50927
+Microvirgula	genus	Microvirgula	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Mitsuokella	genus	Mitsuokella	0.0	False	False	False	143.0	0.0	285771824133.59607	#3b4cc0	#b5cdfa	#3b4cc0	#b50927
+Mobilicoccus	genus	Mobilicoccus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Mobiluncus	genus	Mobiluncus	0.0	False	False	False	166.0	0.0	285771824133.5862	#3b4cc0	#93b5fe	#3b4cc0	#b50927
+Modestobacter	genus	Modestobacter	0.0	False	False	False	199.0	0.0	285771824133.56915	#3b4cc0	#6180e9	#3b4cc0	#b50927
+Moellerella	genus	Moellerella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Mogibacterium	genus	Mogibacterium	0.0	False	False	False	116.0	0.0	285771824133.60345	#3b4cc0	#d8dce2	#3b4cc0	#b50927
+Moorella	genus	Moorella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Moraxella	genus	Moraxella	0.0	False	False	False	6.0	0.0	285771824133.667	#3b4cc0	#c12b30	#3b4cc0	#b50927
+Morganella	genus	Morganella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Moritella	genus	Moritella	0.0	False	False	False	162.0	0.0	285771824133.58856	#3b4cc0	#98b9ff	#3b4cc0	#b50927
+Morococcus	genus	Morococcus	0.0	False	False	False	83.0	0.0	285771824133.6087	#3b4cc0	#f4c6af	#3b4cc0	#b50927
+Mucilaginibacter	genus	Mucilaginibacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Mucinivorans	genus	Mucinivorans	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Mucispirillum	genus	Mucispirillum	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Muricauda	genus	Muricauda	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Mycobacterium	genus	Mycobacterium	0.0	False	False	False	196.0	0.0	285771824133.5722	#3b4cc0	#6687ed	#3b4cc0	#b50927
+Mycoplasma	genus	Mycoplasma	0.0	False	False	False	128.0	0.0	285771824133.6006	#3b4cc0	#cad8ef	#3b4cc0	#b50927
+Myroides	genus	Myroides	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Myxosarcina	genus	Myxosarcina	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Nafulsella	genus	Nafulsella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Nakamurella	genus	Nakamurella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Natranaerobius	genus	Natranaerobius	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Nautilia	genus	Nautilia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Necropsobacter	genus	Necropsobacter	0.0	False	False	False	141.0	0.0	285771824133.59686	#3b4cc0	#b9d0f9	#3b4cc0	#b50927
+Neisseria	genus	Neisseria	0.0	False	False	False	80.0	0.0	285771824133.6095	#3b4cc0	#f5c1a9	#3b4cc0	#b50927
+Nesterenkonia	genus	Nesterenkonia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Niabella	genus	Niabella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Niastella	genus	Niastella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Nitratireductor	genus	Nitratireductor	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Nitratiruptor	genus	Nitratiruptor	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Nitrincola	genus	Nitrincola	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Nitrolancea	genus	Nitrolancea	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Nitrosomonas	genus	Nitrosomonas	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Nitrospina	genus	Nitrospina	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Nitrospira	genus	Nitrospira	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Nocardia	genus	Nocardia	0.0	False	False	False	168.0	0.0	285771824133.5854	#3b4cc0	#90b2fe	#3b4cc0	#b50927
+Nocardioides	genus	Nocardioides	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Nocardiopsis	genus	Nocardiopsis	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Nonlabens	genus	Nonlabens	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Nonomuraea	genus	Nonomuraea	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Nosocomiicoccus	genus	Nosocomiicoccus	0.0	False	False	False	219.0	0.0	285771824133.55615	#3b4cc0	#485fd1	#3b4cc0	#b50927
+Novosphingobium	genus	Novosphingobium	0.0	False	False	False	225.0	0.0	-534033912538.3612	#3b4cc0	#3e51c5	#3b4cc0	#3b4cc0
+Oceanobacillus	genus	Oceanobacillus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Oceanospirillum	genus	Oceanospirillum	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Odoribacter	genus	Odoribacter	0.0	False	False	False	36.0	0.0	285771824133.65027	#3b4cc0	#e7745b	#3b4cc0	#b50927
+Oenococcus	genus	Oenococcus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Oligella	genus	Oligella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Olivibacter	genus	Olivibacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Olsenella	genus	Olsenella	0.0	False	False	False	89.0	0.0	285771824133.6071	#3b4cc0	#f1cdba	#3b4cc0	#b50927
+Opitutus	genus	Opitutus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Orenia	genus	Orenia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Oribacterium	genus	Oribacterium	0.0	False	False	False	114.0	0.0	285771824133.6038	#3b4cc0	#dadce0	#3b4cc0	#b50927
+Orientia	genus	Orientia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Ornithinibacillus	genus	Ornithinibacillus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Ornithobacterium	genus	Ornithobacterium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Oscillibacter	genus	Oscillibacter	0.0	False	False	False	21.0	0.0	285771824133.65204	#3b4cc0	#d95847	#3b4cc0	#b50927
+Ottowia	genus	Ottowia	0.0	False	False	False	85.0	0.0	285771824133.60834	#3b4cc0	#f3c8b2	#3b4cc0	#b50927
+Owenweeksia	genus	Owenweeksia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Oxalobacter	genus	Oxalobacter	0.0	False	False	False	35.0	0.0	285771824133.6503	#3b4cc0	#e57058	#3b4cc0	#b50927
+Oxobacter	genus	Oxobacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Paenibacillus	genus	Paenibacillus	0.0	False	False	False	178.0	0.0	285771824133.57886	#3b4cc0	#7ea1fa	#3b4cc0	#b50927
+Paenisporosarcina	genus	Paenisporosarcina	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Paludibacter	genus	Paludibacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Paludibacterium	genus	Paludibacterium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Pandoraea	genus	Pandoraea	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Pantoea	genus	Pantoea	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Parabacteroides	genus	Parabacteroides	0.0	False	False	False	46.0	0.0	285771824133.6491	#3b4cc0	#ee8669	#3b4cc0	#b50927
+Paraburkholderia	genus	Paraburkholderia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Parachlamydia	genus	Parachlamydia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Paracoccus	genus	Paracoccus	0.0	False	False	False	72.0	0.0	285771824133.632	#3b4cc0	#f7b599	#3b4cc0	#b50927
+Paraglaciecola	genus	Paraglaciecola	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Paraprevotella	genus	Paraprevotella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Parascardovia	genus	Parascardovia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Parasutterella	genus	Parasutterella	0.0	False	False	False	49.0	0.0	285771824133.64886	#3b4cc0	#f08a6c	#3b4cc0	#b50927
+Parvimonas	genus	Parvimonas	0.0	False	False	False	109.0	0.0	285771824133.6048	#3b4cc0	#e0dbd8	#3b4cc0	#b50927
+Pasteurella	genus	Pasteurella	0.0	False	False	False	132.0	0.0	285771824133.59955	#3b4cc0	#c5d6f2	#3b4cc0	#b50927
+Paucisalibacillus	genus	Paucisalibacillus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Pectobacterium	genus	Pectobacterium	0.0	False	False	False	143.0	0.0	285771824133.59607	#3b4cc0	#b5cdfa	#3b4cc0	#b50927
+Pediococcus	genus	Pediococcus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Pedobacter	genus	Pedobacter	0.0	False	False	False	213.0	0.0	285771824133.5668	#3b4cc0	#506bda	#3b4cc0	#b50927
+Pedosphaera	genus	Pedosphaera	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Pelistega	genus	Pelistega	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Pelobacter	genus	Pelobacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Pelodictyon	genus	Pelodictyon	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Pelosinus	genus	Pelosinus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Pelotomaculum	genus	Pelotomaculum	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Peptoclostridium	genus	Peptoclostridium	0.0	False	False	False	67.0	0.0	285771824133.6443	#3b4cc0	#f7ad90	#3b4cc0	#b50927
+Peptoniphilus	genus	Peptoniphilus	0.0	False	False	False	37.0	0.0	285771824133.65015	#3b4cc0	#e8765c	#3b4cc0	#b50927
+Peptostreptococcus	genus	Peptostreptococcus	0.0	False	False	False	91.0	0.0	285771824133.60657	#3b4cc0	#efcfbf	#3b4cc0	#b50927
+Phaeodactylibacter	genus	Phaeodactylibacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Phascolarctobacterium	genus	Phascolarctobacterium	0.0	False	False	False	31.0	0.0	285771824133.6506	#3b4cc0	#e36b54	#3b4cc0	#b50927
+Phocaeicola	genus	Phocaeicola	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Photobacterium	genus	Photobacterium	0.0	False	False	False	203.0	0.0	285771824133.569	#3b4cc0	#5d7ce6	#3b4cc0	#b50927
+Photorhabdus	genus	Photorhabdus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Piscirickettsia	genus	Piscirickettsia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Planctopirus	genus	Planctopirus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Planktothricoides	genus	Planktothricoides	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Planococcus	genus	Planococcus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Planomicrobium	genus	Planomicrobium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Pleomorphomonas	genus	Pleomorphomonas	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Pleurocapsa	genus	Pleurocapsa	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Pluralibacter	genus	Pluralibacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Polaribacter	genus	Polaribacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Polaromonas	genus	Polaromonas	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Polynucleobacter	genus	Polynucleobacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Pontibacillus	genus	Pontibacillus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Pontibacter	genus	Pontibacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Porphyrobacter	genus	Porphyrobacter	0.0	False	False	False	118.0	0.0	285771824133.6028	#3b4cc0	#d6dce4	#3b4cc0	#b50927
+Porphyromonas	genus	Porphyromonas	0.0	False	False	False	101.0	0.0	285771824133.6055	#3b4cc0	#e9d5cb	#3b4cc0	#b50927
+Prevotella	genus	Prevotella	0.0001	True	False	False	86.0	0.0	285771824133.6083	#dcdddd	#f2c9b4	#3b4cc0	#b50927
+Prochlorococcus	genus	Prochlorococcus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Prolixibacter	genus	Prolixibacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Promicromonospora	genus	Promicromonospora	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Propionibacterium	genus	Propionibacterium	0.0	False	False	False	77.0	0.0	285771824133.61084	#3b4cc0	#f6bda2	#3b4cc0	#b50927
+Propionicicella	genus	Propionicicella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Propionimicrobium	genus	Propionimicrobium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Propionispira	genus	Propionispira	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Propionispora	genus	Propionispora	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Prosthecochloris	genus	Prosthecochloris	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Proteiniclasticum	genus	Proteiniclasticum	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Proteiniphilum	genus	Proteiniphilum	0.0	False	False	False	149.0	0.0	285771824133.5951	#3b4cc0	#adc9fd	#3b4cc0	#b50927
+Proteocatella	genus	Proteocatella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Proteus	genus	Proteus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Providencia	genus	Providencia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Pseudacidovorax	genus	Pseudacidovorax	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Pseudanabaena	genus	Pseudanabaena	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Pseudarthrobacter	genus	Pseudarthrobacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Pseudoalteromonas	genus	Pseudoalteromonas	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Pseudobacteroides	genus	Pseudobacteroides	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Pseudobutyrivibrio	genus	Pseudobutyrivibrio	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Pseudoclavibacter	genus	Pseudoclavibacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Pseudoflavonifractor	genus	Pseudoflavonifractor	0.0	False	False	False	16.0	0.0	285771824133.6531	#3b4cc0	#d24b40	#3b4cc0	#b50927
+Pseudoglutamicibacter	genus	Pseudoglutamicibacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Pseudomonas	genus	Pseudomonas	0.0	False	False	False	169.0	0.0	285771824133.5846	#3b4cc0	#8fb1fe	#3b4cc0	#b50927
+Pseudonocardia	genus	Pseudonocardia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Pseudopedobacter	genus	Pseudopedobacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Pseudoramibacter	genus	Pseudoramibacter	0.0	False	False	False	186.0	0.0	285771824133.57544	#3b4cc0	#7093f3	#3b4cc0	#b50927
+Pseudorhodoferax	genus	Pseudorhodoferax	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Pseudoxanthomonas	genus	Pseudoxanthomonas	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Psychrilyobacter	genus	Psychrilyobacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Psychrobacter	genus	Psychrobacter	0.0	False	False	False	130.0	0.0	285771824133.6004	#3b4cc0	#c7d7f0	#3b4cc0	#b50927
+Psychroflexus	genus	Psychroflexus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Psychromonas	genus	Psychromonas	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Pyramidobacter	genus	Pyramidobacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Ralstonia	genus	Ralstonia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Reinekea	genus	Reinekea	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Renibacterium	genus	Renibacterium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Rheinheimera	genus	Rheinheimera	0.0	False	False	False	200.0	0.0	285771824133.56903	#3b4cc0	#5f7fe8	#3b4cc0	#b50927
+Rhizobacter	genus	Rhizobacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Rhizobium	genus	Rhizobium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Rhodobacter	genus	Rhodobacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Rhodococcus	genus	Rhodococcus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Rhodoferax	genus	Rhodoferax	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Rhodonellum	genus	Rhodonellum	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Rhodopirellula	genus	Rhodopirellula	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Rhodopseudomonas	genus	Rhodopseudomonas	0.0	False	False	False	153.0	0.0	285771824133.5936	#3b4cc0	#a6c4fe	#3b4cc0	#b50927
+Rhodothermus	genus	Rhodothermus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Rickettsiella	genus	Rickettsiella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Riemerella	genus	Riemerella	0.0	False	False	False	148.0	0.0	285771824133.5954	#3b4cc0	#aec9fc	#3b4cc0	#b50927
+Rikenella	genus	Rikenella	0.0	False	False	False	69.0	0.0	285771824133.63983	#3b4cc0	#f7b093	#3b4cc0	#b50927
+Risungbinella	genus	Risungbinella	0.0	False	False	False	190.0	0.0	285771824133.5751	#3b4cc0	#6e90f2	#3b4cc0	#b50927
+Rivularia	genus	Rivularia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Robiginitalea	genus	Robiginitalea	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Robinsoniella	genus	Robinsoniella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Roseburia	genus	Roseburia	0.0	False	False	False	39.0	0.0	285771824133.64996	#3b4cc0	#e9785d	#3b4cc0	#b50927
+Roseiflexus	genus	Roseiflexus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Roseomonas	genus	Roseomonas	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Rothia	genus	Rothia	0.0	False	False	False	87.0	0.0	285771824133.6081	#3b4cc0	#f2cbb7	#3b4cc0	#b50927
+Ruania	genus	Ruania	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Rubidibacter	genus	Rubidibacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Rubritalea	genus	Rubritalea	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Rubrivivax	genus	Rubrivivax	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Rubrobacter	genus	Rubrobacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Rudanella	genus	Rudanella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Ruegeria	genus	Ruegeria	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Rufibacter	genus	Rufibacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Ruminiclostridium	genus	Ruminiclostridium	0.0	False	False	False	12.0	0.0	285771824133.65424	#3b4cc0	#cc403a	#3b4cc0	#b50927
+Ruminobacter	genus	Ruminobacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Ruminococcus	genus	Ruminococcus	0.0	False	False	False	43.0	0.0	285771824133.64966	#3b4cc0	#ec7f63	#3b4cc0	#b50927
+Runella	genus	Runella	0.0	False	False	False	154.0	0.0	285771824133.5935	#3b4cc0	#a5c3fe	#3b4cc0	#b50927
+Saccharibacillus	genus	Saccharibacillus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Saccharibacter	genus	Saccharibacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Saccharicrinis	genus	Saccharicrinis	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Saccharopolyspora	genus	Saccharopolyspora	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Saccharothrix	genus	Saccharothrix	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Salegentibacter	genus	Salegentibacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Salimicrobium	genus	Salimicrobium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Salinibacter	genus	Salinibacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Salinibacterium	genus	Salinibacterium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Salinicoccus	genus	Salinicoccus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Salinimicrobium	genus	Salinimicrobium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Salinimonas	genus	Salinimonas	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Salinispira	genus	Salinispira	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Salinispora	genus	Salinispora	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Salinivibrio	genus	Salinivibrio	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Salisaeta	genus	Salisaeta	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Salmonella	genus	Salmonella	0.0	False	False	False	207.0	0.0	285771824133.56885	#3b4cc0	#5a78e4	#3b4cc0	#b50927
+Sanguibacter	genus	Sanguibacter	0.0	False	False	False	110.0	0.0	285771824133.60425	#3b4cc0	#dfdbd9	#3b4cc0	#b50927
+Sanguibacteroides	genus	Sanguibacteroides	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Saprospira	genus	Saprospira	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Scardovia	genus	Scardovia	0.0	False	False	False	138.0	0.0	285771824133.597	#3b4cc0	#bbd1f8	#3b4cc0	#b50927
+Sciscionella	genus	Sciscionella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Sebaldella	genus	Sebaldella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Sedimentibacter	genus	Sedimentibacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Sediminibacter	genus	Sediminibacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Sediminimonas	genus	Sediminimonas	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Segetibacter	genus	Segetibacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Selenomonas	genus	Selenomonas	0.0	False	False	False	103.0	0.0	285771824133.60547	#3b4cc0	#e7d7ce	#3b4cc0	#b50927
+Sellimonas	genus	Sellimonas	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Senegalimassilia	genus	Senegalimassilia	0.0	False	False	False	64.0	0.0	285771824133.6452	#3b4cc0	#f7a889	#3b4cc0	#b50927
+Serinicoccus	genus	Serinicoccus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Serratia	genus	Serratia	0.0	False	False	False	93.0	0.0	285771824133.60614	#3b4cc0	#edd1c2	#3b4cc0	#b50927
+Sharpea	genus	Sharpea	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Shewanella	genus	Shewanella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Shimazuella	genus	Shimazuella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Shinella	genus	Shinella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Shuttleworthia	genus	Shuttleworthia	0.0	False	False	False	177.0	0.0	285771824133.58136	#3b4cc0	#81a4fb	#3b4cc0	#b50927
+Siansivirga	genus	Siansivirga	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Silvibacterium	genus	Silvibacterium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Simiduia	genus	Simiduia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Simonsiella	genus	Simonsiella	0.0	False	False	False	145.0	0.0	285771824133.596	#3b4cc0	#b3cdfb	#3b4cc0	#b50927
+Singulisphaera	genus	Singulisphaera	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Sinomonas	genus	Sinomonas	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Sinorhizobium	genus	Sinorhizobium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Skermanella	genus	Skermanella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Slackia	genus	Slackia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Sneathia	genus	Sneathia	0.0	False	False	False	187.0	0.0	285771824133.5753	#3b4cc0	#6f92f3	#3b4cc0	#b50927
+Snodgrassella	genus	Snodgrassella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Solitalea	genus	Solitalea	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Solobacterium	genus	Solobacterium	0.0	False	False	False	101.0	0.0	285771824133.6055	#3b4cc0	#e9d5cb	#3b4cc0	#b50927
+Sorangium	genus	Sorangium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Sphaerochaeta	genus	Sphaerochaeta	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Sphaerotilus	genus	Sphaerotilus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Sphingobacterium	genus	Sphingobacterium	0.0	False	False	False	25.0	0.0	285771824133.65106	#3b4cc0	#df634e	#3b4cc0	#b50927
+Sphingobium	genus	Sphingobium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Sphingomonas	genus	Sphingomonas	0.0	False	False	False	205.0	0.0	285771824133.5689	#3b4cc0	#5b7ae5	#3b4cc0	#b50927
+Sphingopyxis	genus	Sphingopyxis	0.0	False	False	False	165.0	0.0	285771824133.5863	#3b4cc0	#96b7ff	#3b4cc0	#b50927
+Spirochaeta	genus	Spirochaeta	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Spiroplasma	genus	Spiroplasma	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Spirosoma	genus	Spirosoma	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Sporocytophaga	genus	Sporocytophaga	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Sporolactobacillus	genus	Sporolactobacillus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Sporomusa	genus	Sporomusa	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Sporosarcina	genus	Sporosarcina	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Staphylococcus	genus	Staphylococcus	0.0	False	False	False	208.0	0.0	285771824133.5688	#3b4cc0	#5977e3	#3b4cc0	#b50927
+Stenotrophomonas	genus	Stenotrophomonas	0.0	False	False	False	200.0	0.0	285771824133.56903	#3b4cc0	#5f7fe8	#3b4cc0	#b50927
+Stenoxybacter	genus	Stenoxybacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Stomatobaculum	genus	Stomatobaculum	0.0	False	False	False	114.0	0.0	285771824133.6038	#3b4cc0	#dadce0	#3b4cc0	#b50927
+Streptacidiphilus	genus	Streptacidiphilus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Streptobacillus	genus	Streptobacillus	0.0	False	False	False	134.0	0.0	285771824133.5977	#3b4cc0	#c1d4f4	#3b4cc0	#b50927
+Streptococcus	genus	Streptococcus	0.0	False	False	False	95.0	0.0	285771824133.60596	#3b4cc0	#ebd3c6	#3b4cc0	#b50927
+Streptomyces	genus	Streptomyces	0.0	False	False	False	187.0	0.0	285771824133.5753	#3b4cc0	#6f92f3	#3b4cc0	#b50927
+Streptosporangium	genus	Streptosporangium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Subdoligranulum	genus	Subdoligranulum	0.0	False	False	False	14.0	0.0	285771824133.6539	#3b4cc0	#cf453c	#3b4cc0	#b50927
+Succinatimonas	genus	Succinatimonas	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Succinimonas	genus	Succinimonas	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Succinispira	genus	Succinispira	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Succinivibrio	genus	Succinivibrio	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Sulfitobacter	genus	Sulfitobacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Sulfuricurvum	genus	Sulfuricurvum	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Sulfurimonas	genus	Sulfurimonas	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Sulfurospirillum	genus	Sulfurospirillum	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Sulfurovum	genus	Sulfurovum	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Sunxiuqinia	genus	Sunxiuqinia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Sutterella	genus	Sutterella	0.0	False	False	False	52.0	0.0	285771824133.6487	#3b4cc0	#f29072	#3b4cc0	#b50927
+Symbiobacterium	genus	Symbiobacterium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Synechococcus	genus	Synechococcus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Synechocystis	genus	Synechocystis	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Synergistes	genus	Synergistes	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Syntrophaceticus	genus	Syntrophaceticus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Syntrophobacter	genus	Syntrophobacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Syntrophobotulus	genus	Syntrophobotulus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Syntrophomonas	genus	Syntrophomonas	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Syntrophorhabdus	genus	Syntrophorhabdus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Syntrophothermus	genus	Syntrophothermus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Syntrophus	genus	Syntrophus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Tannerella	genus	Tannerella	0.0	False	False	False	170.0	0.0	285771824133.58417	#3b4cc0	#8caffe	#3b4cc0	#b50927
+Taylorella	genus	Taylorella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Tenacibaculum	genus	Tenacibaculum	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Tepidanaerobacter	genus	Tepidanaerobacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Tepidiphilus	genus	Tepidiphilus	0.0	False	False	False	200.0	0.0	285771824133.56903	#3b4cc0	#5f7fe8	#3b4cc0	#b50927
+Terrabacter	genus	Terrabacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Terrimonas	genus	Terrimonas	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Terrisporobacter	genus	Terrisporobacter	0.0	False	False	False	54.0	0.0	285771824133.6485	#3b4cc0	#f39475	#3b4cc0	#b50927
+Tessaracoccus	genus	Tessaracoccus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Tetragenococcus	genus	Tetragenococcus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Tetrasphaera	genus	Tetrasphaera	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Thalassobacillus	genus	Thalassobacillus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Thalassospira	genus	Thalassospira	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Thauera	genus	Thauera	0.0	False	False	False	157.0	0.0	285771824133.59174	#3b4cc0	#9fbfff	#3b4cc0	#b50927
+Thermacetogenium	genus	Thermacetogenium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Thermaerobacter	genus	Thermaerobacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Thermanaerovibrio	genus	Thermanaerovibrio	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Thermoactinomyces	genus	Thermoactinomyces	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Thermoanaerobacter	genus	Thermoanaerobacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Thermoanaerobacterium	genus	Thermoanaerobacterium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Thermoanaerobaculum	genus	Thermoanaerobaculum	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Thermobacillus	genus	Thermobacillus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Thermobaculum	genus	Thermobaculum	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Thermobrachium	genus	Thermobrachium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Thermodesulfovibrio	genus	Thermodesulfovibrio	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Thermogemmatispora	genus	Thermogemmatispora	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Thermonema	genus	Thermonema	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Thermophagus	genus	Thermophagus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Thermosediminibacter	genus	Thermosediminibacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Thermosinus	genus	Thermosinus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Thermosipho	genus	Thermosipho	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Thermus	genus	Thermus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Thioalkalivibrio	genus	Thioalkalivibrio	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Thiobacillus	genus	Thiobacillus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Thiohalocapsa	genus	Thiohalocapsa	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Thiomicrospira	genus	Thiomicrospira	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Thiomonas	genus	Thiomonas	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Thiorhodococcus	genus	Thiorhodococcus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Thiothrix	genus	Thiothrix	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Timonella	genus	Timonella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Tolumonas	genus	Tolumonas	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Treponema	genus	Treponema	0.0	False	False	False	75.0	0.0	285771824133.6133	#3b4cc0	#f7ba9f	#3b4cc0	#b50927
+Trichodesmium	genus	Trichodesmium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Tropheryma	genus	Tropheryma	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Trueperella	genus	Trueperella	0.0	False	False	False	108.0	0.0	285771824133.6049	#3b4cc0	#e1dad6	#3b4cc0	#b50927
+Tumebacillus	genus	Tumebacillus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Turicibacter	genus	Turicibacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Turneriella	genus	Turneriella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Tyzzerella	genus	Tyzzerella	0.0	False	False	False	45.0	0.0	285771824133.64935	#3b4cc0	#ed8366	#3b4cc0	#b50927
+Ureaplasma	genus	Ureaplasma	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Vagococcus	genus	Vagococcus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Varibaculum	genus	Varibaculum	0.0	False	False	False	150.0	0.0	285771824133.5944	#3b4cc0	#abc8fd	#3b4cc0	#b50927
+Variovorax	genus	Variovorax	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Veillonella	genus	Veillonella	0.0	False	False	False	107.0	0.0	285771824133.60504	#3b4cc0	#e2dad5	#3b4cc0	#b50927
+Verminephrobacter	genus	Verminephrobacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Verrucomicrobium	genus	Verrucomicrobium	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Vibrio	genus	Vibrio	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Virgibacillus	genus	Virgibacillus	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Vitreoscilla	genus	Vitreoscilla	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Weeksella	genus	Weeksella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Weissella	genus	Weissella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Williamsia	genus	Williamsia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Wohlfahrtiimonas	genus	Wohlfahrtiimonas	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Wolinella	genus	Wolinella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Xanthomonas	genus	Xanthomonas	0.0	False	False	False	205.0	0.0	285771824133.5689	#3b4cc0	#5b7ae5	#3b4cc0	#b50927
+Xenorhabdus	genus	Xenorhabdus	0.0	False	False	False	147.0	0.0	285771824133.5956	#3b4cc0	#b1cbfc	#3b4cc0	#b50927
+Xylanimonas	genus	Xylanimonas	0.0	False	False	False	105.0	0.0	285771824133.6052	#3b4cc0	#e5d8d1	#3b4cc0	#b50927
+Xylella	genus	Xylella	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Yersinia	genus	Yersinia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Youngiibacter	genus	Youngiibacter	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Zhouia	genus	Zhouia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Zobellia	genus	Zobellia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Zunongwangia	genus	Zunongwangia	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 
+Zymomonas	genus	Zymomonas	0.0	False	False	False	228.0	0.0	0.0	 	 	 	 

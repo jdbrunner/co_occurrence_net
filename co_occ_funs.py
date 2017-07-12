@@ -548,7 +548,7 @@ def diffusion_ivp(known_on,known_off, network, suspected =0.5, non_suspected = 0
 	u0 = u0/norm(u0)
 	#find the coefficients c_i
 	ci = solve(evec,u0)
-	zers = where(abs(eval) > 10**(-15)) #find nonzero eigenvalues
+	zers = where(abs(eval) > 10**(-10)) #find nonzero eigenvalues
 	eqs = delete(range(len(eval)),zers) #and zero eigenvalues
 	equib = dot(evec[:,eqs],ci[eqs]) #equilibrium solution to the diffusion(the kernel of L)
 	rel_c = ci[zers]
@@ -696,7 +696,7 @@ def make_sample(templ):
 	abds = zeros(N)
 	min20N = min([N,63])
 	nonzer = sample(range(N), k = min20N)
-	nonzerval = rand(len(nonzer))
+	nonzerval = 0.1*rand(len(nonzer))
 	abds[nonzer] = nonzerval
 	rsamp['abundance'] = abds
 	return rsamp

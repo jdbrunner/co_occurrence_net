@@ -139,7 +139,7 @@ for i in level:
 		#prune off unseen organisms
 		lvl_abundance_array = lvl_abundance_array.drop(n_seen_ind)
 		ab_np_array = lvl_abundance_array.values[:,1:].astype(float)
-		
+
 		
 		if old_way:
 	#Create numpy array of co-occurrence fractions. This is the incidence matrix for our weighted
@@ -266,7 +266,6 @@ for i in level:
 				adj_size_p = adj_matrix_pre_pear.shape
 				adj_matrix_pear = zeros(adj_size_p) 
 				mc_test = mc_pearson(the_ns,the_ps,adj_matrix_pre_pear)#,dsamp_types, lvl_abundance_array.columns)		
-				#adj_matrix = adj_matrix_pre - mc_test
 				adj_matrix_pear[where(mc_test <stringency)] = adj_matrix_pre_pear[where(mc_test <stringency)]
 
 			
