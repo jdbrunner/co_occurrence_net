@@ -58,7 +58,8 @@ def both_same_bin(r1,r2, lthresh, numthresh, rel = True):
 #I need to consider how to deal with nodes that appear at high levels in more than one 
 #type of sample.
 def color_picker(r):
-	'''Function that classifies nodes by which type of sample they have the highest abundance in.'''
+	'''Function that classifies nodes by which type of sample they have the highest abundance in. If it's a dataframe
+	;it will return the column head of the winner'''
 	numcols = len(r)
 	most_found = argmax(r)
 	strgth = r[most_found] - mean(r)
@@ -205,7 +206,87 @@ def min_nz(arr, rows = False):
 	else:
 		return mask_arr.min()
 		
+def build_network(abundance_array, cotype):
+	'''Build a cooccurrence network from a pandas dataframe. Data should all come from same taxonomic level, with columns
+	['LEVEL','TAXA','SAMPLE_1',...,'SAMPLE_N']'''
+	ab_np_array = abundance_array.values[:,1:].astype(float)
+	in_level = abundance_array.index
+	if len(unique(abundance_array['LEVEL'])) != 0:
+		sys.exit('Please submit only one level to this function')
+	if cotype == 'bins':
+		occur_probs = occ_probs(data,0.05,5)
+		#Create numpy array of co-occurrence fractions. This is the incidence matrix for our weighted
+		#graph.
+		adj_matrix_pre_bins = asarray([[0 if x == y else both_same_bin(ab_np_array[x],ab_np_array[y], 0.05, 5) 
+									for x in range(len(ab_np_array))] for y in range(len(ab_np_array))])
+	
+		degs = sum(adj_matrix_pre_bins,1)
+		unconnected = where(degs == 0)
+		adj_matrix_pre_bins = delete(adj_matrix_pre_bins,unconnected,0)
+		adj_matrix_pre_bins = delete(adj_matrix_pre_bins,unconnected,1)
+		ab_np_array = delete(ab_np_array,unconnected,0)
+		if ab_np_array.shape[0] != 0:
+			in_level = delete(in_level,unconnected)
+	
+			stringency = 0.05
+			N = len(ab_np_array[0])
+			tot_seen = [sum([abd != 0 for abd in row]) for row in ab_np_array]
+	
+	#Now filter by p value less than stringency
+			adj_size = adj_matrix_pre.shape
+			adj_matrix = zeros(adj_size)
+			for k in range(adj_size[0]):
+				for j in range(adj_size[1]):
+					if adj_matrix_pre[k,j] != 0:
+						p = approx_rand_prob(occur_probs,adj_matrix_pre[k,j],k,j)
+						if p <= stringency:
+							adj_matrix[k,j] = adj_matrix_pre[k,j] 
+	
+			degs2 = sum(adj_matrix,1)
+			unconnected2 = where(degs2 == 0)
+			adj_matrix = delete(adj_matrix,unconnected2,0)
+			adj_matrix = delete(adj_matrix,unconnected2,1)
+			tot_seen_2 = delete(tot_seen,unconnected2)
 		
+			in_level_2 = delete(in_level,unconnected2)				
+					
+			adjacency_frames = pd.DataFrame(adj_matrix, index = abundance_array.loc[in_level_2,'TAXA'], columns =  abundance_array.loc[in_level_2,'TAXA'])
+
+
+			#create a list of edges - source in one column, target in the other. This is an alternative to the adjacency matrix
+			#that might make it easier to load in to cytoscape.
+			num_edge = count_nonzero(adj_matrix)
+			source_target_data = []#empty([num_edge,3], dtype = 'string')	
+			for l in range(len(adj_matrix)):
+				for k in range(l+1):
+						if adj_matrix[l,k] != 0:
+# 							s_type1 = color_picker(samp_type_abund.iloc[in_level_2[l]][:-1])
+# 							s_type2 = color_picker(samp_type_abund.iloc[in_level_2[k]][:-1])
+# 							edge_samp = matchyn(s_type1,s_type2)
+							#include the "reverse" edge as well so that cytoscape doesn't have gaps in 
+							#it's classification of nodes.
+							edge =  [abundance_array.loc[in_level_2[l],'TAXA'], abundance_array.loc[in_level_2[k],'TAXA'],
+														str(adj_matrix[l,k]), str(tot_seen_2[l]),str(tot_seen_2[k]),N]
+							rev_edge = [abundance_array.loc[in_level_2[k],'TAXA'], abundance_array.loc[in_level_2[l],'TAXA'],
+														str(adj_matrix[l,k]),str(tot_seen_2[k]),str(tot_seen_2[l]),N]
+							source_target_data_bins += [edge]
+							source_target_data_bins += [rev_edge]
+
+	
+			#turn list into a dataframe
+			source_target_frames_bins = pd.DataFrame(source_target_data_bins, columns = ['source','target','weight','source_freq',
+								'target_freq','num_samps'])
+
+	elif cotype == 'pearson':
+		return 
+	else:
+		sys.exit('Choose bins or pearson for edge construction')
+
+		
+	return [adjacency_frames, source_target_frames]		
+	
+def add_meta(edges, meta):
+	'''Add metadata columns for source node and edge'''	
 #########################################
 ####################################  Analysis of a whole network			 #########
 ###########################################################################################

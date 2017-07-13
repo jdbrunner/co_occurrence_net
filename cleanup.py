@@ -28,10 +28,10 @@ for coll in to_drp1:
 
 net.to_csv(net_name,sep = '\t')
 
-to_drp2 = ['target_freq','sscolor','second_sample']
-for colll in to_drp2:
-	if colll in net.columns:
-		net.drop(colll,axis = 1, inplace = True)
+# to_drp2 = ['target_freq','sscolor','second_sample']
+# for colll in to_drp2:
+# 	if colll in net.columns:
+# 		net.drop(colll,axis = 1, inplace = True)
 
 
 edge_info = net[['source','target','weight','edge_sample','edcolor']]

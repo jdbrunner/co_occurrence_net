@@ -153,6 +153,12 @@ for i in level:
 		in_level = delete(in_level,not_seen)
 		#prune off unseen organisms
 		lvl_abundance_array = lvl_abundance_array.drop(n_seen_ind)
+		
+		
+		
+		
+		
+		
 		ab_np_array = lvl_abundance_array.values[:,1:].astype(float)
 
 		
