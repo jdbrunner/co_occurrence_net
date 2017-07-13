@@ -701,12 +701,15 @@ def make_sample(templ):
 	rsamp['abundance'] = abds
 	return rsamp
 
-def get_sample(daata):
+def get_sample(daata, holdouts = []):
 	'''grab a real sample (column) from the template data'''
 	samp = pd.DataFrame(daata['LEVEL'], columns = ['LEVEL'])
 	samp['TAXA'] = daata['TAXA']
 	L = len(daata.columns) - 2
-	this = randint(L)+2
+	if len(holdouts) == 0:
+		this = randint(L)+2
+	else:
+		this = holdouts[randint(len(holdouts))]
 	which = daata.columns[this]
 	samp['abundance'] = daata[which]
 	samp_stype = daata.columns[this]

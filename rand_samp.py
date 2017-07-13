@@ -23,6 +23,12 @@ from co_occ_funs import *
 template_name = sys.argv[1]
 level = sys.argv[2]
 flder = sys.argv[3]
+cols_not_used = sys.argv[4]
+
+coms =list(where([l == ',' for l in cols_not_used])[0])
+coms = [0]+coms+[len(cols_not_used)-1]
+cols_not_used = [int(cols_not_used[coms[i]+1:coms[i+1]]) for i in range(len(coms)-1)]
+
 
 template = pd.read_csv(template_name, sep = ' ')
 
@@ -72,7 +78,8 @@ for lvl in level:
 	if rand_samp:
 		rsamps[lvl] = make_sample(lvl_template)
 	
-	colsamps[lvl] = get_sample(lvl_template)
+
+	colsamps[lvl] = get_sample(lvl_template, holdouts = cols_not_used)
 	samp_len = len(colsamps[lvl][0])
 	#in_samp is an array of indices (locs, not ilocs) that have non-zero abundance
 	in_samp = colsamps[lvl][0].index[nonzero(colsamps[lvl][0]['abundance'])]

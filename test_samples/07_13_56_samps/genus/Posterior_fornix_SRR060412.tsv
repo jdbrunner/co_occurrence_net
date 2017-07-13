@@ -1,0 +1,878 @@
+TAXA	LEVEL	TAXA	abundance	Detected	Removed	Added	ivp_genus__20_57_4_9_bins	ivp_eq_genus__20_57_4_9_bins	ivp_transient_genus__20_57_4_9_bins	sample_col_genus__20_57_4_9_bins	ivp_col_genus__20_57_4_9_bins	ivp_eq_color_genus__20_57_4_9_bins	ivp_transient_color_genus__20_57_4_9_bins	community_cluster_genus__20_57_4_9_bins	spectral_cluster_genus__20_57_4_9_bins	common_location_genus__20_57_4_9_bins
+Abiotrophia	genus	Abiotrophia	0.0	False	False	False	24.0	0.005156	0.021262	#3b4cc0	#dc5d4a	#b40426	#779af7	0.0	5.0	Buccal_mucosa
+Acetivibrio	genus	Acetivibrio	0.0	False	False	False	128.0	0.005156	-0.011623	#3b4cc0	#bed2f6	#b40426	#5f7fe8	1.0	6.0	Stool
+Acetobacter	genus	Acetobacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Acetobacterium	genus	Acetobacterium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Acetohalobium	genus	Acetohalobium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Acetonema	genus	Acetonema	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Acholeplasma	genus	Acholeplasma	0.0	False	False	False	177.0	0.005156	-0.026271	#3b4cc0	#6788ee	#b40426	#5572df	2.0	0.0	Stool
+Achromobacter	genus	Achromobacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Acidaminococcus	genus	Acidaminococcus	0.0	False	False	False	178.0	0.005156	-0.026576	#3b4cc0	#6687ed	#b40426	#5572df	2.0	0.0	Stool
+Acidithiobacillus	genus	Acidithiobacillus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Acidobacterium	genus	Acidobacterium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Acidovorax	genus	Acidovorax	0.0	False	False	False	117.0	0.005156	-0.008242	#3b4cc0	#cfdaea	#b40426	#6282ea	3.0	4.0	Anterior_nares
+Acinetobacter	genus	Acinetobacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Actinobacillus	genus	Actinobacillus	0.0	False	False	False	27.0	0.005156	0.020933	#3b4cc0	#e0654f	#b40426	#779af7	4.0	7.0	Buccal_mucosa
+Actinobaculum	genus	Actinobaculum	0.0	False	False	False	90.0	0.005156	0.014092	#3b4cc0	#e9d5cb	#b40426	#7295f4	0.0	5.0	Supragingival_plaque
+Actinokineospora	genus	Actinokineospora	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Actinomyces	genus	Actinomyces	0.0	False	False	False	49.0	0.005156	0.019926	#3b4cc0	#f39577	#b40426	#7699f6	0.0	5.0	Supragingival_plaque
+Actinoplanes	genus	Actinoplanes	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Actinopolyspora	genus	Actinopolyspora	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Actinospica	genus	Actinospica	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Actinotignum	genus	Actinotignum	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Adlercreutzia	genus	Adlercreutzia	0.0	False	False	False	142.0	0.005156	-0.012699	#3b4cc0	#a3c2fe	#b40426	#5f7fe8	1.0	6.0	Stool
+Advenella	genus	Advenella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Aequorivita	genus	Aequorivita	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Aerococcus	genus	Aerococcus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Aeromicrobium	genus	Aeromicrobium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Aeromonas	genus	Aeromonas	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Aestuariimicrobium	genus	Aestuariimicrobium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Afipia	genus	Afipia	0.0	False	False	False	217.0	-0.0	-0.0	#3b4cc0	#3c4ec2	#3b4cc0	#688aef	5.0	3.0	Throat
+Agarivorans	genus	Agarivorans	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Aggregatibacter	genus	Aggregatibacter	0.0	False	False	False	34.0	0.005156	0.020437	#3b4cc0	#e8765c	#b40426	#779af7	0.0	5.0	Mixed
+Agrobacterium	genus	Agrobacterium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Agromyces	genus	Agromyces	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Akkermansia	genus	Akkermansia	0.0	False	False	False	130.0	0.005156	-0.011842	#3b4cc0	#bad0f8	#b40426	#5f7fe8	1.0	6.0	Stool
+Alcaligenes	genus	Alcaligenes	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Alcanivorax	genus	Alcanivorax	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Algibacter	genus	Algibacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Algicola	genus	Algicola	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Algoriphagus	genus	Algoriphagus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Alicycliphilus	genus	Alicycliphilus	0.0	False	False	False	214.0	0.005156	-0.067783	#3b4cc0	#3f53c6	#b40426	#3b4cc0	6.0	0.0	Buccal_mucosa
+Alicyclobacillus	genus	Alicyclobacillus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Aliiglaciecola	genus	Aliiglaciecola	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Aliivibrio	genus	Aliivibrio	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Alistipes	genus	Alistipes	0.0	False	False	False	165.0	0.005156	-0.016012	#3b4cc0	#799cf8	#b40426	#5d7ce6	2.0	6.0	Stool
+Aliterella	genus	Aliterella	0.0	False	False	False	204.0	0.005156	-0.067462	#3b4cc0	#4055c8	#b40426	#3b4cc0	6.0	1.0	Anterior_nares
+Alkaliflexus	genus	Alkaliflexus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Alkaliphilus	genus	Alkaliphilus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Alkanindiges	genus	Alkanindiges	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Allobaculum	genus	Allobaculum	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Allofustis	genus	Allofustis	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Alloiococcus	genus	Alloiococcus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Alloprevotella	genus	Alloprevotella	0.0	False	False	False	29.0	0.005156	0.02091	#3b4cc0	#e36b54	#b40426	#779af7	0.0	5.0	Attached
+Allosalinactinospora	genus	Allosalinactinospora	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Alloscardovia	genus	Alloscardovia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Alteromonas	genus	Alteromonas	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Altibacter	genus	Altibacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Alysiella	genus	Alysiella	0.0	False	False	False	82.0	0.005156	0.01719	#3b4cc0	#eed0c0	#b40426	#7597f6	0.0	5.0	Attached
+Amantichitinum	genus	Amantichitinum	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Aminiphilus	genus	Aminiphilus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Aminobacterium	genus	Aminobacterium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Aminomonas	genus	Aminomonas	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Ammonifex	genus	Ammonifex	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Amphibacillus	genus	Amphibacillus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Anaerobaculum	genus	Anaerobaculum	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Anaerobiospirillum	genus	Anaerobiospirillum	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Anaerococcus	genus	Anaerococcus	0.0008	True	False	False	186.0	0.005156	-0.048233	#dcdddd	#5977e3	#b40426	#465ecf	6.0	1.0	Anterior_nares
+Anaerofustis	genus	Anaerofustis	0.0	False	False	False	167.0	0.005156	-0.016857	#3b4cc0	#7597f6	#b40426	#5b7ae5	1.0	6.0	Stool
+Anaeroglobus	genus	Anaeroglobus	0.0	False	False	False	70.0	0.005156	0.0187	#3b4cc0	#f6bfa6	#b40426	#7699f6	0.0	5.0	Saliva
+Anaerolinea	genus	Anaerolinea	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Anaeromusa	genus	Anaeromusa	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Anaerophaga	genus	Anaerophaga	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Anaerosalibacter	genus	Anaerosalibacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Anaerostipes	genus	Anaerostipes	0.0	False	False	False	123.0	0.005156	-0.011428	#3b4cc0	#c6d6f1	#b40426	#5f7fe8	1.0	6.0	Stool
+Anaerotruncus	genus	Anaerotruncus	0.0	False	False	False	153.0	0.005156	-0.013804	#3b4cc0	#8db0fe	#b40426	#5e7de7	1.0	6.0	Stool
+Anaerovibrio	genus	Anaerovibrio	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Anaerovorax	genus	Anaerovorax	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Anaplasma	genus	Anaplasma	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Anditalea	genus	Anditalea	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Aneurinibacillus	genus	Aneurinibacillus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Anoxybacillus	genus	Anoxybacillus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Apibacter	genus	Apibacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Aquabacterium	genus	Aquabacterium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Aquaspirillum	genus	Aquaspirillum	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Aquimarina	genus	Aquimarina	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Aquitalea	genus	Aquitalea	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Arcanobacterium	genus	Arcanobacterium	0.0	False	False	False	98.0	0.005156	-0.001015	#3b4cc0	#dedcdb	#b40426	#6788ee	3.0	2.0	Anterior_nares
+Arcobacter	genus	Arcobacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Arcticibacter	genus	Arcticibacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Ardenticatena	genus	Ardenticatena	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Arenibacter	genus	Arenibacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Arthrobacter	genus	Arthrobacter	0.0	False	False	False	204.0	0.005156	-0.067462	#3b4cc0	#4055c8	#b40426	#3b4cc0	6.0	1.0	Anterior_nares
+Asticcacaulis	genus	Asticcacaulis	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Atopobacter	genus	Atopobacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Atopobium	genus	Atopobium	0.0045	True	False	False	5.0	0.005156	0.086239	#f49a7b	#c12b30	#b40426	#a7c5fe	0.0	5.0	Saliva
+Atopococcus	genus	Atopococcus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Aureimonas	genus	Aureimonas	0.0	False	False	False	103.0	0.005156	-0.002707	#3b4cc0	#dbdcde	#b40426	#6687ed	3.0	2.0	Anterior_nares
+Austwickia	genus	Austwickia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Avibacterium	genus	Avibacterium	0.0	False	False	False	31.0	0.005156	0.020643	#3b4cc0	#e57058	#b40426	#779af7	4.0	7.0	Buccal_mucosa
+Azoarcus	genus	Azoarcus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Azohydromonas	genus	Azohydromonas	0.0	False	False	False	204.0	0.005156	-0.067462	#3b4cc0	#4055c8	#b40426	#3b4cc0	6.0	1.0	Anterior_nares
+Azonexus	genus	Azonexus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Azospirillum	genus	Azospirillum	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Azotobacter	genus	Azotobacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Azovibrio	genus	Azovibrio	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Bacillus	genus	Bacillus	0.0	False	False	False	196.0	0.005156	-0.064731	#3b4cc0	#4c66d6	#b40426	#3c4ec2	6.0	1.0	Anterior_nares
+Bacteriovorax	genus	Bacteriovorax	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Bacteroides	genus	Bacteroides	0.0	False	False	False	162.0	0.005156	-0.015581	#3b4cc0	#7da0f9	#b40426	#5d7ce6	2.0	6.0	Stool
+Barnesiella	genus	Barnesiella	0.0	False	False	False	154.0	0.005156	-0.014319	#3b4cc0	#8caffe	#b40426	#5e7de7	2.0	6.0	Stool
+Bartonella	genus	Bartonella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Basfia	genus	Basfia	0.0	False	False	False	18.0	0.005156	0.021425	#3b4cc0	#d85646	#b40426	#779af7	4.0	7.0	Buccal_mucosa
+Bavariicoccus	genus	Bavariicoccus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Bdellovibrio	genus	Bdellovibrio	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Belliella	genus	Belliella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Belnapia	genus	Belnapia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Bergeyella	genus	Bergeyella	0.0	False	False	False	73.0	0.005156	0.018027	#3b4cc0	#f5c4ac	#b40426	#7597f6	4.0	7.0	Supragingival_plaque
+Beutenbergia	genus	Beutenbergia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Bhargavaea	genus	Bhargavaea	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Bibersteinia	genus	Bibersteinia	0.0	False	False	False	33.0	0.005156	0.020465	#3b4cc0	#e67259	#b40426	#779af7	4.0	7.0	Buccal_mucosa
+Bifidobacterium	genus	Bifidobacterium	0.0	False	False	False	155.0	0.005156	-0.01462	#3b4cc0	#89acfd	#b40426	#5e7de7	1.0	6.0	Stool
+Bilophila	genus	Bilophila	0.0	False	False	False	173.0	0.005156	-0.024303	#3b4cc0	#6c8ff1	#b40426	#5673e0	2.0	0.0	Stool
+Blautia	genus	Blautia	0.0	False	False	False	121.0	0.005156	-0.011061	#3b4cc0	#c9d7f0	#b40426	#6180e9	1.0	6.0	Stool
+Bordetella	genus	Bordetella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Bosea	genus	Bosea	0.0	False	False	False	189.0	0.005156	-0.062098	#3b4cc0	#5470de	#b40426	#3e51c5	6.0	0.0	Posterior_fornix
+Brachybacterium	genus	Brachybacterium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Brachymonas	genus	Brachymonas	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Brachyspira	genus	Brachyspira	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Bradyrhizobium	genus	Bradyrhizobium	0.0	False	False	False	217.0	-0.0	-0.0	#3b4cc0	#3c4ec2	#3b4cc0	#688aef	5.0	3.0	Throat
+Brevibacillus	genus	Brevibacillus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Brevibacterium	genus	Brevibacterium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Brevundimonas	genus	Brevundimonas	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Brochothrix	genus	Brochothrix	0.0	False	False	False	42.0	0.005156	0.020223	#3b4cc0	#f08a6c	#b40426	#7699f6	7.0	5.0	Saliva
+Buchnera	genus	Buchnera	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Bulleidia	genus	Bulleidia	0.0	False	False	False	77.0	0.005156	0.017937	#3b4cc0	#f2cab5	#b40426	#7597f6	7.0	5.0	Throat
+Burkholderia	genus	Burkholderia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Buttiauxella	genus	Buttiauxella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Butyricicoccus	genus	Butyricicoccus	0.0	False	False	False	157.0	0.005156	-0.014826	#3b4cc0	#86a9fc	#b40426	#5d7ce6	2.0	6.0	Stool
+Butyricimonas	genus	Butyricimonas	0.0	False	False	False	147.0	0.005156	-0.01306	#3b4cc0	#9abbff	#b40426	#5e7de7	1.0	6.0	Stool
+Butyrivibrio	genus	Butyrivibrio	0.0	False	False	False	180.0	0.005156	-0.031427	#3b4cc0	#6384eb	#b40426	#516ddb	2.0	0.0	Stool
+Caballeronia	genus	Caballeronia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Caldanaerobacter	genus	Caldanaerobacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Caldanaerobius	genus	Caldanaerobius	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Caldibacillus	genus	Caldibacillus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Caldicellulosiruptor	genus	Caldicellulosiruptor	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Caldicoprobacter	genus	Caldicoprobacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Caldisalinibacter	genus	Caldisalinibacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Calditerricola	genus	Calditerricola	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Calditerrivibrio	genus	Calditerrivibrio	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Caloramator	genus	Caloramator	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Caloranaerobacter	genus	Caloranaerobacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Calothrix	genus	Calothrix	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Caminibacter	genus	Caminibacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Campylobacter	genus	Campylobacter	0.0003	True	False	False	41.0	0.005156	0.020227	#8caffe	#ef886b	#b40426	#7699f6	0.0	5.0	Saliva
+Candidatus Accumulibacter	genus	Candidatus Accumulibacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Candidatus Arthromitus	genus	Candidatus Arthromitus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Candidatus Azobacteroides	genus	Candidatus Azobacteroides	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Candidatus Brocadia	genus	Candidatus Brocadia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Candidatus Cloacimonas	genus	Candidatus Cloacimonas	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Candidatus Desulforudis	genus	Candidatus Desulforudis	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Candidatus Hamiltonella	genus	Candidatus Hamiltonella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Candidatus Jettenia	genus	Candidatus Jettenia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Candidatus Liberibacter	genus	Candidatus Liberibacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Candidatus Microthrix	genus	Candidatus Microthrix	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Candidatus Pelagibacter	genus	Candidatus Pelagibacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Candidatus Photodesmus	genus	Candidatus Photodesmus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Candidatus Phytoplasma	genus	Candidatus Phytoplasma	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Candidatus Soleaferrea	genus	Candidatus Soleaferrea	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Candidatus Solibacter	genus	Candidatus Solibacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Candidatus Stoquefichus	genus	Candidatus Stoquefichus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Candidatus Symbiobacter	genus	Candidatus Symbiobacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Candidatus Symbiothrix	genus	Candidatus Symbiothrix	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Capnocytophaga	genus	Capnocytophaga	0.0	False	False	False	60.0	0.005156	0.019489	#3b4cc0	#f7ad90	#b40426	#7699f6	0.0	5.0	Supragingival_plaque
+Cardiobacterium	genus	Cardiobacterium	0.0	False	False	False	69.0	0.005156	0.018744	#3b4cc0	#f6bda2	#b40426	#7699f6	0.0	5.0	Subgingival_plaque
+Carnobacterium	genus	Carnobacterium	0.0	False	False	False	51.0	0.005156	0.01987	#3b4cc0	#f49a7b	#b40426	#7699f6	0.0	5.0	Saliva
+Castellaniella	genus	Castellaniella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Catabacter	genus	Catabacter	0.0	False	False	False	163.0	0.005156	-0.015697	#3b4cc0	#7a9df8	#b40426	#5d7ce6	1.0	6.0	Stool
+Catellicoccus	genus	Catellicoccus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Catelliglobosispora	genus	Catelliglobosispora	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Catenibacterium	genus	Catenibacterium	0.0	False	False	False	174.0	0.005156	-0.024334	#3b4cc0	#6b8df0	#b40426	#5673e0	2.0	6.0	Stool
+Catenovulum	genus	Catenovulum	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Catonella	genus	Catonella	0.0	False	False	False	54.0	0.005156	0.019699	#3b4cc0	#f5a081	#b40426	#7699f6	0.0	5.0	Subgingival_plaque
+Caulobacter	genus	Caulobacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Cecembia	genus	Cecembia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Cellulomonas	genus	Cellulomonas	0.0	False	False	False	16.0	0.005156	0.021807	#3b4cc0	#d55042	#b40426	#779af7	0.0	5.0	Stool
+Cellulophaga	genus	Cellulophaga	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Cellulosilyticum	genus	Cellulosilyticum	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Cellulosimicrobium	genus	Cellulosimicrobium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Cellvibrio	genus	Cellvibrio	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Centipeda	genus	Centipeda	0.0	False	False	False	63.0	0.005156	0.019244	#3b4cc0	#f7b396	#b40426	#7699f6	0.0	5.0	Subgingival_plaque
+Cetobacterium	genus	Cetobacterium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Chamaesiphon	genus	Chamaesiphon	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Chania	genus	Chania	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Chelatococcus	genus	Chelatococcus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Chelonobacter	genus	Chelonobacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Chitiniphilus	genus	Chitiniphilus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Chitinivibrio	genus	Chitinivibrio	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Chitinophaga	genus	Chitinophaga	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Chlamydia	genus	Chlamydia	0.0	False	False	False	59.0	0.005156	0.019544	#3b4cc0	#f7aa8c	#b40426	#7699f6	0.0	5.0	Attached
+Chlorobaculum	genus	Chlorobaculum	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Chlorobium	genus	Chlorobium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Chloroflexus	genus	Chloroflexus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Chloroherpeton	genus	Chloroherpeton	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Chondromyces	genus	Chondromyces	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Chromobacterium	genus	Chromobacterium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Chryseobacterium	genus	Chryseobacterium	0.0	False	False	False	48.0	0.005156	0.02008	#3b4cc0	#f39475	#b40426	#7699f6	4.0	7.0	Attached
+Chrysiogenes	genus	Chrysiogenes	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Chthoniobacter	genus	Chthoniobacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Citrobacter	genus	Citrobacter	0.0	False	False	False	217.0	-0.0	-0.0	#3b4cc0	#3c4ec2	#3b4cc0	#688aef	5.0	3.0	Throat
+Clavibacter	genus	Clavibacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Cloacibacillus	genus	Cloacibacillus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Clostridiisalibacter	genus	Clostridiisalibacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Clostridium	genus	Clostridium	0.0001	True	False	False	156.0	0.005156	-0.014796	#6180e9	#88abfd	#b40426	#5d7ce6	1.0	6.0	Stool
+Cobetia	genus	Cobetia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Cohnella	genus	Cohnella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Coleofasciculus	genus	Coleofasciculus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Collinsella	genus	Collinsella	0.0	False	False	False	152.0	0.005156	-0.013489	#3b4cc0	#90b2fe	#b40426	#5e7de7	1.0	6.0	Stool
+Colwellia	genus	Colwellia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Comamonas	genus	Comamonas	0.0	False	False	False	193.0	0.005156	-0.062627	#3b4cc0	#516ddb	#b40426	#3e51c5	6.0	0.0	Mid_vagina
+Conchiformibius	genus	Conchiformibius	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Congregibacter	genus	Congregibacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Coprobacillus	genus	Coprobacillus	0.0	False	False	False	120.0	0.005156	-0.010856	#3b4cc0	#cbd8ee	#b40426	#6180e9	1.0	6.0	Stool
+Coprobacter	genus	Coprobacter	0.0	False	False	False	129.0	0.005156	-0.011821	#3b4cc0	#bbd1f8	#b40426	#5f7fe8	1.0	6.0	Stool
+Coprococcus	genus	Coprococcus	0.0	False	False	False	118.0	0.005156	-0.01057	#3b4cc0	#cedaeb	#b40426	#6180e9	1.0	6.0	Stool
+Coprothermobacter	genus	Coprothermobacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Coriobacterium	genus	Coriobacterium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Corynebacterium	genus	Corynebacterium	0.0	False	False	False	50.0	0.005156	0.019907	#3b4cc0	#f39778	#b40426	#7699f6	0.0	5.0	Supragingival_plaque
+Coxiella	genus	Coxiella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Criblamydia	genus	Criblamydia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Croceibacter	genus	Croceibacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Crocosphaera	genus	Crocosphaera	0.0	False	False	False	103.0	0.005156	-0.002707	#3b4cc0	#dbdcde	#b40426	#6687ed	3.0	2.0	Anterior_nares
+Cryobacterium	genus	Cryobacterium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Cryptobacterium	genus	Cryptobacterium	0.0	False	False	False	86.0	0.005156	0.016966	#3b4cc0	#ebd3c6	#b40426	#7597f6	4.0	7.0	Supragingival_plaque
+Cupriavidus	genus	Cupriavidus	0.0	False	False	False	187.0	0.005156	-0.050601	#3b4cc0	#5673e0	#b40426	#455cce	6.0	0.0	Mid_vagina
+Curtobacterium	genus	Curtobacterium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Curvibacter	genus	Curvibacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Cyanothece	genus	Cyanothece	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Cyclobacterium	genus	Cyclobacterium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Cytophaga	genus	Cytophaga	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Dechloromonas	genus	Dechloromonas	0.0	False	False	False	182.0	0.005156	-0.0319	#3b4cc0	#5f7fe8	#b40426	#516ddb	3.0	0.0	Buccal_mucosa
+Deferribacter	genus	Deferribacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Defluviitalea	genus	Defluviitalea	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Dehalobacter	genus	Dehalobacter	0.0	False	False	False	18.0	0.005156	0.021425	#3b4cc0	#d85646	#b40426	#779af7	4.0	7.0	Buccal_mucosa
+Dehalococcoides	genus	Dehalococcoides	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Dehalogenimonas	genus	Dehalogenimonas	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Deinococcus	genus	Deinococcus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Delftia	genus	Delftia	0.0	False	False	False	204.0	0.005156	-0.067462	#3b4cc0	#4055c8	#b40426	#3b4cc0	6.0	1.0	Anterior_nares
+Dermabacter	genus	Dermabacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Dermacoccus	genus	Dermacoccus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Dermatophilus	genus	Dermatophilus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Derxia	genus	Derxia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Desmospora	genus	Desmospora	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Desulfarculus	genus	Desulfarculus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Desulfatiglans	genus	Desulfatiglans	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Desulfatirhabdium	genus	Desulfatirhabdium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Desulfitibacter	genus	Desulfitibacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Desulfitobacterium	genus	Desulfitobacterium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Desulfobacter	genus	Desulfobacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Desulfobacterium	genus	Desulfobacterium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Desulfobacula	genus	Desulfobacula	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Desulfobulbus	genus	Desulfobulbus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Desulfocapsa	genus	Desulfocapsa	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Desulfocarbo	genus	Desulfocarbo	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Desulfococcus	genus	Desulfococcus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Desulfomicrobium	genus	Desulfomicrobium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Desulfonatronum	genus	Desulfonatronum	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Desulforegula	genus	Desulforegula	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Desulfosarcina	genus	Desulfosarcina	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Desulfospira	genus	Desulfospira	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Desulfosporosinus	genus	Desulfosporosinus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Desulfotalea	genus	Desulfotalea	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Desulfotignum	genus	Desulfotignum	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Desulfotomaculum	genus	Desulfotomaculum	0.0	False	False	False	167.0	0.005156	-0.016857	#3b4cc0	#7597f6	#b40426	#5b7ae5	1.0	6.0	Stool
+Desulfovermiculus	genus	Desulfovermiculus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Desulfovibrio	genus	Desulfovibrio	0.0	False	False	False	167.0	0.005156	-0.016857	#3b4cc0	#7597f6	#b40426	#5b7ae5	1.0	6.0	Stool
+Desulfovirgula	genus	Desulfovirgula	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Desulfurispirillum	genus	Desulfurispirillum	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Desulfurispora	genus	Desulfurispora	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Desulfurobacterium	genus	Desulfurobacterium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Desulfuromonas	genus	Desulfuromonas	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Dethiobacter	genus	Dethiobacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Dethiosulfatarculus	genus	Dethiosulfatarculus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Dethiosulfovibrio	genus	Dethiosulfovibrio	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Devosia	genus	Devosia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Devriesea	genus	Devriesea	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Dialister	genus	Dialister	0.0003	True	False	False	93.0	0.005156	0.006835	#8caffe	#e5d8d1	#b40426	#6c8ff1	0.0	5.0	Stool
+Diaphorobacter	genus	Diaphorobacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Dichelobacter	genus	Dichelobacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Dickeya	genus	Dickeya	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Dielma	genus	Dielma	0.0	False	False	False	137.0	0.005156	-0.012492	#3b4cc0	#adc9fd	#b40426	#5f7fe8	1.0	6.0	Stool
+Dietzia	genus	Dietzia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Diplosphaera	genus	Diplosphaera	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Dokdonia	genus	Dokdonia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Dolichospermum	genus	Dolichospermum	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Dolosigranulum	genus	Dolosigranulum	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Domibacillus	genus	Domibacillus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Dorea	genus	Dorea	0.0	False	False	False	134.0	0.005156	-0.012151	#3b4cc0	#b2ccfb	#b40426	#5f7fe8	1.0	6.0	Stool
+Draconibacterium	genus	Draconibacterium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Dyadobacter	genus	Dyadobacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Dysgonomonas	genus	Dysgonomonas	0.0	False	False	False	159.0	0.005156	-0.015327	#3b4cc0	#82a6fb	#b40426	#5d7ce6	1.0	6.0	Stool
+Echinicola	genus	Echinicola	0.0	False	False	False	18.0	0.005156	0.021425	#3b4cc0	#d85646	#b40426	#779af7	4.0	7.0	Buccal_mucosa
+Edwardsiella	genus	Edwardsiella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Eggerthella	genus	Eggerthella	0.0	False	False	False	161.0	0.005156	-0.01536	#3b4cc0	#7ea1fa	#b40426	#5d7ce6	1.0	6.0	Stool
+Eggerthia	genus	Eggerthia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Eikenella	genus	Eikenella	0.0	False	False	False	64.0	0.005156	0.019168	#3b4cc0	#f7b497	#b40426	#7699f6	0.0	5.0	Subgingival_plaque
+Elizabethkingia	genus	Elizabethkingia	0.0	False	False	False	214.0	0.005156	-0.067783	#3b4cc0	#3f53c6	#b40426	#3b4cc0	6.0	0.0	Buccal_mucosa
+Empedobacter	genus	Empedobacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Endomicrobium	genus	Endomicrobium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Endozoicomonas	genus	Endozoicomonas	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Enhydrobacter	genus	Enhydrobacter	0.0	False	False	False	200.0	0.005156	-0.065704	#3b4cc0	#455cce	#b40426	#3c4ec2	6.0	0.0	Posterior_fornix
+Enorma	genus	Enorma	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Enterobacter	genus	Enterobacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Enterococcus	genus	Enterococcus	0.0	False	False	False	166.0	0.005156	-0.016143	#3b4cc0	#7699f6	#b40426	#5d7ce6	2.0	6.0	Attached
+Enterorhabdus	genus	Enterorhabdus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Enterovibrio	genus	Enterovibrio	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Entomoplasma	genus	Entomoplasma	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Epilithonimonas	genus	Epilithonimonas	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Epulopiscium	genus	Epulopiscium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Eremococcus	genus	Eremococcus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Erwinia	genus	Erwinia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Erysipelatoclostridium	genus	Erysipelatoclostridium	0.0	False	False	False	141.0	0.005156	-0.012626	#3b4cc0	#a5c3fe	#b40426	#5f7fe8	1.0	6.0	Stool
+Erysipelothrix	genus	Erysipelothrix	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Erythrobacter	genus	Erythrobacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Escherichia	genus	Escherichia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Ethanoligenens	genus	Ethanoligenens	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Eubacterium	genus	Eubacterium	0.0	False	False	False	122.0	0.005156	-0.011195	#3b4cc0	#c7d7f0	#b40426	#5f7fe8	1.0	6.0	Subgingival_plaque
+Ewingella	genus	Ewingella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Exiguobacterium	genus	Exiguobacterium	0.0	False	False	False	98.0	0.005156	-0.001015	#3b4cc0	#dedcdb	#b40426	#6788ee	3.0	2.0	Anterior_nares
+Facklamia	genus	Facklamia	0.0	False	False	False	116.0	0.005156	-0.008184	#3b4cc0	#d1dae9	#b40426	#6282ea	3.0	2.0	Posterior_fornix
+Faecalibacterium	genus	Faecalibacterium	0.0	False	False	False	150.0	0.005156	-0.013184	#3b4cc0	#94b6ff	#b40426	#5e7de7	1.0	6.0	Stool
+Faecalicoccus	genus	Faecalicoccus	0.0	False	False	False	163.0	0.005156	-0.015697	#3b4cc0	#7a9df8	#b40426	#5d7ce6	1.0	6.0	Stool
+Faecalitalea	genus	Faecalitalea	0.0	False	False	False	158.0	0.005156	-0.015211	#3b4cc0	#84a7fc	#b40426	#5d7ce6	1.0	6.0	Stool
+Fangia	genus	Fangia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Fenollaria	genus	Fenollaria	0.0	False	False	False	189.0	0.005156	-0.062098	#3b4cc0	#5470de	#b40426	#3e51c5	6.0	0.0	Posterior_fornix
+Fermentimonas	genus	Fermentimonas	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Ferrimonas	genus	Ferrimonas	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Ferrovum	genus	Ferrovum	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Fervidicella	genus	Fervidicella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Fervidobacterium	genus	Fervidobacterium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Fibrella	genus	Fibrella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Fibrisoma	genus	Fibrisoma	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Fibrobacter	genus	Fibrobacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Fictibacillus	genus	Fictibacillus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Filifactor	genus	Filifactor	0.0	False	False	False	58.0	0.005156	0.01957	#3b4cc0	#f7a98b	#b40426	#7699f6	7.0	5.0	Throat
+Finegoldia	genus	Finegoldia	0.0014	True	False	False	95.0	0.005156	0.00192	#f4c5ad	#e2dad5	#b40426	#6a8bef	7.0	5.0	Anterior_nares
+Flagellimonas	genus	Flagellimonas	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Flammeovirga	genus	Flammeovirga	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Flaviflexus	genus	Flaviflexus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Flavihumibacter	genus	Flavihumibacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Flavobacterium	genus	Flavobacterium	0.0	False	False	False	217.0	-0.0	-0.0	#3b4cc0	#3c4ec2	#3b4cc0	#688aef	5.0	3.0	Throat
+Flavonifractor	genus	Flavonifractor	0.0	False	False	False	124.0	0.005156	-0.011491	#3b4cc0	#c4d5f3	#b40426	#5f7fe8	1.0	6.0	Stool
+Flectobacillus	genus	Flectobacillus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Flexibacter	genus	Flexibacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Flexithrix	genus	Flexithrix	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Formosa	genus	Formosa	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Francisella	genus	Francisella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Frankia	genus	Frankia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Frischella	genus	Frischella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Fructobacillus	genus	Fructobacillus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Fulvivirga	genus	Fulvivirga	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Fusobacterium	genus	Fusobacterium	0.0	False	False	False	46.0	0.005156	0.020194	#3b4cc0	#f18f71	#b40426	#7699f6	0.0	5.0	Tongue_dorsum
+Galbibacter	genus	Galbibacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Gallaecimonas	genus	Gallaecimonas	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Gallibacterium	genus	Gallibacterium	0.0	False	False	False	52.0	0.005156	0.019856	#3b4cc0	#f59c7d	#b40426	#7699f6	4.0	7.0	Attached
+Gardnerella	genus	Gardnerella	0.1151	True	False	False	0.0	0.005156	0.402202	#b40426	#b70d28	#b40426	#b50927	7.0	5.0	Posterior_fornix
+Gayadomonas	genus	Gayadomonas	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Geitlerinema	genus	Geitlerinema	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Gemella	genus	Gemella	0.0	False	False	False	30.0	0.005156	0.020825	#3b4cc0	#e46e56	#b40426	#779af7	0.0	5.0	Buccal_mucosa
+Geminicoccus	genus	Geminicoccus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Gemmatimonas	genus	Gemmatimonas	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Geoalkalibacter	genus	Geoalkalibacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Geobacillus	genus	Geobacillus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Geobacter	genus	Geobacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Geopsychrobacter	genus	Geopsychrobacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Georgenia	genus	Georgenia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Geovibrio	genus	Geovibrio	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Gilliamella	genus	Gilliamella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Gillisia	genus	Gillisia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Gilvimarinus	genus	Gilvimarinus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Glaciecola	genus	Glaciecola	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Gluconobacter	genus	Gluconobacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Glutamicibacter	genus	Glutamicibacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Glycomyces	genus	Glycomyces	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Gordonia	genus	Gordonia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Gordonibacter	genus	Gordonibacter	0.0	False	False	False	126.0	0.005156	-0.011524	#3b4cc0	#c0d4f5	#b40426	#5f7fe8	1.0	6.0	Stool
+Gorillibacterium	genus	Gorillibacterium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Gottschalkia	genus	Gottschalkia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Gracilibacillus	genus	Gracilibacillus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Gramella	genus	Gramella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Granulicatella	genus	Granulicatella	0.0	False	False	False	61.0	0.005156	0.019317	#3b4cc0	#f7af91	#b40426	#7699f6	0.0	5.0	Attached
+Granulicoccus	genus	Granulicoccus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Gulbenkiania	genus	Gulbenkiania	0.0	False	False	False	103.0	0.005156	-0.002707	#3b4cc0	#dbdcde	#b40426	#6687ed	3.0	2.0	Anterior_nares
+Gulosibacter	genus	Gulosibacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Haematobacter	genus	Haematobacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Haemophilus	genus	Haemophilus	0.0	False	False	False	13.0	0.005156	0.022122	#3b4cc0	#d0473d	#b40426	#779af7	4.0	7.0	Buccal_mucosa
+Hafnia	genus	Hafnia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Halalkalibacillus	genus	Halalkalibacillus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Halanaerobium	genus	Halanaerobium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Haliangium	genus	Haliangium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Haliscomenobacter	genus	Haliscomenobacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Hallella	genus	Hallella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Halobacteroides	genus	Halobacteroides	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Haloferula	genus	Haloferula	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Halomonas	genus	Halomonas	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Halonatronum	genus	Halonatronum	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Haloplasma	genus	Haloplasma	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Hassallia	genus	Hassallia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Helcobacillus	genus	Helcobacillus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Helcococcus	genus	Helcococcus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Helicobacter	genus	Helicobacter	0.0	False	False	False	103.0	0.005156	-0.002707	#3b4cc0	#dbdcde	#b40426	#6687ed	3.0	2.0	Anterior_nares
+Heliobacterium	genus	Heliobacterium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Herbaspirillum	genus	Herbaspirillum	0.0	False	False	False	199.0	0.005156	-0.065131	#3b4cc0	#485fd1	#b40426	#3c4ec2	6.0	0.0	Mid_vagina
+Herbinix	genus	Herbinix	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Herminiimonas	genus	Herminiimonas	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Hippea	genus	Hippea	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Histophilus	genus	Histophilus	0.0	False	False	False	78.0	0.005156	0.017889	#3b4cc0	#f2cbb7	#b40426	#7597f6	4.0	7.0	Buccal_mucosa
+Holdemanella	genus	Holdemanella	0.0	False	False	False	160.0	0.005156	-0.015333	#3b4cc0	#80a3fa	#b40426	#5d7ce6	1.0	6.0	Stool
+Holdemania	genus	Holdemania	0.0	False	False	False	125.0	0.005156	-0.011512	#3b4cc0	#c3d5f4	#b40426	#5f7fe8	1.0	6.0	Stool
+Holophaga	genus	Holophaga	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Hungatella	genus	Hungatella	0.0	False	False	False	145.0	0.005156	-0.01284	#3b4cc0	#9ebeff	#b40426	#5f7fe8	1.0	6.0	Stool
+Hylemonella	genus	Hylemonella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Hymenobacter	genus	Hymenobacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Hyphomonas	genus	Hyphomonas	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Ideonella	genus	Ideonella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Idiomarina	genus	Idiomarina	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Ilyobacter	genus	Ilyobacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Imtechella	genus	Imtechella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Indibacter	genus	Indibacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Intestinibacter	genus	Intestinibacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Intestinimonas	genus	Intestinimonas	0.0	False	False	False	148.0	0.005156	-0.01312	#3b4cc0	#97b8ff	#b40426	#5e7de7	1.0	6.0	Stool
+Intrasporangium	genus	Intrasporangium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Isoptericola	genus	Isoptericola	0.0	False	False	False	55.0	0.005156	0.019673	#3b4cc0	#f6a385	#b40426	#7699f6	0.0	5.0	Tongue_dorsum
+Janibacter	genus	Janibacter	0.0	False	False	False	217.0	-0.0	-0.0	#3b4cc0	#3c4ec2	#3b4cc0	#688aef	5.0	3.0	Throat
+Jannaschia	genus	Jannaschia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Janthinobacterium	genus	Janthinobacterium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Jejuia	genus	Jejuia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Jeotgalibacillus	genus	Jeotgalibacillus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Jeotgalicoccus	genus	Jeotgalicoccus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Johnsonella	genus	Johnsonella	0.0	False	False	False	62.0	0.005156	0.019259	#3b4cc0	#f7b093	#b40426	#7699f6	0.0	5.0	Subgingival_plaque
+Jonesia	genus	Jonesia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Jonquetella	genus	Jonquetella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Joostella	genus	Joostella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Kallipyga	genus	Kallipyga	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Kandleria	genus	Kandleria	0.0	False	False	False	174.0	0.005156	-0.024334	#3b4cc0	#6b8df0	#b40426	#5673e0	2.0	6.0	Stool
+Kangiella	genus	Kangiella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Kiloniella	genus	Kiloniella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Kineosphaera	genus	Kineosphaera	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Kingella	genus	Kingella	0.0	False	False	False	67.0	0.005156	0.018917	#3b4cc0	#f7b99e	#b40426	#7699f6	0.0	5.0	Supragingival_plaque
+Klebsiella	genus	Klebsiella	0.0	False	False	False	102.0	0.005156	-0.001458	#3b4cc0	#dddcdc	#b40426	#6788ee	7.0	5.0	Anterior_nares
+Kluyvera	genus	Kluyvera	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Kocuria	genus	Kocuria	0.0	False	False	False	110.0	0.005156	-0.003029	#3b4cc0	#dadce0	#b40426	#6687ed	3.0	2.0	Anterior_nares
+Kordia	genus	Kordia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Kosmotoga	genus	Kosmotoga	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Kozakia	genus	Kozakia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Kyrpidia	genus	Kyrpidia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Kytococcus	genus	Kytococcus	0.0	False	False	False	12.0	0.005156	0.022324	#3b4cc0	#cf453c	#b40426	#799cf8	0.0	5.0	Tongue_dorsum
+Labrenzia	genus	Labrenzia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Lachnoanaerobaculum	genus	Lachnoanaerobaculum	0.0	False	False	False	65.0	0.005156	0.019143	#3b4cc0	#f7b79b	#b40426	#7699f6	0.0	5.0	Tongue_dorsum
+Lachnobacterium	genus	Lachnobacterium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Lachnoclostridium	genus	Lachnoclostridium	0.0	False	False	False	138.0	0.005156	-0.012507	#3b4cc0	#aac7fd	#b40426	#5f7fe8	1.0	6.0	Stool
+Lachnospira	genus	Lachnospira	0.0	False	False	False	149.0	0.005156	-0.013138	#3b4cc0	#96b7ff	#b40426	#5e7de7	1.0	6.0	Stool
+Lacinutrix	genus	Lacinutrix	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Lacticigenium	genus	Lacticigenium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Lactobacillus	genus	Lactobacillus	0.8706	True	False	False	223.0	0.0	0.0	 	 	 	 			
+Lactococcus	genus	Lactococcus	0.0	False	False	False	171.0	0.005156	-0.017198	#3b4cc0	#7093f3	#b40426	#5b7ae5	1.0	6.0	Anterior_nares
+Laribacter	genus	Laribacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Lautropia	genus	Lautropia	0.0	False	False	False	79.0	0.005156	0.017764	#3b4cc0	#f1ccb8	#b40426	#7597f6	0.0	5.0	Supragingival_plaque
+Lawsonella	genus	Lawsonella	0.0	False	False	False	115.0	0.005156	-0.006391	#3b4cc0	#d3dbe7	#b40426	#6384eb	3.0	2.0	Anterior_nares
+Leadbetterella	genus	Leadbetterella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Leeia	genus	Leeia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Leeuwenhoekiella	genus	Leeuwenhoekiella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Legionella	genus	Legionella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Leifsonia	genus	Leifsonia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Lelliottia	genus	Lelliottia	0.0	False	False	False	181.0	0.005156	-0.03161	#3b4cc0	#6282ea	#b40426	#516ddb	3.0	4.0	Anterior_nares
+Lentzea	genus	Lentzea	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Leptolyngbya	genus	Leptolyngbya	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Leptonema	genus	Leptonema	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Leptospira	genus	Leptospira	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Leptospirillum	genus	Leptospirillum	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Leptotrichia	genus	Leptotrichia	0.0	False	False	False	23.0	0.005156	0.021414	#3b4cc0	#da5a49	#b40426	#779af7	0.0	5.0	Supragingival_plaque
+Leucobacter	genus	Leucobacter	0.0	False	False	False	94.0	0.005156	0.003984	#3b4cc0	#e4d9d2	#b40426	#6b8df0	3.0	2.0	Anterior_nares
+Leuconostoc	genus	Leuconostoc	0.0	False	False	False	68.0	0.005156	0.018907	#3b4cc0	#f7bca1	#b40426	#7699f6	7.0	5.0	Saliva
+Levyella	genus	Levyella	0.0	False	False	False	183.0	0.005156	-0.035889	#3b4cc0	#5e7de7	#b40426	#4f69d9	6.0	4.0	Anterior_nares
+Lewinella	genus	Lewinella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Limnohabitans	genus	Limnohabitans	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Listeria	genus	Listeria	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Lunatimonas	genus	Lunatimonas	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Luteibacter	genus	Luteibacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Lysinibacillus	genus	Lysinibacillus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Lysobacter	genus	Lysobacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Mageeibacillus	genus	Mageeibacillus	0.0	False	False	False	2.0	0.005156	0.28182	#3b4cc0	#bb1b2c	#b40426	#f59d7e	7.0	5.0	Posterior_fornix
+Mahella	genus	Mahella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Mangrovimonas	genus	Mangrovimonas	0.0	False	False	False	18.0	0.005156	0.021425	#3b4cc0	#d85646	#b40426	#779af7	4.0	7.0	Buccal_mucosa
+Mannheimia	genus	Mannheimia	0.0	False	False	False	28.0	0.005156	0.020919	#3b4cc0	#e26952	#b40426	#779af7	4.0	7.0	Buccal_mucosa
+Maribacter	genus	Maribacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Marinifilum	genus	Marinifilum	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Marinilabilia	genus	Marinilabilia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Mariniradius	genus	Mariniradius	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Marinobacter	genus	Marinobacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Marinobacterium	genus	Marinobacterium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Marinococcus	genus	Marinococcus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Marinomonas	genus	Marinomonas	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Marinospirillum	genus	Marinospirillum	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Marivirga	genus	Marivirga	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Marvinbryantia	genus	Marvinbryantia	0.0	False	False	False	172.0	0.005156	-0.017242	#3b4cc0	#6f92f3	#b40426	#5b7ae5	1.0	6.0	Stool
+Massilia	genus	Massilia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Megamonas	genus	Megamonas	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Megasphaera	genus	Megasphaera	0.0	False	False	False	15.0	0.005156	0.022027	#3b4cc0	#d44e41	#b40426	#779af7	0.0	5.0	Saliva
+Meiothermus	genus	Meiothermus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Melissococcus	genus	Melissococcus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Mesoflavibacter	genus	Mesoflavibacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Mesorhizobium	genus	Mesorhizobium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Methylibium	genus	Methylibium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Methylobacillus	genus	Methylobacillus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Methylobacterium	genus	Methylobacterium	0.0	False	False	False	98.0	0.005156	-0.001015	#3b4cc0	#dedcdb	#b40426	#6788ee	3.0	2.0	Anterior_nares
+Methylococcus	genus	Methylococcus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Methylomonas	genus	Methylomonas	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Methylophaga	genus	Methylophaga	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Methylosarcina	genus	Methylosarcina	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Methylotenera	genus	Methylotenera	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Methyloversatilis	genus	Methyloversatilis	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Microbacterium	genus	Microbacterium	0.0	False	False	False	103.0	0.005156	-0.002707	#3b4cc0	#dbdcde	#b40426	#6687ed	3.0	2.0	Anterior_nares
+Microbulbifer	genus	Microbulbifer	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Micrococcus	genus	Micrococcus	0.0	False	False	False	98.0	0.005156	-0.001015	#3b4cc0	#dedcdb	#b40426	#6788ee	3.0	2.0	Anterior_nares
+Microcystis	genus	Microcystis	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Microlunatus	genus	Microlunatus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Micromonospora	genus	Micromonospora	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Microvirga	genus	Microvirga	0.0	False	False	False	204.0	0.005156	-0.067462	#3b4cc0	#4055c8	#b40426	#3b4cc0	6.0	1.0	Anterior_nares
+Microvirgula	genus	Microvirgula	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Mitsuokella	genus	Mitsuokella	0.0	False	False	False	87.0	0.005156	0.016929	#3b4cc0	#ead4c8	#b40426	#7597f6	7.0	5.0	Saliva
+Mobilicoccus	genus	Mobilicoccus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Mobiluncus	genus	Mobiluncus	0.0	False	False	False	3.0	0.005156	0.166593	#3b4cc0	#bd1f2d	#b40426	#dcdddd	7.0	5.0	Posterior_fornix
+Modestobacter	genus	Modestobacter	0.0	False	False	False	204.0	0.005156	-0.067462	#3b4cc0	#4055c8	#b40426	#3b4cc0	6.0	1.0	Anterior_nares
+Moellerella	genus	Moellerella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Mogibacterium	genus	Mogibacterium	0.0	False	False	False	7.0	0.005156	0.031428	#3b4cc0	#c53334	#b40426	#80a3fa	0.0	5.0	Throat
+Moorella	genus	Moorella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Moraxella	genus	Moraxella	0.0	False	False	False	111.0	0.005156	-0.003235	#3b4cc0	#d8dce2	#b40426	#6687ed	7.0	5.0	Anterior_nares
+Morganella	genus	Morganella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Moritella	genus	Moritella	0.0	False	False	False	74.0	0.005156	0.018006	#3b4cc0	#f4c5ad	#b40426	#7597f6	4.0	7.0	Tongue_dorsum
+Morococcus	genus	Morococcus	0.0	False	False	False	72.0	0.005156	0.018132	#3b4cc0	#f5c1a9	#b40426	#7597f6	0.0	5.0	Buccal_mucosa
+Mucilaginibacter	genus	Mucilaginibacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Mucinivorans	genus	Mucinivorans	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Mucispirillum	genus	Mucispirillum	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Muricauda	genus	Muricauda	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Mycobacterium	genus	Mycobacterium	0.0	False	False	False	203.0	0.005156	-0.067437	#3b4cc0	#4358cb	#b40426	#3b4cc0	6.0	1.0	Mid_vagina
+Mycoplasma	genus	Mycoplasma	0.0	False	False	False	17.0	0.005156	0.0216	#3b4cc0	#d75445	#b40426	#779af7	4.0	5.0	Subgingival_plaque
+Myroides	genus	Myroides	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Myxosarcina	genus	Myxosarcina	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Nafulsella	genus	Nafulsella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Nakamurella	genus	Nakamurella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Natranaerobius	genus	Natranaerobius	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Nautilia	genus	Nautilia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Necropsobacter	genus	Necropsobacter	0.0	False	False	False	31.0	0.005156	0.020643	#3b4cc0	#e57058	#b40426	#779af7	4.0	7.0	Buccal_mucosa
+Neisseria	genus	Neisseria	0.0	False	False	False	26.0	0.005156	0.021082	#3b4cc0	#df634e	#b40426	#779af7	0.0	5.0	Throat
+Nesterenkonia	genus	Nesterenkonia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Niabella	genus	Niabella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Niastella	genus	Niastella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Nitratireductor	genus	Nitratireductor	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Nitratiruptor	genus	Nitratiruptor	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Nitrincola	genus	Nitrincola	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Nitrolancea	genus	Nitrolancea	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Nitrosomonas	genus	Nitrosomonas	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Nitrospina	genus	Nitrospina	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Nitrospira	genus	Nitrospira	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Nocardia	genus	Nocardia	0.0	False	False	False	195.0	0.005156	-0.064198	#3b4cc0	#4e68d8	#b40426	#3d50c3	6.0	0.0	Mid_vagina
+Nocardioides	genus	Nocardioides	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Nocardiopsis	genus	Nocardiopsis	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Nonlabens	genus	Nonlabens	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Nonomuraea	genus	Nonomuraea	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Nosocomiicoccus	genus	Nosocomiicoccus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Novosphingobium	genus	Novosphingobium	0.0	False	False	False	217.0	-0.0	-0.0	#3b4cc0	#3c4ec2	#3b4cc0	#688aef	5.0	3.0	Throat
+Oceanobacillus	genus	Oceanobacillus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Oceanospirillum	genus	Oceanospirillum	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Odoribacter	genus	Odoribacter	0.0	False	False	False	144.0	0.005156	-0.012758	#3b4cc0	#9fbfff	#b40426	#5f7fe8	1.0	6.0	Stool
+Oenococcus	genus	Oenococcus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Oligella	genus	Oligella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Olivibacter	genus	Olivibacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Olsenella	genus	Olsenella	0.0	False	False	False	6.0	0.005156	0.044997	#3b4cc0	#c32e31	#b40426	#89acfd	7.0	5.0	Subgingival_plaque
+Opitutus	genus	Opitutus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Orenia	genus	Orenia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Oribacterium	genus	Oribacterium	0.0	False	False	False	47.0	0.005156	0.020144	#3b4cc0	#f29072	#b40426	#7699f6	0.0	5.0	Saliva
+Orientia	genus	Orientia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Ornithinibacillus	genus	Ornithinibacillus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Ornithobacterium	genus	Ornithobacterium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Oscillibacter	genus	Oscillibacter	0.0	False	False	False	135.0	0.005156	-0.012383	#3b4cc0	#b1cbfc	#b40426	#5f7fe8	1.0	6.0	Stool
+Ottowia	genus	Ottowia	0.0	False	False	False	56.0	0.005156	0.019656	#3b4cc0	#f6a586	#b40426	#7699f6	0.0	5.0	Subgingival_plaque
+Owenweeksia	genus	Owenweeksia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Oxalobacter	genus	Oxalobacter	0.0	False	False	False	119.0	0.005156	-0.010781	#3b4cc0	#ccd9ed	#b40426	#6180e9	1.0	6.0	Stool
+Oxobacter	genus	Oxobacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Paenibacillus	genus	Paenibacillus	0.0	False	False	False	189.0	0.005156	-0.062098	#3b4cc0	#5470de	#b40426	#3e51c5	6.0	0.0	Anterior_nares
+Paenisporosarcina	genus	Paenisporosarcina	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Paludibacter	genus	Paludibacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Paludibacterium	genus	Paludibacterium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Pandoraea	genus	Pandoraea	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Pantoea	genus	Pantoea	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Parabacteroides	genus	Parabacteroides	0.0	False	False	False	143.0	0.005156	-0.012749	#3b4cc0	#a1c0ff	#b40426	#5f7fe8	1.0	6.0	Stool
+Paraburkholderia	genus	Paraburkholderia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Parachlamydia	genus	Parachlamydia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Paracoccus	genus	Paracoccus	0.0	False	False	False	92.0	0.005156	0.007489	#3b4cc0	#e7d7ce	#b40426	#6e90f2	7.0	5.0	Anterior_nares
+Paraglaciecola	genus	Paraglaciecola	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Paraprevotella	genus	Paraprevotella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Parascardovia	genus	Parascardovia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Parasutterella	genus	Parasutterella	0.0	False	False	False	133.0	0.005156	-0.012054	#3b4cc0	#b3cdfb	#b40426	#5f7fe8	1.0	6.0	Stool
+Parvimonas	genus	Parvimonas	0.0	False	False	False	35.0	0.005156	0.020426	#3b4cc0	#e9785d	#b40426	#779af7	0.0	5.0	Throat
+Pasteurella	genus	Pasteurella	0.0	False	False	False	8.0	0.005156	0.027695	#3b4cc0	#c73635	#b40426	#7da0f9	4.0	7.0	Buccal_mucosa
+Paucisalibacillus	genus	Paucisalibacillus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Pectobacterium	genus	Pectobacterium	0.0	False	False	False	87.0	0.005156	0.016929	#3b4cc0	#ead4c8	#b40426	#7597f6	7.0	5.0	Saliva
+Pediococcus	genus	Pediococcus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Pedobacter	genus	Pedobacter	0.0	False	False	False	185.0	0.005156	-0.047077	#3b4cc0	#5a78e4	#b40426	#485fd1	3.0	4.0	Anterior_nares
+Pedosphaera	genus	Pedosphaera	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Pelistega	genus	Pelistega	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Pelobacter	genus	Pelobacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Pelodictyon	genus	Pelodictyon	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Pelosinus	genus	Pelosinus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Pelotomaculum	genus	Pelotomaculum	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Peptoclostridium	genus	Peptoclostridium	0.0	False	False	False	114.0	0.005156	-0.005992	#3b4cc0	#d4dbe6	#b40426	#6384eb	1.0	6.0	Stool
+Peptoniphilus	genus	Peptoniphilus	0.0007	True	False	False	96.0	0.005156	0.001692	#b7cff9	#e1dad6	#b40426	#688aef	7.0	5.0	Anterior_nares
+Peptostreptococcus	genus	Peptostreptococcus	0.0001	True	False	False	36.0	0.005156	0.020423	#6180e9	#ea7b60	#b40426	#779af7	0.0	5.0	Throat
+Phaeodactylibacter	genus	Phaeodactylibacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Phascolarctobacterium	genus	Phascolarctobacterium	0.0	False	False	False	132.0	0.005156	-0.011988	#3b4cc0	#b6cefa	#b40426	#5f7fe8	1.0	6.0	Stool
+Phocaeicola	genus	Phocaeicola	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Photobacterium	genus	Photobacterium	0.0	False	False	False	204.0	0.005156	-0.067462	#3b4cc0	#4055c8	#b40426	#3b4cc0	6.0	1.0	Anterior_nares
+Photorhabdus	genus	Photorhabdus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Piscirickettsia	genus	Piscirickettsia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Planctopirus	genus	Planctopirus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Planktothricoides	genus	Planktothricoides	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Planococcus	genus	Planococcus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Planomicrobium	genus	Planomicrobium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Pleomorphomonas	genus	Pleomorphomonas	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Pleurocapsa	genus	Pleurocapsa	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Pluralibacter	genus	Pluralibacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Polaribacter	genus	Polaribacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Polaromonas	genus	Polaromonas	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Polynucleobacter	genus	Polynucleobacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Pontibacillus	genus	Pontibacillus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Pontibacter	genus	Pontibacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Porphyrobacter	genus	Porphyrobacter	0.0	False	False	False	40.0	0.005156	0.020247	#3b4cc0	#ee8468	#b40426	#7699f6	4.0	7.0	Buccal_mucosa
+Porphyromonas	genus	Porphyromonas	0.0	False	False	False	53.0	0.005156	0.019764	#3b4cc0	#f59f80	#b40426	#7699f6	0.0	5.0	Tongue_dorsum
+Prevotella	genus	Prevotella	0.0048	True	False	False	14.0	0.005156	0.02206	#de614d	#d24b40	#b40426	#779af7	0.0	5.0	Throat
+Prochlorococcus	genus	Prochlorococcus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Prolixibacter	genus	Prolixibacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Promicromonospora	genus	Promicromonospora	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Propionibacterium	genus	Propionibacterium	0.0	False	False	False	80.0	0.005156	0.017681	#3b4cc0	#f0cdbb	#b40426	#7597f6	0.0	5.0	Anterior_nares
+Propionicicella	genus	Propionicicella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Propionimicrobium	genus	Propionimicrobium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Propionispira	genus	Propionispira	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Propionispora	genus	Propionispora	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Prosthecochloris	genus	Prosthecochloris	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Proteiniclasticum	genus	Proteiniclasticum	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Proteiniphilum	genus	Proteiniphilum	0.0	False	False	False	71.0	0.005156	0.01837	#3b4cc0	#f5c0a7	#b40426	#7597f6	4.0	7.0	Buccal_mucosa
+Proteocatella	genus	Proteocatella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Proteus	genus	Proteus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Providencia	genus	Providencia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Pseudacidovorax	genus	Pseudacidovorax	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Pseudanabaena	genus	Pseudanabaena	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Pseudarthrobacter	genus	Pseudarthrobacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Pseudoalteromonas	genus	Pseudoalteromonas	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Pseudobacteroides	genus	Pseudobacteroides	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Pseudobutyrivibrio	genus	Pseudobutyrivibrio	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Pseudoclavibacter	genus	Pseudoclavibacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Pseudoflavonifractor	genus	Pseudoflavonifractor	0.0	False	False	False	139.0	0.005156	-0.012519	#3b4cc0	#a9c6fd	#b40426	#5f7fe8	1.0	6.0	Stool
+Pseudoglutamicibacter	genus	Pseudoglutamicibacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Pseudomonas	genus	Pseudomonas	0.0	False	False	False	200.0	0.005156	-0.065704	#3b4cc0	#455cce	#b40426	#3c4ec2	6.0	0.0	Mid_vagina
+Pseudonocardia	genus	Pseudonocardia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Pseudopedobacter	genus	Pseudopedobacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Pseudoramibacter	genus	Pseudoramibacter	0.0	False	False	False	91.0	0.005156	0.011811	#3b4cc0	#e8d6cc	#b40426	#7093f3	4.0	7.0	Supragingival_plaque
+Pseudorhodoferax	genus	Pseudorhodoferax	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Pseudoxanthomonas	genus	Pseudoxanthomonas	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Psychrilyobacter	genus	Psychrilyobacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Psychrobacter	genus	Psychrobacter	0.0	False	False	False	66.0	0.005156	0.019098	#3b4cc0	#f7b89c	#b40426	#7699f6	7.0	5.0	Saliva
+Psychroflexus	genus	Psychroflexus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Psychromonas	genus	Psychromonas	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Pyramidobacter	genus	Pyramidobacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Ralstonia	genus	Ralstonia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Reinekea	genus	Reinekea	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Renibacterium	genus	Renibacterium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Rheinheimera	genus	Rheinheimera	0.0	False	False	False	204.0	0.005156	-0.067462	#3b4cc0	#4055c8	#b40426	#3b4cc0	6.0	1.0	Anterior_nares
+Rhizobacter	genus	Rhizobacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Rhizobium	genus	Rhizobium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Rhodobacter	genus	Rhodobacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Rhodococcus	genus	Rhodococcus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Rhodoferax	genus	Rhodoferax	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Rhodonellum	genus	Rhodonellum	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Rhodopirellula	genus	Rhodopirellula	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Rhodopseudomonas	genus	Rhodopseudomonas	0.0	False	False	False	189.0	0.005156	-0.062098	#3b4cc0	#5470de	#b40426	#3e51c5	6.0	0.0	Posterior_fornix
+Rhodothermus	genus	Rhodothermus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Rickettsiella	genus	Rickettsiella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Riemerella	genus	Riemerella	0.0	False	False	False	75.0	0.005156	0.017976	#3b4cc0	#f3c7b1	#b40426	#7597f6	4.0	7.0	Buccal_mucosa
+Rikenella	genus	Rikenella	0.0	False	False	False	176.0	0.005156	-0.025031	#3b4cc0	#6a8bef	#b40426	#5673e0	2.0	6.0	Stool
+Risungbinella	genus	Risungbinella	0.0	False	False	False	103.0	0.005156	-0.002707	#3b4cc0	#dbdcde	#b40426	#6687ed	3.0	2.0	Anterior_nares
+Rivularia	genus	Rivularia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Robiginitalea	genus	Robiginitalea	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Robinsoniella	genus	Robinsoniella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Roseburia	genus	Roseburia	0.0	False	False	False	140.0	0.005156	-0.012595	#3b4cc0	#a7c5fe	#b40426	#5f7fe8	1.0	6.0	Stool
+Roseiflexus	genus	Roseiflexus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Roseomonas	genus	Roseomonas	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Rothia	genus	Rothia	0.0	False	False	False	10.0	0.005156	0.02471	#3b4cc0	#cb3e38	#b40426	#7a9df8	0.0	5.0	Buccal_mucosa
+Ruania	genus	Ruania	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Rubidibacter	genus	Rubidibacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Rubritalea	genus	Rubritalea	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Rubrivivax	genus	Rubrivivax	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Rubrobacter	genus	Rubrobacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Rudanella	genus	Rudanella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Ruegeria	genus	Ruegeria	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Rufibacter	genus	Rufibacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Ruminiclostridium	genus	Ruminiclostridium	0.0	False	False	False	151.0	0.005156	-0.013307	#3b4cc0	#92b4fe	#b40426	#5e7de7	1.0	6.0	Stool
+Ruminobacter	genus	Ruminobacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Ruminococcus	genus	Ruminococcus	0.0	False	False	False	146.0	0.005156	-0.012994	#3b4cc0	#9bbcff	#b40426	#5e7de7	1.0	6.0	Stool
+Runella	genus	Runella	0.0	False	False	False	82.0	0.005156	0.01719	#3b4cc0	#eed0c0	#b40426	#7597f6	0.0	5.0	Attached
+Saccharibacillus	genus	Saccharibacillus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Saccharibacter	genus	Saccharibacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Saccharicrinis	genus	Saccharicrinis	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Saccharopolyspora	genus	Saccharopolyspora	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Saccharothrix	genus	Saccharothrix	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Salegentibacter	genus	Salegentibacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Salimicrobium	genus	Salimicrobium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Salinibacter	genus	Salinibacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Salinibacterium	genus	Salinibacterium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Salinicoccus	genus	Salinicoccus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Salinimicrobium	genus	Salinimicrobium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Salinimonas	genus	Salinimonas	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Salinispira	genus	Salinispira	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Salinispora	genus	Salinispora	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Salinivibrio	genus	Salinivibrio	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Salisaeta	genus	Salisaeta	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Salmonella	genus	Salmonella	0.0	False	False	False	184.0	0.005156	-0.041922	#3b4cc0	#5d7ce6	#b40426	#4b64d5	3.0	4.0	Anterior_nares
+Sanguibacter	genus	Sanguibacter	0.0	False	False	False	11.0	0.005156	0.023313	#3b4cc0	#cc403a	#b40426	#799cf8	0.0	5.0	Saliva
+Sanguibacteroides	genus	Sanguibacteroides	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Saprospira	genus	Saprospira	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Scardovia	genus	Scardovia	0.0	False	False	False	42.0	0.005156	0.020223	#3b4cc0	#f08a6c	#b40426	#7699f6	0.0	5.0	Supragingival_plaque
+Sciscionella	genus	Sciscionella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Sebaldella	genus	Sebaldella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Sedimentibacter	genus	Sedimentibacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Sediminibacter	genus	Sediminibacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Sediminimonas	genus	Sediminimonas	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Segetibacter	genus	Segetibacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Selenomonas	genus	Selenomonas	0.0	False	False	False	57.0	0.005156	0.019651	#3b4cc0	#f7a688	#b40426	#7699f6	0.0	5.0	Saliva
+Sellimonas	genus	Sellimonas	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Senegalimassilia	genus	Senegalimassilia	0.0	False	False	False	178.0	0.005156	-0.026576	#3b4cc0	#6687ed	#b40426	#5572df	2.0	0.0	Stool
+Serinicoccus	genus	Serinicoccus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Serratia	genus	Serratia	0.0	False	False	False	42.0	0.005156	0.020223	#3b4cc0	#f08a6c	#b40426	#7699f6	7.0	5.0	Saliva
+Sharpea	genus	Sharpea	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Shewanella	genus	Shewanella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Shimazuella	genus	Shimazuella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Shinella	genus	Shinella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Shuttleworthia	genus	Shuttleworthia	0.0	False	False	False	97.0	0.005156	0.001157	#3b4cc0	#e0dbd8	#b40426	#688aef	3.0	2.0	Subgingival_plaque
+Siansivirga	genus	Siansivirga	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Silvibacterium	genus	Silvibacterium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Simiduia	genus	Simiduia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Simonsiella	genus	Simonsiella	0.0	False	False	False	4.0	0.005156	0.103217	#3b4cc0	#c0282f	#b40426	#b3cdfb	7.0	5.0	Attached
+Singulisphaera	genus	Singulisphaera	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Sinomonas	genus	Sinomonas	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Sinorhizobium	genus	Sinorhizobium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Skermanella	genus	Skermanella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Slackia	genus	Slackia	0.0	False	False	False	81.0	0.005156	0.017645	#3b4cc0	#efcebd	#b40426	#7597f6	7.0	5.0	Throat
+Sneathia	genus	Sneathia	0.0	False	False	False	1.0	0.005156	0.397046	#3b4cc0	#b8122a	#b40426	#b8122a	7.0	5.0	Posterior_fornix
+Snodgrassella	genus	Snodgrassella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Solitalea	genus	Solitalea	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Solobacterium	genus	Solobacterium	0.0	False	False	False	38.0	0.005156	0.020349	#3b4cc0	#ec7f63	#b40426	#779af7	0.0	5.0	Tongue_dorsum
+Sorangium	genus	Sorangium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Sphaerochaeta	genus	Sphaerochaeta	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Sphaerotilus	genus	Sphaerotilus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Sphingobacterium	genus	Sphingobacterium	0.0	False	False	False	113.0	0.005156	-0.00525	#3b4cc0	#d6dce4	#b40426	#6485ec	7.0	6.0	Anterior_nares
+Sphingobium	genus	Sphingobium	0.0	False	False	False	216.0	0.005156	-0.068282	#3b4cc0	#3d50c3	#b40426	#3b4cc0	6.0	0.0	Mid_vagina
+Sphingomonas	genus	Sphingomonas	0.0	False	False	False	202.0	0.005156	-0.06678	#3b4cc0	#445acc	#b40426	#3b4cc0	6.0	1.0	Anterior_nares
+Sphingopyxis	genus	Sphingopyxis	0.0	False	False	False	197.0	0.005156	-0.064737	#3b4cc0	#4b64d5	#b40426	#3c4ec2	6.0	0.0	Mid_vagina
+Spirochaeta	genus	Spirochaeta	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Spiroplasma	genus	Spiroplasma	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Spirosoma	genus	Spirosoma	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Sporocytophaga	genus	Sporocytophaga	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Sporolactobacillus	genus	Sporolactobacillus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Sporomusa	genus	Sporomusa	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Sporosarcina	genus	Sporosarcina	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Staphylococcus	genus	Staphylococcus	0.0	False	False	False	112.0	0.005156	-0.004098	#3b4cc0	#d7dce3	#b40426	#6485ec	3.0	2.0	Attached
+Stenotrophomonas	genus	Stenotrophomonas	0.0	False	False	False	198.0	0.005156	-0.065061	#3b4cc0	#4961d2	#b40426	#3c4ec2	6.0	1.0	Anterior_nares
+Stenoxybacter	genus	Stenoxybacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Stomatobaculum	genus	Stomatobaculum	0.0	False	False	False	9.0	0.005156	0.026642	#3b4cc0	#ca3b37	#b40426	#7b9ff9	0.0	5.0	Saliva
+Streptacidiphilus	genus	Streptacidiphilus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Streptobacillus	genus	Streptobacillus	0.0	False	False	False	18.0	0.005156	0.021425	#3b4cc0	#d85646	#b40426	#779af7	4.0	7.0	Buccal_mucosa
+Streptococcus	genus	Streptococcus	0.0007	True	False	False	37.0	0.005156	0.020369	#b7cff9	#eb7d62	#b40426	#779af7	0.0	5.0	Attached
+Streptomyces	genus	Streptomyces	0.0	False	False	False	103.0	0.005156	-0.002707	#3b4cc0	#dbdcde	#b40426	#6687ed	3.0	2.0	Anterior_nares
+Streptosporangium	genus	Streptosporangium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Subdoligranulum	genus	Subdoligranulum	0.0	False	False	False	131.0	0.005156	-0.011877	#3b4cc0	#b7cff9	#b40426	#5f7fe8	1.0	6.0	Stool
+Succinatimonas	genus	Succinatimonas	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Succinimonas	genus	Succinimonas	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Succinispira	genus	Succinispira	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Succinivibrio	genus	Succinivibrio	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Sulfitobacter	genus	Sulfitobacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Sulfuricurvum	genus	Sulfuricurvum	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Sulfurimonas	genus	Sulfurimonas	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Sulfurospirillum	genus	Sulfurospirillum	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Sulfurovum	genus	Sulfurovum	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Sunxiuqinia	genus	Sunxiuqinia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Sutterella	genus	Sutterella	0.0	False	False	False	136.0	0.005156	-0.012455	#3b4cc0	#aec9fc	#b40426	#5f7fe8	1.0	6.0	Stool
+Symbiobacterium	genus	Symbiobacterium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Synechococcus	genus	Synechococcus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Synechocystis	genus	Synechocystis	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Synergistes	genus	Synergistes	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Syntrophaceticus	genus	Syntrophaceticus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Syntrophobacter	genus	Syntrophobacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Syntrophobotulus	genus	Syntrophobotulus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Syntrophomonas	genus	Syntrophomonas	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Syntrophorhabdus	genus	Syntrophorhabdus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Syntrophothermus	genus	Syntrophothermus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Syntrophus	genus	Syntrophus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Tannerella	genus	Tannerella	0.0	False	False	False	85.0	0.005156	0.016992	#3b4cc0	#edd2c3	#b40426	#7597f6	7.0	5.0	Subgingival_plaque
+Taylorella	genus	Taylorella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Tenacibaculum	genus	Tenacibaculum	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Tepidanaerobacter	genus	Tepidanaerobacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Tepidiphilus	genus	Tepidiphilus	0.0	False	False	False	204.0	0.005156	-0.067462	#3b4cc0	#4055c8	#b40426	#3b4cc0	6.0	1.0	Anterior_nares
+Terrabacter	genus	Terrabacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Terrimonas	genus	Terrimonas	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Terrisporobacter	genus	Terrisporobacter	0.0	False	False	False	170.0	0.005156	-0.016956	#3b4cc0	#7396f5	#b40426	#5b7ae5	1.0	6.0	Stool
+Tessaracoccus	genus	Tessaracoccus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Tetragenococcus	genus	Tetragenococcus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Tetrasphaera	genus	Tetrasphaera	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Thalassobacillus	genus	Thalassobacillus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Thalassospira	genus	Thalassospira	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Thauera	genus	Thauera	0.0	False	False	False	84.0	0.005156	0.017024	#3b4cc0	#edd1c2	#b40426	#7597f6	4.0	7.0	Supragingival_plaque
+Thermacetogenium	genus	Thermacetogenium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Thermaerobacter	genus	Thermaerobacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Thermanaerovibrio	genus	Thermanaerovibrio	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Thermoactinomyces	genus	Thermoactinomyces	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Thermoanaerobacter	genus	Thermoanaerobacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Thermoanaerobacterium	genus	Thermoanaerobacterium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Thermoanaerobaculum	genus	Thermoanaerobaculum	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Thermobacillus	genus	Thermobacillus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Thermobaculum	genus	Thermobaculum	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Thermobrachium	genus	Thermobrachium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Thermodesulfovibrio	genus	Thermodesulfovibrio	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Thermogemmatispora	genus	Thermogemmatispora	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Thermonema	genus	Thermonema	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Thermophagus	genus	Thermophagus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Thermosediminibacter	genus	Thermosediminibacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Thermosinus	genus	Thermosinus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Thermosipho	genus	Thermosipho	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Thermus	genus	Thermus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Thioalkalivibrio	genus	Thioalkalivibrio	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Thiobacillus	genus	Thiobacillus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Thiohalocapsa	genus	Thiohalocapsa	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Thiomicrospira	genus	Thiomicrospira	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Thiomonas	genus	Thiomonas	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Thiorhodococcus	genus	Thiorhodococcus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Thiothrix	genus	Thiothrix	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Timonella	genus	Timonella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Tolumonas	genus	Tolumonas	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Treponema	genus	Treponema	0.0	False	False	False	76.0	0.005156	0.017951	#3b4cc0	#f3c8b2	#b40426	#7597f6	0.0	5.0	Subgingival_plaque
+Trichodesmium	genus	Trichodesmium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Tropheryma	genus	Tropheryma	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Trueperella	genus	Trueperella	0.0	False	False	False	25.0	0.005156	0.021159	#3b4cc0	#dd5f4b	#b40426	#779af7	0.0	5.0	Saliva
+Tumebacillus	genus	Tumebacillus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Turicibacter	genus	Turicibacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Turneriella	genus	Turneriella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Tyzzerella	genus	Tyzzerella	0.0	False	False	False	127.0	0.005156	-0.011604	#3b4cc0	#bfd3f6	#b40426	#5f7fe8	1.0	6.0	Stool
+Ureaplasma	genus	Ureaplasma	0.0	False	False	False	188.0	0.005156	-0.05081	#3b4cc0	#5572df	#b40426	#455cce	6.0	1.0	Mid_vagina
+Vagococcus	genus	Vagococcus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Varibaculum	genus	Varibaculum	0.0001	True	False	False	194.0	0.005156	-0.06317	#6180e9	#506bda	#b40426	#3d50c3	6.0	0.0	Posterior_fornix
+Variovorax	genus	Variovorax	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Veillonella	genus	Veillonella	0.0001	True	False	False	45.0	0.005156	0.020219	#6180e9	#f08b6e	#b40426	#7699f6	0.0	5.0	Attached
+Verminephrobacter	genus	Verminephrobacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Verrucomicrobium	genus	Verrucomicrobium	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Vibrio	genus	Vibrio	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Virgibacillus	genus	Virgibacillus	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Vitreoscilla	genus	Vitreoscilla	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Weeksella	genus	Weeksella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Weissella	genus	Weissella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Williamsia	genus	Williamsia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Wohlfahrtiimonas	genus	Wohlfahrtiimonas	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Wolinella	genus	Wolinella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Xanthomonas	genus	Xanthomonas	0.0	False	False	False	204.0	0.005156	-0.067462	#3b4cc0	#4055c8	#b40426	#3b4cc0	6.0	1.0	Anterior_nares
+Xenorhabdus	genus	Xenorhabdus	0.0	False	False	False	87.0	0.005156	0.016929	#3b4cc0	#ead4c8	#b40426	#7597f6	7.0	5.0	Saliva
+Xylanimonas	genus	Xylanimonas	0.0	False	False	False	39.0	0.005156	0.020282	#3b4cc0	#ed8366	#b40426	#779af7	0.0	5.0	Tongue_dorsum
+Xylella	genus	Xylella	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Yersinia	genus	Yersinia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Youngiibacter	genus	Youngiibacter	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Zhouia	genus	Zhouia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Zobellia	genus	Zobellia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Zunongwangia	genus	Zunongwangia	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			
+Zymomonas	genus	Zymomonas	0.0	False	False	False	223.0	0.0	0.0	 	 	 	 			

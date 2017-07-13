@@ -42,6 +42,7 @@ node_info = net.drop(['target','weight','edge_sample','edcolor'], axis = 1)
 slsh = where([let == '/' for let in net_name])[0][-1]
 
 edge_info.to_csv(net_name[:slsh]+'/cyto_input/'+net_name[slsh+1:-4]+'_edges.tsv', sep = '\t')
+node_info.drop_duplicates(subset = 'source',inplace = True)
 node_info.to_csv(net_name[:slsh]+'/cyto_input/'+net_name[slsh+1:-4]+'_node_atts.tsv', sep = '\t')
 
 

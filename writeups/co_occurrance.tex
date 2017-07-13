@@ -882,13 +882,13 @@ and we can attempt to optimize over the networks we have (if there's only a few 
 
 It isn't completely clear how to treat ties in this scenario.
 
-Let's start with a very simple example. Consider the two networks shown in \cref{more_tests}. Let's use this method to score 2 samples. 
+Let's start with a very simple example. Consider the two networks shown in \cref{more_tests}. Using ``samples" $u_1 = (\nicefrac{1}{6},\nhalf,\nicefrac{1}{3},0,0,0)$, $u_2 = (\nicefrac{1}{6},\nhalf,0,0,\nicefrac{1}{3},0)$, and $u_3= (0,0,0,\nicefrac{1}{6},\nhalf,\nicefrac{1}{3})$ gave results shown in \cref{tiny_res}.
 
 
 \begin{figure}
 	\begin{subfigure}[b]{0.46\linewidth}
 		\begin{center}
-			\begin{tikzpicture}[scale = 2]
+			\begin{tikzpicture}[scale = 1.5]
 			\node (a) at (1,2.3) [circle, fill = lgray] {$1$};
 			\node (d) at (0,0) [circle, fill = lgray] {$4$};
 			\node (c) at (-0.4,0.9) [circle, fill = lgray] {$3$};
@@ -904,11 +904,11 @@ Let's start with a very simple example. Consider the two networks shown in \cref
 			\draw (c) edge (e);
 			\end{tikzpicture}
 		\end{center}
-		\caption{One tested configuration}
+		\caption{Network $A_1$}
 	\end{subfigure}
 	\begin{subfigure}[b]{0.46\linewidth}
 		\begin{center}
-			\begin{tikzpicture}[scale = 2]
+			\begin{tikzpicture}[scale = 1.5]
 			\node (a) at (1,2.3) [circle, fill = lgray] {$1$};
 			\node (d) at (0,0) [circle, fill = lgray] {$4$};
 			\node (c) at (-0.4,0.9) [circle, fill = lgray] {$3$};
@@ -924,12 +924,41 @@ Let's start with a very simple example. Consider the two networks shown in \cref
 			\draw (f) edge (e);
 			\end{tikzpicture}
 		\end{center}
-		\caption{One tested configuration}
+		\caption{Network $A_2$}
 	\end{subfigure}
 	\caption{Test networks. }\label{more_tests}
 \end{figure}
 
+\begin{figure}
+	\begin{center}
+	\includegraphics[scale = 0.4]{tiny.png}	
+\end{center}
+\caption{Results of sample assignment: $u_1$ cannot be decided, $u_2$ is assigned to network $A_1$, and $u_3$ is assigned to network $A_2$.}\label{tiny_res}
+\end{figure}
 
+I did the same on a column of training data for the species level network, a column of data that was held out of the network building, and a randomly generated sample. The results, shown in \cref{full_assign}, have the training data and held out data more likely to ``fit" the network than the ramdom data.
+
+\begin{figure}
+	\begin{subfigure}[b]{0.9\linewidth}
+	\begin{center}
+	\includegraphics[scale = 0.45]{a_nares.png}	
+	\end{center}
+	\caption{Assignment of column of training data to networks built with binning (right) and with correlation (left).}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.9\linewidth}
+	\begin{center}
+		\includegraphics[scale = 0.45]{hldouts.png}	
+	\end{center}
+	\caption{Assignment of column of held out data to networks built with binning (right) and with correlation (left).}
+\end{subfigure}
+	\begin{subfigure}[b]{0.9\linewidth}
+	\begin{center}
+	\includegraphics[scale = 0.45]{random.png}	
+	\end{center}
+	\caption{Assignment randomly generated data to networks built with binning (right) and with correlation (left).}
+	\end{subfigure}
+\caption{A training data column fits the network better than a randomly generated sample.}\label{full_assign}
+\end{figure}
 \bibliographystyle{plain}
 \bibliography{../../../summer17}
 \end{document}

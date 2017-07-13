@@ -33,6 +33,12 @@ if sample_types == 'True':
 else:
 	sample_types = False
 
+hldouts = sys.argv[5]
+if hldouts == 'True':
+	hldouts = True
+else:
+	hldouts = False
+
 ##I have to parse the level input I guess...
 if level != 'all':
 	lvl_list = []
@@ -110,6 +116,11 @@ else:
 	ab_arrays = [abundance_array_full]
 
 
+if hldouts:
+	L = len(abundance_array_full.columns) - 2
+	hld = randint(L, size = 4) + 2
+	abundance_array_full.drop(abundance_array_full.columns[hld],axis = 1, inplace = True)
+
 save = True
 old_way = True
 new_way = True
@@ -126,6 +137,10 @@ for i in level:
 		else:
 			stype = ''
 		abundance_array = ab_arrays[ii]
+		##create some holdouts if needed
+
+		
+		
 		#start by getting the indices of the members of the level
 		in_level = where(abundance_array['LEVEL'] == i)[0]
 		#then the part of the dataframe containing just that level
@@ -205,10 +220,15 @@ for i in level:
 			
 				#turn list into a dataframe
 				source_target_frames_bins = pd.DataFrame(source_target_data_bins, columns = ['source','target','weight','source_freq',
-									'target_freq','first_sample','second_sample','edge_sample','fscolor','sscolor','edcolor','num_samps'])
+									'target_freq','source_type','target_type','edge_sample','fscolor','sscolor','edcolor','num_samps'])
 				if save:
-					flname1 = net_name+'/bins/'+i + '_' + stype+'_adj.tsv'
-					flname2 = net_name+'/bins/'+i + '_' + stype+'_list.tsv'
+					if hldouts:
+						held = '_'.join(map(str,hld))
+						flname1 = net_name+'/bins/'+i + '_' + stype+'_'+held+'_adj.tsv'
+						flname2 = net_name+'/bins/'+i + '_' + stype+'_'+held+'_list.tsv'
+					else:
+						flname1 = net_name+'/bins/'+i + '_' + stype+'_adj.tsv'
+						flname2 = net_name+'/bins/'+i + '_' + stype+'_list.tsv'
 					adjacency_frames_bins.to_csv(flname1, sep = '\t')
 					source_target_frames_bins.to_csv(flname2, sep = '\t')
 		
@@ -303,14 +323,19 @@ for i in level:
 		
 				#turn list into a dataframe
 				source_target_frames_pear = pd.DataFrame(source_target_data_pear, columns = ['source','target','weight','source_freq',
-								'target_freq','first_sample','second_sample','edge_sample','fscolor','sscolor','edcolor','num_samps'])
+								'target_freq','source_type','target_type','edge_sample','fscolor','sscolor','edcolor','num_samps'])
 	
 				if save:
-					flname3 = net_name+'/pears/'+i + '_' + stype+'_adj.tsv'
-					flname4 = net_name+'/pears/'+i + '_' + stype+'_list.tsv'
+					if hldouts:
+						held = '_'.join(map(str,hld))
+						flname3 = net_name+'/pears/'+i + '_' + stype+'_'+held+'_adj.tsv'
+						flname4 = net_name+'/pears/'+i + '_' + stype+'_'+held+'_list.tsv'
+					else:
+						flname3 = net_name+'/pears/'+i + '_' + stype+'_adj.tsv'
+						flname4 = net_name+'/pears/'+i + '_' + stype+'_list.tsv'
 					adjacency_frames_pear.to_csv(flname3, sep = '\t')
 					source_target_frames_pear.to_csv(flname4, sep = '\t')
-				
+
 
 #Save adjacency_frames to save the (weighted) adjacency matrix. This can be loaded into 
 #cytoscape. Save source_target_frames to save a list of edges. This can also be loaded into

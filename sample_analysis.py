@@ -36,22 +36,22 @@ from co_occ_funs import *
 sample_name = sys.argv[1]#arguments[0]
 
 
-coocc_net_name = sys.argv[2]#arguments[1]#
-coocc_mat_name = sys.argv[3]#arguments[2]#
+coocc_mat_name = sys.argv[3]#arguments[1]#
+node_atts_name = sys.argv[2]
 level = sys.argv[4]#arguments[3]#
 
 ntype = ''
-if 'bins' in coocc_net_name:
+if 'bins' in coocc_mat_name:
 	ntype = '_bins'
-elif 'pear' in coocc_net_name:
+elif 'pear' in coocc_mat_name:
 	ntype = '_pear'
 
-slsh = coocc_net_name.rfind('/')
-unders = where([letter == '_' for letter in coocc_net_name])[0]
-sample_name_short = coocc_net_name[slsh+1:unders[-1]]+ntype #sample_name[slsh+1:-14]#sys.argv[5]#arguments[4]#
+slsh = coocc_mat_name.rfind('/')
+unders = where([letter == '_' for letter in coocc_mat_name])[0]
+sample_name_short = coocc_mat_name[slsh+1:unders[-1]]+ntype #sample_name[slsh+1:-14]#sys.argv[5]#arguments[4]#
 
 sample = pd.read_csv(sample_name, sep = '\t')
-coocc_net = pd.read_csv(coocc_net_name, sep = '\t')
+node_atts = pd.read_csv(node_atts_name, sep = '\t')
 coocc_mat = pd.read_csv(coocc_mat_name, sep = '\t', index_col = 0)
 
 #trim the sample to just the level we are looking at (shouldn't be needed with the samples I made)
@@ -107,16 +107,6 @@ bdvp = diffusion_bdvp(samp_on,samp_off,net)
 forced = diffusion_forced(samp_on,samp_off,net)
 #returns [ranked,real(requib)] only gives for ilocs not in samp_on or samp_off
 
-# flat_len_ivp = sum([sum([len(ssl) if isinstance(ssl,list) else 1 for ssl in sl]) for sl in ivp[0]])
-# flat_len_bdvp = sum([len(sl) if isinstance(sl,list) else 1 for sl in bdvp[0]])
-# flat_len_forced = sum([len(sl) if isinstance(sl,list) else 1 for sl in forced[0]])
-# 
-# 
-# print(len(sample_trim))
-# print(flat_len_ivp) 
-# print(len(samp_on)+len(samp_off)+flat_len_bdvp) 
-# print(len(samp_on)+len(samp_off)+flat_len_forced) 
-# sys.exit()
 
 ##all three give a list of ilocs ordered by rank - ties are given as lists within the list.  The first 
 # gives a list of lists (tied at equilibrium), and when there are ties in the transient 
@@ -386,6 +376,13 @@ if color_it:
 		sample.loc[sample_trim['TAXA'],'bdvp_eq_color'+'_'+sample_name_short] = sample_trim['bdvp_eq_color'+'_'+sample_name_short]
 		sample.loc[sample_trim['TAXA'],'forced_eq_color'+'_'+sample_name_short] = sample_trim['forced_eq_color'+'_'+sample_name_short]
 
+##Let's add some node attributes to the sample file
+node_atts.index = node_atts['source']
+sample['community_cluster_'+sample_name_short] = node_atts.loc[sample['TAXA'],'commun_cluster']
+sample['spectral_cluster_'+sample_name_short] = node_atts.loc[sample['TAXA'],'spect_cluster']
+sample['common_location_'+sample_name_short] = node_atts.loc[sample['TAXA'], 'source_type']
+
+
 
 #sample_trim.drop('LEVEL',axis = 1, inplace = True)
 for col in unique(sample.columns.values):
@@ -393,120 +390,10 @@ for col in unique(sample.columns.values):
 		sample.drop(col,axis = 1, inplace = True)
 	if 'TAXA.1' in col:
 		sample.drop(col,axis = 1, inplace = True)
-#new_names = dict()
-# for colu in sample_trim.columns:
-# 	new_names[colu] = colu+'_'+sample_name_short
-# sample_trim.rename(columns = new_names, inplace = True)	
 
-#slsh2 = sample_name.rfind('/')
-#flder+'/'+sample_name[slsh2+1:-4]+'_rkd_'+ntype+'.tsv'
 sample.to_csv(sample_name, sep = '\t')
 
-###here's the option to add it to the actual network file - this is not really necessary, and cytoscape
-## can do it by importing sample_trim as a node table
-add_to_net = False
-if add_to_net:
-	ivp_r_net = -ones(len(coocc_net))
-	bdvp_r_net = -ones(len(coocc_net))
-	forced_r_net = -ones(len(coocc_net))
-	sample_r_net = zeros(len(coocc_net))
-	ivp_val_eq_net = zeros(len(coocc_net))
-	ivp_val_tr_net = zeros(len(coocc_net))
-	bdvp_eq_net = zeros(len(coocc_net))
-	forced_eq_net = zeros(len(coocc_net))
 
-
-	### need slots for hex values
-	ivp_col_net = array(len(coocc_net)*[ivp_cols[0]])
-	bdvp_col_net = array(len(coocc_net)*[bdvp_cols[0]])
-	forced_col_net = array(len(coocc_net)*[forced_cols[0]])
-	sample_col_net = array(len(coocc_net)*[samp_cols[0]])
-	ivp_eq_col_net =array(len(coocc_net)*[ivp_eq_cols[0]])
-	ivp_tr_col_net =array(len(coocc_net)*[ivp_tr_cols[0]])
-	bdvp_eq_col_net = array(len(coocc_net)*[bdvp_eq_cols[0]])
-	forced_eq_col_net = array(len(coocc_net)*[forced_eq_cols[0]])
-
-
- 
-	order_in_net = [where(coocc_net['source'] == tax)[0] for tax in sample_trim['TAXA']]
-	q1 = 0
-	for lo in order_in_net:
-		sample_r_net[lo] = sample_trim['abundance'].values[q1]
-		ivp_r_net[lo] = sample_trim['ivp'+'_'+sample_name_short].values[q1]
-		ivp_col_net[lo] = sample_trim['ivp_col'+'_'+sample_name_short].values[q1]
-		bdvp_r_net[lo] = sample_trim['bdvp'+'_'+sample_name_short].values[q1]
-		bdvp_col_net[lo] = sample_trim['bdvp_col'+'_'+sample_name_short].values[q1]
-		forced_r_net[lo] = sample_trim['forced'+'_'+sample_name_short].values[q1]
-		forced_col_net[lo] = sample_trim['forced_col'+'_'+sample_name_short].values[q1]
-		sample_col_net[lo] = sample_trim['sample_col'+'_'+sample_name_short].values[q1]
-	
-		ivp_val_eq_net[lo] = sample_trim['ivp_eq'+'_'+sample_name_short].values[q1]
-		ivp_val_tr_net[lo] = sample_trim['ivp_transient'+'_'+sample_name_short].values[q1]
-		bdvp_eq_net[lo] = sample_trim['bdvp_eq'+'_'+sample_name_short].values[q1]
-		forced_eq_net[lo] = sample_trim['forced_eq'+'_'+sample_name_short].values[q1]
-
-		ivp_eq_col_net[lo] = sample_trim['ivp_eq_color'+'_'+sample_name_short].values[q1]
-		ivp_tr_col_net[lo] = sample_trim['ivp_transient_color'+'_'+sample_name_short] .values[q1]
-		bdvp_eq_col_net[lo] = sample_trim['bdvp_eq_color'+'_'+sample_name_short].values[q1]
-		forced_eq_col_net[lo] = sample_trim['forced_eq_color'+'_'+sample_name_short].values[q1]
-	
-		q1 = q1 + 1
-
-
-
-
-	coocc_net[sample_name_short+'_sample'] = sample_r_net
-	coocc_net[sample_name_short+'_ivp'+'_'+sample_name_short] = ivp_r_net
-	coocc_net[sample_name_short+'_bdvp'+'_'+sample_name_short] = bdvp_r_net
-	coocc_net[sample_name_short+'_forced'+'_'+sample_name_short] = forced_r_net
-
-	coocc_net[sample_name_short+'ivp_eq'+'_'+sample_name_short] = ivp_val_eq_net
-	coocc_net[sample_name_short+'_ivp_transient'+'_'+sample_name_short] = ivp_val_tr_net
-	coocc_net[sample_name_short+'_bdvp_eq'+'_'+sample_name_short] = bdvp_eq_net
-	coocc_net[sample_name_short+'_forced_eq'+'_'+sample_name_short] = forced_eq_net
-
-
-	coocc_net[sample_name_short+'_sample_col'+'_'+sample_name_short] = sample_col_net
-	coocc_net[sample_name_short+'_ivp_col'+'_'+sample_name_short] = ivp_col_net
-	coocc_net[sample_name_short+'_bdvp_col'+'_'+sample_name_short] = bdvp_col_net
-	coocc_net[sample_name_short+'_forced_col'+'_'+sample_name_short] = forced_col_net
-
-	coocc_net[sample_name_short+'ivp_eq_col'+'_'+sample_name_short] = ivp_eq_col_net
-	coocc_net[sample_name_short+'_ivp_transient_col'+'_'+sample_name_short] = ivp_tr_col_net
-	coocc_net[sample_name_short+'_bdvp_eq_col'+'_'+sample_name_short] = bdvp_eq_col_net
-	coocc_net[sample_name_short+'_forced_eq_col'+'_'+sample_name_short] = forced_eq_col_net
-
-
-
-
-	coocc_net.to_csv(coocc_net_name[:-4]+'_samples.tsv', sep = '\t')
-
-#construct the network from the sample.
-# samp_net = zeros([N,N])
-# for ind in present:
-# 	samp_net[ind] = 1
-# samp_net = samp_net + transpose(samp_net)
-# sample_df = pd.DataFrame(samp_net, columns = sample['TAXA'], index = sample['TAXA'])
-
-#get the induced subgraph of the coincidence and cooccurrence networks.
-# induced_coin = coin_mat[present_names]
-# induced_coin = induced_coin.loc[present_names]
-# induced_edges_coin = where([(coin_net['source'][i] in array(present_names)) & (coin_net['target'][i] in array(present_names))
-# 			for i in range(len(coin_net))])
-# induced_coin_net = coin_net.iloc[induced_edges_coin]
-
-# induced_coocc = coocc_mat[present_names]
-# induced_coocc = induced_coocc.loc[present_names]
-# induced_edges_coocc = where([(coocc_net['source'][i] in array(present_names)) & (coocc_net['target'][i] in array(present_names))
-# 			for i in range(len(coocc_net))])
-# repped_sources = where([coocc_net['source'][i] in array(present_names) for i in range(len(coocc_net))])
-# samp_prob = est_prob(repped_sources,induced_edges_coocc,coocc_net,coocc_net['num_samps'][0])
-# induced_coocc_net = coocc_net.iloc[induced_edges_coocc]
-# print(samp_prob)
-
-#save the induced networks for loading into cytoscape.
-# induced_coin_net.to_csv(sample_name[:-4]+'_induced_coin.tsv', sep = '\t')
-# induced_coocc_net.to_csv(sample_name[:-4]+'_induced_coocc.tsv', sep = '\t')
 
 
  

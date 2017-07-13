@@ -6,7 +6,7 @@ mkdir -p test_samples/$dt'_samps/species'
 
 
 for i in `seq 1 2`;do
-	python3 rand_samp.py merged_assignment.txt [genus,species] test_samples/$dt'_samps'
+	python3 rand_samp.py merged_assignment.txt [genus,species] test_samples/$dt'_samps' $2
 done    
 
 declare -a levels=("genus" "species")
@@ -17,9 +17,9 @@ nets_flder=$1
 
 for lv in "${levels[@]}";do
 	declare -a adjs_p=($nets_flder'/'$lv'/pears/'*_adj.tsv)
-	declare -a lists_p=($nets_flder'/'$lv'/pears/'*_list.tsv)
+	declare -a lists_p=($nets_flder'/'$lv'/pears/clustered/cyto_input/'*_node_atts.tsv)
 	declare -a adjs_b=($nets_flder'/'$lv'/bins/'*_adj.tsv)
-	declare -a lists_b=($nets_flder'/'$lv'/bins/'*_list.tsv)
+	declare -a lists_b=($nets_flder'/'$lv'/bins/clustered/cyto_input/'*_node_atts.tsv)
 	for fl in test_samples/$dt'_samps/'$lv'/'*.tsv;do
 		for (( i = 0 ; i < ${#adjs_p[@]} ; i=$i+1 ));
 		do
