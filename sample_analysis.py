@@ -380,7 +380,7 @@ if color_it:
 node_atts.index = node_atts['source']
 sample['community_cluster_'+sample_name_short] = node_atts.loc[sample['TAXA'],'commun_cluster']
 sample['spectral_cluster_'+sample_name_short] = node_atts.loc[sample['TAXA'],'spect_cluster']
-sample['common_location_'+sample_name_short] = node_atts.loc[sample['TAXA'], 'source_type']
+sample['common_location_'+sample_name_short] = node_atts.loc[sample['TAXA'], 'sample_type']
 
 
 

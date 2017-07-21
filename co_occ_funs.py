@@ -61,6 +61,7 @@ def color_picker(r):
 	'''Function that classifies nodes by which type of sample they have the highest abundance in. If it's a dataframe
 	;it will return the column head of the winner'''
 	numcols = len(r)
+	#print(r)
 	most_found = argmax(r)
 	strgth = r[most_found] - mean(r)
 	std_dev = std(r)
@@ -89,9 +90,9 @@ def occ_probs(abund_array,lthresh, numthresh, rel = True):
 	#to discrete values based on bin number)
 	if rel:
 		for rw in abund_array.index:
-			maxab = max(abund_array.loc[rw][1:])
-			abund_array.loc[rw,1:] = abund_array.loc[rw][1:]/maxab
-	samp = abund_array.columns[1:]
+			maxab = max(abund_array.loc[rw][2:])
+			abund_array.loc[rw,2:] = abund_array.loc[rw][2:]/maxab
+	samp = abund_array.columns[2:]
 	bins = ['_b'+ str(i) for i in range(1,numthresh+1)]
 	bigraph = pd.DataFrame(abund_array['TAXA'],columns = ['TAXA'])
 	threshes = linspace(0, 1, numthresh)
@@ -209,12 +210,13 @@ def min_nz(arr, rows = False):
 def build_network(abundance_array, cotype):
 	'''Build a cooccurrence network from a pandas dataframe. Data should all come from same taxonomic level, with columns
 	['LEVEL','TAXA','SAMPLE_1',...,'SAMPLE_N']'''
-	ab_np_array = abundance_array.values[:,1:].astype(float)
+	ab_np_array = abundance_array.values[:,2:].astype(float)
 	in_level = abundance_array.index
-	if len(unique(abundance_array['LEVEL'])) != 0:
+	if len(unique(abundance_array['LEVEL'])) != 1:
+		print(unique(abundance_array['LEVEL']))
 		sys.exit('Please submit only one level to this function')
 	if cotype == 'bins':
-		occur_probs = occ_probs(data,0.05,5)
+		occur_probs = occ_probs(abundance_array,0.05,5)
 		#Create numpy array of co-occurrence fractions. This is the incidence matrix for our weighted
 		#graph.
 		adj_matrix_pre_bins = asarray([[0 if x == y else both_same_bin(ab_np_array[x],ab_np_array[y], 0.05, 5) 
@@ -229,24 +231,21 @@ def build_network(abundance_array, cotype):
 			in_level = delete(in_level,unconnected)
 	
 			stringency = 0.05
-			N = len(ab_np_array[0])
-			tot_seen = [sum([abd != 0 for abd in row]) for row in ab_np_array]
 	
 	#Now filter by p value less than stringency
-			adj_size = adj_matrix_pre.shape
+			adj_size = adj_matrix_pre_bins.shape
 			adj_matrix = zeros(adj_size)
 			for k in range(adj_size[0]):
 				for j in range(adj_size[1]):
-					if adj_matrix_pre[k,j] != 0:
-						p = approx_rand_prob(occur_probs,adj_matrix_pre[k,j],k,j)
+					if adj_matrix_pre_bins[k,j] != 0:
+						p = approx_rand_prob(occur_probs,adj_matrix_pre_bins[k,j],k,j)
 						if p <= stringency:
-							adj_matrix[k,j] = adj_matrix_pre[k,j] 
+							adj_matrix[k,j] = adj_matrix_pre_bins[k,j] 
 	
 			degs2 = sum(adj_matrix,1)
 			unconnected2 = where(degs2 == 0)
 			adj_matrix = delete(adj_matrix,unconnected2,0)
 			adj_matrix = delete(adj_matrix,unconnected2,1)
-			tot_seen_2 = delete(tot_seen,unconnected2)
 		
 			in_level_2 = delete(in_level,unconnected2)				
 					
@@ -255,42 +254,170 @@ def build_network(abundance_array, cotype):
 
 			#create a list of edges - source in one column, target in the other. This is an alternative to the adjacency matrix
 			#that might make it easier to load in to cytoscape.
-			num_edge = count_nonzero(adj_matrix)
-			source_target_data = []#empty([num_edge,3], dtype = 'string')	
+			source_target_data = []
 			for l in range(len(adj_matrix)):
 				for k in range(l+1):
 						if adj_matrix[l,k] != 0:
-# 							s_type1 = color_picker(samp_type_abund.iloc[in_level_2[l]][:-1])
-# 							s_type2 = color_picker(samp_type_abund.iloc[in_level_2[k]][:-1])
-# 							edge_samp = matchyn(s_type1,s_type2)
 							#include the "reverse" edge as well so that cytoscape doesn't have gaps in 
-							#it's classification of nodes.
+							#it's classification of nodes. Maybe.		
 							edge =  [abundance_array.loc[in_level_2[l],'TAXA'], abundance_array.loc[in_level_2[k],'TAXA'],
-														str(adj_matrix[l,k]), str(tot_seen_2[l]),str(tot_seen_2[k]),N]
-							rev_edge = [abundance_array.loc[in_level_2[k],'TAXA'], abundance_array.loc[in_level_2[l],'TAXA'],
-														str(adj_matrix[l,k]),str(tot_seen_2[k]),str(tot_seen_2[l]),N]
-							source_target_data_bins += [edge]
-							source_target_data_bins += [rev_edge]
+														str(adj_matrix[l,k])]
+							#rev_edge = [abundance_array.loc[in_level_2[k],'TAXA'], abundance_array.loc[in_level_2[l],'TAXA'],
+														#str(adj_matrix[l,k])]
+							source_target_data += [edge]
+							#source_target_data_bins += [rev_edge]
 
 	
 			#turn list into a dataframe
-			source_target_frames_bins = pd.DataFrame(source_target_data_bins, columns = ['source','target','weight','source_freq',
-								'target_freq','num_samps'])
+			source_target_frames = pd.DataFrame(source_target_data, columns = ['source','target','weight'])
 
 	elif cotype == 'pearson':
-		return 
+			pears = array(ab_np_array)
+			means = mean(pears,axis = 1)
+			vars = std(pears,axis =1)
+			vars[where(vars == 0)] = 1
+			pears = transpose(transpose(pears) - means)
+			pears = dot(diag(1/vars),pears)
+			adj_matrix_pre_pear = (1/pears.shape[1])*dot(pears,transpose(pears)) - eye(pears.shape[0])
+			cutoff = 0.8
+			adj_matrix_pre_pear[where(adj_matrix_pre_pear < cutoff)] = 0 
+			degs = sum(adj_matrix_pre_pear,1)
+			unconnected = where(degs == 0)
+			adj_matrix_pre_pear = delete(adj_matrix_pre_pear,unconnected,0)
+			adj_matrix_pre_pear = delete(adj_matrix_pre_pear,unconnected,1)
+			ab_np_array_pear = delete(ab_np_array,unconnected,0)
+			if ab_np_array_pear.shape[0] != 0:
+				in_level = delete(in_level,unconnected)
+
+				stringency = 0.05
+
+				ab_masked = mask.masked_values(ab_np_array_pear,0,copy = False)
+				the_ns_v = sum(ab_np_array_pear,1)/(ab_masked.min(axis = 1))
+				the_ns_v = the_ns_v.data
+				the_ns_v = around(the_ns_v)
+				the_ns = outer(the_ns_v,ones(len(ab_np_array_pear[0])))
+				the_ps_v = sum(ab_np_array_pear,0)/sum(ab_np_array_pear)
+				the_ps = outer(ones(len(ab_np_array_pear)),the_ps_v)
+				adj_size_p = adj_matrix_pre_pear.shape
+				adj_matrix_pear = zeros(adj_size_p) 
+				mc_test = mc_pearson(the_ns,the_ps,adj_matrix_pre_pear)	
+				adj_matrix_pear[where(mc_test <stringency)] = adj_matrix_pre_pear[where(mc_test <stringency)]
+
+			
+		
+				degs2 = sum(adj_matrix_pear,1)
+				unconnected2 = where(degs2 == 0)
+				adj_matrix_pear = delete(adj_matrix_pear,unconnected2,0)
+				adj_matrix_pear = delete(adj_matrix_pear,unconnected2,1)
+				
+				in_level_2 = delete(in_level,unconnected2)
+			
+				adjacency_frames = pd.DataFrame(adj_matrix_pear, index = abundance_array['TAXA'][in_level_2], columns = abundance_array['TAXA'][in_level_2])
+				#create a list of edges - source in one column, target in the other. This is an alternative to the adjacency matrix
+				#that might make it easier to load in to cytoscape.
+				source_target_data_pear = []	
+				for l in range(len(adj_matrix_pear)):
+					for k in range(l+1):
+							if adj_matrix_pear[l,k] != 0:
+								# s_type1 = color_picker(samp_type_abund.iloc[in_level_2_p[l]][:-1])
+# 								s_type2 = color_picker(samp_type_abund.iloc[in_level_2_p[k]][:-1])
+# 								edge_samp = matchyn(s_type1,s_type2)
+								#include the "reverse" edge as well so that cytoscape doesn't have gaps in 
+								#it's classification of nodes.
+								edge =  [abundance_array['TAXA'][in_level_2[l]], abundance_array['TAXA'][in_level_2[k]],
+															str(adj_matrix_pear[l,k])]
+# 								rev_edge = [abundance_array['TAXA'][in_level_2[k]], abundance_array['TAXA'][in_level_2[l]],
+# 															str(adj_matrix_pear[l,k])]
+								source_target_data_pear += [edge]
+								#source_target_data_pear += [rev_edge]
+	
+		
+				#turn list into a dataframe
+				source_target_frames = pd.DataFrame(source_target_data_pear, columns = ['source','target','weight'])
+
 	else:
 		sys.exit('Choose bins or pearson for edge construction')
 
-		
 	return [adjacency_frames, source_target_frames]		
 	
-def add_meta(edges, meta):
-	'''Add metadata columns for source node and edge'''	
+def make_meta(edges, ab_by_samp_type, orig_array):
+	'''Make separate node attribute table, and add edge metadata to the existing 
+	network data frame (given as list of edges). Node table needs columns for node frequency,
+	sample most commonly seen in, and sample type color. Edges need sample type and color.'''
+	#initialize the node table	
+	all_taxa = list(edges['source'].values) + list(edges['target'].values)
+	node_data = pd.DataFrame(all_taxa, columns = ['TAXA'])
+	node_data.drop_duplicates(inplace = True)
+	#get the node types
+	ilocs_of_tax = [where(ab_by_samp_type['TAXA'] == tx) for tx in node_data['TAXA'].values]
+	#print(ilocs_of_tax)
+	samp_type_class = [color_picker(ab_by_samp_type.iloc[rw[0][0]][:-1]) for rw in ilocs_of_tax]
+	stype = [stc[0] for stc in samp_type_class]
+	scol = [stc[1] for stc in samp_type_class]
+	node_data['sample_type'] = stype
+	node_data['sample_color'] = scol
+	#get the edge types
+	src_data_iloc = [where(node_data['TAXA']==src) for src in edges['source'].values]
+	targ_data_iloc = [where(node_data['TAXA']==targ) for targ in edges['target'].values]
+	edtypes = [node_data.loc[node_data.index[src_data_iloc[i]],'sample_type'].values[0] if node_data.loc[node_data.index[src_data_iloc[i]],'sample_type'].values == node_data.loc[node_data.index[targ_data_iloc[i]],'sample_type'].values
+										else 'Mixed' for i in range(len(edges))]
+	edcols = [node_data.loc[node_data.index[src_data_iloc[i]],'sample_color'].values[0] if node_data.loc[node_data.index[src_data_iloc[i]],'sample_color'].values == node_data.loc[node_data.index[targ_data_iloc[i]],'sample_color'].values
+										else '#cccccc' for i in range(len(edges))]
+# 	print(edtypes)
+# 	print(edcols)
+	edges['edge_sample'] = array(edtypes)
+	edges['edge_color'] = array(edcols)
+	#####And finally the frequency of nodes
+	tax_ilocs = [where(orig_array['TAXA'] == txa) for txa in node_data['TAXA'].values]
+	freqs = [len(nonzero(orig_array.iloc[l[0][0]][2:].values)[0]) for l in tax_ilocs]
+	node_data['frequency'] = freqs
+	##and return
+	return[edges, node_data]
+	
+		
 #########################################
 ####################################  Analysis of a whole network			 #########
 ###########################################################################################
 ######################
+
+def mc_network_stats(abdata, network, sims = 1000):
+	'''Construct an ER random graph and compute statistics, compare these to the statistics of
+	the statistics of the given adjacency matrix. So this a lot. abdata is the data values (numpy
+	array) and network is the adjacency matrix.'''
+	num_nodes = len(network)
+	#first, compute stats of given adjacency matrix
+	[net_vals,net_vects] = eig(network/num_nodes)
+	degs = sum(network,axis = 0)
+	mean_deg = mean(degs)
+	var_deg = var(degs)
+	#####
+	ab_masked = mask.masked_values(abdata,0,copy = False)
+	N_v = sum(abdata,1)/(ab_masked.min(axis = 1))
+	N_v = N_v.data
+	N_v = around(N_v)
+	N = outer(N_v,ones(len(abdata[0])))
+	P_v = sum(abdata,0)/sum(abdata)
+	P = outer(ones(len(abdata)),P_v)
+	#####
+	mean_dg_diff = empty(sims)
+	mean_var_diff = empty(sims)
+	max_eval_diff = empty(sims)
+	min_eval_diff = empty(sims)
+	for s in range(sims):
+		#construct a random adjacency graph
+		the_rand_mat = bino(N,P)
+		meanss = mean(the_rand_mat,axis = 1)
+		vars = std(the_rand_mat,axis =1)
+		vars[where(vars == 0)] = 1
+		the_rand_mat = dot(diag(vars),transpose(transpose(the_rand_mat) - meanss))
+		rand_weights = (1/the_rand_mat.shape[1])*dot(the_rand_mat,transpose(the_rand_mat))
+		###get the stats of them
+		[sim_vals,sim_vects] = eig(rand_weights/len(rand_weights))
+		sim_degs = sum(rand_weights,axis = 0)
+		sim_mean_deg = mean(sim_degs)
+		sim_var_deg = var(sim_degs)
+		##
+		
 
 def edge_prob(network):
 	'''calculate probability of seeing an edge in a graph with that many edges

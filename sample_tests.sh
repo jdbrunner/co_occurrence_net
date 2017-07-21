@@ -17,9 +17,9 @@ nets_flder=$1
 
 for lv in "${levels[@]}";do
 	declare -a adjs_p=($nets_flder'/'$lv'/pears/'*_adj.tsv)
-	declare -a lists_p=($nets_flder'/'$lv'/pears/clustered/cyto_input/'*_node_atts.tsv)
+	declare -a lists_p=($nets_flder'/'$lv'/pears/'*_node_data.tsv)
 	declare -a adjs_b=($nets_flder'/'$lv'/bins/'*_adj.tsv)
-	declare -a lists_b=($nets_flder'/'$lv'/bins/clustered/cyto_input/'*_node_atts.tsv)
+	declare -a lists_b=($nets_flder'/'$lv'/bins/'*_node_data.tsv)
 	for fl in test_samples/$dt'_samps/'$lv'/'*.tsv;do
 		for (( i = 0 ; i < ${#adjs_p[@]} ; i=$i+1 ));
 		do

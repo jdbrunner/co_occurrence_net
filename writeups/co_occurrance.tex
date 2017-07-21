@@ -221,7 +221,7 @@ w_{jk}^2 = \left\{ \begin{array}{c c}
 \end{array}\right.
 \]
 
-\subsection{An alternative coincidence construction}
+\subsection{An alternative correlation construction}
 A faster way would be to first normalize abundance vectors, and just take 
 \[
 W = AA^T
@@ -241,6 +241,35 @@ Similary to the above but maybe on more established footing is Pearson's correla
 which can of course be constructed by modifying the data matrix and then multiplying with it's transpose. In expectation, this the covariance divided by the product of the variances. I can also use a Monte-Carlo approach to check significance.
 This ends up keeping a lot more edges than the binning procedure. I am considering doing a first pass of only keeping hgih weights. Low weights may be significant (i.e. higher than one could expect randomly) but are still low, and so maybe should be dropped. In the literature, people tend to only keep weights over $0.8$ or something.
 
+\subsection{Significance of network}
+Using a MC approach, I am checking the significance of each edge. I'd like to check the significance of the adjacency matrix as a whole. Luckily, there are some recent results about universal properties of the spectrum of random matrices we can use. Precisely, there are results about Wigner matrices (and extended to Erd\H{o}s-R\'{e}nyi graphs) that describe the distribution of eigenvalues and eigenvectors. We should be able to apply these results in order to asses the probability of seeing the spectrum we have under the null hypothesis of an Erd\H{o}s-R\'{e}nyi graph.
+
+A Wigner matrix is a symmetric (or Hermitian) matrix (ADD CITATION) such that
+\[
+X_{ij} = X_{ji} = \left\{\begin{array}{c c}
+Z_{ij} & i <j\\
+Y_i & i=j
+\end{array}\right.
+\]
+where $Z_{ij}$ are iid mean zero, and $Y_{i}$ iid centered. An Erd\H{o}s-R\'{e}nyin graph with $N$ nodes is one in which edges are chosen iid with probability $p(N)$. An Erd\H{o}s-R\'{e}nyi matrix is the adjacency matrix of an Erd\H{o}s-R\'{e}nyi graph, and so has entries in $\{0,1\}$. There is a result (ADD CITATION) about the universality of the spectral statistics of the graph as long as 
+\[
+pN \gg N^{\nicefrac{2}{3}}
+\]
+where $pN$ is the expected degree of each node. If $E$ is the number of edges in our graph, $E \approx pN^2$, and so we need
+\[
+\frac{E}{N} \gg N^{\nicefrac{2}{3}} \Rightarrow E \gg N^{\nicefrac{5}{3}}
+\] 
+to apply the result. Unfortunately, we do not have that.
+
+Our other option is more MC simulation. We can use that to estimate the spectral statistics of our network. This may be the way to go. 
+
+More analytically, we have for an ER graph the degree distribution
+\[
+\bP(d_i = k) = \binom{N}{k}p^k(1-p)^{n-k}
+\]
+Clearly then, for any node we can ask the probability of seeing the node degree. What we really want is something like the probability that the min is what it is, the max is what it is, the sample mean is what it is, and so forth. We want to show that our degree distribution doesn't match this.
+
+If we are thinking about he weighted graph, our degree distribution is a little different. I think it's crazy hard to calculate. Again, we may be better off with an MC approach.
 
 \section{Network Analysis}
 We can cluster - community clustering, spectral clustering, comparing to random graphs. Comparison of clusters to grouping by sample type.
