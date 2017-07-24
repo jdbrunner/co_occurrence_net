@@ -155,7 +155,10 @@
 \begin{document}
 \maketitle
 \section{Network Building}
-We are looking at creating ecological networks of a microbiome. Right now, I have built two networks, in the form of graphs $\cG_1 = (\cV_1, \cE_1)$ and $\cG_2 = (\cV_2,\cE_2)$. In both graphs, vertex are labeled by taxa name. I'm going to conflate the vertices and their label. The edge sets are defined by co-incidence and co-occurence, respectively. Given a set of samples with abundancs of organisms, we map the abundances to discrete levels, as proportions of the maximum abundance \emph{of that organism}. Precisely, let the samples be $s_i$ and raw abundance of organism $j$ in sample $i$ be $r_{ji}$. I map the abundances according to
+We are looking at creating ecological networks of a microbiome. I have built networks, in the form of graphs $\cG = (\cV, \cE)$. In these graphs, vertices are labeled by taxa name. The edge sets are defined by cooccurrence or correlation.
+
+\subsection{Cooccurence construction}
+Given a set of samples with abundancs of organisms, we map the abundances to discrete levels, as proportions of the maximum abundance \emph{of that organism}. Precisely, let the samples be $s_i$ and raw abundance of organism $j$ in sample $i$ be $r_{ji}$. I map the abundances according to
 \[
 a(r_{ji})  = \left\{
 \begin{array}{c c}
@@ -222,24 +225,13 @@ w_{jk}^2 = \left\{ \begin{array}{c c}
 \]
 
 \subsection{An alternative correlation construction}
-A faster way would be to first normalize abundance vectors, and just take 
-\[
-W = AA^T
-\]
-(with the diagonal reset to 0) to be the weighted adjacency matrix, where $A$ is the matrix of abundances. Then, each entry is the cosine of the angle between the abundance vectors. This also allows us to look at negatively aligned abundance vectors.
-
-How then would we construct the cooccurrence network? Basically, what would our null model be? Well, we would still randomize the sample data. That is, we could take $X_{ij}$ be a random variable representing the abundance of taxa $i$ in sample $j$, and require that $\|X_{i}\| = 1$. Then, we can ask $P(\b{X}_i \cdot \b{X}_k > w_{ik})$. I just don't know what distribution to put on the $X_{ij}$ (the random abundances). I'll start with a binomial:
-\[
-P(\tilde{X}_{ij} = k) = \binom{n}{k}p^1(1-p)^{n-k}
-\]
-where $p = \frac{\mathit{deg}(s_j)}{\sum_l \mathit{deg}(s_l)}$ and $n =\lfloor \frac{1}{\min_{k}(r_{ik})}r_i\rfloor$ where $r_i = \sum_k r_{ik}$. Then I normalize to the unit sphere.  Finally, I can use a Monte-Carlo simulation to see which weights to check. To do this, I generate random matrices with the appropriate distributions, using a built in Numpy method. Then I check the proportion of random entries larger than the weights. If this is small, I keep the edge. Unfortunately, I can't use a control variate or otherwise try to reduce variance, because generating my own samples was far slower than the Numpy method. The Numpy method is pre-compiled in C. Variance was $\sim 0.25$, so $1000$ samples should be enough. 
-
-Similary to the above but maybe on more established footing is Pearson's correlation coefficient. That is:
+An alternative to the binning above is Pearson's correlation coefficient. That is:
 \[
 \rho_{xy} = \frac{1}{N}\frac{(\b{x}- \mu_x\b{1}) \cdot (\b{y} - \mu_y\b{1})}{\sigma_x \sigma_y}
 \]
-which can of course be constructed by modifying the data matrix and then multiplying with it's transpose. In expectation, this the covariance divided by the product of the variances. I can also use a Monte-Carlo approach to check significance.
-This ends up keeping a lot more edges than the binning procedure. I am considering doing a first pass of only keeping hgih weights. Low weights may be significant (i.e. higher than one could expect randomly) but are still low, and so maybe should be dropped. In the literature, people tend to only keep weights over $0.8$ or something.
+which can of course be constructed by modifying the data matrix and then multiplying with it's transpose. In expectation, this the covariance divided by the product of the variances. I can also use a Monte-Carlo approach to check significance, generating a random set of data and keeping high correlations that have low probability of occuring. 
+
+We can also threshold our data before calculating correlation, giving us another type of cooccurrence matrix.
 
 \subsection{Significance of network}
 Using a MC approach, I am checking the significance of each edge. I'd like to check the significance of the adjacency matrix as a whole. Luckily, there are some recent results about universal properties of the spectrum of random matrices we can use. Precisely, there are results about Wigner matrices (and extended to Erd\H{o}s-R\'{e}nyi graphs) that describe the distribution of eigenvalues and eigenvectors. We should be able to apply these results in order to asses the probability of seeing the spectrum we have under the null hypothesis of an Erd\H{o}s-R\'{e}nyi graph.
@@ -269,7 +261,28 @@ More analytically, we have for an ER graph the degree distribution
 \]
 Clearly then, for any node we can ask the probability of seeing the node degree. What we really want is something like the probability that the min is what it is, the max is what it is, the sample mean is what it is, and so forth. We want to show that our degree distribution doesn't match this.
 
-If we are thinking about he weighted graph, our degree distribution is a little different. I think it's crazy hard to calculate. Again, we may be better off with an MC approach.
+If we are thinking about the weighted graph, our degree distribution is a little different. I think it's crazy hard to calculate. Again, we may be better off with an MC approach.
+
+\subsubsection{Generating a random graph}
+Rather than simply generate an ER random graph, I want to generate a graph that more closely reflects the idea of random data. That is, I want to start with random data and then generate a graph. I will show that this is \emph{not} an ER random graph. I generate ``random data" in the following way. Let 
+\[
+N_j = |\{i: r_{ij} \neq 0\}|
+\]
+and 
+\[
+P_i = \frac{\sum_{j} r_{ij}}{\sum_{ij}r_{ij}}
+\]
+then we take 
+\[
+\hat{r}_{ij} = \mathit{binom}(N_j,P_i)
+\]
+as randomly generated abundance data. The values $N_i$ is how many samples a taxa appeared in, while the $P_i$ give higher probability to samples that have higher total abundance of organisms. Notice that our ``random samples" should be scaled by average abundances of a taxa across samples to ``look like" real data. This doesn't effect correlation, because $\mathit{Cov}(ax,by) = ab\mathit{Cov}(x,y)$, and $\sigma_x = \mathit{Cov}(x,x)^{\nhalf}$.
+
+Then, we construct our random graph from this random data. If $\hat{\b{r}}_i$ is the vector of random ``abundances" of taxa $i$, we have edges
+\[
+w_{ik} = \frac{1}{N}\frac{(\b{\hat{\b{r}}_i}- \hat{\mu}_i\b{1}) \cdot (\hat{\b{r}}_k - \hat{\mu}_k\b{1})}{\hat{\sigma}_i \hat{\sigma}_k}
+\]
+and we want to know whether or not these are identically distributed. We have that $\bE w_{ik} = 0$ because $\b{r}_i$ and $\b{r}_k$ are independent. 
 
 \section{Network Analysis}
 We can cluster - community clustering, spectral clustering, comparing to random graphs. Comparison of clusters to grouping by sample type.

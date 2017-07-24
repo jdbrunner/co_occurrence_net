@@ -1,6 +1,6 @@
 #########################################################################################
 #																						#		
-#				Co-Occurrence Network Stats												#
+#				Network Clustering 														#
 #																						#
 #										Jim Brunner 									#
 #																						#

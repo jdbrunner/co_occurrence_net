@@ -154,45 +154,19 @@ def approx_rand_prob(occ,wij,i,j):
 	return prob
 
 
-def mc_dot_prod(N,P,W,num_samps = 1000):
-	'''MC approximation for P(X\cdot Y > w) where X is a random vector of binomial(n1,p1)
-	and Y is a random vector of binomial(n2,p2), where p1,p2 are vectors'''
-	mc_samples = zeros((num_samps,N.shape[0],N.shape[0]))
-	N = N.astype(int)
-	for s in range(num_samps):
-		the_rand_mat = bino(N,P)
-		rsumd = sum(the_rand_mat,1)
-		rsumd[where(rsumd == 0)] = 1
-		normed_rand_m = dot(diag(1/rsumd),the_rand_mat)
-		rand_weights = dot(normed_rand_m,transpose(normed_rand_m))
-		comp_mat = rand_weights - W
-		mc_samples[s][where(comp_mat >= 0)] =  1
-	return mean(mc_samples,axis = 0)#,var(mc_samples,axis = 0).max()]
 	
-def mc_pearson(N,P,W,samp_types = None,data_header = None,num_samps = 1000):
+def mc_pearson(N,P,W,data_header = None,num_samps = 1000):
 	'''MC approximation for pearson coefficient where X is a random vector of binomial(n1,p1)
 	and Y is a random vector of binomial(n2,p2), where p1,p2 are vectors. Expected value is identity.'''
 	mc_samples = zeros((num_samps,N.shape[0],N.shape[0]))
 	N = N.astype(int)
 	for s in range(num_samps):
 		the_rand_mat = bino(N,P)
-		if samp_types != None:
-			for idx in samp_types:
-				selec = data_header.map(lambda x: bool(re.search(idx,x)))
-				selllec = where(selec[1:])
-				meanss = mean(the_rand_mat[:,selllec[0]],axis = 1)
-				vars = std(the_rand_mat[:,selllec[0]],axis = 1)
-				the_rand_mat[:,selllec[0]] = the_rand_mat[:,selllec[0]] - outer(meanss,ones(len(selllec[0])))
-				vars[where(vars == 0)] = 1
-				for idx2 in range(len(the_rand_mat)):
-					the_rand_mat[idx2,selllec[0]] = the_rand_mat[idx2,selllec[0]]/vars[idx2]
-				rand_weights = (1/the_rand_mat.shape[1])*dot(the_rand_mat,transpose(the_rand_mat))
-		else:
-			meanss = mean(the_rand_mat,axis = 1)
-			vars = std(the_rand_mat,axis =1)
-			vars[where(vars == 0)] = 1
-			the_rand_mat = dot(diag(vars),transpose(transpose(the_rand_mat) - meanss))
-			rand_weights = (1/the_rand_mat.shape[1])*dot(the_rand_mat,transpose(the_rand_mat))
+		meanss = mean(the_rand_mat,axis = 1)
+		vars = std(the_rand_mat,axis =1)
+		vars[where(vars == 0)] = 1
+		the_rand_mat = dot(diag(vars),transpose(transpose(the_rand_mat) - meanss))
+		rand_weights = (1/the_rand_mat.shape[1])*dot(the_rand_mat,transpose(the_rand_mat))
 # 		print(rand_weights.shape)
 # 		print(W.shape)
 		comp_mat = rand_weights - W #- eye(rand_weights.shape[0])
@@ -207,7 +181,7 @@ def min_nz(arr, rows = False):
 	else:
 		return mask_arr.min()
 		
-def build_network(abundance_array, cotype):
+def build_network(abundance_array, cotype, thr = False, list_too = True):
 	'''Build a cooccurrence network from a pandas dataframe. Data should all come from same taxonomic level, with columns
 	['LEVEL','TAXA','SAMPLE_1',...,'SAMPLE_N']'''
 	ab_np_array = abundance_array.values[:,2:].astype(float)
@@ -251,28 +225,32 @@ def build_network(abundance_array, cotype):
 					
 			adjacency_frames = pd.DataFrame(adj_matrix, index = abundance_array.loc[in_level_2,'TAXA'], columns =  abundance_array.loc[in_level_2,'TAXA'])
 
-
-			#create a list of edges - source in one column, target in the other. This is an alternative to the adjacency matrix
-			#that might make it easier to load in to cytoscape.
-			source_target_data = []
-			for l in range(len(adj_matrix)):
-				for k in range(l+1):
-						if adj_matrix[l,k] != 0:
-							#include the "reverse" edge as well so that cytoscape doesn't have gaps in 
-							#it's classification of nodes. Maybe.		
-							edge =  [abundance_array.loc[in_level_2[l],'TAXA'], abundance_array.loc[in_level_2[k],'TAXA'],
-														str(adj_matrix[l,k])]
-							#rev_edge = [abundance_array.loc[in_level_2[k],'TAXA'], abundance_array.loc[in_level_2[l],'TAXA'],
-														#str(adj_matrix[l,k])]
-							source_target_data += [edge]
-							#source_target_data_bins += [rev_edge]
+			if list_too:
+				#create a list of edges - source in one column, target in the other. This is an alternative to the adjacency matrix
+				#that might make it easier to load in to cytoscape.
+				source_target_data = []
+				for l in range(len(adj_matrix)):
+					for k in range(l+1):
+							if adj_matrix[l,k] != 0:
+	
+								edge =  [abundance_array.loc[in_level_2[l],'TAXA'], abundance_array.loc[in_level_2[k],'TAXA'],
+															str(adj_matrix[l,k])]
+								source_target_data += [edge]
 
 	
-			#turn list into a dataframe
-			source_target_frames = pd.DataFrame(source_target_data, columns = ['source','target','weight'])
+				#turn list into a dataframe
+				source_target_frames = pd.DataFrame(source_target_data, columns = ['source','target','weight'])
 
+		else:
+			adjacency_frames = pd.DataFrame( [[0]], columns = ['empty'],index = ['empty'])
+				
 	elif cotype == 'pearson':
 			pears = array(ab_np_array)
+			if thr:
+				ab_masked = mask.masked_values(ab_np_array,0,copy = False)
+				mean_nz_ab = mean(ab_masked)
+				pears[where(pears < 0.01*mean_nz_ab)] = 0
+				pears[pears.nonzero()] = 1
 			means = mean(pears,axis = 1)
 			vars = std(pears,axis =1)
 			vars[where(vars == 0)] = 1
@@ -291,10 +269,7 @@ def build_network(abundance_array, cotype):
 
 				stringency = 0.05
 
-				ab_masked = mask.masked_values(ab_np_array_pear,0,copy = False)
-				the_ns_v = sum(ab_np_array_pear,1)/(ab_masked.min(axis = 1))
-				the_ns_v = the_ns_v.data
-				the_ns_v = around(the_ns_v)
+				the_ns_v = array([len(nonzero(ab_row)[0]) for ab_row in ab_np_array_pear])
 				the_ns = outer(the_ns_v,ones(len(ab_np_array_pear[0])))
 				the_ps_v = sum(ab_np_array_pear,0)/sum(ab_np_array_pear)
 				the_ps = outer(ones(len(ab_np_array_pear)),the_ps_v)
@@ -313,32 +288,33 @@ def build_network(abundance_array, cotype):
 				in_level_2 = delete(in_level,unconnected2)
 			
 				adjacency_frames = pd.DataFrame(adj_matrix_pear, index = abundance_array['TAXA'][in_level_2], columns = abundance_array['TAXA'][in_level_2])
+				
 				#create a list of edges - source in one column, target in the other. This is an alternative to the adjacency matrix
 				#that might make it easier to load in to cytoscape.
-				source_target_data_pear = []	
-				for l in range(len(adj_matrix_pear)):
-					for k in range(l+1):
-							if adj_matrix_pear[l,k] != 0:
-								# s_type1 = color_picker(samp_type_abund.iloc[in_level_2_p[l]][:-1])
-# 								s_type2 = color_picker(samp_type_abund.iloc[in_level_2_p[k]][:-1])
-# 								edge_samp = matchyn(s_type1,s_type2)
-								#include the "reverse" edge as well so that cytoscape doesn't have gaps in 
-								#it's classification of nodes.
-								edge =  [abundance_array['TAXA'][in_level_2[l]], abundance_array['TAXA'][in_level_2[k]],
-															str(adj_matrix_pear[l,k])]
-# 								rev_edge = [abundance_array['TAXA'][in_level_2[k]], abundance_array['TAXA'][in_level_2[l]],
-# 															str(adj_matrix_pear[l,k])]
-								source_target_data_pear += [edge]
-								#source_target_data_pear += [rev_edge]
+				if list_too:
+					source_target_data_pear = []	
+					for l in range(len(adj_matrix_pear)):
+						for k in range(l+1):
+								if adj_matrix_pear[l,k] != 0:
+									edge =  [abundance_array['TAXA'][in_level_2[l]], abundance_array['TAXA'][in_level_2[k]],
+																str(adj_matrix_pear[l,k])]
+									source_target_data_pear += [edge]
+
 	
 		
-				#turn list into a dataframe
-				source_target_frames = pd.DataFrame(source_target_data_pear, columns = ['source','target','weight'])
-
+					#turn list into a dataframe
+					source_target_frames = pd.DataFrame(source_target_data_pear, columns = ['source','target','weight'])
+			
+			else:
+				adjacency_frames = pd.DataFrame( [[0]], columns = ['empty'],index = ['empty'])
+			
 	else:
 		sys.exit('Choose bins or pearson for edge construction')
 
-	return [adjacency_frames, source_target_frames]		
+	if list_too:
+		return [adjacency_frames, source_target_frames]	
+	else:
+		return adjacency_frames	
 	
 def make_meta(edges, ab_by_samp_type, orig_array):
 	'''Make separate node attribute table, and add edge metadata to the existing 
@@ -380,7 +356,7 @@ def make_meta(edges, ab_by_samp_type, orig_array):
 ###########################################################################################
 ######################
 
-def mc_network_stats(abdata, network, sims = 1000):
+def mc_network_stats(abdata, network, thr = False, bins = False, sims = 10000):
 	'''Construct an ER random graph and compute statistics, compare these to the statistics of
 	the statistics of the given adjacency matrix. So this a lot. abdata is the data values (numpy
 	array) and network is the adjacency matrix.'''
@@ -390,33 +366,68 @@ def mc_network_stats(abdata, network, sims = 1000):
 	degs = sum(network,axis = 0)
 	mean_deg = mean(degs)
 	var_deg = var(degs)
+	min_ev = min(net_vals)
+	max_ev = max(net_vals)
 	#####
-	ab_masked = mask.masked_values(abdata,0,copy = False)
-	N_v = sum(abdata,1)/(ab_masked.min(axis = 1))
-	N_v = N_v.data
-	N_v = around(N_v)
-	N = outer(N_v,ones(len(abdata[0])))
+	N_v = array([len(nonzero(ab_row)[0]) for ab_row in abdata])
+	N = outer(N_v,ones(len(abdata[0]))).astype(int)
 	P_v = sum(abdata,0)/sum(abdata)
-	P = outer(ones(len(abdata)),P_v)
+	P = outer(ones(len(abdata)),P_v).astype(float)
 	#####
-	mean_dg_diff = empty(sims)
-	mean_var_diff = empty(sims)
-	max_eval_diff = empty(sims)
-	min_eval_diff = empty(sims)
+	mean_dg_sims = empty(sims)
+	var_dg_sims = empty(sims)
+	min_eval_sims = empty(sims)
+	max_eval_sims = empty(sims)
+	mean_dg_diff = 0
+	var_dg_diff = 0
+	max_eval_diff = 0
+	min_eval_diff = 0
 	for s in range(sims):
+	##### Parallelize Please!!!!!!!!!!!!
 		#construct a random adjacency graph
-		the_rand_mat = bino(N,P)
-		meanss = mean(the_rand_mat,axis = 1)
-		vars = std(the_rand_mat,axis =1)
-		vars[where(vars == 0)] = 1
-		the_rand_mat = dot(diag(vars),transpose(transpose(the_rand_mat) - meanss))
-		rand_weights = (1/the_rand_mat.shape[1])*dot(the_rand_mat,transpose(the_rand_mat))
+		the_rand_mat = bino(N,P)#RANDOM SAMPLE DATA
+		the_rand_mat = the_rand_mat[where(sum(the_rand_mat,axis = 1)>0)]
+		if bins:
+			rand_weights = asarray([[0 if x == y else both_same_bin(the_rand_mat[x],the_rand_mat[y], 0.05, 5) 
+								for x in range(len(the_rand_mat))] for y in range(len(the_rand_mat))])
+		else:
+			if thr:
+				ab_masked = mask.masked_values(the_rand_mat,0,copy = False)
+				mean_nz_ab = mean(ab_masked)
+				the_rand_mat[where(the_rand_mat < 0.01*mean_nz_ab)] = 0
+				the_rand_mat[the_rand_mat.nonzero()] = 1
+			meanss = mean(the_rand_mat,axis = 1)
+			vars = std(the_rand_mat,axis =1)
+			vars[where(vars == 0)] = 1
+			the_rand_mat = dot(diag(vars),transpose(transpose(the_rand_mat) - meanss))
+			rand_weights = (1/the_rand_mat.shape[1])*dot(the_rand_mat,transpose(the_rand_mat))
 		###get the stats of them
 		[sim_vals,sim_vects] = eig(rand_weights/len(rand_weights))
 		sim_degs = sum(rand_weights,axis = 0)
 		sim_mean_deg = mean(sim_degs)
+		mean_dg_sims[s] = sim_mean_deg
 		sim_var_deg = var(sim_degs)
+		var_dg_sims[s] = sim_var_deg
+		sim_min_ev = min(sim_vals)
+		sim_max_ev = max(sim_vals)
+		min_eval_sims[s] = sim_min_ev
+		max_eval_sims[s] = sim_max_ev
 		##
+		if sim_mean_deg > mean_deg:
+			mean_dg_diff = mean_dg_diff + 1
+		if sim_var_deg > var_deg:
+			var_dg_diff = var_dg_diff + 1
+		if sim_min_ev > min_ev:
+			min_eval_diff = min_eval_diff + 1
+		if sim_max_ev > max_ev:
+			max_eval_diff = max_eval_diff + 1
+	mean_deg_p = mean_dg_diff/sims
+	var_dg_p = var_dg_diff/sims
+	max_eval_p = max_eval_diff/sims
+	min_eval_p = min_eval_diff/sims
+# 	print(mean_deg, var_deg, min_ev, max_ev)
+# 	print(mean(mean_dg_sims), mean(var_dg_sims), mean(min_eval_sims), mean(max_eval_sims))
+	return [mean_deg_p, var_dg_p, max_eval_p, min_eval_p]
 		
 
 def edge_prob(network):

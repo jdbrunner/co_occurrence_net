@@ -1,0 +1,12 @@
+/Users/jdbrunner/Documents/gottcha/co_occurrence_net/co_occ_funs.py:413: ComplexWarning: Casting complex values to real discards the imaginary part
+  min_eval_sims[s] = sim_min_ev
+/Users/jdbrunner/Documents/gottcha/co_occurrence_net/co_occ_funs.py:414: ComplexWarning: Casting complex values to real discards the imaginary part
+  max_eval_sims[s] = sim_max_ev
+Traceback (most recent call last):
+  File "network_stats.py", line 198, in <module>
+    [p_md_p[ns], p_vd_p[ns], p_max_ev_p[ns], p_min_ev_p[ns]] = mc_network_stats(this_np_array, pears_data)
+  File "/Users/jdbrunner/Documents/gottcha/co_occurrence_net/co_occ_funs.py", line 405, in mc_network_stats
+    [sim_vals,sim_vects] = eig(rand_weights/len(rand_weights))
+  File "/Users/jdbrunner/Library/Python/3.6/lib/python/site-packages/numpy/linalg/linalg.py", line 1134, in eig
+    w, vt = _umath_linalg.eig(a, signature=signature, extobj=extobj)
+KeyboardInterrupt
