@@ -270,13 +270,13 @@ N_j = |\{i: r_{ij} \neq 0\}|
 \]
 and 
 \[
-P_i = \frac{\sum_{j} r_{ij}}{\sum_{ij}r_{ij}}
+P_i = \frac{|\{j: r_{ij}\neq 0 \}|}{|\{(i,j): r_{ij}\neq 0 \}|}
 \]
 then we take 
 \[
 \hat{r}_{ij} = \mathit{binom}(N_j,P_i)
 \]
-as randomly generated abundance data. The values $N_i$ is how many samples a taxa appeared in, while the $P_i$ give higher probability to samples that have higher total abundance of organisms. Notice that our ``random samples" should be scaled by average abundances of a taxa across samples to ``look like" real data. This doesn't effect correlation, because $\mathit{Cov}(ax,by) = ab\mathit{Cov}(x,y)$, and $\sigma_x = \mathit{Cov}(x,x)^{\nhalf}$.
+as randomly generated abundance data. The values $N_i$ is how many samples a taxa appeared in, while the $P_i$ give higher probability to samples that have have more organisms. Notice that our ``random samples" should be scaled by average abundances of a taxa across samples to ``look like" real data. This doesn't effect correlation, because $\mathit{Cov}(ax,by) = ab\mathit{Cov}(x,y)$, and $\sigma_x = \mathit{Cov}(x,x)^{\nhalf}$.
 
 Then, we construct our random graph from this random data. If $\hat{\b{r}}_i$ is the vector of random ``abundances" of taxa $i$, we have edges
 \[

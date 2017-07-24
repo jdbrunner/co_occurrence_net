@@ -157,6 +157,7 @@ for i in level:
 		p_vd_p = zeros(num_samples)
 		p_max_ev_p = zeros(num_samples)
 		p_min_ev_p = zeros(num_samples)
+		p_num_edges_p = zeros(num_samples)
 		
 		num_edges_pt = zeros(num_samples)
 		mean_deg_pt = zeros(num_samples)
@@ -164,26 +165,29 @@ for i in level:
 		p_vd_pt = zeros(num_samples)
 		p_max_ev_pt = zeros(num_samples)
 		p_min_ev_pt = zeros(num_samples)
+		p_num_edges_pt = zeros(num_samples)
 		
-# 		num_edges_b = zeros(num_samples-1)
-# 		mean_deg_b = zeros(num_samples-1)
-# 		p_md_b = zeros(num_samples-1)
-# 		p_vd_b = zeros(num_samples-1)
-# 		p_max_ev_b = zeros(num_samples-1)
-# 		p_min_ev_b = zeros(num_samples-1)	
+# 		num_edges_b = zeros(num_samples)
+# 		mean_deg_b = zeros(num_samples)
+# 		p_md_b = zeros(num_samples)
+# 		p_vd_b = zeros(num_samples)
+# 		p_max_ev_b = zeros(num_samples)
+# 		p_min_ev_b = zeros(num_samples)	
+#		p_num_edges_b = zeros(num_samples)
 
 
-		for ns in range(1,num_samples):
-			print('\r',ns, '/',num_samples - 1, end = '     ')
+		for ns in range(1,10):#num_samples):
+			#print('\r',ns, '/',num_samples - 1, end = '     ')
 			chs = array(sample(range(num_samples), ns)) + 2
 			this_array = lvl_abundance_array.loc[:,lvl_abundance_array.columns[append([0,1],chs)]]
+			print(this_array.columns)
 			#build a network with a subset of the data
 			pears = build_network(this_array, 'pearson', thr = False, list_too = False)
 			pears_thr = build_network(this_array, 'pearson', thr = True, list_too = False)
 			#binned = build_network(this_array, 'bins', list_too = False)
 			
 			pears_data = pears.values
-			pears_thr_data = pears.values
+			pears_thr_data = pears_thr.values
 			#binned_data = binned.values
 			
 			num_edges_p[ns] = len(pears_data.nonzero()[0])/2
@@ -194,59 +198,66 @@ for i in level:
 			mean_deg_pt[ns] = mean(pears_thr_data.sum(axis = 1))
 			#mean_deg_b[ns] = mean(binned_data.sum(axis = 1))
 			
+			
 			this_np_array = this_array.values[:,2:]
-			[p_md_p[ns], p_vd_p[ns], p_max_ev_p[ns], p_min_ev_p[ns]] = mc_network_stats(this_np_array, pears_data)
-			[p_md_pt[ns], p_vd_pt[ns], p_max_ev_pt[ns], p_min_ev_pt[ns]] = mc_network_stats(this_np_array, pears_thr_data, thr = True)
-			#[p_md_b[ns], p_vd_b[ns], p_max_ev_b[ns], p_min_ev_b[ns]] = mc_network_stats(this_np_array, binned_data, bins = True)
+			[p_md_p[ns], p_vd_p[ns], p_max_ev_p[ns], p_min_ev_p[ns],p_num_edges_p[ns]] = mc_network_stats(this_np_array, pears_data, sims = 1000)
+			[p_md_pt[ns], p_vd_pt[ns], p_max_ev_pt[ns], p_min_ev_pt[ns], p_num_edges_pt[ns]] = mc_network_stats(this_np_array, pears_thr_data, thr = True, sims = 1000)
+			#[p_md_b[ns], p_vd_b[ns], p_max_ev_b[ns], p_min_ev_b[ns],p_num_edges_b[ns]] = mc_network_stats(this_np_array, binned_data, bins = True, sims = 1000)
 
-		fp, axarrp = plt.subplots(3,2)
-		fpt, axarrpt = plt.subplots(3,2)
-		#fb, ararrb = plt.subplots(3,2)
+		fp, axarrp = plt.subplots(4,2)
+		fpt, axarrpt = plt.subplots(4,2)
+		#fb, ararrb = plt.subplots(4,2)
 		
 		fp.suptitle('correlation '+stype+' '+i)
 		axarrp[0,0].plot(range(num_samples),num_edges_p)
-		axarrp[1,0].plot(range(num_samples),mean_deg_p)
-		axarrp[2,0].plot(range(num_samples),p_md_p)
-		axarrp[0,1].plot(range(num_samples),p_vd_p)
-		axarrp[1,1].plot(range(num_samples),p_max_ev_p)
+		axarrp[0,1].plot(range(num_samples),mean_deg_p)
+		axarrp[1,1].plot(range(num_samples),p_md_p)
+		axarrp[1,0].plot(range(num_samples),p_vd_p)
+		axarrp[2,0].plot(range(num_samples),p_max_ev_p)
 		axarrp[2,1].plot(range(num_samples),p_min_ev_p)
+		axarrp[3,0].plot(range(num_samples),p_num_edges_p)
 		
 		axarrp[0,0].set_title('Number Edges', fontsize=10)
-		axarrp[1,0].set_title('Mean Degree', fontsize=10)
-		axarrp[2,0].set_title('Mean Degree Probability', fontsize=10)
-		axarrp[0,1].set_title('Degree Variance Probability', fontsize=10)
-		axarrp[1,1].set_title('Max Eigenvalue Probability', fontsize=10)
+		axarrp[0,1].set_title('Mean Degree', fontsize=10)
+		axarrp[1,1].set_title('Mean Degree Probability', fontsize=10)
+		axarrp[1,0].set_title('Degree Variance Probability', fontsize=10)
+		axarrp[2,0].set_title('Max Eigenvalue Probability', fontsize=10)
 		axarrp[2,1].set_title('Min Eigenvalue Probability', fontsize=10)
+		axarrp[3,0].set_title('Number Edges Probability', fontsize=10)
 		
 		fpt.suptitle('correlation threshholded '+stype+' '+i)
 		axarrpt[0,0].plot(range(num_samples),num_edges_pt)
-		axarrpt[1,0].plot(range(num_samples),mean_deg_pt)
-		axarrpt[2,0].plot(range(num_samples),p_md_pt)
-		axarrpt[0,1].plot(range(num_samples),p_vd_pt)
-		axarrpt[1,1].plot(range(num_samples),p_max_ev_pt)
+		axarrpt[0,1].plot(range(num_samples),mean_deg_pt)
+		axarrpt[1,1].plot(range(num_samples),p_md_pt)
+		axarrpt[1,0].plot(range(num_samples),p_vd_pt)
+		axarrpt[2,0].plot(range(num_samples),p_max_ev_pt)
 		axarrpt[2,1].plot(range(num_samples),p_min_ev_pt)
+		axarrpt[3,0].plot(range(num_samples),p_num_edges_pt)
 		
 		axarrpt[0,0].set_title('Number Edges', fontsize=10)
-		axarrpt[1,0].set_title('Mean Degree', fontsize=10)
-		axarrpt[2,0].set_title('Mean Degree Probability', fontsize=10)
-		axarrpt[0,1].set_title('Degree Variance Probability', fontsize=10)
-		axarrpt[1,1].set_title('Max Eigenvalue Probability', fontsize=10)
+		axarrpt[0,1].set_title('Mean Degree', fontsize=10)
+		axarrpt[1,1].set_title('Mean Degree Probability', fontsize=10)
+		axarrpt[1,0].set_title('Degree Variance Probability', fontsize=10)
+		axarrpt[2,0].set_title('Max Eigenvalue Probability', fontsize=10)
 		axarrpt[2,1].set_title('Min Eigenvalue Probability', fontsize=10)
+		axarrpt[3,0].set_title('Number Edges Probability', fontsize=10)
 		
-# 		fb.suptitle('binned '+stype+' '+i)
+# 		fpt.suptitle('binned '+stype+' '+i)
 # 		axarrb[0,0].plot(range(num_samples),num_edges_b)
-# 		axarrb[1,0].plot(range(num_samples),mean_deg_b)
-# 		axarrb[2,0].plot(range(num_samples),p_md_b)
-# 		axarrb[0,1].plot(range(num_samples),p_vd_b)
-# 		axarrb[1,1].plot(range(num_samples),p_max_ev_b)
+# 		axarrb[0,1].plot(range(num_samples),mean_deg_b)
+# 		axarrb[1,1].plot(range(num_samples),p_md_b)
+# 		axarrb[1,0].plot(range(num_samples),p_vd_b)
+# 		axarrb[2,0].plot(range(num_samples),p_max_ev_b)
 # 		axarrb[2,1].plot(range(num_samples),p_min_ev_b)
+# 		axarrb[3,0].plot(range(num_samples),p_num_edges_b)
 # 		
 # 		axarrb[0,0].set_title('Number Edges', fontsize=10)
-# 		axarrb[1,0].set_title('Mean Degree', fontsize=10)
-# 		axarrb[2,0].set_title('Mean Degree Probability', fontsize=10)
-# 		axarrb[0,1].set_title('Degree Variance Probability', fontsize=10)
-# 		axarrb[1,1].set_title('Max Eigenvalue Probability', fontsize=10)
+# 		axarrb[0,1].set_title('Mean Degree', fontsize=10)
+# 		axarrb[1,1].set_title('Mean Degree Probability', fontsize=10)
+# 		axarrb[1,0].set_title('Degree Variance Probability', fontsize=10)
+# 		axarrb[2,0].set_title('Max Eigenvalue Probability', fontsize=10)
 # 		axarrb[2,1].set_title('Min Eigenvalue Probability', fontsize=10)
+# 		axarrb[3,0].set_title('Number Edges Probability', fontsize=10)
 
 		fp.savefig('stat_figs/pears.png')
 		fpt.savefig('stat_figs/pears_thresh.png')
