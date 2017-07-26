@@ -155,10 +155,12 @@
 \begin{document}
 \maketitle
 \section{Network Building}
-We are looking at creating ecological networks of a microbiome. I have built networks, in the form of graphs $\cG = (\cV, \cE)$. In these graphs, vertices are labeled by taxa name. The edge sets are defined by cooccurrence or correlation.
+My project centered around the creation and analysis of ecological networks of microbiomes. I built networks, in the form of graphs $\cG = (\cV, \cE)$, based on co-occurrence of organisms at various taxonomic levels. In these graphs, vertices are labeled by taxa name, and edge sets are defined by co-occurrence or correlation.
 
-\subsection{Cooccurence construction}
-Given a set of samples with abundancs of organisms, we map the abundances to discrete levels, as proportions of the maximum abundance \emph{of that organism}. Precisely, let the samples be $s_i$ and raw abundance of organism $j$ in sample $i$ be $r_{ji}$. I map the abundances according to
+\subsection{Co-occurrence construction}
+One method of building a co-occurrence network from a set of samples of microbial communities is to simply count how often various microbes co-occur. I refer to this as the ``binning method".
+
+Given a set of samples with abundances of organisms, I map the abundances to discrete levels, as proportions of the maximum abundance \emph{of that organism}. Precisely, let the samples be $s_i$ and raw abundance of organism $j$ in sample $i$ be $r_{ji}$. I map the abundances according to
 \[
 a(r_{ji})  = \left\{
 \begin{array}{c c}
@@ -171,9 +173,9 @@ where $m$ is some minimum. Then, I create weighted edges between vertices (where
 \[
 w^1_{jk} = \frac{\|\{i: a(r_{ji}) = a(r_{ki}) \neq 0\} \|}{S}
 \]
-where $S$ is the total number of samples. That is, we count the propotion of samples in which the two taxa appear at the same discritized level. 
+Here, $S$ is the total number of samples. That is, I count the proportion of samples in which the two taxa appear at the same discretized level. 
 
-The second network accounts for random coincidence of taxa in a sample, following \cite{coocc}. It begins with $\cG_1$, and compares to a null model $N$. The null model is defined in the following way.
+Next, I account for random coincidence of taxa in a sample, following \cite{coocc}. To do this, I compare to a null model. The null model is defined in the following way.
 \[
 A_j= \sum_{s_i} \b{1}_{a(r_{ji}) \neq 0}
 \] 
@@ -181,28 +183,28 @@ and
 \[
 S_i^l  = \sum_{v_j} \b{1}_{a(r_{ji}) = l}
 \]
-Then, $N$ assumes that if
+Then, the null model assumes that if
 \[
 X_{jil} \sim \mathit{binom}\left(A_j, \frac{S_i^l}{\sum_{il} S_i^l}\right)
 \]
-then $P(a_{ji}^N = l) = 1-P(X_{jil} = 0)$. This allows us to calculate the probability of co-incidence of taxa under the null model. Let $w_{jk}^N$ be
+then $P(a_{ji}^{null} = l) = 1-P(X_{jil} = 0)$. This allows us to calculate the probability of co-occurrence of taxa under the null model. Let $w_{jk}^{null}$ be
 \[
-w^N_{jk} = \|\{i: a_{ji}^N = a_{ki}^N \neq 0\} \|
+w^{null}_{jk} = \|\{i: a_{ji}^{null} = a_{ki}^{null} \neq 0\} \|
 \]
 This is the similar to the co-incidence model but now randomized. Then,
 \[
 P(w_{jk}^N = K) =  \sum_{\{A \subset \cV_2:|A| = k\}} \prod_{l\in A} a_{jl}a_{kl}\prod_{l \not\in A} (1- a_{jl}a_{kl})
 \]
-Ideally, we would then define $\cE_2$ by the weights
+Ideally, I would then define $\cE$ by the weights
 \[
 w_{jk}^2 = \left\{ \begin{array}{c c}
-1 & P(w_{jk}^N \geq w_{jk}^1) \leq t\\
-0 & P(w_{jk}^N < w_{jk}^1) > t
+1 & P(w_{jk}^{null} \geq w_{jk}^1) \leq t\\
+0 & P(w_{jk}^{null} < w_{jk}^1) > t
 \end{array}\right.
 \]
-However, that probability is intractible to compute. Instead, we take 
+However, that probability is intractable to compute. Instead, I take 
 \[
-\widetilde{P}(w_{jk}^N = K) = \sum_{l=0}^i \binom{N_1}{l}\binom{N_2}{K-l} p_1^j p_2^{K-l} (1-p_1)^{N-l}(1-p_2)^{N-K+l}
+\widetilde{P}(w_{jk}^{null} = K) = \sum_{l=0}^i \binom{N_1}{l}\binom{N_2}{K-l} p_1^j p_2^{K-l} (1-p_1)^{N-l}(1-p_2)^{N-K+l}
 \]
 where
 \[
@@ -212,77 +214,88 @@ and
 \[
 p_2 = p_a - \left(\frac{N_1}{N_2}\frac{N(\mu-\sigma^2)- \mu^2}{N^2}\right)^{\nhalf}
 \]
-Finally, $N_1$, $N_2$ are to ensure that $p_1,p_2 \in [0,1]$. It turns out we need:
+Finally, $N_1$, $N_2$ are to ensure that $p_1,p_2 \in [0,1]$. These must satisfy:
 \[
 \frac{\mu N (1-p_a) - N\sigma^2}{N(1-p_a)- \sigma^2} \leq N_2 \leq \frac{\mu^2}{\mu- \sigma^2}
 \]
-with $\mu$ the mean of the real distrubution, $\sigma^2$ the variance, and $p_a = \frac{1}{S}\sum_{i} a_{ji}a_{ki}$. So, we take 
+with $\mu$ the mean of the real distribution, $\sigma^2$ the variance, and $p_a = \frac{1}{S}\sum_{i} a_{ji}a_{ki}$. So, I take 
 \[
 w_{jk}^2 = \left\{ \begin{array}{c c}
-1 & \widetilde{P}(w_{jk}^N \geq w_{jk}^1) \geq t\\
-0 & \widetilde{P}(w_{jk}^N < w_{jk}^1) > t
+1 & \widetilde{P}(w_{jk}^{null} \geq w_{jk}^1) \geq t\\
+0 & \widetilde{P}(w_{jk}^{null} < w_{jk}^1) > t
 \end{array}\right.
 \]
 
-\subsection{An alternative correlation construction}
-An alternative to the binning above is Pearson's correlation coefficient. That is:
+\subsection{Correlation construction}
+An alternative to the binning above is sample correlation. With $N$ samples, that is:
 \[
 \rho_{xy} = \frac{1}{N}\frac{(\b{x}- \mu_x\b{1}) \cdot (\b{y} - \mu_y\b{1})}{\sigma_x \sigma_y}
 \]
-which can of course be constructed by modifying the data matrix and then multiplying with it's transpose. In expectation, this the covariance divided by the product of the variances. I can also use a Monte-Carlo approach to check significance, generating a random set of data and keeping high correlations that have low probability of occuring. 
-
-We can also threshold our data before calculating correlation, giving us another type of cooccurrence matrix.
-
-\subsection{Significance of network}
-Using a MC approach, I am checking the significance of each edge. I'd like to check the significance of the adjacency matrix as a whole. Luckily, there are some recent results about universal properties of the spectrum of random matrices we can use. Precisely, there are results about Wigner matrices (and extended to Erd\H{o}s-R\'{e}nyi graphs) that describe the distribution of eigenvalues and eigenvectors. We should be able to apply these results in order to asses the probability of seeing the spectrum we have under the null hypothesis of an Erd\H{o}s-R\'{e}nyi graph.
-
-A Wigner matrix is a symmetric (or Hermitian) matrix (ADD CITATION) such that
+where $\mu_x$ is the mean abundance of taxa $x$, and $\sigma_x$ is the standard deviation of abundance of taxa $x$ across samples. This can be constructed by modifying the data matrix and then multiplying with it's transpose, making it much faster to compute than the binning method. In expectation, this the covariance divided by the product of the variances. I then construct a graph with weighted edges
 \[
-X_{ij} = X_{ji} = \left\{\begin{array}{c c}
-Z_{ij} & i <j\\
-Y_i & i=j
+w_{ij} = \left\{\begin{array}{c c}
+\rho_{\b{r}_i\b{r}_j} & \rho_{\b{r}_i\b{r}_j}\geq 0.8\\
+0 &  \rho_{\b{r}_i\b{r}_j}< 0.8
 \end{array}\right.
 \]
-where $Z_{ij}$ are iid mean zero, and $Y_{i}$ iid centered. An Erd\H{o}s-R\'{e}nyin graph with $N$ nodes is one in which edges are chosen iid with probability $p(N)$. An Erd\H{o}s-R\'{e}nyi matrix is the adjacency matrix of an Erd\H{o}s-R\'{e}nyi graph, and so has entries in $\{0,1\}$. There is a result (ADD CITATION) about the universality of the spectral statistics of the graph as long as 
-\[
-pN \gg N^{\nicefrac{2}{3}}
-\]
-where $pN$ is the expected degree of each node. If $E$ is the number of edges in our graph, $E \approx pN^2$, and so we need
-\[
-\frac{E}{N} \gg N^{\nicefrac{2}{3}} \Rightarrow E \gg N^{\nicefrac{5}{3}}
-\] 
-to apply the result. Unfortunately, we do not have that.
 
-Our other option is more MC simulation. We can use that to estimate the spectral statistics of our network. This may be the way to go. 
+Alternatively, I can first ``thresh-hold" the abundances given, converting to binary presence/absence data. To do this, I find the mean of all non-zero abundance values $\mu_{nz}$, and then
+\[
+r^*_{ij} = \left\{\begin{array}{c c}
+1 & r_{ij} \geq 0.01\mu_{nz}\\
+0 & r_{ij} < 0.01 \mu_{nz}
+\end{array}\right.
+\]
+The network is then constructed using sample correlation just as before.
 
-More analytically, we have for an ER graph the degree distribution
+Again, I check the significance of each edge, removing edges that have a high probability of occurring in a null model. I check this using Monte-Carlo simulation by estimating $p_{ij} \approx P(\rho_{\b{r}_i^{null}\b{r}_j^{null}} > \rho_{\b{r}_i\b{r}_j})$. I take enough Monte-Carlo trials for a $95\%$ confidence interval of length $0.03$. I then adjust edges so that
 \[
-\bP(d_i = k) = \binom{N}{k}p^k(1-p)^{n-k}
+p_{ij} > 0.05 \Rightarrow w_{ij} = 0
 \]
-Clearly then, for any node we can ask the probability of seeing the node degree. What we really want is something like the probability that the min is what it is, the max is what it is, the sample mean is what it is, and so forth. We want to show that our degree distribution doesn't match this.
 
-If we are thinking about the weighted graph, our degree distribution is a little different. I think it's crazy hard to calculate. Again, we may be better off with an MC approach.
+\begin{inbox}{The Null Model}
+	Rather than simply generate an Erd\H{o}s-R\'{e}nyi random graph with some chosen parameter, I generate a graph that more closely reflects the idea of random data. That is, I start with random data and then generate a graph. I generate random data in the following way. Let 
+	\[
+	N_j = |\{i: r_{ij} \neq 0\}|
+	\]
+	and 
+	\[
+	P_i = \frac{|\{j: r_{ij}\neq 0 \}|}{|\{(i,j): r_{ij}\neq 0 \}|}
+	\]
+	then I take 
+	\[
+	\hat{r}_{ij} = \mathit{binom}(N_j,P_i)
+	\]
+	as randomly generated abundance data. The values $N_i$ are the counts of appearances of taxi $i$, while the values $P_i$ are the proportions of all appearances which happen within each sample. 
+	
+	Then, I construct our random graph from this random data. If $\hat{\b{r}}_i$ is the vector of random ``abundances" of taxa $i$, I have edges
+	\[
+	w_{ik}^{null} = \frac{1}{N}\frac{(\b{\hat{\b{r}}_i}- \hat{\mu}_i\b{1}) \cdot (\hat{\b{r}}_k - \hat{\mu}_k\b{1})}{\hat{\sigma}_i \hat{\sigma}_k}
+	\]
+\end{inbox}
 
-\subsubsection{Generating a random graph}
-Rather than simply generate an ER random graph, I want to generate a graph that more closely reflects the idea of random data. That is, I want to start with random data and then generate a graph. I will show that this is \emph{not} an ER random graph. I generate ``random data" in the following way. Let 
-\[
-N_j = |\{i: r_{ij} \neq 0\}|
-\]
-and 
-\[
-P_i = \frac{|\{j: r_{ij}\neq 0 \}|}{|\{(i,j): r_{ij}\neq 0 \}|}
-\]
-then we take 
-\[
-\hat{r}_{ij} = \mathit{binom}(N_j,P_i)
-\]
-as randomly generated abundance data. The values $N_i$ is how many samples a taxa appeared in, while the $P_i$ give higher probability to samples that have have more organisms. Notice that our ``random samples" should be scaled by average abundances of a taxa across samples to ``look like" real data. This doesn't effect correlation, because $\mathit{Cov}(ax,by) = ab\mathit{Cov}(x,y)$, and $\sigma_x = \mathit{Cov}(x,x)^{\nhalf}$.
+The null model's use of a binolmial random variable can be interpreted in the following way. A ``success" for a taxa/sample pair is an appearance of the taxa in the sample. The number of trials is the number of times the taxa appears in the data set. The probability of success is the proportion of all appearances which happen within the sample. This does have some drawbacks: notably that it does not preserve total abundance, or even total appearances. It allows more than one ``success" for a single taxa/sample pair, which could be interpreted as higher abundance. Our ``random samples" should be scaled by average abundances of a taxa across samples to ``look like" real data. This doesn't effect correlation, because $\mathit{Cov}(ax,by) = ab\mathit{Cov}(x,y)$, and $\sigma_x = \mathit{Cov}(x,x)^{\nhalf}$, implying that $w_{ik} = \mathit{Cor}(\hat{\b{r}}_i,\hat{\b{r}}_k) =  \mathit{Cor}(a\hat{\b{r}}_i,b\hat{\b{r}}_k)$. Notice also that the null model is the same as in the binning procedure, with a different construction of a correlation graph.
 
-Then, we construct our random graph from this random data. If $\hat{\b{r}}_i$ is the vector of random ``abundances" of taxa $i$, we have edges
-\[
-w_{ik} = \frac{1}{N}\frac{(\b{\hat{\b{r}}_i}- \hat{\mu}_i\b{1}) \cdot (\hat{\b{r}}_k - \hat{\mu}_k\b{1})}{\hat{\sigma}_i \hat{\sigma}_k}
-\]
-and we want to know whether or not these are identically distributed. We have that $\bE w_{ik} = 0$ because $\b{r}_i$ and $\b{r}_k$ are independent. 
+In \cite{coocc}, this model is called the ``binomial model". Interestingly, that paper argues that an ``edge swapping" model is more accurate. However, I have chosen the binomial model for speed.
+
+\subsection{Significance of the network}
+I show that the networks connected by the methods above would not occur in randomized data, and so argue for the significance of the networks. I generate random data as in the correlation construction of the network. I then use Monte-Carlo simulation to estimate the following
+\begin{itemize}
+	\item $P(\mu_d < \mu_d^{null})$, where $\mu_d$ is the mean degree of the nodes of a network
+	\item $P(\sigma_d < \sigma_d^{null})$, where $\sigma_d$ is the variance of degrees of the nodes of a network
+	\item $P(\lambda_{max} < \lambda_{max}^{null})$, where $\lambda_{max}$ is the largest eigenvalue of the adjacency matrix
+	\item $P(\lambda_{min} < \lambda_{min}^{null})$, where $\lambda_{min}$ is the smallest eigenvalue of the adjacency matrix
+	\item $P(|\cE| < |\cE^{null}|)$
+\end{itemize} 
+
+The result with $10,000$ Monte Carlo trials was that it was extremely rare for a network constructed from a null model to have higher mean degree, higher degree variance, larger maximum eigenvalue, smaller minimum eigenvalue, or more edges. This suggests that the networks constructed from real data would be very unexpected according to the null model. 
+
+In addition to testing the complete network, I performed the same analysis on networks built from randomly drawn subsets of the data.
+
+\begin{figure}
+	\includegraphics[scale = 0.4]{../stat_figs/pears_1000__species.png}
+	\caption{The result of Monte-Carlo estimation of the likelihood of various network statistitics, as well as the number of edges and mean degree. The networks were made from correlations using randomly drawn subsets of the data of increasing size, from 1 sample to all 60 samples. For each network, 1000 random trials were generated according to the above null model in order to estimate likelihood of statistics.}\label{montecarlos}
+\end{figure}
 
 \section{Network Analysis}
 We can cluster - community clustering, spectral clustering, comparing to random graphs. Comparison of clusters to grouping by sample type.

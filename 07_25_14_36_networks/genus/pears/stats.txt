@@ -1,0 +1,10 @@
+pears: genus 
+Number of Edges, Mean Degree, Mean Degree Prob., Degree Variance Prob., Max Eigenvalue Prob., Min Eigenvalue Prob., Number of Edges Prob.
+[556.0, 5.1921270981190375, 0.0, 0.0, 0.0, 1.0, 0.0]
+All probabilities are probability that random is as high as observed
+
+pears_thr: genus 
+Number of Edges, Mean Degree, Mean Degree Prob., Degree Variance Prob., Max Eigenvalue Prob., Min Eigenvalue Prob., Number of Edges Prob.
+[343.0, 4.6662753635819767, 0.0, 0.0031, 0.0, 1.0, 0.0039]
+All probabilities are probability that random is as high as observed
+

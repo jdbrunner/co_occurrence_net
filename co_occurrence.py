@@ -165,9 +165,9 @@ for i in level:
 				flname4t = net_name+'/pears/'+i + '_' + stype+'_'+held+'thr_list.tsv'
 				flname6t = net_name+'/pears/'+i + '_' + stype+'_'+held+'thr_node_data.tsv'
 			
-				flname3 = net_name+'/pears/'+i + '_' + stype+'_'+held+'_adj.tsv'
-				flname4 = net_name+'/pears/'+i + '_' + stype+'_'+held+'_list.tsv'
-				flname6 = net_name+'/pears/'+i + '_' + stype+'_'+held+'_node_data.tsv'
+				flname3 = net_name+'/pears/'+i + '_' + stype+'_'+held+'cor_adj.tsv'
+				flname4 = net_name+'/pears/'+i + '_' + stype+'_'+held+'cor_list.tsv'
+				flname6 = net_name+'/pears/'+i + '_' + stype+'_'+held+'cor_node_data.tsv'
 			else:
 				flname1 = net_name+'/bins/'+i + '_' + stype+'_adj.tsv'
 				flname2 = net_name+'/bins/'+i + '_' + stype+'_list.tsv'
@@ -177,9 +177,9 @@ for i in level:
 				flname4t = net_name+'/pears/'+i + '_' + stype+'thr_list.tsv'
 				flname6t = net_name+'/pears/'+i + '_' + stype+'thr_node_data.tsv'
 			
-				flname3 = net_name+'/pears/'+i + '_' + stype+'_adj.tsv'
-				flname4 = net_name+'/pears/'+i + '_' + stype+'_list.tsv'
-				flname6 = net_name+'/pears/'+i + '_' + stype+'_node_data.tsv'
+				flname3 = net_name+'/pears/'+i + '_' + stype+'cor_adj.tsv'
+				flname4 = net_name+'/pears/'+i + '_' + stype+'cor_list.tsv'
+				flname6 = net_name+'/pears/'+i + '_' + stype+'cor_node_data.tsv'
 				
 			
 			adjacency_frames_bins.to_csv(flname1, sep = '\t')

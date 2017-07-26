@@ -1,6 +1,6 @@
 #!/bin/bash
 
-dt=$(date "+%m_%d_%M")
+dt=$(date "+%m_%d_%H_%M")
 
 declare -a levels=("genus" "species")
 
@@ -11,11 +11,20 @@ do
 	python3 co_occurrence.py merged_assignment.txt $lv $dt'_networks/'$lv False True
 	python3 cluster_net.py $dt'_networks/'$lv'/bins'
 	python3 cluster_net.py $dt'_networks/'$lv'/pears'
-	# for fl in $dt'_networks/'$lv'/bins/clustered/'*.tsv; do
-# 		python3 cleanup.py $fl
-# 	done
-# 	for fl in $dt'_networks/'$lv'/pears/clustered/'*.tsv; do
-# 		python3 cleanup.py $fl
-# 	done
-done
 
+	cd $dt'_networks/'$lv'/pears'
+	npear=$(find . -name '*cor_adj.tsv')
+	npearthr=$(find . -name '*thr_adj.tsv')
+# 	cd ../'bins'
+# 	nbinned=$()
+	cd ../../..
+	
+# 	echo $npear
+# 	echo $npearthr
+			
+	python3 network_stats.py merged_assignment.txt $lv False True $dt'_networks/'$lv'/pears/'$npear pears
+	echo $npear
+	python3 network_stats.py merged_assignment.txt $lv False True $dt'_networks/'$lv'/pears/'$npearthr pears_thr
+	echo $nearthr
+# 	python3 network_stats.py merged_assignment.txt $lv False True $dt'_networks/'$lv'/bins/' binned
+done

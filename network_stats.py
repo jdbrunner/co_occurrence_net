@@ -90,6 +90,8 @@ else:
 	ab_arrays = [abundance_array_full]
 
 
+		
+		
 for i in level:
 	for ii in range(len(ab_arrays)):
 		if sample_types:
@@ -114,156 +116,185 @@ for i in level:
 
 		
 		
-		#####TESTING
-		testing = False
-		if testing:
+		#####run on given networks
+		premade = sys.argv[4]
+		if premade == 'True':
+			premade = True
+		else:
+			premade = False
+		if premade:
 			this_array = lvl_abundance_array
-			pears = build_network(this_array, 'pearson', thr = False, list_too = False)
-			pears_thr = build_network(this_array, 'pearson', thr = True, list_too = False)
-			binned = build_network(this_array, 'bins', list_too = False)
 			
-			print('built')
+			#get the adjacency matrix of the network
+			adj_name = sys.argv[5]
+			type = sys.argv[6]
+# 			pears_thr_name = sys.argv[6]
+# 			binned_name = sys.argv[7]
 			
-			pears_data = pears.values
-			pears_thr_data = pears.values
-			binned_data = binned.values
+			adj = pd.read_csv(adj_name, sep = '\t', index_col = 0)#build_network(this_array, 'pearson', thr = False, list_too = False)
+# 			pears_thr = pd.read_csv(pears_thr_name, sep = '\t', index_col = 0)#build_network(this_array, 'pearson', thr = True, list_too = False)
+# 			binned = pd.read_csv(binned_name, sep = '\t', index_col = 0)#build_network(this_array, 'bins', list_too = False)
+# 						
+			adj_data = adj.values
+# 			pears_thr_data = pears.values
+# 			binned_data = binned.values
 		
-			num_edges_p = len(pears_data.nonzero()[0])/2
-			num_edges_pt = len(pears_thr_data.nonzero()[0])/2
-			num_edges_b = len(binned_data.nonzero()[0])/2
+			num_edges = len(adj_data.nonzero()[0])/2
+# 			num_edges_pt = len(pears_thr_data.nonzero()[0])/2
+# 			num_edges_b = len(binned_data.nonzero()[0])/2
 		
-			mean_deg_p = mean(pears_data.sum(axis = 1))
-			mean_deg_pt = mean(pears_thr_data.sum(axis = 1))
-			mean_deg_b = mean(binned_data.sum(axis = 1))
+			mean_deg = mean(adj_data.sum(axis = 1))
+# 			mean_deg_pt = mean(pears_thr_data.sum(axis = 1))
+# 			mean_deg_b = mean(binned_data.sum(axis = 1))
 			
 			this_np_array = this_array.values[:,2:]
-			[p_md_p, p_vd_p, p_max_ev_p, p_min_ev_p] = mc_network_stats(this_np_array, pears_data)
-			print('pears')
-			print([num_edges_p, mean_deg_p, p_md_p, p_vd_p, p_max_ev_p, p_min_ev_p])
 			
-			[p_md_pt, p_vd_pt, p_max_ev_pt, p_min_ev_pt] = mc_network_stats(this_np_array, pears_thr_data, thr = True)
-			print('pears_thr')
-			print([num_edges_pt, mean_deg_pt, p_md_pt, p_vd_pt, p_max_ev_pt, p_min_ev_pt])
+			fld_where = adj_name.rfind('/')
+			fl_nm = adj_name[:fld_where] +'/stats.txt'
+			file = open(fl_nm,'a') 
 			
-			[p_md_b, p_vd_b, p_max_ev_b, p_min_ev_b] = mc_network_stats(this_np_array, binned_data, bins = True)
-			print('binned')
-			print([num_edges_b, mean_deg_b, p_md_b, p_vd_b, p_max_ev_b, p_min_ev_b])
-	
-			sys.exit()
+			if type == 'pears':
+				[p_md, p_vd, p_max_ev, p_min_ev, p_num_edges] = mc_network_stats(this_np_array, adj_data, sims  = 10000)
+				file.write('pears: '+i+' '+stype+'\n')
 			
-		num_edges_p = zeros(num_samples)
-		mean_deg_p = zeros(num_samples)
-		p_md_p = zeros(num_samples)
-		p_vd_p = zeros(num_samples)
-		p_max_ev_p = zeros(num_samples)
-		p_min_ev_p = zeros(num_samples)
-		p_num_edges_p = zeros(num_samples)
+			elif type == 'pears_thr':
+				[p_md, p_vd, p_max_ev, p_min_ev, p_num_edges] = mc_network_stats(this_np_array, adj_data, thr = True, sims = 10000)
+				file.write('pears_thr: '+i+' '+stype+'\n')
+
+			elif type == 'binned':
+				[p_md, p_vd, p_max_ev, p_min_ev, p_num_edges] = mc_network_stats(this_np_array, adj_data, bins = True, sims = 10000)
+				file.write('binned: '+i+' '+stype+'\n')
+
+			file.write('Number of Edges, Mean Degree, Mean Degree Prob., Degree Variance Prob., Max Eigenvalue Prob., Min Eigenvalue Prob., Number of Edges Prob.\n')
+			file.write(str([num_edges, mean_deg, p_md, p_vd, p_max_ev, p_min_ev, p_num_edges])+'\n')
+			file.write('All probabilities are probability that random is as high as observed\n\n')
+
+			
+			file.close()
+			
+		build_many = False
+		if 	build_many:
+			num_edges_p = zeros(num_samples)
+			mean_deg_p = zeros(num_samples)
+			p_md_p = zeros(num_samples)
+			p_vd_p = zeros(num_samples)
+			p_max_ev_p = zeros(num_samples)
+			p_min_ev_p = zeros(num_samples)
+			p_num_edges_p = zeros(num_samples)
 		
-		num_edges_pt = zeros(num_samples)
-		mean_deg_pt = zeros(num_samples)
-		p_md_pt = zeros(num_samples)
-		p_vd_pt = zeros(num_samples)
-		p_max_ev_pt = zeros(num_samples)
-		p_min_ev_pt = zeros(num_samples)
-		p_num_edges_pt = zeros(num_samples)
+			num_edges_pt = zeros(num_samples)
+			mean_deg_pt = zeros(num_samples)
+			p_md_pt = zeros(num_samples)
+			p_vd_pt = zeros(num_samples)
+			p_max_ev_pt = zeros(num_samples)
+			p_min_ev_pt = zeros(num_samples)
+			p_num_edges_pt = zeros(num_samples)
 		
-# 		num_edges_b = zeros(num_samples)
-# 		mean_deg_b = zeros(num_samples)
-# 		p_md_b = zeros(num_samples)
-# 		p_vd_b = zeros(num_samples)
-# 		p_max_ev_b = zeros(num_samples)
-# 		p_min_ev_b = zeros(num_samples)	
-#		p_num_edges_b = zeros(num_samples)
+	# 		num_edges_b = zeros(num_samples)
+	# 		mean_deg_b = zeros(num_samples)
+	# 		p_md_b = zeros(num_samples)
+	# 		p_vd_b = zeros(num_samples)
+	# 		p_max_ev_b = zeros(num_samples)
+	# 		p_min_ev_b = zeros(num_samples)	
+	#		p_num_edges_b = zeros(num_samples)
 
 
-		for ns in range(1,10):#num_samples):
-			#print('\r',ns, '/',num_samples - 1, end = '     ')
-			chs = array(sample(range(num_samples), ns)) + 2
-			this_array = lvl_abundance_array.loc[:,lvl_abundance_array.columns[append([0,1],chs)]]
-			print(this_array.columns)
-			#build a network with a subset of the data
-			pears = build_network(this_array, 'pearson', thr = False, list_too = False)
-			pears_thr = build_network(this_array, 'pearson', thr = True, list_too = False)
-			#binned = build_network(this_array, 'bins', list_too = False)
+			for ns in range(1,num_samples):
+				print('\r',ns, '/',num_samples - 1, end = '     ')
+				chs = array(sample(range(num_samples), ns)) + 2
+				this_array = lvl_abundance_array.loc[:,lvl_abundance_array.columns[append([0,1],chs)]]
+				#print(this_array.columns)
+				#build a network with a subset of the data
+				pears = build_network(this_array, 'pearson', thr = False, list_too = False)
+				pears_thr = build_network(this_array, 'pearson', thr = True, list_too = False)
+				#binned = build_network(this_array, 'bins', list_too = False)
 			
-			pears_data = pears.values
-			pears_thr_data = pears_thr.values
-			#binned_data = binned.values
+				pears_data = pears.values
+				pears_thr_data = pears_thr.values
+				#binned_data = binned.values
 			
-			num_edges_p[ns] = len(pears_data.nonzero()[0])/2
-			num_edges_pt[ns] = len(pears_thr_data.nonzero()[0])/2
-			#num_edges_b[ns] = len(binned_data.nonzero()[0])/2
+				num_edges_p[ns] = len(pears_data.nonzero()[0])/2
+				num_edges_pt[ns] = len(pears_thr_data.nonzero()[0])/2
+				#num_edges_b[ns] = len(binned_data.nonzero()[0])/2
 			
-			mean_deg_p[ns] = mean(pears_data.sum(axis = 1))
-			mean_deg_pt[ns] = mean(pears_thr_data.sum(axis = 1))
-			#mean_deg_b[ns] = mean(binned_data.sum(axis = 1))
+				mean_deg_p[ns] = mean(pears_data.sum(axis = 1))
+				mean_deg_pt[ns] = mean(pears_thr_data.sum(axis = 1))
+				#mean_deg_b[ns] = mean(binned_data.sum(axis = 1))
 			
-			
-			this_np_array = this_array.values[:,2:]
-			[p_md_p[ns], p_vd_p[ns], p_max_ev_p[ns], p_min_ev_p[ns],p_num_edges_p[ns]] = mc_network_stats(this_np_array, pears_data, sims = 1000)
-			[p_md_pt[ns], p_vd_pt[ns], p_max_ev_pt[ns], p_min_ev_pt[ns], p_num_edges_pt[ns]] = mc_network_stats(this_np_array, pears_thr_data, thr = True, sims = 1000)
-			#[p_md_b[ns], p_vd_b[ns], p_max_ev_b[ns], p_min_ev_b[ns],p_num_edges_b[ns]] = mc_network_stats(this_np_array, binned_data, bins = True, sims = 1000)
+				num_mc_sims = 1000
+				this_np_array = this_array.values[:,2:]
+				[p_md_p[ns], p_vd_p[ns], p_max_ev_p[ns], p_min_ev_p[ns],p_num_edges_p[ns]] = mc_network_stats(this_np_array, pears_data, sims = num_mc_sims)
+				[p_md_pt[ns], p_vd_pt[ns], p_max_ev_pt[ns], p_min_ev_pt[ns], p_num_edges_pt[ns]] = mc_network_stats(this_np_array, pears_thr_data, thr = True, sims = num_mc_sims)
+				#[p_md_b[ns], p_vd_b[ns], p_max_ev_b[ns], p_min_ev_b[ns],p_num_edges_b[ns]] = mc_network_stats(this_np_array, binned_data, bins = True, sims = num_mc_sims)
 
-		fp, axarrp = plt.subplots(4,2)
-		fpt, axarrpt = plt.subplots(4,2)
-		#fb, ararrb = plt.subplots(4,2)
+			fp, axarrp = plt.subplots(4,2, figsize=(20, 10))
+			fpt, axarrpt = plt.subplots(4,2, figsize=(20, 10))
+			#fb, ararrb = plt.subplots(4,2, figsize=(20, 10))
 		
-		fp.suptitle('correlation '+stype+' '+i)
-		axarrp[0,0].plot(range(num_samples),num_edges_p)
-		axarrp[0,1].plot(range(num_samples),mean_deg_p)
-		axarrp[1,1].plot(range(num_samples),p_md_p)
-		axarrp[1,0].plot(range(num_samples),p_vd_p)
-		axarrp[2,0].plot(range(num_samples),p_max_ev_p)
-		axarrp[2,1].plot(range(num_samples),p_min_ev_p)
-		axarrp[3,0].plot(range(num_samples),p_num_edges_p)
+			plt.setp(axarrp, xticks=[])
+			plt.setp(axarrpt, xticks=[])
+			#plt.setp(axarrb, xticks=[])
 		
-		axarrp[0,0].set_title('Number Edges', fontsize=10)
-		axarrp[0,1].set_title('Mean Degree', fontsize=10)
-		axarrp[1,1].set_title('Mean Degree Probability', fontsize=10)
-		axarrp[1,0].set_title('Degree Variance Probability', fontsize=10)
-		axarrp[2,0].set_title('Max Eigenvalue Probability', fontsize=10)
-		axarrp[2,1].set_title('Min Eigenvalue Probability', fontsize=10)
-		axarrp[3,0].set_title('Number Edges Probability', fontsize=10)
 		
-		fpt.suptitle('correlation threshholded '+stype+' '+i)
-		axarrpt[0,0].plot(range(num_samples),num_edges_pt)
-		axarrpt[0,1].plot(range(num_samples),mean_deg_pt)
-		axarrpt[1,1].plot(range(num_samples),p_md_pt)
-		axarrpt[1,0].plot(range(num_samples),p_vd_pt)
-		axarrpt[2,0].plot(range(num_samples),p_max_ev_pt)
-		axarrpt[2,1].plot(range(num_samples),p_min_ev_pt)
-		axarrpt[3,0].plot(range(num_samples),p_num_edges_pt)
+			fp.suptitle('correlation '+stype+' '+i)
+			axarrp[0,0].plot(range(num_samples),num_edges_p)
+			axarrp[0,1].plot(range(num_samples),mean_deg_p)
+			axarrp[1,1].plot(range(num_samples),p_md_p)
+			axarrp[1,0].plot(range(num_samples),p_vd_p)
+			axarrp[2,0].plot(range(num_samples),p_max_ev_p)
+			axarrp[2,1].plot(range(num_samples),p_min_ev_p)
+			axarrp[3,0].plot(range(num_samples),p_num_edges_p)
+			axarrp[3,1].axis('off')
 		
-		axarrpt[0,0].set_title('Number Edges', fontsize=10)
-		axarrpt[0,1].set_title('Mean Degree', fontsize=10)
-		axarrpt[1,1].set_title('Mean Degree Probability', fontsize=10)
-		axarrpt[1,0].set_title('Degree Variance Probability', fontsize=10)
-		axarrpt[2,0].set_title('Max Eigenvalue Probability', fontsize=10)
-		axarrpt[2,1].set_title('Min Eigenvalue Probability', fontsize=10)
-		axarrpt[3,0].set_title('Number Edges Probability', fontsize=10)
+			axarrp[0,0].set_title('Number Edges', fontsize=10)
+			axarrp[0,1].set_title('Mean Degree', fontsize=10)
+			axarrp[1,1].set_title('Mean Degree Probability', fontsize=10)
+			axarrp[1,0].set_title('Degree Variance Probability', fontsize=10)
+			axarrp[2,0].set_title('Max Eigenvalue Probability', fontsize=10)
+			axarrp[2,1].set_title('Min Eigenvalue Probability', fontsize=10)
+			axarrp[3,0].set_title('Number Edges Probability', fontsize=10)
 		
-# 		fpt.suptitle('binned '+stype+' '+i)
-# 		axarrb[0,0].plot(range(num_samples),num_edges_b)
-# 		axarrb[0,1].plot(range(num_samples),mean_deg_b)
-# 		axarrb[1,1].plot(range(num_samples),p_md_b)
-# 		axarrb[1,0].plot(range(num_samples),p_vd_b)
-# 		axarrb[2,0].plot(range(num_samples),p_max_ev_b)
-# 		axarrb[2,1].plot(range(num_samples),p_min_ev_b)
-# 		axarrb[3,0].plot(range(num_samples),p_num_edges_b)
-# 		
-# 		axarrb[0,0].set_title('Number Edges', fontsize=10)
-# 		axarrb[0,1].set_title('Mean Degree', fontsize=10)
-# 		axarrb[1,1].set_title('Mean Degree Probability', fontsize=10)
-# 		axarrb[1,0].set_title('Degree Variance Probability', fontsize=10)
-# 		axarrb[2,0].set_title('Max Eigenvalue Probability', fontsize=10)
-# 		axarrb[2,1].set_title('Min Eigenvalue Probability', fontsize=10)
-# 		axarrb[3,0].set_title('Number Edges Probability', fontsize=10)
+			fpt.suptitle('correlation threshholded '+stype+' '+i)
+			axarrpt[0,0].plot(range(num_samples),num_edges_pt)
+			axarrpt[0,1].plot(range(num_samples),mean_deg_pt)
+			axarrpt[1,1].plot(range(num_samples),p_md_pt)
+			axarrpt[1,0].plot(range(num_samples),p_vd_pt)
+			axarrpt[2,0].plot(range(num_samples),p_max_ev_pt)
+			axarrpt[2,1].plot(range(num_samples),p_min_ev_pt)
+			axarrpt[3,0].plot(range(num_samples),p_num_edges_pt)
+			axarrpt[3,1].axis('off')
+		
+			axarrpt[0,0].set_title('Number Edges', fontsize=10)
+			axarrpt[0,1].set_title('Mean Degree', fontsize=10)
+			axarrpt[1,1].set_title('Mean Degree Probability', fontsize=10)
+			axarrpt[1,0].set_title('Degree Variance Probability', fontsize=10)
+			axarrpt[2,0].set_title('Max Eigenvalue Probability', fontsize=10)
+			axarrpt[2,1].set_title('Min Eigenvalue Probability', fontsize=10)
+			axarrpt[3,0].set_title('Number Edges Probability', fontsize=10)
+		
+	# 		fpt.suptitle('binned '+stype+' '+i)
+	# 		axarrb[0,0].plot(range(num_samples),num_edges_b)
+	# 		axarrb[0,1].plot(range(num_samples),mean_deg_b)
+	# 		axarrb[1,1].plot(range(num_samples),p_md_b)
+	# 		axarrb[1,0].plot(range(num_samples),p_vd_b)
+	# 		axarrb[2,0].plot(range(num_samples),p_max_ev_b)
+	# 		axarrb[2,1].plot(range(num_samples),p_min_ev_b)
+	# 		axarrb[3,0].plot(range(num_samples),p_num_edges_b) 
+	#		axarrb[3,1].axis('off')
+		
+	# 		axarrb[0,0].set_title('Number Edges', fontsize=10)
+	# 		axarrb[0,1].set_title('Mean Degree', fontsize=10)
+	# 		axarrb[1,1].set_title('Mean Degree Probability', fontsize=10)
+	# 		axarrb[1,0].set_title('Degree Variance Probability', fontsize=10)
+	# 		axarrb[2,0].set_title('Max Eigenvalue Probability', fontsize=10)
+	# 		axarrb[2,1].set_title('Min Eigenvalue Probability', fontsize=10)
+	# 		axarrb[3,0].set_title('Number Edges Probability', fontsize=10)
 
-		fp.savefig('stat_figs/pears.png')
-		fpt.savefig('stat_figs/pears_thresh.png')
-		#fb.savefig('stat_figs/binned.png')
+			fp.savefig('stat_figs/pears_'+ str(num_mc_sims) +'_' +stype +'_'+ i+ '.png')
+			fpt.savefig('stat_figs/pears_thresh_'+ str(num_mc_sims) +'_' +stype +'_'+  i+  '.png')
+			#fb.savefig('stat_figs/binned_'+ str(num_mc_sims) + '_' +stype +'_'+  i+ '.png')
 		
-		#plt.show()
+			#plt.show()
 
 
 

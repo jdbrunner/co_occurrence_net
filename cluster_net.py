@@ -51,8 +51,8 @@ for that_net in range(numnets):
 	adj_mat = network_mat.values[:,1:]
 	communities = com_clust(network_mat)
 	spect = spectral_cluster(adj_mat)
-	spectcols = color_picker2(unique(spect))
-	commcols = color_picker2(unique(communities[0]))
+	spectcols = color_picker2(array(range(max(spect)+1)))
+	commcols = color_picker2(array(range(max(communities[0])+1)))#unique(communities[0]))
 	
 	node_data['spect_cluster'] = zeros(len(node_data))
 	node_data['commun_cluster'] = zeros(len(node_data))
