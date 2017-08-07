@@ -1,39 +1,28 @@
 from pylab import *
 import pandas as pd
 import sys
-import itertools as iter
-from scipy.special import binom as choose
-from scipy.stats import binom
-from numpy.random import binomial as bino
-import re
-import time
-import numpy.ma as mask
 from co_occ_funs import *
+import os
 
 
-csv_name = 'merged_assignment.txt'
-
-######Import the abundance matrix
-#Makes a pandas DataFrame, use abundance_array.keys() to see column labels, 
-abundance_array_full = pd.read_csv(csv_name, sep = ' ')
-#
-
-#Combine samples of the same kind (that is, the same part of the body) so that we can 
-#color according to where abundance of a genome is highest.
-diff_samps_types = unique([name[:-10] for name in array(abundance_array_full.keys())[2:]])
-data_samps_types = transpose([sum([abundance_array_full[samp] for samp in abundance_array_full.keys()[2:]
-							 if smp_type in samp],axis = 0) for smp_type in diff_samps_types])
-
-samp_type_abund = pd.DataFrame(data_samps_types, columns = diff_samps_types)
-
-samp_type_norm = True
-if samp_type_norm:
-	for col in samp_type_abund.columns:
-		tot = sum(samp_type_abund[col])
-		samp_type_abund[col] = samp_type_abund[col]/tot
 
 
-samp_type_abund['TAXA'] = abundance_array_full['TAXA']
+# os.environ['JOBLIB_START_METHOD'] = 'forkserver'
+# 
+# import joblib
 
-s_type1 = color_picker(samp_type_abund.iloc[15][:-1])
-print(s_type1)
+if __name__ == '__main__':
+
+	lvl_abundance_array = pd.DataFrame(rand(100,50))
+	lvl_abundance_array['LEVEL'] = array([10]*len(lvl_abundance_array))
+	lvl_abundance_array['TAXA'] = rand(len(lvl_abundance_array))
+
+
+	pears = build_network(lvl_abundance_array, 'pearson', thr = False, list_too = False)
+	stats = mc_network_stats(lvl_abundance_array.values, pears.values, sims = 100)
+	print(stats)
+
+
+
+
+

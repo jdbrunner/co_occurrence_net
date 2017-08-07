@@ -23,6 +23,13 @@ import numpy.ma as mask
 from scipy import misc, sparse, cluster
 from random import sample
 
+import os
+os.environ['JOBLIB_START_METHOD'] = 'forkserver'
+
+
+from joblib import Parallel, delayed, cpu_count
+
+
 
 
 
@@ -155,22 +162,29 @@ def approx_rand_prob(occ,wij,i,j):
 
 
 	
-def mc_pearson(N,P,W,data_header = None,num_samps = 100):
+def mc_pearson(N,P,W,num_samps = 100):
 	'''MC approximation for pearson coefficient where X is a random vector of binomial(n1,p1)
 	and Y is a random vector of binomial(n2,p2), where p1,p2 are vectors. Expected value is identity.'''
-	mc_samples = zeros((num_samps,N.shape[0],N.shape[0]))
 	N = N.astype(int)
-	for s in range(num_samps):
-		the_rand_mat = bino(N,P)
-		meanss = mean(the_rand_mat,axis = 1)
-		vars = std(the_rand_mat,axis =1)
-		vars[where(vars == 0)] = 1
-		the_rand_mat = dot(diag(1/vars),transpose(transpose(the_rand_mat) - meanss))
-		rand_weights = (1/the_rand_mat.shape[1])*dot(the_rand_mat,transpose(the_rand_mat))
-		comp_mat = rand_weights - W #- eye(rand_weights.shape[0])
-		mc_samples[s][where(comp_mat >= 0)] =  1
-	#print(1.96*var(mc_samples,axis = 0).max()/(num_samps**(1/2)))
+#	mc_samples = Parallel(n_jobs = -1)(delayed(make_null)(N,P,W) for i in range(num_samps))
+	mc_samples = zeros([num_samps,N.shape[0],N.shape[0]])
+	for i in range(num_samps):
+		mc_samples[i] = make_null(N,P,W)
 	return mean(mc_samples,axis = 0)#,var(mc_samples,axis = 0).max()]
+	
+def make_null(N,P,W):
+	'''Companion to mc_pearson for parallelization'''
+	the_rand_mat = bino(N,P)
+	meanss = mean(the_rand_mat,axis = 1)
+	vars = std(the_rand_mat,axis =1)
+	vars[where(vars == 0)] = 1
+	the_rand_mat = dot(diag(1/vars),transpose(transpose(the_rand_mat) - meanss))
+	rand_weights = (1/the_rand_mat.shape[1])*dot(the_rand_mat,transpose(the_rand_mat))
+	comp_mat = rand_weights - W #- eye(rand_weights.shape[0])
+	sample = zeros([N.shape[0],N.shape[0]])
+	sample[where(comp_mat >= 0)] =  1
+	return sample
+	
 	
 def mc_pearson_thr(N,P,W,data_header = None,num_samps = 1000):
 	'''MC approximation for pearson coefficient where X is a random vector of binomial(n1,p1)
@@ -376,6 +390,48 @@ def make_meta(edges, ab_by_samp_type, orig_array):
 	##and return
 	return[edges, node_data]
 	
+def make_meta_from_file(edges, metadata, orig_array):
+	'''Make a node attribute table using sample metadata file. edges is the network dataframe
+	while metadata is a dataframe of metadata, and orig_array is the array of abundances (at 
+	the appropriate taxonomic level). The index set of the metadata should correspond columns 
+	2: of the orig_array'''
+	#initialize the node table	
+	num_samps = len(metadata)
+	all_taxa = list(edges['source'].values) + list(edges['target'].values)
+	node_data = pd.DataFrame(all_taxa, columns = ['TAXA'])
+	node_data.drop_duplicates(inplace = True)
+	taxa_net = node_data['TAXA'].values
+	## determine the metadata categories
+	cats = list(metadata.columns)
+	cats.remove('Name')
+	#for each category, classify the taxa
+	for c in cats:
+		#get the possibilities:
+		this_cat = metadata[c].values
+		typesof = unique(this_cat)
+		if len(typesof) > 0.9*num_samps:
+			#if the category is numerical (BMI for example), we need to bin it
+			numbins = 10
+			typesof = linspace(min(this_cat), max(this_cat), numbins)
+			x = subtract.outer(this_cat, typesof) #row j is this_cat[j] - typesof
+			y = argmin(abs(x),axis = 1) #entry j is entry number of typesof closest to this_cat[j]
+			catdat = pd.DataFrame(typesof[y], columns = [c], index = metadata.index)
+		else:
+			catdat = metadata[c]
+		summed = transpose(array([sum(orig_array[catdat.index[(catdat == let).T.values[0]]], axis = 1).values for let in unique(catdat.values)]))
+		sumdf = pd.DataFrame(summed, columns = unique(catdat.values), index = orig_array.index)
+		sumdf['TAXA'] = orig_array.loc(sumdf.index,'TAXA')
+		ilocs_of_tax = [where(sumdf['TAXA'] == tx) for tx in taxa_net]
+		assign = [color_picker(sumdf.iloc[rw[0][0]][:-1]) for rw in ilocs_of_tax]
+		types = [asment[0] for asment in assign]
+		color_types = [asment[1] for asment in assign]
+		node_data[c+'_type'] = types
+		node_data[c+'_color'] = color_types
+	return node_data
+	
+	
+	
+	
 		
 #########################################
 ####################################  Analysis of a whole network			 #########
@@ -408,14 +464,27 @@ def mc_network_stats(abdata, network, thr = False, bins = False, sims = 1000):
 	P_v = array([len(nonzero(ab_col)[0]) for ab_col in transpose(abdata)])/len(abdata) ##sum(abdata,0)/sum(abdata)
 	P = outer(ones(len(abdata)),P_v).astype(float)
 	#####
+	ncs = cpu_count()
 	if bins:
-		[mean_dg_sims,var_dg_sims,min_eval_sims,max_eval_sims,num_edges_sims] = sim_bins(N,P, num_sims = sims)
+#		the_stats = Parallel(n_jobs = -1)(delayed(sim_bins)(N,P) for i in range(sims))
+		the_stats = []
+		for sa in range(sims):
+			the_stats = the_stats + [sim_bins(N,P)]
+		[mean_dg_sims,var_dg_sims,min_eval_sims,max_eval_sims,num_edges_sims] = transpose(the_stats)
 	###
 	elif thr:
-		[mean_dg_sims,var_dg_sims,min_eval_sims,max_eval_sims,num_edges_sims] = sim_pears_thr(N,P, num_sims = sims)
+#		the_stats = Parallel(n_jobs = -1)(delayed(sim_pears_thr)(N,P) for i in range(sims))
+		the_stats = []
+		for sa in range(sims):
+			the_stats = the_stats + [sim_pears_thr(N,P)]
+		[mean_dg_sims,var_dg_sims,min_eval_sims,max_eval_sims,num_edges_sims] = transpose(the_stats)
 	###
 	else:
-		[mean_dg_sims,var_dg_sims,min_eval_sims,max_eval_sims,num_edges_sims] = sim_pears(N,P, num_sims = sims)
+		#the_stats = Parallel(n_jobs = -1)(delayed(sim_pears)(N,P) for i in range(sims))
+		the_stats = []
+		for sa in range(sims):
+			the_stats = the_stats + [sim_pears(N,P)]
+		[mean_dg_sims,var_dg_sims,min_eval_sims,max_eval_sims,num_edges_sims] = transpose(the_stats)
 	###				
 	mean_deg_p = len(argwhere(mean_dg_sims > mean_deg))/sims
 	var_dg_p = len(argwhere(var_dg_sims > var_deg))/sims
@@ -426,116 +495,104 @@ def mc_network_stats(abdata, network, thr = False, bins = False, sims = 1000):
 # 	print(mean(mean_dg_sims), mean(var_dg_sims), mean(min_eval_sims), mean(max_eval_sims), mean(num_edges_sims))
 	return [mean_deg_p, var_dg_p, max_eval_p, min_eval_p, num_edges_p]
 
-def sim_pears(N,P, num_sims = 1000):
-	[sim_mean_deg, sim_var_deg, sim_min_ev,sim_max_ev,num_edges_sims] = zeros([5,num_sims])
-	for s in range(num_sims):
-	##### Parallelize Please!!!!!!!!!!!!
-		#construct a random adjacency graph
-		the_rand_mat = bino(N,P)#RANDOM SAMPLE DATA
-		the_rand_mat = the_rand_mat[where(sum(the_rand_mat,axis = 1)>0)] 
-		## Correlation
-		meanss = mean(the_rand_mat,axis = 1)
-		vars = std(the_rand_mat,axis =1)
-		vars[where(vars == 0)] = 1
-		the_rand_mat = dot(diag(1/vars),transpose(transpose(the_rand_mat) - meanss))
-		rand_weights = (1/the_rand_mat.shape[1])*dot(the_rand_mat,transpose(the_rand_mat))
-		cutoff = 0.8
-		###
-		rand_weights[where(rand_weights < cutoff)] = 0
-		rand_degs = sum(rand_weights,axis = 0)
-		sim_unc = where(rand_degs == 0)
-		rand_weights = delete(rand_weights,sim_unc,0)
-		rand_weights = delete(rand_weights,sim_unc,1)
-		###get the stats of them
-		if len(rand_weights)>0:
-			[sim_vals,sim_vects] = eig(rand_weights/len(rand_weights))
-			sim_degs = sum(rand_weights,axis = 0)			
-			sim_mean_deg[s] = mean(sim_degs)
-			sim_var_deg[s] =var(sim_degs)
-			sim_min_ev[s] = min(real(sim_vals))
-			sim_max_ev[s] = max(real(sim_vals))
-			num_edges_sims[s] = len(rand_weights.nonzero()[0])/2
-# 	ep1 = (1.96*var(sim_mean_deg))/(num_sims**(1/2))
-# 	ep2 = (1.96*var(sim_var_deg))/(num_sims**(1/2))
-# 	ep3 = (1.96*var(sim_min_ev))/(num_sims**(1/2))
-# 	ep4 = (1.96*var(sim_max_ev))/(num_sims**(1/2))
-# 	ep5 = (1.96*var(num_edges_sims))/(num_sims**(1/2))
-# 	ep = min(ep1,ep2,ep3,ep4,ep5)
-# 	print(ep)
-	return [array(sim_mean_deg),array(sim_var_deg),array(sim_min_ev),array(sim_max_ev),array(num_edges_sims)]
+def sim_pears(N,P):
+	#construct a random adjacency graph
+	the_rand_mat = bino(N,P)#RANDOM SAMPLE DATA
+	the_rand_mat = the_rand_mat[where(sum(the_rand_mat,axis = 1)>0)] 
+	## Correlation
+	meanss = mean(the_rand_mat,axis = 1)
+	vars = std(the_rand_mat,axis =1)
+	vars[where(vars == 0)] = 1
+	the_rand_mat = dot(diag(1/vars),transpose(transpose(the_rand_mat) - meanss))
+	rand_weights = (1/the_rand_mat.shape[1])*dot(the_rand_mat,transpose(the_rand_mat))
+	cutoff = 0.8
+	###
+	rand_weights[where(rand_weights < cutoff)] = 0
+	rand_degs = sum(rand_weights,axis = 0)
+	sim_unc = where(rand_degs == 0)
+	rand_weights = delete(rand_weights,sim_unc,0)
+	rand_weights = delete(rand_weights,sim_unc,1)
+	###get the stats of them
+	if len(rand_weights)>0:
+		[sim_vals,sim_vects] = eig(rand_weights/len(rand_weights))
+		sim_degs = sum(rand_weights,axis = 0)			
+		sim_mean_deg = mean(sim_degs)
+		sim_var_deg =var(sim_degs)
+		sim_min_ev = min(real(sim_vals))
+		sim_max_ev = max(real(sim_vals))
+		num_edges_sims = len(rand_weights.nonzero()[0])/2
+	else:
+		sim_mean_deg = 0
+		sim_var_deg =0
+		sim_min_ev = 0
+		sim_max_ev = 0
+		num_edges_sims = 0
+	return [sim_mean_deg,sim_var_deg,sim_min_ev,sim_max_ev,num_edges_sims]
 
-def sim_pears_thr(N,P, num_sims = 1000):
-	[sim_mean_deg, sim_var_deg, sim_min_ev,sim_max_ev,num_edges_sims] = zeros([5,num_sims])
-	for s in range(num_sims):
-	##### Parallelize Please!!!!!!!!!!!!
-		#construct a random adjacency graph
-		the_rand_mat = bino(N,P)#RANDOM SAMPLE DATA
-		the_rand_mat = the_rand_mat[where(sum(the_rand_mat,axis = 1)>0)] 
-		ab_masked = mask.masked_values(the_rand_mat,0,copy = False)
-		mean_nz_ab = mean(ab_masked)
-		the_rand_mat[where(the_rand_mat < 0.01*mean_nz_ab)] = 0 #threshold it
-		the_rand_mat[the_rand_mat.nonzero()] = 1
-		## Correlation
-		meanss = mean(the_rand_mat,axis = 1)
-		vars = std(the_rand_mat,axis =1)
-		vars[where(vars == 0)] = 1
-		the_rand_mat = dot(diag(1/vars),transpose(transpose(the_rand_mat) - meanss))
-		rand_weights = (1/the_rand_mat.shape[1])*dot(the_rand_mat,transpose(the_rand_mat))
-		cutoff = 0.8
-		###
-		rand_weights[where(rand_weights < cutoff)] = 0
-		rand_degs = sum(rand_weights,axis = 0)
-		sim_unc = where(rand_degs == 0)
-		rand_weights = delete(rand_weights,sim_unc,0)
-		rand_weights = delete(rand_weights,sim_unc,1)
-		###get the stats of them
-		if len(rand_weights)>0:
-			[sim_vals,sim_vects] = eig(rand_weights/len(rand_weights))
-			sim_degs = sum(rand_weights,axis = 0)			
-			sim_mean_deg[s] = mean(sim_degs)
-			sim_var_deg[s] =var(sim_degs)
-			sim_min_ev[s] = min(real(sim_vals))
-			sim_max_ev[s] = max(real(sim_vals))
-			num_edges_sims[s] = len(rand_weights.nonzero()[0])/2
-# 	ep1 = (1.96*var(sim_mean_deg))/(num_sims**(1/2))
-# 	ep2 = (1.96*var(sim_var_deg))/(num_sims**(1/2))
-# 	ep3 = (1.96*var(sim_min_ev))/(num_sims**(1/2))
-# 	ep4 = (1.96*var(sim_max_ev))/(num_sims**(1/2))
-# 	ep5 = (1.96*var(num_edges_sims))/(num_sims**(1/2))
-# 	ep = min(ep1,ep2,ep3,ep4,ep5)
-# 	print(ep)
-	return [array(sim_mean_deg),array(sim_var_deg),array(sim_min_ev),array(sim_max_ev),array(num_edges_sims)]
+def sim_pears_thr(N,P):
+	#construct a random adjacency graph
+	the_rand_mat = bino(N,P)#RANDOM SAMPLE DATA
+	the_rand_mat = the_rand_mat[where(sum(the_rand_mat,axis = 1)>0)] 
+	ab_masked = mask.masked_values(the_rand_mat,0,copy = False)
+	mean_nz_ab = mean(ab_masked)
+	the_rand_mat[where(the_rand_mat < 0.01*mean_nz_ab)] = 0 #threshold it
+	the_rand_mat[the_rand_mat.nonzero()] = 1
+	## Correlation
+	meanss = mean(the_rand_mat,axis = 1)
+	vars = std(the_rand_mat,axis =1)
+	vars[where(vars == 0)] = 1
+	the_rand_mat = dot(diag(1/vars),transpose(transpose(the_rand_mat) - meanss))
+	rand_weights = (1/the_rand_mat.shape[1])*dot(the_rand_mat,transpose(the_rand_mat))
+	cutoff = 0.8
+	###
+	rand_weights[where(rand_weights < cutoff)] = 0
+	rand_degs = sum(rand_weights,axis = 0)
+	sim_unc = where(rand_degs == 0)
+	rand_weights = delete(rand_weights,sim_unc,0)
+	rand_weights = delete(rand_weights,sim_unc,1)
+	###get the stats of them
+	if len(rand_weights)>0:
+		[sim_vals,sim_vects] = eig(rand_weights/len(rand_weights))
+		sim_degs = sum(rand_weights,axis = 0)			
+		sim_mean_deg = mean(sim_degs)
+		sim_var_deg =var(sim_degs)
+		sim_min_ev = min(real(sim_vals))
+		sim_max_ev = max(real(sim_vals))
+		num_edges_sims = len(rand_weights.nonzero()[0])/2
+	else:
+		sim_mean_deg = 0
+		sim_var_deg =0
+		sim_min_ev = 0
+		sim_max_ev = 0
+		num_edges_sims = 0
+	return [sim_mean_deg,sim_var_deg,sim_min_ev,sim_max_ev,num_edges_sims]
 
 def sim_bins(N,P, num_sims = 1000):
-	[sim_mean_deg, sim_var_deg, sim_min_ev,sim_max_ev,num_edges_sims] = zeros([5,num_sims])
-	for s in range(num_sims):
-	##### Parallelize Please!!!!!!!!!!!!
-		#construct a random adjacency graph
-		the_rand_mat = bino(N,P)#RANDOM SAMPLE DATA
-		the_rand_mat = the_rand_mat[where(sum(the_rand_mat,axis = 1)>0)]
-		rand_weights = asarray([[0 if x == y else both_same_bin(the_rand_mat[x],the_rand_mat[y], 0.05, 5) 
-							for x in range(len(the_rand_mat))] for y in range(len(the_rand_mat))])
-		rand_degs = sum(rand_weights,axis = 0)
-		sim_unc = where(rand_degs == 0)
-		rand_weights = delete(rand_weights,sim_unc,0)
-		rand_weights = delete(rand_weights,sim_unc,1)
-		###get the stats of them
-		if len(rand_weights)>0:
-			[sim_vals,sim_vects] = eig(rand_weights/len(rand_weights))
-			sim_degs = sum(rand_weights,axis = 0)			
-			sim_mean_deg[s] = mean(sim_degs)
-			sim_var_deg[s] =var(sim_degs)
-			sim_min_ev[s] = min(real(sim_vals))
-			sim_max_ev[s] = max(real(sim_vals))
-			num_edges_sims[s] = len(rand_weights.nonzero()[0])/2
-# 	ep1 = (1.96*var(sim_mean_deg))/(num_sims**(1/2))
-# 	ep2 = (1.96*var(sim_var_deg))/(num_sims**(1/2))
-# 	ep3 = (1.96*var(sim_min_ev))/(num_sims**(1/2))
-# 	ep4 = (1.96*var(sim_max_ev))/(num_sims**(1/2))
-# 	ep5 = (1.96*var(num_edges_sims))/(num_sims**(1/2))
-# 	ep = min(ep1,ep2,ep3,ep4,ep5)
-# 	print(ep)
-	return [array(sim_mean_deg),array(sim_var_deg),array(sim_min_ev),array(sim_max_ev),array(num_edges_sims)]
+	#construct a random adjacency graph
+	the_rand_mat = bino(N,P)#RANDOM SAMPLE DATA
+	the_rand_mat = the_rand_mat[where(sum(the_rand_mat,axis = 1)>0)]
+	rand_weights = asarray([[0 if x == y else both_same_bin(the_rand_mat[x],the_rand_mat[y], 0.05, 5) 
+						for x in range(len(the_rand_mat))] for y in range(len(the_rand_mat))])
+	rand_degs = sum(rand_weights,axis = 0)
+	sim_unc = where(rand_degs == 0)
+	rand_weights = delete(rand_weights,sim_unc,0)
+	rand_weights = delete(rand_weights,sim_unc,1)
+	###get the stats of them
+	if len(rand_weights)>0:
+		[sim_vals,sim_vects] = eig(rand_weights/len(rand_weights))
+		sim_degs = sum(rand_weights,axis = 0)			
+		sim_mean_deg = mean(sim_degs)
+		sim_var_deg =var(sim_degs)
+		sim_min_ev= min(real(sim_vals))
+		sim_max_ev = max(real(sim_vals))
+		num_edges_sims = len(rand_weights.nonzero()[0])/2
+	else:
+		sim_mean_deg = 0
+		sim_var_deg =0
+		sim_min_ev = 0
+		sim_max_ev = 0
+		num_edges_sims = 0
+	return [sim_mean_deg,sim_var_deg,sim_min_ev,sim_max_ev,num_edges_sims]
 
 def edge_prob(network):
 	'''calculate probability of seeing an edge in a graph with that many edges

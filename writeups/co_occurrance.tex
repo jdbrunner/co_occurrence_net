@@ -155,56 +155,56 @@
 \begin{document}
 \maketitle
 \section{Network Building}
-My project centered around the creation and analysis of ecological networks of microbiomes. I built networks, in the form of graphs $\cG = (\cV, \cE)$, based on co-occurrence of organisms at various taxonomic levels. In these graphs, vertices are labeled by taxa name, and edge sets are defined by co-occurrence or correlation.
+My project centered around the creation and analysis of ecological networks of microbiomes. I built networks, in the form of graphs $\cG = (\cV, \cE)$, based on co-occurrence of organisms at various taxonomic levels. In these graphs, vertices are labeled by taxa name, and edge sets are defined by co-occurrence or correlation. This project is meant to support the EDGE bioinformatics platform \cite{edge}. 
 
 \subsection{Co-occurrence construction}
-One method of building a co-occurrence network from a set of samples of microbial communities is to simply count how often various microbes co-occur. I refer to this as the ``binning method".
+One method of building a co-occurrence network from a set of samples of microbial communities is to simply count how often various microbes co-occur. This will be referred to as the ``binning method". 
 
-Given a set of samples with abundances of organisms, I map the abundances to discrete levels, as proportions of the maximum abundance \emph{of that organism}. Precisely, let the samples be $s_i$ and raw abundance of organism $j$ in sample $i$ be $r_{ji}$. I map the abundances according to
+Given a set of samples with abundances of organisms, we map the abundances to discrete levels, as proportions of the maximum abundance \emph{of that organism}. Precisely, let the samples be $s_j$ and raw abundance of organism $i$ in sample $i$ be $r_{ij}$. we map the abundances according to
 \[
-a(r_{ji})  = \left\{
+a(r_{ij})  = \left\{
 \begin{array}{c c}
-\lfloor\left(\frac{r_{ji}}{\max_{s_k}(r_{jk})}\right) n \rfloor + 1 &  \frac{r_{ji}}{\max_{s_k}(r_{jk})} \geq m \\
-0 & \frac{r_{ji}}{\max_{s_k}(r_{jk})} < m
+\lfloor\left(\frac{r_{ij}}{\max_{s_k}(r_{ik})}\right) n \rfloor + 1 &  \frac{r_{ij}}{\max_{s_k}(r_{ik})} \geq m \\
+0 & \frac{r_{ij}}{\max_{s_k}(r_{ik})} < m
 \end{array}
 \right.
 \]
-where $m$ is some minimum. Then, I create weighted edges between vertices (where $0$ weight means no edge exists) where the weights of edges in $\cE_1$ are
+where $m$ is some minimum. Then, we create weighted edges between vertices (where $0$ weight means no edge exists) where the weights of edges in $\cE^*$ are
 \[
-w^1_{jk} = \frac{\|\{i: a(r_{ji}) = a(r_{ki}) \neq 0\} \|}{S}
+w^*_{ik} = \frac{\|\{i: a(r_{ij}) = a(r_{kj}) \neq 0\} \|}{S}
 \]
-Here, $S$ is the total number of samples. That is, I count the proportion of samples in which the two taxa appear at the same discretized level. 
+Here, $S$ is the total number of samples. That is, $w^*_{ik}$ is a count the proportion of samples in which the two taxa appear at the same discretized level. 
 
 Next, I account for random coincidence of taxa in a sample, following \cite{coocc}. To do this, I compare to a null model. The null model is defined in the following way.
 \[
-A_j= \sum_{s_i} \b{1}_{a(r_{ji}) \neq 0}
+A_i= \sum_{s_j} \b{1}_{a(r_{ij}) \neq 0}
 \] 
 and 
 \[
-S_i^l  = \sum_{v_j} \b{1}_{a(r_{ji}) = l}
+S_j^l  = \sum_{v_i} \b{1}_{a(r_{ij}) = l}
 \]
 Then, the null model assumes that if
 \[
-X_{jil} \sim \mathit{binom}\left(A_j, \frac{S_i^l}{\sum_{il} S_i^l}\right)
+X_{ijl} \sim \mathit{binom}\left(A_i, \frac{S_j^l}{\sum_{jl} S_j^l}\right)
 \]
-then $P(a_{ji}^{null} = l) = 1-P(X_{jil} = 0)$. This allows us to calculate the probability of co-occurrence of taxa under the null model. Let $w_{jk}^{null}$ be
+then $P(a_{ij}^{null} = l) = 1-P(X_{ijl} = 0)$. This allows us to calculate the probability of co-occurrence of taxa under the null model. Let $w_{ik}^{null}$ be
 \[
-w^{null}_{jk} = \|\{i: a_{ji}^{null} = a_{ki}^{null} \neq 0\} \|
+w^{null}_{ik} = \|\{i: a_{ij}^{null} = a_{kj}^{null} \neq 0\} \|
 \]
-This is the similar to the co-incidence model but now randomized. Then,
+Then,
 \[
-P(w_{jk}^N = K) =  \sum_{\{A \subset \cV_2:|A| = k\}} \prod_{l\in A} a_{jl}a_{kl}\prod_{l \not\in A} (1- a_{jl}a_{kl})
+P(w_{ik}^{null} = K) =  \sum_{\{A \subset \cV_2:|A| = k\}} \prod_{l\in A} a_{il}a_{kl}\prod_{l \not\in A} (1- a_{il}a_{kl})
 \]
-Ideally, I would then define $\cE$ by the weights
+Ideally, the weights $\cE$ would be defined by
 \[
-w_{jk}^2 = \left\{ \begin{array}{c c}
-1 & P(w_{jk}^{null} \geq w_{jk}^1) \leq t\\
-0 & P(w_{jk}^{null} < w_{jk}^1) > t
+w_{ik} = \left\{ \begin{array}{c c}
+w_{ik}^* & P(w_{ik}^{null} \geq w_{ik}^*) \leq 0.05\\
+0 & P(w_{ik}^{null} < w_{ik}^*) > 0.05
 \end{array}\right.
 \]
-However, that probability is intractable to compute. Instead, I take 
+However, that probability is intractable to compute. Instead, let
 \[
-\widetilde{P}(w_{jk}^{null} = K) = \sum_{l=0}^i \binom{N_1}{l}\binom{N_2}{K-l} p_1^j p_2^{K-l} (1-p_1)^{N-l}(1-p_2)^{N-K+l}
+\widetilde{P}(w_{ik}^{null} = K) = \sum_{l=0}^i \binom{N_1}{l}\binom{N_2}{K-l} p_1^j p_2^{K-l} (1-p_1)^{N-l}(1-p_2)^{N-K+l}
 \]
 where
 \[
@@ -218,24 +218,24 @@ Finally, $N_1$, $N_2$ are to ensure that $p_1,p_2 \in [0,1]$. These must satisfy
 \[
 \frac{\mu N (1-p_a) - N\sigma^2}{N(1-p_a)- \sigma^2} \leq N_2 \leq \frac{\mu^2}{\mu- \sigma^2}
 \]
-with $\mu$ the mean of the real distribution, $\sigma^2$ the variance, and $p_a = \frac{1}{S}\sum_{i} a_{ji}a_{ki}$. So, I take 
+with $\mu$ the mean of the real distribution, $\sigma^2$ the variance, and $p_a = \frac{1}{S}\sum_{i} a_{ij}a_{kj}$. So, I take 
 \[
-w_{jk}^2 = \left\{ \begin{array}{c c}
-1 & \widetilde{P}(w_{jk}^{null} \geq w_{jk}^1) \geq t\\
-0 & \widetilde{P}(w_{jk}^{null} < w_{jk}^1) > t
+w_{jk} = \left\{ \begin{array}{c c}
+w_{ik}^* & \widetilde{P}(w_{jk}^{null} \geq w_{ik}^*) \geq t\\
+0 & \widetilde{P}(w_{jk}^{null} < w_{ik}^*) > t
 \end{array}\right.
 \]
 
 \subsection{Correlation construction}
-An alternative to the binning above is sample correlation. With $N$ samples, that is:
+An alternative to the binning above is sample correlation, as in \cite{gut}. With $N$ samples, that is:
 \[
 \rho_{xy} = \frac{1}{N}\frac{(\b{x}- \mu_x\b{1}) \cdot (\b{y} - \mu_y\b{1})}{\sigma_x \sigma_y}
 \]
-where $\mu_x$ is the mean abundance of taxa $x$, and $\sigma_x$ is the standard deviation of abundance of taxa $x$ across samples. This can be constructed by modifying the data matrix and then multiplying with it's transpose, making it much faster to compute than the binning method. In expectation, this the covariance divided by the product of the variances. I then construct a graph with weighted edges
+where $\mu_x$ is the mean abundance of taxa $x$, and $\sigma_x$ is the standard deviation of abundance of taxa $x$ across samples. This can be constructed by modifying the data matrix and then multiplying with it's transpose, making it much faster to compute than the binning method. In expectation, this the co-variance divided by the product of the variances. I then construct a graph with weighted edges
 \[
-w_{ij} = \left\{\begin{array}{c c}
-\rho_{\b{r}_i\b{r}_j} & \rho_{\b{r}_i\b{r}_j}\geq 0.8\\
-0 &  \rho_{\b{r}_i\b{r}_j}< 0.8
+w_{ik} = \left\{\begin{array}{c c}
+\rho_{\b{r}_i\b{r}_k} & \rho_{\b{r}_i\b{r}_k}\geq 0.8\\
+0 &  \rho_{\b{r}_i\b{r}_k}< 0.8
 \end{array}\right.
 \]
 
@@ -248,9 +248,9 @@ r^*_{ij} = \left\{\begin{array}{c c}
 \]
 The network is then constructed using sample correlation just as before.
 
-Again, I check the significance of each edge, removing edges that have a high probability of occurring in a null model. I check this using Monte-Carlo simulation by estimating $p_{ij} \approx P(\rho_{\b{r}_i^{null}\b{r}_j^{null}} > \rho_{\b{r}_i\b{r}_j})$. I take enough Monte-Carlo trials for a $95\%$ confidence interval of length $0.03$. I then adjust edges so that
+Again, I check the significance of each edge, removing edges that have a high probability of occurring in a null model. I check this using Monte-Carlo simulation by estimating $p_{ik} \approx P(\rho_{\b{r}_i^{null}\b{r}_k^{null}} > \rho_{\b{r}_i\b{r}_k})$. I take enough Monte-Carlo trials for a $95\%$ confidence interval of length $0.03$. I then adjust edges so that
 \[
-p_{ij} > 0.05 \Rightarrow w_{ij} = 0
+p_{ik} > 0.05 \Rightarrow w_{ik} = 0
 \]
 
 \begin{inbox}{The Null Model}
@@ -266,7 +266,7 @@ p_{ij} > 0.05 \Rightarrow w_{ij} = 0
 	\[
 	\hat{r}_{ij} = \mathit{binom}(N_j,P_i)
 	\]
-	as randomly generated abundance data. The values $N_i$ are the counts of appearances of taxi $i$, while the values $P_i$ are the proportions of all appearances which happen within each sample. 
+	as randomly generated abundance data. The values $N_i$ are the counts of appearances of taxi $i$, while the values $P_j$ are the proportions of all appearances which happen within each sample. 
 	
 	Then, I construct our random graph from this random data. If $\hat{\b{r}}_i$ is the vector of random ``abundances" of taxa $i$, I have edges
 	\[
@@ -274,12 +274,12 @@ p_{ij} > 0.05 \Rightarrow w_{ij} = 0
 	\]
 \end{inbox}
 
-The null model's use of a binolmial random variable can be interpreted in the following way. A ``success" for a taxa/sample pair is an appearance of the taxa in the sample. The number of trials is the number of times the taxa appears in the data set. The probability of success is the proportion of all appearances which happen within the sample. This does have some drawbacks: notably that it does not preserve total abundance, or even total appearances. It allows more than one ``success" for a single taxa/sample pair, which could be interpreted as higher abundance. Our ``random samples" should be scaled by average abundances of a taxa across samples to ``look like" real data. This doesn't effect correlation, because $\mathit{Cov}(ax,by) = ab\mathit{Cov}(x,y)$, and $\sigma_x = \mathit{Cov}(x,x)^{\nhalf}$, implying that $w_{ik} = \mathit{Cor}(\hat{\b{r}}_i,\hat{\b{r}}_k) =  \mathit{Cor}(a\hat{\b{r}}_i,b\hat{\b{r}}_k)$. Notice also that the null model is the same as in the binning procedure, with a different construction of a correlation graph.
+The null model's use of a binomial random variable can be interpreted in the following way. A ``success" for a taxa/sample pair is an appearance of the taxa in the sample. The number of trials is the number of times the taxa appears in the data set. The probability of success is the proportion of all appearances which happen within the sample. This does have some drawbacks: notably that it does not preserve total abundance, or even total appearances. It allows more than one ``success" for a single taxa/sample pair, which could be interpreted as higher abundance. Our ``random samples" should be scaled by average abundances of a taxa across samples to ``look like" real data. This doesn't effect correlation, because $\mathit{Cov}(ax,by) = ab\mathit{Cov}(x,y)$, and $\sigma_x = \mathit{Cov}(x,x)^{\nhalf}$, implying that $w_{ik} = \mathit{Cor}(\hat{\b{r}}_i,\hat{\b{r}}_k) =  \mathit{Cor}(a\hat{\b{r}}_i,b\hat{\b{r}}_k)$. Notice also that the null model is the same as in the binning procedure, with a different construction of a correlation graph.
 
-In \cite{coocc}, this model is called the ``binomial model". Interestingly, that paper argues that an ``edge swapping" model is more accurate. However, I have chosen the binomial model for speed.
+In \cite{coocc}, this model is called the ``binomial model". Interestingly, that paper argues that an ``edge swapping" model is more accurate. A random permutation of the data also used in \cite{gut}. However, I have chosen the binomial model for speed.
 
 \subsection{Significance of the network}
-I show that the networks connected by the methods above would not occur in randomized data, and so argue for the significance of the networks. I generate random data as in the correlation construction of the network. I then use Monte-Carlo simulation to estimate the following
+The networks connected by the methods above would not occur in randomized data, and so there is some significance to these networks. I generate random data as in the correlation construction of the network. I then use Monte-Carlo simulation to estimate the following
 \begin{itemize}
 	\item $P(\mu_d < \mu_d^{null})$, where $\mu_d$ is the mean degree of the nodes of a network
 	\item $P(\sigma_d < \sigma_d^{null})$, where $\sigma_d$ is the variance of degrees of the nodes of a network
@@ -294,115 +294,109 @@ In addition to testing the complete network, I performed the same analysis on ne
 
 \begin{figure}
 	\includegraphics[scale = 0.4]{../stat_figs/pears_1000__species.png}
-	\caption{The result of Monte-Carlo estimation of the likelihood of various network statistitics, as well as the number of edges and mean degree. The networks were made from correlations using randomly drawn subsets of the data of increasing size, from 1 sample to all 60 samples. For each network, 1000 random trials were generated according to the above null model in order to estimate likelihood of statistics.}\label{montecarlos}
+	\caption{The result of Monte-Carlo estimation of the likelihood of various network statistics, as well as the number of edges and mean degree. The networks were made from correlations using randomly drawn subsets of increasing size of the data at the species level, from 1 sample to all 60 samples. For each network, 1000 random trials were generated according to the above null model in order to estimate likelihood of statistics.}\label{montecarlos}
 \end{figure}
 
-\section{Network Analysis}
-We can cluster - community clustering, spectral clustering, comparing to random graphs. Comparison of clusters to grouping by sample type.
+This analysis is computationally difficult. In order to estimate how it scales with number of samples, I recorded the time for the Monte Carlo estimation, using randomly drawn subsets of the data. It appears that if $n$ is the number of samples and $\tau$ the time to compute, then $\tau \approx \frac{1}{3} n$ seconds for samples with $\sim 250$ taxa. 
 
-Community clustering minimizes a funciton of the graph called modularity \cite{PhysRevE.70.066111}\cite{PhysRevE.70.056131}. That is 
+\section{Network Analysis}
+Network clustering identifies related nodes in a graph. This can be used in combination with sample metadata to help find characteristics that effect the microbial community in a sample. Sample metadata can be associated to nodes of a network by the frequency with which a taxa appears along with some sample characteristic. For a metadata category  $C$ that allows a discrete set of $m$ characteristics $c_i$, let
+\[
+r_i^{c_k} = \sum_{j:s_j \text{ has } c_k} r_{ij}
+\]
+Let $\mu_i^C$ be the mean of $\{r_i^{c_l}\}_{l=1}^m$, and $\sigma_i^C$ the variance. Then, taxa $i$ is assigned to $c_k$ if
+\[
+r_i^{c_k} > \mu_i^C + 1.5\sigma_i^C
+\]
+
+Community clustering minimizes a function of the graph called modularity \cite{PhysRevE.70.066111}\cite{PhysRevE.70.056131}. That is 
 \[
 Q = \frac{1}{2m}\sum_{i,j}\left(w_{ij} + \frac{d_id_j}{2m}\right) \delta(c_i,c_j)
 \]
-where $m = \sum_{i\sim j} w_{ij}$, $d_i$ is the (weighted) degree of vertex $i$, $c_i$ is the community containing vertex $i$, and $\delta$ is the Kronecker $\delta$. This done by a kind of gradient search/greedy algorithm.
+where $m = \sum_{i\sim j} w_{ij}$, $d_i$ is the (weighted) degree of vertex $i$, $c_i$ is the community containing vertex $i$, and $\delta$ is the Kronecker $\delta$. This done by a gradient search/greedy algorithm.
 
-Spectral clustering performs a $k$-means clustering on the rows of the matrix whose columns are the $k$ eigenvectors of the graph laplacian corresponding to the smallest $k$ eigenvalues \cite{vonLuxburg2007} . Morally, this means it clusters points together that are close in the first $k$ (slowest decaying!) modes of the diffusion equation on the graph.
+Spectral clustering performs a $k$-means clustering on the rows of the matrix whose columns are the $k$ eigenvectors of the graph Laplacian corresponding to the smallest $k$ eigenvalues \cite{vonLuxburg2007} . Intuitively, this means it clusters points together that are close in the first $k$ (slowest decaying) modes of the diffusion equation on the graph. 
+
+I characterized nodes according to where the sample was taken from a human body, and used Cytoscape \cite{cyotscape} to visualize the connection between this classification and the two clustering methods.
+
+\begin{figure}
+	\begin{center}
+		\begin{subfigure}[b]{0.48\linewidth}
+			\begin{center}
+				\includegraphics[scale = 0.3]{comm_samp.png}	
+			\end{center}
+			\caption{Community clustering.}
+		\end{subfigure}
+		\begin{subfigure}[b]{0.48\linewidth}
+			\begin{center}
+				\includegraphics[scale = 0.35]{spect_sample.png}	
+			\end{center}
+			\caption{Spectral clustering.}
+		\end{subfigure}
+		\caption{Clustering of the correlation network using two methods compared to classification by sample metadata (location). Colors represent sample metadata. Nodes are grouped in circles by cluster.}\label{cluster}
+	\end{center}
+\end{figure}
+
 \section{Using the network to analyze a sample}
 
-The question now is what can we do these networks?
+Ideally, co-occurrence and correlation networks could be used to analyze GOTTCHA results, to assess the probability that the set of taxa identified by GOTTCHA would occur together. Assume that the probability that any vertex pair occurs together is the edge weight between the nodes representing the two taxa. Precisely, assume that
+\[
+w_{ik} = P(i \, \&\, k \in  s_i)
+\]
+where $s_j$ is sample $j$. 
 
-First, assesing GOTTCHA reads. A single GOTTCHA read would produce a network with each connected component complete. I think the co-incidence network is more appropriate. We want to assess the probability that you see this set together. We have the probability that you see any vertex pair (estimated) as the edge weights of $\cG_1$. Precisely, the edge weights are
-\[
-w^1_{jk} = P(j \, \&\, k \in  S_i^l)
-\]
-where $S_i^l$ is sample $i$ at discrete abundance level $l$. It might be useful to have the directed weight graph where
-\[
-w^3_{jk} = P(j \in S_i^l | k \in S_i^l)
-\]
-but that wouldn't be hard, because then
-\[
-w^3_{jk} = S\frac{w^1_{jk}}{\|\{i:a(r_{ki})>0\}\|} 
-\]
-Anyway, let's start with the simplest case of one abundance level. Assume GOTTCHA found taxa $a,b,c,...,n$. Maybe the first thing we would want is
+Consider the simplest case of thresholded abundance. Assume GOTTCHA found taxa $a,b,c,...,n$. The first thing we might want to know is
 \[
 P(a | b,c,d,...,n), \, P(b|a,c,d,...,n) ,\, \mathit{etc}
 \]
-Clearly, we can see directly $P(a|b)$, etc. We can also get a bound for triplets (assuming $P(c,b) \neq 0$):
+By assumption, edge weights and frequency counts of individual taxa can be used to determine pairwise conditional probabilities. We can also bound triplets (assuming $P(c,b) \neq 0$):
 \[
 P(a|b,c) \leq \frac{\min_{(i,j) \subset \{a,b,c\}}(P(i,j))}{P(b,c)}
 \]
 but we can't do any better than triplets explicitly, because we don't have any sort of independence (conditional or otherwise) and because our network is not acyclic. 
 
-We can probably learn something from asking about the connectivity of the induced subgraph. Notice that if it isn't complete, then one of the $P(a,b)$ is $0$ above. 
-
-What does the connectivity of the induced subgraph of $\cG_2$ tell us? If it is connected, that's good.  We could use that network to identify vertices that are connected to many of the vertices in the induced subgraph - this might indicate that node should be in the sample.
-
-I guess $\cG_2$ is a markov random field \cite{machine_learning}. This might give us a way to calculate the probability you see a group taxa (and maybe others). The main idea of a MRF is that nodes are conditionally independent of nodes they aren't neighbors of (conditioned on ones they are neighbors of). If $c$ are the (maximal) cliques of the graph (complete subgraphs), then the probability of configuration $\b{x}$ is
+We can consider the network a Markov random field \cite{machine_learning}. This can give us a way to calculate the probability a group of taxa occurs together. The main idea of a MRF is that nodes are conditionally independent of nodes they aren't neighbors of (conditioned on ones they are neighbors of). If $c$ are the (maximal) cliques of the graph (complete sub-graphs), then the probability of configuration $\b{x}$ is
 \[
 P(\b{x}) = \frac{1}{Z} \prod_{c} \psi_c (x_{c})
 \]	
-where $Z$ is a normalizing constant and $\psi_c$ are potential functions I don't know how to come up with yet. Anyway, if we have a sample that contains (maybe as a subset) $s$, we can calculate something. Let $C_s$ be the cliques represented in $s$.
+where $Z$ is a normalizing constant and $\psi_c$ are some functions, often called ``potential functions"\cite{machine_learning}. If we have a sample that contains the subset $\b{s}$, we can calculate something. Let $C_s$ be the cliques represented in $\b{s}$.
 \[
 P(\b{s}) = \frac{1}{Z}\sum_{\{\b{x} : s\subset \b{x}\}}\prod_{c\in C_s}\psi_c(\b{x})
 \]
-And we can ignore cliques not represented in $s$. We probably have to change $Z$. I guess we can also use neighbor pairs instead of maximal cliques. Either way we have to figure out what $\psi_c$ are.
+And we can ignore cliques not represented in $\b{s}$. The difficulty in this approach is to determine the functions $\psi_c$.
 
 \subsection{Determining $\psi_c$}
 
-Before figuring out $\psi_c$, it should be noted that we have a choice of configuration space of the network. We can use a binary $\{1,0\}^N$ space to denote presence or absence, or we can choose a continuous space to include abundances. To begin, I will only consider presence \& absence.
-	
-\begin{inbox}{Snowshoe hairs and Canadian Lynx, CRNT}
-Now I'm very tempted to think about how this approach relates to mass action dynamical systems. I'm going to think about my very favorite model.
-\[
-\b{\dot{x}} = \ka_1 x \begin{pmatrix} 1 \\ 0 \end{pmatrix} + \ka_2 xy \begin{pmatrix}
--1 \\ 1
-\end{pmatrix} + \ka_3 y \begin{pmatrix}
-0\\-1
-\end{pmatrix}
-\]
-Well. Yes. But there is only one maximal clique so $P(\b{x}) = \psi (\b{x})$ and that's just whatever it is. We know that it evolves according to the stochastic mass action equations. In fact, the result that the stationary distribution is a product of poissons for a complex balanced system can be thought of as fitting into this framework. I wonder if you could use this theory to re-prove that? Recall that the stationary distribution for a complex balanced system with equilibrium $\b{c}$ is 
-\[
-\pi(\b{x}) = \frac{1}{Z} \prod_{i=1}^d \frac{c_i^{x_i}}{x_i!}
-\]
-so here we have that
-\[
-\psi_c = \prod_{i \in c} \frac{c_i^{x_i}}{x_i!}
-\]
-or taking cliques to be just singletons
-\[
-\psi_i = \frac{c_i^{x_i}}{x_i !}
-\]	
-I can't think of any way to arrive upon that directly, and so prove the result from this direction. Also, This is even more general than a MRF, as it has self-loops. Self loops play the role of time update. In fact, one might say that a MC is to a MRF as an ODE is to a PDE. Then, self loops in the MRF correspond to time derivatives or forcing appearing in the PDE.
-\end{inbox}
+Before determining $\psi_c$, it should be noted that we have a choice of configuration space of the network. We can use a binary $\{1,0\}^N$ space to denote presence or absence, or we can choose a continuous space to include abundances. To begin, I will only consider presence \& absence.
 
-It seems reasonable to use a pairwise RMF. It also seems reasonable to take a log linear function. My initial guess is
-\[
-\psi_{s\sim t} (y_s,y_t) = \exp(\b{\theta} \cdot \b{1}_{y_s = i,y_t = j})
-\]
-where $\theta = (0,\log(P(s)), \log(P(t)),\log(\nhalf(P(s|t) + P(t|s))))$. But that's a guess. It makes sense we have only unconnected nodes. It also also penalizes leaving out nodes that are connected to the nodes we do have. However, this penalizes us too harshly if we include a hub node.
-
-Let's play with a small network to try to get a handle on this. Consider the network shown in \cref{toy_network}
 \begin{figure}
 	\begin{center}
-	\begin{tikzpicture}[scale = 4]
-	\node (a) at (0,1) [circle, fill = nicepink] {$T_1$};
-	\node (b) at (0.8,1.2) [circle, fill = nicepink] {$T_2$};
-	\node (c) at (1.4,0.5) [circle, fill = nicepink] {$T_3$};
-	\node (d) at (1,0) [circle, fill = nicepink] {$T_4$};
-	\node (e) at (0.2,0) [circle, fill = nicepink] {$T_5$};
-	\draw (b) edge (c);
-	\draw (c) edge (d);
-	\draw (c) edge (e);
-	\draw (d) edge (e);
-	\end{tikzpicture}
+		\begin{tikzpicture}[scale = 3]
+		\node (a) at (0,1) [circle, fill = nicepink] {$T_1$};
+		\node (b) at (0.8,1.2) [circle, fill = nicepink] {$T_2$};
+		\node (c) at (1.4,0.5) [circle, fill = nicepink] {$T_3$};
+		\node (d) at (1,0) [circle, fill = nicepink] {$T_4$};
+		\node (e) at (0.2,0) [circle, fill = nicepink] {$T_5$};
+		\draw (b) edge (c);
+		\draw (c) edge (d);
+		\draw (c) edge (e);
+		\draw (d) edge (e);
+		\end{tikzpicture}
 	\end{center}
 	\caption{A small network example}\label{toy_network}
 \end{figure}
-I think we can assume that
+
+It is reasonable to use a pairwise RMF. It is also common to assume a log linear function \cite{machine_learning}. An initial guess could be
+\[
+\psi_{s\sim t} (y_s,y_t) = \exp(\b{\theta} \cdot \b{1}_{y_s = i,y_t = j})
+\]
+where $\theta = (0,\log(P(s)), \log(P(t)),\log(\nhalf(P(s|t) + P(t|s))))$. This makes sense when we have only unconnected nodes. It also also penalizes leaving out nodes that are connected to the nodes we do have. However, this penalizes very harshly if a hub node is included in $\b{y}$..
+
+A small network example can be used to demonstrate possibilities. Consider the network shown in \cref{toy_network}. Assume that
 \[
 p(\b{x}) = \prod_{s\sim t} \psi_{st}(\b{x})\prod_{s}\psi_s(\b{x})
 \]
-To start, we should think about the distribution of an independent node ($T_1$). Clearly
+To start, determine the distribution of an independent node ($T_1$). Clearly
 \[
 P(T_1 = x) = \psi_{1}(x)
 \]
@@ -410,11 +404,11 @@ Similarly, we should have
 \[
 P(T_2 = x) = \psi_2(x) = \int \psi_2(x)\psi_{23}(y) dy =  \bE (P(T_2 = x|T_3))   
 \]
-Maybe a binomial is a good idea:
+One possibility is a binomial:
 \[
 P\left(T_1 = \frac{k}{N}\right) = \binom{N}{k}p^k(1-p)^{N-k}
 \]
-where $p$ is something like the proportion of times $T_1$ appears in the data, the sum of abundances of $T_1$ in the data divided by $N$. $N$ is some scaling parameter, like the largest total abundance or something. But then, it's natural to take $N$ large and get a Gaussian by the CLT. So maybe we do a multivariate Guassian. Then
+where $p$ is the proportion of times $T_1$ appears in the data, the sum of abundances of $T_1$ in the data divided by a scaling parameter $N$. But then, it's natural to take $N$ large and get a Gaussian by the CLT. This suggests a multivariate Gaussian as another possibility. Then
 \[
 \psi_{s\sim t}(\b{x}) = \exp\left(-\frac{1}{2} x_s \Lambda_{st}x_t\right)
 \]
@@ -422,7 +416,7 @@ and
 \[
 \psi_s(\b{x}) = \exp\left(\eta_s x_s - \Lambda_{ss}x_s^2\right)
 \]
-\cite{machine_learning}. We already have the covariance (normalized by the product of the standard deviations) matrix $\Sigma$, in the Pearson coefficient. So, we have $\Lambda = \Sigma^{-1}$, and $\b{\eta} = \Sigma^{-1}\b{\mu}$. Unfortunately, $\Sigma$ is singular, it's dimension is bounded by the number of samples I have. This of course leaves us in the wind when it comes to $\Lambda$. So, I suppose we have to try to approximate $\Lambda$ subject to the constraint that if $s \not\sim t$, $\Lambda_{st} = 0$. We can use the SVD:
+\cite{machine_learning}. We already have the co-variance (normalized by the product of the standard deviations) matrix $\Sigma$, this is the adjacency matrix of our network. So, we have $\Lambda = \Sigma^{-1}$, and $\b{\eta} = \Sigma^{-1}\b{\mu}$. Unfortunately, $\Sigma$ is possibly singular, it's rank is bounded by the number of samples used to construct the network. This of course leaves us with no way to determine $\Lambda$. So, we have to try to approximate $\Lambda$ subject to the constraint that if $s \not\sim t$, $\Lambda_{st} = 0$. We can use the SVD:
 \[
 \Sigma = M S N^* \Rightarrow \Sigma^+ = N \tilde{S} M^*
 \] 
@@ -430,9 +424,9 @@ where $\tilde{S}$ is diagonal with $1/s_i$ until you get to zero singular values
 \[
 \Sigma^+ = N \tilde{S} N
 \]
-I guess this is used, although it doesn't seem to preserve zeros. There's a function in scipy.
+This is used, although it doesn't seem to preserve zeros. There's a function to do it in Scipy.
 
-On the other hand, taking $N$ large and $p$ small we get an exponential random variable. So perhaps I want
+On the other hand, taking $N$ large and $p$ small we get an exponential random variable. So perhaps we could use
 \[
 \psi_1(x) = e^{-\lambda}\frac{\lambda^{Nx}}{(Nx)!}
 \]
@@ -450,23 +444,23 @@ To compare two configurations $\b{x}$ and $\b{y}$, we can inspect
 \[
 \frac{P(\b{x})}{P(\b{y})} > 1
 \]
-without knowing them. For that, I would need to just identify which cliques change, and ask whether they increase or decrease. How exactly to decide that is a question. Probably single nodes we wouldn't change. For a clique, we could assume that $\psi_c$ decreases if we have over half the nodes and reduce and still have at least half, but increase if the we have less than half and decrease. That is, let $c$ be a clique with $n$ members, and $\psi_c(k)$ be the value of $\psi_c$ with $k$ members ``on". Then
+without knowing them. For that, I would need to identify which cliques change, and ask whether they increase or decrease. How exactly to decide that is a not totally clear. For a clique, we could assume that $\psi_c$ decreases if we have over half the nodes and reduce and still have at least half, but increase if the we have less than half and decrease. That is, let $c$ be a clique with $n$ members, and $\psi_c(k)$ be the value of $\psi_c$ with $k$ members ``on". Then
 \[
 \frac{\psi_c(k+1)}{\psi_c(k)}   \left\{\begin{array}{c c}
 >1 & k>\nicefrac{n}{2}\\
 <1 & k\leq \nicefrac{n}{2}
 \end{array}\right.
 \]
-Then, we are basically asserting the cliques like to either be all there or none there. Which seems good.
+Then, we are asserting the cliques are most likely to either be all there or none there.
 
-Here the algorithm for deciding which of two nodes should be on and which should be off would be:
+The algorithm for deciding which of two nodes should be on and which should be off would then be:
 \begin{enumerate}[(i)]
 	\item Identify cliques $c_1,...,c_m$ which contain one or both nodes
 	\item compute $\frac{\psi_{c_i}(k^1)}{\psi_{c_i}(k^2)}$ for each  $i \in \{1,...,m\}$, where $k^j$ is the number of members present in configuration $j \in \{1,2\}$, and this fraction is computed according to a simple rule of the kind above.
 	\item multiply these ratios: $\frac{P(\text{configuration 1})}{P(\text{configuration 2})} = \prod_{i=1}^k \frac{\psi_{c_i}(k^1)}{\psi_{c_i}(k^2)}$
 \end{enumerate}
 
-I need to specify that rule. The simplest reasonable thing is probably linear
+We need to specify that rule precisely. The simplest reasonable thing is linear
 \[
 \frac{\psi_c(k+1)}{\psi_c(k)} = \frac{2(1-r_{min})}{n - 1} k + r_{min}
 \]
@@ -498,33 +492,34 @@ where $\tilde{x} = x$ for all nodes except $v_1$ and $v_2$, while $x(v_1) = \til
 \end{equation}
 where $c$ are maximal cliques of the RMF.
 
+In this way, we can compare two nodes. However, this does not give an easy way to compare sets of nodes.
 
 \subsection{Diffusion based method.}
-Here's an idea inspired by spectral clustering: Solve the diffusion equation on the graph:
+We would like to identify taxa likely to be present in a sample, given an initial estimate of abundances of taxa. Inspired by spectral clustering, I solve the diffusion equation on the graph in order to identify nodes that are likely present, given the sample data. The diffusion equation is
 \[
 \frac{\partial}{\partial t} u(v,t) = L u(v,t)
 \]
 where $v$ takes values in the vertex set of the graph. Then, we can encode ``known" information in three ways: initial values, boundary values, or a forcing vector.
 
 \begin{inbox2}
-\begin{method}[Initial Value Problem]\label{initalCond}
-Let $u_i(t)$ be the solution at node $v_i$ to the discete diffusion problem
-\[
-\frac{d}{dt}\b{u}(t)  = - L\b{u}
-\]
-where $L$ is the  graph laplacian with initial conditions $u_i = 1$ if node $v_i$ is known to be ``on", $u_j = 0$ if $v_j$ is known to be ``off", and $u_k = 0.5$ (or $0$, or perhaps encoded with some confidence in $[0,1)$) if $v_k$ is unknown. We then normalize the initial vector so that it represents a probability distribution on the nodes.
-
-Then, if $\b{K}$ is the information ``known" and the values of $v_{k}$ and $v_{l}$ are unknown,
-\[
-\int_0^{\infty} u_k(t) dt - \int_0^{\infty} u_l(t) dt >  0 \Rightarrow  P(v_k=  1|\b{K}) > P(v_l = 1|\b{K})
-\]
-\end{method}
+	\begin{method}[Initial Value Problem]\label{initalCond}
+		Let $u_i(t)$ be the solution at node $v_i$ to the discrete diffusion problem
+		\[
+		\frac{d}{dt}\b{u}(t)  = - L\b{u}
+		\]
+		where $L$ is the  graph Laplacian with initial conditions $u_i = 1$ if node $v_i$ is known to be ``on", $u_j = 0$ if $v_j$ is known to be ``off", and $u_k = 0.5$ (or $0$, or perhaps encoded with some confidence in $[0,1)$) if $v_k$ is unknown. I then normalize the initial vector so that it represents a probability distribution on the nodes.
+		
+		Then, if $\b{K}$ is the information ``known" and the values of $v_{k}$ and $v_{l}$ are unknown,
+		\[
+		\int_0^{\infty} u_k(t) dt - \int_0^{\infty} u_l(t) dt >  0 \Rightarrow  P(v_k=  1|\b{K}) > P(v_l = 1|\b{K})
+		\]
+	\end{method}
 \end{inbox2}
-We can easily compute these comparisons. Solutions to the diffusion equation are of the form
+These comparisons are easily computed. Solutions to the diffusion equation are of the form
 \[
 \b{u} = \sum_{i=1}^a c_i \b{1}|_{cc} + \sum_{i=a+1}^n c_i e^{-\lambda_i t} \b{\xi}_i 
 \]
-where $a$ is the number of connected components of the graph, and $\lambda_i,\b{\xi}_i$ are eigenvalue, eigenvector pairs of $L$. Note that each eigenvalue $\lambda_i \geq 0$, with $\lambda_i>0$ for $i = a+1,...,n$ \cite{vonLuxburg2007}. Then, assuming there is some intial mass on the connected component containing $v_1$ and $v_2$, 
+where $a$ is the number of connected components of the graph, and $\lambda_i,\b{\xi}_i$ are eigenvalue, eigenvector pairs of $L$. Note that each eigenvalue $\lambda_i \geq 0$, with $\lambda_i>0$ for $i = a+1,...,n$ \cite{vonLuxburg2007}. Then, assuming there is some initial mass on the connected component containing $v_1$ and $v_2$, 
 \[
 \int_0^{\infty} u_k(t) dt - \int_0^{\infty} u_l(t) dt =   \sum_{i=a+1}^n c_i  (\xi_{ki} - \xi_{li}) \int_0^{\infty} e^{-\lambda_i t} dt = \sum_{i=a+1}^n \frac{c_i}{\lambda_i}  (\xi_{li} - \xi_{ki}) 
 \]
@@ -533,52 +528,48 @@ and $\b{c} = V^{-1}\b{u}(0)$. Therefore, it is straightforward to compute and co
 \int_0^{\infty}\left( u_k(t) - \sum_{i=1}^a c_i \right) dt = \sum_{i=a+1}^n \frac{c_i}{\lambda_i}\xi_{ki}
 \]
 
-
 We can regard this method as the Kolmogorov forward equation of a jump process that transitions from taxa to taxa which have an edge between them at a linear rate (see \cref{kfor}). The state space of this process is the affine space $\b{1}^{\perp} + \b{b}_1\cap \bZ^n_{\geq 0}$, where $\b{b}_i$ are the standard basis vectors. At any time $t$, $u_l(t)$ is the probability that the process is in the state $\b{e}_l$. This model clearly admits no extinction events and is complex balanced deficiency zero. In the deterministic setting, it has globally attracting equilibrium $\frac{1}{n}\b{1}$. Therefore, according to \cite{Anderson2010}, it has stationary distribution on each connected component
 \[
 \pi(\b{x}) = \frac{1}{Z_{cc}} \prod_{i=1}^n \frac{\left(\frac{1}{n}\right)^{x_i}}{x_i!}e^{-\frac{1}{n}}
 \]
-The state space of the system is $\{\b{b}_j\}$, and we note that for $j = 1,...,a$
+The state space of the system is $\{\b{b}_j\}$, and I note that for $j = 1,...,a$
 \[
 c_j = \pi(\b{b}_j) = \frac{1}{Z_{cc} n}e^{-\frac{1}{n}}
 \]
-and so the distribution is uniform on each conected component. If it is higher on one connected  component than an other, the above integral will be larger on that component. To compare within a connected component of the graph, we must look at the transient behavior, which we take by the integral above, subtracting this stationary distribution. This is going to allow us to compare nodes in the same connected component. We are choosing first the most likely connected components and then ranking within those by transient behavior. 
+and so the distribution is uniform on each connected component. If it is higher on one connected  component than an other, the above integral will be larger on that component. To compare within a connected component of the graph, I must look at the transient behavior, which I take by the integral above, subtracting this stationary distribution. This is going to allow us to compare nodes in the same connected component. I can then choose first the most likely connected components and then rank within those by transient behavior. 
 
-Interestingly, we can regard this as the reaction network directly, deterministically modeled, which is the volume scaling limit of the jump process described above.
+Interestingly, I can regard this as the reaction network directly, deterministically modeled, which is the volume scaling limit of the jump process described above.
 
-This method is the only one of the three that is well suited for judging the entire network, without confidence in the preknowledge encoded in the initial conditions. The other two require at least one (\cref{boundarVal}) or two (\cref{forcing}) confident assertion for each connected component of the graph.
+Note that if we give only one node initial mass, then the highest ranked (rank $0$) node is the node given the initial mass:
 
+Let node $k$ be given initial mass, so $u(0) = \b{e}_k$. For any $l \neq k$, I show
+\begin{equation}\label{first_wins}
+\sum_{i =a+1}^n \frac{c_i}{\lambda_i}\xi_{ki} > \sum_{i =a+1}^n \frac{c_i}{\lambda_i}\xi_{li}
+\end{equation}
+I can diagonalize $L$ as $L = X\Lambda X^{-1}$. Let $\hat{L}$, $\hat{X}$, and $\hat{\Lambda}$ be the $n-a\times n-a$ matrices formed from $L$, $X$, and $\Lambda$ by taking rows \& columns corresponding to non-zero eigenvalues $\lambda_i$. Recall that $\b{c} = X^{-1}u(0) = (X^{-1})_k$, and because $L$ is symmetric I have $X^{-1} = X^T$. This implies that $c|_{\lambda >0} = \hat{X}^T_k$. Then, I have that
+\begin{equation}
+\sum_{i =a+1}^n \frac{c_i}{\lambda_i}\xi_{li} = (\hat{\Lambda}^{-1} \hat{X}^T_k)\cdot \hat{X}^T_l
+\end{equation}
+Furthermore, $X$ is a unitary matrix. This means that 
+\begin{equation}
+X^T_k \cdot X^T_l = \left\{\begin{array}{c c}
+0 & k \neq l \\
+1 & k = l
+\end{array}\right.
+\end{equation}
+Furthermore, $ \hat{X}^T_k|_{\lambda = 0} \cdot \hat{X}^T_l|_{\lambda = 0} = \nicefrac{1}{n}$. Then,
+\begin{equation}
+\hat{X}^T_k \cdot \hat{X}^T_l = \left\{\begin{array}{c c}
+-\nicefrac{1}{n} & k \neq l \\
+1 - \nicefrac{1}{n} & k = l
+\end{array}\right.
+\end{equation}
+Then, because $\hat{\Lambda}^{-1}$ is clearly positive definite, I can conclude that 
+\begin{equation}
+\sum_{i =a+1}^n \frac{c_i}{\lambda_i}\xi_{ki} = (\hat{\Lambda}^{-1} \hat{X}^T_k)\cdot \hat{X}^T_k > 0>   (\hat{\Lambda}^{-1} \hat{X}^T_k)\cdot \hat{X}^T_l = \sum_{i =a+1}^n \frac{c_i}{\lambda_i}\xi_{li} 
+\end{equation}
 
-	As a sanity check, let's show that the higest rank (rank $0$) node is the node given the initial mass.
-	
-	Let node $k$ be given initial mass, so $u(0) = \b{e}_k$. For any $l \neq k$, we must show
-	\begin{equation}\label{first_wins}
-	\sum_{i =a+1}^n \frac{c_i}{\lambda_i}\xi_{ki} > \sum_{i =a+1}^n \frac{c_i}{\lambda_i}\xi_{li}
-	\end{equation}
-	We can diagonalize $L$ as $L = X\Lambda X^{-1}$. Let $\hat{L}$, $\hat{X}$, and $\hat{\Lambda}$ be the $n-a\times n-a$ matrices formed from $L$, $X$, and $\Lambda$ by taking rows \& columns coresponding to non-zero eqigenvalues $\lambda_i$. Recall that $\b{c} = X^{-1}u(0) = (X^{-1})_k$, and because $L$ is symmetric we have $X^{-1} = X^T$. This implies that $c|_{\lambda >0} = \hat{X}^T_k$. Then, we have that
-	\begin{equation}
-	 \sum_{i =a+1}^n \frac{c_i}{\lambda_i}\xi_{li} = (\hat{\Lambda}^{-1} \hat{X}^T_k)\cdot \hat{X}^T_l
-	 \end{equation}
-	 Furthermore, $X$ is a unitary matrix. This means that 
-	 \begin{equation}
-	 X^T_k \cdot X^T_l = \left\{\begin{array}{c c}
-	 0 & k \neq l \\
-	 1 & k = l
-	 \end{array}\right.
-	 \end{equation}
-	Furthermore, $ \hat{X}^T_k|_{\lambda = 0} \cdot \hat{X}^T_l|_{\lambda = 0} = \nicefrac{1}{n}$. Then,
-	 \begin{equation}
-	\hat{X}^T_k \cdot \hat{X}^T_l = \left\{\begin{array}{c c}
-	-\nicefrac{1}{n} & k \neq l \\
-	1 - \nicefrac{1}{n} & k = l
-	\end{array}\right.
-	\end{equation}
-	Then, because $\hat{\Lambda}^{-1}$ is clearly positive definite, we can conclude that 
-	\begin{equation}
-	 \sum_{i =a+1}^n \frac{c_i}{\lambda_i}\xi_{ki} = (\hat{\Lambda}^{-1} \hat{X}^T_k)\cdot \hat{X}^T_k > 0>   (\hat{\Lambda}^{-1} \hat{X}^T_k)\cdot \hat{X}^T_l = \sum_{i =a+1}^n \frac{c_i}{\lambda_i}\xi_{li} 
-	\end{equation}
-	
-	This calculation reveals the nature of the relationship between this idea and spectral clustering. In spectral clustering, we ask about ``closeness" in the first $k$ eigenmodes of the diffusion process. Here, we ask a similar question, weighting the (transient) eigenmodes by their eigenvalue (and so rate of decay).
+This calculation reveals the nature of the relationship between this idea and spectral clustering. In spectral clustering, I ask about ``closeness" in the first $k$ eigenmodes of the diffusion process. Here, I ask a similar question, weighing the (transient) eigenmodes by their eigenvalue (and so rate of decay).
 
 \begin{inbox2}
 	\begin{method}[Boundary Value Problem]\label{boundarVal}
@@ -586,7 +577,7 @@ Let $u_i(t)$ be the solution at node $v_i$ to the discete diffusion problem
 \[
 \frac{d}{dt}\b{u}(t)  = - L\b{u}
 \]
-where $L$ is the  graph laplacian with fixed values (which can be regarded as boundary values) $u_i = 1$ if node $v_i$ is known to be ``on", $u_j = 0$ if $v_j$ is known to be ``off". 
+where $L$ is the  graph Laplacian with fixed values (which can be regarded as boundary values) $u_i = 1$ if node $v_i$ is known to be ``on", $u_j = 0$ if $v_j$ is known to be ``off". 
 
 Then, if $\b{K}$ is the information ``known" and the values of $v_{k}$ and $v_{l}$ are unknown, and $\b{\tilde{u}}$ is the equilibrium solution to the diffusion problem,
 \[
@@ -595,7 +586,7 @@ Then, if $\b{K}$ is the information ``known" and the values of $v_{k}$ and $v_{l
 	\end{method}
 \end{inbox2}
 
-First, we establish conditions under which the boundary value version will always have an equilibrium. A ``boundary value" set on the graph is a set of fixed node values. We have seen already that the equilibrium of the diffusion problem is uniform, and so if we only have known ``on" nodes $\b{\tilde{u}} = \b{1}$.  If we specify off nodes as well, then there is not an equilibrium solution to the diffusion problem which gives those values at boundary nodes. However, this doesn't mean the boundary value problem (or, more precisely, the equvalent forced problem on the unknown subset) doesn't have an equilibrium solution. Take for example a complete graph on three nodes. If we prescribe one node as $1$ and one as $0$, the reduced problem is
+First, we establish conditions under which the boundary value version will always have an equilibrium. A ``boundary value" set on the graph is a set of fixed node values. We have seen already that the equilibrium of the diffusion problem is uniform, and so if we only have known ``on" nodes $\b{\tilde{u}} = \b{1}$.  If we specify off nodes as well, then there is not an equilibrium solution to the diffusion problem which gives those values at boundary nodes. However, this doesn't mean the boundary value problem (or, more precisely, the equivalent forced problem on the unknown subset) doesn't have an equilibrium solution. Take for example a complete graph on three nodes. If we prescribe one node as $1$ and one as $0$, the reduced problem is
 \[
 \frac{d}{dt} u = -2u + 1
 \]
@@ -630,11 +621,11 @@ It can also be interpreted as the same reaction network as \cref{initalCond}, bu
 
 \begin{inbox2}
 \begin{method}[Forced Problem]\label{forcing}
-Let $u_i(t)$ be the solution at node $v_i$ to the discete diffusion problem
+Let $u_i(t)$ be the solution at node $v_i$ to the discrete diffusion problem
 \[
 \frac{d}{dt}\b{u}(t)  = - L\b{u} + f
 \]
-where $L$ is the  graph laplacian and $f$ a forcing vector with $f_i = \alpha_{cc}$ if node $v_i$ is known to be ``on", $f_j = -\beta_{cc}$ if $v_j$ is known to be ``off", where $cc$ denotes a connected component of the graph. We choose $\alpha_{cc}$ and $\beta_{cc}$ so that on any connected component $cc$, $\sum \alpha_{cc}= \sum \beta_{cc}= 1$. 
+where $L$ is the  graph Laplacian and $f$ a forcing vector with $f_i = \alpha_{cc}$ if node $v_i$ is known to be ``on", $f_j = -\beta_{cc}$ if $v_j$ is known to be ``off", where $cc$ denotes a connected component of the graph. We choose $\alpha_{cc}$ and $\beta_{cc}$ so that on any connected component $cc$, $\sum \alpha_{cc}= \sum \beta_{cc}= 1$. 
 
 Then, if $\b{K}$ is the information ``known" and the values of $v_{k}$ and $v_{l}$ are unknown, and $\b{\tilde{u}}$ is the equilibrium solution to the diffusion problem,
 \[
@@ -645,7 +636,7 @@ Then, if $\b{K}$ is the information ``known" and the values of $v_{k}$ and $v_{l
 
 Notice that the kernel of $L$ is $\mathit{span}(\{\b{1}|_{cc}\})$, where $cc$ denotes a connected component of the graph. For an equilibrium solution to exist, any connected component with an ``on" node must also have an ``off" node, so that $f \in \mathit{span}(\{\b{1}|_{cc}\})^{\perp}$, which is the range of $L$ because $L$ is symmetric. 
 
-We can easily compute the equilibrium solution by solving, as long as we have guarenteed that $f \in \mathit{range}(L)$. On a practical note, we use numpy's least squares solver because the matrix $L$ is singular. Unfortunately, if we do not specify an off node in a connected component in which we do specify an on node (or vice versa), there is no equilibrium solution.
+We can easily compute the equilibrium solution by solving, as long as we have guaranteed that $f \in \mathit{range}(L)$. On a practical note, we use Numpy's least squares solver because the matrix $L$ is singular. Unfortunately, if we do not specify an off node in a connected component in which we do specify an on node (or vice versa), there is no equilibrium solution.
 
 The third method can be interpreted much like \cref{boundarVal}. However, instead of the population being maintained at known nodes, we have a constant inflow or outflow from the graph at these nodes. 
 
@@ -767,10 +758,10 @@ I tested these three ideas on two small (unweighted) graphs, shown in \cref{test
 	\hline
 \end{tabular}
 \end{center}
-\caption{Results of ranking nodes by liklihood of being ``on" by the three above methods}\label{rankres}
+\caption{Results of ranking nodes by likelihood of being ``on" by the three above methods}\label{rankres}
 \end{table}
 	
-I also tested these methods on a genus level network built from Pearson correlation higher than $0.8$ with $p < 0.05$ (determined by Monte Carlo simulation). This network had a number of connected components. I used a column of the sample data used to creat the network as my configuration, with nodes with larger than mean abundance take ``on" and no abundance taken ``off", while taxa with non-zero but below mean abundance taken as ``unknown". By analysing all nodes using \cref{initalCond} (\cref{diffusion_sample} (a)), positive likelihood can be assigned to nodes assumed ``off" if they are connected to nodes assumed ``on". In the other two methods, only unkown and nodes assumed on can have positive likelihood (\cref{diffusion_sample} (b)).
+I also tested these methods on a genus level network built from Pearson correlation higher than $0.8$ with $p < 0.05$ (determined by Monte Carlo simulation). This network had a number of connected components. I used a column of the sample data used to create the network as my configuration, with nodes with larger than mean abundance taken as ``on" and no abundance taken as ``off", while taxa with non-zero but below mean abundance taken as ``unknown". By analyzing all nodes using \cref{initalCond} (\cref{diffusion_sample} (a)), positive likelihood can be assigned to nodes assumed ``off" if they are connected to nodes assumed ``on". In the other two methods, only unknown and nodes assumed on can have positive likelihood (\cref{diffusion_sample} (b)).
 
 \begin{figure}
 	\begin{center}
@@ -796,99 +787,8 @@ I also tested these methods on a genus level network built from Pearson correlat
 \end{center}
 \end{figure}	
 
-\subsection{Read production based analysis}
-Another way to think about the question of which taxa are present given a sample is to think specifically about the reads, and which taxa produce them. This would give us a ``reaction network" of the type 
-\[
-\xymatrix@R = 1 pt{
-t_1 \ar[r] \ar[ddr] & r_1	\\
-t_2 \ar[r] \ar[ur] & r_2\\
-t_3 \ar[r] \ar[dr] \ar[uur] & r_3\\
- & r_4}
-\]
-Then, what we observe is the equilibrium condition of the reaction network, and we want to determine the initial condition. Or, perhaps we treat it as an I/O system in which we observe the output and want to know the input.
-
-However, I don't think our taxa genomes get consumed. So $t_i \rightarrow r_j$ is probably either
-\[
-t_i \rightarrow t_i + r_j
-\]
-or 
-\[
-t_i + s \leftrightarrow s_{t_i} \rightarrow t_i + s + r_j
-\]
-If it's the second, we can probably do a quasi steady state approximation and just replace $t_i$ with $\lambda(t_i)$. 
-
-If we believe that the read production can be abstracted to the above,
-\[
-\b{r}(\tau) = \b{r}(0) + \sum_{i,j|t_i\rightarrow r_j} Y_{ij}\left(\int_0^{\tau} \lambda(t_i(\sigma))d\sigma\right)\b{e}_j
-\]
-($Y_{ij}(\tau)$ is a unit rate Poisson process) or if we take a deterministic version
-\[
-\b{r}(\tau) = \b{r}(0) + \sum_{j|t_i\rightarrow r_j} \lambda(t_i)\tau
-\]
-If we assume that $r(0) = 0$ and we have the deterministic model, then
-\[
-\frac{r_j(\tau)}{r_k(\tau)} = \frac{\sum_{i|t_i\rightarrow r_j} \lambda(t_i)}{\sum_{l|t_l\rightarrow r_k} \lambda(t_l)}
-\]
-Letting $T_j = \sum_{j|t_i\rightarrow r_j} \lambda(t_i)$ and $R_{kj} = \frac{r_j(\tau)}{r_k(\tau)}$, we have then
-\[
-(\b{R}T)_j  = T_{1}R_{1j} + T_2R_{2j} + \cdots + T_nR_{nj} = nT_j
-\]
-and so we can get $T$ by solving the eignvalue problem. Notice this only determines $T$ up to multiplicative constant (assuming the multiplicity of $n$ is 1). If we are wrong about what $n$ is, finding the eigenvalues of $R$ could correct us, I guess (of course, that's taking our model as truth). If we know $n$, then, we can find $T$ up to multiplicative constant $c$. Finally, we have
-\[
-(cT)_j = c\sum_{j|t_i\rightarrow r_j} \lambda(t_i)
-\]
-and so
-\[
-cT = \Gamma c\lambda(\b{t})
-\]
-where $\Gamma_{ij} = 1_{t_i \rightarrow r_j}$. Then let's say we can solve, so we have $\b{\xi} = c\lambda(\b{t})$, and if we know and can invert $\lambda$ we finally have relative abundances $\frac{t_i}{t_j}$. 
-
-This is of course full of problems. Right off the bat, deterministic modeling is probably wrong. If we use the stochastic model, we can play a similar game. Let $P_j = \sum_{i|t_i\rightarrow r_j} Y_{ij}\left(\int_0^{\tau} \lambda(t_i(\sigma))d\sigma\right)$. Then, we can still solve for $cP$ just like we did for $cT$. The issue comes from turning that into the $\lambda(t_i)$. Of course, we still have constant $t_i$ (by construction or some quasi steady-state justification), so we can solve for
-\[
-cP_j = c\sum_{i|t_i\rightarrow r_j} Y_{ij}\left(\lambda(t_i)\tau\right)
-\]
-Then, we can solve for relative expected abundances
-\[
-\bE(cP_j)  = c\sum_{i|t_i \rightarrow r_j} \lambda(t_i)\tau
-\]
-so we can solve for $c\lambda(t_i)\tau$ and so get relative abundances, if we think we know $\bE(cP)$, meaning we think we have $\bE \b{R}$ I suppose. More generally, we can write down a distribution for $P$, but it doesn't do us a whole lot of good. Notice that solving for the expected abundances is the same as solving in the deterministic setting, which makes sense due to the Kurtz scaling limit and LLN. 
-
-We might like the model 
-\[
-t_i + s \leftrightarrow s_{t_i} \rightarrow t_i + s + r_j
-\] 
-better. Then, a quasi steady state (i.e., assuming $t_i$, $s$, and $s_{t_i}$ bound complex are constant), gives
-\[
-\lambda(t_i) = \frac{s_0 t_i}{1 + t_i}
-\]
-(by solving the system $\dot{t_i} = 0$, $\dot{s} = 0$, 	$s_{t_i} = s_0 - s$). Then,
-\[
-t_i = \frac{\xi_i}{cs_0  - \xi_i} 
-\]
-which is a problem for getting rid of $c$. We can calculate
-\[
-\frac{\xi_i}{\xi_j} = \frac{t_i(1+t_j)}{t_j(1+t_i)}
-\]
-
-We might instead like something being consumed:
-\[
-t_i + s \rightarrow t_i + r_j
-\]
-this leads to the first case with $\lambda(x) = x$ if we look at equilibrium. This is because
-\[
-s(\tau) = s_0 \exp\left(-\tau \sum_{p} m_p t_p\right)
-\]
-where $m_i$ is the number of distinct reads that can come from taxa $i$. Then, 
-\[
-r_j(t) = s_0 \frac{1 - \exp\left(-\tau \sum_{p} m_p t_p\right)}{\sum_i m_i t_i}\sum_{i|t_i \rightarrow r_j} t_i
-\]
-and so if $r_j^*$ is the value at equilibrium,
-\[
-\frac{r_j^*}{r_k^*} = \frac{\sum_{i|t_i\rightarrow r_j} t_i}{\sum_{l|t_l\rightarrow r_k} t_l}
-\]
-
 \section{Comparison of Networks}
-At some point here, I'm going to want to compare networks. Luckily, there's things to do. There are of course the simple and obvious: size, radius, various connectivity and clustering metrics. There are also more interesting things, like the random walk kernel on graphs. Graph kernels are similar to an inner product on two graphs.
+We also may want to compare networks, especially networks produced from samples separated according to some category of metadata. There are of course the simple and obvious: size, radius, various connectivity and clustering metrics. There are also more interesting things, like the random walk kernel on graphs. Graph kernels are similar to an inner product on two graphs.
 
 A graph kernel $k(G_1,G_2)$ must be symmetric and positive definite (an inner product must also be bilinear) \cite{Vishwanathan}. To compute the most common type (random walk kernels) we need to define the direct product of two graphs $G$ and $G'$. That is the graph $G_{\times}$ with vertices 
 \[
@@ -920,9 +820,9 @@ where $q,q'$ are stopping probabilities, and $p,p'$ are initial distributions. T
 
 \subsection{Matching samples to networks}
 
-Suppose we have different networks built from different types of data - i.e. healthy and unhealthy, or different regions, etc. Can we match a sample with the network that makes most the sense? That is, can we say that a sample is more likely to be from one type of data than the other based on the network? 
+Suppose we have different networks built from different types of data - i.e. healthy and unhealthy, or different regions, etc. We would like to match a sample with the network that makes most the sense. That is, we would like to say that a sample is more likely to be from one type of data than the other based on the network.
 
-Clearly, the first pass is just asking how many taxa detected in the sample appear in each network. Next, we might ask how many clusters of a network are represented, or similarly how many taxa of the sample are in the same cluster in the network. The diffusion (\cref{initalCond}) idea can do something like this. We should see less nodes ranked highly that aren't in the sample if the sample ``fits" a network well. If we imagine a sample is created by performing a random walk on a graph and recording the nodes most often visited, the diffusion idea should identify nodes that the random walk ``should" have seen. If there are a bunch of those missing from the sample, we might think the network is not the right one. We could consider the map from rank to abundance, and integrate this against a kernel that weights towards the high ranks. As an example, let $\b{s}$ be the sample abundancs (so $s_i$ is the abundance of organism $i$), and $\b{r}$ the ranking (so $r_i$ is the rank of organism $i$). We might take 
+Clearly, the first pass is just asking how many taxa detected in the sample appear in each network. Next, we might ask how many clusters of a network are represented, or similarly how many taxa of the sample are in the same cluster in the network. The diffusion (\cref{initalCond}) idea can do something like this. We should see less nodes ranked highly that aren't in the sample if the sample ``fits" a network well. If we imagine a sample is created by performing a random walk on a graph and recording the nodes most often visited, the diffusion idea should identify nodes that the random walk ``should" have seen. If there are a bunch of those missing from the sample, we might think the network is not the right one. We could consider the map from rank to abundance, and integrate this against a kernel that weights towards the high ranks. As an example, let $\b{s}$ be the sample abundances (so $s_i$ is the abundance of organism $i$), and $\b{r}$ the ranking (so $r_i$ is the rank of organism $i$). We might take 
 \[
 F(\b{s},\b{r}) = \sum_{i=1}^n c^{r_i} s_i
 \]
@@ -991,7 +891,7 @@ Let's start with a very simple example. Consider the two networks shown in \cref
 \caption{Results of sample assignment: $u_1$ cannot be decided, $u_2$ is assigned to network $A_1$, and $u_3$ is assigned to network $A_2$.}\label{tiny_res}
 \end{figure}
 
-I did the same on a column of training data for the species level network, a column of data that was held out of the network building, and a randomly generated sample. The results, shown in \cref{full_assign}, have the training data and held out data more likely to ``fit" the network than the ramdom data.
+I did the same on a column of training data for the species level network, a column of data that was held out of the network building, and a randomly generated sample. The results, shown in \cref{full_assign}, have the training data and held out data more likely to ``fit" the network than the random data.
 
 \begin{figure}
 	\begin{subfigure}[b]{0.9\linewidth}

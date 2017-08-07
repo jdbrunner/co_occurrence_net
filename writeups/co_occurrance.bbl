@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{Anderson2010}
 David~F. Anderson, Gheorghe Craciun, and Thomas~G. Kurtz.
@@ -10,6 +10,20 @@ David~F. Anderson, Gheorghe Craciun, and Thomas~G. Kurtz.
 Aaron Clauset, M.~E.~J. Newman, and Cristopher Moore.
 \newblock Finding community structure in very large networks.
 \newblock {\em Phys. Rev. E}, 70:066111, Dec 2004.
+
+\bibitem{gut}
+Lianshuo Li, Zicheng Wang, Peng He, Shining Ma, Jie Du, and Rui Jiang.
+\newblock Construction and analysis of functional networks in the gut
+  microbiome of type 2 diabetes patients.
+\newblock {\em Genomics Proteomics Bioinformatics}, 14:314 -- 324, 2016.
+
+\bibitem{edge}
+Po-E Li, Chien-Chi Lo, Joseph~J. Anderson, Karen~W. Davenport, Kimberly~A.
+  Bishop-Lilly, Yan Xu, Sanaa Ahmed, Shihai Feng, Vishwesh~P. Mokashi, and
+  Patrick~S.G. Chain.
+\newblock Enabling the democratization of the genomics revolution with a fully
+  integrated web-based bioinformatics platform.
+\newblock {\em Nucleic Acids Research}, 45(1):67, 2017.
 
 \bibitem{machine_learning}
 Kevin~P. Murphy.
@@ -25,6 +39,13 @@ Heiko Müller and Francesco Mancuso.
 M.~E.~J. Newman.
 \newblock Analysis of weighted networks.
 \newblock {\em Phys. Rev. E}, 70:056131, Nov 2004.
+
+\bibitem{cyotscape}
+Paul Shannon, Andrew Markiel, Owen Ozier, Nitin~S Baliga, Jonathan~T Wang,
+  Daniel Ramage, Nada Amin, Benno Schwikowski, and Trey Ideker.
+\newblock Cytoscape: A software environment for integrated models of
+  biomolecular interaction networks.
+\newblock {\em Genome Research}, 13(11):2498--2504, 11 2003.
 
 \bibitem{Vishwanathan}
 S.~V.~N. Vishwanathan, Nicol~N. Schraudolph, Risi Kondor, and Karsten~M.
