@@ -1,0 +1,665 @@
+TAXA	sample_type	sample_color	frequency	spect_cluster	commun_cluster	spect_color	comm_color
+Acinetobacter sp. P8-3-8	R_Retroauricular_crease	#acf59a	2	98.0	6.0	#ff7e41	#6826fe
+Acinetobacter sp. VT 511	Anterior_nares	#8000ff	1	43.0	13.0	#3ae8d6	#4c50fc
+Acinetobacter tandoii	Anterior_nares	#8000ff	1	72.0	10.0	#b9ef92	#583efd
+Acinetobacter ursingii	R_Retroauricular_crease	#acf59a	4	98.0	6.0	#ff7e41	#6826fe
+Actinomyces europaeus	Anterior_nares	#8000ff	2	112.0	11.0	#ff2211	#5444fd
+Actinomyces sp. S4-C9	Anterior_nares	#8000ff	1	39.0	15.0	#28dbde	#445cfb
+Actinomyces vaccimaxillae	Anterior_nares	#8000ff	2	98.0	6.0	#ff7e41	#6826fe
+Advenella kashmirensis	Anterior_nares	#8000ff	2	112.0	11.0	#ff2211	#5444fd
+Aeromonas hydrophila	L_Retroauricular_crease	#34e4d9	1	91.0	3.0	#ffa558	#7413ff
+Aeromonas rivuli	Anterior_nares	#8000ff	1	45.0	27.0	#44eed2	#11a0f1
+Aeromonas salmonicida	Anterior_nares	#8000ff	1	91.0	3.0	#ffa558	#7413ff
+Aeromonas sanarellii	Anterior_nares	#8000ff	1	66.0	17.0	#9efaa2	#3c68f9
+Agrobacterium albertimagni	Anterior_nares	#8000ff	1	86.0	19.0	#f6be68	#3473f8
+Agrobacterium sp. LC34	Anterior_nares	#8000ff	2	47.0	28.0	#4df3ce	#0ea5ef
+Aliivibrio salmonicida	Anterior_nares	#8000ff	1	61.0	25.0	#88ffaf	#1996f3
+Anaerofustis stercorihominis	Stool	#e8cb72	1	97.0	8.0	#ff8444	#6032fe
+Anaeroglobus geminatus	Subgingival_plaque	#ffac5c	1	36.0	24.0	#1dd1e2	#208ef4
+Anoxybacillus tepidamans	Anterior_nares	#8000ff	1	27.0	16.0	#0ca7ef	#4062fa
+Arthrobacter sp. AK-YN10	Anterior_nares	#8000ff	2	44.0	38.0	#3febd5	#1acfe3
+Arthrobacter sp. L77	Anterior_nares	#8000ff	1	86.0	19.0	#f6be68	#3473f8
+Atopobium sp. BS2	Saliva	#cbe486	14	82.0	21.0	#e4cf74	#2c7ef7
+Atopococcus tabaci	Anterior_nares	#8000ff	2	98.0	6.0	#ff7e41	#6826fe
+Aurantimonas coralicida	Anterior_nares	#8000ff	1	72.0	10.0	#b9ef92	#583efd
+Bacillus nealsonii	Anterior_nares	#8000ff	1	31.0	47.0	#07bbea	#3febd5
+Bacillus smithii	L_Retroauricular_crease	#34e4d9	1	45.0	27.0	#44eed2	#11a0f1
+Bacillus velezensis	Anterior_nares	#8000ff	1	48.0	16.0	#50f4cc	#4062fa
+Bacteroidaceae bacterium MS4	Stool	#e8cb72	1	97.0	8.0	#ff8444	#6032fe
+Bacteroides stercorirosoris	Stool	#e8cb72	2	47.0	28.0	#4df3ce	#0ea5ef
+Bdellovibrio bacteriovorus	Anterior_nares	#8000ff	1	106.0	37.0	#ff4a26	#17cbe4
+Belnapia moabensis	L_Retroauricular_crease	#34e4d9	2	44.0	38.0	#3febd5	#1acfe3
+Bifidobacterium kashiwanohense	L_Retroauricular_crease	#34e4d9	5	65.0	40.0	#9bfba5	#22d6e0
+Bilophila wadsworthia	Stool	#e8cb72	1	36.0	30.0	#1dd1e2	#06aeed
+Bordetella petrii	Anterior_nares	#8000ff	1	51.0	39.0	#5efac6	#1fd3e1
+Bosea sp. Root483D1	L_Retroauricular_crease	#34e4d9	1	24.0	48.0	#1898f2	#42edd3
+Brachybacterium faecium	Anterior_nares	#8000ff	1	24.0	48.0	#1898f2	#42edd3
+Brachymonas chironomi	Anterior_nares	#8000ff	3	37.0	20.0	#20d5e1	#3079f7
+Bradyrhizobium lablabi	Anterior_nares	#8000ff	2	58.0	38.0	#7dffb6	#1acfe3
+Bradyrhizobium sp. URHA0002	Anterior_nares	#8000ff	4	44.0	38.0	#3febd5	#1acfe3
+Brevibacillus borstelensis	Anterior_nares	#8000ff	1	36.0	24.0	#1dd1e2	#208ef4
+Brevibacterium senegalense	Anterior_nares	#8000ff	2	58.0	38.0	#7dffb6	#1acfe3
+Brevundimonas abyssalis	R_Retroauricular_crease	#acf59a	2	47.0	28.0	#4df3ce	#0ea5ef
+Brevundimonas nasdae	R_Retroauricular_crease	#acf59a	1	86.0	19.0	#f6be68	#3473f8
+Brevundimonas sp. BAL3	R_Retroauricular_crease	#acf59a	1	86.0	19.0	#f6be68	#3473f8
+Brevundimonas sp. EAKA	R_Retroauricular_crease	#acf59a	4	112.0	11.0	#ff2211	#5444fd
+Burkholderia ambifaria	Anterior_nares	#8000ff	2	98.0	6.0	#ff7e41	#6826fe
+Burkholderia contaminans	Anterior_nares	#8000ff	1	36.0	30.0	#1dd1e2	#06aeed
+Burkholderia vietnamiensis	Buccal_mucosa	#445cfb	1	117.0	45.0	#ff0000	#37e6d8
+Candidatus Saccharibacteria bacterium RAAC3_TM7_1	Attached	#622ffe	2	19.0	64.0	#2e7bf7	#84ffb2
+Capnocytophaga canimorsus	R_Retroauricular_crease	#acf59a	5	53.0	22.0	#66fcc2	#2884f6
+Capnocytophaga sp. oral taxon 324	Subgingival_plaque	#ffac5c	3	19.0	64.0	#2e7bf7	#84ffb2
+Capnocytophaga sp. oral taxon 335	Supragingival_plaque	#ff8646	3	19.0	64.0	#2e7bf7	#84ffb2
+Capnocytophaga sp. oral taxon 336	Subgingival_plaque	#ffac5c	2	19.0	64.0	#2e7bf7	#84ffb2
+Carnobacterium sp. WN1374	R_Retroauricular_crease	#acf59a	2	80.0	33.0	#dcd67a	#07bbea
+Carnobacterium sp. ZWU0011	Buccal_mucosa	#445cfb	1	24.0	48.0	#1898f2	#42edd3
+Cellulomonas carbonis	Stool	#e8cb72	2	47.0	28.0	#4df3ce	#0ea5ef
+Cellulomonas flavigena	Throat	#ff5c2f	3	112.0	11.0	#ff2211	#5444fd
+Cellulomonas gilvus	Anterior_nares	#8000ff	1	75.0	26.0	#c6e789	#169bf2
+Cellulomonas sp. Leaf334	Anterior_nares	#8000ff	1	85.0	53.0	#f2c26b	#58f8c9
+Cellulomonas sp. Root485	Anterior_nares	#8000ff	1	7.0	26.0	#622ffe	#169bf2
+Chryseobacterium hispalense	R_Retroauricular_crease	#acf59a	1	107.0	18.0	#ff4422	#386df9
+Chryseobacterium oranimense	Anterior_nares	#8000ff	1	63.0	49.0	#92fda9	#46efd1
+Chryseobacterium sp. FF12	R_Retroauricular_crease	#acf59a	3	112.0	11.0	#ff2211	#5444fd
+Chryseobacterium sp. Hurlbut01	Buccal_mucosa	#445cfb	1	53.0	34.0	#66fcc2	#0ac0e8
+Chryseobacterium sp. UNC8MFCol	Anterior_nares	#8000ff	2	49.0	7.0	#54f6cb	#642cfe
+Chryseobacterium vrystaatense	Anterior_nares	#8000ff	2	98.0	6.0	#ff7e41	#6826fe
+Clostridiales bacterium SIT13	L_Retroauricular_crease	#34e4d9	1	105.0	63.0	#ff532a	#80ffb4
+Clostridiales bacterium VE202-13	Stool	#e8cb72	2	68.0	74.0	#a8f79c	#acf59a
+Clostridiales bacterium VE202-27	Stool	#e8cb72	3	47.0	28.0	#4df3ce	#0ea5ef
+Clostridiales bacterium VE202-28	Stool	#e8cb72	1	117.0	43.0	#ff0000	#2fe0db
+[Clostridium] asparagiforme	Stool	#e8cb72	2	47.0	28.0	#4df3ce	#0ea5ef
+Clostridium baratii	R_Retroauricular_crease	#acf59a	2	12.0	42.0	#4c50fc	#2adddd
+[Clostridium] bolteae	Stool	#e8cb72	2	116.0	74.0	#ff0905	#acf59a
+Clostridium sp. ATCC 29733	Stool	#e8cb72	1	36.0	24.0	#1dd1e2	#208ef4
+Collinsella sp. MS5	L_Retroauricular_crease	#34e4d9	1	54.0	0.0	#6afdc0	#8000ff
+Collinsella stercoris	Stool	#e8cb72	2	68.0	74.0	#a8f79c	#acf59a
+Collinsella tanakaei	Stool	#e8cb72	1	101.0	32.0	#ff6b37	#02b7eb
+Comamonas granuli	Anterior_nares	#8000ff	4	12.0	42.0	#4c50fc	#2adddd
+Comamonas sp. E6	Anterior_nares	#8000ff	1	90.0	60.0	#ffa95b	#74feba
+Coprococcus sp. HPP0048	Stool	#e8cb72	1	107.0	65.0	#ff4422	#88ffaf
+Corynebacterium amycolatum	L_Retroauricular_crease	#34e4d9	4	98.0	6.0	#ff7e41	#6826fe
+Corynebacterium capitovis	Anterior_nares	#8000ff	1	75.0	26.0	#c6e789	#169bf2
+Corynebacterium freneyi	L_Retroauricular_crease	#34e4d9	3	44.0	38.0	#3febd5	#1acfe3
+Corynebacterium glyciniphilum	Anterior_nares	#8000ff	3	44.0	38.0	#3febd5	#1acfe3
+Corynebacterium humireducens	Anterior_nares	#8000ff	1	91.0	3.0	#ffa558	#7413ff
+Corynebacterium marinum	Anterior_nares	#8000ff	1	93.0	68.0	#ff9b52	#94fda8
+Corynebacterium pilosum	R_Retroauricular_crease	#acf59a	1	86.0	19.0	#f6be68	#3473f8
+Corynebacterium sp. ATCC 6931	L_Retroauricular_crease	#34e4d9	5	98.0	6.0	#ff7e41	#6826fe
+Corynebacterium sp. KPL1818	Anterior_nares	#8000ff	156	17.0	79.0	#3670f8	#c2ea8c
+Corynebacterium terpenotabidum	Anterior_nares	#8000ff	1	105.0	71.0	#ff532a	#a0faa1
+Corynebacterium ulceribovis	Anterior_nares	#8000ff	1	101.0	32.0	#ff6b37	#02b7eb
+Corynebacterium uterequi	Anterior_nares	#8000ff	2	112.0	11.0	#ff2211	#5444fd
+Corynebacterium xerosis	R_Retroauricular_crease	#acf59a	1	43.0	13.0	#3ae8d6	#4c50fc
+Cronobacter dublinensis	Anterior_nares	#8000ff	2	20.0	42.0	#2981f6	#2adddd
+Cronobacter malonaticus	Anterior_nares	#8000ff	3	12.0	42.0	#4c50fc	#2adddd
+Cronobacter turicensis	Anterior_nares	#8000ff	2	20.0	42.0	#2981f6	#2adddd
+Cronobacter universalis	Anterior_nares	#8000ff	2	12.0	42.0	#4c50fc	#2adddd
+Cupriavidus basilensis	Mid_vagina	#52f5cb	3	23.0	59.0	#1c93f3	#70febc
+Curtobacterium luteum	Anterior_nares	#8000ff	1	35.0	39.0	#18cde4	#1fd3e1
+Curvibacter lanceolatus	Anterior_nares	#8000ff	7	0.0	83.0	#8000ff	#d2de81
+Cystobacter fuscus	Anterior_nares	#8000ff	1	85.0	53.0	#f2c26b	#58f8c9
+Cystobacter violaceus	Anterior_nares	#8000ff	1	85.0	53.0	#f2c26b	#58f8c9
+Dactylosporangium aurantiacum	Anterior_nares	#8000ff	1	101.0	32.0	#ff6b37	#02b7eb
+Deinococcus gobiensis	Anterior_nares	#8000ff	3	28.0	23.0	#06aeed	#2489f5
+Deinococcus phoenicis	Anterior_nares	#8000ff	1	101.0	32.0	#ff6b37	#02b7eb
+Deinococcus radiodurans	Posterior_fornix	#8efeac	1	85.0	53.0	#f2c26b	#58f8c9
+Deinococcus sp. 2009	Anterior_nares	#8000ff	1	7.0	26.0	#622ffe	#169bf2
+Deinococcus sp. Leaf326	Anterior_nares	#8000ff	2	28.0	23.0	#06aeed	#2489f5
+Deinococcus wulumuqiensis	R_Retroauricular_crease	#acf59a	3	44.0	38.0	#3febd5	#1acfe3
+Delftia tsuruhatensis	Anterior_nares	#8000ff	5	115.0	70.0	#ff1008	#9cfba4
+Demetria terragena	Anterior_nares	#8000ff	1	85.0	53.0	#f2c26b	#58f8c9
+Desulfovibrio desulfuricans	Stool	#e8cb72	4	37.0	20.0	#20d5e1	#3079f7
+Dorea sp. AGR2135	Stool	#e8cb72	1	105.0	63.0	#ff532a	#80ffb4
+Dyadobacter alkalitolerans	R_Retroauricular_crease	#acf59a	2	80.0	33.0	#dcd67a	#07bbea
+Dyadobacter beijingensis	Anterior_nares	#8000ff	1	43.0	13.0	#3ae8d6	#4c50fc
+Dyadobacter sp. Leaf189	Anterior_nares	#8000ff	1	53.0	34.0	#66fcc2	#0ac0e8
+Dysgonomonas mossii	Stool	#e8cb72	1	51.0	39.0	#5efac6	#1fd3e1
+Elizabethkingia genomosp. 2	Anterior_nares	#8000ff	2	59.0	59.0	#80ffb4	#70febc
+Elizabethkingia genomosp. 4	Anterior_nares	#8000ff	1	109.0	81.0	#ff381c	#cbe486
+Elizabethkingia meningoseptica	Buccal_mucosa	#445cfb	2	112.0	11.0	#ff2211	#5444fd
+Enterobacter asburiae	Anterior_nares	#8000ff	1	43.0	13.0	#3ae8d6	#4c50fc
+Enterobacter hormaechei	R_Retroauricular_crease	#acf59a	1	63.0	49.0	#92fda9	#46efd1
+Enterobacter sp. K66-74	Anterior_nares	#8000ff	2	112.0	11.0	#ff2211	#5444fd
+Enterococcus avium	Anterior_nares	#8000ff	1	101.0	32.0	#ff6b37	#02b7eb
+Enterococcus mundtii	Anterior_nares	#8000ff	3	20.0	42.0	#2981f6	#2adddd
+Epilithonimonas lactis	Anterior_nares	#8000ff	2	12.0	42.0	#4c50fc	#2adddd
+Epilithonimonas sp. FH1	Buccal_mucosa	#445cfb	1	53.0	34.0	#66fcc2	#0ac0e8
+Epilithonimonas tenax	R_Retroauricular_crease	#acf59a	5	98.0	6.0	#ff7e41	#6826fe
+Erwinia billingiae	Anterior_nares	#8000ff	1	7.0	26.0	#622ffe	#169bf2
+Erwinia sp. SCU-B244	Anterior_nares	#8000ff	2	112.0	11.0	#ff2211	#5444fd
+Erysipelotrichaceae bacterium 21_3	Stool	#e8cb72	1	50.0	41.0	#58f8c9	#27dade
+Erysipelotrichaceae bacterium 2_2_44A	Stool	#e8cb72	1	105.0	71.0	#ff532a	#a0faa1
+Escherichia hermannii	Anterior_nares	#8000ff	2	58.0	38.0	#7dffb6	#1acfe3
+Eubacterium limosum	Stool	#e8cb72	1	99.0	69.0	#ff793e	#99fca6
+Eubacterium sp. AB3007	Stool	#e8cb72	1	117.0	43.0	#ff0000	#2fe0db
+Exiguobacterium mexicanum	L_Retroauricular_crease	#34e4d9	2	44.0	38.0	#3febd5	#1acfe3
+Exiguobacterium sp. S17	Anterior_nares	#8000ff	2	57.0	57.0	#78ffb8	#68fcc1
+Exiguobacterium sp. ZWU0009	Anterior_nares	#8000ff	2	112.0	11.0	#ff2211	#5444fd
+Exiguobacterium undae	Anterior_nares	#8000ff	2	98.0	6.0	#ff7e41	#6826fe
+Flaviflexus sp. SIT4	Anterior_nares	#8000ff	1	7.0	26.0	#622ffe	#169bf2
+Flavihumibacter sp. ZG627	Anterior_nares	#8000ff	2	98.0	6.0	#ff7e41	#6826fe
+Flavobacterium akiainvivens	Anterior_nares	#8000ff	1	27.0	16.0	#0ca7ef	#4062fa
+Flavobacterium frigidarium	Anterior_nares	#8000ff	4	92.0	36.0	#ffa055	#12c8e6
+Flavobacterium hibernum	Anterior_nares	#8000ff	1	65.0	12.0	#9bfba5	#504afc
+Flavobacterium indicum	Anterior_nares	#8000ff	1	4.0	27.0	#7019ff	#11a0f1
+Flavobacterium rivuli	Anterior_nares	#8000ff	4	92.0	36.0	#ffa055	#12c8e6
+Flavobacterium sasangense	R_Retroauricular_crease	#acf59a	1	45.0	27.0	#44eed2	#11a0f1
+Flavobacterium sp. B17	R_Retroauricular_crease	#acf59a	1	7.0	26.0	#622ffe	#169bf2
+Flavobacterium subsaxonicum	Anterior_nares	#8000ff	1	24.0	48.0	#1898f2	#42edd3
+Flavonifractor plautii	Stool	#e8cb72	2	68.0	74.0	#a8f79c	#acf59a
+Franconibacter pulveris	Anterior_nares	#8000ff	3	12.0	42.0	#4c50fc	#2adddd
+Frigoribacterium sp. Leaf8	Anterior_nares	#8000ff	1	45.0	27.0	#44eed2	#11a0f1
+Frigoribacterium sp. RIT-PI-h	Anterior_nares	#8000ff	1	35.0	39.0	#18cde4	#1fd3e1
+Fusobacterium russii	Attached	#622ffe	2	28.0	23.0	#06aeed	#2489f5
+Fusobacterium sp. CM1	Palatine_Tonsils	#70febc	1	2.0	16.0	#780dff	#4062fa
+Fusobacterium sp. CM21	Palatine_Tonsils	#70febc	1	61.0	25.0	#88ffaf	#1996f3
+Fusobacterium sp. CM22	Supragingival_plaque	#ff8646	3	19.0	64.0	#2e7bf7	#84ffb2
+Fusobacterium ulcerans	Stool	#e8cb72	1	107.0	65.0	#ff4422	#88ffaf
+Gemmata obscuriglobus	Anterior_nares	#8000ff	1	104.0	27.0	#ff592d	#11a0f1
+Geodermatophilaceae bacterium URHB0048	Anterior_nares	#8000ff	1	85.0	53.0	#f2c26b	#58f8c9
+Gluconobacter frateurii	R_Retroauricular_crease	#acf59a	1	54.0	0.0	#6afdc0	#8000ff
+Gordonia paraffinivorans	Anterior_nares	#8000ff	3	98.0	6.0	#ff7e41	#6826fe
+Gordonia sp. KTR9	Anterior_nares	#8000ff	1	72.0	10.0	#b9ef92	#583efd
+Gordonia sp. SGD-V-85	R_Retroauricular_crease	#acf59a	3	12.0	42.0	#4c50fc	#2adddd
+Halomonas hydrothermalis	R_Retroauricular_crease	#acf59a	1	96.0	73.0	#ff8947	#a8f79c
+Helcococcus sueciensis	R_Retroauricular_crease	#acf59a	2	49.0	7.0	#54f6cb	#642cfe
+Herbaspirillum autotrophicum	Anterior_nares	#8000ff	2	59.0	59.0	#80ffb4	#70febc
+Herbaspirillum chlorophenolicum	Vaginal_introitus	#ff0000	2	59.0	59.0	#80ffb4	#70febc
+Herbaspirillum frisingense	R_Retroauricular_crease	#acf59a	2	59.0	59.0	#80ffb4	#70febc
+Herbaspirillum huttiense	Vaginal_introitus	#ff0000	2	32.0	59.0	#0ac0e8	#70febc
+Herbaspirillum rubrisubalbicans	Vaginal_introitus	#ff0000	2	32.0	59.0	#0ac0e8	#70febc
+Herbaspirillum seropedicae	Vaginal_introitus	#ff0000	1	90.0	60.0	#ffa95b	#74feba
+Herbaspirillum sp. B39	Vaginal_introitus	#ff0000	2	59.0	59.0	#80ffb4	#70febc
+Herbaspirillum sp. B65	Anterior_nares	#8000ff	1	90.0	60.0	#ffa95b	#74feba
+Herbaspirillum sp. GW103	Vaginal_introitus	#ff0000	3	83.0	59.0	#e8cb72	#70febc
+Herbaspirillum sp. RV1423	Anterior_nares	#8000ff	2	32.0	59.0	#0ac0e8	#70febc
+Holdemania massiliensis	Stool	#e8cb72	1	60.0	56.0	#84ffb2	#64fbc3
+Hydrogenobacter thermophilus	Anterior_nares	#8000ff	2	37.0	20.0	#20d5e1	#3079f7
+Hymenobacter sp. APR13	Anterior_nares	#8000ff	1	73.0	61.0	#beec8e	#78ffb8
+Hymenobacter sp. AT01-02	L_Retroauricular_crease	#34e4d9	2	112.0	11.0	#ff2211	#5444fd
+Hymenobacter sp. MIMtkLc17	L_Retroauricular_crease	#34e4d9	1	106.0	37.0	#ff4a26	#17cbe4
+Janibacter sp. Soil728	Anterior_nares	#8000ff	3	67.0	58.0	#a4f89f	#6dfdbf
+Janthinobacterium sp. CG3	Anterior_nares	#8000ff	1	53.0	34.0	#66fcc2	#0ac0e8
+Janthinobacterium sp. KBS0711	Anterior_nares	#8000ff	1	72.0	10.0	#b9ef92	#583efd
+Janthinobacterium sp. RA13	Anterior_nares	#8000ff	1	70.0	17.0	#b0f397	#3c68f9
+Jonesia quinghaiensis	Anterior_nares	#8000ff	1	31.0	47.0	#07bbea	#3febd5
+Kaistia adipata	Anterior_nares	#8000ff	1	86.0	19.0	#f6be68	#3473f8
+Kandleria vitulina	Stool	#e8cb72	1	45.0	27.0	#44eed2	#11a0f1
+Kineosphaera limosa	Subgingival_plaque	#ffac5c	3	9.0	58.0	#5a3bfd	#6dfdbf
+Kineosporia aurantiaca	Anterior_nares	#8000ff	1	54.0	0.0	#6afdc0	#8000ff
+Kingella kingae	Keratinized_gingiva	#17cbe4	3	22.0	88.0	#218cf4	#e6cd73
+Knoellia flava	Anterior_nares	#8000ff	3	12.0	42.0	#4c50fc	#2adddd
+Komagataeibacter europaeus	Anterior_nares	#8000ff	2	98.0	6.0	#ff7e41	#6826fe
+Kordiimonas gwangyangensis	Anterior_nares	#8000ff	4	28.0	23.0	#06aeed	#2489f5
+Lachnospiraceae bacterium 1_4_56FAA	Stool	#e8cb72	2	68.0	74.0	#a8f79c	#acf59a
+Lachnospiraceae bacterium 2_1_46FAA	Stool	#e8cb72	1	105.0	91.0	#ff532a	#f2c26b
+Lachnospiraceae bacterium 28-4	Attached	#622ffe	1	99.0	69.0	#ff793e	#99fca6
+Lachnospiraceae bacterium A4	Stool	#e8cb72	1	64.0	35.0	#96fca7	#0fc4e7
+Lachnospira multipara	Stool	#e8cb72	2	21.0	51.0	#2686f5	#50f4cc
+Lactobacillus acidipiscis	Anterior_nares	#8000ff	1	17.0	87.0	#3670f8	#e2d176
+Lactobacillus acidophilus	Anterior_nares	#8000ff	5	89.0	44.0	#ffb05f	#32e3da
+Lactobacillus aviarius	Anterior_nares	#8000ff	1	35.0	39.0	#18cde4	#1fd3e1
+Lactobacillus coleohominis	Mid_vagina	#52f5cb	2	112.0	11.0	#ff2211	#5444fd
+Lactobacillus fuchuensis	Anterior_nares	#8000ff	3	28.0	23.0	#06aeed	#2489f5
+Lactobacillus johnsonii	Posterior_fornix	#8efeac	2	59.0	59.0	#80ffb4	#70febc
+Lactobacillus kalixensis	Posterior_fornix	#8efeac	1	46.0	77.0	#48f1d0	#bbee91
+Lactobacillus murinus	Anterior_nares	#8000ff	1	25.0	92.0	#149df1	#f6be68
+Lactobacillus parakefiri	Anterior_nares	#8000ff	1	74.0	80.0	#c2ea8c	#c6e789
+Lactobacillus pontis	Anterior_nares	#8000ff	1	78.0	96.0	#d2de81	#ffac5c
+Lactobacillus vini	Anterior_nares	#8000ff	2	49.0	7.0	#54f6cb	#642cfe
+Leadbetterella byssophila	Anterior_nares	#8000ff	1	35.0	39.0	#18cde4	#1fd3e1
+Leifsonia aquatica	Anterior_nares	#8000ff	2	49.0	7.0	#54f6cb	#642cfe
+Leisingera sp. ANG-M1	R_Retroauricular_crease	#acf59a	2	12.0	42.0	#4c50fc	#2adddd
+Leptonema illini	Anterior_nares	#8000ff	1	84.0	5.0	#eec66d	#6c1fff
+Leptotrichia sp. oral taxon 879	Subgingival_plaque	#ffac5c	4	19.0	64.0	#2e7bf7	#84ffb2
+Leucobacter chironomi	Tongue_dorsum	#ff2f18	2	9.0	58.0	#5a3bfd	#6dfdbf
+Leuconostoc inhae	Anterior_nares	#8000ff	1	108.0	89.0	#ff3e1f	#ebca70
+Leuconostoc lactis	Anterior_nares	#8000ff	2	112.0	11.0	#ff2211	#5444fd
+Limnohabitans planktonicus	Anterior_nares	#8000ff	3	12.0	42.0	#4c50fc	#2adddd
+Limnohabitans sp. Rim28	R_Retroauricular_crease	#acf59a	4	12.0	42.0	#4c50fc	#2adddd
+Lysobacter defluvii	Anterior_nares	#8000ff	1	4.0	27.0	#7019ff	#11a0f1
+Lysobacter dokdonensis	Anterior_nares	#8000ff	1	111.0	29.0	#ff2c16	#09a9ee
+Mangrovibacter sp. MFB070	Anterior_nares	#8000ff	1	108.0	89.0	#ff3e1f	#ebca70
+Mannheimia varigena	Buccal_mucosa_NA	#2686f5	2	62.0	104.0	#8efeac	#ff8143
+Marmoricola sp. Leaf446	L_Retroauricular_crease	#34e4d9	5	115.0	70.0	#ff1008	#9cfba4
+Marvinbryantia formatexigens	Stool	#e8cb72	4	65.0	40.0	#9bfba5	#22d6e0
+Massilia alkalitolerans	R_Retroauricular_crease	#acf59a	1	64.0	35.0	#96fca7	#0fc4e7
+Megasphaera elsdenii	Stool	#e8cb72	1	52.0	62.0	#62fbc4	#7dffb6
+Megasphaera genomosp. type_1	L_Retroauricular_crease	#34e4d9	1	111.0	29.0	#ff2c16	#09a9ee
+Megasphaera sp. UPII 135-E	L_Retroauricular_crease	#34e4d9	2	49.0	7.0	#54f6cb	#642cfe
+Mesorhizobium metallidurans	Anterior_nares	#8000ff	1	51.0	39.0	#5efac6	#1fd3e1
+Mesorhizobium sp. Root157	Anterior_nares	#8000ff	1	70.0	17.0	#b0f397	#3c68f9
+Mesorhizobium sp. UASWS1009	R_Retroauricular_crease	#acf59a	2	62.0	104.0	#8efeac	#ff8143
+Methylobacillus glycogenes	R_Retroauricular_crease	#acf59a	2	49.0	7.0	#54f6cb	#642cfe
+Methylobacterium oryzae	Anterior_nares	#8000ff	2	9.0	58.0	#5a3bfd	#6dfdbf
+Methylobacterium radiotolerans	Anterior_nares	#8000ff	1	64.0	35.0	#96fca7	#0fc4e7
+Methylobacterium sp. AMS5	R_Retroauricular_crease	#acf59a	1	101.0	32.0	#ff6b37	#02b7eb
+Methylobacterium sp. EUR3 AL-11	Anterior_nares	#8000ff	3	28.0	23.0	#06aeed	#2489f5
+Methylobacterium sp. GXF4	Buccal_mucosa	#445cfb	1	107.0	65.0	#ff4422	#88ffaf
+Methylobacterium sp. GXS13	R_Retroauricular_crease	#acf59a	2	28.0	23.0	#06aeed	#2489f5
+Methylobacterium sp. L2-4	Anterior_nares	#8000ff	1	99.0	97.0	#ff793e	#ffa759
+Methylobacterium sp. Leaf121	Anterior_nares	#8000ff	1	7.0	26.0	#622ffe	#169bf2
+Methylobacterium sp. Leaf361	Anterior_nares	#8000ff	1	99.0	97.0	#ff793e	#ffa759
+Methylosarcina fibrata	Anterior_nares	#8000ff	2	17.0	99.0	#3670f8	#ff9d53
+Methyloversatilis thermotolerans	Anterior_nares	#8000ff	1	36.0	24.0	#1dd1e2	#208ef4
+Micavibrio aeruginosavorus	Anterior_nares	#8000ff	2	112.0	11.0	#ff2211	#5444fd
+Microbacterium enclense	Anterior_nares	#8000ff	1	35.0	39.0	#18cde4	#1fd3e1
+Microbacterium hominis	Anterior_nares	#8000ff	1	101.0	32.0	#ff6b37	#02b7eb
+Microbacterium maritypicum	Anterior_nares	#8000ff	3	28.0	23.0	#06aeed	#2489f5
+Microbacterium oleivorans	Anterior_nares	#8000ff	1	17.0	87.0	#3670f8	#e2d176
+Microbacterium sp. Ag1	R_Retroauricular_crease	#acf59a	3	112.0	11.0	#ff2211	#5444fd
+Microbacterium sp. Leaf151	Anterior_nares	#8000ff	3	28.0	23.0	#06aeed	#2489f5
+Microbacterium sp. Root280D1	Anterior_nares	#8000ff	3	28.0	23.0	#06aeed	#2489f5
+Microbacterium sp. ZOR0019	Anterior_nares	#8000ff	2	58.0	38.0	#7dffb6	#1acfe3
+Micrococcus sp. MS-ASIII-49	L_Retroauricular_crease	#34e4d9	4	18.0	110.0	#3176f8	#ff5f30
+Micrococcus sp. V7	Anterior_nares	#8000ff	2	98.0	6.0	#ff7e41	#6826fe
+Microcoleus vaginatus	L_Retroauricular_crease	#34e4d9	3	12.0	42.0	#4c50fc	#2adddd
+Microlunatus phosphovorus	R_Retroauricular_crease	#acf59a	2	28.0	23.0	#06aeed	#2489f5
+Microvirga vignae	Anterior_nares	#8000ff	2	44.0	38.0	#3febd5	#1acfe3
+Mobiluncus mulieris	Stool	#e8cb72	2	112.0	11.0	#ff2211	#5444fd
+Modestobacter caceresii	Anterior_nares	#8000ff	6	89.0	44.0	#ffb05f	#32e3da
+Modestobacter marinus	Anterior_nares	#8000ff	3	58.0	38.0	#7dffb6	#1acfe3
+Mogibacterium sp. CM50	Subgingival_plaque	#ffac5c	1	107.0	65.0	#ff4422	#88ffaf
+Moraxella bovoculi	Anterior_nares	#8000ff	49	41.0	111.0	#32e3da	#ff592d
+Moraxella caprae	Anterior_nares	#8000ff	55	41.0	111.0	#32e3da	#ff592d
+Moraxella catarrhalis	Anterior_nares	#8000ff	79	41.0	111.0	#32e3da	#ff592d
+Moraxella macacae	Anterior_nares	#8000ff	40	41.0	111.0	#32e3da	#ff592d
+Moritella dasanensis	Anterior_nares	#8000ff	1	53.0	34.0	#66fcc2	#0ac0e8
+Moritella marina	Anterior_nares	#8000ff	1	72.0	10.0	#b9ef92	#583efd
+Mycobacterium aromaticivorans	Anterior_nares	#8000ff	1	45.0	27.0	#44eed2	#11a0f1
+Mycobacterium avium	L_Retroauricular_crease	#34e4d9	1	84.0	5.0	#eec66d	#6c1fff
+Mycobacterium chelonae	Mid_vagina	#52f5cb	2	32.0	59.0	#0ac0e8	#70febc
+Mycobacterium chubuense	Anterior_nares	#8000ff	1	63.0	49.0	#92fda9	#46efd1
+Mycobacterium mageritense	Anterior_nares	#8000ff	4	28.0	23.0	#06aeed	#2489f5
+Mycobacterium sp. JS623	Anterior_nares	#8000ff	2	12.0	42.0	#4c50fc	#2adddd
+Mycobacterium tuberculosis	L_Retroauricular_crease	#34e4d9	1	52.0	62.0	#62fbc4	#7dffb6
+Mycobacterium vulneris	Anterior_nares	#8000ff	2	47.0	28.0	#4df3ce	#0ea5ef
+Neisseria bacilliformis	Throat	#ff5c2f	3	98.0	6.0	#ff7e41	#6826fe
+Neisseria shayeganii	R_Retroauricular_crease	#acf59a	2	28.0	23.0	#06aeed	#2489f5
+Neisseria sp. GT4A_CT1	Supragingival_plaque	#ff8646	7	42.0	114.0	#37e6d8	#ff4724
+Nesterenkonia sp. NP1	R_Retroauricular_crease	#acf59a	2	44.0	38.0	#3febd5	#1acfe3
+Nitrincola lacisaponensis	Anterior_nares	#8000ff	1	43.0	13.0	#3ae8d6	#4c50fc
+Nitrosospira multiformis	Anterior_nares	#8000ff	1	86.0	19.0	#f6be68	#3473f8
+Nitrospira defluvii	Tongue_dorsum	#ff2f18	2	28.0	23.0	#06aeed	#2489f5
+Niveispirillum irakense	Anterior_nares	#8000ff	3	112.0	11.0	#ff2211	#5444fd
+Nocardioides alkalitolerans	Anterior_nares	#8000ff	3	12.0	42.0	#4c50fc	#2adddd
+Nocardioides halotolerans	Anterior_nares	#8000ff	3	58.0	38.0	#7dffb6	#1acfe3
+Nocardioides sp. CF8	Anterior_nares	#8000ff	3	44.0	38.0	#3febd5	#1acfe3
+Nocardioides sp. JS614	Anterior_nares	#8000ff	1	85.0	53.0	#f2c26b	#58f8c9
+Nocardioides sp. Soil774	Anterior_nares	#8000ff	5	62.0	117.0	#8efeac	#ff351b
+Nocardioides sp. Soil805	Anterior_nares	#8000ff	1	85.0	53.0	#f2c26b	#58f8c9
+Novosphingobium lindaniclasticum	L_Retroauricular_crease	#34e4d9	1	54.0	0.0	#6afdc0	#8000ff
+Novosphingobium sp. AP12	Anterior_nares	#8000ff	1	117.0	43.0	#ff0000	#2fe0db
+Novosphingobium sp. Leaf2	Anterior_nares	#8000ff	1	45.0	27.0	#44eed2	#11a0f1
+Oceanobacillus kimchii	Anterior_nares	#8000ff	1	33.0	93.0	#0fc4e7	#fbb965
+Oceanobacillus massiliensis	Anterior_nares	#8000ff	2	49.0	7.0	#54f6cb	#642cfe
+Ochrobactrum anthropi	R_Retroauricular_crease	#acf59a	3	112.0	11.0	#ff2211	#5444fd
+Ochrobactrum intermedium	Anterior_nares	#8000ff	3	9.0	58.0	#5a3bfd	#6dfdbf
+Ochrobactrum rhizosphaerae	R_Retroauricular_crease	#acf59a	1	76.0	116.0	#cbe486	#ff3b1e
+Olivibacter sitiensis	Anterior_nares	#8000ff	2	98.0	6.0	#ff7e41	#6826fe
+Olsenella uli	Palatine_Tonsils	#70febc	1	100.0	2.0	#ff733b	#780dff
+Ornithinimicrobium pekingense	R_Retroauricular_crease	#acf59a	4	28.0	23.0	#06aeed	#2489f5
+Oscillatoria nigro-viridis	L_Retroauricular_crease	#34e4d9	3	12.0	42.0	#4c50fc	#2adddd
+Oscillibacter ruminantium	Stool	#e8cb72	1	86.0	67.0	#f6be68	#90feab
+Paenibacillus pasadenensis	Anterior_nares	#8000ff	1	4.0	27.0	#7019ff	#11a0f1
+Paenibacillus senegalensis	Anterior_nares	#8000ff	1	96.0	73.0	#ff8947	#a8f79c
+Paenibacillus sp. SIT18	Anterior_nares	#8000ff	2	14.0	85.0	#445cfb	#dbd87b
+Paenibacillus sp. TCA20	R_Retroauricular_crease	#acf59a	2	36.0	46.0	#1dd1e2	#3ae8d6
+Paenirhodobacter enshiensis	Anterior_nares	#8000ff	2	112.0	11.0	#ff2211	#5444fd
+Pandoraea sp. B-6	Anterior_nares	#8000ff	1	84.0	5.0	#eec66d	#6c1fff
+Pantoea sp. AS-PWVM4	Anterior_nares	#8000ff	1	107.0	65.0	#ff4422	#88ffaf
+Pantoea sp. At-9b	Anterior_nares	#8000ff	1	107.0	65.0	#ff4422	#88ffaf
+Pantoea sp. MBLJ3	Anterior_nares	#8000ff	2	12.0	42.0	#4c50fc	#2adddd
+Pantoea sp. NGS-ED-1003	R_Retroauricular_crease	#acf59a	1	101.0	32.0	#ff6b37	#02b7eb
+Parabacteroides gordonii	Stool	#e8cb72	4	21.0	51.0	#2686f5	#50f4cc
+Paraburkholderia fungorum	Anterior_nares	#8000ff	1	36.0	30.0	#1dd1e2	#06aeed
+Paraburkholderia phytofirmans	Posterior_fornix	#8efeac	1	90.0	60.0	#ffa95b	#74feba
+Paracoccus aestuarii	Anterior_nares	#8000ff	2	1.0	75.0	#7c06ff	#b2f396
+Paracoccus marcusii	Anterior_nares	#8000ff	3	1.0	75.0	#7c06ff	#b2f396
+Paracoccus pantotrophus	Buccal_mucosa	#445cfb	1	91.0	3.0	#ffa558	#7413ff
+Paracoccus sp. J55	Anterior_nares	#8000ff	2	12.0	42.0	#4c50fc	#2adddd
+Paracoccus sp. MKU1	R_Retroauricular_crease	#acf59a	1	45.0	27.0	#44eed2	#11a0f1
+Paracoccus versutus	Buccal_mucosa	#445cfb	3	12.0	42.0	#4c50fc	#2adddd
+Parvimonas sp. oral taxon 110	Subgingival_plaque	#ffac5c	1	62.0	109.0	#8efeac	#ff6533
+Pediococcus acidilactici	Anterior_nares	#8000ff	2	12.0	42.0	#4c50fc	#2adddd
+Pediococcus parvulus	Anterior_nares	#8000ff	3	9.0	58.0	#5a3bfd	#6dfdbf
+Pedobacter antarcticus	Anterior_nares	#8000ff	3	47.0	28.0	#4df3ce	#0ea5ef
+Pedobacter heparinus	Anterior_nares	#8000ff	1	51.0	39.0	#5efac6	#1fd3e1
+Pedobacter sp. NL19	Anterior_nares	#8000ff	1	36.0	24.0	#1dd1e2	#208ef4
+Pedobacter sp. R20-19	R_Retroauricular_crease	#acf59a	1	107.0	65.0	#ff4422	#88ffaf
+Peptostreptococcaceae bacterium OBRC8	Subgingival_plaque	#ffac5c	2	19.0	64.0	#2e7bf7	#84ffb2
+Peptostreptococcaceae bacterium oral taxon 113	Palatine_Tonsils	#70febc	1	50.0	41.0	#58f8c9	#27dade
+Phenylobacterium zucineum	R_Retroauricular_crease	#acf59a	2	112.0	11.0	#ff2211	#5444fd
+Planomicrobium sp. ES2	Anterior_nares	#8000ff	1	54.0	0.0	#6afdc0	#8000ff
+Pleomorphomonas oryzae	Anterior_nares	#8000ff	1	91.0	3.0	#ffa558	#7413ff
+Pontibacter roseus	Anterior_nares	#8000ff	1	62.0	109.0	#8efeac	#ff6533
+Porphyromonas gingivicanis	R_Retroauricular_crease	#acf59a	4	28.0	23.0	#06aeed	#2489f5
+Porphyromonas sp. COT-239 OH1446	R_Retroauricular_crease	#acf59a	4	28.0	23.0	#06aeed	#2489f5
+Prevotella brevis	Keratinized_gingiva	#17cbe4	3	28.0	23.0	#06aeed	#2489f5
+Prevotella dentalis	Saliva	#cbe486	2	47.0	28.0	#4df3ce	#0ea5ef
+Prevotella multisaccharivorax	Subgingival_plaque	#ffac5c	1	77.0	106.0	#cee184	#ff763d
+Prevotella sp. BV3P1	Palatine_Tonsils	#70febc	1	19.0	84.0	#2e7bf7	#d6db7e
+Prevotella sp. P4-65	Stool	#e8cb72	1	99.0	69.0	#ff793e	#99fca6
+Prevotella sp. P5-60	Attached	#622ffe	2	71.0	31.0	#b4f295	#01b3ec
+Prevotella sp. S7 MS 2	Keratinized_gingiva	#17cbe4	3	112.0	11.0	#ff2211	#5444fd
+Promicromonospora kroppenstedtii	Anterior_nares	#8000ff	2	16.0	1.0	#3c68f9	#7c06ff
+Promicromonospora sukumoe	Anterior_nares	#8000ff	2	16.0	1.0	#3c68f9	#7c06ff
+Propionimicrobium lymphophilum	Tongue_dorsum	#ff2f18	3	102.0	100.0	#ff6533	#ff964f
+Proteiniclasticum ruminis	R_Retroauricular_crease	#acf59a	1	91.0	3.0	#ffa558	#7413ff
+Providencia alcalifaciens	Anterior_nares	#8000ff	3	44.0	38.0	#3febd5	#1acfe3
+Pseudochrobactrum sp. AO18b	Anterior_nares	#8000ff	2	5.0	14.0	#6c1fff	#4856fb
+Pseudolabrys sp. Root1462	Anterior_nares	#8000ff	1	36.0	30.0	#1dd1e2	#06aeed
+Pseudomonas alcaliphila	Anterior_nares	#8000ff	1	107.0	65.0	#ff4422	#88ffaf
+Pseudomonas caeni	Anterior_nares	#8000ff	3	5.0	14.0	#6c1fff	#4856fb
+Pseudomonas composti	Anterior_nares	#8000ff	2	55.0	66.0	#6efebe	#8cfead
+Pseudomonas frederiksbergensis	Vaginal_introitus	#ff0000	4	38.0	59.0	#24d8df	#70febc
+Pseudomonas libanensis	Vaginal_introitus	#ff0000	1	62.0	109.0	#8efeac	#ff6533
+Pseudomonas lutea	Anterior_nares	#8000ff	3	28.0	23.0	#06aeed	#2489f5
+Pseudomonas nitroreducens	R_Retroauricular_crease	#acf59a	5	37.0	20.0	#20d5e1	#3079f7
+Pseudomonas orientalis	Vaginal_introitus	#ff0000	1	109.0	81.0	#ff381c	#cbe486
+Pseudomonas parafulva	Anterior_nares	#8000ff	1	30.0	9.0	#02b7eb	#5c38fd
+Pseudomonas psychrotolerans	R_Retroauricular_crease	#acf59a	1	62.0	109.0	#8efeac	#ff6533
+Pseudomonas sp. 20_BN	Buccal_mucosa	#445cfb	2	69.0	20.0	#acf59a	#3079f7
+Pseudomonas sp. 2-92(2010)	Anterior_nares	#8000ff	1	63.0	49.0	#92fda9	#46efd1
+Pseudomonas sp. 313	R_Retroauricular_crease	#acf59a	1	6.0	101.0	#6629fe	#ff914c
+Pseudomonas sp. Ag1	Vaginal_introitus	#ff0000	2	59.0	59.0	#80ffb4	#70febc
+Pseudomonas sp. CHM02	Anterior_nares	#8000ff	1	90.0	60.0	#ffa95b	#74feba
+Pseudomonas sp. DSM 28142	Vaginal_introitus	#ff0000	3	23.0	59.0	#1c93f3	#70febc
+Pseudomonas sp. DSM 29164	Vaginal_introitus	#ff0000	1	90.0	60.0	#ffa95b	#74feba
+Pseudomonas sp. DSM 29167	Mid_vagina	#52f5cb	2	59.0	59.0	#80ffb4	#70febc
+Pseudomonas sp. Eur1 9.41	Vaginal_introitus	#ff0000	2	32.0	59.0	#0ac0e8	#70febc
+Pseudomonas sp. KG01	Anterior_nares	#8000ff	6	92.0	36.0	#ffa055	#12c8e6
+Pseudomonas sp. L10.10	Saliva	#cbe486	3	12.0	42.0	#4c50fc	#2adddd
+Pseudomonas sp. Leaf127	Anterior_nares	#8000ff	2	98.0	6.0	#ff7e41	#6826fe
+Pseudomonas sp. NBRC 111130	Anterior_nares	#8000ff	1	62.0	112.0	#8efeac	#ff532a
+Pseudomonas sp. NBRC 111133	Anterior_nares	#8000ff	2	10.0	120.0	#5641fd	#ff2211
+Pseudomonas sp. NBRC 111134	Vaginal_introitus	#ff0000	3	23.0	59.0	#1c93f3	#70febc
+Pseudomonas sp. NBRC 111135	R_Retroauricular_crease	#acf59a	1	101.0	32.0	#ff6b37	#02b7eb
+Pseudomonas sp. PTA1	Anterior_nares	#8000ff	1	107.0	102.0	#ff4422	#ff8c49
+Pseudomonas sp. Root562	Anterior_nares	#8000ff	1	72.0	10.0	#b9ef92	#583efd
+Pseudomonas sp. Root9	Vaginal_introitus	#ff0000	2	59.0	59.0	#80ffb4	#70febc
+Pseudomonas sp. TJI-51	Anterior_nares	#8000ff	3	12.0	42.0	#4c50fc	#2adddd
+Pseudomonas synxantha	Vaginal_introitus	#ff0000	3	23.0	59.0	#1c93f3	#70febc
+Pseudomonas syringae group genomosp. 3	Anterior_nares	#8000ff	1	66.0	17.0	#9efaa2	#3c68f9
+Pseudomonas tolaasii	Vaginal_introitus	#ff0000	1	109.0	81.0	#ff381c	#cbe486
+Pseudopedobacter saltans	Anterior_nares	#8000ff	1	33.0	93.0	#0fc4e7	#fbb965
+Pseudorhodoferax sp. Leaf265	Anterior_nares	#8000ff	1	84.0	5.0	#eec66d	#6c1fff
+Pseudorhodoferax sp. Leaf267	Anterior_nares	#8000ff	1	86.0	19.0	#f6be68	#3473f8
+Psychrobacter sp. G	Anterior_nares	#8000ff	1	93.0	68.0	#ff9b52	#94fda8
+Psychrobacter sp. P11F6	Saliva	#cbe486	1	61.0	25.0	#88ffaf	#1996f3
+Psychrobacter sp. PRwf-1	Anterior_nares	#8000ff	32	41.0	111.0	#32e3da	#ff592d
+Pyrinomonas methylaliphatogenes	Anterior_nares	#8000ff	3	36.0	46.0	#1dd1e2	#3ae8d6
+Ralstonia sp. A12	L_Retroauricular_crease	#34e4d9	1	84.0	5.0	#eec66d	#6c1fff
+Ralstonia sp. AU12-08	R_Retroauricular_crease	#acf59a	3	0.0	118.0	#8000ff	#ff2f18
+Ralstonia sp. NT80	R_Retroauricular_crease	#acf59a	1	36.0	30.0	#1dd1e2	#06aeed
+Raoultella ornithinolytica	Anterior_nares	#8000ff	2	88.0	54.0	#feb562	#5df9c7
+Rheinheimera sp. A13L	R_Retroauricular_crease	#acf59a	2	105.0	72.0	#ff532a	#a4f89f
+Rhizobacter sp. Root1221	Anterior_nares	#8000ff	1	17.0	87.0	#3670f8	#e2d176
+Rhizobacter sp. Root404	Anterior_nares	#8000ff	2	44.0	38.0	#3febd5	#1acfe3
+Rhizobium leguminosarum	Anterior_nares	#8000ff	1	36.0	30.0	#1dd1e2	#06aeed
+Rhizobium selenitireducens	Anterior_nares	#8000ff	2	112.0	11.0	#ff2211	#5444fd
+Rhizobium sp. H41	R_Retroauricular_crease	#acf59a	1	99.0	97.0	#ff793e	#ffa759
+Rhizobium sp. NT-26	Anterior_nares	#8000ff	1	86.0	19.0	#f6be68	#3473f8
+Rhodococcus erythropolis	R_Retroauricular_crease	#acf59a	3	18.0	110.0	#3176f8	#ff5f30
+Rhodococcus sp. Leaf247	L_Retroauricular_crease	#34e4d9	1	85.0	53.0	#f2c26b	#58f8c9
+Rhodococcus sp. p52	Anterior_nares	#8000ff	1	3.0	94.0	#7413ff	#feb562
+Rhodococcus sp. R04	Anterior_nares	#8000ff	3	20.0	42.0	#2981f6	#2adddd
+Rhodocyclaceae bacterium Paddy-1	Anterior_nares	#8000ff	1	34.0	4.0	#14cae5	#7019ff
+Rhodopseudomonas sp. AAP120	Anterior_nares	#8000ff	3	47.0	28.0	#4df3ce	#0ea5ef
+Riemerella anatipestifer	Saliva	#cbe486	1	97.0	8.0	#ff8444	#6032fe
+Riemerella columbina	Buccal_mucosa	#445cfb	2	98.0	6.0	#ff7e41	#6826fe
+Rikenella microfusus	Stool	#e8cb72	1	6.0	101.0	#6629fe	#ff914c
+Roseomonas cervicalis	Anterior_nares	#8000ff	1	7.0	26.0	#622ffe	#169bf2
+Roseomonas mucosa	R_Retroauricular_crease	#acf59a	3	44.0	38.0	#3febd5	#1acfe3
+Rubellimicrobium mesophilum	R_Retroauricular_crease	#acf59a	3	14.0	85.0	#445cfb	#dbd87b
+Rubritepida flocculans	Anterior_nares	#8000ff	1	7.0	26.0	#622ffe	#169bf2
+Rubrobacter aplysinae	Anterior_nares	#8000ff	1	85.0	53.0	#f2c26b	#58f8c9
+Ruminococcus albus	Stool	#e8cb72	3	111.0	52.0	#ff2c16	#54f6cb
+Ruminococcus flavefaciens	Stool	#e8cb72	3	111.0	52.0	#ff2c16	#54f6cb
+[Ruminococcus] torques	Stool	#e8cb72	1	86.0	67.0	#f6be68	#90feab
+Runella zeae	Anterior_nares	#8000ff	1	4.0	27.0	#7019ff	#11a0f1
+Saccharomonospora glauca	Anterior_nares	#8000ff	2	13.0	108.0	#4856fb	#ff6b37
+Saccharomonospora viridis	Anterior_nares	#8000ff	1	100.0	2.0	#ff733b	#780dff
+Saccharopolyspora rectivirgula	Anterior_nares	#8000ff	1	15.0	86.0	#4062fa	#ded579
+Salinicoccus luteus	Anterior_nares	#8000ff	1	117.0	43.0	#ff0000	#2fe0db
+Sanguibacteroides justesenii	Stool	#e8cb72	2	21.0	51.0	#2686f5	#50f4cc
+Scytonema millei	Anterior_nares	#8000ff	5	53.0	22.0	#66fcc2	#2884f6
+Scytonema tolypothrichoides	R_Retroauricular_crease	#acf59a	1	99.0	69.0	#ff793e	#99fca6
+Selenomonas artemidis	Supragingival_plaque	#ff8646	3	19.0	64.0	#2e7bf7	#84ffb2
+Selenomonas sp. F0473	Supragingival_plaque	#ff8646	3	1.0	75.0	#7c06ff	#b2f396
+Selenomonas sp. oral taxon 138	Attached	#622ffe	4	19.0	64.0	#2e7bf7	#84ffb2
+Selenomonas sp. oral taxon 478	Saliva	#cbe486	7	95.0	125.0	#ff8e4a	#ff0000
+Serinicoccus profundi	R_Retroauricular_crease	#acf59a	3	112.0	11.0	#ff2211	#5444fd
+Serratia liquefaciens	Saliva	#cbe486	2	98.0	6.0	#ff7e41	#6826fe
+Serratia plymuthica	Saliva	#cbe486	2	14.0	85.0	#445cfb	#dbd87b
+Serratia sp. Leaf51	Anterior_nares	#8000ff	9	92.0	36.0	#ffa055	#12c8e6
+Shewanella baltica	L_Retroauricular_crease	#34e4d9	2	98.0	6.0	#ff7e41	#6826fe
+Shewanella decolorationis	Anterior_nares	#8000ff	1	45.0	27.0	#44eed2	#11a0f1
+Shewanella putrefaciens	R_Retroauricular_crease	#acf59a	1	53.0	34.0	#66fcc2	#0ac0e8
+Shewanella sp. ANA-3	L_Retroauricular_crease	#34e4d9	1	62.0	109.0	#8efeac	#ff6533
+Shewanella sp. HN-41	Anterior_nares	#8000ff	1	45.0	27.0	#44eed2	#11a0f1
+Shinella sp. DD12	R_Retroauricular_crease	#acf59a	1	56.0	55.0	#74feba	#60fac5
+Shuttleworthia sp. MSX8B	Subgingival_plaque	#ffac5c	2	22.0	88.0	#218cf4	#e6cd73
+Sinorhizobium sp. GL2	Anterior_nares	#8000ff	1	45.0	27.0	#44eed2	#11a0f1
+Slackia exigua	Palatine_Tonsils	#70febc	1	52.0	62.0	#62fbc4	#7dffb6
+Slackia piriformis	L_Retroauricular_crease	#34e4d9	1	108.0	89.0	#ff3e1f	#ebca70
+Solimonas variicoloris	Anterior_nares	#8000ff	3	12.0	42.0	#4c50fc	#2adddd
+Solirubrobacter sp. URHD0082	Anterior_nares	#8000ff	1	7.0	26.0	#622ffe	#169bf2
+Sorangium cellulosum	Anterior_nares	#8000ff	1	85.0	53.0	#f2c26b	#58f8c9
+Sphaerobacter thermophilus	R_Retroauricular_crease	#acf59a	1	40.0	113.0	#2fe0db	#ff4d27
+Sphingobacteriaceae bacterium DW12	Anterior_nares	#8000ff	1	3.0	94.0	#7413ff	#feb562
+Sphingobacterium sp. 21	Anterior_nares	#8000ff	3	17.0	99.0	#3670f8	#ff9d53
+Sphingobacterium sp. ML3W	Anterior_nares	#8000ff	1	97.0	8.0	#ff8444	#6032fe
+Sphingobium sp. Ant17	Anterior_nares	#8000ff	1	101.0	32.0	#ff6b37	#02b7eb
+Sphingobium sp. ba1	Anterior_nares	#8000ff	4	28.0	23.0	#06aeed	#2489f5
+Sphingobium sp. DC-2	R_Retroauricular_crease	#acf59a	3	37.0	20.0	#20d5e1	#3079f7
+Sphingomonas sanguinis	Anterior_nares	#8000ff	2	28.0	23.0	#06aeed	#2489f5
+Sphingomonas sp. 35-24ZXX	Anterior_nares	#8000ff	1	75.0	26.0	#c6e789	#169bf2
+Sphingomonas sp. Ant20	Anterior_nares	#8000ff	2	112.0	11.0	#ff2211	#5444fd
+Sphingomonas sp. DC-6	Anterior_nares	#8000ff	2	5.0	14.0	#6c1fff	#4856fb
+Sphingomonas sp. KA1	Anterior_nares	#8000ff	1	17.0	87.0	#3670f8	#e2d176
+Sphingomonas sp. Leaf10	Anterior_nares	#8000ff	3	28.0	23.0	#06aeed	#2489f5
+Sphingomonas sp. Leaf208	Anterior_nares	#8000ff	4	17.0	82.0	#3670f8	#cee184
+Sphingomonas sp. Leaf257	Anterior_nares	#8000ff	1	84.0	5.0	#eec66d	#6c1fff
+Sphingomonas sp. Leaf28	Anterior_nares	#8000ff	3	28.0	23.0	#06aeed	#2489f5
+Sphingomonas sp. Leaf30	Anterior_nares	#8000ff	1	57.0	76.0	#78ffb8	#b6f193
+Sphingomonas sp. Leaf339	Anterior_nares	#8000ff	1	106.0	37.0	#ff4a26	#17cbe4
+Sphingomonas sp. Leaf412	Anterior_nares	#8000ff	3	28.0	23.0	#06aeed	#2489f5
+Sphingomonas sp. Mn802worker	Anterior_nares	#8000ff	3	67.0	58.0	#a4f89f	#6dfdbf
+Sphingomonas sp. SRS2	Anterior_nares	#8000ff	1	107.0	102.0	#ff4422	#ff8c49
+Sphingopyxis macrogoltabida	Vaginal_introitus	#ff0000	3	112.0	11.0	#ff2211	#5444fd
+Sphingopyxis sp. H115	Mid_vagina	#52f5cb	1	110.0	119.0	#ff3219	#ff2914
+Sporosarcina koreensis	Anterior_nares	#8000ff	1	93.0	68.0	#ff9b52	#94fda8
+Staphylococcus agnetis	Anterior_nares	#8000ff	1	19.0	95.0	#2e7bf7	#ffb05f
+Staphylococcus chromogenes	R_Retroauricular_crease	#acf59a	1	108.0	89.0	#ff3e1f	#ebca70
+Staphylococcus condimenti	Anterior_nares	#8000ff	1	86.0	123.0	#f6be68	#ff1008
+Staphylococcus intermedius	Anterior_nares	#8000ff	3	69.0	20.0	#acf59a	#3079f7
+Staphylococcus lentus	Anterior_nares	#8000ff	1	117.0	43.0	#ff0000	#2fe0db
+Staphylococcus schleiferi	L_Retroauricular_crease	#34e4d9	1	27.0	16.0	#0ca7ef	#4062fa
+Staphylococcus sp. E463	Anterior_nares	#8000ff	3	12.0	42.0	#4c50fc	#2adddd
+Staphylococcus sp. EGD-HP3	Anterior_nares	#8000ff	5	65.0	40.0	#9bfba5	#22d6e0
+Staphylococcus sp. OJ82	Anterior_nares	#8000ff	2	15.0	122.0	#4062fa	#ff160b
+Staphylococcus sp. ZWU0021	Anterior_nares	#8000ff	2	15.0	122.0	#4062fa	#ff160b
+Staphylococcus vitulinus	Anterior_nares	#8000ff	2	49.0	7.0	#54f6cb	#642cfe
+Stenotrophomonas chelatiphaga	Anterior_nares	#8000ff	2	28.0	23.0	#06aeed	#2489f5
+Streptococcus infantarius	Anterior_nares	#8000ff	3	9.0	58.0	#5a3bfd	#6dfdbf
+Streptococcus lutetiensis	Anterior_nares	#8000ff	1	117.0	43.0	#ff0000	#2fe0db
+Streptococcus pyogenes	Buccal_mucosa_NA	#2686f5	1	62.0	115.0	#8efeac	#ff4121
+Streptococcus sp. 2_1_36FAA	Buccal_mucosa	#445cfb	3	94.0	50.0	#ff964f	#4df3ce
+Streptococcus sp. AS20	Attached	#622ffe	3	71.0	31.0	#b4f295	#01b3ec
+Streptococcus sp. CM6	Buccal_mucosa_NA	#2686f5	1	11.0	124.0	#5247fc	#ff0905
+Streptococcus sp. CM7	Buccal_mucosa	#445cfb	2	79.0	90.0	#d9da7d	#eec66d
+Streptococcus sp. F0441	Buccal_mucosa	#445cfb	4	28.0	23.0	#06aeed	#2489f5
+Streptococcus sp. HSISS3	Buccal_mucosa_NA	#2686f5	1	24.0	48.0	#1898f2	#42edd3
+Streptococcus sp. oral taxon 056	Keratinized_gingiva	#17cbe4	1	57.0	76.0	#78ffb8	#b6f193
+Streptococcus sp. SK140	Hard_palate	#08acee	1	26.0	93.0	#10a2f0	#fbb965
+Streptococcus sp. SR4	Tongue_dorsum	#ff2f18	1	26.0	93.0	#10a2f0	#fbb965
+Streptococcus urinalis	Saliva	#cbe486	3	105.0	72.0	#ff532a	#a4f89f
+Streptomyces bottropensis	Anterior_nares	#8000ff	1	106.0	37.0	#ff4a26	#17cbe4
+Streptomyces sp. NRRL F-5630	Anterior_nares	#8000ff	1	35.0	39.0	#18cde4	#1fd3e1
+Synechococcus sp. BL107	Anterior_nares	#8000ff	1	8.0	103.0	#5e35fe	#ff8646
+Tannerella sp. 6_1_58FAA_CT1	Stool	#e8cb72	4	10.0	78.0	#5641fd	#beec8e
+Tessaracoccus sp. SIT7	Anterior_nares	#8000ff	1	4.0	27.0	#7019ff	#11a0f1
+Tetragenococcus muriaticus	Anterior_nares	#8000ff	1	107.0	102.0	#ff4422	#ff8c49
+Thauera sp. SWB20	Anterior_nares	#8000ff	1	97.0	8.0	#ff8444	#6032fe
+Thermanaerovibrio acidaminovorans	Anterior_nares	#8000ff	1	105.0	63.0	#ff532a	#80ffb4
+Thermoactinomyces daqus	Anterior_nares	#8000ff	2	112.0	11.0	#ff2211	#5444fd
+Thermobispora bispora	Anterior_nares	#8000ff	1	52.0	62.0	#62fbc4	#7dffb6
+Thermocrinis ruber	Buccal_mucosa	#445cfb	2	37.0	20.0	#20d5e1	#3079f7
+Thermomonas fusca	Anterior_nares	#8000ff	2	10.0	120.0	#5641fd	#ff2211
+Thermosinus carboxydivorans	Anterior_nares	#8000ff	2	79.0	90.0	#d9da7d	#eec66d
+Timonella senegalensis	Anterior_nares	#8000ff	1	85.0	53.0	#f2c26b	#58f8c9
+Treponema endosymbiont of Eucomonympha sp.	R_Retroauricular_crease	#acf59a	3	81.0	107.0	#e0d377	#ff703a
+Treponema pedis	Subgingival_plaque	#ffac5c	3	28.0	23.0	#06aeed	#2489f5
+Tuberibacillus calidus	Anterior_nares	#8000ff	1	107.0	18.0	#ff4422	#386df9
+Ureaplasma parvum	Vaginal_introitus	#ff0000	2	14.0	105.0	#445cfb	#ff7b40
+Veillonella seminalis	Keratinized_gingiva	#17cbe4	1	54.0	0.0	#6afdc0	#8000ff
+Vibrio cholerae	Buccal_mucosa	#445cfb	3	62.0	121.0	#8efeac	#ff1c0e
+Weeksella sp. FF8	Anterior_nares	#8000ff	1	53.0	34.0	#66fcc2	#0ac0e8
+Williamsia sp. Leaf354	Anterior_nares	#8000ff	1	4.0	27.0	#7019ff	#11a0f1
+Xanthobacter autotrophicus	Anterior_nares	#8000ff	3	12.0	42.0	#4c50fc	#2adddd
+Xanthomonas albilineans	Anterior_nares	#8000ff	2	10.0	120.0	#5641fd	#ff2211
+Xanthomonas sp. Mitacek01	L_Retroauricular_crease	#34e4d9	1	17.0	98.0	#3670f8	#ffa256
+Acinetobacter bereziniae	R_Retroauricular_crease	#acf59a	3	98.0	6.0	#ff7e41	#6826fe
+Acinetobacter sp. NIPH 284	L_Retroauricular_crease	#34e4d9	3	98.0	6.0	#ff7e41	#6826fe
+Acinetobacter sp. MII	Anterior_nares	#8000ff	1	43.0	13.0	#3ae8d6	#4c50fc
+Acinetobacter sp. 243_ASPC	Anterior_nares	#8000ff	1	72.0	10.0	#b9ef92	#583efd
+Acinetobacter sp. CIP 101966	R_Retroauricular_crease	#acf59a	2	112.0	11.0	#ff2211	#5444fd
+Acinetobacter sp. NIPH 817	Anterior_nares	#8000ff	1	29.0	15.0	#01b3ec	#445cfb
+Acidithiobacillus caldus	Buccal_mucosa	#445cfb	1	91.0	3.0	#ffa558	#7413ff
+Aerococcus urinae	Anterior_nares	#8000ff	1	45.0	27.0	#44eed2	#11a0f1
+Acinetobacter tjernbergiae	Anterior_nares	#8000ff	1	66.0	17.0	#9efaa2	#3c68f9
+Actinobacteria bacterium UC5.1-1B11	Anterior_nares	#8000ff	1	86.0	19.0	#f6be68	#3473f8
+Afipia clevelandensis	Anterior_nares	#8000ff	3	47.0	28.0	#4df3ce	#0ea5ef
+Actinoplanes rectilineatus	Anterior_nares	#8000ff	1	61.0	25.0	#88ffaf	#1996f3
+Acinetobacter radioresistens	L_Retroauricular_crease	#34e4d9	1	97.0	8.0	#ff8444	#6032fe
+Actinomyces sp. oral taxon 877	Supragingival_plaque	#ff8646	1	36.0	24.0	#1dd1e2	#208ef4
+Acinetobacter sp. NIPH 899	Anterior_nares	#8000ff	1	27.0	16.0	#0ca7ef	#4062fa
+Arthrobacter castelli	Anterior_nares	#8000ff	3	44.0	38.0	#3febd5	#1acfe3
+Actinomyces sp. ICM58	Tongue_dorsum	#ff2f18	18	82.0	21.0	#e4cf74	#2c7ef7
+Bacillaceae bacterium MTCC 8252	Anterior_nares	#8000ff	1	31.0	47.0	#07bbea	#3febd5
+Archangium gephyra	Anterior_nares	#8000ff	1	106.0	37.0	#ff4a26	#17cbe4
+Arthrobacter sp. JCM 19049	Anterior_nares	#8000ff	6	65.0	40.0	#9bfba5	#22d6e0
+Agrobacterium vitis	R_Retroauricular_crease	#acf59a	1	36.0	30.0	#1dd1e2	#06aeed
+Arthrobacter sp. H14	Anterior_nares	#8000ff	1	35.0	39.0	#18cde4	#1fd3e1
+Bacillus amyloliquefaciens	Anterior_nares	#8000ff	1	24.0	48.0	#1898f2	#42edd3
+Arcobacter butzleri	L_Retroauricular_crease	#34e4d9	4	37.0	20.0	#20d5e1	#3079f7
+Bifidobacterium subtile	Anterior_nares	#8000ff	4	69.0	20.0	#acf59a	#3079f7
+Bradyrhizobium japonicum	Vaginal_introitus	#ff0000	5	112.0	11.0	#ff2211	#5444fd
+Azonexus hydrophilus	Buccal_mucosa	#445cfb	1	117.0	45.0	#ff0000	#37e6d8
+Campylobacter curvus	Supragingival_plaque	#ff8646	2	19.0	64.0	#2e7bf7	#84ffb2
+Actinomyces sp. MS2	Anterior_nares	#8000ff	4	53.0	22.0	#66fcc2	#2884f6
+Aminobacter sp. J41	Anterior_nares	#8000ff	3	80.0	33.0	#dcd67a	#07bbea
+Actinoplanes sp. SE50/110	Anterior_nares	#8000ff	1	7.0	26.0	#622ffe	#169bf2
+Belnapia sp. F-4-1	L_Retroauricular_crease	#34e4d9	1	85.0	53.0	#f2c26b	#58f8c9
+Actinobacillus pleuropneumoniae	Buccal_mucosa_NA	#2686f5	1	107.0	18.0	#ff4422	#386df9
+Bacillus clausii	Anterior_nares	#8000ff	1	103.0	49.0	#ff5f30	#46efd1
+Aminobacter sp. Root100	Anterior_nares	#8000ff	1	53.0	34.0	#66fcc2	#0ac0e8
+Acinetobacter pittii	R_Retroauricular_crease	#acf59a	3	49.0	7.0	#54f6cb	#642cfe
+Caldimonas manganoxidans	R_Retroauricular_crease	#acf59a	1	105.0	63.0	#ff532a	#80ffb4
+Clostridiaceae bacterium MS3	Stool	#e8cb72	2	116.0	74.0	#ff0905	#acf59a
+Aureimonas sp. Leaf454	Anterior_nares	#8000ff	1	117.0	43.0	#ff0000	#2fe0db
+Aureimonas sp. Leaf324	Anterior_nares	#8000ff	3	12.0	42.0	#4c50fc	#2adddd
+Acetobacter syzygii	Anterior_nares	#8000ff	1	54.0	0.0	#6afdc0	#8000ff
+Aliihoeflea sp. 2WW	R_Retroauricular_crease	#acf59a	1	101.0	32.0	#ff6b37	#02b7eb
+Burkholderia diffusa	Anterior_nares	#8000ff	1	90.0	60.0	#ffa95b	#74feba
+Campylobacter sp. FOBRC14	Attached	#622ffe	1	107.0	65.0	#ff4422	#88ffaf
+Chelatococcus sambhunathii	Anterior_nares	#8000ff	1	93.0	68.0	#ff9b52	#94fda8
+Corynebacterium accolens	Anterior_nares	#8000ff	144	17.0	79.0	#3670f8	#c2ea8c
+Chryseobacterium sp. StRB126	Anterior_nares	#8000ff	1	105.0	71.0	#ff532a	#a0faa1
+Burkholderia cepacia	Posterior_fornix	#8efeac	2	59.0	59.0	#80ffb4	#70febc
+Curvibacter gracilis	Anterior_nares	#8000ff	10	0.0	83.0	#8000ff	#d2de81
+Actinomyces sp. oral taxon 180	Tongue_dorsum	#ff2f18	3	28.0	23.0	#06aeed	#2489f5
+Chryseobacterium sp. Leaf394	Anterior_nares	#8000ff	5	115.0	70.0	#ff1008	#9cfba4
+Cupriavidus gilardii	Anterior_nares	#8000ff	1	109.0	81.0	#ff381c	#cbe486
+Arthrobacter sp. TB 23	Anterior_nares	#8000ff	1	50.0	41.0	#58f8c9	#27dade
+Clostridium sp. SS2/1	Stool	#e8cb72	3	44.0	38.0	#3febd5	#1acfe3
+Chlorogloeopsis fritschii	Anterior_nares	#8000ff	1	99.0	69.0	#ff793e	#99fca6
+Bordetella trematum	Anterior_nares	#8000ff	3	57.0	57.0	#78ffb8	#68fcc1
+Bradyrhizobium sp. Leaf396	R_Retroauricular_crease	#acf59a	3	57.0	57.0	#78ffb8	#68fcc1
+Anoxybacillus flavithermus	Anterior_nares	#8000ff	5	92.0	36.0	#ffa055	#12c8e6
+Burkholderia multivorans	Anterior_nares	#8000ff	6	92.0	36.0	#ffa055	#12c8e6
+Acinetobacter sp. CIP 102136	Anterior_nares	#8000ff	1	65.0	12.0	#9bfba5	#504afc
+Citrobacter sp. MGH104	Anterior_nares	#8000ff	1	87.0	73.0	#fbb965	#a8f79c
+Blautia schinkii	Stool	#e8cb72	1	60.0	56.0	#84ffb2	#64fbc3
+Caldibacillus debilis	L_Retroauricular_crease	#34e4d9	1	73.0	61.0	#beec8e	#78ffb8
+Brevundimonas sp. KM4	R_Retroauricular_crease	#acf59a	4	67.0	58.0	#a4f89f	#6dfdbf
+Exiguobacterium marinum	Anterior_nares	#8000ff	2	22.0	88.0	#218cf4	#e6cd73
+Fusobacterium mortiferum	Buccal_mucosa	#445cfb	1	105.0	91.0	#ff532a	#f2c26b
+Anaerotruncus sp. G3(2012)	Stool	#e8cb72	1	64.0	35.0	#96fca7	#0fc4e7
+Bacteroides barnesiae	Stool	#e8cb72	3	21.0	51.0	#2686f5	#50f4cc
+Lachnospiraceae bacterium AC2012	Subgingival_plaque	#ffac5c	3	21.0	51.0	#2686f5	#50f4cc
+Exiguobacterium acetylicum	Anterior_nares	#8000ff	1	17.0	87.0	#3670f8	#e2d176
+Azohydromonas australica	Anterior_nares	#8000ff	4	89.0	44.0	#ffb05f	#32e3da
+Collinsella intestinalis	Stool	#e8cb72	1	46.0	77.0	#48f1d0	#bbee91
+gamma proteobacterium HIMB30	Anterior_nares	#8000ff	1	25.0	92.0	#149df1	#f6be68
+Corynebacterium epidermidicanis	Anterior_nares	#8000ff	1	74.0	80.0	#c2ea8c	#c6e789
+Halomonas campaniensis	Anterior_nares	#8000ff	1	78.0	96.0	#d2de81	#ffac5c
+Acidovorax sp. Leaf160	R_Retroauricular_crease	#acf59a	1	84.0	5.0	#eec66d	#6c1fff
+Faecalitalea cylindroides	Stool	#e8cb72	1	108.0	89.0	#ff3e1f	#ebca70
+Agrobacterium larrymoorei	R_Retroauricular_crease	#acf59a	1	111.0	29.0	#ff2c16	#09a9ee
+Mannheimia granulomatis	Anterior_nares	#8000ff	2	62.0	104.0	#8efeac	#ff8143
+Caldilinea aerophila	Anterior_nares	#8000ff	1	52.0	62.0	#62fbc4	#7dffb6
+Aerococcus urinaeequi	Anterior_nares	#8000ff	3	28.0	23.0	#06aeed	#2489f5
+Idiomarina abyssalis	Anterior_nares	#8000ff	1	99.0	97.0	#ff793e	#ffa759
+Jonquetella anthropi	R_Retroauricular_crease	#acf59a	2	17.0	99.0	#3670f8	#ff9d53
+Micrococcus sp. A1	L_Retroauricular_crease	#34e4d9	3	18.0	110.0	#3176f8	#ff5f30
+Moraxella boevrei	Anterior_nares	#8000ff	47	41.0	111.0	#32e3da	#ff592d
+Neisseria macacae	Saliva	#cbe486	7	42.0	114.0	#37e6d8	#ff4724
+Nocardioides sp. Root122	Anterior_nares	#8000ff	5	62.0	117.0	#8efeac	#ff351b
+Gemella cuniculi	Attached	#622ffe	1	26.0	93.0	#10a2f0	#fbb965
+Niastella koreensis	Anterior_nares	#8000ff	1	76.0	116.0	#cbe486	#ff3b1e
+Achromobacter sp. Root170	Anterior_nares	#8000ff	1	100.0	2.0	#ff733b	#780dff
+Catabacter hongkongensis	Stool	#e8cb72	1	86.0	67.0	#f6be68	#90feab
+Limnohabitans sp. Rim47	Vaginal_introitus	#ff0000	2	14.0	85.0	#445cfb	#dbd87b
+Azospirillum brasilense	Anterior_nares	#8000ff	3	36.0	46.0	#1dd1e2	#3ae8d6
+Pantoea dispersa	Anterior_nares	#8000ff	2	1.0	75.0	#7c06ff	#b2f396
+Eubacterium saphenum	Buccal_mucosa	#445cfb	4	1.0	75.0	#7c06ff	#b2f396
+Micrococcus sp. 28	L_Retroauricular_crease	#34e4d9	1	62.0	109.0	#8efeac	#ff6533
+Mesorhizobium sp. F7	Anterior_nares	#8000ff	1	77.0	106.0	#cee184	#ff763d
+Deinococcus proteolyticus	Anterior_nares	#8000ff	1	19.0	84.0	#2e7bf7	#d6db7e
+Alicycliphilus denitrificans	L_Retroauricular_crease	#34e4d9	3	71.0	31.0	#b4f295	#01b3ec
+Achromobacter sp.	Anterior_nares	#8000ff	2	16.0	1.0	#3c68f9	#7c06ff
+Kurthia sp. Dielmo	Anterior_nares	#8000ff	2	102.0	100.0	#ff6533	#ff964f
+Acinetobacter sp. NIPH 713	Anterior_nares	#8000ff	2	5.0	14.0	#6c1fff	#4856fb
+Carnobacterium sp. 1290_CSPC	Anterior_nares	#8000ff	3	55.0	66.0	#6efebe	#8cfead
+Acinetobacter schindleri	R_Retroauricular_crease	#acf59a	1	30.0	9.0	#02b7eb	#5c38fd
+Jeotgalicoccus psychrophilus	Anterior_nares	#8000ff	3	37.0	20.0	#20d5e1	#3079f7
+Lactobacillus animalis	R_Retroauricular_crease	#acf59a	1	6.0	101.0	#6629fe	#ff914c
+Mycobacterium gilvum	R_Retroauricular_crease	#acf59a	1	62.0	112.0	#8efeac	#ff532a
+Phyllobacterium sp. UNC302MFCol5.2	Anterior_nares	#8000ff	2	10.0	120.0	#5641fd	#ff2211
+Lactobacillus kunkeei	Attached	#622ffe	1	107.0	102.0	#ff4422	#ff8c49
+Psychrobacter phenylpyruvicus	Anterior_nares	#8000ff	27	41.0	111.0	#32e3da	#ff592d
+Paraburkholderia ferrariae	L_Retroauricular_crease	#34e4d9	2	0.0	118.0	#8000ff	#ff2f18
+Bifidobacterium scardovii	Posterior_fornix	#8efeac	2	88.0	54.0	#feb562	#5df9c7
+Citrobacter freundii	Anterior_nares	#8000ff	2	105.0	72.0	#ff532a	#a4f89f
+Geodermatophilus sp. Leaf369	Anterior_nares	#8000ff	1	3.0	94.0	#7413ff	#feb562
+Acidovorax sp. JHL-9	Anterior_nares	#8000ff	1	114.0	4.0	#ff160b	#7019ff
+Deinococcus swuensis	Anterior_nares	#8000ff	2	14.0	85.0	#445cfb	#dbd87b
+Bacteroides sp. 2_1_33B	Stool	#e8cb72	2	111.0	52.0	#ff2c16	#54f6cb
+Microbacterium testaceum	R_Retroauricular_crease	#acf59a	2	13.0	108.0	#4856fb	#ff6b37
+Dermacoccus nishinomiyaensis	Anterior_nares	#8000ff	1	15.0	86.0	#4062fa	#ded579
+Clostridium beijerinckii	Anterior_nares	#8000ff	4	1.0	75.0	#7c06ff	#b2f396
+Selenomonas sp. oral taxon 149	Saliva	#cbe486	5	95.0	125.0	#ff8e4a	#ff0000
+Bifidobacterium thermophilum	Anterior_nares	#8000ff	1	56.0	55.0	#74feba	#60fac5
+Mycobacterium hassiacum	Anterior_nares	#8000ff	1	40.0	113.0	#2fe0db	#ff4d27
+Aeromonas caviae	L_Retroauricular_crease	#34e4d9	4	37.0	20.0	#20d5e1	#3079f7
+Sphingobacterium spiritivorum	L_Retroauricular_crease	#34e4d9	2	37.0	20.0	#20d5e1	#3079f7
+Curtobacterium oceanosedimentum	L_Retroauricular_crease	#34e4d9	5	17.0	82.0	#3670f8	#cee184
+[Clostridium] citroniae	Stool	#e8cb72	1	57.0	76.0	#78ffb8	#b6f193
+Pelomonas sp. Root1444	Anterior_nares	#8000ff	1	110.0	119.0	#ff3219	#ff2914
+Gilliamella apicola	R_Retroauricular_crease	#acf59a	1	19.0	95.0	#2e7bf7	#ffb05f
+Salinispora arenicola	Anterior_nares	#8000ff	1	86.0	123.0	#f6be68	#ff1008
+Pseudomonas sp. CF149	Anterior_nares	#8000ff	2	15.0	122.0	#4062fa	#ff160b
+Neisseria weaveri	R_Retroauricular_crease	#acf59a	1	62.0	115.0	#8efeac	#ff4121
+Bacillus coagulans	R_Retroauricular_crease	#acf59a	2	94.0	50.0	#ff964f	#4df3ce
+Selenomonas sp. FOBRC9	Attached	#622ffe	1	11.0	124.0	#5247fc	#ff0905
+Flavobacterium sp. Root420	Anterior_nares	#8000ff	2	79.0	90.0	#d9da7d	#eec66d
+Limnohabitans sp. 103DPR2	R_Retroauricular_crease	#acf59a	1	8.0	103.0	#5e35fe	#ff8646
+Coprobacter fastidiosus	Stool	#e8cb72	3	10.0	78.0	#5641fd	#beec8e
+Actinobaculum suis	Throat	#ff5c2f	3	69.0	20.0	#acf59a	#3079f7
+Microbacterium sp. Root553	Anterior_nares	#8000ff	2	81.0	107.0	#e0d377	#ff703a
+Mastigocladus laminosus	Anterior_nares	#8000ff	2	14.0	105.0	#445cfb	#ff7b40
+Polaromonas sp. JS666	Anterior_nares	#8000ff	2	62.0	121.0	#8efeac	#ff1c0e
+Intrasporangium oryzae	Anterior_nares	#8000ff	1	17.0	98.0	#3670f8	#ffa256

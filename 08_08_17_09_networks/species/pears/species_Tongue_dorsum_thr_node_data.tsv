@@ -1,0 +1,136 @@
+TAXA	sample_type	sample_color	frequency	spect_cluster	commun_cluster	spect_color	comm_color	Gender_type	Gender_color
+Actinobacillus suis	Tongue_dorsum	#ff2f18	1	31.0	1.0	#ff0000	#7216ff	Mixed	#cccccc
+Actinomyces sp. ICM39	Tongue_dorsum	#ff2f18	276	7.0	2.0	#0ea5ef	#642cfe	Mixed	#cccccc
+Actinomyces sp. ICM58	Tongue_dorsum	#ff2f18	277	24.0	2.0	#ffa759	#642cfe	Mixed	#cccccc
+Actinomyces sp. oral taxon 172	Tongue_dorsum	#ff2f18	277	24.0	2.0	#ffa759	#642cfe	Mixed	#cccccc
+Actinomyces sp. oral taxon 849	Supragingival_plaque	#ff8646	2	19.0	0.0	#b9ef92	#8000ff	Mixed	#cccccc
+Actinomyces sp. S6-Spd3	Tongue_dorsum	#ff2f18	277	24.0	2.0	#ffa759	#642cfe	Mixed	#cccccc
+Anaerostipes hadrus	Stool	#e8cb72	2	11.0	7.0	#34e4d9	#1996f3	Mixed	#cccccc
+Atopobium sp. ICM42b	Saliva	#cbe486	267	16.0	8.0	#86ffb0	#0ca7ef	Mixed	#cccccc
+Bacteroides cellulosilyticus	Stool	#e8cb72	2	29.0	5.0	#ff351b	#386df9	Mixed	#cccccc
+Bacteroides finegoldii	Stool	#e8cb72	3	3.0	11.0	#504afc	#20d5e1	Mixed	#cccccc
+Bacteroides intestinalis	Stool	#e8cb72	1	31.0	1.0	#ff0000	#7216ff	Mixed	#cccccc
+Bacteroides thetaiotaomicron	Stool	#e8cb72	3	23.0	12.0	#fbb965	#2fe0db	Mixed	#cccccc
+Bergeyella zoohelcum	R_Retroauricular_crease	#acf59a	2	19.0	0.0	#b9ef92	#8000ff	Mixed	#cccccc
+Bifidobacterium breve	Posterior_fornix	#8efeac	2	6.0	9.0	#1e91f3	#02b7eb	Mixed	#cccccc
+Campylobacter fetus	Keratinized_gingiva	#17cbe4	2	19.0	0.0	#b9ef92	#8000ff	Mixed	#cccccc
+Capnocytophaga cynodegmi	R_Retroauricular_crease	#acf59a	2	19.0	0.0	#b9ef92	#8000ff	Mixed	#cccccc
+Capnocytophaga sp. oral taxon 323	Supragingival_plaque	#ff8646	35	20.0	17.0	#c8e688	#76ffb9	Mixed	#cccccc
+Capnocytophaga sp. oral taxon 336	Subgingival_plaque	#ffac5c	44	20.0	17.0	#c8e688	#76ffb9	Mixed	#cccccc
+Capnocytophaga sp. oral taxon 380	Supragingival_plaque	#ff8646	35	20.0	17.0	#c8e688	#76ffb9	Mixed	#cccccc
+Carnobacterium divergens	Saliva	#cbe486	2	9.0	15.0	#14cae5	#5af8c8	Mixed	#cccccc
+Coriobacteriaceae bacterium BV3Ac1	R_Retroauricular_crease	#acf59a	2	12.0	10.0	#44eed2	#10c6e6	Mixed	#cccccc
+Escherichia coli	Stool	#e8cb72	3	29.0	5.0	#ff351b	#386df9	Mixed	#cccccc
+[Eubacterium] eligens	Stool	#e8cb72	3	4.0	6.0	#4062fa	#2981f6	Mixed	#cccccc
+Fusobacterium equinum	Attached	#622ffe	5	13.0	16.0	#54f6cb	#68fcc1	Mixed	#cccccc
+Gemella sanguinis	Tongue_dorsum	#ff2f18	279	24.0	2.0	#ffa759	#642cfe	Mixed	#cccccc
+Histophilus somni	Buccal_mucosa	#445cfb	6	21.0	22.0	#d9da7d	#c0eb8d	Mixed	#cccccc
+Holdemanella biformis	L_Retroauricular_crease	#34e4d9	2	11.0	7.0	#34e4d9	#1996f3	Mixed	#cccccc
+Isoptericola variabilis	Tongue_dorsum	#ff2f18	276	0.0	2.0	#8000ff	#642cfe	Mixed	#cccccc
+Lachnospiraceae bacterium 3_1_46FAA	Stool	#e8cb72	2	9.0	21.0	#14cae5	#b2f396	Mixed	#cccccc
+[Mannheimia] succiniciproducens	Buccal_mucosa	#445cfb	3	19.0	0.0	#b9ef92	#8000ff	Mixed	#cccccc
+Microbacterium sp. CH12i	Tongue_dorsum	#ff2f18	2	27.0	19.0	#ff6533	#94fda8	Mixed	#cccccc
+Moraxella bovis	Anterior_nares	#8000ff	2	19.0	0.0	#b9ef92	#8000ff	Mixed	#cccccc
+Moraxella bovoculi	Anterior_nares	#8000ff	2	19.0	0.0	#b9ef92	#8000ff	Mixed	#cccccc
+Moraxella caprae	Anterior_nares	#8000ff	2	19.0	0.0	#b9ef92	#8000ff	Mixed	#cccccc
+Moraxella catarrhalis	Anterior_nares	#8000ff	3	19.0	0.0	#b9ef92	#8000ff	Mixed	#cccccc
+Moraxella macacae	Anterior_nares	#8000ff	2	19.0	0.0	#b9ef92	#8000ff	Mixed	#cccccc
+Necropsobacter massiliensis	Attached	#622ffe	2	10.0	4.0	#24d8df	#4659fb	Mixed	#cccccc
+Necropsobacter rosorum	Buccal_mucosa	#445cfb	4	21.0	22.0	#d9da7d	#c0eb8d	Mixed	#cccccc
+Nitrospira defluvii	Tongue_dorsum	#ff2f18	2	14.0	24.0	#66fcc2	#dcd67a	Mixed	#cccccc
+Odoribacter laneus	Stool	#e8cb72	4	4.0	6.0	#4062fa	#2981f6	Mixed	#cccccc
+Olsenella profusa	Subgingival_plaque	#ffac5c	2	1.0	25.0	#7019ff	#ecc86f	Mixed	#cccccc
+Oribacterium asaccharolyticum	Saliva	#cbe486	277	0.0	2.0	#8000ff	#642cfe	Mixed	#cccccc
+Oribacterium sinus	Throat	#ff5c2f	277	24.0	2.0	#ffa759	#642cfe	Mixed	#cccccc
+Oribacterium sp. FC2011	R_Retroauricular_crease	#acf59a	2	22.0	26.0	#e8cb72	#fbb965	Mixed	#cccccc
+Oribacterium sp. NK2B42	Tongue_dorsum	#ff2f18	2	22.0	26.0	#e8cb72	#fbb965	Mixed	#cccccc
+Oribacterium sp. oral taxon 108	Saliva	#cbe486	277	24.0	2.0	#ffa759	#642cfe	Mixed	#cccccc
+Paracoccus sp. TRP	R_Retroauricular_crease	#acf59a	2	19.0	0.0	#b9ef92	#8000ff	Mixed	#cccccc
+Parvimonas sp. oral taxon 393	Palatine_Tonsils	#70febc	93	25.0	28.0	#ff934d	#ff964f	Mixed	#cccccc
+Porphyromonadaceae bacterium COT-184 OH4590	Subgingival_plaque	#ffac5c	2	19.0	0.0	#b9ef92	#8000ff	Mixed	#cccccc
+Porphyromonas sp. KLE 1280	Hard_palate	#08acee	227	2.0	29.0	#6032fe	#ff8444	Mixed	#cccccc
+Porphyromonas sp. oral taxon 279	Hard_palate	#08acee	232	2.0	29.0	#6032fe	#ff8444	Mixed	#cccccc
+Prevotella salivae	Saliva	#cbe486	277	24.0	2.0	#ffa759	#642cfe	Mixed	#cccccc
+Prevotella scopos	Throat	#ff5c2f	277	7.0	2.0	#0ea5ef	#642cfe	Mixed	#cccccc
+Prevotella sp. 109	Stool	#e8cb72	2	6.0	9.0	#1e91f3	#02b7eb	Mixed	#cccccc
+Prevotella veroralis	Saliva	#cbe486	268	18.0	27.0	#a8f79c	#ffa95b	Mixed	#cccccc
+Propionibacterium acidifaciens	Subgingival_plaque	#ffac5c	3	1.0	25.0	#7019ff	#ecc86f	Mixed	#cccccc
+Roseburia faecis	Stool	#e8cb72	6	4.0	6.0	#4062fa	#2981f6	Mixed	#cccccc
+Roseburia intestinalis	Stool	#e8cb72	3	23.0	12.0	#fbb965	#2fe0db	Mixed	#cccccc
+Rothia mucilaginosa	Hard_palate	#08acee	277	24.0	2.0	#ffa759	#642cfe	Mixed	#cccccc
+Ruminococcus bicirculans	Stool	#e8cb72	2	5.0	18.0	#2e7bf7	#86ffb0	Mixed	#cccccc
+Sanguibacter keddieii	Throat	#ff5c2f	277	7.0	2.0	#0ea5ef	#642cfe	Mixed	#cccccc
+Selenomonas sp. F0473	Supragingival_plaque	#ff8646	2	19.0	0.0	#b9ef92	#8000ff	Mixed	#cccccc
+Selenomonas sp. oral taxon 137	Supragingival_plaque	#ff8646	2	19.0	0.0	#b9ef92	#8000ff	Mixed	#cccccc
+Selenomonas sp. oral taxon 149	Saliva	#cbe486	188	28.0	30.0	#ff4d27	#ff703a	Mixed	#cccccc
+Selenomonas sp. oral taxon 478	Saliva	#cbe486	210	28.0	30.0	#ff4d27	#ff703a	Mixed	#cccccc
+Selenomonas sputigena	Subgingival_plaque	#ffac5c	107	14.0	31.0	#66fcc2	#ff5c2f	Mixed	#cccccc
+Slackia sp. CM382	Palatine_Tonsils	#70febc	2	22.0	26.0	#e8cb72	#fbb965	Mixed	#cccccc
+Staphylococcus lugdunensis	Anterior_nares	#8000ff	4	10.0	3.0	#24d8df	#5641fd	Mixed	#cccccc
+Stomatobaculum longum	Tongue_dorsum	#ff2f18	277	7.0	2.0	#0ea5ef	#642cfe	Mixed	#cccccc
+Streptococcus dentisani	Hard_palate	#08acee	3	8.0	32.0	#02b7eb	#ff4422	Mixed	#cccccc
+Streptococcus equinus	Buccal_mucosa	#445cfb	2	12.0	10.0	#44eed2	#10c6e6	Mixed	#cccccc
+Streptococcus hyovaginalis	Tongue_dorsum	#ff2f18	1	14.0	14.0	#66fcc2	#4df3ce	Mixed	#cccccc
+Streptococcus infantis	Tongue_dorsum	#ff2f18	277	24.0	2.0	#ffa759	#642cfe	Mixed	#cccccc
+Streptococcus parasanguinis	Tongue_dorsum	#ff2f18	277	24.0	2.0	#ffa759	#642cfe	Mixed	#cccccc
+Streptococcus sinensis	Buccal_mucosa	#445cfb	2	30.0	20.0	#ff1c0e	#a2f9a0	Mixed	#cccccc
+Streptococcus sp. 2_1_36FAA	Buccal_mucosa	#445cfb	4	10.0	3.0	#24d8df	#5641fd	Mixed	#cccccc
+Streptococcus sp. 263_SSPC	Tongue_dorsum	#ff2f18	277	7.0	2.0	#0ea5ef	#642cfe	Mixed	#cccccc
+Streptococcus sp. C300	Attached	#622ffe	3	18.0	33.0	#a8f79c	#ff2f18	Mixed	#cccccc
+Streptococcus sp. CM7	Buccal_mucosa	#445cfb	2	27.0	19.0	#ff6533	#94fda8	Mixed	#cccccc
+Streptococcus sp. HSISS1	Tongue_dorsum	#ff2f18	2	3.0	11.0	#504afc	#20d5e1	Mixed	#cccccc
+Streptococcus sp. SR1	Hard_palate	#08acee	7	13.0	23.0	#54f6cb	#cee184	Mixed	#cccccc
+Streptococcus tigurinus	Hard_palate	#08acee	3	8.0	32.0	#02b7eb	#ff4422	Mixed	#cccccc
+Sutterella wadsworthensis	Stool	#e8cb72	6	17.0	13.0	#96fca7	#3dead5	Mixed	#cccccc
+Tepidiphilus thermophilus	Anterior_nares	#8000ff	4	10.0	3.0	#24d8df	#5641fd	Mixed	#cccccc
+Thiothrix flexilis	Tongue_dorsum	#ff2f18	1	15.0	34.0	#76ffb9	#ff190d	Mixed	#cccccc
+Treponema sp. OMZ 838	Subgingival_plaque	#ffac5c	139	15.0	35.0	#76ffb9	#ff0000	Mixed	#cccccc
+Treponema vincentii	Subgingival_plaque	#ffac5c	112	15.0	35.0	#76ffb9	#ff0000	Mixed	#cccccc
+Veillonella atypica	Saliva	#cbe486	277	24.0	2.0	#ffa759	#642cfe	Mixed	#cccccc
+Veillonella dispar	Throat	#ff5c2f	279	7.0	2.0	#0ea5ef	#642cfe	Mixed	#cccccc
+Veillonella sp. AS16	Tongue_dorsum	#ff2f18	276	7.0	2.0	#0ea5ef	#642cfe	Mixed	#cccccc
+Veillonella sp. HPA0037	Tongue_dorsum	#ff2f18	277	24.0	2.0	#ffa759	#642cfe	Mixed	#cccccc
+Veillonella sp. ICM51a	Saliva	#cbe486	277	24.0	2.0	#ffa759	#642cfe	Mixed	#cccccc
+Veillonella sp. oral taxon 158	Palatine_Tonsils	#70febc	279	7.0	2.0	#0ea5ef	#642cfe	Mixed	#cccccc
+Veillonella tobetsuensis	Tongue_dorsum	#ff2f18	279	7.0	2.0	#0ea5ef	#642cfe	Mixed	#cccccc
+Xylanimonas cellulosilytica	Throat	#ff5c2f	276	7.0	2.0	#0ea5ef	#642cfe	Mixed	#cccccc
+Acidovorax caeni	Anterior_nares	#8000ff	1	31.0	1.0	#ff0000	#7216ff	Mixed	#cccccc
+Actinomyces graevenitzii	Tongue_dorsum	#ff2f18	277	7.0	2.0	#0ea5ef	#642cfe	Mixed	#cccccc
+Actinomyces sp. HPA0247	Tongue_dorsum	#ff2f18	275	7.0	2.0	#0ea5ef	#642cfe	Mixed	#cccccc
+Acidovorax avenae	Supragingival_plaque	#ff8646	2	19.0	0.0	#b9ef92	#8000ff	Mixed	#cccccc
+Alloscardovia omnicolens	Tongue_dorsum	#ff2f18	2	11.0	7.0	#34e4d9	#1996f3	Mixed	#cccccc
+Atopobium sp. BS2	Saliva	#cbe486	267	16.0	8.0	#86ffb0	#0ca7ef	Mixed	#cccccc
+Alistipes obesi	Stool	#e8cb72	2	29.0	5.0	#ff351b	#386df9	Mixed	#cccccc
+Bacteroides faecis	Stool	#e8cb72	2	3.0	11.0	#504afc	#20d5e1	Mixed	#cccccc
+Bacteroides gallinarum	Stool	#e8cb72	3	23.0	12.0	#fbb965	#2fe0db	Mixed	#cccccc
+Bacteroides coprocola	Stool	#e8cb72	3	6.0	9.0	#1e91f3	#02b7eb	Mixed	#cccccc
+Capnocytophaga ochracea	Supragingival_plaque	#ff8646	45	20.0	17.0	#c8e688	#76ffb9	Mixed	#cccccc
+Brochothrix thermosphacta	Saliva	#cbe486	2	9.0	15.0	#14cae5	#5af8c8	Mixed	#cccccc
+Bacteroides eggerthii	Stool	#e8cb72	2	12.0	10.0	#44eed2	#10c6e6	Mixed	#cccccc
+Butyricimonas virosa	Stool	#e8cb72	2	4.0	6.0	#4062fa	#2981f6	Mixed	#cccccc
+Campylobacter mucosalis	Attached	#622ffe	4	13.0	16.0	#54f6cb	#68fcc1	Mixed	#cccccc
+Gallibacterium anatis	Keratinized_gingiva	#17cbe4	9	21.0	22.0	#d9da7d	#c0eb8d	Mixed	#cccccc
+Fusobacterium gonidiaformans	Tongue_dorsum	#ff2f18	3	9.0	21.0	#14cae5	#b2f396	Mixed	#cccccc
+Corynebacterium diphtheriae	Anterior_nares	#8000ff	2	27.0	19.0	#ff6533	#94fda8	Mixed	#cccccc
+Agarivorans gilvus	Tongue_dorsum	#ff2f18	2	10.0	4.0	#24d8df	#4659fb	Mixed	#cccccc
+Gulbenkiania mobilis	L_Retroauricular_crease	#34e4d9	2	14.0	24.0	#66fcc2	#dcd67a	Mixed	#cccccc
+Alistipes shahii	Stool	#e8cb72	5	4.0	6.0	#4062fa	#2981f6	Mixed	#cccccc
+Butyrivibrio crossotus	Stool	#e8cb72	6	4.0	6.0	#4062fa	#2981f6	Mixed	#cccccc
+Lachnospiraceae bacterium 7_1_58FAA	Stool	#e8cb72	2	1.0	25.0	#7019ff	#ecc86f	Mixed	#cccccc
+Lachnospiraceae bacterium FE2018	Tongue_dorsum	#ff2f18	2	22.0	26.0	#e8cb72	#fbb965	Mixed	#cccccc
+Parvimonas sp. oral taxon 110	Subgingival_plaque	#ffac5c	106	26.0	28.0	#ff7e41	#ff964f	Mixed	#cccccc
+Porphyromonas somerae	Palatine_Tonsils	#70febc	241	2.0	29.0	#6032fe	#ff8444	Mixed	#cccccc
+Lachnospiraceae bacterium oral taxon 082	Tongue_dorsum	#ff2f18	268	18.0	27.0	#a8f79c	#ffa95b	Mixed	#cccccc
+[Clostridium] innocuum	Stool	#e8cb72	2	5.0	18.0	#2e7bf7	#86ffb0	Mixed	#cccccc
+Selenomonas flueggei	Saliva	#cbe486	182	28.0	30.0	#ff4d27	#ff703a	Mixed	#cccccc
+Selenomonas sp. CM52	Subgingival_plaque	#ffac5c	98	14.0	31.0	#66fcc2	#ff5c2f	Mixed	#cccccc
+Actinomyces timonensis	Subgingival_plaque	#ffac5c	6	10.0	3.0	#24d8df	#5641fd	Mixed	#cccccc
+Helicobacter pylori	Anterior_nares	#8000ff	6	10.0	3.0	#24d8df	#5641fd	Mixed	#cccccc
+Staphylococcus epidermidis	L_Retroauricular_crease	#34e4d9	2	8.0	32.0	#02b7eb	#ff4422	Mixed	#cccccc
+Bacteroides sp. D20	Stool	#e8cb72	1	14.0	14.0	#66fcc2	#4df3ce	Mixed	#cccccc
+Enterococcus faecium	Stool	#e8cb72	2	30.0	20.0	#ff1c0e	#a2f9a0	Mixed	#cccccc
+Streptococcus orisratti	Buccal_mucosa	#445cfb	2	18.0	33.0	#a8f79c	#ff2f18	Mixed	#cccccc
+Gemella bergeri	Keratinized_gingiva	#17cbe4	5	13.0	23.0	#54f6cb	#cee184	Mixed	#cccccc
+Bacteroides salyersiae	Stool	#e8cb72	4	17.0	13.0	#96fca7	#3dead5	Mixed	#cccccc
+Streptococcus sp. CM6	Buccal_mucosa_NA	#2686f5	1	15.0	34.0	#76ffb9	#ff190d	Mixed	#cccccc
+Treponema medium	Subgingival_plaque	#ffac5c	111	15.0	35.0	#76ffb9	#ff0000	Mixed	#cccccc

@@ -1,0 +1,947 @@
+TAXA	sample_type	sample_color	frequency	spect_cluster	commun_cluster	spect_color	comm_color
+Acidovorax sp. JHL-9	Anterior_nares	#8000ff	1	2.0	1.0	#4df3ce	#2c7ef7
+Acidovorax sp. JS42	Buccal_mucosa	#445cfb	20	2.0	2.0	#4df3ce	#2adddd
+Acidovorax sp. MR-S7	Buccal_mucosa	#445cfb	10	2.0	1.0	#4df3ce	#2c7ef7
+Acidovorax temperans	L_Retroauricular_crease	#34e4d9	57	2.0	2.0	#4df3ce	#2adddd
+Acinetobacter johnsonii	Anterior_nares	#8000ff	10	2.0	1.0	#4df3ce	#2c7ef7
+Acinetobacter junii	Anterior_nares	#8000ff	28	2.0	1.0	#4df3ce	#2c7ef7
+Actinobacillus minor	Buccal_mucosa_NA	#2686f5	85	2.0	0.0	#4df3ce	#8000ff
+Actinobacillus succinogenes	Keratinized_gingiva	#17cbe4	7	2.0	1.0	#4df3ce	#2c7ef7
+Actinobacillus ureae	Keratinized_gingiva	#17cbe4	83	2.0	2.0	#4df3ce	#2adddd
+Actinobaculum sp. oral taxon 183	Subgingival_plaque	#ffac5c	226	2.0	0.0	#4df3ce	#8000ff
+Actinomyces georgiae	Subgingival_plaque	#ffac5c	46	2.0	2.0	#4df3ce	#2adddd
+Actinomyces gerencseriae	Subgingival_plaque	#ffac5c	191	2.0	2.0	#4df3ce	#2adddd
+Actinomyces graevenitzii	Tongue_dorsum	#ff2f18	251	2.0	2.0	#4df3ce	#2adddd
+Actinomyces johnsonii	Subgingival_plaque	#ffac5c	225	2.0	0.0	#4df3ce	#8000ff
+Actinomyces massiliensis	Supragingival_plaque	#ff8646	233	2.0	2.0	#4df3ce	#2adddd
+Actinomyces meyeri	Subgingival_plaque	#ffac5c	81	2.0	2.0	#4df3ce	#2adddd
+Actinomyces naeslundii	Supragingival_plaque	#ff8646	242	2.0	2.0	#4df3ce	#2adddd
+Actinomyces odontolyticus	Throat	#ff5c2f	246	2.0	2.0	#4df3ce	#2adddd
+Actinomyces oris	Supragingival_plaque	#ff8646	252	2.0	2.0	#4df3ce	#2adddd
+Actinomyces sp. HPA0247	Tongue_dorsum	#ff2f18	78	2.0	2.0	#4df3ce	#2adddd
+Actinomyces sp. ICM39	Tongue_dorsum	#ff2f18	206	2.0	2.0	#4df3ce	#2adddd
+Actinomyces sp. ICM47	Tongue_dorsum	#ff2f18	243	2.0	2.0	#4df3ce	#2adddd
+Actinomyces sp. ICM54	Tongue_dorsum	#ff2f18	95	2.0	2.0	#4df3ce	#2adddd
+Actinomyces sp. ICM58	Tongue_dorsum	#ff2f18	126	2.0	2.0	#4df3ce	#2adddd
+Actinomyces sp. oral taxon 170	Supragingival_plaque	#ff8646	232	2.0	2.0	#4df3ce	#2adddd
+Actinomyces sp. oral taxon 171	Supragingival_plaque	#ff8646	246	2.0	2.0	#4df3ce	#2adddd
+Actinomyces sp. oral taxon 172	Tongue_dorsum	#ff2f18	147	2.0	2.0	#4df3ce	#2adddd
+Actinomyces sp. oral taxon 175	Supragingival_plaque	#ff8646	233	2.0	0.0	#4df3ce	#8000ff
+Actinomyces sp. oral taxon 178	Supragingival_plaque	#ff8646	34	2.0	2.0	#4df3ce	#2adddd
+Actinomyces sp. oral taxon 180	Tongue_dorsum	#ff2f18	35	2.0	2.0	#4df3ce	#2adddd
+Actinomyces sp. oral taxon 181	Tongue_dorsum	#ff2f18	95	2.0	2.0	#4df3ce	#2adddd
+Actinomyces sp. oral taxon 414	Subgingival_plaque	#ffac5c	95	2.0	2.0	#4df3ce	#2adddd
+Actinomyces sp. oral taxon 448	Supragingival_plaque	#ff8646	137	2.0	2.0	#4df3ce	#2adddd
+Actinomyces sp. oral taxon 848	Supragingival_plaque	#ff8646	104	2.0	0.0	#4df3ce	#8000ff
+Actinomyces sp. oral taxon 849	Supragingival_plaque	#ff8646	126	2.0	0.0	#4df3ce	#8000ff
+Actinomyces sp. oral taxon 877	Supragingival_plaque	#ff8646	33	2.0	2.0	#4df3ce	#2adddd
+Actinomyces sp. ph3	Tongue_dorsum	#ff2f18	112	2.0	2.0	#4df3ce	#2adddd
+Actinomyces sp. S6-Spd3	Tongue_dorsum	#ff2f18	208	2.0	2.0	#4df3ce	#2adddd
+Actinomyces timonensis	Subgingival_plaque	#ffac5c	116	2.0	0.0	#4df3ce	#8000ff
+Actinomyces viscosus	Attached	#622ffe	242	2.0	0.0	#4df3ce	#8000ff
+Actinotignum schaalii	Buccal_mucosa	#445cfb	2	2.0	2.0	#4df3ce	#2adddd
+Aeromonas fluvialis	Buccal_mucosa	#445cfb	1	2.0	1.0	#4df3ce	#2c7ef7
+Aggregatibacter actinomycetemcomitans	Buccal_mucosa	#445cfb	229	2.0	0.0	#4df3ce	#8000ff
+Aggregatibacter aphrophilus	Saliva	#cbe486	257	2.0	0.0	#4df3ce	#8000ff
+Aggregatibacter segnis	Supragingival_plaque	#ff8646	235	2.0	0.0	#4df3ce	#8000ff
+Aggregatibacter sp. oral taxon 458	Saliva	#cbe486	249	2.0	0.0	#4df3ce	#8000ff
+Alicycliphilus denitrificans	L_Retroauricular_crease	#34e4d9	12	2.0	1.0	#4df3ce	#2c7ef7
+Alicycliphilus sp. B1	Anterior_nares	#8000ff	6	2.0	1.0	#4df3ce	#2c7ef7
+Alistipes obesi	Stool	#e8cb72	41	2.0	1.0	#4df3ce	#2c7ef7
+Alistipes onderdonkii	Stool	#e8cb72	15	2.0	1.0	#4df3ce	#2c7ef7
+Alistipes putredinis	Stool	#e8cb72	91	2.0	1.0	#4df3ce	#2c7ef7
+Alistipes senegalensis	Stool	#e8cb72	13	2.0	1.0	#4df3ce	#2c7ef7
+Alistipes shahii	Stool	#e8cb72	53	2.0	1.0	#4df3ce	#2c7ef7
+Alistipes sp. AL-1	Stool	#e8cb72	5	2.0	1.0	#4df3ce	#2c7ef7
+Alistipes sp. HGB5	Stool	#e8cb72	5	2.0	1.0	#4df3ce	#2c7ef7
+Alistipes timonensis	Stool	#e8cb72	5	2.0	1.0	#4df3ce	#2c7ef7
+Alkaliphilus oremlandii	Anterior_nares	#8000ff	8	2.0	1.0	#4df3ce	#2c7ef7
+Alloprevotella rava	Saliva	#cbe486	174	2.0	2.0	#4df3ce	#2adddd
+Alloprevotella tannerae	Subgingival_plaque	#ffac5c	197	2.0	2.0	#4df3ce	#2adddd
+Anaerococcus prevotii	L_Retroauricular_crease	#34e4d9	2	2.0	1.0	#4df3ce	#2c7ef7
+Anaerococcus provenciensis	L_Retroauricular_crease	#34e4d9	1	2.0	1.0	#4df3ce	#2c7ef7
+Anaeroglobus geminatus	Subgingival_plaque	#ffac5c	48	2.0	2.0	#4df3ce	#2adddd
+Anaerostipes hadrus	Stool	#e8cb72	2	2.0	1.0	#4df3ce	#2c7ef7
+Anaerotruncus colihominis	Stool	#e8cb72	2	2.0	1.0	#4df3ce	#2c7ef7
+Aquabacterium parvum	L_Retroauricular_crease	#34e4d9	7	2.0	1.0	#4df3ce	#2c7ef7
+Aquabacterium sp. NJ1	Anterior_nares	#8000ff	1	2.0	1.0	#4df3ce	#2c7ef7
+Aromatoleum aromaticum	Buccal_mucosa	#445cfb	1	2.0	1.0	#4df3ce	#2c7ef7
+Atopobium parvulum	Saliva	#cbe486	203	2.0	2.0	#4df3ce	#2adddd
+Atopobium rimae	Subgingival_plaque	#ffac5c	144	2.0	2.0	#4df3ce	#2adddd
+Atopobium sp. BS2	Saliva	#cbe486	105	2.0	2.0	#4df3ce	#2adddd
+Atopobium sp. ICM42b	Saliva	#cbe486	111	2.0	2.0	#4df3ce	#2adddd
+Atopobium sp. oral taxon 199	Subgingival_plaque	#ffac5c	13	2.0	1.0	#4df3ce	#2c7ef7
+Atopobium sp. oral taxon 810	Buccal_mucosa	#445cfb	2	2.0	1.0	#4df3ce	#2c7ef7
+Avibacterium paragallinarum	Attached	#622ffe	39	2.0	0.0	#4df3ce	#8000ff
+Azonexus hydrophilus	Buccal_mucosa	#445cfb	2	2.0	1.0	#4df3ce	#2c7ef7
+Azospira oryzae	Anterior_nares	#8000ff	1	2.0	1.0	#4df3ce	#2c7ef7
+Azospirillum brasilense	Anterior_nares	#8000ff	1	2.0	1.0	#4df3ce	#2c7ef7
+Bacillus subterraneus	Buccal_mucosa	#445cfb	1	2.0	5.0	#4df3ce	#ff8143
+bacterium LF-3	Stool	#e8cb72	4	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides acidifaciens	Stool	#e8cb72	5	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides barnesiae	Stool	#e8cb72	7	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides caccae	Stool	#e8cb72	90	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides cellulosilyticus	Stool	#e8cb72	12	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides clarus	Stool	#e8cb72	12	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides coprocola	Stool	#e8cb72	13	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides coprosuis	Stool	#e8cb72	2	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides dorei	Stool	#e8cb72	32	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides eggerthii	Stool	#e8cb72	29	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides faecichinchillae	Stool	#e8cb72	2	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides faecis	Stool	#e8cb72	21	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides finegoldii	Stool	#e8cb72	38	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides fluxus	Stool	#e8cb72	3	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides fragilis	Stool	#e8cb72	34	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides gallinarum	Stool	#e8cb72	5	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides graminisolvens	L_Retroauricular_crease	#34e4d9	2	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides helcogenes	Stool	#e8cb72	2	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides intestinalis	Stool	#e8cb72	18	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides massiliensis	Stool	#e8cb72	55	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides nordii	Stool	#e8cb72	7	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides oleiciplenus	Stool	#e8cb72	2	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides ovatus	Stool	#e8cb72	54	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides paurosaccharolyticus	Stool	#e8cb72	2	2.0	1.0	#4df3ce	#2c7ef7
+[Bacteroides] pectinophilus	Stool	#e8cb72	8	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides plebeius	Stool	#e8cb72	18	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides propionicifaciens	L_Retroauricular_crease	#34e4d9	1	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides pyogenes	Stool	#e8cb72	30	2.0	0.0	#4df3ce	#8000ff
+Bacteroides reticulotermitis	Stool	#e8cb72	3	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides salanitronis	Stool	#e8cb72	8	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides salyersiae	Stool	#e8cb72	23	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides sartorii	Stool	#e8cb72	2	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides sp. 1_1_30	Stool	#e8cb72	7	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides sp. 1_1_6	Stool	#e8cb72	15	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides sp. 2_1_16	Stool	#e8cb72	2	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides sp. 2_1_33B	Stool	#e8cb72	2	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides sp. 2_2_4	Stool	#e8cb72	14	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides sp. 3_1_13	Stool	#e8cb72	12	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides sp. 3_1_19	Stool	#e8cb72	6	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides sp. 3_1_23	Stool	#e8cb72	10	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides sp. 3_1_33FAA	Stool	#e8cb72	4	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides sp. 3_1_40A	Stool	#e8cb72	2	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides sp. 4_1_36	Stool	#e8cb72	4	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides sp. 4_3_47FAA	Stool	#e8cb72	6	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides sp. 9_1_42FAA	Stool	#e8cb72	2	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides sp. D2	Stool	#e8cb72	12	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides sp. D20	Stool	#e8cb72	12	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides sp. D22	Stool	#e8cb72	8	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides sp. HPS0048	Stool	#e8cb72	1	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides stercorirosoris	Stool	#e8cb72	3	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides stercoris	Stool	#e8cb72	80	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides thetaiotaomicron	Stool	#e8cb72	30	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides uniformis	Stool	#e8cb72	67	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides vulgatus	Stool	#e8cb72	58	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides xylanisolvens	Stool	#e8cb72	3	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroidetes oral taxon 274	Subgingival_plaque	#ffac5c	199	2.0	2.0	#4df3ce	#2adddd
+Barnesiella intestinihominis	Stool	#e8cb72	50	2.0	1.0	#4df3ce	#2c7ef7
+Barnesiella viscericola	Stool	#e8cb72	1	2.0	1.0	#4df3ce	#2c7ef7
+Bergeyella zoohelcum	R_Retroauricular_crease	#acf59a	17	2.0	0.0	#4df3ce	#8000ff
+Bifidobacterium adolescentis	Stool	#e8cb72	21	2.0	1.0	#4df3ce	#2c7ef7
+Bifidobacterium dentium	Posterior_fornix	#8efeac	3	2.0	1.0	#4df3ce	#2c7ef7
+Bifidobacterium longum	Stool	#e8cb72	6	2.0	1.0	#4df3ce	#2c7ef7
+Bifidobacterium pseudocatenulatum	L_Retroauricular_crease	#34e4d9	1	2.0	1.0	#4df3ce	#2c7ef7
+Bilophila wadsworthia	Stool	#e8cb72	2	2.0	1.0	#4df3ce	#2c7ef7
+Blautia obeum	Stool	#e8cb72	12	2.0	1.0	#4df3ce	#2c7ef7
+Blautia sp. GD9	Stool	#e8cb72	4	2.0	1.0	#4df3ce	#2c7ef7
+Blautia sp. KLE 1732	Stool	#e8cb72	2	2.0	1.0	#4df3ce	#2c7ef7
+Blautia wexlerae	Stool	#e8cb72	11	2.0	1.0	#4df3ce	#2c7ef7
+Brachymonas chironomi	Anterior_nares	#8000ff	4	2.0	1.0	#4df3ce	#2c7ef7
+Bradyrhizobium sp. BTAi1	L_Retroauricular_crease	#34e4d9	4	2.0	1.0	#4df3ce	#2c7ef7
+Brevibacterium massiliense	Anterior_nares	#8000ff	1	2.0	1.0	#4df3ce	#2c7ef7
+Brevibacterium mcbrellneri	Anterior_nares	#8000ff	2	2.0	1.0	#4df3ce	#2c7ef7
+Buchnera aphidicola	Buccal_mucosa	#445cfb	1	2.0	1.0	#4df3ce	#2c7ef7
+Bulleidia extructa	Throat	#ff5c2f	40	2.0	2.0	#4df3ce	#2adddd
+Burkholderiales bacterium 1_1_47	Stool	#e8cb72	6	2.0	1.0	#4df3ce	#2c7ef7
+Burkholderia vietnamiensis	Buccal_mucosa	#445cfb	6	2.0	1.0	#4df3ce	#2c7ef7
+Butyricicoccus pullicaecorum	Stool	#e8cb72	4	2.0	1.0	#4df3ce	#2c7ef7
+Butyricimonas synergistica	Stool	#e8cb72	4	2.0	1.0	#4df3ce	#2c7ef7
+Butyricimonas virosa	Stool	#e8cb72	25	2.0	1.0	#4df3ce	#2c7ef7
+Butyrivibrio crossotus	Stool	#e8cb72	11	2.0	1.0	#4df3ce	#2c7ef7
+Caldilinea aerophila	Anterior_nares	#8000ff	1	1.0	4.0	#1996f3	#d4dd80
+Campylobacter concisus	Attached	#622ffe	259	2.0	2.0	#4df3ce	#2adddd
+Campylobacter curvus	Supragingival_plaque	#ff8646	16	2.0	1.0	#4df3ce	#2c7ef7
+Campylobacter fetus	Keratinized_gingiva	#17cbe4	7	2.0	1.0	#4df3ce	#2c7ef7
+Campylobacter gracilis	Subgingival_plaque	#ffac5c	234	2.0	2.0	#4df3ce	#2adddd
+Campylobacter hominis	R_Retroauricular_crease	#acf59a	3	2.0	1.0	#4df3ce	#2c7ef7
+Campylobacter iguaniorum	Buccal_mucosa	#445cfb	2	2.0	1.0	#4df3ce	#2c7ef7
+Campylobacter rectus	Subgingival_plaque	#ffac5c	159	2.0	2.0	#4df3ce	#2adddd
+Campylobacter showae	Supragingival_plaque	#ff8646	247	2.0	2.0	#4df3ce	#2adddd
+Campylobacter sp. 10_1_50	Attached	#622ffe	47	2.0	2.0	#4df3ce	#2adddd
+Campylobacter sp. FOBRC14	Attached	#622ffe	17	2.0	1.0	#4df3ce	#2c7ef7
+Campylobacter sputorum	Attached	#622ffe	2	2.0	1.0	#4df3ce	#2c7ef7
+candidate division SR1 bacterium RAAC1_SR1_1	Attached	#622ffe	2	2.0	1.0	#4df3ce	#2c7ef7
+Candidatus Alistipes marseilloanorexicus	Stool	#e8cb72	16	2.0	1.0	#4df3ce	#2c7ef7
+Candidatus Bacteroides timonensis	Stool	#e8cb72	2	2.0	1.0	#4df3ce	#2c7ef7
+Candidatus Saccharibacteria bacterium RAAC3_TM7_1	Attached	#622ffe	1	2.0	1.0	#4df3ce	#2c7ef7
+Candidatus Saccharibacteria oral taxon TM7x	Saliva	#cbe486	228	2.0	2.0	#4df3ce	#2adddd
+Capnocytophaga canimorsus	R_Retroauricular_crease	#acf59a	2	2.0	1.0	#4df3ce	#2c7ef7
+Capnocytophaga cynodegmi	R_Retroauricular_crease	#acf59a	10	2.0	1.0	#4df3ce	#2c7ef7
+Capnocytophaga gingivalis	Supragingival_plaque	#ff8646	259	2.0	0.0	#4df3ce	#8000ff
+Capnocytophaga granulosa	Supragingival_plaque	#ff8646	195	2.0	0.0	#4df3ce	#8000ff
+Capnocytophaga ochracea	Supragingival_plaque	#ff8646	148	2.0	0.0	#4df3ce	#8000ff
+Capnocytophaga sp. CM59	Supragingival_plaque	#ff8646	214	2.0	1.0	#4df3ce	#2c7ef7
+Capnocytophaga sp. oral taxon 323	Supragingival_plaque	#ff8646	63	2.0	0.0	#4df3ce	#8000ff
+Capnocytophaga sp. oral taxon 324	Subgingival_plaque	#ffac5c	72	2.0	0.0	#4df3ce	#8000ff
+Capnocytophaga sp. oral taxon 326	Subgingival_plaque	#ffac5c	249	2.0	0.0	#4df3ce	#8000ff
+Capnocytophaga sp. oral taxon 329	Supragingival_plaque	#ff8646	258	2.0	0.0	#4df3ce	#8000ff
+Capnocytophaga sp. oral taxon 332	Supragingival_plaque	#ff8646	215	2.0	0.0	#4df3ce	#8000ff
+Capnocytophaga sp. oral taxon 335	Supragingival_plaque	#ff8646	57	2.0	0.0	#4df3ce	#8000ff
+Capnocytophaga sp. oral taxon 336	Subgingival_plaque	#ffac5c	93	2.0	0.0	#4df3ce	#8000ff
+Capnocytophaga sp. oral taxon 338	Subgingival_plaque	#ffac5c	217	2.0	0.0	#4df3ce	#8000ff
+Capnocytophaga sp. oral taxon 380	Supragingival_plaque	#ff8646	80	2.0	0.0	#4df3ce	#8000ff
+Capnocytophaga sp. oral taxon 412	Supragingival_plaque	#ff8646	88	2.0	0.0	#4df3ce	#8000ff
+Capnocytophaga sp. oral taxon 863	Supragingival_plaque	#ff8646	222	2.0	0.0	#4df3ce	#8000ff
+Capnocytophaga sputigena	Supragingival_plaque	#ff8646	258	2.0	0.0	#4df3ce	#8000ff
+Cardiobacterium hominis	Subgingival_plaque	#ffac5c	155	2.0	0.0	#4df3ce	#8000ff
+Cardiobacterium valvarum	Subgingival_plaque	#ffac5c	150	2.0	0.0	#4df3ce	#8000ff
+Carnobacterium divergens	Saliva	#cbe486	6	2.0	1.0	#4df3ce	#2c7ef7
+Carnobacterium maltaromaticum	Hard_palate	#08acee	253	2.0	0.0	#4df3ce	#8000ff
+Carnobacterium sp. ZWU0011	Buccal_mucosa	#445cfb	2	2.0	1.0	#4df3ce	#2c7ef7
+Catenovulum agarivorans	Buccal_mucosa	#445cfb	1	2.0	1.0	#4df3ce	#2c7ef7
+Catonella morbi	Subgingival_plaque	#ffac5c	219	2.0	2.0	#4df3ce	#2adddd
+Caulobacter vibrioides	Anterior_nares	#8000ff	2	2.0	1.0	#4df3ce	#2c7ef7
+Celeribacter baekdonensis	Buccal_mucosa	#445cfb	2	2.0	1.0	#4df3ce	#2c7ef7
+Cellulomonas carbonis	Stool	#e8cb72	1	2.0	1.0	#4df3ce	#2c7ef7
+Cellulomonas flavigena	Throat	#ff5c2f	36	2.0	2.0	#4df3ce	#2adddd
+Centipeda periodontii	Subgingival_plaque	#ffac5c	101	2.0	2.0	#4df3ce	#2adddd
+Chlamydia trachomatis	Keratinized_gingiva	#17cbe4	36	2.0	1.0	#4df3ce	#2c7ef7
+Chloracidobacterium thermophilum	Buccal_mucosa	#445cfb	1	1.0	4.0	#1996f3	#d4dd80
+Chloroflexus sp. MS-G	Buccal_mucosa	#445cfb	1	1.0	4.0	#1996f3	#d4dd80
+Chloroflexus sp. Y-396-1	Buccal_mucosa	#445cfb	1	1.0	4.0	#1996f3	#d4dd80
+Chryseobacterium antarcticum	Buccal_mucosa	#445cfb	2	2.0	1.0	#4df3ce	#2c7ef7
+Chryseobacterium caeni	Anterior_nares	#8000ff	3	2.0	1.0	#4df3ce	#2c7ef7
+Chryseobacterium daeguense	Buccal_mucosa	#445cfb	2	2.0	1.0	#4df3ce	#2c7ef7
+Chryseobacterium haifense	R_Retroauricular_crease	#acf59a	16	2.0	1.0	#4df3ce	#2c7ef7
+Chryseobacterium jeonii	R_Retroauricular_crease	#acf59a	2	2.0	1.0	#4df3ce	#2c7ef7
+Chryseobacterium piperi	Buccal_mucosa	#445cfb	1	2.0	1.0	#4df3ce	#2c7ef7
+Chryseobacterium solincola	Buccal_mucosa	#445cfb	3	2.0	1.0	#4df3ce	#2c7ef7
+Chryseobacterium sp. FF12	R_Retroauricular_crease	#acf59a	6	2.0	1.0	#4df3ce	#2c7ef7
+Chryseobacterium sp. Hurlbut01	Buccal_mucosa	#445cfb	6	2.0	1.0	#4df3ce	#2c7ef7
+Chryseobacterium sp. OV705	Buccal_mucosa	#445cfb	1	2.0	1.0	#4df3ce	#2c7ef7
+Chryseobacterium sp. YR460	Buccal_mucosa	#445cfb	2	2.0	1.0	#4df3ce	#2c7ef7
+Chryseobacterium vrystaatense	Anterior_nares	#8000ff	2	2.0	1.0	#4df3ce	#2c7ef7
+Clostridia bacterium UC5.1-1D10	Stool	#e8cb72	3	2.0	1.0	#4df3ce	#2c7ef7
+Clostridia bacterium UC5.1-2F7	Stool	#e8cb72	3	2.0	1.0	#4df3ce	#2c7ef7
+Clostridiales bacterium VE202-03	Stool	#e8cb72	2	2.0	1.0	#4df3ce	#2c7ef7
+Clostridiales bacterium VE202-21	Stool	#e8cb72	2	2.0	1.0	#4df3ce	#2c7ef7
+[Clostridium] bolteae	Stool	#e8cb72	3	2.0	1.0	#4df3ce	#2c7ef7
+[Clostridium] clostridioforme	Stool	#e8cb72	9	2.0	1.0	#4df3ce	#2c7ef7
+[Clostridium] glycyrrhizinilyticum	Stool	#e8cb72	1	2.0	1.0	#4df3ce	#2c7ef7
+[Clostridium] leptum	L_Retroauricular_crease	#34e4d9	12	2.0	2.0	#4df3ce	#2adddd
+[Clostridium] saccharogumia	Stool	#e8cb72	1	2.0	1.0	#4df3ce	#2c7ef7
+Clostridium sp. ATCC 29733	Stool	#e8cb72	2	2.0	1.0	#4df3ce	#2c7ef7
+Clostridium sp. ATCC BAA-442	Stool	#e8cb72	4	2.0	1.0	#4df3ce	#2c7ef7
+Clostridium sp. GD3	Stool	#e8cb72	7	2.0	1.0	#4df3ce	#2c7ef7
+Clostridium sp. L2-50	Stool	#e8cb72	10	2.0	1.0	#4df3ce	#2c7ef7
+Clostridium sp. M62/1	Stool	#e8cb72	6	2.0	1.0	#4df3ce	#2c7ef7
+Clostridium sp. SY8519	Stool	#e8cb72	1	2.0	1.0	#4df3ce	#2c7ef7
+[Clostridium] symbiosum	Stool	#e8cb72	3	2.0	1.0	#4df3ce	#2c7ef7
+Collinsella aerofaciens	Stool	#e8cb72	4	2.0	1.0	#4df3ce	#2c7ef7
+Collinsella sp. 4_8_47FAA	Stool	#e8cb72	4	2.0	1.0	#4df3ce	#2c7ef7
+Comamonas aquatica	R_Retroauricular_crease	#acf59a	23	2.0	1.0	#4df3ce	#2c7ef7
+Comamonas granuli	Anterior_nares	#8000ff	3	2.0	1.0	#4df3ce	#2c7ef7
+Comamonas sp. E6	Anterior_nares	#8000ff	1	2.0	1.0	#4df3ce	#2c7ef7
+Comamonas testosteroni	Mid_vagina	#52f5cb	11	2.0	1.0	#4df3ce	#2c7ef7
+Conchiformibius steedae	R_Retroauricular_crease	#acf59a	1	2.0	1.0	#4df3ce	#2c7ef7
+Coprobacillus sp. 8_1_38FAA	Stool	#e8cb72	2	2.0	1.0	#4df3ce	#2c7ef7
+Coprobacter fastidiosus	Stool	#e8cb72	4	2.0	1.0	#4df3ce	#2c7ef7
+Coprobacter secundus	Stool	#e8cb72	2	2.0	1.0	#4df3ce	#2c7ef7
+Coprococcus comes	Stool	#e8cb72	15	2.0	1.0	#4df3ce	#2c7ef7
+Coprococcus eutactus	Stool	#e8cb72	21	2.0	1.0	#4df3ce	#2c7ef7
+Corynebacterium accolens	Anterior_nares	#8000ff	2	2.0	1.0	#4df3ce	#2c7ef7
+Corynebacterium argentoratense	Tongue_dorsum	#ff2f18	26	2.0	0.0	#4df3ce	#8000ff
+Corynebacterium aurimucosum	Anterior_nares	#8000ff	4	2.0	1.0	#4df3ce	#2c7ef7
+Corynebacterium diphtheriae	Anterior_nares	#8000ff	2	2.0	1.0	#4df3ce	#2c7ef7
+Corynebacterium durum	Supragingival_plaque	#ff8646	250	2.0	2.0	#4df3ce	#2adddd
+Corynebacterium glutamicum	Anterior_nares	#8000ff	2	2.0	1.0	#4df3ce	#2c7ef7
+Corynebacterium imitans	L_Retroauricular_crease	#34e4d9	3	2.0	1.0	#4df3ce	#2c7ef7
+Corynebacterium kroppenstedtii	R_Retroauricular_crease	#acf59a	11	2.0	1.0	#4df3ce	#2c7ef7
+Corynebacterium matruchotii	Supragingival_plaque	#ff8646	253	2.0	2.0	#4df3ce	#2adddd
+Corynebacterium pseudogenitalium	Anterior_nares	#8000ff	2	2.0	1.0	#4df3ce	#2c7ef7
+Corynebacterium riegelii	Anterior_nares	#8000ff	1	2.0	1.0	#4df3ce	#2c7ef7
+Corynebacterium sp. KPL1818	Anterior_nares	#8000ff	1	2.0	1.0	#4df3ce	#2c7ef7
+Corynebacterium sp. KPL1824	Anterior_nares	#8000ff	1	2.0	1.0	#4df3ce	#2c7ef7
+Corynebacterium tuscaniense	Anterior_nares	#8000ff	1	2.0	1.0	#4df3ce	#2c7ef7
+Corynebacterium vitaeruminis	Throat	#ff5c2f	3	2.0	1.0	#4df3ce	#2c7ef7
+Crocosphaera watsonii	L_Retroauricular_crease	#34e4d9	2	2.0	1.0	#4df3ce	#2c7ef7
+Cryptobacterium curtum	Saliva	#cbe486	40	2.0	2.0	#4df3ce	#2adddd
+Cupriavidus basilensis	Mid_vagina	#52f5cb	1	2.0	1.0	#4df3ce	#2c7ef7
+Dechloromonas agitata	Buccal_mucosa	#445cfb	40	2.0	2.0	#4df3ce	#2adddd
+Dechloromonas aromatica	L_Retroauricular_crease	#34e4d9	1	2.0	1.0	#4df3ce	#2c7ef7
+Dehalobacter sp. FTH1	Buccal_mucosa	#445cfb	2	2.0	1.0	#4df3ce	#2c7ef7
+Delftia acidovorans	Anterior_nares	#8000ff	2	2.0	1.0	#4df3ce	#2c7ef7
+Devosia limi	L_Retroauricular_crease	#34e4d9	1	2.0	1.0	#4df3ce	#2c7ef7
+Dialister invisus	Stool	#e8cb72	214	2.0	2.0	#4df3ce	#2adddd
+Dialister micraerophilus	Saliva	#cbe486	16	2.0	1.0	#4df3ce	#2c7ef7
+Diaphorobacter sp. J5-51	Buccal_mucosa	#445cfb	15	2.0	1.0	#4df3ce	#2c7ef7
+Dietzia cinnamea	Anterior_nares	#8000ff	1	2.0	1.0	#4df3ce	#2c7ef7
+Dolosigranulum pigrum	Anterior_nares	#8000ff	5	2.0	1.0	#4df3ce	#2c7ef7
+Dorea formicigenerans	Stool	#e8cb72	5	2.0	1.0	#4df3ce	#2c7ef7
+Dorea longicatena	Stool	#e8cb72	18	2.0	1.0	#4df3ce	#2c7ef7
+Dorea sp. AGR2135	Stool	#e8cb72	2	2.0	1.0	#4df3ce	#2c7ef7
+Dysgonomonas mossii	Stool	#e8cb72	1	2.0	1.0	#4df3ce	#2c7ef7
+Dysgonomonas sp. BGC7	R_Retroauricular_crease	#acf59a	4	2.0	1.0	#4df3ce	#2c7ef7
+Echinicola pacifica	Buccal_mucosa	#445cfb	2	2.0	1.0	#4df3ce	#2c7ef7
+Eggerthia catenaformis	Subgingival_plaque	#ffac5c	23	2.0	2.0	#4df3ce	#2adddd
+Eikenella corrodens	Subgingival_plaque	#ffac5c	184	2.0	2.0	#4df3ce	#2adddd
+Elizabethkingia anophelis	L_Retroauricular_crease	#34e4d9	7	2.0	1.0	#4df3ce	#2c7ef7
+Elizabethkingia meningoseptica	Buccal_mucosa	#445cfb	2	2.0	1.0	#4df3ce	#2c7ef7
+Elizabethkingia miricola	Buccal_mucosa	#445cfb	1	2.0	1.0	#4df3ce	#2c7ef7
+Empedobacter brevis	Anterior_nares	#8000ff	1	2.0	1.0	#4df3ce	#2c7ef7
+Empedobacter falsenii	Anterior_nares	#8000ff	5	2.0	1.0	#4df3ce	#2c7ef7
+Enhydrobacter aerosaccus	R_Retroauricular_crease	#acf59a	1	2.0	1.0	#4df3ce	#2c7ef7
+Enterococcus cecorum	Anterior_nares	#8000ff	12	2.0	1.0	#4df3ce	#2c7ef7
+Enterococcus dispar	Stool	#e8cb72	2	2.0	1.0	#4df3ce	#2c7ef7
+Enterococcus faecalis	Anterior_nares	#8000ff	4	2.0	1.0	#4df3ce	#2c7ef7
+Enterococcus faecium	Stool	#e8cb72	2	2.0	1.0	#4df3ce	#2c7ef7
+Enterococcus moraviensis	Buccal_mucosa	#445cfb	3	2.0	1.0	#4df3ce	#2c7ef7
+Epilithonimonas sp. FH1	Buccal_mucosa	#445cfb	2	2.0	1.0	#4df3ce	#2c7ef7
+Epilithonimonas tenax	R_Retroauricular_crease	#acf59a	1	2.0	1.0	#4df3ce	#2c7ef7
+Erysipelotrichaceae bacterium 6_1_45	Stool	#e8cb72	8	2.0	1.0	#4df3ce	#2c7ef7
+Eubacterium brachy	Palatine_Tonsils	#70febc	187	2.0	2.0	#4df3ce	#2adddd
+[Eubacterium] dolichum	Stool	#e8cb72	1	2.0	1.0	#4df3ce	#2c7ef7
+[Eubacterium] eligens	Stool	#e8cb72	33	2.0	1.0	#4df3ce	#2c7ef7
+[Eubacterium] hallii	Stool	#e8cb72	12	2.0	1.0	#4df3ce	#2c7ef7
+[Eubacterium] infirmum	Subgingival_plaque	#ffac5c	115	2.0	2.0	#4df3ce	#2adddd
+[Eubacterium] nodatum	Subgingival_plaque	#ffac5c	31	2.0	2.0	#4df3ce	#2adddd
+Eubacterium ramulus	Stool	#e8cb72	8	2.0	1.0	#4df3ce	#2c7ef7
+[Eubacterium] rectale	Stool	#e8cb72	97	2.0	1.0	#4df3ce	#2c7ef7
+Eubacterium saphenum	Buccal_mucosa	#445cfb	32	2.0	2.0	#4df3ce	#2adddd
+[Eubacterium] siraeum	Stool	#e8cb72	15	2.0	1.0	#4df3ce	#2c7ef7
+[Eubacterium] sulci	Tongue_dorsum	#ff2f18	198	2.0	2.0	#4df3ce	#2adddd
+Eubacterium ventriosum	Stool	#e8cb72	12	2.0	1.0	#4df3ce	#2c7ef7
+[Eubacterium] yurii	Subgingival_plaque	#ffac5c	16	2.0	1.0	#4df3ce	#2c7ef7
+Exiguobacterium sibiricum	Buccal_mucosa	#445cfb	2	2.0	1.0	#4df3ce	#2c7ef7
+Facklamia hominis	R_Retroauricular_crease	#acf59a	2	2.0	1.0	#4df3ce	#2c7ef7
+Facklamia ignava	Mid_vagina	#52f5cb	1	2.0	1.0	#4df3ce	#2c7ef7
+Faecalibacterium prausnitzii	Stool	#e8cb72	90	2.0	1.0	#4df3ce	#2c7ef7
+Fenollaria massiliensis	Anterior_nares	#8000ff	4	2.0	1.0	#4df3ce	#2c7ef7
+Filifactor alocis	Palatine_Tonsils	#70febc	93	2.0	2.0	#4df3ce	#2adddd
+Finegoldia magna	R_Retroauricular_crease	#acf59a	14	2.0	1.0	#4df3ce	#2c7ef7
+Flavobacteriaceae bacterium S85	Buccal_mucosa	#445cfb	2	2.0	1.0	#4df3ce	#2c7ef7
+Flavobacterium columnare	Buccal_mucosa	#445cfb	2	2.0	1.0	#4df3ce	#2c7ef7
+Flavobacterium sp. B17	R_Retroauricular_crease	#acf59a	1	2.0	1.0	#4df3ce	#2c7ef7
+Flavobacterium sp. Leaf359	Anterior_nares	#8000ff	3	2.0	1.0	#4df3ce	#2c7ef7
+Fusobacterium equinum	Attached	#622ffe	2	2.0	1.0	#4df3ce	#2c7ef7
+Fusobacterium hwasookii	Supragingival_plaque	#ff8646	196	2.0	0.0	#4df3ce	#8000ff
+Fusobacterium mortiferum	Buccal_mucosa	#445cfb	4	2.0	1.0	#4df3ce	#2c7ef7
+Fusobacterium necrophorum	Palatine_Tonsils	#70febc	20	2.0	0.0	#4df3ce	#8000ff
+Fusobacterium nucleatum	Subgingival_plaque	#ffac5c	256	2.0	0.0	#4df3ce	#8000ff
+Fusobacterium periodonticum	Throat	#ff5c2f	258	2.0	0.0	#4df3ce	#8000ff
+Fusobacterium russii	Attached	#622ffe	4	2.0	1.0	#4df3ce	#2c7ef7
+Fusobacterium sp. CM1	Palatine_Tonsils	#70febc	9	2.0	1.0	#4df3ce	#2c7ef7
+Fusobacterium sp. CM21	Palatine_Tonsils	#70febc	11	2.0	1.0	#4df3ce	#2c7ef7
+Fusobacterium sp. CM22	Supragingival_plaque	#ff8646	145	2.0	0.0	#4df3ce	#8000ff
+Fusobacterium sp. OBRC1	Throat	#ff5c2f	110	2.0	0.0	#4df3ce	#8000ff
+Fusobacterium sp. oral taxon 370	Tongue_dorsum	#ff2f18	121	2.0	0.0	#4df3ce	#8000ff
+Gallibacterium anatis	Keratinized_gingiva	#17cbe4	65	2.0	0.0	#4df3ce	#8000ff
+Gallibacterium genomosp. 1	Buccal_mucosa	#445cfb	23	2.0	0.0	#4df3ce	#8000ff
+Gardnerella vaginalis	Vaginal_introitus	#ff0000	25	2.0	0.0	#4df3ce	#8000ff
+Gemella bergeri	Keratinized_gingiva	#17cbe4	124	2.0	0.0	#4df3ce	#8000ff
+Gemella cuniculi	Attached	#622ffe	142	2.0	0.0	#4df3ce	#8000ff
+Gemella haemolysans	Buccal_mucosa	#445cfb	258	2.0	0.0	#4df3ce	#8000ff
+Gemella morbillorum	Attached	#622ffe	256	2.0	0.0	#4df3ce	#8000ff
+Gemella sanguinis	Tongue_dorsum	#ff2f18	256	2.0	2.0	#4df3ce	#2adddd
+Gordonia polyisoprenivorans	L_Retroauricular_crease	#34e4d9	3	2.0	1.0	#4df3ce	#2c7ef7
+Gordonibacter pamelaeae	Stool	#e8cb72	2	2.0	1.0	#4df3ce	#2c7ef7
+Granulicatella adiacens	Attached	#622ffe	238	2.0	0.0	#4df3ce	#8000ff
+Granulicatella elegans	Keratinized_gingiva	#17cbe4	231	2.0	0.0	#4df3ce	#8000ff
+Gulbenkiania mobilis	L_Retroauricular_crease	#34e4d9	6	2.0	1.0	#4df3ce	#2c7ef7
+[Haemophilus] ducreyi	Buccal_mucosa	#445cfb	8	2.0	1.0	#4df3ce	#2c7ef7
+Haemophilus haemolyticus	Keratinized_gingiva	#17cbe4	256	2.0	0.0	#4df3ce	#8000ff
+Haemophilus influenzae	Attached	#622ffe	259	2.0	0.0	#4df3ce	#8000ff
+Haemophilus parahaemolyticus	Buccal_mucosa_NA	#2686f5	244	2.0	0.0	#4df3ce	#8000ff
+Haemophilus parainfluenzae	Tongue_dorsum	#ff2f18	261	2.0	0.0	#4df3ce	#8000ff
+Haemophilus paraphrohaemolyticus	Buccal_mucosa	#445cfb	218	2.0	0.0	#4df3ce	#8000ff
+[Haemophilus] parasuis	Buccal_mucosa	#445cfb	129	2.0	0.0	#4df3ce	#8000ff
+Haemophilus sp. C1	Buccal_mucosa	#445cfb	204	2.0	0.0	#4df3ce	#8000ff
+Haemophilus sp. FF7	Buccal_mucosa	#445cfb	7	2.0	1.0	#4df3ce	#2c7ef7
+Haemophilus sp. oral taxon 851	Keratinized_gingiva	#17cbe4	216	2.0	0.0	#4df3ce	#8000ff
+Haemophilus sputorum	Saliva	#cbe486	247	2.0	0.0	#4df3ce	#8000ff
+Hallella seregens	Subgingival_plaque	#ffac5c	13	2.0	2.0	#4df3ce	#2adddd
+Histophilus somni	Buccal_mucosa	#445cfb	45	2.0	0.0	#4df3ce	#8000ff
+Holdemanella biformis	L_Retroauricular_crease	#34e4d9	7	2.0	1.0	#4df3ce	#2c7ef7
+Holdemania filiformis	Stool	#e8cb72	2	2.0	1.0	#4df3ce	#2c7ef7
+Holdemania massiliensis	Stool	#e8cb72	2	2.0	1.0	#4df3ce	#2c7ef7
+Hungatella hathewayi	Stool	#e8cb72	6	2.0	1.0	#4df3ce	#2c7ef7
+Intestinimonas butyriciproducens	Stool	#e8cb72	11	2.0	1.0	#4df3ce	#2c7ef7
+Intestinimonas sp. GD2	Stool	#e8cb72	3	2.0	1.0	#4df3ce	#2c7ef7
+Isoptericola variabilis	Tongue_dorsum	#ff2f18	111	2.0	2.0	#4df3ce	#2adddd
+Isosphaera pallida	Buccal_mucosa	#445cfb	1	1.0	4.0	#1996f3	#d4dd80
+Janibacter hoylei	Anterior_nares	#8000ff	3	2.0	1.0	#4df3ce	#2c7ef7
+Johnsonella ignava	Subgingival_plaque	#ffac5c	95	2.0	2.0	#4df3ce	#2adddd
+Kingella denitrificans	Supragingival_plaque	#ff8646	143	2.0	0.0	#4df3ce	#8000ff
+Kingella kingae	Keratinized_gingiva	#17cbe4	68	2.0	0.0	#4df3ce	#8000ff
+Kingella oralis	Supragingival_plaque	#ff8646	249	2.0	0.0	#4df3ce	#8000ff
+Kingella sp. Sch538	Keratinized_gingiva	#17cbe4	11	2.0	1.0	#4df3ce	#2c7ef7
+Kocuria palustris	L_Retroauricular_crease	#34e4d9	1	2.0	1.0	#4df3ce	#2c7ef7
+Kytococcus sedentarius	Throat	#ff5c2f	122	2.0	2.0	#4df3ce	#2adddd
+Lachnoanaerobaculum saburreum	Attached	#622ffe	247	2.0	2.0	#4df3ce	#2adddd
+Lachnoanaerobaculum sp. ICM7	Tongue_dorsum	#ff2f18	220	2.0	0.0	#4df3ce	#8000ff
+Lachnoanaerobaculum sp. MSX33	Tongue_dorsum	#ff2f18	119	2.0	2.0	#4df3ce	#2adddd
+Lachnoanaerobaculum sp. OBRC5-5	Tongue_dorsum	#ff2f18	125	2.0	2.0	#4df3ce	#2adddd
+Lachnospiraceae bacterium 1_4_56FAA	Stool	#e8cb72	2	2.0	1.0	#4df3ce	#2c7ef7
+Lachnospiraceae bacterium 2_1_46FAA	Stool	#e8cb72	2	2.0	1.0	#4df3ce	#2c7ef7
+Lachnospiraceae bacterium 3_1_46FAA	Stool	#e8cb72	2	2.0	1.0	#4df3ce	#2c7ef7
+Lachnospiraceae bacterium 7_1_58FAA	Stool	#e8cb72	3	2.0	1.0	#4df3ce	#2c7ef7
+Lachnospiraceae bacterium oral taxon 082	Tongue_dorsum	#ff2f18	151	2.0	2.0	#4df3ce	#2adddd
+Lachnospiraceae bacterium oral taxon 500	Supragingival_plaque	#ff8646	202	2.0	0.0	#4df3ce	#8000ff
+Lachnospiraceae bacterium TF01-11	Stool	#e8cb72	5	2.0	1.0	#4df3ce	#2c7ef7
+Lactobacillus brevis	Anterior_nares	#8000ff	15	2.0	1.0	#4df3ce	#2c7ef7
+Lactobacillus coleohominis	Mid_vagina	#52f5cb	2	2.0	1.0	#4df3ce	#2c7ef7
+Lactobacillus crispatus	Mid_vagina	#52f5cb	13	2.0	1.0	#4df3ce	#2c7ef7
+Lactobacillus crustorum	Buccal_mucosa	#445cfb	2	2.0	2.0	#4df3ce	#2adddd
+Lactobacillus curvatus	Anterior_nares	#8000ff	2	2.0	1.0	#4df3ce	#2c7ef7
+Lactobacillus delbrueckii	Posterior_fornix	#8efeac	2	2.0	1.0	#4df3ce	#2c7ef7
+Lactobacillus fermentum	Posterior_fornix	#8efeac	17	2.0	2.0	#4df3ce	#2adddd
+Lactobacillus gallinarum	Vaginal_introitus	#ff0000	1	2.0	1.0	#4df3ce	#2c7ef7
+Lactobacillus harbinensis	Buccal_mucosa	#445cfb	2	2.0	1.0	#4df3ce	#2c7ef7
+Lactobacillus iners	Posterior_fornix	#8efeac	11	2.0	1.0	#4df3ce	#2c7ef7
+Lactobacillus jensenii	Posterior_fornix	#8efeac	1	2.0	1.0	#4df3ce	#2c7ef7
+Lactobacillus nagelii	Buccal_mucosa	#445cfb	1	2.0	1.0	#4df3ce	#2c7ef7
+Lactobacillus oris	Posterior_fornix	#8efeac	2	2.0	1.0	#4df3ce	#2c7ef7
+Lactobacillus parabuchneri	Buccal_mucosa	#445cfb	2	2.0	1.0	#4df3ce	#2c7ef7
+Lactobacillus plantarum	Anterior_nares	#8000ff	4	2.0	0.0	#4df3ce	#8000ff
+Lactobacillus pontis	Anterior_nares	#8000ff	2	2.0	2.0	#4df3ce	#2adddd
+Lactobacillus rhamnosus	Buccal_mucosa	#445cfb	7	2.0	1.0	#4df3ce	#2c7ef7
+Lactobacillus ruminis	Stool	#e8cb72	1	2.0	1.0	#4df3ce	#2c7ef7
+Lactobacillus ultunensis	Mid_vagina	#52f5cb	2	2.0	2.0	#4df3ce	#2adddd
+Lactococcus piscium	L_Retroauricular_crease	#34e4d9	2	2.0	1.0	#4df3ce	#2c7ef7
+Lactococcus raffinolactis	L_Retroauricular_crease	#34e4d9	5	2.0	1.0	#4df3ce	#2c7ef7
+Lautropia mirabilis	Supragingival_plaque	#ff8646	251	2.0	0.0	#4df3ce	#8000ff
+Leptotrichia buccalis	Supragingival_plaque	#ff8646	176	2.0	2.0	#4df3ce	#2adddd
+Leptotrichia goodfellowii	Subgingival_plaque	#ffac5c	175	2.0	0.0	#4df3ce	#8000ff
+Leptotrichia hofstadii	Supragingival_plaque	#ff8646	194	2.0	1.0	#4df3ce	#2c7ef7
+Leptotrichia shahii	Tongue_dorsum	#ff2f18	146	2.0	2.0	#4df3ce	#2adddd
+Leptotrichia sp. oral taxon 212	Supragingival_plaque	#ff8646	250	2.0	0.0	#4df3ce	#8000ff
+Leptotrichia sp. oral taxon 215	Throat	#ff5c2f	256	2.0	0.0	#4df3ce	#8000ff
+Leptotrichia sp. oral taxon 225	Supragingival_plaque	#ff8646	159	2.0	0.0	#4df3ce	#8000ff
+Leptotrichia sp. oral taxon 879	Subgingival_plaque	#ffac5c	173	2.0	0.0	#4df3ce	#8000ff
+Leptotrichia trevisanii	Palatine_Tonsils	#70febc	189	2.0	2.0	#4df3ce	#2adddd
+Leptotrichia wadei	Tongue_dorsum	#ff2f18	231	2.0	2.0	#4df3ce	#2adddd
+Leucobacter chironomi	Tongue_dorsum	#ff2f18	11	2.0	1.0	#4df3ce	#2c7ef7
+Leucobacter sp. CBX130	L_Retroauricular_crease	#34e4d9	1	2.0	1.0	#4df3ce	#2c7ef7
+Leuconostoc carnosum	Saliva	#cbe486	3	2.0	1.0	#4df3ce	#2c7ef7
+Listeria monocytogenes	L_Retroauricular_crease	#34e4d9	14	0.0	1.0	#8000ff	#2c7ef7
+Mannheimia haemolytica	Keratinized_gingiva	#17cbe4	71	2.0	0.0	#4df3ce	#8000ff
+Mannheimia sp. MG13	Tongue_dorsum	#ff2f18	12	2.0	0.0	#4df3ce	#8000ff
+[Mannheimia] succiniciproducens	Buccal_mucosa	#445cfb	18	2.0	1.0	#4df3ce	#2c7ef7
+Mannheimia varigena	Buccal_mucosa_NA	#2686f5	40	2.0	0.0	#4df3ce	#8000ff
+Marinococcus halotolerans	Buccal_mucosa	#445cfb	1	2.0	1.0	#4df3ce	#2c7ef7
+Megamonas rupellensis	Stool	#e8cb72	4	2.0	1.0	#4df3ce	#2c7ef7
+Megasphaera micronuciformis	Saliva	#cbe486	219	2.0	2.0	#4df3ce	#2adddd
+Meiothermus cerbereus	Buccal_mucosa	#445cfb	1	1.0	4.0	#1996f3	#d4dd80
+Methylobacterium extorquens	Anterior_nares	#8000ff	1	2.0	1.0	#4df3ce	#2c7ef7
+Methylobacterium sp. ARG-1	Buccal_mucosa	#445cfb	1	2.0	1.0	#4df3ce	#2c7ef7
+Methylobacterium sp. GXF4	Buccal_mucosa	#445cfb	2	2.0	1.0	#4df3ce	#2c7ef7
+Microbacterium paraoxydans	R_Retroauricular_crease	#acf59a	1	2.0	1.0	#4df3ce	#2c7ef7
+Micrococcus luteus	L_Retroauricular_crease	#34e4d9	1	2.0	1.0	#4df3ce	#2c7ef7
+Mitsuokella sp. oral taxon 131	Subgingival_plaque	#ffac5c	21	2.0	1.0	#4df3ce	#2c7ef7
+Moellerella wisconsensis	Buccal_mucosa	#445cfb	6	2.0	1.0	#4df3ce	#2c7ef7
+Mogibacterium sp. CM50	Subgingival_plaque	#ffac5c	13	2.0	2.0	#4df3ce	#2adddd
+Mogibacterium timidum	Palatine_Tonsils	#70febc	11	2.0	1.0	#4df3ce	#2c7ef7
+Moraxella boevrei	Anterior_nares	#8000ff	2	2.0	1.0	#4df3ce	#2c7ef7
+Moraxella bovoculi	Anterior_nares	#8000ff	2	2.0	1.0	#4df3ce	#2c7ef7
+Moraxella caprae	Anterior_nares	#8000ff	2	2.0	1.0	#4df3ce	#2c7ef7
+Moraxella catarrhalis	Anterior_nares	#8000ff	18	2.0	1.0	#4df3ce	#2c7ef7
+Moraxella macacae	Anterior_nares	#8000ff	1	2.0	1.0	#4df3ce	#2c7ef7
+Morococcus cerebrosus	Palatine_Tonsils	#70febc	110	2.0	0.0	#4df3ce	#8000ff
+Mucinivorans hirudinis	Buccal_mucosa	#445cfb	4	2.0	1.0	#4df3ce	#2c7ef7
+Mycobacterium tuberculosis	L_Retroauricular_crease	#34e4d9	7	2.0	2.0	#4df3ce	#2adddd
+Mycoplasma orale	Tongue_dorsum	#ff2f18	15	2.0	2.0	#4df3ce	#2adddd
+Mycoplasma salivarium	Subgingival_plaque	#ffac5c	49	2.0	2.0	#4df3ce	#2adddd
+Nakamurella multipartita	L_Retroauricular_crease	#34e4d9	1	4.0	1.0	#ff964f	#2c7ef7
+Necropsobacter massiliensis	Attached	#622ffe	15	2.0	1.0	#4df3ce	#2c7ef7
+Necropsobacter rosorum	Buccal_mucosa	#445cfb	7	2.0	1.0	#4df3ce	#2c7ef7
+Neisseria bacilliformis	Throat	#ff5c2f	42	2.0	0.0	#4df3ce	#8000ff
+Neisseria cinerea	Keratinized_gingiva	#17cbe4	124	2.0	0.0	#4df3ce	#8000ff
+Neisseria elongata	Supragingival_plaque	#ff8646	97	2.0	0.0	#4df3ce	#8000ff
+Neisseria flavescens	Throat	#ff5c2f	203	2.0	0.0	#4df3ce	#8000ff
+Neisseria gonorrhoeae	Keratinized_gingiva	#17cbe4	103	2.0	0.0	#4df3ce	#8000ff
+Neisseria lactamica	Keratinized_gingiva	#17cbe4	231	2.0	0.0	#4df3ce	#8000ff
+Neisseria macacae	Saliva	#cbe486	139	2.0	0.0	#4df3ce	#8000ff
+Neisseria meningitidis	Throat	#ff5c2f	258	2.0	0.0	#4df3ce	#8000ff
+Neisseria mucosa	Throat	#ff5c2f	197	2.0	0.0	#4df3ce	#8000ff
+Neisseria polysaccharea	Keratinized_gingiva	#17cbe4	62	2.0	0.0	#4df3ce	#8000ff
+Neisseria sicca	Buccal_mucosa	#445cfb	223	2.0	0.0	#4df3ce	#8000ff
+Neisseria sp. 74A18	R_Retroauricular_crease	#acf59a	3	2.0	1.0	#4df3ce	#2c7ef7
+Neisseria sp. GT4A_CT1	Supragingival_plaque	#ff8646	143	2.0	0.0	#4df3ce	#8000ff
+Neisseria sp. HMSC06F02	Saliva	#cbe486	142	2.0	0.0	#4df3ce	#8000ff
+Neisseria sp. oral taxon 014	Supragingival_plaque	#ff8646	183	2.0	0.0	#4df3ce	#8000ff
+Neisseria sp. oral taxon 020	Throat	#ff5c2f	80	2.0	0.0	#4df3ce	#8000ff
+Neisseria subflava	Tongue_dorsum	#ff2f18	110	2.0	0.0	#4df3ce	#8000ff
+Neisseria weaveri	R_Retroauricular_crease	#acf59a	8	2.0	1.0	#4df3ce	#2c7ef7
+Nitrospira defluvii	Tongue_dorsum	#ff2f18	1	2.0	1.0	#4df3ce	#2c7ef7
+Odoribacter laneus	Stool	#e8cb72	6	2.0	1.0	#4df3ce	#2c7ef7
+Odoribacter splanchnicus	Stool	#e8cb72	60	2.0	1.0	#4df3ce	#2c7ef7
+Olsenella profusa	Subgingival_plaque	#ffac5c	15	2.0	2.0	#4df3ce	#2adddd
+Olsenella sp. SIT9	Subgingival_plaque	#ffac5c	3	2.0	1.0	#4df3ce	#2c7ef7
+Olsenella uli	Palatine_Tonsils	#70febc	39	2.0	2.0	#4df3ce	#2adddd
+Oribacterium asaccharolyticum	Saliva	#cbe486	124	2.0	2.0	#4df3ce	#2adddd
+Oribacterium parvum	Throat	#ff5c2f	192	2.0	2.0	#4df3ce	#2adddd
+Oribacterium sinus	Throat	#ff5c2f	253	2.0	2.0	#4df3ce	#2adddd
+Oribacterium sp. oral taxon 078	Subgingival_plaque	#ffac5c	202	2.0	2.0	#4df3ce	#2adddd
+Oribacterium sp. oral taxon 108	Saliva	#cbe486	122	2.0	2.0	#4df3ce	#2adddd
+Ornithinibacillus scapharcae	Buccal_mucosa	#445cfb	1	4.0	1.0	#ff964f	#2c7ef7
+Ornithobacterium rhinotracheale	Buccal_mucosa	#445cfb	2	2.0	1.0	#4df3ce	#2c7ef7
+Oscillibacter sp. ER4	Stool	#e8cb72	33	2.0	1.0	#4df3ce	#2c7ef7
+Oscillospiraceae bacterium VE202-24	Stool	#e8cb72	5	2.0	1.0	#4df3ce	#2c7ef7
+Ottowia sp. oral taxon 894	Supragingival_plaque	#ff8646	98	2.0	2.0	#4df3ce	#2adddd
+Oxalobacter formigenes	Stool	#e8cb72	6	2.0	1.0	#4df3ce	#2c7ef7
+Pantoea ananatis	R_Retroauricular_crease	#acf59a	4	2.0	1.0	#4df3ce	#2c7ef7
+Parabacteroides distasonis	Stool	#e8cb72	16	2.0	1.0	#4df3ce	#2c7ef7
+Parabacteroides goldsteinii	Stool	#e8cb72	6	2.0	1.0	#4df3ce	#2c7ef7
+Parabacteroides gordonii	Stool	#e8cb72	2	2.0	1.0	#4df3ce	#2c7ef7
+Parabacteroides johnsonii	Stool	#e8cb72	16	2.0	1.0	#4df3ce	#2c7ef7
+Parabacteroides merdae	Stool	#e8cb72	54	2.0	1.0	#4df3ce	#2c7ef7
+Parabacteroides sp. 20_3	Stool	#e8cb72	6	2.0	1.0	#4df3ce	#2c7ef7
+Parabacteroides sp. D13	Stool	#e8cb72	5	2.0	1.0	#4df3ce	#2c7ef7
+Parabacteroides sp. D26	Stool	#e8cb72	5	2.0	1.0	#4df3ce	#2c7ef7
+Paracoccus denitrificans	Buccal_mucosa	#445cfb	4	2.0	1.0	#4df3ce	#2c7ef7
+Paracoccus pantotrophus	Buccal_mucosa	#445cfb	5	2.0	1.0	#4df3ce	#2c7ef7
+Paracoccus sanguinis	R_Retroauricular_crease	#acf59a	1	2.0	1.0	#4df3ce	#2c7ef7
+Paracoccus sp. 228	Anterior_nares	#8000ff	3	2.0	1.0	#4df3ce	#2c7ef7
+Paracoccus sp. J55	Anterior_nares	#8000ff	1	2.0	1.0	#4df3ce	#2c7ef7
+Paracoccus sp. MKU1	R_Retroauricular_crease	#acf59a	5	2.0	1.0	#4df3ce	#2c7ef7
+Paracoccus sp. N5	R_Retroauricular_crease	#acf59a	1	2.0	1.0	#4df3ce	#2c7ef7
+Paracoccus sp. S4493	Anterior_nares	#8000ff	3	2.0	1.0	#4df3ce	#2c7ef7
+Paracoccus versutus	Buccal_mucosa	#445cfb	28	2.0	2.0	#4df3ce	#2adddd
+Paraprevotella clara	Stool	#e8cb72	175	2.0	0.0	#4df3ce	#8000ff
+Paraprevotella xylaniphila	Stool	#e8cb72	10	2.0	1.0	#4df3ce	#2c7ef7
+Parascardovia denticolens	Anterior_nares	#8000ff	12	2.0	2.0	#4df3ce	#2adddd
+Parasutterella excrementihominis	Stool	#e8cb72	9	2.0	1.0	#4df3ce	#2c7ef7
+Parvimonas micra	Subgingival_plaque	#ffac5c	145	2.0	2.0	#4df3ce	#2adddd
+Parvimonas sp. oral taxon 110	Subgingival_plaque	#ffac5c	48	2.0	2.0	#4df3ce	#2adddd
+Parvimonas sp. oral taxon 393	Palatine_Tonsils	#70febc	15	2.0	0.0	#4df3ce	#8000ff
+Pasteurella bettyae	Keratinized_gingiva	#17cbe4	81	2.0	0.0	#4df3ce	#8000ff
+Pasteurella dagmatis	R_Retroauricular_crease	#acf59a	31	2.0	0.0	#4df3ce	#8000ff
+Pasteurella multocida	Keratinized_gingiva	#17cbe4	154	2.0	0.0	#4df3ce	#8000ff
+[Pasteurella] pneumotropica	Buccal_mucosa	#445cfb	201	2.0	0.0	#4df3ce	#8000ff
+Pectobacterium carotovorum	Anterior_nares	#8000ff	1	2.0	1.0	#4df3ce	#2c7ef7
+Pedobacter sp. Leaf194	L_Retroauricular_crease	#34e4d9	2	4.0	1.0	#ff964f	#2c7ef7
+Pedobacter sp. R20-19	R_Retroauricular_crease	#acf59a	1	1.0	3.0	#1996f3	#7effb5
+Peptoclostridium difficile	L_Retroauricular_crease	#34e4d9	2	2.0	1.0	#4df3ce	#2c7ef7
+Peptoniphilus duerdenii	R_Retroauricular_crease	#acf59a	29	2.0	0.0	#4df3ce	#8000ff
+Peptoniphilus lacrimalis	Hard_palate	#08acee	205	2.0	0.0	#4df3ce	#8000ff
+Peptoniphilus rhinitidis	Anterior_nares	#8000ff	2	2.0	1.0	#4df3ce	#2c7ef7
+Peptostreptococcaceae bacterium ACC19a	Throat	#ff5c2f	3	2.0	2.0	#4df3ce	#2adddd
+Peptostreptococcaceae bacterium AS15	Subgingival_plaque	#ffac5c	25	2.0	1.0	#4df3ce	#2c7ef7
+Peptostreptococcaceae bacterium CM2	Hard_palate	#08acee	6	2.0	1.0	#4df3ce	#2c7ef7
+Peptostreptococcaceae bacterium CM5	Throat	#ff5c2f	3	2.0	1.0	#4df3ce	#2c7ef7
+Peptostreptococcaceae bacterium oral taxon 113	Palatine_Tonsils	#70febc	18	2.0	1.0	#4df3ce	#2c7ef7
+Peptostreptococcus anaerobius	Saliva	#cbe486	12	2.0	1.0	#4df3ce	#2c7ef7
+Peptostreptococcus sp. MV1	Throat	#ff5c2f	30	2.0	1.0	#4df3ce	#2c7ef7
+Peptostreptococcus stomatis	Throat	#ff5c2f	157	2.0	2.0	#4df3ce	#2adddd
+Phocaeicola abscessus	Attached	#622ffe	1	2.0	1.0	#4df3ce	#2c7ef7
+Polynucleobacter necessarius	Anterior_nares	#8000ff	1	2.0	1.0	#4df3ce	#2c7ef7
+Porphyrobacter donghaensis	Saliva	#cbe486	136	2.0	0.0	#4df3ce	#8000ff
+Porphyromonadaceae bacterium COT-184 OH4590	Subgingival_plaque	#ffac5c	1	2.0	1.0	#4df3ce	#2c7ef7
+Porphyromonas asaccharolytica	Posterior_fornix	#8efeac	1	2.0	1.0	#4df3ce	#2c7ef7
+Porphyromonas bennonis	Anterior_nares	#8000ff	13	2.0	2.0	#4df3ce	#2adddd
+Porphyromonas cangingivalis	R_Retroauricular_crease	#acf59a	6	2.0	1.0	#4df3ce	#2c7ef7
+Porphyromonas canoris	Keratinized_gingiva	#17cbe4	3	2.0	1.0	#4df3ce	#2c7ef7
+Porphyromonas catoniae	Subgingival_plaque	#ffac5c	253	2.0	0.0	#4df3ce	#8000ff
+Porphyromonas crevioricanis	R_Retroauricular_crease	#acf59a	9	2.0	0.0	#4df3ce	#8000ff
+Porphyromonas endodontalis	Saliva	#cbe486	187	2.0	2.0	#4df3ce	#2adddd
+Porphyromonas gingivalis	Keratinized_gingiva	#17cbe4	146	2.0	0.0	#4df3ce	#8000ff
+Porphyromonas gingivicanis	R_Retroauricular_crease	#acf59a	4	2.0	1.0	#4df3ce	#2c7ef7
+Porphyromonas gulae	R_Retroauricular_crease	#acf59a	71	2.0	0.0	#4df3ce	#8000ff
+Porphyromonas levii	Throat	#ff5c2f	6	2.0	1.0	#4df3ce	#2c7ef7
+Porphyromonas macacae	Attached	#622ffe	18	2.0	0.0	#4df3ce	#8000ff
+Porphyromonas somerae	Palatine_Tonsils	#70febc	251	2.0	0.0	#4df3ce	#8000ff
+Porphyromonas sp. COT-239 OH1446	R_Retroauricular_crease	#acf59a	15	2.0	1.0	#4df3ce	#2c7ef7
+Porphyromonas sp. KLE 1280	Hard_palate	#08acee	237	2.0	0.0	#4df3ce	#8000ff
+Porphyromonas sp. oral taxon 278	Saliva	#cbe486	212	2.0	0.0	#4df3ce	#8000ff
+Porphyromonas sp. oral taxon 279	Hard_palate	#08acee	242	2.0	0.0	#4df3ce	#8000ff
+Porphyromonas uenonis	Posterior_fornix	#8efeac	16	2.0	1.0	#4df3ce	#2c7ef7
+Pragia fontium	Buccal_mucosa	#445cfb	2	2.0	1.0	#4df3ce	#2c7ef7
+Prevotella albensis	Stool	#e8cb72	2	2.0	1.0	#4df3ce	#2c7ef7
+Prevotella amnii	L_Retroauricular_crease	#34e4d9	138	2.0	2.0	#4df3ce	#2adddd
+Prevotella aurantiaca	Tongue_dorsum	#ff2f18	147	2.0	0.0	#4df3ce	#8000ff
+Prevotella baroniae	Palatine_Tonsils	#70febc	57	2.0	2.0	#4df3ce	#2adddd
+Prevotella bergensis	Stool	#e8cb72	6	2.0	1.0	#4df3ce	#2c7ef7
+Prevotella bivia	Saliva	#cbe486	161	2.0	2.0	#4df3ce	#2adddd
+Prevotella brevis	Keratinized_gingiva	#17cbe4	4	2.0	1.0	#4df3ce	#2c7ef7
+Prevotella bryantii	Stool	#e8cb72	2	2.0	1.0	#4df3ce	#2c7ef7
+Prevotella buccae	Saliva	#cbe486	30	2.0	2.0	#4df3ce	#2adddd
+Prevotella buccalis	L_Retroauricular_crease	#34e4d9	7	2.0	1.0	#4df3ce	#2c7ef7
+Prevotella conceptionensis	Subgingival_plaque	#ffac5c	161	2.0	2.0	#4df3ce	#2adddd
+Prevotella copri	Stool	#e8cb72	33	2.0	1.0	#4df3ce	#2c7ef7
+Prevotella corporis	R_Retroauricular_crease	#acf59a	38	2.0	0.0	#4df3ce	#8000ff
+Prevotella dentalis	Saliva	#cbe486	11	2.0	2.0	#4df3ce	#2adddd
+Prevotella dentasini	Saliva	#cbe486	8	2.0	1.0	#4df3ce	#2c7ef7
+Prevotella denticola	Posterior_fornix	#8efeac	210	2.0	2.0	#4df3ce	#2adddd
+Prevotella disiens	Palatine_Tonsils	#70febc	82	2.0	2.0	#4df3ce	#2adddd
+Prevotella enoeca	Subgingival_plaque	#ffac5c	59	2.0	2.0	#4df3ce	#2adddd
+Prevotella falsenii	Palatine_Tonsils	#70febc	25	2.0	1.0	#4df3ce	#2c7ef7
+Prevotella fusca	Palatine_Tonsils	#70febc	178	2.0	2.0	#4df3ce	#2adddd
+Prevotella histicola	Palatine_Tonsils	#70febc	238	2.0	2.0	#4df3ce	#2adddd
+Prevotella intermedia	Palatine_Tonsils	#70febc	176	2.0	2.0	#4df3ce	#2adddd
+Prevotella loescheii	Subgingival_plaque	#ffac5c	125	2.0	0.0	#4df3ce	#8000ff
+Prevotella maculosa	Subgingival_plaque	#ffac5c	212	2.0	2.0	#4df3ce	#2adddd
+Prevotella marshii	Subgingival_plaque	#ffac5c	78	2.0	2.0	#4df3ce	#2adddd
+Prevotella melaninogenica	Palatine_Tonsils	#70febc	250	2.0	2.0	#4df3ce	#2adddd
+Prevotella micans	Subgingival_plaque	#ffac5c	91	2.0	2.0	#4df3ce	#2adddd
+Prevotella multiformis	Subgingival_plaque	#ffac5c	87	2.0	2.0	#4df3ce	#2adddd
+Prevotella multisaccharivorax	Subgingival_plaque	#ffac5c	2	2.0	1.0	#4df3ce	#2c7ef7
+Prevotella nanceiensis	Hard_palate	#08acee	254	2.0	0.0	#4df3ce	#8000ff
+Prevotella nigrescens	Subgingival_plaque	#ffac5c	250	2.0	2.0	#4df3ce	#2adddd
+Prevotella oralis	Subgingival_plaque	#ffac5c	95	2.0	2.0	#4df3ce	#2adddd
+Prevotella oris	Subgingival_plaque	#ffac5c	253	2.0	0.0	#4df3ce	#8000ff
+Prevotella oulorum	Subgingival_plaque	#ffac5c	234	2.0	2.0	#4df3ce	#2adddd
+Prevotella pallens	Throat	#ff5c2f	249	2.0	2.0	#4df3ce	#2adddd
+Prevotella pleuritidis	Subgingival_plaque	#ffac5c	143	2.0	2.0	#4df3ce	#2adddd
+Prevotella saccharolytica	Subgingival_plaque	#ffac5c	183	2.0	2.0	#4df3ce	#2adddd
+Prevotella salivae	Saliva	#cbe486	239	2.0	2.0	#4df3ce	#2adddd
+Prevotella scopos	Throat	#ff5c2f	195	2.0	2.0	#4df3ce	#2adddd
+Prevotella shahii	Throat	#ff5c2f	189	2.0	0.0	#4df3ce	#8000ff
+Prevotella sp. AGR2160	Stool	#e8cb72	4	2.0	1.0	#4df3ce	#2c7ef7
+Prevotella sp. C561	Palatine_Tonsils	#70febc	239	2.0	2.0	#4df3ce	#2adddd
+Prevotella sp. F0091	Palatine_Tonsils	#70febc	207	2.0	2.0	#4df3ce	#2adddd
+Prevotella sp. FD3004	Stool	#e8cb72	2	2.0	1.0	#4df3ce	#2c7ef7
+Prevotella sp. HJM029	Palatine_Tonsils	#70febc	140	2.0	2.0	#4df3ce	#2adddd
+Prevotella sp. HUN102	Keratinized_gingiva	#17cbe4	30	2.0	1.0	#4df3ce	#2c7ef7
+Prevotella sp. ICM33	Saliva	#cbe486	234	2.0	2.0	#4df3ce	#2adddd
+Prevotella sp. MSX73	Palatine_Tonsils	#70febc	5	2.0	1.0	#4df3ce	#2c7ef7
+Prevotella sp. oral taxon 299	Attached	#622ffe	199	2.0	1.0	#4df3ce	#2c7ef7
+Prevotella sp. oral taxon 306	Throat	#ff5c2f	174	2.0	2.0	#4df3ce	#2adddd
+Prevotella sp. oral taxon 317	Subgingival_plaque	#ffac5c	162	2.0	2.0	#4df3ce	#2adddd
+Prevotella sp. oral taxon 472	Subgingival_plaque	#ffac5c	137	2.0	0.0	#4df3ce	#8000ff
+Prevotella sp. oral taxon 473	Keratinized_gingiva	#17cbe4	234	2.0	0.0	#4df3ce	#8000ff
+Prevotella sp. P4-65	Stool	#e8cb72	1	2.0	1.0	#4df3ce	#2c7ef7
+Prevotella sp. P4-76	Stool	#e8cb72	1	2.0	1.0	#4df3ce	#2c7ef7
+Prevotella sp. P5-60	Attached	#622ffe	2	2.0	1.0	#4df3ce	#2c7ef7
+Prevotella sp. S7-1-8	Posterior_fornix	#8efeac	40	2.0	0.0	#4df3ce	#8000ff
+Prevotella sp. S7 MS 2	Keratinized_gingiva	#17cbe4	12	2.0	1.0	#4df3ce	#2c7ef7
+Prevotella stercorea	L_Retroauricular_crease	#34e4d9	6	2.0	1.0	#4df3ce	#2c7ef7
+Prevotella timonensis	Anterior_nares	#8000ff	109	2.0	0.0	#4df3ce	#8000ff
+Prevotella veroralis	Saliva	#cbe486	189	2.0	2.0	#4df3ce	#2adddd
+Propionibacterium acidifaciens	Subgingival_plaque	#ffac5c	48	2.0	2.0	#4df3ce	#2adddd
+Propionibacterium acnes	R_Retroauricular_crease	#acf59a	36	2.0	1.0	#4df3ce	#2c7ef7
+Propionibacterium avidum	R_Retroauricular_crease	#acf59a	7	2.0	0.0	#4df3ce	#8000ff
+Propionibacterium freudenreichii	R_Retroauricular_crease	#acf59a	8	2.0	1.0	#4df3ce	#2c7ef7
+Propionibacterium granulosum	R_Retroauricular_crease	#acf59a	2	2.0	1.0	#4df3ce	#2c7ef7
+Propionibacterium humerusii	R_Retroauricular_crease	#acf59a	93	2.0	0.0	#4df3ce	#8000ff
+Propionibacterium propionicum	Subgingival_plaque	#ffac5c	215	2.0	0.0	#4df3ce	#8000ff
+Propionibacterium sp. KPL1844	R_Retroauricular_crease	#acf59a	2	2.0	1.0	#4df3ce	#2c7ef7
+Propionibacterium sp. oral taxon 192	Subgingival_plaque	#ffac5c	2	2.0	1.0	#4df3ce	#2c7ef7
+Proteiniclasticum ruminis	R_Retroauricular_crease	#acf59a	7	2.0	1.0	#4df3ce	#2c7ef7
+Proteiniphilum acetatigenes	Buccal_mucosa	#445cfb	1	2.0	1.0	#4df3ce	#2c7ef7
+Providencia alcalifaciens	Anterior_nares	#8000ff	1	2.0	1.0	#4df3ce	#2c7ef7
+Providencia rettgeri	Buccal_mucosa	#445cfb	1	2.0	1.0	#4df3ce	#2c7ef7
+Pseudoflavonifractor capillosus	Stool	#e8cb72	2	2.0	1.0	#4df3ce	#2c7ef7
+Pseudoglutamicibacter albus	Anterior_nares	#8000ff	1	2.0	1.0	#4df3ce	#2c7ef7
+Pseudomonas aeruginosa	Anterior_nares	#8000ff	31	2.0	1.0	#4df3ce	#2c7ef7
+Pseudomonas alcaligenes	L_Retroauricular_crease	#34e4d9	3	2.0	1.0	#4df3ce	#2c7ef7
+Pseudomonas fluorescens	Vaginal_introitus	#ff0000	10	2.0	1.0	#4df3ce	#2c7ef7
+Pseudomonas fragi	Saliva	#cbe486	4	2.0	1.0	#4df3ce	#2c7ef7
+Pseudomonas luteola	L_Retroauricular_crease	#34e4d9	1	2.0	1.0	#4df3ce	#2c7ef7
+Pseudomonas pseudoalcaligenes	Anterior_nares	#8000ff	5	2.0	1.0	#4df3ce	#2c7ef7
+Pseudomonas putida	Anterior_nares	#8000ff	3	2.0	1.0	#4df3ce	#2c7ef7
+Pseudomonas sp. 20_BN	Buccal_mucosa	#445cfb	6	2.0	1.0	#4df3ce	#2c7ef7
+Pseudomonas sp. 313	R_Retroauricular_crease	#acf59a	2	2.0	1.0	#4df3ce	#2c7ef7
+Pseudomonas sp. FH1	Vaginal_introitus	#ff0000	2	2.0	1.0	#4df3ce	#2c7ef7
+Pseudomonas sp. L10.10	Saliva	#cbe486	3	2.0	1.0	#4df3ce	#2c7ef7
+Pseudomonas sp. NBRC 111143	Anterior_nares	#8000ff	1	2.0	1.0	#4df3ce	#2c7ef7
+Pseudomonas stutzeri	L_Retroauricular_crease	#34e4d9	4	2.0	1.0	#4df3ce	#2c7ef7
+Pseudomonas thermotolerans	Anterior_nares	#8000ff	1	2.0	1.0	#4df3ce	#2c7ef7
+Pseudopedobacter saltans	Anterior_nares	#8000ff	1	2.0	1.0	#4df3ce	#2c7ef7
+Pseudoramibacter alactolyticus	Subgingival_plaque	#ffac5c	10	2.0	2.0	#4df3ce	#2adddd
+Pseudothermotoga hypogea	Buccal_mucosa	#445cfb	1	1.0	4.0	#1996f3	#d4dd80
+Psychrobacter lutiphocae	Anterior_nares	#8000ff	1	2.0	1.0	#4df3ce	#2c7ef7
+Psychrobacter phenylpyruvicus	Anterior_nares	#8000ff	1	2.0	1.0	#4df3ce	#2c7ef7
+Psychrobacter sp. 1501(2011)	Saliva	#cbe486	5	2.0	2.0	#4df3ce	#2adddd
+Psychrobacter sp. P11F6	Saliva	#cbe486	1	2.0	1.0	#4df3ce	#2c7ef7
+Psychrobacter sp. P11G3	Saliva	#cbe486	2	2.0	1.0	#4df3ce	#2c7ef7
+Psychrobacter sp. PAMC 21119	Saliva	#cbe486	4	2.0	1.0	#4df3ce	#2c7ef7
+Ralstonia pickettii	L_Retroauricular_crease	#34e4d9	4	2.0	1.0	#4df3ce	#2c7ef7
+Rheinheimera sp. IITR-13	Anterior_nares	#8000ff	5	2.0	1.0	#4df3ce	#2c7ef7
+Rheinheimera sp. KL1	Anterior_nares	#8000ff	2	2.0	1.0	#4df3ce	#2c7ef7
+Rhodobacter sphaeroides	Anterior_nares	#8000ff	2	2.0	1.0	#4df3ce	#2c7ef7
+Rhodococcus opacus	Buccal_mucosa	#445cfb	2	2.0	1.0	#4df3ce	#2c7ef7
+Rhodopseudomonas sp. AAP120	Anterior_nares	#8000ff	3	2.0	1.0	#4df3ce	#2c7ef7
+Rickettsiella grylli	Anterior_nares	#8000ff	1	2.0	1.0	#4df3ce	#2c7ef7
+Riemerella anatipestifer	Saliva	#cbe486	42	2.0	0.0	#4df3ce	#8000ff
+Riemerella columbina	Buccal_mucosa	#445cfb	4	2.0	1.0	#4df3ce	#2c7ef7
+Roseburia faecis	Stool	#e8cb72	32	2.0	1.0	#4df3ce	#2c7ef7
+Roseburia hominis	Stool	#e8cb72	16	2.0	1.0	#4df3ce	#2c7ef7
+Roseburia intestinalis	Stool	#e8cb72	27	2.0	0.0	#4df3ce	#8000ff
+Roseburia inulinivorans	Stool	#e8cb72	41	2.0	1.0	#4df3ce	#2c7ef7
+Roseiflexus castenholzii	Buccal_mucosa	#445cfb	1	1.0	4.0	#1996f3	#d4dd80
+Roseiflexus sp. RS-1	Buccal_mucosa	#445cfb	1	1.0	4.0	#1996f3	#d4dd80
+Rothia aeria	Supragingival_plaque	#ff8646	246	2.0	0.0	#4df3ce	#8000ff
+Rothia dentocariosa	Supragingival_plaque	#ff8646	256	2.0	2.0	#4df3ce	#2adddd
+Rothia mucilaginosa	Hard_palate	#08acee	261	2.0	2.0	#4df3ce	#2adddd
+Ruminococcaceae bacterium 585-1	Stool	#e8cb72	2	2.0	1.0	#4df3ce	#2c7ef7
+Ruminococcaceae bacterium AM2	Stool	#e8cb72	2	2.0	1.0	#4df3ce	#2c7ef7
+Ruminococcaceae bacterium D16	Stool	#e8cb72	4	2.0	1.0	#4df3ce	#2c7ef7
+Ruminococcus bicirculans	Stool	#e8cb72	54	2.0	1.0	#4df3ce	#2c7ef7
+Ruminococcus callidus	Stool	#e8cb72	8	2.0	1.0	#4df3ce	#2c7ef7
+Ruminococcus champanellensis	Stool	#e8cb72	5	2.0	1.0	#4df3ce	#2c7ef7
+Ruminococcus faecis	Stool	#e8cb72	15	2.0	1.0	#4df3ce	#2c7ef7
+Ruminococcus flavefaciens	Stool	#e8cb72	2	2.0	1.0	#4df3ce	#2c7ef7
+[Ruminococcus] gnavus	Stool	#e8cb72	4	2.0	1.0	#4df3ce	#2c7ef7
+Ruminococcus lactaris	Stool	#e8cb72	11	2.0	1.0	#4df3ce	#2c7ef7
+Ruminococcus sp. 5_1_39BFAA	Stool	#e8cb72	7	2.0	1.0	#4df3ce	#2c7ef7
+Ruminococcus sp. JC304	Stool	#e8cb72	2	2.0	1.0	#4df3ce	#2c7ef7
+Ruminococcus sp. NK3A76	Stool	#e8cb72	1	2.0	1.0	#4df3ce	#2c7ef7
+Saccharicrinis fermentans	Buccal_mucosa	#445cfb	2	2.0	1.0	#4df3ce	#2c7ef7
+Salmonella enterica	Anterior_nares	#8000ff	6	2.0	1.0	#4df3ce	#2c7ef7
+Sanguibacter keddieii	Throat	#ff5c2f	194	2.0	2.0	#4df3ce	#2adddd
+Scardovia wiggsiae	Buccal_mucosa	#445cfb	86	2.0	2.0	#4df3ce	#2adddd
+Sebaldella termitidis	Buccal_mucosa	#445cfb	3	2.0	1.0	#4df3ce	#2c7ef7
+Selenomonas artemidis	Supragingival_plaque	#ff8646	65	2.0	2.0	#4df3ce	#2adddd
+Selenomonas bovis	Buccal_mucosa	#445cfb	3	2.0	1.0	#4df3ce	#2c7ef7
+Selenomonas flueggei	Saliva	#cbe486	88	2.0	2.0	#4df3ce	#2adddd
+Selenomonas infelix	Attached	#622ffe	133	2.0	2.0	#4df3ce	#2adddd
+Selenomonas noxia	Supragingival_plaque	#ff8646	202	2.0	2.0	#4df3ce	#2adddd
+Selenomonas sp. CM52	Subgingival_plaque	#ffac5c	101	2.0	2.0	#4df3ce	#2adddd
+Selenomonas sp. F0473	Supragingival_plaque	#ff8646	15	2.0	1.0	#4df3ce	#2c7ef7
+Selenomonas sp. FOBRC6	Attached	#622ffe	30	2.0	1.0	#4df3ce	#2c7ef7
+Selenomonas sp. FOBRC9	Attached	#622ffe	14	2.0	2.0	#4df3ce	#2adddd
+Selenomonas sp. oral taxon 137	Supragingival_plaque	#ff8646	11	2.0	2.0	#4df3ce	#2adddd
+Selenomonas sp. oral taxon 138	Attached	#622ffe	33	2.0	2.0	#4df3ce	#2adddd
+Selenomonas sp. oral taxon 149	Saliva	#cbe486	77	2.0	2.0	#4df3ce	#2adddd
+Selenomonas sp. oral taxon 478	Saliva	#cbe486	84	2.0	2.0	#4df3ce	#2adddd
+Selenomonas sp. oral taxon 892	Supragingival_plaque	#ff8646	102	2.0	2.0	#4df3ce	#2adddd
+Selenomonas sputigena	Subgingival_plaque	#ffac5c	97	2.0	2.0	#4df3ce	#2adddd
+Serratia grimesii	Saliva	#cbe486	1	2.0	1.0	#4df3ce	#2c7ef7
+Serratia liquefaciens	Saliva	#cbe486	1	2.0	1.0	#4df3ce	#2c7ef7
+Shuttleworthia satelles	Subgingival_plaque	#ffac5c	7	2.0	1.0	#4df3ce	#2c7ef7
+Shuttleworthia sp. MSX8B	Subgingival_plaque	#ffac5c	9	2.0	1.0	#4df3ce	#2c7ef7
+Simonsiella muelleri	Keratinized_gingiva	#17cbe4	91	2.0	1.0	#4df3ce	#2c7ef7
+Sinorhizobium sp. GL28	Stool	#e8cb72	1	3.0	6.0	#b2f396	#ff0000
+Skermanella aerolata	Anterior_nares	#8000ff	1	2.0	1.0	#4df3ce	#2c7ef7
+Slackia exigua	Palatine_Tonsils	#70febc	3	2.0	1.0	#4df3ce	#2c7ef7
+Slackia sp. CM382	Palatine_Tonsils	#70febc	3	2.0	1.0	#4df3ce	#2c7ef7
+Sneathia amnii	L_Retroauricular_crease	#34e4d9	4	2.0	1.0	#4df3ce	#2c7ef7
+Solobacterium moorei	Palatine_Tonsils	#70febc	241	2.0	2.0	#4df3ce	#2adddd
+Sphingobium sp. ba1	Anterior_nares	#8000ff	1	2.0	1.0	#4df3ce	#2c7ef7
+Sphingobium xenophagum	Anterior_nares	#8000ff	2	2.0	1.0	#4df3ce	#2c7ef7
+Sphingobium yanoikuyae	Vaginal_introitus	#ff0000	4	2.0	2.0	#4df3ce	#2adddd
+Sphingomonas echinoides	Anterior_nares	#8000ff	2	2.0	1.0	#4df3ce	#2c7ef7
+Sphingomonas sp. Ag1	R_Retroauricular_crease	#acf59a	2	2.0	1.0	#4df3ce	#2c7ef7
+Sphingomonas sp. Ant H11	Anterior_nares	#8000ff	12	2.0	1.0	#4df3ce	#2c7ef7
+Sphingomonas taxi	Anterior_nares	#8000ff	2	2.0	1.0	#4df3ce	#2c7ef7
+Sphingopyxis sp. A083	Buccal_mucosa	#445cfb	1	2.0	1.0	#4df3ce	#2c7ef7
+Sphingopyxis sp. H050	Vaginal_introitus	#ff0000	2	2.0	1.0	#4df3ce	#2c7ef7
+Staphylococcus aureus	Anterior_nares	#8000ff	8	2.0	1.0	#4df3ce	#2c7ef7
+Staphylococcus auricularis	Anterior_nares	#8000ff	7	2.0	1.0	#4df3ce	#2c7ef7
+Staphylococcus epidermidis	L_Retroauricular_crease	#34e4d9	25	2.0	1.0	#4df3ce	#2c7ef7
+Staphylococcus pasteuri	Keratinized_gingiva	#17cbe4	256	2.0	0.0	#4df3ce	#8000ff
+Stenotrophomonas acidaminiphila	Buccal_mucosa	#445cfb	7	2.0	1.0	#4df3ce	#2c7ef7
+Stenotrophomonas maltophilia	Anterior_nares	#8000ff	15	2.0	2.0	#4df3ce	#2adddd
+Stomatobaculum longum	Tongue_dorsum	#ff2f18	251	2.0	2.0	#4df3ce	#2adddd
+Streptobacillus moniliformis	Attached	#622ffe	6	2.0	1.0	#4df3ce	#2c7ef7
+Streptococcus agalactiae	Posterior_fornix	#8efeac	236	2.0	0.0	#4df3ce	#8000ff
+Streptococcus anginosus	Buccal_mucosa_NA	#2686f5	220	2.0	0.0	#4df3ce	#8000ff
+Streptococcus australis	Tongue_dorsum	#ff2f18	207	2.0	2.0	#4df3ce	#2adddd
+Streptococcus caballi	Buccal_mucosa	#445cfb	1	2.0	2.0	#4df3ce	#2adddd
+Streptococcus constellatus	Palatine_Tonsils	#70febc	86	2.0	0.0	#4df3ce	#8000ff
+Streptococcus cristatus	Keratinized_gingiva	#17cbe4	201	2.0	2.0	#4df3ce	#2adddd
+Streptococcus dentasini	Buccal_mucosa	#445cfb	4	2.0	2.0	#4df3ce	#2adddd
+Streptococcus dentisani	Hard_palate	#08acee	157	2.0	0.0	#4df3ce	#8000ff
+Streptococcus didelphis	Buccal_mucosa	#445cfb	1	2.0	1.0	#4df3ce	#2c7ef7
+Streptococcus dysgalactiae	Buccal_mucosa	#445cfb	14	2.0	1.0	#4df3ce	#2c7ef7
+Streptococcus entericus	Buccal_mucosa	#445cfb	7	2.0	5.0	#4df3ce	#ff8143
+Streptococcus equi	Anterior_nares	#8000ff	34	2.0	0.0	#4df3ce	#8000ff
+Streptococcus equinus	Buccal_mucosa	#445cfb	11	2.0	1.0	#4df3ce	#2c7ef7
+Streptococcus ferus	Buccal_mucosa	#445cfb	6	2.0	0.0	#4df3ce	#8000ff
+Streptococcus gallolyticus	Buccal_mucosa	#445cfb	10	2.0	1.0	#4df3ce	#2c7ef7
+Streptococcus gordonii	Keratinized_gingiva	#17cbe4	231	2.0	0.0	#4df3ce	#8000ff
+Streptococcus henryi	Buccal_mucosa	#445cfb	8	2.0	1.0	#4df3ce	#2c7ef7
+Streptococcus infantis	Tongue_dorsum	#ff2f18	257	2.0	0.0	#4df3ce	#8000ff
+Streptococcus intermedius	Subgingival_plaque	#ffac5c	143	2.0	0.0	#4df3ce	#8000ff
+Streptococcus lutetiensis	Anterior_nares	#8000ff	1	2.0	1.0	#4df3ce	#2c7ef7
+Streptococcus macacae	Attached	#622ffe	1	2.0	1.0	#4df3ce	#2c7ef7
+Streptococcus macedonicus	Keratinized_gingiva	#17cbe4	24	2.0	0.0	#4df3ce	#8000ff
+Streptococcus marimammalium	Buccal_mucosa	#445cfb	28	2.0	0.0	#4df3ce	#8000ff
+Streptococcus massiliensis	Palatine_Tonsils	#70febc	7	2.0	1.0	#4df3ce	#2c7ef7
+Streptococcus merionis	Buccal_mucosa	#445cfb	18	2.0	1.0	#4df3ce	#2c7ef7
+Streptococcus minor	R_Retroauricular_crease	#acf59a	20	2.0	0.0	#4df3ce	#8000ff
+Streptococcus mitis	Buccal_mucosa_NA	#2686f5	259	2.0	0.0	#4df3ce	#8000ff
+Streptococcus mutans	Subgingival_plaque	#ffac5c	206	2.0	1.0	#4df3ce	#2c7ef7
+Streptococcus oligofermentans	Keratinized_gingiva	#17cbe4	248	2.0	0.0	#4df3ce	#8000ff
+Streptococcus oralis	Buccal_mucosa_NA	#2686f5	258	2.0	0.0	#4df3ce	#8000ff
+Streptococcus ovis	Buccal_mucosa	#445cfb	3	2.0	1.0	#4df3ce	#2c7ef7
+Streptococcus parasanguinis	Tongue_dorsum	#ff2f18	260	2.0	2.0	#4df3ce	#2adddd
+Streptococcus parauberis	Buccal_mucosa	#445cfb	14	2.0	1.0	#4df3ce	#2c7ef7
+Streptococcus peroris	Throat	#ff5c2f	110	2.0	2.0	#4df3ce	#2adddd
+Streptococcus phocae	Buccal_mucosa	#445cfb	7	2.0	1.0	#4df3ce	#2c7ef7
+Streptococcus pneumoniae	Buccal_mucosa_NA	#2686f5	259	2.0	0.0	#4df3ce	#8000ff
+Streptococcus pseudopneumoniae	Buccal_mucosa_NA	#2686f5	259	2.0	0.0	#4df3ce	#8000ff
+Streptococcus pseudoporcinus	L_Retroauricular_crease	#34e4d9	2	2.0	1.0	#4df3ce	#2c7ef7
+Streptococcus pyogenes	Buccal_mucosa_NA	#2686f5	24	2.0	0.0	#4df3ce	#8000ff
+Streptococcus ratti	Buccal_mucosa	#445cfb	3	2.0	1.0	#4df3ce	#2c7ef7
+Streptococcus salivarius	Tongue_dorsum	#ff2f18	252	2.0	2.0	#4df3ce	#2adddd
+Streptococcus sanguinis	Supragingival_plaque	#ff8646	261	2.0	0.0	#4df3ce	#8000ff
+Streptococcus sinensis	Buccal_mucosa	#445cfb	96	2.0	0.0	#4df3ce	#8000ff
+Streptococcus sobrinus	Buccal_mucosa	#445cfb	44	2.0	0.0	#4df3ce	#8000ff
+Streptococcus sp. 1171_SSPC	Palatine_Tonsils	#70febc	159	2.0	2.0	#4df3ce	#2adddd
+Streptococcus sp. 2_1_36FAA	Buccal_mucosa	#445cfb	128	2.0	0.0	#4df3ce	#8000ff
+Streptococcus sp. 263_SSPC	Tongue_dorsum	#ff2f18	247	2.0	2.0	#4df3ce	#2adddd
+Streptococcus sp. 343_SSPC	Palatine_Tonsils	#70febc	190	2.0	2.0	#4df3ce	#2adddd
+Streptococcus sp. 400_SSPC	Palatine_Tonsils	#70febc	169	2.0	2.0	#4df3ce	#2adddd
+Streptococcus sp. ACS2	Tongue_dorsum	#ff2f18	70	2.0	0.0	#4df3ce	#8000ff
+Streptococcus sp. AS14	Attached	#622ffe	26	2.0	0.0	#4df3ce	#8000ff
+Streptococcus sp. AS20	Attached	#622ffe	76	2.0	0.0	#4df3ce	#8000ff
+Streptococcus sp. BS29a	Buccal_mucosa	#445cfb	7	2.0	1.0	#4df3ce	#2c7ef7
+Streptococcus sp. C150	Buccal_mucosa	#445cfb	12	2.0	2.0	#4df3ce	#2adddd
+Streptococcus sp. C300	Attached	#622ffe	105	2.0	0.0	#4df3ce	#8000ff
+Streptococcus sp. CCH5-D3	Tongue_dorsum	#ff2f18	52	2.0	2.0	#4df3ce	#2adddd
+Streptococcus sp. CCH8-C6	Buccal_mucosa	#445cfb	48	2.0	0.0	#4df3ce	#8000ff
+Streptococcus sp. CCH8-G7	Buccal_mucosa	#445cfb	78	2.0	0.0	#4df3ce	#8000ff
+Streptococcus sp. CCH8-H5	Attached	#622ffe	45	2.0	0.0	#4df3ce	#8000ff
+Streptococcus sp. CM6	Buccal_mucosa_NA	#2686f5	62	2.0	0.0	#4df3ce	#8000ff
+Streptococcus sp. CM7	Buccal_mucosa	#445cfb	7	2.0	0.0	#4df3ce	#8000ff
+Streptococcus sp. F0441	Buccal_mucosa	#445cfb	129	2.0	0.0	#4df3ce	#8000ff
+Streptococcus sp. F0442	Palatine_Tonsils	#70febc	208	2.0	0.0	#4df3ce	#8000ff
+Streptococcus sp. FDAARGOS_146	Buccal_mucosa	#445cfb	15	2.0	0.0	#4df3ce	#8000ff
+Streptococcus sp. HPH0090	Palatine_Tonsils	#70febc	174	2.0	2.0	#4df3ce	#2adddd
+Streptococcus sp. HSISS3	Buccal_mucosa_NA	#2686f5	39	2.0	0.0	#4df3ce	#8000ff
+Streptococcus sp. I-G2	Tongue_dorsum	#ff2f18	142	2.0	0.0	#4df3ce	#8000ff
+Streptococcus sp. I-P16	Tongue_dorsum	#ff2f18	142	2.0	2.0	#4df3ce	#2adddd
+Streptococcus sp. M143	Keratinized_gingiva	#17cbe4	46	2.0	0.0	#4df3ce	#8000ff
+Streptococcus sp. M334	Buccal_mucosa	#445cfb	247	2.0	0.0	#4df3ce	#8000ff
+Streptococcus sp. OBRC6	Buccal_mucosa	#445cfb	2	2.0	1.0	#4df3ce	#2c7ef7
+Streptococcus sp. oral taxon 056	Keratinized_gingiva	#17cbe4	45	2.0	0.0	#4df3ce	#8000ff
+Streptococcus sp. oral taxon 058	Buccal_mucosa_NA	#2686f5	151	2.0	0.0	#4df3ce	#8000ff
+Streptococcus sp. oral taxon 071	Buccal_mucosa	#445cfb	63	2.0	0.0	#4df3ce	#8000ff
+Streptococcus sp. oral taxon 431	Hard_palate	#08acee	219	2.0	0.0	#4df3ce	#8000ff
+Streptococcus sp. SK140	Hard_palate	#08acee	119	2.0	0.0	#4df3ce	#8000ff
+Streptococcus sp. SK643	Buccal_mucosa_NA	#2686f5	248	2.0	0.0	#4df3ce	#8000ff
+Streptococcus sp. SR1	Hard_palate	#08acee	126	2.0	0.0	#4df3ce	#8000ff
+Streptococcus sp. SR4	Tongue_dorsum	#ff2f18	17	2.0	1.0	#4df3ce	#2c7ef7
+Streptococcus sp. VT 162	L_Retroauricular_crease	#34e4d9	74	2.0	0.0	#4df3ce	#8000ff
+Streptococcus sp. X13SY08	Keratinized_gingiva	#17cbe4	6	2.0	1.0	#4df3ce	#2c7ef7
+Streptococcus suis	Buccal_mucosa_NA	#2686f5	246	2.0	0.0	#4df3ce	#8000ff
+Streptococcus thermophilus	Anterior_nares	#8000ff	255	2.0	2.0	#4df3ce	#2adddd
+Streptococcus thoraltensis	Buccal_mucosa	#445cfb	6	2.0	1.0	#4df3ce	#2c7ef7
+Streptococcus tigurinus	Hard_palate	#08acee	211	2.0	0.0	#4df3ce	#8000ff
+Streptococcus uberis	Buccal_mucosa_NA	#2686f5	8	2.0	0.0	#4df3ce	#8000ff
+Streptococcus urinalis	Saliva	#cbe486	5	2.0	1.0	#4df3ce	#2c7ef7
+Streptococcus vestibularis	Buccal_mucosa_NA	#2686f5	153	2.0	2.0	#4df3ce	#2adddd
+Streptomyces purpurogeneiscleroticus	Buccal_mucosa	#445cfb	2	2.0	1.0	#4df3ce	#2c7ef7
+Subdoligranulum sp. 4_3_54A2FAA	Stool	#e8cb72	3	2.0	1.0	#4df3ce	#2c7ef7
+Subdoligranulum variabile	Stool	#e8cb72	6	2.0	1.0	#4df3ce	#2c7ef7
+Sulfurospirillum deleyianum	Buccal_mucosa	#445cfb	1	2.0	1.0	#4df3ce	#2c7ef7
+Sutterellaceae bacterium ND3	Anterior_nares	#8000ff	2	2.0	1.0	#4df3ce	#2c7ef7
+Sutterella wadsworthensis	Stool	#e8cb72	32	2.0	1.0	#4df3ce	#2c7ef7
+Synechococcus sp. JA-2-3B'a(2-13)	Buccal_mucosa	#445cfb	1	1.0	4.0	#1996f3	#d4dd80
+Synechococcus sp. JA-3-3Ab	Buccal_mucosa	#445cfb	1	1.0	4.0	#1996f3	#d4dd80
+Tannerella forsythia	Subgingival_plaque	#ffac5c	167	2.0	2.0	#4df3ce	#2adddd
+Tannerella sp. 6_1_58FAA_CT1	Stool	#e8cb72	5	2.0	1.0	#4df3ce	#2c7ef7
+Tepidiphilus thermophilus	Anterior_nares	#8000ff	2	2.0	1.0	#4df3ce	#2c7ef7
+Thauera terpenica	Buccal_mucosa	#445cfb	4	2.0	1.0	#4df3ce	#2c7ef7
+Thermocrinis ruber	Buccal_mucosa	#445cfb	1	1.0	4.0	#1996f3	#d4dd80
+Thermomicrobium roseum	Buccal_mucosa	#445cfb	1	1.0	4.0	#1996f3	#d4dd80
+Thermus aquaticus	L_Retroauricular_crease	#34e4d9	10	5.0	1.0	#ff0000	#2c7ef7
+Thermus thermophilus	Buccal_mucosa	#445cfb	1	2.0	1.0	#4df3ce	#2c7ef7
+Timonella senegalensis	Anterior_nares	#8000ff	1	1.0	3.0	#1996f3	#7effb5
+Tissierellia bacterium GD9	Anterior_nares	#8000ff	5	2.0	1.0	#4df3ce	#2c7ef7
+Treponema denticola	Subgingival_plaque	#ffac5c	122	2.0	2.0	#4df3ce	#2adddd
+Treponema endosymbiont of Eucomonympha sp.	R_Retroauricular_crease	#acf59a	5	2.0	1.0	#4df3ce	#2c7ef7
+Treponema lecithinolyticum	Subgingival_plaque	#ffac5c	113	2.0	2.0	#4df3ce	#2adddd
+Treponema maltophilum	Subgingival_plaque	#ffac5c	96	2.0	2.0	#4df3ce	#2adddd
+Treponema medium	Subgingival_plaque	#ffac5c	96	2.0	2.0	#4df3ce	#2adddd
+Treponema pedis	Subgingival_plaque	#ffac5c	25	2.0	1.0	#4df3ce	#2c7ef7
+Treponema phagedenis	Subgingival_plaque	#ffac5c	1	2.0	1.0	#4df3ce	#2c7ef7
+Treponema putidum	Subgingival_plaque	#ffac5c	15	2.0	2.0	#4df3ce	#2adddd
+Treponema socranskii	Subgingival_plaque	#ffac5c	184	2.0	2.0	#4df3ce	#2adddd
+Treponema sp. OMZ 838	Subgingival_plaque	#ffac5c	116	2.0	2.0	#4df3ce	#2adddd
+Treponema succinifaciens	Subgingival_plaque	#ffac5c	12	2.0	2.0	#4df3ce	#2adddd
+Treponema vincentii	Subgingival_plaque	#ffac5c	109	2.0	2.0	#4df3ce	#2adddd
+Trueperella pyogenes	Tongue_dorsum	#ff2f18	109	2.0	2.0	#4df3ce	#2adddd
+Turicella otitidis	Anterior_nares	#8000ff	3	2.0	1.0	#4df3ce	#2c7ef7
+Tyzzerella nexilis	Stool	#e8cb72	11	2.0	1.0	#4df3ce	#2c7ef7
+Varibaculum cambriense	R_Retroauricular_crease	#acf59a	4	2.0	2.0	#4df3ce	#2adddd
+Veillonella atypica	Saliva	#cbe486	237	2.0	2.0	#4df3ce	#2adddd
+Veillonella dispar	Throat	#ff5c2f	255	2.0	2.0	#4df3ce	#2adddd
+Veillonella montpellierensis	Keratinized_gingiva	#17cbe4	46	2.0	0.0	#4df3ce	#8000ff
+Veillonella parvula	Attached	#622ffe	256	2.0	2.0	#4df3ce	#2adddd
+Veillonella seminalis	Keratinized_gingiva	#17cbe4	3	2.0	1.0	#4df3ce	#2c7ef7
+Veillonella sp. 3_1_44	Attached	#622ffe	226	2.0	2.0	#4df3ce	#2adddd
+Veillonella sp. 6_1_27	Buccal_mucosa	#445cfb	225	2.0	0.0	#4df3ce	#8000ff
+Veillonella sp. ACP1	Saliva	#cbe486	142	2.0	2.0	#4df3ce	#2adddd
+Veillonella sp. AS16	Tongue_dorsum	#ff2f18	158	2.0	2.0	#4df3ce	#2adddd
+Veillonella sp. HPA0037	Tongue_dorsum	#ff2f18	123	2.0	2.0	#4df3ce	#2adddd
+Veillonella sp. ICM51a	Saliva	#cbe486	154	2.0	2.0	#4df3ce	#2adddd
+Veillonella sp. oral taxon 158	Palatine_Tonsils	#70febc	256	2.0	0.0	#4df3ce	#8000ff
+Veillonella sp. oral taxon 780	Keratinized_gingiva	#17cbe4	212	2.0	0.0	#4df3ce	#8000ff
+Veillonella tobetsuensis	Tongue_dorsum	#ff2f18	227	2.0	2.0	#4df3ce	#2adddd
+Vibrio cholerae	Buccal_mucosa	#445cfb	7	2.0	1.0	#4df3ce	#2c7ef7
+Vibrio crassostreae	Buccal_mucosa	#445cfb	3	2.0	1.0	#4df3ce	#2c7ef7
+Weeksella virosa	Buccal_mucosa	#445cfb	8	2.0	1.0	#4df3ce	#2c7ef7
+Xanthomonas campestris	Anterior_nares	#8000ff	14	2.0	2.0	#4df3ce	#2adddd
+Xylanimonas cellulosilytica	Throat	#ff5c2f	120	2.0	2.0	#4df3ce	#2adddd
+Zhouia amylolytica	Buccal_mucosa	#445cfb	2	2.0	1.0	#4df3ce	#2c7ef7
+Acidithiobacillus caldus	Buccal_mucosa	#445cfb	9	2.0	1.0	#4df3ce	#2c7ef7
+Acidovorax delafieldii	Anterior_nares	#8000ff	11	2.0	1.0	#4df3ce	#2c7ef7
+Acidovorax caeni	Anterior_nares	#8000ff	39	2.0	2.0	#4df3ce	#2adddd
+Acetobacter pasteurianus	Buccal_mucosa	#445cfb	2	2.0	1.0	#4df3ce	#2c7ef7
+Abiotrophia defectiva	Buccal_mucosa	#445cfb	236	2.0	0.0	#4df3ce	#8000ff
+Acidovorax ebreus	Buccal_mucosa	#445cfb	18	2.0	2.0	#4df3ce	#2adddd
+Actinomyces israelii	Subgingival_plaque	#ffac5c	61	2.0	2.0	#4df3ce	#2adddd
+Actinomyces dentalis	Subgingival_plaque	#ffac5c	141	2.0	2.0	#4df3ce	#2adddd
+Acinetobacter tandoii	Anterior_nares	#8000ff	1	2.0	1.0	#4df3ce	#2c7ef7
+Acinetobacter baumannii	Keratinized_gingiva	#17cbe4	30	2.0	0.0	#4df3ce	#8000ff
+[Actinobacillus] muris	Attached	#622ffe	8	2.0	1.0	#4df3ce	#2c7ef7
+Actinobacillus pleuropneumoniae	Buccal_mucosa_NA	#2686f5	45	2.0	0.0	#4df3ce	#8000ff
+Alcaligenes faecalis	Anterior_nares	#8000ff	3	2.0	1.0	#4df3ce	#2c7ef7
+Acetivibrio ethanolgignens	Stool	#e8cb72	3	2.0	1.0	#4df3ce	#2c7ef7
+Adlercreutzia equolifaciens	Stool	#e8cb72	2	2.0	1.0	#4df3ce	#2c7ef7
+Alistipes finegoldii	Stool	#e8cb72	13	2.0	1.0	#4df3ce	#2c7ef7
+Alistipes indistinctus	Stool	#e8cb72	11	2.0	1.0	#4df3ce	#2c7ef7
+Akkermansia muciniphila	Stool	#e8cb72	42	2.0	1.0	#4df3ce	#2c7ef7
+Alistipes inops	Stool	#e8cb72	6	2.0	1.0	#4df3ce	#2c7ef7
+Arcobacter butzleri	L_Retroauricular_crease	#34e4d9	2	2.0	5.0	#4df3ce	#ff8143
+Bacteroidales bacterium CF	Buccal_mucosa	#445cfb	1	2.0	1.0	#4df3ce	#2c7ef7
+Actinomyces cardiffensis	Subgingival_plaque	#ffac5c	8	2.0	1.0	#4df3ce	#2c7ef7
+alpha proteobacterium HIMB5	Buccal_mucosa	#445cfb	1	1.0	4.0	#1996f3	#d4dd80
+Alysiella crassa	Keratinized_gingiva	#17cbe4	3	2.0	1.0	#4df3ce	#2c7ef7
+Anaerococcus lactolyticus	L_Retroauricular_crease	#34e4d9	3	2.0	1.0	#4df3ce	#2c7ef7
+Campylobacter corcagiensis	Anterior_nares	#8000ff	2	2.0	1.0	#4df3ce	#2c7ef7
+Campylobacter mucosalis	Attached	#622ffe	5	2.0	1.0	#4df3ce	#2c7ef7
+Brochothrix thermosphacta	Saliva	#cbe486	5	2.0	1.0	#4df3ce	#2c7ef7
+Bibersteinia trehalosi	Buccal_mucosa	#445cfb	16	2.0	0.0	#4df3ce	#8000ff
+Acidovorax sp. NO-1	R_Retroauricular_crease	#acf59a	2	2.0	1.0	#4df3ce	#2c7ef7
+Bacillus clausii	Anterior_nares	#8000ff	2	2.0	1.0	#4df3ce	#2c7ef7
+Acinetobacter sp. MDS7A	Anterior_nares	#8000ff	1	2.0	1.0	#4df3ce	#2c7ef7
+Corynebacterium jeikeium	Anterior_nares	#8000ff	2	2.0	1.0	#4df3ce	#2c7ef7
+Corynebacterium sp. GD7	Anterior_nares	#8000ff	1	2.0	1.0	#4df3ce	#2c7ef7
+Aerococcus christensenii	Posterior_fornix	#8efeac	4	2.0	1.0	#4df3ce	#2c7ef7
+Alloiococcus otitis	Anterior_nares	#8000ff	4	2.0	1.0	#4df3ce	#2c7ef7
+Bacteroides coprophilus	Stool	#e8cb72	5	2.0	1.0	#4df3ce	#2c7ef7
+Bacillus thermoamylovorans	Anterior_nares	#8000ff	3	2.0	1.0	#4df3ce	#2c7ef7
+Acidovorax sp. SD340	R_Retroauricular_crease	#acf59a	4	2.0	1.0	#4df3ce	#2c7ef7
+[Clostridium] sporosphaeroides	Buccal_mucosa	#445cfb	3	2.0	1.0	#4df3ce	#2c7ef7
+Arcanobacterium haemolyticum	R_Retroauricular_crease	#acf59a	6	2.0	1.0	#4df3ce	#2c7ef7
+Enterococcus italicus	R_Retroauricular_crease	#acf59a	2	2.0	1.0	#4df3ce	#2c7ef7
+Escherichia coli	Stool	#e8cb72	15	2.0	1.0	#4df3ce	#2c7ef7
+Curvibacter gracilis	Anterior_nares	#8000ff	4	2.0	1.0	#4df3ce	#2c7ef7
+Curvibacter lanceolatus	Anterior_nares	#8000ff	4	2.0	1.0	#4df3ce	#2c7ef7
+Lactobacillus helveticus	Posterior_fornix	#8efeac	8	2.0	1.0	#4df3ce	#2c7ef7
+Lactococcus lactis	Anterior_nares	#8000ff	119	0.0	1.0	#8000ff	#2c7ef7
+Macrococcus caseolyticus	L_Retroauricular_crease	#34e4d9	1	4.0	1.0	#ff964f	#2c7ef7
+Lactobacillus vaginalis	Posterior_fornix	#8efeac	2	2.0	1.0	#4df3ce	#2c7ef7
+Megamonas funiformis	Stool	#e8cb72	4	2.0	1.0	#4df3ce	#2c7ef7
+Lachnospiraceae bacterium 3-1	Stool	#e8cb72	2	2.0	1.0	#4df3ce	#2c7ef7
+Alicycliphilus sp. CRZ1	R_Retroauricular_crease	#acf59a	1	1.0	3.0	#1996f3	#7effb5
+Enterococcus asini	Buccal_mucosa	#445cfb	3	2.0	1.0	#4df3ce	#2c7ef7
+Mycoplasma ovipneumoniae	Buccal_mucosa	#445cfb	3	2.0	1.0	#4df3ce	#2c7ef7
+Gilliamella apicola	R_Retroauricular_crease	#acf59a	2	2.0	1.0	#4df3ce	#2c7ef7
+Peptostreptococcaceae bacterium OBRC8	Subgingival_plaque	#ffac5c	5	2.0	1.0	#4df3ce	#2c7ef7
+Cetobacterium somerae	Attached	#622ffe	2	2.0	1.0	#4df3ce	#2c7ef7
+Clostridia bacterium UC5.1-1C12	Tongue_dorsum	#ff2f18	3	2.0	1.0	#4df3ce	#2c7ef7
+Olsenella sp. oral taxon 809	Buccal_mucosa	#445cfb	3	2.0	1.0	#4df3ce	#2c7ef7
+Afipia birgiae	Throat	#ff5c2f	3	2.0	2.0	#4df3ce	#2adddd
+Afipia broomeae	Anterior_nares	#8000ff	8	2.0	1.0	#4df3ce	#2c7ef7
+Campylobacter ureolyticus	R_Retroauricular_crease	#acf59a	2	2.0	1.0	#4df3ce	#2c7ef7
+Megasphaera sp. UPII 135-E	L_Retroauricular_crease	#34e4d9	2	3.0	6.0	#b2f396	#ff0000
+Lactobacillus kunkeei	Attached	#622ffe	4	2.0	5.0	#4df3ce	#ff8143
+Lactococcus garvieae	Stool	#e8cb72	3	2.0	1.0	#4df3ce	#2c7ef7
+Streptococcus sp. 449_SSPC	Keratinized_gingiva	#17cbe4	10	2.0	1.0	#4df3ce	#2c7ef7
+Actinobacillus equuli	Buccal_mucosa	#445cfb	3	2.0	1.0	#4df3ce	#2c7ef7
+Streptococcus orisratti	Buccal_mucosa	#445cfb	3	2.0	1.0	#4df3ce	#2c7ef7
+Novosphingobium nitrogenifigens	Anterior_nares	#8000ff	2	2.0	1.0	#4df3ce	#2c7ef7
+Polaromonas sp. JS666	Anterior_nares	#8000ff	2	2.0	1.0	#4df3ce	#2c7ef7

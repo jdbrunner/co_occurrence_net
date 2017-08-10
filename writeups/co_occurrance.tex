@@ -20,6 +20,7 @@
 \usetikzlibrary{arrows.meta}
 \usepackage[all]{xy}
 \usepackage{url}
+\usepackage{multicol}
 
 
 
@@ -95,6 +96,9 @@
 		\end{tabular} 
 	\end{center}
 }
+
+
+
 
 \newcommand{\nhalf}{\nicefrac{1}{2}}
 \newcommand{\eps}{\epsilon_{machine}}
@@ -299,6 +303,30 @@ In addition to testing the complete network, I performed the same analysis on ne
 
 This analysis is computationally difficult. In order to estimate how it scales with number of samples, I recorded the time for the Monte Carlo estimation, using randomly drawn subsets of the data. It appears that if $n$ is the number of samples and $\tau$ the time to compute, then $\tau \approx \frac{1}{3} n$ seconds for samples with $\sim 250$ taxa. 
 
+\section{Networks Built}
+
+To test the ideas of this paper, we used HMP data to build networks. We built ``full" networks using about 1300 individual samples. We also used 300 test samples (not used in the construction of the network), randomly chosen from the data set (uniformly, ignoring metadata), to test various network analysis ideas. In addition to the full network, we built networks using subsets of the data corresponding the available metadata, which was the sample's origin in the human body. We therefore built, in addition to the full network, networks corresponding to samples labeled:
+\begin{multicols}{2}
+\begin{itemize}
+	\item Anterior Nares
+	\item Attached
+	\item Buccal Mucosa
+	\item Hard Palate
+	\item Keratinized Gingiva
+	\item L Retroauricular Crease
+	\item Mid Vagina
+	\item Palatine Tonsils
+	\item Posterior Fornix
+	\item R Retroauricular Crease
+	\item Saliva
+	\item Stool
+	\item Subgingival Plaque
+	\item Supragingival Plaque
+	\item Throat
+	\item Tongue Dorsum
+	\item Vaginal Introitus
+\end{itemize}
+\end{multicols}
 \section{Network Analysis}
 Network clustering identifies related nodes in a graph. This can be used in combination with sample metadata to help find characteristics that effect the microbial community in a sample. Sample metadata can be associated to nodes of a network by the frequency with which a taxa appears along with some sample characteristic. For a metadata category  $C$ that allows a discrete set of $m$ characteristics $c_i$, let
 \[
@@ -787,6 +815,18 @@ I also tested these methods on a genus level network built from Pearson correlat
 \end{center}
 \end{figure}	
 
+We also tested \cref{initalCond} on networks built from over 1,300 samples and 300 test samples. We modified the test data by creating false positives and false negatives. Then, we ranked nodes in the modified test samples. We hope to see false negatives ranked highly and false positives ranked low.
+
+\begin{figure}
+	\begin{subfigure}{\textwidth}
+\begin{center}
+	\includegraphics[scale = 0.5]{../stat_figs/merged2/species_rks_fn_full.png}
+	\caption{Ranks of False Negatives on the network built from the entire data set.}
+\end{center}
+	\end{subfigure}
+\caption{Diffusion Ranks}
+\end{figure}
+
 \section{Comparison of Networks}
 We also may want to compare networks, especially networks produced from samples separated according to some category of metadata. There are of course the simple and obvious: size, radius, various connectivity and clustering metrics. There are also more interesting things, like the random walk kernel on graphs. Graph kernels are similar to an inner product on two graphs.
 
@@ -910,14 +950,14 @@ I did the same on a column of training data for the species level network, a col
 	\begin{center}
 	\includegraphics[scale = 0.45]{random.png}	
 	\end{center}
-	\caption{Assignment randomly generated data to networks built with binning (right) and with correlation (left).}
+	\caption{Assignment randomly generated data to networks built with binning (right) and with correlation (left). This random sample had 63 nodes chosen to be present, uniformly, and given an abundance drawn from a $unif[0,0.1]$ distribution.}
 	\end{subfigure}
 \caption{A training data column fits the network better than a randomly generated sample.}\label{full_assign}
 \end{figure}
 
 Formally, we have
 \[
-F_j(\b{s}) = \sum_{i=0}^{n-1} c^i s_i
+F_j(\b{s}) =\frac{1}{\|\b{s}\|} \sum_{i=0}^{n-1} c^i s_i
 \]
 where $\b{s} = (u_{j_1}(0),u_{j_2}(0),...,u_{j_n}(0))$ such that if 
 \[
@@ -928,6 +968,23 @@ and $U_l = \int_0^{\infty} u_l(t) dt$ then
 U_{j_1} \geq U_{j_2} \geq \cdots \geq U_{j_n}
 \]
 
+To test this idea, we construct networks using a data set of over 1,300 HMP samples and also subset of that network, determined by the sample location on the human body. We also had a set of 300 samples as testing data. For each network, we computed this fit for test samples which would have been used in the construction in that network, fit for test samples that would not have been used for construction of that network, and randomly generated samples, see \cref{fit_scores}.
+
+\begin{figure}
+	\begin{subfigure}{\textwidth}
+	\begin{center}
+	\includegraphics[scale = 0.4]{../stat_figs/merged2/species_fits_m2.png}
+\end{center}
+\caption{Fit scores of test samples (held out of network building) on all networks built (entire set and subsets of the data), fit of randomly generated samples, and fit of samples to networks that do not match their type.}
+	\end{subfigure}
+	\begin{subfigure}{\textwidth}
+	\begin{center}
+		\includegraphics[scale = 0.8]{../stat_figs/merged2/species_fits_full.png}
+	\end{center}
+\caption{Fit scores of test samples (held out of network building) on the network built from the entire data set, and fit of randomly generated samples.}
+\end{subfigure}
+\caption{Fit scores for samples in networks. Random samples in (a) were samples in which 63 nodes were chosen to be present, uniformly, and given an abundance drawn from a $unif[0,0.1]$ distribution. In (b)'s random samples, I randomly choose the amount of non-zero values uniformly on the integers from 0 to the half a real sample length. I'll remake (a) like this.}\label{fit_scores}
+\end{figure}
 
 \bibliographystyle{plain}
 \bibliography{../../../summer17}

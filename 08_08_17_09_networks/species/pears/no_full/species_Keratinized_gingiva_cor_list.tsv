@@ -1,0 +1,386 @@
+	source	target	weight	edge_sample	edge_color
+0	Actinomyces oris	Actinomyces naeslundii	1.0	Supragingival_plaque	#ff8646
+1	Actinomyces sp. ICM47	Actinomyces naeslundii	1.0	Mixed	#cccccc
+2	Actinomyces sp. ICM47	Actinomyces oris	1.0	Mixed	#cccccc
+3	Actinomyces sp. oral taxon 170	Actinomyces naeslundii	1.0	Supragingival_plaque	#ff8646
+4	Actinomyces sp. oral taxon 170	Actinomyces oris	1.0	Supragingival_plaque	#ff8646
+5	Actinomyces sp. oral taxon 170	Actinomyces sp. ICM47	1.0	Mixed	#cccccc
+6	Actinomyces sp. oral taxon 171	Actinomyces naeslundii	1.0	Supragingival_plaque	#ff8646
+7	Actinomyces sp. oral taxon 171	Actinomyces oris	1.0	Supragingival_plaque	#ff8646
+8	Actinomyces sp. oral taxon 171	Actinomyces sp. ICM47	1.0	Mixed	#cccccc
+9	Actinomyces sp. oral taxon 171	Actinomyces sp. oral taxon 170	1.0	Supragingival_plaque	#ff8646
+10	Candidatus Saccharibacteria oral taxon TM7x	Alloprevotella tannerae	1.0	Mixed	#cccccc
+11	Capnocytophaga sp. oral taxon 329	Candidatus Saccharibacteria oral taxon TM7x	1.0	Mixed	#cccccc
+12	Capnocytophaga sp. oral taxon 332	Actinomyces naeslundii	1.0	Supragingival_plaque	#ff8646
+13	Capnocytophaga sp. oral taxon 332	Actinomyces oris	1.0	Supragingival_plaque	#ff8646
+14	Capnocytophaga sp. oral taxon 332	Actinomyces sp. ICM47	1.0	Mixed	#cccccc
+15	Capnocytophaga sp. oral taxon 332	Actinomyces sp. oral taxon 170	1.0	Supragingival_plaque	#ff8646
+16	Capnocytophaga sp. oral taxon 332	Actinomyces sp. oral taxon 171	1.0	Supragingival_plaque	#ff8646
+17	Capnocytophaga sputigena	Actinomyces naeslundii	1.0	Supragingival_plaque	#ff8646
+18	Capnocytophaga sputigena	Actinomyces oris	1.0	Supragingival_plaque	#ff8646
+19	Capnocytophaga sputigena	Actinomyces sp. ICM47	1.0	Mixed	#cccccc
+20	Capnocytophaga sputigena	Actinomyces sp. oral taxon 170	1.0	Supragingival_plaque	#ff8646
+21	Capnocytophaga sputigena	Actinomyces sp. oral taxon 171	1.0	Supragingival_plaque	#ff8646
+22	Capnocytophaga sputigena	Capnocytophaga sp. oral taxon 332	1.0	Supragingival_plaque	#ff8646
+23	Chlamydia trachomatis	Alloprevotella tannerae	1.0	Mixed	#cccccc
+24	Chlamydia trachomatis	Candidatus Saccharibacteria oral taxon TM7x	1.0	Mixed	#cccccc
+25	Chlamydia trachomatis	Capnocytophaga sp. oral taxon 329	1.0	Mixed	#cccccc
+26	Corynebacterium durum	Actinomyces naeslundii	1.0	Supragingival_plaque	#ff8646
+27	Corynebacterium durum	Actinomyces oris	1.0	Supragingival_plaque	#ff8646
+28	Corynebacterium durum	Actinomyces sp. ICM47	1.0	Mixed	#cccccc
+29	Corynebacterium durum	Actinomyces sp. oral taxon 170	1.0	Supragingival_plaque	#ff8646
+30	Corynebacterium durum	Actinomyces sp. oral taxon 171	1.0	Supragingival_plaque	#ff8646
+31	Corynebacterium durum	Capnocytophaga sp. oral taxon 332	1.0	Supragingival_plaque	#ff8646
+32	Corynebacterium matruchotii	Actinomyces naeslundii	1.0	Supragingival_plaque	#ff8646
+33	Corynebacterium matruchotii	Actinomyces oris	1.0	Supragingival_plaque	#ff8646
+34	Corynebacterium matruchotii	Actinomyces sp. ICM47	1.0	Mixed	#cccccc
+35	Corynebacterium matruchotii	Actinomyces sp. oral taxon 170	1.0	Supragingival_plaque	#ff8646
+36	Corynebacterium matruchotii	Actinomyces sp. oral taxon 171	1.0	Supragingival_plaque	#ff8646
+37	Corynebacterium matruchotii	Capnocytophaga sp. oral taxon 332	1.0	Supragingival_plaque	#ff8646
+38	Corynebacterium matruchotii	Capnocytophaga sputigena	1.0	Supragingival_plaque	#ff8646
+39	Corynebacterium matruchotii	Corynebacterium durum	1.0	Supragingival_plaque	#ff8646
+40	Gemella haemolysans	Alloprevotella tannerae	1.0	Mixed	#cccccc
+41	Gemella haemolysans	Candidatus Saccharibacteria oral taxon TM7x	1.0	Mixed	#cccccc
+42	Gemella haemolysans	Capnocytophaga sp. oral taxon 329	1.0	Mixed	#cccccc
+43	Gemella haemolysans	Chlamydia trachomatis	1.0	Mixed	#cccccc
+44	Gemella sanguinis	Alloprevotella tannerae	1.0	Mixed	#cccccc
+45	Gemella sanguinis	Candidatus Saccharibacteria oral taxon TM7x	1.0	Mixed	#cccccc
+46	Gemella sanguinis	Capnocytophaga sp. oral taxon 329	1.0	Mixed	#cccccc
+47	Gemella sanguinis	Chlamydia trachomatis	1.0	Mixed	#cccccc
+48	Gemella sanguinis	Gemella haemolysans	1.0	Mixed	#cccccc
+49	Granulicatella elegans	Alloprevotella tannerae	1.0	Mixed	#cccccc
+50	Granulicatella elegans	Candidatus Saccharibacteria oral taxon TM7x	1.0	Mixed	#cccccc
+51	Granulicatella elegans	Capnocytophaga sp. oral taxon 329	1.0	Mixed	#cccccc
+52	Granulicatella elegans	Chlamydia trachomatis	1.0	Keratinized_gingiva	#17cbe4
+53	Granulicatella elegans	Gemella haemolysans	1.0	Mixed	#cccccc
+54	Granulicatella elegans	Gemella sanguinis	1.0	Mixed	#cccccc
+55	Haemophilus haemolyticus	Alloprevotella tannerae	1.0	Mixed	#cccccc
+56	Haemophilus haemolyticus	Candidatus Saccharibacteria oral taxon TM7x	1.0	Mixed	#cccccc
+57	Haemophilus haemolyticus	Capnocytophaga sp. oral taxon 329	1.0	Mixed	#cccccc
+58	Haemophilus haemolyticus	Chlamydia trachomatis	1.0	Keratinized_gingiva	#17cbe4
+59	Haemophilus haemolyticus	Gemella haemolysans	1.0	Mixed	#cccccc
+60	Haemophilus haemolyticus	Gemella sanguinis	1.0	Mixed	#cccccc
+61	Haemophilus haemolyticus	Granulicatella elegans	1.0	Keratinized_gingiva	#17cbe4
+62	Haemophilus influenzae	Alloprevotella tannerae	1.0	Mixed	#cccccc
+63	Haemophilus influenzae	Candidatus Saccharibacteria oral taxon TM7x	1.0	Mixed	#cccccc
+64	Haemophilus influenzae	Capnocytophaga sp. oral taxon 329	1.0	Mixed	#cccccc
+65	Haemophilus influenzae	Chlamydia trachomatis	1.0	Mixed	#cccccc
+66	Haemophilus influenzae	Gemella haemolysans	1.0	Mixed	#cccccc
+67	Haemophilus influenzae	Gemella sanguinis	1.0	Mixed	#cccccc
+68	Haemophilus influenzae	Granulicatella elegans	1.0	Mixed	#cccccc
+69	Haemophilus influenzae	Haemophilus haemolyticus	1.0	Mixed	#cccccc
+70	Haemophilus parainfluenzae	Alloprevotella tannerae	1.0	Mixed	#cccccc
+71	Haemophilus parainfluenzae	Candidatus Saccharibacteria oral taxon TM7x	1.0	Mixed	#cccccc
+72	Haemophilus parainfluenzae	Capnocytophaga sp. oral taxon 329	1.0	Mixed	#cccccc
+73	Haemophilus parainfluenzae	Chlamydia trachomatis	1.0	Mixed	#cccccc
+74	Haemophilus parainfluenzae	Gemella haemolysans	1.0	Mixed	#cccccc
+75	Haemophilus parainfluenzae	Gemella sanguinis	1.0	Tongue_dorsum	#ff2f18
+76	Haemophilus parainfluenzae	Granulicatella elegans	1.0	Mixed	#cccccc
+77	Haemophilus parainfluenzae	Haemophilus haemolyticus	1.0	Mixed	#cccccc
+78	Haemophilus parainfluenzae	Haemophilus influenzae	1.0	Mixed	#cccccc
+79	Haemophilus sp. oral taxon 851	Alloprevotella tannerae	1.0	Mixed	#cccccc
+80	Haemophilus sp. oral taxon 851	Candidatus Saccharibacteria oral taxon TM7x	1.0	Mixed	#cccccc
+81	Haemophilus sp. oral taxon 851	Capnocytophaga sp. oral taxon 329	1.0	Mixed	#cccccc
+82	Haemophilus sp. oral taxon 851	Chlamydia trachomatis	1.0	Keratinized_gingiva	#17cbe4
+83	Haemophilus sp. oral taxon 851	Gemella haemolysans	1.0	Mixed	#cccccc
+84	Haemophilus sp. oral taxon 851	Gemella sanguinis	1.0	Mixed	#cccccc
+85	Haemophilus sp. oral taxon 851	Granulicatella elegans	1.0	Keratinized_gingiva	#17cbe4
+86	Haemophilus sp. oral taxon 851	Haemophilus haemolyticus	1.0	Keratinized_gingiva	#17cbe4
+87	Haemophilus sp. oral taxon 851	Haemophilus influenzae	1.0	Mixed	#cccccc
+88	Haemophilus sp. oral taxon 851	Haemophilus parainfluenzae	1.0	Mixed	#cccccc
+89	Haemophilus sputorum	Candidatus Saccharibacteria oral taxon TM7x	1.0	Saliva	#cbe486
+90	Haemophilus sputorum	Capnocytophaga sp. oral taxon 329	1.0	Mixed	#cccccc
+91	Haemophilus sputorum	Chlamydia trachomatis	1.0	Mixed	#cccccc
+92	Haemophilus sputorum	Gemella haemolysans	1.0	Mixed	#cccccc
+93	Haemophilus sputorum	Gemella sanguinis	1.0	Mixed	#cccccc
+94	Haemophilus sputorum	Granulicatella elegans	1.0	Mixed	#cccccc
+95	Haemophilus sputorum	Haemophilus haemolyticus	1.0	Mixed	#cccccc
+96	Haemophilus sputorum	Haemophilus influenzae	1.0	Mixed	#cccccc
+97	Haemophilus sputorum	Haemophilus parainfluenzae	1.0	Mixed	#cccccc
+98	Haemophilus sputorum	Haemophilus sp. oral taxon 851	1.0	Mixed	#cccccc
+99	Leptotrichia shahii	Alloprevotella tannerae	1.0	Mixed	#cccccc
+100	Leptotrichia shahii	Candidatus Saccharibacteria oral taxon TM7x	1.0	Mixed	#cccccc
+101	Leptotrichia shahii	Capnocytophaga sp. oral taxon 329	1.0	Mixed	#cccccc
+102	Leptotrichia shahii	Chlamydia trachomatis	1.0	Mixed	#cccccc
+103	Leptotrichia shahii	Gemella haemolysans	1.0	Mixed	#cccccc
+104	Leptotrichia shahii	Gemella sanguinis	1.0	Tongue_dorsum	#ff2f18
+105	Leptotrichia shahii	Granulicatella elegans	1.0	Mixed	#cccccc
+106	Leptotrichia shahii	Haemophilus haemolyticus	1.0	Mixed	#cccccc
+107	Leptotrichia shahii	Haemophilus parainfluenzae	1.0	Tongue_dorsum	#ff2f18
+108	Leptotrichia shahii	Haemophilus sp. oral taxon 851	1.0	Mixed	#cccccc
+109	Leptotrichia shahii	Haemophilus sputorum	1.0	Mixed	#cccccc
+110	Neisseria cinerea	Actinomyces naeslundii	1.0	Mixed	#cccccc
+111	Neisseria cinerea	Actinomyces oris	1.0	Mixed	#cccccc
+112	Neisseria cinerea	Actinomyces sp. ICM47	1.0	Mixed	#cccccc
+113	Neisseria cinerea	Actinomyces sp. oral taxon 170	1.0	Mixed	#cccccc
+114	Neisseria cinerea	Actinomyces sp. oral taxon 171	1.0	Mixed	#cccccc
+115	Neisseria cinerea	Capnocytophaga sp. oral taxon 332	1.0	Mixed	#cccccc
+116	Neisseria cinerea	Capnocytophaga sputigena	1.0	Mixed	#cccccc
+117	Neisseria cinerea	Corynebacterium durum	1.0	Mixed	#cccccc
+118	Neisseria cinerea	Corynebacterium matruchotii	1.0	Mixed	#cccccc
+119	Neisseria meningitidis	Actinomyces naeslundii	1.0	Mixed	#cccccc
+120	Neisseria meningitidis	Actinomyces oris	1.0	Mixed	#cccccc
+121	Neisseria meningitidis	Actinomyces sp. ICM47	1.0	Mixed	#cccccc
+122	Neisseria meningitidis	Actinomyces sp. oral taxon 170	1.0	Mixed	#cccccc
+123	Neisseria meningitidis	Capnocytophaga sp. oral taxon 332	1.0	Mixed	#cccccc
+124	Neisseria meningitidis	Capnocytophaga sputigena	1.0	Mixed	#cccccc
+125	Neisseria meningitidis	Corynebacterium durum	1.0	Mixed	#cccccc
+126	Neisseria meningitidis	Corynebacterium matruchotii	1.0	Mixed	#cccccc
+127	Neisseria meningitidis	Neisseria cinerea	1.0	Mixed	#cccccc
+128	Porphyromonas catoniae	Alloprevotella tannerae	1.0	Subgingival_plaque	#ffac5c
+129	Porphyromonas catoniae	Candidatus Saccharibacteria oral taxon TM7x	1.0	Mixed	#cccccc
+130	Porphyromonas catoniae	Capnocytophaga sp. oral taxon 329	1.0	Mixed	#cccccc
+131	Porphyromonas catoniae	Chlamydia trachomatis	1.0	Mixed	#cccccc
+132	Porphyromonas catoniae	Gemella sanguinis	1.0	Mixed	#cccccc
+133	Porphyromonas catoniae	Granulicatella elegans	1.0	Mixed	#cccccc
+134	Porphyromonas catoniae	Haemophilus haemolyticus	1.0	Mixed	#cccccc
+135	Porphyromonas catoniae	Haemophilus influenzae	1.0	Mixed	#cccccc
+136	Porphyromonas catoniae	Haemophilus parainfluenzae	1.0	Mixed	#cccccc
+137	Porphyromonas catoniae	Haemophilus sp. oral taxon 851	1.0	Mixed	#cccccc
+138	Porphyromonas catoniae	Haemophilus sputorum	1.0	Mixed	#cccccc
+139	Porphyromonas catoniae	Leptotrichia shahii	1.0	Mixed	#cccccc
+140	Porphyromonas gingivalis	Actinomyces naeslundii	1.0	Mixed	#cccccc
+141	Porphyromonas gingivalis	Actinomyces oris	1.0	Mixed	#cccccc
+142	Porphyromonas gingivalis	Actinomyces sp. ICM47	1.0	Mixed	#cccccc
+143	Porphyromonas gingivalis	Actinomyces sp. oral taxon 170	1.0	Mixed	#cccccc
+144	Porphyromonas gingivalis	Actinomyces sp. oral taxon 171	1.0	Mixed	#cccccc
+145	Porphyromonas gingivalis	Capnocytophaga sp. oral taxon 332	1.0	Mixed	#cccccc
+146	Porphyromonas gingivalis	Capnocytophaga sputigena	1.0	Mixed	#cccccc
+147	Porphyromonas gingivalis	Corynebacterium durum	1.0	Mixed	#cccccc
+148	Porphyromonas gingivalis	Corynebacterium matruchotii	1.0	Mixed	#cccccc
+149	Porphyromonas gingivalis	Neisseria cinerea	1.0	Keratinized_gingiva	#17cbe4
+150	Porphyromonas gingivalis	Neisseria meningitidis	1.0	Mixed	#cccccc
+151	Porphyromonas sp. oral taxon 278	Actinomyces naeslundii	1.0	Mixed	#cccccc
+152	Porphyromonas sp. oral taxon 278	Actinomyces oris	1.0	Mixed	#cccccc
+153	Porphyromonas sp. oral taxon 278	Actinomyces sp. ICM47	1.0	Mixed	#cccccc
+154	Porphyromonas sp. oral taxon 278	Actinomyces sp. oral taxon 170	1.0	Mixed	#cccccc
+155	Porphyromonas sp. oral taxon 278	Actinomyces sp. oral taxon 171	1.0	Mixed	#cccccc
+156	Porphyromonas sp. oral taxon 278	Capnocytophaga sp. oral taxon 332	1.0	Mixed	#cccccc
+157	Porphyromonas sp. oral taxon 278	Capnocytophaga sputigena	1.0	Mixed	#cccccc
+158	Porphyromonas sp. oral taxon 278	Corynebacterium durum	1.0	Mixed	#cccccc
+159	Porphyromonas sp. oral taxon 278	Corynebacterium matruchotii	1.0	Mixed	#cccccc
+160	Porphyromonas sp. oral taxon 278	Neisseria cinerea	1.0	Mixed	#cccccc
+161	Porphyromonas sp. oral taxon 278	Neisseria meningitidis	1.0	Mixed	#cccccc
+162	Porphyromonas sp. oral taxon 278	Porphyromonas gingivalis	1.0	Mixed	#cccccc
+163	Prevotella sp. oral taxon 473	Actinomyces naeslundii	1.0	Mixed	#cccccc
+164	Prevotella sp. oral taxon 473	Actinomyces oris	1.0	Mixed	#cccccc
+165	Prevotella sp. oral taxon 473	Actinomyces sp. ICM47	1.0	Mixed	#cccccc
+166	Prevotella sp. oral taxon 473	Actinomyces sp. oral taxon 170	1.0	Mixed	#cccccc
+167	Prevotella sp. oral taxon 473	Actinomyces sp. oral taxon 171	1.0	Mixed	#cccccc
+168	Prevotella sp. oral taxon 473	Capnocytophaga sp. oral taxon 332	1.0	Mixed	#cccccc
+169	Prevotella sp. oral taxon 473	Capnocytophaga sputigena	1.0	Mixed	#cccccc
+170	Prevotella sp. oral taxon 473	Corynebacterium durum	1.0	Mixed	#cccccc
+171	Prevotella sp. oral taxon 473	Corynebacterium matruchotii	1.0	Mixed	#cccccc
+172	Prevotella sp. oral taxon 473	Neisseria cinerea	1.0	Keratinized_gingiva	#17cbe4
+173	Prevotella sp. oral taxon 473	Neisseria meningitidis	1.0	Mixed	#cccccc
+174	Prevotella sp. oral taxon 473	Porphyromonas gingivalis	1.0	Keratinized_gingiva	#17cbe4
+175	Prevotella sp. oral taxon 473	Porphyromonas sp. oral taxon 278	1.0	Mixed	#cccccc
+176	Rothia mucilaginosa	Alloprevotella tannerae	1.0	Mixed	#cccccc
+177	Rothia mucilaginosa	Candidatus Saccharibacteria oral taxon TM7x	1.0	Mixed	#cccccc
+178	Rothia mucilaginosa	Capnocytophaga sp. oral taxon 329	1.0	Mixed	#cccccc
+179	Rothia mucilaginosa	Chlamydia trachomatis	1.0	Mixed	#cccccc
+180	Rothia mucilaginosa	Gemella haemolysans	1.0	Mixed	#cccccc
+181	Rothia mucilaginosa	Gemella sanguinis	1.0	Mixed	#cccccc
+182	Rothia mucilaginosa	Granulicatella elegans	1.0	Mixed	#cccccc
+183	Rothia mucilaginosa	Haemophilus haemolyticus	1.0	Mixed	#cccccc
+184	Rothia mucilaginosa	Haemophilus influenzae	1.0	Mixed	#cccccc
+185	Rothia mucilaginosa	Haemophilus parainfluenzae	1.0	Mixed	#cccccc
+186	Rothia mucilaginosa	Haemophilus sp. oral taxon 851	1.0	Mixed	#cccccc
+187	Rothia mucilaginosa	Haemophilus sputorum	1.0	Mixed	#cccccc
+188	Rothia mucilaginosa	Leptotrichia shahii	1.0	Mixed	#cccccc
+189	Rothia mucilaginosa	Porphyromonas catoniae	1.0	Mixed	#cccccc
+190	Staphylococcus pasteuri	Alloprevotella tannerae	1.0	Mixed	#cccccc
+191	Staphylococcus pasteuri	Candidatus Saccharibacteria oral taxon TM7x	1.0	Mixed	#cccccc
+192	Staphylococcus pasteuri	Capnocytophaga sp. oral taxon 329	1.0	Mixed	#cccccc
+193	Staphylococcus pasteuri	Chlamydia trachomatis	1.0	Keratinized_gingiva	#17cbe4
+194	Staphylococcus pasteuri	Gemella haemolysans	1.0	Mixed	#cccccc
+195	Staphylococcus pasteuri	Gemella sanguinis	1.0	Mixed	#cccccc
+196	Staphylococcus pasteuri	Granulicatella elegans	1.0	Keratinized_gingiva	#17cbe4
+197	Staphylococcus pasteuri	Haemophilus haemolyticus	1.0	Keratinized_gingiva	#17cbe4
+198	Staphylococcus pasteuri	Haemophilus influenzae	1.0	Mixed	#cccccc
+199	Staphylococcus pasteuri	Haemophilus parainfluenzae	1.0	Mixed	#cccccc
+200	Staphylococcus pasteuri	Haemophilus sp. oral taxon 851	1.0	Keratinized_gingiva	#17cbe4
+201	Staphylococcus pasteuri	Haemophilus sputorum	1.0	Mixed	#cccccc
+202	Staphylococcus pasteuri	Leptotrichia shahii	1.0	Mixed	#cccccc
+203	Staphylococcus pasteuri	Porphyromonas catoniae	1.0	Mixed	#cccccc
+204	Staphylococcus pasteuri	Rothia mucilaginosa	1.0	Mixed	#cccccc
+205	Streptococcus dentisani	Alloprevotella tannerae	1.0	Mixed	#cccccc
+206	Streptococcus dentisani	Candidatus Saccharibacteria oral taxon TM7x	1.0	Mixed	#cccccc
+207	Streptococcus dentisani	Capnocytophaga sp. oral taxon 329	1.0	Mixed	#cccccc
+208	Streptococcus dentisani	Chlamydia trachomatis	1.0	Mixed	#cccccc
+209	Streptococcus dentisani	Gemella haemolysans	1.0	Mixed	#cccccc
+210	Streptococcus dentisani	Gemella sanguinis	1.0	Mixed	#cccccc
+211	Streptococcus dentisani	Granulicatella elegans	1.0	Mixed	#cccccc
+212	Streptococcus dentisani	Haemophilus haemolyticus	1.0	Mixed	#cccccc
+213	Streptococcus dentisani	Haemophilus influenzae	1.0	Mixed	#cccccc
+214	Streptococcus dentisani	Haemophilus parainfluenzae	1.0	Mixed	#cccccc
+215	Streptococcus dentisani	Haemophilus sp. oral taxon 851	1.0	Mixed	#cccccc
+216	Streptococcus dentisani	Haemophilus sputorum	1.0	Mixed	#cccccc
+217	Streptococcus dentisani	Leptotrichia shahii	1.0	Mixed	#cccccc
+218	Streptococcus dentisani	Porphyromonas catoniae	1.0	Mixed	#cccccc
+219	Streptococcus dentisani	Rothia mucilaginosa	1.0	Hard_palate	#08acee
+220	Streptococcus dentisani	Staphylococcus pasteuri	1.0	Mixed	#cccccc
+221	Streptococcus gordonii	Alloprevotella tannerae	1.0	Mixed	#cccccc
+222	Streptococcus gordonii	Candidatus Saccharibacteria oral taxon TM7x	1.0	Mixed	#cccccc
+223	Streptococcus gordonii	Capnocytophaga sp. oral taxon 329	1.0	Mixed	#cccccc
+224	Streptococcus gordonii	Chlamydia trachomatis	1.0	Keratinized_gingiva	#17cbe4
+225	Streptococcus gordonii	Gemella haemolysans	1.0	Mixed	#cccccc
+226	Streptococcus gordonii	Gemella sanguinis	1.0	Mixed	#cccccc
+227	Streptococcus gordonii	Granulicatella elegans	1.0	Keratinized_gingiva	#17cbe4
+228	Streptococcus gordonii	Haemophilus haemolyticus	1.0	Keratinized_gingiva	#17cbe4
+229	Streptococcus gordonii	Haemophilus influenzae	1.0	Mixed	#cccccc
+230	Streptococcus gordonii	Haemophilus parainfluenzae	1.0	Mixed	#cccccc
+231	Streptococcus gordonii	Haemophilus sp. oral taxon 851	1.0	Keratinized_gingiva	#17cbe4
+232	Streptococcus gordonii	Haemophilus sputorum	1.0	Mixed	#cccccc
+233	Streptococcus gordonii	Leptotrichia shahii	1.0	Mixed	#cccccc
+234	Streptococcus gordonii	Porphyromonas catoniae	1.0	Mixed	#cccccc
+235	Streptococcus gordonii	Rothia mucilaginosa	1.0	Mixed	#cccccc
+236	Streptococcus gordonii	Streptococcus dentisani	1.0	Mixed	#cccccc
+237	Streptococcus mitis	Alloprevotella tannerae	1.0	Mixed	#cccccc
+238	Streptococcus mitis	Candidatus Saccharibacteria oral taxon TM7x	1.0	Mixed	#cccccc
+239	Streptococcus mitis	Capnocytophaga sp. oral taxon 329	1.0	Mixed	#cccccc
+240	Streptococcus mitis	Chlamydia trachomatis	1.0	Mixed	#cccccc
+241	Streptococcus mitis	Gemella sanguinis	1.0	Mixed	#cccccc
+242	Streptococcus mitis	Granulicatella elegans	1.0	Mixed	#cccccc
+243	Streptococcus mitis	Haemophilus haemolyticus	1.0	Mixed	#cccccc
+244	Streptococcus mitis	Haemophilus influenzae	1.0	Mixed	#cccccc
+245	Streptococcus mitis	Haemophilus parainfluenzae	1.0	Mixed	#cccccc
+246	Streptococcus mitis	Haemophilus sp. oral taxon 851	1.0	Mixed	#cccccc
+247	Streptococcus mitis	Haemophilus sputorum	1.0	Mixed	#cccccc
+248	Streptococcus mitis	Leptotrichia shahii	1.0	Mixed	#cccccc
+249	Streptococcus mitis	Rothia mucilaginosa	1.0	Mixed	#cccccc
+250	Streptococcus mitis	Staphylococcus pasteuri	1.0	Mixed	#cccccc
+251	Streptococcus mitis	Streptococcus dentisani	1.0	Mixed	#cccccc
+252	Streptococcus mitis	Streptococcus gordonii	1.0	Mixed	#cccccc
+253	Streptococcus oligofermentans	Alloprevotella tannerae	1.0	Mixed	#cccccc
+254	Streptococcus oligofermentans	Candidatus Saccharibacteria oral taxon TM7x	1.0	Mixed	#cccccc
+255	Streptococcus oligofermentans	Capnocytophaga sp. oral taxon 329	1.0	Mixed	#cccccc
+256	Streptococcus oligofermentans	Chlamydia trachomatis	1.0	Keratinized_gingiva	#17cbe4
+257	Streptococcus oligofermentans	Gemella haemolysans	1.0	Mixed	#cccccc
+258	Streptococcus oligofermentans	Gemella sanguinis	1.0	Mixed	#cccccc
+259	Streptococcus oligofermentans	Granulicatella elegans	1.0	Keratinized_gingiva	#17cbe4
+260	Streptococcus oligofermentans	Haemophilus haemolyticus	1.0	Keratinized_gingiva	#17cbe4
+261	Streptococcus oligofermentans	Haemophilus influenzae	1.0	Mixed	#cccccc
+262	Streptococcus oligofermentans	Haemophilus parainfluenzae	1.0	Mixed	#cccccc
+263	Streptococcus oligofermentans	Haemophilus sp. oral taxon 851	1.0	Keratinized_gingiva	#17cbe4
+264	Streptococcus oligofermentans	Haemophilus sputorum	1.0	Mixed	#cccccc
+265	Streptococcus oligofermentans	Leptotrichia shahii	1.0	Mixed	#cccccc
+266	Streptococcus oligofermentans	Porphyromonas catoniae	1.0	Mixed	#cccccc
+267	Streptococcus oligofermentans	Rothia mucilaginosa	1.0	Mixed	#cccccc
+268	Streptococcus oligofermentans	Staphylococcus pasteuri	1.0	Keratinized_gingiva	#17cbe4
+269	Streptococcus oligofermentans	Streptococcus dentisani	1.0	Mixed	#cccccc
+270	Streptococcus oligofermentans	Streptococcus mitis	1.0	Mixed	#cccccc
+271	Streptococcus parasanguinis	Actinomyces naeslundii	1.0	Mixed	#cccccc
+272	Streptococcus parasanguinis	Actinomyces oris	1.0	Mixed	#cccccc
+273	Streptococcus parasanguinis	Actinomyces sp. ICM47	1.0	Tongue_dorsum	#ff2f18
+274	Streptococcus parasanguinis	Actinomyces sp. oral taxon 170	1.0	Mixed	#cccccc
+275	Streptococcus parasanguinis	Actinomyces sp. oral taxon 171	1.0	Mixed	#cccccc
+276	Streptococcus parasanguinis	Capnocytophaga sp. oral taxon 332	1.0	Mixed	#cccccc
+277	Streptococcus parasanguinis	Capnocytophaga sputigena	1.0	Mixed	#cccccc
+278	Streptococcus parasanguinis	Corynebacterium durum	1.0	Mixed	#cccccc
+279	Streptococcus parasanguinis	Corynebacterium matruchotii	1.0	Mixed	#cccccc
+280	Streptococcus parasanguinis	Neisseria cinerea	1.0	Mixed	#cccccc
+281	Streptococcus parasanguinis	Neisseria meningitidis	1.0	Mixed	#cccccc
+282	Streptococcus parasanguinis	Porphyromonas gingivalis	1.0	Mixed	#cccccc
+283	Streptococcus parasanguinis	Porphyromonas sp. oral taxon 278	1.0	Mixed	#cccccc
+284	Streptococcus parasanguinis	Prevotella sp. oral taxon 473	1.0	Mixed	#cccccc
+285	Streptococcus pneumoniae	Actinomyces naeslundii	1.0	Mixed	#cccccc
+286	Streptococcus pneumoniae	Actinomyces oris	1.0	Mixed	#cccccc
+287	Streptococcus pneumoniae	Actinomyces sp. ICM47	1.0	Mixed	#cccccc
+288	Streptococcus pneumoniae	Actinomyces sp. oral taxon 170	1.0	Mixed	#cccccc
+289	Streptococcus pneumoniae	Actinomyces sp. oral taxon 171	1.0	Mixed	#cccccc
+290	Streptococcus pneumoniae	Capnocytophaga sp. oral taxon 332	1.0	Mixed	#cccccc
+291	Streptococcus pneumoniae	Capnocytophaga sputigena	1.0	Mixed	#cccccc
+292	Streptococcus pneumoniae	Corynebacterium durum	1.0	Mixed	#cccccc
+293	Streptococcus pneumoniae	Corynebacterium matruchotii	1.0	Mixed	#cccccc
+294	Streptococcus pneumoniae	Neisseria cinerea	1.0	Mixed	#cccccc
+295	Streptococcus pneumoniae	Neisseria meningitidis	1.0	Mixed	#cccccc
+296	Streptococcus pneumoniae	Porphyromonas gingivalis	1.0	Mixed	#cccccc
+297	Streptococcus pneumoniae	Porphyromonas sp. oral taxon 278	1.0	Mixed	#cccccc
+298	Streptococcus pneumoniae	Prevotella sp. oral taxon 473	1.0	Mixed	#cccccc
+299	Streptococcus pneumoniae	Streptococcus parasanguinis	1.0	Mixed	#cccccc
+300	Streptococcus pseudopneumoniae	Alloprevotella tannerae	1.0	Mixed	#cccccc
+301	Streptococcus pseudopneumoniae	Candidatus Saccharibacteria oral taxon TM7x	1.0	Mixed	#cccccc
+302	Streptococcus pseudopneumoniae	Capnocytophaga sp. oral taxon 329	1.0	Mixed	#cccccc
+303	Streptococcus pseudopneumoniae	Chlamydia trachomatis	1.0	Mixed	#cccccc
+304	Streptococcus pseudopneumoniae	Gemella haemolysans	1.0	Mixed	#cccccc
+305	Streptococcus pseudopneumoniae	Gemella sanguinis	1.0	Mixed	#cccccc
+306	Streptococcus pseudopneumoniae	Granulicatella elegans	1.0	Mixed	#cccccc
+307	Streptococcus pseudopneumoniae	Haemophilus haemolyticus	1.0	Mixed	#cccccc
+308	Streptococcus pseudopneumoniae	Haemophilus influenzae	1.0	Mixed	#cccccc
+309	Streptococcus pseudopneumoniae	Haemophilus parainfluenzae	1.0	Mixed	#cccccc
+310	Streptococcus pseudopneumoniae	Haemophilus sp. oral taxon 851	1.0	Mixed	#cccccc
+311	Streptococcus pseudopneumoniae	Haemophilus sputorum	1.0	Mixed	#cccccc
+312	Streptococcus pseudopneumoniae	Leptotrichia shahii	1.0	Mixed	#cccccc
+313	Streptococcus pseudopneumoniae	Porphyromonas catoniae	1.0	Mixed	#cccccc
+314	Streptococcus pseudopneumoniae	Rothia mucilaginosa	1.0	Mixed	#cccccc
+315	Streptococcus pseudopneumoniae	Staphylococcus pasteuri	1.0	Mixed	#cccccc
+316	Streptococcus pseudopneumoniae	Streptococcus dentisani	1.0	Mixed	#cccccc
+317	Streptococcus pseudopneumoniae	Streptococcus gordonii	1.0	Mixed	#cccccc
+318	Streptococcus pseudopneumoniae	Streptococcus mitis	1.0	Buccal_mucosa_NA	#2686f5
+319	Streptococcus pseudopneumoniae	Streptococcus oligofermentans	1.0	Mixed	#cccccc
+320	Streptococcus sp. F0442	Alloprevotella tannerae	1.0	Mixed	#cccccc
+321	Streptococcus sp. F0442	Candidatus Saccharibacteria oral taxon TM7x	1.0	Mixed	#cccccc
+322	Streptococcus sp. F0442	Capnocytophaga sp. oral taxon 329	1.0	Mixed	#cccccc
+323	Streptococcus sp. F0442	Chlamydia trachomatis	1.0	Mixed	#cccccc
+324	Streptococcus sp. F0442	Gemella haemolysans	1.0	Mixed	#cccccc
+325	Streptococcus sp. F0442	Gemella sanguinis	1.0	Mixed	#cccccc
+326	Streptococcus sp. F0442	Granulicatella elegans	1.0	Mixed	#cccccc
+327	Streptococcus sp. F0442	Haemophilus haemolyticus	1.0	Mixed	#cccccc
+328	Streptococcus sp. F0442	Haemophilus influenzae	1.0	Mixed	#cccccc
+329	Streptococcus sp. F0442	Haemophilus parainfluenzae	1.0	Mixed	#cccccc
+330	Streptococcus sp. F0442	Haemophilus sp. oral taxon 851	1.0	Mixed	#cccccc
+331	Streptococcus sp. F0442	Haemophilus sputorum	1.0	Mixed	#cccccc
+332	Streptococcus sp. F0442	Leptotrichia shahii	1.0	Mixed	#cccccc
+333	Streptococcus sp. F0442	Porphyromonas catoniae	1.0	Mixed	#cccccc
+334	Streptococcus sp. F0442	Rothia mucilaginosa	1.0	Mixed	#cccccc
+335	Streptococcus sp. F0442	Staphylococcus pasteuri	1.0	Mixed	#cccccc
+336	Streptococcus sp. F0442	Streptococcus dentisani	1.0	Mixed	#cccccc
+337	Streptococcus sp. F0442	Streptococcus gordonii	1.0	Mixed	#cccccc
+338	Streptococcus sp. F0442	Streptococcus mitis	1.0	Mixed	#cccccc
+339	Streptococcus sp. F0442	Streptococcus oligofermentans	1.0	Mixed	#cccccc
+340	Streptococcus sp. F0442	Streptococcus pseudopneumoniae	1.0	Mixed	#cccccc
+341	Veillonella seminalis	Alloprevotella tannerae	1.0	Mixed	#cccccc
+342	Veillonella seminalis	Candidatus Saccharibacteria oral taxon TM7x	1.0	Mixed	#cccccc
+343	Veillonella seminalis	Capnocytophaga sp. oral taxon 329	1.0	Mixed	#cccccc
+344	Veillonella seminalis	Chlamydia trachomatis	1.0	Keratinized_gingiva	#17cbe4
+345	Veillonella seminalis	Gemella haemolysans	1.0	Mixed	#cccccc
+346	Veillonella seminalis	Gemella sanguinis	1.0	Mixed	#cccccc
+347	Veillonella seminalis	Granulicatella elegans	1.0	Keratinized_gingiva	#17cbe4
+348	Veillonella seminalis	Haemophilus haemolyticus	1.0	Keratinized_gingiva	#17cbe4
+349	Veillonella seminalis	Haemophilus influenzae	1.0	Mixed	#cccccc
+350	Veillonella seminalis	Haemophilus parainfluenzae	1.0	Mixed	#cccccc
+351	Veillonella seminalis	Haemophilus sp. oral taxon 851	1.0	Keratinized_gingiva	#17cbe4
+352	Veillonella seminalis	Haemophilus sputorum	1.0	Mixed	#cccccc
+353	Veillonella seminalis	Leptotrichia shahii	1.0	Mixed	#cccccc
+354	Veillonella seminalis	Porphyromonas catoniae	1.0	Mixed	#cccccc
+355	Veillonella seminalis	Rothia mucilaginosa	1.0	Mixed	#cccccc
+356	Veillonella seminalis	Staphylococcus pasteuri	1.0	Keratinized_gingiva	#17cbe4
+357	Veillonella seminalis	Streptococcus dentisani	1.0	Mixed	#cccccc
+358	Veillonella seminalis	Streptococcus gordonii	1.0	Keratinized_gingiva	#17cbe4
+359	Veillonella seminalis	Streptococcus mitis	1.0	Mixed	#cccccc
+360	Veillonella seminalis	Streptococcus oligofermentans	1.0	Keratinized_gingiva	#17cbe4
+361	Veillonella seminalis	Streptococcus pseudopneumoniae	1.0	Mixed	#cccccc
+362	Veillonella seminalis	Streptococcus sp. F0442	1.0	Mixed	#cccccc
+363	Veillonella sp. oral taxon 780	Alloprevotella tannerae	1.0	Mixed	#cccccc
+364	Veillonella sp. oral taxon 780	Candidatus Saccharibacteria oral taxon TM7x	1.0	Mixed	#cccccc
+365	Veillonella sp. oral taxon 780	Capnocytophaga sp. oral taxon 329	1.0	Mixed	#cccccc
+366	Veillonella sp. oral taxon 780	Chlamydia trachomatis	1.0	Keratinized_gingiva	#17cbe4
+367	Veillonella sp. oral taxon 780	Gemella haemolysans	1.0	Mixed	#cccccc
+368	Veillonella sp. oral taxon 780	Gemella sanguinis	1.0	Mixed	#cccccc
+369	Veillonella sp. oral taxon 780	Granulicatella elegans	1.0	Keratinized_gingiva	#17cbe4
+370	Veillonella sp. oral taxon 780	Haemophilus haemolyticus	1.0	Keratinized_gingiva	#17cbe4
+371	Veillonella sp. oral taxon 780	Haemophilus parainfluenzae	1.0	Mixed	#cccccc
+372	Veillonella sp. oral taxon 780	Haemophilus sp. oral taxon 851	1.0	Keratinized_gingiva	#17cbe4
+373	Veillonella sp. oral taxon 780	Haemophilus sputorum	1.0	Mixed	#cccccc
+374	Veillonella sp. oral taxon 780	Leptotrichia shahii	1.0	Mixed	#cccccc
+375	Veillonella sp. oral taxon 780	Porphyromonas catoniae	1.0	Mixed	#cccccc
+376	Veillonella sp. oral taxon 780	Rothia mucilaginosa	1.0	Mixed	#cccccc
+377	Veillonella sp. oral taxon 780	Staphylococcus pasteuri	1.0	Keratinized_gingiva	#17cbe4
+378	Veillonella sp. oral taxon 780	Streptococcus dentisani	1.0	Mixed	#cccccc
+379	Veillonella sp. oral taxon 780	Streptococcus gordonii	1.0	Keratinized_gingiva	#17cbe4
+380	Veillonella sp. oral taxon 780	Streptococcus mitis	1.0	Mixed	#cccccc
+381	Veillonella sp. oral taxon 780	Streptococcus oligofermentans	1.0	Keratinized_gingiva	#17cbe4
+382	Veillonella sp. oral taxon 780	Streptococcus pseudopneumoniae	1.0	Mixed	#cccccc
+383	Veillonella sp. oral taxon 780	Streptococcus sp. F0442	1.0	Mixed	#cccccc
+384	Veillonella sp. oral taxon 780	Veillonella seminalis	1.0	Keratinized_gingiva	#17cbe4

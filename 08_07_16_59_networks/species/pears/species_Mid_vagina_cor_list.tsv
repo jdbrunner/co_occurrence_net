@@ -1,0 +1,665 @@
+	source	target	weight	edge_sample	edge_color
+0	Actinomyces massiliensis	Actinobaculum sp. oral taxon 183	0.999211890866	Mixed	#cccccc
+1	Actinomyces oris	Actinobaculum sp. oral taxon 183	0.996116490184	Mixed	#cccccc
+2	Actinomyces oris	Actinomyces massiliensis	0.991836598134	Supragingival_plaque	#ff8646
+3	Actinomyces sp. oral taxon 170	Actinobaculum sp. oral taxon 183	0.996116490184	Mixed	#cccccc
+4	Actinomyces sp. oral taxon 170	Actinomyces massiliensis	0.991836598134	Supragingival_plaque	#ff8646
+5	Actinomyces sp. oral taxon 175	Actinomyces massiliensis	0.951522683697	Supragingival_plaque	#ff8646
+6	Actinomyces sp. oral taxon 175	Actinomyces sp. oral taxon 170	0.904534033733	Supragingival_plaque	#ff8646
+7	Aerococcus christensenii	Actinobaculum sp. oral taxon 183	0.996116490184	Mixed	#cccccc
+8	Aerococcus christensenii	Actinomyces massiliensis	0.991836598134	Mixed	#cccccc
+9	Aerococcus christensenii	Actinomyces oris	1.0	Mixed	#cccccc
+10	Aerococcus christensenii	Actinomyces sp. oral taxon 170	1.0	Mixed	#cccccc
+11	Aggregatibacter aphrophilus	Actinobaculum sp. oral taxon 183	0.996116490184	Mixed	#cccccc
+12	Aggregatibacter aphrophilus	Actinomyces massiliensis	0.991836598134	Mixed	#cccccc
+13	Aggregatibacter aphrophilus	Actinomyces oris	1.0	Mixed	#cccccc
+14	Aggregatibacter aphrophilus	Actinomyces sp. oral taxon 170	1.0	Mixed	#cccccc
+15	Aggregatibacter aphrophilus	Aerococcus christensenii	1.0	Mixed	#cccccc
+16	Campylobacter concisus	Abiotrophia defectiva	1.0	Mixed	#cccccc
+17	Capnocytophaga gingivalis	Actinomyces oris	0.98019605882	Supragingival_plaque	#ff8646
+18	Capnocytophaga gingivalis	Aerococcus christensenii	0.98019605882	Mixed	#cccccc
+19	Capnocytophaga gingivalis	Aggregatibacter aphrophilus	0.98019605882	Mixed	#cccccc
+20	Capnocytophaga sp. oral taxon 329	Actinomyces massiliensis	0.960019671983	Supragingival_plaque	#ff8646
+21	Capnocytophaga sp. oral taxon 329	Actinomyces oris	0.987878339907	Supragingival_plaque	#ff8646
+22	Capnocytophaga sp. oral taxon 329	Aerococcus christensenii	0.987878339907	Mixed	#cccccc
+23	Capnocytophaga sp. oral taxon 329	Aggregatibacter aphrophilus	0.987878339907	Mixed	#cccccc
+24	Capnocytophaga sp. oral taxon 329	Capnocytophaga gingivalis	0.999054596811	Supragingival_plaque	#ff8646
+25	Cardiobacterium valvarum	Abiotrophia defectiva	1.0	Mixed	#cccccc
+26	Cardiobacterium valvarum	Campylobacter concisus	1.0	Mixed	#cccccc
+27	Corynebacterium durum	Actinobaculum sp. oral taxon 183	0.996116490184	Mixed	#cccccc
+28	Corynebacterium durum	Actinomyces oris	1.0	Supragingival_plaque	#ff8646
+29	Corynebacterium durum	Actinomyces sp. oral taxon 170	1.0	Supragingival_plaque	#ff8646
+30	Corynebacterium durum	Actinomyces sp. oral taxon 175	0.904534033733	Supragingival_plaque	#ff8646
+31	Corynebacterium durum	Aerococcus christensenii	1.0	Mixed	#cccccc
+32	Corynebacterium durum	Aggregatibacter aphrophilus	1.0	Mixed	#cccccc
+33	Corynebacterium durum	Capnocytophaga gingivalis	0.98019605882	Supragingival_plaque	#ff8646
+34	Corynebacterium durum	Capnocytophaga sp. oral taxon 329	0.987878339907	Supragingival_plaque	#ff8646
+35	Corynebacterium matruchotii	Actinobaculum sp. oral taxon 183	0.987949511257	Mixed	#cccccc
+36	Corynebacterium matruchotii	Actinomyces massiliensis	0.981027233195	Supragingival_plaque	#ff8646
+37	Corynebacterium matruchotii	Actinomyces oris	0.997740110106	Supragingival_plaque	#ff8646
+38	Corynebacterium matruchotii	Actinomyces sp. oral taxon 170	0.997740110106	Supragingival_plaque	#ff8646
+39	Corynebacterium matruchotii	Actinomyces sp. oral taxon 175	0.873839413827	Supragingival_plaque	#ff8646
+40	Corynebacterium matruchotii	Aggregatibacter aphrophilus	0.997740110106	Mixed	#cccccc
+41	Corynebacterium matruchotii	Capnocytophaga gingivalis	0.991286786559	Supragingival_plaque	#ff8646
+42	Corynebacterium matruchotii	Capnocytophaga sp. oral taxon 329	0.996075958377	Supragingival_plaque	#ff8646
+43	Corynebacterium matruchotii	Corynebacterium durum	0.997740110106	Supragingival_plaque	#ff8646
+44	Corynebacterium pyruviciproducens	Actinobaculum sp. oral taxon 183	0.996116490184	Mixed	#cccccc
+45	Corynebacterium pyruviciproducens	Actinomyces massiliensis	0.991836598134	Mixed	#cccccc
+46	Corynebacterium pyruviciproducens	Actinomyces oris	1.0	Mixed	#cccccc
+47	Corynebacterium pyruviciproducens	Aerococcus christensenii	1.0	Mixed	#cccccc
+48	Corynebacterium pyruviciproducens	Aggregatibacter aphrophilus	1.0	Mixed	#cccccc
+49	Corynebacterium pyruviciproducens	Capnocytophaga gingivalis	0.98019605882	Mixed	#cccccc
+50	Corynebacterium pyruviciproducens	Capnocytophaga sp. oral taxon 329	0.987878339907	Mixed	#cccccc
+51	Corynebacterium pyruviciproducens	Corynebacterium durum	1.0	Mixed	#cccccc
+52	Corynebacterium pyruviciproducens	Corynebacterium matruchotii	0.997740110106	Mixed	#cccccc
+53	Cupriavidus basilensis	Comamonas testosteroni	1.0	Mid_vagina	#52f5cb
+54	Dialister micraerophilus	Actinobaculum sp. oral taxon 183	0.982476378076	Mixed	#cccccc
+55	Dialister micraerophilus	Actinomyces massiliensis	0.989100491961	Mixed	#cccccc
+56	Dialister micraerophilus	Actinomyces oris	0.962250448649	Mixed	#cccccc
+57	Dialister micraerophilus	Actinomyces sp. oral taxon 170	0.962250448649	Mixed	#cccccc
+58	Dialister micraerophilus	Actinomyces sp. oral taxon 175	0.986440050416	Mixed	#cccccc
+59	Dialister micraerophilus	Aerococcus christensenii	0.962250448649	Mixed	#cccccc
+60	Dialister micraerophilus	Aggregatibacter aphrophilus	0.962250448649	Saliva	#cbe486
+61	Dialister micraerophilus	Capnocytophaga sp. oral taxon 329	0.908338092418	Mixed	#cccccc
+62	Dialister micraerophilus	Corynebacterium durum	0.962250448649	Mixed	#cccccc
+63	Dialister micraerophilus	Corynebacterium pyruviciproducens	0.962250448649	Mixed	#cccccc
+64	Facklamia ignava	Capnocytophaga sputigena	1.0	Mixed	#cccccc
+65	Gardnerella vaginalis	Comamonas testosteroni	0.999666043271	Mixed	#cccccc
+66	Gardnerella vaginalis	Cupriavidus basilensis	0.999666043271	Mixed	#cccccc
+67	Haemophilus parainfluenzae	Capnocytophaga sputigena	1.0	Mixed	#cccccc
+68	Haemophilus parainfluenzae	Facklamia ignava	1.0	Mixed	#cccccc
+69	Herbaspirillum huttiense	Comamonas testosteroni	0.998114984186	Mixed	#cccccc
+70	Herbaspirillum huttiense	Cupriavidus basilensis	0.998114984186	Mixed	#cccccc
+71	Herbaspirillum huttiense	Gardnerella vaginalis	0.996277085486	Vaginal_introitus	#ff0000
+72	Herbaspirillum sp. B39	Comamonas testosteroni	1.0	Mixed	#cccccc
+73	Herbaspirillum sp. B39	Cupriavidus basilensis	1.0	Mixed	#cccccc
+74	Herbaspirillum sp. B39	Gardnerella vaginalis	0.999666043271	Vaginal_introitus	#ff0000
+75	Herbaspirillum sp. B39	Herbaspirillum huttiense	0.998114984186	Vaginal_introitus	#ff0000
+76	Kingella oralis	Actinomyces massiliensis	0.991836598134	Supragingival_plaque	#ff8646
+77	Kingella oralis	Actinomyces sp. oral taxon 170	1.0	Supragingival_plaque	#ff8646
+78	Kingella oralis	Aerococcus christensenii	1.0	Mixed	#cccccc
+79	Kingella oralis	Aggregatibacter aphrophilus	1.0	Mixed	#cccccc
+80	Kingella oralis	Capnocytophaga gingivalis	0.98019605882	Supragingival_plaque	#ff8646
+81	Kingella oralis	Corynebacterium durum	1.0	Supragingival_plaque	#ff8646
+82	Kingella oralis	Corynebacterium matruchotii	0.997740110106	Supragingival_plaque	#ff8646
+83	Kingella oralis	Corynebacterium pyruviciproducens	1.0	Mixed	#cccccc
+84	Kingella oralis	Dialister micraerophilus	0.962250448649	Mixed	#cccccc
+85	Lactobacillus coleohominis	Actinobaculum sp. oral taxon 183	0.983359647644	Mixed	#cccccc
+86	Lactobacillus coleohominis	Actinomyces massiliensis	0.975476529377	Mixed	#cccccc
+87	Lactobacillus coleohominis	Actinomyces oris	0.995307341538	Mixed	#cccccc
+88	Lactobacillus coleohominis	Actinomyces sp. oral taxon 170	0.995307341538	Mixed	#cccccc
+89	Lactobacillus coleohominis	Aerococcus christensenii	0.995307341538	Mixed	#cccccc
+90	Lactobacillus coleohominis	Aggregatibacter aphrophilus	0.995307341538	Mixed	#cccccc
+91	Lactobacillus coleohominis	Capnocytophaga gingivalis	0.993775147157	Mixed	#cccccc
+92	Lactobacillus coleohominis	Capnocytophaga sp. oral taxon 329	0.997492456492	Mixed	#cccccc
+93	Lactobacillus coleohominis	Corynebacterium durum	0.995307341538	Mixed	#cccccc
+94	Lactobacillus coleohominis	Corynebacterium matruchotii	0.999226118998	Mixed	#cccccc
+95	Lactobacillus coleohominis	Corynebacterium pyruviciproducens	0.995307341538	Mixed	#cccccc
+96	Lactobacillus coleohominis	Dialister micraerophilus	0.932750546306	Mixed	#cccccc
+97	Lactobacillus coleohominis	Kingella oralis	0.995307341538	Mixed	#cccccc
+98	Lactobacillus crispatus	Herbaspirillum sp. GW103	0.990867388614	Mixed	#cccccc
+99	Lactobacillus gasseri	Capnocytophaga sputigena	1.0	Mixed	#cccccc
+100	Lactobacillus gasseri	Facklamia ignava	1.0	Mixed	#cccccc
+101	Lactobacillus gasseri	Haemophilus parainfluenzae	1.0	Mixed	#cccccc
+102	Lactobacillus iners	Comamonas testosteroni	0.998355062459	Mixed	#cccccc
+103	Lactobacillus iners	Cupriavidus basilensis	0.998355062459	Mixed	#cccccc
+104	Lactobacillus iners	Gardnerella vaginalis	0.999379045963	Mixed	#cccccc
+105	Lactobacillus iners	Herbaspirillum huttiense	0.992968925952	Mixed	#cccccc
+106	Lactobacillus iners	Herbaspirillum sp. B39	0.998355062459	Mixed	#cccccc
+107	Lactobacillus jensenii	Actinobaculum sp. oral taxon 183	0.994681714002	Mixed	#cccccc
+108	Lactobacillus jensenii	Actinomyces massiliensis	0.9898103575	Mixed	#cccccc
+109	Lactobacillus jensenii	Actinomyces oris	0.999885235554	Mixed	#cccccc
+110	Lactobacillus jensenii	Actinomyces sp. oral taxon 170	0.999885235554	Mixed	#cccccc
+111	Lactobacillus jensenii	Aggregatibacter aphrophilus	0.999885235554	Mixed	#cccccc
+112	Lactobacillus jensenii	Capnocytophaga gingivalis	0.983053517365	Mixed	#cccccc
+113	Lactobacillus jensenii	Capnocytophaga sp. oral taxon 329	0.990093032174	Mixed	#cccccc
+114	Lactobacillus jensenii	Corynebacterium durum	0.999885235554	Mixed	#cccccc
+115	Lactobacillus jensenii	Corynebacterium matruchotii	0.998633307646	Mixed	#cccccc
+116	Lactobacillus jensenii	Corynebacterium pyruviciproducens	0.999885235554	Mixed	#cccccc
+117	Lactobacillus jensenii	Dialister micraerophilus	0.958058210379	Mixed	#cccccc
+118	Lactobacillus jensenii	Kingella oralis	0.999885235554	Mixed	#cccccc
+119	Lactobacillus jensenii	Lactobacillus coleohominis	0.996635424505	Mixed	#cccccc
+120	Lactobacillus kefiranofaciens	Cupriavidus basilensis	0.904534033733	Mixed	#cccccc
+121	Lactobacillus kefiranofaciens	Herbaspirillum huttiense	0.902828972776	Vaginal_introitus	#ff0000
+122	Lactobacillus kefiranofaciens	Lactobacillus iners	0.905259480106	Mixed	#cccccc
+123	Lactobacillus oris	Lactobacillus crispatus	0.990867388614	Mixed	#cccccc
+124	Lactobacillus reuteri	Herbaspirillum sp. GW103	1.0	Mixed	#cccccc
+125	Lactobacillus reuteri	Lactobacillus crispatus	0.990867388614	Mixed	#cccccc
+126	Lactobacillus reuteri	Lactobacillus oris	1.0	Posterior_fornix	#8efeac
+127	Lactobacillus vaginalis	Comamonas testosteroni	0.942809041582	Mixed	#cccccc
+128	Lactobacillus vaginalis	Cupriavidus basilensis	0.942809041582	Mixed	#cccccc
+129	Lactobacillus vaginalis	Gardnerella vaginalis	0.934322269267	Mixed	#cccccc
+130	Lactobacillus vaginalis	Herbaspirillum huttiense	0.96148904536	Mixed	#cccccc
+131	Lactobacillus vaginalis	Herbaspirillum sp. B39	0.942809041582	Mixed	#cccccc
+132	Lactobacillus vaginalis	Lactobacillus iners	0.922225385523	Posterior_fornix	#8efeac
+133	Lautropia mirabilis	Actinobaculum sp. oral taxon 183	0.998631073965	Mixed	#cccccc
+134	Lautropia mirabilis	Actinomyces massiliensis	0.999920290144	Supragingival_plaque	#ff8646
+135	Lautropia mirabilis	Aerococcus christensenii	0.990147542977	Mixed	#cccccc
+136	Lautropia mirabilis	Aggregatibacter aphrophilus	0.990147542977	Mixed	#cccccc
+137	Lautropia mirabilis	Capnocytophaga gingivalis	0.942809041582	Supragingival_plaque	#ff8646
+138	Lautropia mirabilis	Corynebacterium durum	0.990147542977	Supragingival_plaque	#ff8646
+139	Lautropia mirabilis	Corynebacterium matruchotii	0.978501252659	Supragingival_plaque	#ff8646
+140	Lautropia mirabilis	Dialister micraerophilus	0.990880714157	Mixed	#cccccc
+141	Lautropia mirabilis	Kingella oralis	0.990147542977	Supragingival_plaque	#ff8646
+142	Lautropia mirabilis	Lactobacillus coleohominis	0.972646756312	Mixed	#cccccc
+143	Lautropia mirabilis	Lactobacillus jensenii	0.987933837313	Mixed	#cccccc
+144	Lawsonella clevelandensis	Actinobaculum sp. oral taxon 183	0.996116490184	Mixed	#cccccc
+145	Lawsonella clevelandensis	Actinomyces massiliensis	0.991836598134	Mixed	#cccccc
+146	Lawsonella clevelandensis	Actinomyces oris	1.0	Mixed	#cccccc
+147	Lawsonella clevelandensis	Actinomyces sp. oral taxon 170	1.0	Mixed	#cccccc
+148	Lawsonella clevelandensis	Aerococcus christensenii	1.0	Mixed	#cccccc
+149	Lawsonella clevelandensis	Aggregatibacter aphrophilus	1.0	Mixed	#cccccc
+150	Lawsonella clevelandensis	Capnocytophaga gingivalis	0.98019605882	Mixed	#cccccc
+151	Lawsonella clevelandensis	Capnocytophaga sp. oral taxon 329	0.987878339907	Mixed	#cccccc
+152	Lawsonella clevelandensis	Corynebacterium matruchotii	0.997740110106	Mixed	#cccccc
+153	Lawsonella clevelandensis	Corynebacterium pyruviciproducens	1.0	Mixed	#cccccc
+154	Lawsonella clevelandensis	Kingella oralis	1.0	Mixed	#cccccc
+155	Lawsonella clevelandensis	Lactobacillus coleohominis	0.995307341538	Mixed	#cccccc
+156	Lawsonella clevelandensis	Lactobacillus jensenii	0.999885235554	Mixed	#cccccc
+157	Lawsonella clevelandensis	Lautropia mirabilis	0.990147542977	Mixed	#cccccc
+158	Mycobacterium abscessus	Comamonas testosteroni	0.962250448649	Mixed	#cccccc
+159	Mycobacterium abscessus	Cupriavidus basilensis	0.962250448649	Mixed	#cccccc
+160	Mycobacterium abscessus	Gardnerella vaginalis	0.955256758069	Vaginal_introitus	#ff0000
+161	Mycobacterium abscessus	Herbaspirillum huttiense	0.977139836404	Vaginal_introitus	#ff0000
+162	Mycobacterium abscessus	Herbaspirillum sp. B39	0.962250448649	Vaginal_introitus	#ff0000
+163	Mycobacterium abscessus	Lactobacillus iners	0.945127395477	Mixed	#cccccc
+164	Mycobacterium abscessus	Lactobacillus vaginalis	0.997940265578	Mixed	#cccccc
+165	Mycobacterium chelonae	Comamonas testosteroni	0.987878339907	Mid_vagina	#52f5cb
+166	Mycobacterium chelonae	Cupriavidus basilensis	0.987878339907	Mid_vagina	#52f5cb
+167	Mycobacterium chelonae	Gardnerella vaginalis	0.986279904081	Mixed	#cccccc
+168	Mycobacterium chelonae	Herbaspirillum huttiense	0.986016173614	Mixed	#cccccc
+169	Mycobacterium chelonae	Herbaspirillum sp. B39	0.987878339907	Mixed	#cccccc
+170	Mycobacterium chelonae	Lactobacillus iners	0.987059104274	Mixed	#cccccc
+171	Mycobacterium chelonae	Lactobacillus kefiranofaciens	0.959759918866	Mixed	#cccccc
+172	Mycobacterium chelonae	Lactobacillus vaginalis	0.931380630848	Mixed	#cccccc
+173	Mycobacterium chelonae	Mycobacterium abscessus	0.950586375787	Mixed	#cccccc
+174	Neisseria sp. oral taxon 014	Actinobaculum sp. oral taxon 183	0.996116490184	Mixed	#cccccc
+175	Neisseria sp. oral taxon 014	Actinomyces oris	1.0	Supragingival_plaque	#ff8646
+176	Neisseria sp. oral taxon 014	Actinomyces sp. oral taxon 170	1.0	Supragingival_plaque	#ff8646
+177	Neisseria sp. oral taxon 014	Actinomyces sp. oral taxon 175	0.904534033733	Supragingival_plaque	#ff8646
+178	Neisseria sp. oral taxon 014	Aerococcus christensenii	1.0	Mixed	#cccccc
+179	Neisseria sp. oral taxon 014	Capnocytophaga sp. oral taxon 329	0.987878339907	Supragingival_plaque	#ff8646
+180	Neisseria sp. oral taxon 014	Corynebacterium durum	1.0	Supragingival_plaque	#ff8646
+181	Neisseria sp. oral taxon 014	Corynebacterium matruchotii	0.997740110106	Supragingival_plaque	#ff8646
+182	Neisseria sp. oral taxon 014	Corynebacterium pyruviciproducens	1.0	Mixed	#cccccc
+183	Neisseria sp. oral taxon 014	Dialister micraerophilus	0.962250448649	Mixed	#cccccc
+184	Neisseria sp. oral taxon 014	Kingella oralis	1.0	Supragingival_plaque	#ff8646
+185	Neisseria sp. oral taxon 014	Lactobacillus coleohominis	0.995307341538	Mixed	#cccccc
+186	Neisseria sp. oral taxon 014	Lactobacillus jensenii	0.999885235554	Mixed	#cccccc
+187	Neisseria sp. oral taxon 014	Lautropia mirabilis	0.990147542977	Supragingival_plaque	#ff8646
+188	Neisseria sp. oral taxon 014	Lawsonella clevelandensis	1.0	Mixed	#cccccc
+189	Nocardia otitidiscaviarum	Herbaspirillum sp. GW103	1.0	Mixed	#cccccc
+190	Nocardia otitidiscaviarum	Lactobacillus crispatus	0.990867388614	Mid_vagina	#52f5cb
+191	Nocardia otitidiscaviarum	Lactobacillus oris	1.0	Mixed	#cccccc
+192	Nocardia otitidiscaviarum	Lactobacillus reuteri	1.0	Mixed	#cccccc
+193	Ottowia sp. oral taxon 894	Actinobaculum sp. oral taxon 183	0.996116490184	Mixed	#cccccc
+194	Ottowia sp. oral taxon 894	Actinomyces massiliensis	0.991836598134	Supragingival_plaque	#ff8646
+195	Ottowia sp. oral taxon 894	Actinomyces oris	1.0	Supragingival_plaque	#ff8646
+196	Ottowia sp. oral taxon 894	Actinomyces sp. oral taxon 170	1.0	Supragingival_plaque	#ff8646
+197	Ottowia sp. oral taxon 894	Actinomyces sp. oral taxon 175	0.904534033733	Supragingival_plaque	#ff8646
+198	Ottowia sp. oral taxon 894	Aerococcus christensenii	1.0	Mixed	#cccccc
+199	Ottowia sp. oral taxon 894	Aggregatibacter aphrophilus	1.0	Mixed	#cccccc
+200	Ottowia sp. oral taxon 894	Capnocytophaga sp. oral taxon 329	0.987878339907	Supragingival_plaque	#ff8646
+201	Ottowia sp. oral taxon 894	Corynebacterium durum	1.0	Supragingival_plaque	#ff8646
+202	Ottowia sp. oral taxon 894	Corynebacterium matruchotii	0.997740110106	Supragingival_plaque	#ff8646
+203	Ottowia sp. oral taxon 894	Corynebacterium pyruviciproducens	1.0	Mixed	#cccccc
+204	Ottowia sp. oral taxon 894	Dialister micraerophilus	0.962250448649	Mixed	#cccccc
+205	Ottowia sp. oral taxon 894	Kingella oralis	1.0	Supragingival_plaque	#ff8646
+206	Ottowia sp. oral taxon 894	Lactobacillus jensenii	0.999885235554	Mixed	#cccccc
+207	Ottowia sp. oral taxon 894	Lautropia mirabilis	0.990147542977	Supragingival_plaque	#ff8646
+208	Ottowia sp. oral taxon 894	Neisseria sp. oral taxon 014	1.0	Supragingival_plaque	#ff8646
+209	Peptoniphilus harei	Lactobacillus ultunensis	1.0	Mixed	#cccccc
+210	Peptoniphilus sp. BV3AC2	Comamonas testosteroni	0.904534033733	Mixed	#cccccc
+211	Peptoniphilus sp. BV3AC2	Cupriavidus basilensis	0.904534033733	Mixed	#cccccc
+212	Peptoniphilus sp. BV3AC2	Gardnerella vaginalis	0.900747442289	Mixed	#cccccc
+213	Peptoniphilus sp. BV3AC2	Herbaspirillum huttiense	0.902828972776	Mixed	#cccccc
+214	Peptoniphilus sp. BV3AC2	Lactobacillus kefiranofaciens	1.0	Mixed	#cccccc
+215	Peptoniphilus sp. BV3AC2	Mycobacterium chelonae	0.959759918866	Mixed	#cccccc
+216	Porphyromonas catoniae	Actinobaculum sp. oral taxon 183	0.996116490184	Subgingival_plaque	#ffac5c
+217	Porphyromonas catoniae	Actinomyces massiliensis	0.991836598134	Mixed	#cccccc
+218	Porphyromonas catoniae	Actinomyces oris	1.0	Mixed	#cccccc
+219	Porphyromonas catoniae	Actinomyces sp. oral taxon 170	1.0	Mixed	#cccccc
+220	Porphyromonas catoniae	Aerococcus christensenii	1.0	Mixed	#cccccc
+221	Porphyromonas catoniae	Aggregatibacter aphrophilus	1.0	Mixed	#cccccc
+222	Porphyromonas catoniae	Corynebacterium durum	1.0	Mixed	#cccccc
+223	Porphyromonas catoniae	Corynebacterium matruchotii	0.997740110106	Mixed	#cccccc
+224	Porphyromonas catoniae	Corynebacterium pyruviciproducens	1.0	Mixed	#cccccc
+225	Porphyromonas catoniae	Dialister micraerophilus	0.962250448649	Mixed	#cccccc
+226	Porphyromonas catoniae	Kingella oralis	1.0	Mixed	#cccccc
+227	Porphyromonas catoniae	Lactobacillus coleohominis	0.995307341538	Mixed	#cccccc
+228	Porphyromonas catoniae	Lactobacillus jensenii	0.999885235554	Mixed	#cccccc
+229	Porphyromonas catoniae	Lautropia mirabilis	0.990147542977	Mixed	#cccccc
+230	Porphyromonas catoniae	Lawsonella clevelandensis	1.0	Mixed	#cccccc
+231	Porphyromonas catoniae	Neisseria sp. oral taxon 014	1.0	Mixed	#cccccc
+232	Porphyromonas catoniae	Ottowia sp. oral taxon 894	1.0	Mixed	#cccccc
+233	Prevotella bergensis	Abiotrophia defectiva	1.0	Mixed	#cccccc
+234	Prevotella bergensis	Actinomyces sp. oral taxon 175	0.870388279778	Mixed	#cccccc
+235	Prevotella bergensis	Campylobacter concisus	1.0	Mixed	#cccccc
+236	Prevotella bergensis	Cardiobacterium valvarum	1.0	Mixed	#cccccc
+237	Prevotella bivia	Actinomyces oris	0.962250448649	Mixed	#cccccc
+238	Prevotella bivia	Actinomyces sp. oral taxon 170	0.962250448649	Mixed	#cccccc
+239	Prevotella bivia	Aerococcus christensenii	0.962250448649	Mixed	#cccccc
+240	Prevotella bivia	Aggregatibacter aphrophilus	0.962250448649	Saliva	#cbe486
+241	Prevotella bivia	Capnocytophaga gingivalis	0.943194097364	Mixed	#cccccc
+242	Prevotella bivia	Corynebacterium durum	0.962250448649	Mixed	#cccccc
+243	Prevotella bivia	Corynebacterium matruchotii	0.960075868585	Mixed	#cccccc
+244	Prevotella bivia	Dialister micraerophilus	0.925925925926	Saliva	#cbe486
+245	Prevotella bivia	Kingella oralis	0.962250448649	Mixed	#cccccc
+246	Prevotella bivia	Lactobacillus coleohominis	0.966063065817	Mixed	#cccccc
+247	Prevotella bivia	Lactobacillus jensenii	0.962723131671	Mixed	#cccccc
+248	Prevotella bivia	Lautropia mirabilis	0.952769917458	Mixed	#cccccc
+249	Prevotella bivia	Lawsonella clevelandensis	0.962250448649	Mixed	#cccccc
+250	Prevotella bivia	Neisseria sp. oral taxon 014	0.962250448649	Mixed	#cccccc
+251	Prevotella bivia	Ottowia sp. oral taxon 894	0.962250448649	Mixed	#cccccc
+252	Prevotella bivia	Porphyromonas catoniae	0.962250448649	Mixed	#cccccc
+253	Prevotella buccalis	Actinobaculum sp. oral taxon 183	0.996116490184	Mixed	#cccccc
+254	Prevotella buccalis	Actinomyces massiliensis	0.991836598134	Mixed	#cccccc
+255	Prevotella buccalis	Actinomyces oris	1.0	Mixed	#cccccc
+256	Prevotella buccalis	Actinomyces sp. oral taxon 170	1.0	Mixed	#cccccc
+257	Prevotella buccalis	Actinomyces sp. oral taxon 175	0.904534033733	Mixed	#cccccc
+258	Prevotella buccalis	Aerococcus christensenii	1.0	Mixed	#cccccc
+259	Prevotella buccalis	Aggregatibacter aphrophilus	1.0	Mixed	#cccccc
+260	Prevotella buccalis	Capnocytophaga sp. oral taxon 329	0.987878339907	Mixed	#cccccc
+261	Prevotella buccalis	Corynebacterium durum	1.0	Mixed	#cccccc
+262	Prevotella buccalis	Corynebacterium matruchotii	0.997740110106	Mixed	#cccccc
+263	Prevotella buccalis	Corynebacterium pyruviciproducens	1.0	Mixed	#cccccc
+264	Prevotella buccalis	Dialister micraerophilus	0.962250448649	Mixed	#cccccc
+265	Prevotella buccalis	Kingella oralis	1.0	Mixed	#cccccc
+266	Prevotella buccalis	Lactobacillus coleohominis	0.995307341538	Mixed	#cccccc
+267	Prevotella buccalis	Lactobacillus jensenii	0.999885235554	Mixed	#cccccc
+268	Prevotella buccalis	Lautropia mirabilis	0.990147542977	Mixed	#cccccc
+269	Prevotella buccalis	Lawsonella clevelandensis	1.0	Mixed	#cccccc
+270	Prevotella buccalis	Neisseria sp. oral taxon 014	1.0	Mixed	#cccccc
+271	Prevotella buccalis	Ottowia sp. oral taxon 894	1.0	Mixed	#cccccc
+272	Prevotella buccalis	Porphyromonas catoniae	1.0	Mixed	#cccccc
+273	Prevotella buccalis	Prevotella bivia	0.962250448649	Mixed	#cccccc
+274	Prevotella disiens	Actinomyces massiliensis	0.991836598134	Mixed	#cccccc
+275	Prevotella disiens	Actinomyces oris	1.0	Mixed	#cccccc
+276	Prevotella disiens	Actinomyces sp. oral taxon 170	1.0	Mixed	#cccccc
+277	Prevotella disiens	Actinomyces sp. oral taxon 175	0.904534033733	Mixed	#cccccc
+278	Prevotella disiens	Aerococcus christensenii	1.0	Mixed	#cccccc
+279	Prevotella disiens	Aggregatibacter aphrophilus	1.0	Mixed	#cccccc
+280	Prevotella disiens	Capnocytophaga gingivalis	0.98019605882	Mixed	#cccccc
+281	Prevotella disiens	Capnocytophaga sp. oral taxon 329	0.987878339907	Mixed	#cccccc
+282	Prevotella disiens	Corynebacterium durum	1.0	Mixed	#cccccc
+283	Prevotella disiens	Corynebacterium matruchotii	0.997740110106	Mixed	#cccccc
+284	Prevotella disiens	Corynebacterium pyruviciproducens	1.0	Mixed	#cccccc
+285	Prevotella disiens	Dialister micraerophilus	0.962250448649	Mixed	#cccccc
+286	Prevotella disiens	Kingella oralis	1.0	Mixed	#cccccc
+287	Prevotella disiens	Lactobacillus coleohominis	0.995307341538	Mixed	#cccccc
+288	Prevotella disiens	Lactobacillus jensenii	0.999885235554	Mixed	#cccccc
+289	Prevotella disiens	Lautropia mirabilis	0.990147542977	Mixed	#cccccc
+290	Prevotella disiens	Lawsonella clevelandensis	1.0	Mixed	#cccccc
+291	Prevotella disiens	Neisseria sp. oral taxon 014	1.0	Mixed	#cccccc
+292	Prevotella disiens	Ottowia sp. oral taxon 894	1.0	Mixed	#cccccc
+293	Prevotella disiens	Porphyromonas catoniae	1.0	Mixed	#cccccc
+294	Prevotella disiens	Prevotella bivia	0.962250448649	Mixed	#cccccc
+295	Prevotella disiens	Prevotella buccalis	1.0	Mixed	#cccccc
+296	Prevotella timonensis	Actinobaculum sp. oral taxon 183	0.982476378076	Mixed	#cccccc
+297	Prevotella timonensis	Actinomyces massiliensis	0.989100491961	Mixed	#cccccc
+298	Prevotella timonensis	Actinomyces oris	0.962250448649	Mixed	#cccccc
+299	Prevotella timonensis	Actinomyces sp. oral taxon 170	0.962250448649	Mixed	#cccccc
+300	Prevotella timonensis	Actinomyces sp. oral taxon 175	0.986440050416	Mixed	#cccccc
+301	Prevotella timonensis	Aerococcus christensenii	0.962250448649	Mixed	#cccccc
+302	Prevotella timonensis	Aggregatibacter aphrophilus	0.962250448649	Mixed	#cccccc
+303	Prevotella timonensis	Capnocytophaga sp. oral taxon 329	0.908338092418	Mixed	#cccccc
+304	Prevotella timonensis	Corynebacterium durum	0.962250448649	Mixed	#cccccc
+305	Prevotella timonensis	Corynebacterium matruchotii	0.941788709183	Mixed	#cccccc
+306	Prevotella timonensis	Corynebacterium pyruviciproducens	0.962250448649	Mixed	#cccccc
+307	Prevotella timonensis	Dialister micraerophilus	1.0	Mixed	#cccccc
+308	Prevotella timonensis	Kingella oralis	0.962250448649	Mixed	#cccccc
+309	Prevotella timonensis	Lactobacillus coleohominis	0.932750546306	Mixed	#cccccc
+310	Prevotella timonensis	Lactobacillus jensenii	0.958058210379	Mixed	#cccccc
+311	Prevotella timonensis	Lautropia mirabilis	0.990880714157	Mixed	#cccccc
+312	Prevotella timonensis	Lawsonella clevelandensis	0.962250448649	Anterior_nares	#8000ff
+313	Prevotella timonensis	Neisseria sp. oral taxon 014	0.962250448649	Mixed	#cccccc
+314	Prevotella timonensis	Ottowia sp. oral taxon 894	0.962250448649	Mixed	#cccccc
+315	Prevotella timonensis	Porphyromonas catoniae	0.962250448649	Mixed	#cccccc
+316	Prevotella timonensis	Prevotella buccalis	0.962250448649	Mixed	#cccccc
+317	Prevotella timonensis	Prevotella disiens	0.962250448649	Mixed	#cccccc
+318	Propionibacterium propionicum	Actinobaculum sp. oral taxon 183	0.999903896977	Subgingival_plaque	#ffac5c
+319	Propionibacterium propionicum	Actinomyces massiliensis	0.998565568439	Mixed	#cccccc
+320	Propionibacterium propionicum	Actinomyces oris	0.997241374055	Mixed	#cccccc
+321	Propionibacterium propionicum	Actinomyces sp. oral taxon 170	0.997241374055	Mixed	#cccccc
+322	Propionibacterium propionicum	Actinomyces sp. oral taxon 175	0.933689245581	Mixed	#cccccc
+323	Propionibacterium propionicum	Aerococcus christensenii	0.997241374055	Mixed	#cccccc
+324	Propionibacterium propionicum	Aggregatibacter aphrophilus	0.997241374055	Mixed	#cccccc
+325	Propionibacterium propionicum	Capnocytophaga sp. oral taxon 329	0.973630893988	Mixed	#cccccc
+326	Propionibacterium propionicum	Corynebacterium durum	0.997241374055	Mixed	#cccccc
+327	Propionibacterium propionicum	Corynebacterium matruchotii	0.990000311242	Mixed	#cccccc
+328	Propionibacterium propionicum	Corynebacterium pyruviciproducens	0.997241374055	Mixed	#cccccc
+329	Propionibacterium propionicum	Dialister micraerophilus	0.979797979798	Mixed	#cccccc
+330	Propionibacterium propionicum	Lactobacillus coleohominis	0.985747736437	Mixed	#cccccc
+331	Propionibacterium propionicum	Lactobacillus jensenii	0.996013706347	Mixed	#cccccc
+332	Propionibacterium propionicum	Lautropia mirabilis	0.99780994992	Mixed	#cccccc
+333	Propionibacterium propionicum	Lawsonella clevelandensis	0.997241374055	Mixed	#cccccc
+334	Propionibacterium propionicum	Neisseria sp. oral taxon 014	0.997241374055	Mixed	#cccccc
+335	Propionibacterium propionicum	Ottowia sp. oral taxon 894	0.997241374055	Mixed	#cccccc
+336	Propionibacterium propionicum	Porphyromonas catoniae	0.997241374055	Subgingival_plaque	#ffac5c
+337	Propionibacterium propionicum	Prevotella bivia	0.959595959596	Mixed	#cccccc
+338	Propionibacterium propionicum	Prevotella disiens	0.997241374055	Mixed	#cccccc
+339	Propionibacterium propionicum	Prevotella timonensis	0.979797979798	Mixed	#cccccc
+340	Pseudomonas fluorescens	Comamonas testosteroni	0.996272507219	Mixed	#cccccc
+341	Pseudomonas fluorescens	Cupriavidus basilensis	0.996272507219	Mixed	#cccccc
+342	Pseudomonas fluorescens	Gardnerella vaginalis	0.993825024011	Vaginal_introitus	#ff0000
+343	Pseudomonas fluorescens	Herbaspirillum huttiense	0.999688543615	Vaginal_introitus	#ff0000
+344	Pseudomonas fluorescens	Herbaspirillum sp. B39	0.996272507219	Vaginal_introitus	#ff0000
+345	Pseudomonas fluorescens	Lactobacillus iners	0.989708294187	Mixed	#cccccc
+346	Pseudomonas fluorescens	Lactobacillus vaginalis	0.968048647921	Mixed	#cccccc
+347	Pseudomonas fluorescens	Mycobacterium abscessus	0.982141144609	Vaginal_introitus	#ff0000
+348	Pseudomonas fluorescens	Mycobacterium chelonae	0.984196030526	Mixed	#cccccc
+349	Pseudomonas fluorescens	Peptoniphilus sp. BV3AC2	0.901162389652	Mixed	#cccccc
+350	Pseudomonas frederiksbergensis	Herbaspirillum sp. GW103	1.0	Vaginal_introitus	#ff0000
+351	Pseudomonas frederiksbergensis	Lactobacillus crispatus	0.990867388614	Mixed	#cccccc
+352	Pseudomonas frederiksbergensis	Lactobacillus reuteri	1.0	Mixed	#cccccc
+353	Pseudomonas frederiksbergensis	Nocardia otitidiscaviarum	1.0	Mixed	#cccccc
+354	Pseudomonas mandelii	Comamonas testosteroni	0.904534033733	Mixed	#cccccc
+355	Pseudomonas mandelii	Herbaspirillum huttiense	0.928997928508	Vaginal_introitus	#ff0000
+356	Pseudomonas mandelii	Lactobacillus iners	0.878699299761	Mixed	#cccccc
+357	Pseudomonas mandelii	Lactobacillus vaginalis	0.994936676326	Mixed	#cccccc
+358	Pseudomonas mandelii	Mycobacterium abscessus	0.986440050416	Vaginal_introitus	#ff0000
+359	Pseudomonas mandelii	Pseudomonas fluorescens	0.937944528005	Vaginal_introitus	#ff0000
+360	Pseudomonas orientalis	Lactobacillus helveticus	1.0	Mixed	#cccccc
+361	Pseudomonas sp. Ag1	Comamonas testosteroni	1.0	Mixed	#cccccc
+362	Pseudomonas sp. Ag1	Cupriavidus basilensis	1.0	Mixed	#cccccc
+363	Pseudomonas sp. Ag1	Gardnerella vaginalis	0.999666043271	Vaginal_introitus	#ff0000
+364	Pseudomonas sp. Ag1	Herbaspirillum huttiense	0.998114984186	Vaginal_introitus	#ff0000
+365	Pseudomonas sp. Ag1	Herbaspirillum sp. B39	1.0	Vaginal_introitus	#ff0000
+366	Pseudomonas sp. Ag1	Lactobacillus iners	0.998355062459	Mixed	#cccccc
+367	Pseudomonas sp. Ag1	Lactobacillus vaginalis	0.942809041582	Mixed	#cccccc
+368	Pseudomonas sp. Ag1	Mycobacterium chelonae	0.987878339907	Mixed	#cccccc
+369	Pseudomonas sp. Ag1	Pseudomonas fluorescens	0.996272507219	Vaginal_introitus	#ff0000
+370	Pseudomonas sp. Ag1	Pseudomonas mandelii	0.904534033733	Vaginal_introitus	#ff0000
+371	Pseudomonas sp. DSM 29167	Comamonas testosteroni	1.0	Mid_vagina	#52f5cb
+372	Pseudomonas sp. DSM 29167	Cupriavidus basilensis	1.0	Mid_vagina	#52f5cb
+373	Pseudomonas sp. DSM 29167	Gardnerella vaginalis	0.999666043271	Mixed	#cccccc
+374	Pseudomonas sp. DSM 29167	Herbaspirillum huttiense	0.998114984186	Mixed	#cccccc
+375	Pseudomonas sp. DSM 29167	Herbaspirillum sp. B39	1.0	Mixed	#cccccc
+376	Pseudomonas sp. DSM 29167	Lactobacillus iners	0.998355062459	Mixed	#cccccc
+377	Pseudomonas sp. DSM 29167	Lactobacillus kefiranofaciens	0.904534033733	Mixed	#cccccc
+378	Pseudomonas sp. DSM 29167	Lactobacillus vaginalis	0.942809041582	Mixed	#cccccc
+379	Pseudomonas sp. DSM 29167	Mycobacterium abscessus	0.962250448649	Mixed	#cccccc
+380	Pseudomonas sp. DSM 29167	Pseudomonas fluorescens	0.996272507219	Mixed	#cccccc
+381	Pseudomonas sp. DSM 29167	Pseudomonas sp. Ag1	1.0	Mixed	#cccccc
+382	Pseudomonas sp. Eur1 9.41	Comamonas testosteroni	1.0	Mixed	#cccccc
+383	Pseudomonas sp. Eur1 9.41	Herbaspirillum huttiense	0.998114984186	Vaginal_introitus	#ff0000
+384	Pseudomonas sp. Eur1 9.41	Herbaspirillum sp. B39	1.0	Vaginal_introitus	#ff0000
+385	Pseudomonas sp. Eur1 9.41	Lactobacillus iners	0.998355062459	Mixed	#cccccc
+386	Pseudomonas sp. Eur1 9.41	Lactobacillus kefiranofaciens	0.904534033733	Vaginal_introitus	#ff0000
+387	Pseudomonas sp. Eur1 9.41	Lactobacillus vaginalis	0.942809041582	Mixed	#cccccc
+388	Pseudomonas sp. Eur1 9.41	Mycobacterium abscessus	0.962250448649	Vaginal_introitus	#ff0000
+389	Pseudomonas sp. Eur1 9.41	Mycobacterium chelonae	0.987878339907	Mixed	#cccccc
+390	Pseudomonas sp. Eur1 9.41	Peptoniphilus sp. BV3AC2	0.904534033733	Mixed	#cccccc
+391	Pseudomonas sp. Eur1 9.41	Pseudomonas fluorescens	0.996272507219	Vaginal_introitus	#ff0000
+392	Pseudomonas sp. Eur1 9.41	Pseudomonas mandelii	0.904534033733	Vaginal_introitus	#ff0000
+393	Pseudomonas sp. Eur1 9.41	Pseudomonas sp. Ag1	1.0	Vaginal_introitus	#ff0000
+394	Pseudomonas sp. Eur1 9.41	Pseudomonas sp. DSM 29167	1.0	Mixed	#cccccc
+395	Pseudomonas sp. FH1	Cupriavidus basilensis	0.904534033733	Mixed	#cccccc
+396	Pseudomonas sp. FH1	Herbaspirillum huttiense	0.928997928508	Vaginal_introitus	#ff0000
+397	Pseudomonas sp. FH1	Herbaspirillum sp. B39	0.904534033733	Vaginal_introitus	#ff0000
+398	Pseudomonas sp. FH1	Herbaspirillum sp. GW103	0.870388279778	Vaginal_introitus	#ff0000
+399	Pseudomonas sp. FH1	Lactobacillus vaginalis	0.994936676326	Mixed	#cccccc
+400	Pseudomonas sp. FH1	Mycobacterium abscessus	0.986440050416	Vaginal_introitus	#ff0000
+401	Pseudomonas sp. FH1	Pseudomonas mandelii	1.0	Vaginal_introitus	#ff0000
+402	Pseudomonas sp. FH1	Pseudomonas sp. DSM 29167	0.904534033733	Mixed	#cccccc
+403	Pseudomonas sp. NBRC 111132	Comamonas testosteroni	0.999583766891	Mixed	#cccccc
+404	Pseudomonas sp. NBRC 111132	Cupriavidus basilensis	0.999583766891	Mixed	#cccccc
+405	Pseudomonas sp. NBRC 111132	Gardnerella vaginalis	0.998542682481	Vaginal_introitus	#ff0000
+406	Pseudomonas sp. NBRC 111132	Herbaspirillum huttiense	0.99947007612	Vaginal_introitus	#ff0000
+407	Pseudomonas sp. NBRC 111132	Herbaspirillum sp. B39	0.999583766891	Vaginal_introitus	#ff0000
+408	Pseudomonas sp. NBRC 111132	Lactobacillus iners	0.996292254926	Mixed	#cccccc
+409	Pseudomonas sp. NBRC 111132	Lactobacillus vaginalis	0.952033109297	Mixed	#cccccc
+410	Pseudomonas sp. NBRC 111132	Mycobacterium abscessus	0.969701764302	Vaginal_introitus	#ff0000
+411	Pseudomonas sp. NBRC 111132	Mycobacterium chelonae	0.987467152235	Mixed	#cccccc
+412	Pseudomonas sp. NBRC 111132	Peptoniphilus sp. BV3AC2	0.904157536721	Mixed	#cccccc
+413	Pseudomonas sp. NBRC 111132	Pseudomonas mandelii	0.916458999805	Vaginal_introitus	#ff0000
+414	Pseudomonas sp. NBRC 111132	Pseudomonas sp. Ag1	0.999583766891	Vaginal_introitus	#ff0000
+415	Pseudomonas sp. NBRC 111132	Pseudomonas sp. DSM 29167	0.999583766891	Mixed	#cccccc
+416	Pseudomonas sp. NBRC 111132	Pseudomonas sp. Eur1 9.41	0.999583766891	Vaginal_introitus	#ff0000
+417	Pseudomonas sp. NBRC 111132	Pseudomonas sp. FH1	0.916458999805	Vaginal_introitus	#ff0000
+418	Pseudomonas sp. NBRC 111134	Gardnerella vaginalis	0.91468550716	Vaginal_introitus	#ff0000
+419	Pseudomonas sp. NBRC 111134	Herbaspirillum sp. B39	0.904534033733	Vaginal_introitus	#ff0000
+420	Pseudomonas sp. NBRC 111134	Lactobacillus iners	0.927392963727	Mixed	#cccccc
+421	Pseudomonas sp. NBRC 111134	Pseudomonas sp. DSM 29167	0.904534033733	Mixed	#cccccc
+422	Pseudomonas sp. Root9	Cupriavidus basilensis	0.98019605882	Mixed	#cccccc
+423	Pseudomonas sp. Root9	Gardnerella vaginalis	0.984723556621	Vaginal_introitus	#ff0000
+424	Pseudomonas sp. Root9	Lactobacillus iners	0.989890862097	Mixed	#cccccc
+425	Pseudomonas sp. Root9	Mycobacterium chelonae	0.96831445537	Mixed	#cccccc
+426	Pseudomonas sp. Root9	Pseudomonas fluorescens	0.959460011003	Vaginal_introitus	#ff0000
+427	Pseudomonas sp. Root9	Pseudomonas sp. Ag1	0.98019605882	Vaginal_introitus	#ff0000
+428	Pseudomonas sp. Root9	Pseudomonas sp. DSM 29167	0.98019605882	Mixed	#cccccc
+429	Pseudomonas sp. Root9	Pseudomonas sp. Eur1 9.41	0.98019605882	Vaginal_introitus	#ff0000
+430	Pseudomonas sp. Root9	Pseudomonas sp. NBRC 111132	0.974075018803	Vaginal_introitus	#ff0000
+431	Pseudomonas sp. Root9	Pseudomonas sp. NBRC 111134	0.971060761118	Vaginal_introitus	#ff0000
+432	Pseudomonas synxantha	Comamonas testosteroni	1.0	Mixed	#cccccc
+433	Pseudomonas synxantha	Cupriavidus basilensis	1.0	Mixed	#cccccc
+434	Pseudomonas synxantha	Gardnerella vaginalis	0.999666043271	Vaginal_introitus	#ff0000
+435	Pseudomonas synxantha	Herbaspirillum sp. B39	1.0	Vaginal_introitus	#ff0000
+436	Pseudomonas synxantha	Lactobacillus iners	0.998355062459	Mixed	#cccccc
+437	Pseudomonas synxantha	Lactobacillus kefiranofaciens	0.904534033733	Vaginal_introitus	#ff0000
+438	Pseudomonas synxantha	Lactobacillus vaginalis	0.942809041582	Mixed	#cccccc
+439	Pseudomonas synxantha	Mycobacterium abscessus	0.962250448649	Vaginal_introitus	#ff0000
+440	Pseudomonas synxantha	Mycobacterium chelonae	0.987878339907	Mixed	#cccccc
+441	Pseudomonas synxantha	Peptoniphilus sp. BV3AC2	0.904534033733	Mixed	#cccccc
+442	Pseudomonas synxantha	Pseudomonas fluorescens	0.996272507219	Vaginal_introitus	#ff0000
+443	Pseudomonas synxantha	Pseudomonas mandelii	0.904534033733	Vaginal_introitus	#ff0000
+444	Pseudomonas synxantha	Pseudomonas sp. Ag1	1.0	Vaginal_introitus	#ff0000
+445	Pseudomonas synxantha	Pseudomonas sp. DSM 29167	1.0	Mixed	#cccccc
+446	Pseudomonas synxantha	Pseudomonas sp. Eur1 9.41	1.0	Vaginal_introitus	#ff0000
+447	Pseudomonas synxantha	Pseudomonas sp. FH1	0.904534033733	Vaginal_introitus	#ff0000
+448	Pseudomonas synxantha	Pseudomonas sp. NBRC 111132	0.999583766891	Vaginal_introitus	#ff0000
+449	Pseudomonas synxantha	Pseudomonas sp. Root9	0.98019605882	Vaginal_introitus	#ff0000
+450	Rothia aeria	Actinobaculum sp. oral taxon 183	0.996116490184	Mixed	#cccccc
+451	Rothia aeria	Actinomyces massiliensis	0.991836598134	Supragingival_plaque	#ff8646
+452	Rothia aeria	Actinomyces oris	1.0	Supragingival_plaque	#ff8646
+453	Rothia aeria	Actinomyces sp. oral taxon 170	1.0	Supragingival_plaque	#ff8646
+454	Rothia aeria	Aerococcus christensenii	1.0	Mixed	#cccccc
+455	Rothia aeria	Aggregatibacter aphrophilus	1.0	Mixed	#cccccc
+456	Rothia aeria	Capnocytophaga gingivalis	0.98019605882	Supragingival_plaque	#ff8646
+457	Rothia aeria	Capnocytophaga sp. oral taxon 329	0.987878339907	Supragingival_plaque	#ff8646
+458	Rothia aeria	Corynebacterium durum	1.0	Supragingival_plaque	#ff8646
+459	Rothia aeria	Corynebacterium matruchotii	0.997740110106	Supragingival_plaque	#ff8646
+460	Rothia aeria	Corynebacterium pyruviciproducens	1.0	Mixed	#cccccc
+461	Rothia aeria	Dialister micraerophilus	0.962250448649	Mixed	#cccccc
+462	Rothia aeria	Kingella oralis	1.0	Supragingival_plaque	#ff8646
+463	Rothia aeria	Lactobacillus coleohominis	0.995307341538	Mixed	#cccccc
+464	Rothia aeria	Lactobacillus jensenii	0.999885235554	Mixed	#cccccc
+465	Rothia aeria	Lautropia mirabilis	0.990147542977	Supragingival_plaque	#ff8646
+466	Rothia aeria	Lawsonella clevelandensis	1.0	Mixed	#cccccc
+467	Rothia aeria	Neisseria sp. oral taxon 014	1.0	Supragingival_plaque	#ff8646
+468	Rothia aeria	Ottowia sp. oral taxon 894	1.0	Supragingival_plaque	#ff8646
+469	Rothia aeria	Porphyromonas catoniae	1.0	Mixed	#cccccc
+470	Rothia aeria	Prevotella bivia	0.962250448649	Mixed	#cccccc
+471	Rothia aeria	Prevotella buccalis	1.0	Mixed	#cccccc
+472	Rothia aeria	Prevotella disiens	1.0	Mixed	#cccccc
+473	Rothia aeria	Prevotella timonensis	0.962250448649	Mixed	#cccccc
+474	Rothia aeria	Propionibacterium propionicum	0.997241374055	Mixed	#cccccc
+475	Rothia dentocariosa	Actinobaculum sp. oral taxon 183	0.999982925101	Mixed	#cccccc
+476	Rothia dentocariosa	Actinomyces massiliensis	0.999426790337	Supragingival_plaque	#ff8646
+477	Rothia dentocariosa	Actinomyces oris	0.9955849674	Supragingival_plaque	#ff8646
+478	Rothia dentocariosa	Actinomyces sp. oral taxon 170	0.9955849674	Supragingival_plaque	#ff8646
+479	Rothia dentocariosa	Actinomyces sp. oral taxon 175	0.940564508108	Supragingival_plaque	#ff8646
+480	Rothia dentocariosa	Aerococcus christensenii	0.9955849674	Mixed	#cccccc
+481	Rothia dentocariosa	Aggregatibacter aphrophilus	0.9955849674	Mixed	#cccccc
+482	Rothia dentocariosa	Capnocytophaga gingivalis	0.957280490575	Supragingival_plaque	#ff8646
+483	Rothia dentocariosa	Capnocytophaga sp. oral taxon 329	0.968946205205	Supragingival_plaque	#ff8646
+484	Rothia dentocariosa	Corynebacterium durum	0.9955849674	Supragingival_plaque	#ff8646
+485	Rothia dentocariosa	Corynebacterium matruchotii	0.987028165755	Supragingival_plaque	#ff8646
+486	Rothia dentocariosa	Corynebacterium pyruviciproducens	0.9955849674	Mixed	#cccccc
+487	Rothia dentocariosa	Dialister micraerophilus	0.983548803724	Mixed	#cccccc
+488	Rothia dentocariosa	Kingella oralis	0.9955849674	Supragingival_plaque	#ff8646
+489	Rothia dentocariosa	Lactobacillus coleohominis	0.982296392159	Mixed	#cccccc
+490	Rothia dentocariosa	Lactobacillus jensenii	0.994062973285	Mixed	#cccccc
+491	Rothia dentocariosa	Lautropia mirabilis	0.99891968942	Supragingival_plaque	#ff8646
+492	Rothia dentocariosa	Lawsonella clevelandensis	0.9955849674	Mixed	#cccccc
+493	Rothia dentocariosa	Neisseria sp. oral taxon 014	0.9955849674	Supragingival_plaque	#ff8646
+494	Rothia dentocariosa	Ottowia sp. oral taxon 894	0.9955849674	Supragingival_plaque	#ff8646
+495	Rothia dentocariosa	Porphyromonas catoniae	0.9955849674	Mixed	#cccccc
+496	Rothia dentocariosa	Prevotella bivia	0.958002081549	Mixed	#cccccc
+497	Rothia dentocariosa	Prevotella buccalis	0.9955849674	Mixed	#cccccc
+498	Rothia dentocariosa	Prevotella disiens	0.9955849674	Mixed	#cccccc
+499	Rothia dentocariosa	Prevotella timonensis	0.983548803724	Mixed	#cccccc
+500	Rothia dentocariosa	Rothia aeria	0.9955849674	Supragingival_plaque	#ff8646
+501	Rothia mucilaginosa	Actinobaculum sp. oral taxon 183	0.938563819723	Mixed	#cccccc
+502	Rothia mucilaginosa	Actinomyces massiliensis	0.951522683697	Mixed	#cccccc
+503	Rothia mucilaginosa	Actinomyces sp. oral taxon 170	0.904534033733	Mixed	#cccccc
+504	Rothia mucilaginosa	Actinomyces sp. oral taxon 175	1.0	Mixed	#cccccc
+505	Rothia mucilaginosa	Aerococcus christensenii	0.904534033733	Mixed	#cccccc
+506	Rothia mucilaginosa	Aggregatibacter aphrophilus	0.904534033733	Mixed	#cccccc
+507	Rothia mucilaginosa	Campylobacter concisus	0.870388279778	Mixed	#cccccc
+508	Rothia mucilaginosa	Corynebacterium matruchotii	0.873839413827	Mixed	#cccccc
+509	Rothia mucilaginosa	Corynebacterium pyruviciproducens	0.904534033733	Mixed	#cccccc
+510	Rothia mucilaginosa	Dialister micraerophilus	0.986440050416	Mixed	#cccccc
+511	Rothia mucilaginosa	Kingella oralis	0.904534033733	Mixed	#cccccc
+512	Rothia mucilaginosa	Lactobacillus jensenii	0.898035264196	Mixed	#cccccc
+513	Rothia mucilaginosa	Lautropia mirabilis	0.955330294442	Mixed	#cccccc
+514	Rothia mucilaginosa	Ottowia sp. oral taxon 894	0.904534033733	Mixed	#cccccc
+515	Rothia mucilaginosa	Porphyromonas catoniae	0.904534033733	Mixed	#cccccc
+516	Rothia mucilaginosa	Prevotella timonensis	0.986440050416	Mixed	#cccccc
+517	Rothia mucilaginosa	Propionibacterium propionicum	0.933689245581	Mixed	#cccccc
+518	Rothia mucilaginosa	Rothia aeria	0.904534033733	Mixed	#cccccc
+519	Rothia mucilaginosa	Rothia dentocariosa	0.940564508108	Mixed	#cccccc
+520	Sphingobium yanoikuyae	Comamonas testosteroni	0.991836598134	Mixed	#cccccc
+521	Sphingobium yanoikuyae	Cupriavidus basilensis	0.991836598134	Mixed	#cccccc
+522	Sphingobium yanoikuyae	Gardnerella vaginalis	0.99463150121	Vaginal_introitus	#ff0000
+523	Sphingobium yanoikuyae	Herbaspirillum sp. B39	0.991836598134	Vaginal_introitus	#ff0000
+524	Sphingobium yanoikuyae	Lactobacillus iners	0.997486008651	Mixed	#cccccc
+525	Sphingobium yanoikuyae	Lactobacillus kefiranofaciens	0.897149958915	Vaginal_introitus	#ff0000
+526	Sphingobium yanoikuyae	Lactobacillus vaginalis	0.892607398289	Mixed	#cccccc
+527	Sphingobium yanoikuyae	Mycobacterium abscessus	0.919689931122	Vaginal_introitus	#ff0000
+528	Sphingobium yanoikuyae	Mycobacterium chelonae	0.979813892024	Mixed	#cccccc
+529	Sphingobium yanoikuyae	Peptoniphilus sp. BV3AC2	0.897149958915	Mixed	#cccccc
+530	Sphingobium yanoikuyae	Pseudomonas fluorescens	0.977139836404	Vaginal_introitus	#ff0000
+531	Sphingobium yanoikuyae	Pseudomonas sp. DSM 29167	0.991836598134	Mixed	#cccccc
+532	Sphingobium yanoikuyae	Pseudomonas sp. Eur1 9.41	0.991836598134	Vaginal_introitus	#ff0000
+533	Sphingobium yanoikuyae	Pseudomonas sp. NBRC 111134	0.951522683697	Vaginal_introitus	#ff0000
+534	Sphingobium yanoikuyae	Pseudomonas sp. Root9	0.99744612512	Vaginal_introitus	#ff0000
+535	Sphingobium yanoikuyae	Pseudomonas synxantha	0.991836598134	Vaginal_introitus	#ff0000
+536	Sphingopyxis macrogoltabida	Lactobacillus helveticus	1.0	Mixed	#cccccc
+537	Sphingopyxis sp. H050	Comamonas testosteroni	1.0	Mixed	#cccccc
+538	Sphingopyxis sp. H050	Cupriavidus basilensis	1.0	Mixed	#cccccc
+539	Sphingopyxis sp. H050	Gardnerella vaginalis	0.999666043271	Vaginal_introitus	#ff0000
+540	Sphingopyxis sp. H050	Herbaspirillum huttiense	0.998114984186	Vaginal_introitus	#ff0000
+541	Sphingopyxis sp. H050	Herbaspirillum sp. B39	1.0	Vaginal_introitus	#ff0000
+542	Sphingopyxis sp. H050	Mycobacterium abscessus	0.962250448649	Vaginal_introitus	#ff0000
+543	Sphingopyxis sp. H050	Mycobacterium chelonae	0.987878339907	Mixed	#cccccc
+544	Sphingopyxis sp. H050	Pseudomonas mandelii	0.904534033733	Vaginal_introitus	#ff0000
+545	Sphingopyxis sp. H050	Pseudomonas sp. Ag1	1.0	Vaginal_introitus	#ff0000
+546	Sphingopyxis sp. H050	Pseudomonas sp. DSM 29167	1.0	Mixed	#cccccc
+547	Sphingopyxis sp. H050	Pseudomonas sp. Eur1 9.41	1.0	Vaginal_introitus	#ff0000
+548	Sphingopyxis sp. H050	Pseudomonas sp. NBRC 111132	0.999583766891	Vaginal_introitus	#ff0000
+549	Sphingopyxis sp. H050	Pseudomonas sp. NBRC 111134	0.904534033733	Vaginal_introitus	#ff0000
+550	Sphingopyxis sp. H050	Pseudomonas sp. Root9	0.98019605882	Vaginal_introitus	#ff0000
+551	Sphingopyxis sp. H050	Pseudomonas synxantha	1.0	Vaginal_introitus	#ff0000
+552	Sphingopyxis sp. H050	Sphingobium yanoikuyae	0.991836598134	Vaginal_introitus	#ff0000
+553	Sphingopyxis sp. H115	Herbaspirillum sp. GW103	1.0	Mixed	#cccccc
+554	Sphingopyxis sp. H115	Lactobacillus crispatus	0.990867388614	Mid_vagina	#52f5cb
+555	Sphingopyxis sp. H115	Lactobacillus oris	1.0	Mixed	#cccccc
+556	Sphingopyxis sp. H115	Lactobacillus reuteri	1.0	Mixed	#cccccc
+557	Sphingopyxis sp. H115	Nocardia otitidiscaviarum	1.0	Mid_vagina	#52f5cb
+558	Sphingopyxis sp. H115	Pseudomonas frederiksbergensis	1.0	Mixed	#cccccc
+559	Sphingopyxis sp. H115	Pseudomonas sp. FH1	0.870388279778	Mixed	#cccccc
+560	Sphingopyxis sp. LC81	Lactobacillus helveticus	1.0	Mixed	#cccccc
+561	Sphingopyxis sp. LC81	Pseudomonas orientalis	1.0	Vaginal_introitus	#ff0000
+562	Sphingopyxis sp. LC81	Sphingopyxis macrogoltabida	1.0	Vaginal_introitus	#ff0000
+563	Sphingopyxis sp. Root1497	Lactobacillus helveticus	1.0	Mixed	#cccccc
+564	Sphingopyxis sp. Root1497	Pseudomonas orientalis	1.0	Mixed	#cccccc
+565	Sphingopyxis sp. Root1497	Sphingopyxis sp. LC81	1.0	Mixed	#cccccc
+566	Stenotrophomonas maltophilia	Comamonas testosteroni	0.98019605882	Mixed	#cccccc
+567	Stenotrophomonas maltophilia	Cupriavidus basilensis	0.98019605882	Mixed	#cccccc
+568	Stenotrophomonas maltophilia	Gardnerella vaginalis	0.97501387488	Mixed	#cccccc
+569	Stenotrophomonas maltophilia	Herbaspirillum huttiense	0.990501769695	Mixed	#cccccc
+570	Stenotrophomonas maltophilia	Lactobacillus iners	0.967276532953	Mixed	#cccccc
+571	Stenotrophomonas maltophilia	Lactobacillus kefiranofaciens	0.886620694934	Mixed	#cccccc
+572	Stenotrophomonas maltophilia	Lactobacillus vaginalis	0.990147542977	Mixed	#cccccc
+573	Stenotrophomonas maltophilia	Mycobacterium abscessus	0.997090902927	Mixed	#cccccc
+574	Stenotrophomonas maltophilia	Mycobacterium chelonae	0.96831445537	Mixed	#cccccc
+575	Stenotrophomonas maltophilia	Pseudomonas mandelii	0.971060761118	Mixed	#cccccc
+576	Stenotrophomonas maltophilia	Pseudomonas sp. Ag1	0.98019605882	Mixed	#cccccc
+577	Stenotrophomonas maltophilia	Pseudomonas sp. DSM 29167	0.98019605882	Mixed	#cccccc
+578	Stenotrophomonas maltophilia	Pseudomonas sp. Eur1 9.41	0.98019605882	Mixed	#cccccc
+579	Stenotrophomonas maltophilia	Pseudomonas sp. Root9	0.921568627451	Mixed	#cccccc
+580	Stenotrophomonas maltophilia	Sphingobium yanoikuyae	0.946942523848	Mixed	#cccccc
+581	Stenotrophomonas maltophilia	Sphingopyxis sp. H050	0.98019605882	Mixed	#cccccc
+582	Streptococcus pneumoniae	Comamonas testosteroni	1.0	Mixed	#cccccc
+583	Streptococcus pneumoniae	Cupriavidus basilensis	1.0	Mixed	#cccccc
+584	Streptococcus pneumoniae	Gardnerella vaginalis	0.999666043271	Mixed	#cccccc
+585	Streptococcus pneumoniae	Herbaspirillum huttiense	0.998114984186	Mixed	#cccccc
+586	Streptococcus pneumoniae	Herbaspirillum sp. B39	1.0	Mixed	#cccccc
+587	Streptococcus pneumoniae	Lactobacillus iners	0.998355062459	Mixed	#cccccc
+588	Streptococcus pneumoniae	Lactobacillus kefiranofaciens	0.904534033733	Mixed	#cccccc
+589	Streptococcus pneumoniae	Lactobacillus vaginalis	0.942809041582	Mixed	#cccccc
+590	Streptococcus pneumoniae	Mycobacterium abscessus	0.962250448649	Mixed	#cccccc
+591	Streptococcus pneumoniae	Mycobacterium chelonae	0.987878339907	Mixed	#cccccc
+592	Streptococcus pneumoniae	Peptoniphilus sp. BV3AC2	0.904534033733	Mixed	#cccccc
+593	Streptococcus pneumoniae	Pseudomonas fluorescens	0.996272507219	Mixed	#cccccc
+594	Streptococcus pneumoniae	Pseudomonas mandelii	0.904534033733	Mixed	#cccccc
+595	Streptococcus pneumoniae	Pseudomonas sp. Ag1	1.0	Mixed	#cccccc
+596	Streptococcus pneumoniae	Pseudomonas sp. DSM 29167	1.0	Mixed	#cccccc
+597	Streptococcus pneumoniae	Pseudomonas sp. Eur1 9.41	1.0	Mixed	#cccccc
+598	Streptococcus pneumoniae	Pseudomonas sp. FH1	0.904534033733	Mixed	#cccccc
+599	Streptococcus pneumoniae	Pseudomonas sp. NBRC 111132	0.999583766891	Mixed	#cccccc
+600	Streptococcus pneumoniae	Pseudomonas sp. Root9	0.98019605882	Mixed	#cccccc
+601	Streptococcus pneumoniae	Pseudomonas synxantha	1.0	Mixed	#cccccc
+602	Streptococcus pneumoniae	Sphingobium yanoikuyae	0.991836598134	Mixed	#cccccc
+603	Streptococcus pneumoniae	Sphingopyxis sp. H050	1.0	Mixed	#cccccc
+604	Streptococcus sanguinis	Actinobaculum sp. oral taxon 183	0.863478714145	Mixed	#cccccc
+605	Streptococcus sanguinis	Actinomyces oris	0.904534033733	Supragingival_plaque	#ff8646
+606	Streptococcus sanguinis	Aerococcus christensenii	0.904534033733	Mixed	#cccccc
+607	Streptococcus sanguinis	Capnocytophaga sp. oral taxon 329	0.959759918866	Supragingival_plaque	#ff8646
+608	Streptococcus sanguinis	Corynebacterium matruchotii	0.931140358996	Supragingival_plaque	#ff8646
+609	Streptococcus sanguinis	Corynebacterium pyruviciproducens	0.904534033733	Mixed	#cccccc
+610	Streptococcus sanguinis	Haemophilus parainfluenzae	0.870388279778	Mixed	#cccccc
+611	Streptococcus sanguinis	Kingella oralis	0.904534033733	Supragingival_plaque	#ff8646
+612	Streptococcus sanguinis	Lactobacillus coleohominis	0.939432380291	Mixed	#cccccc
+613	Streptococcus sanguinis	Lawsonella clevelandensis	0.904534033733	Mixed	#cccccc
+614	Streptococcus sanguinis	Ottowia sp. oral taxon 894	0.904534033733	Supragingival_plaque	#ff8646
+615	Streptococcus sanguinis	Porphyromonas catoniae	0.904534033733	Mixed	#cccccc
+616	Streptococcus sanguinis	Prevotella buccalis	0.904534033733	Mixed	#cccccc
+617	Streptococcus sanguinis	Prevotella disiens	0.904534033733	Mixed	#cccccc
+618	Streptococcus sanguinis	Rothia dentocariosa	0.860516464865	Supragingival_plaque	#ff8646
+619	Ureaplasma parvum	Comamonas testosteroni	1.0	Mixed	#cccccc
+620	Ureaplasma parvum	Cupriavidus basilensis	1.0	Mixed	#cccccc
+621	Ureaplasma parvum	Herbaspirillum huttiense	0.998114984186	Vaginal_introitus	#ff0000
+622	Ureaplasma parvum	Herbaspirillum sp. B39	1.0	Vaginal_introitus	#ff0000
+623	Ureaplasma parvum	Lactobacillus iners	0.998355062459	Mixed	#cccccc
+624	Ureaplasma parvum	Lactobacillus vaginalis	0.942809041582	Mixed	#cccccc
+625	Ureaplasma parvum	Mycobacterium abscessus	0.962250448649	Vaginal_introitus	#ff0000
+626	Ureaplasma parvum	Mycobacterium chelonae	0.987878339907	Mixed	#cccccc
+627	Ureaplasma parvum	Peptoniphilus sp. BV3AC2	0.904534033733	Mixed	#cccccc
+628	Ureaplasma parvum	Pseudomonas fluorescens	0.996272507219	Vaginal_introitus	#ff0000
+629	Ureaplasma parvum	Pseudomonas mandelii	0.904534033733	Vaginal_introitus	#ff0000
+630	Ureaplasma parvum	Pseudomonas sp. Ag1	1.0	Vaginal_introitus	#ff0000
+631	Ureaplasma parvum	Pseudomonas sp. Eur1 9.41	1.0	Vaginal_introitus	#ff0000
+632	Ureaplasma parvum	Pseudomonas sp. FH1	0.904534033733	Vaginal_introitus	#ff0000
+633	Ureaplasma parvum	Pseudomonas sp. Root9	0.98019605882	Vaginal_introitus	#ff0000
+634	Ureaplasma parvum	Pseudomonas synxantha	1.0	Vaginal_introitus	#ff0000
+635	Ureaplasma parvum	Sphingobium yanoikuyae	0.991836598134	Vaginal_introitus	#ff0000
+636	Ureaplasma parvum	Sphingopyxis sp. H050	1.0	Vaginal_introitus	#ff0000
+637	Ureaplasma parvum	Streptococcus pneumoniae	1.0	Mixed	#cccccc
+638	Veillonella parvula	Actinobaculum sp. oral taxon 183	0.996116490184	Mixed	#cccccc
+639	Veillonella parvula	Actinomyces massiliensis	0.991836598134	Mixed	#cccccc
+640	Veillonella parvula	Actinomyces oris	1.0	Mixed	#cccccc
+641	Veillonella parvula	Actinomyces sp. oral taxon 175	0.904534033733	Mixed	#cccccc
+642	Veillonella parvula	Aerococcus christensenii	1.0	Mixed	#cccccc
+643	Veillonella parvula	Aggregatibacter aphrophilus	1.0	Mixed	#cccccc
+644	Veillonella parvula	Capnocytophaga sp. oral taxon 329	0.987878339907	Mixed	#cccccc
+645	Veillonella parvula	Corynebacterium durum	1.0	Mixed	#cccccc
+646	Veillonella parvula	Corynebacterium matruchotii	0.997740110106	Mixed	#cccccc
+647	Veillonella parvula	Corynebacterium pyruviciproducens	1.0	Mixed	#cccccc
+648	Veillonella parvula	Dialister micraerophilus	0.962250448649	Mixed	#cccccc
+649	Veillonella parvula	Kingella oralis	1.0	Mixed	#cccccc
+650	Veillonella parvula	Lactobacillus coleohominis	0.995307341538	Mixed	#cccccc
+651	Veillonella parvula	Lactobacillus jensenii	0.999885235554	Mixed	#cccccc
+652	Veillonella parvula	Neisseria sp. oral taxon 014	1.0	Mixed	#cccccc
+653	Veillonella parvula	Ottowia sp. oral taxon 894	1.0	Mixed	#cccccc
+654	Veillonella parvula	Porphyromonas catoniae	1.0	Mixed	#cccccc
+655	Veillonella parvula	Prevotella bivia	0.962250448649	Mixed	#cccccc
+656	Veillonella parvula	Prevotella buccalis	1.0	Mixed	#cccccc
+657	Veillonella parvula	Prevotella disiens	1.0	Mixed	#cccccc
+658	Veillonella parvula	Prevotella timonensis	0.962250448649	Mixed	#cccccc
+659	Veillonella parvula	Propionibacterium propionicum	0.997241374055	Mixed	#cccccc
+660	Veillonella parvula	Rothia aeria	1.0	Mixed	#cccccc
+661	Veillonella parvula	Rothia dentocariosa	0.9955849674	Mixed	#cccccc
+662	Veillonella parvula	Rothia mucilaginosa	0.904534033733	Mixed	#cccccc
+663	Veillonella parvula	Streptococcus sanguinis	0.904534033733	Mixed	#cccccc

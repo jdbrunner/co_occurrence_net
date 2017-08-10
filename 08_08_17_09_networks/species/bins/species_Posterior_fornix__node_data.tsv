@@ -1,0 +1,529 @@
+TAXA	sample_type	sample_color	frequency	spect_cluster	commun_cluster	spect_color	comm_color	Gender_type	Gender_color
+Acinetobacter baumannii	Keratinized_gingiva	#17cbe4	2	3.0	2.0	#b2f396	#1996f3	Mixed	#cccccc
+Acinetobacter junii	Anterior_nares	#8000ff	3	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Actinomyces gerencseriae	Subgingival_plaque	#ffac5c	2	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Actinomyces israelii	Subgingival_plaque	#ffac5c	1	3.0	2.0	#b2f396	#1996f3	Mixed	#cccccc
+Actinomyces johnsonii	Subgingival_plaque	#ffac5c	2	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Actinomyces massiliensis	Supragingival_plaque	#ff8646	6	3.0	2.0	#b2f396	#1996f3	Mixed	#cccccc
+Actinomyces naeslundii	Supragingival_plaque	#ff8646	3	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Actinomyces odontolyticus	Throat	#ff5c2f	1	3.0	2.0	#b2f396	#1996f3	Mixed	#cccccc
+Actinomyces oris	Supragingival_plaque	#ff8646	7	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Actinomyces sp. ICM39	Tongue_dorsum	#ff2f18	1	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Actinomyces sp. ICM47	Tongue_dorsum	#ff2f18	8	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Actinomyces sp. oral taxon 170	Supragingival_plaque	#ff8646	1	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Actinomyces sp. oral taxon 448	Supragingival_plaque	#ff8646	4	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Actinomyces sp. S6-Spd3	Tongue_dorsum	#ff2f18	2	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Actinomyces turicensis	Anterior_nares	#8000ff	2	1.0	5.0	#1996f3	#7effb5	Mixed	#cccccc
+Actinomyces viscosus	Attached	#622ffe	5	3.0	0.0	#b2f396	#8000ff	Mixed	#cccccc
+Afipia broomeae	Anterior_nares	#8000ff	13	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Aggregatibacter sp. oral taxon 458	Saliva	#cbe486	1	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Alcaligenes faecalis	Anterior_nares	#8000ff	1	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Alistipes onderdonkii	Stool	#e8cb72	4	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Alistipes putredinis	Stool	#e8cb72	31	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Alistipes senegalensis	Stool	#e8cb72	4	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Alistipes shahii	Stool	#e8cb72	22	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Alistipes sp. HGB5	Stool	#e8cb72	2	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Alistipes timonensis	Stool	#e8cb72	1	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Alloiococcus otitis	Anterior_nares	#8000ff	2	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Alloprevotella tannerae	Subgingival_plaque	#ffac5c	2	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Anaerococcus provenciensis	L_Retroauricular_crease	#34e4d9	3	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Atopobium parvulum	Saliva	#cbe486	2	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Atopobium sp. BS2	Saliva	#cbe486	2	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Atopobium sp. ICM42b	Saliva	#cbe486	1	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Bacillus thermoamylovorans	Anterior_nares	#8000ff	3	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+bacterium LF-3	Stool	#e8cb72	1	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Bacteroides caccae	Stool	#e8cb72	29	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Bacteroides cellulosilyticus	Stool	#e8cb72	5	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Bacteroides coprocola	Stool	#e8cb72	15	3.0	0.0	#b2f396	#8000ff	Mixed	#cccccc
+Bacteroides coprophilus	Stool	#e8cb72	4	3.0	0.0	#b2f396	#8000ff	Mixed	#cccccc
+Bacteroides dorei	Stool	#e8cb72	8	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Bacteroides eggerthii	Stool	#e8cb72	11	5.0	2.0	#ff0000	#1996f3	Mixed	#cccccc
+Bacteroides faecis	Stool	#e8cb72	19	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Bacteroides finegoldii	Stool	#e8cb72	11	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Bacteroides fluxus	Stool	#e8cb72	2	5.0	2.0	#ff0000	#1996f3	Mixed	#cccccc
+Bacteroides fragilis	Stool	#e8cb72	7	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Bacteroides gallinarum	Stool	#e8cb72	2	4.0	6.0	#ff964f	#b2f396	Mixed	#cccccc
+Bacteroides intestinalis	Stool	#e8cb72	10	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Bacteroides massiliensis	Stool	#e8cb72	25	5.0	2.0	#ff0000	#1996f3	Mixed	#cccccc
+Bacteroides oleiciplenus	Stool	#e8cb72	1	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Bacteroides ovatus	Stool	#e8cb72	11	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Bacteroides salyersiae	Stool	#e8cb72	3	5.0	2.0	#ff0000	#1996f3	Mixed	#cccccc
+Bacteroides sartorii	Stool	#e8cb72	2	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Bacteroides sp. 1_1_30	Stool	#e8cb72	2	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Bacteroides sp. 1_1_6	Stool	#e8cb72	1	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Bacteroides sp. 14(A)	Stool	#e8cb72	2	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Bacteroides sp. 2_2_4	Stool	#e8cb72	2	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Bacteroides sp. 3_1_13	Stool	#e8cb72	3	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Bacteroides sp. 3_1_19	Stool	#e8cb72	2	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Bacteroides sp. 3_1_23	Stool	#e8cb72	3	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Bacteroides sp. 3_1_40A	Stool	#e8cb72	1	5.0	2.0	#ff0000	#1996f3	Mixed	#cccccc
+Bacteroides sp. 4_1_36	Stool	#e8cb72	1	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Bacteroides sp. 4_3_47FAA	Stool	#e8cb72	1	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Bacteroides sp. D2	Stool	#e8cb72	3	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Bacteroides sp. D20	Stool	#e8cb72	4	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Bacteroides sp. D22	Stool	#e8cb72	2	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Bacteroides stercoris	Stool	#e8cb72	28	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Bacteroides thetaiotaomicron	Stool	#e8cb72	7	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Bacteroides uniformis	Stool	#e8cb72	17	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Bacteroides vulgatus	Stool	#e8cb72	25	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Barnesiella intestinihominis	Stool	#e8cb72	20	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Bergeyella zoohelcum	R_Retroauricular_crease	#acf59a	1	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Bifidobacterium adolescentis	Stool	#e8cb72	8	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Bifidobacterium dentium	Posterior_fornix	#8efeac	2	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Bifidobacterium longum	Stool	#e8cb72	10	1.0	5.0	#1996f3	#7effb5	Mixed	#cccccc
+Bifidobacterium moukalabense	Posterior_fornix	#8efeac	2	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Bifidobacterium scardovii	Posterior_fornix	#8efeac	4	1.0	5.0	#1996f3	#7effb5	Mixed	#cccccc
+Bifidobacterium sp. MSTE12	Posterior_fornix	#8efeac	2	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Bilophila wadsworthia	Stool	#e8cb72	2	1.0	5.0	#1996f3	#7effb5	Mixed	#cccccc
+Blautia obeum	Stool	#e8cb72	4	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Blautia wexlerae	Stool	#e8cb72	3	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Bradyrhizobium sp. BTAi1	L_Retroauricular_crease	#34e4d9	2	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Brevibacterium massiliense	Anterior_nares	#8000ff	4	1.0	5.0	#1996f3	#7effb5	Mixed	#cccccc
+Brochothrix thermosphacta	Saliva	#cbe486	2	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Burkholderia cenocepacia	Posterior_fornix	#8efeac	5	0.0	7.0	#8000ff	#e4cf74	Mixed	#cccccc
+Burkholderiales bacterium 1_1_47	Stool	#e8cb72	2	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Butyricicoccus pullicaecorum	Stool	#e8cb72	1	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Butyricimonas synergistica	Stool	#e8cb72	2	5.0	2.0	#ff0000	#1996f3	Mixed	#cccccc
+Butyricimonas virosa	Stool	#e8cb72	9	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Butyrivibrio crossotus	Stool	#e8cb72	3	3.0	2.0	#b2f396	#1996f3	Mixed	#cccccc
+Butyrivibrio sp. NC3005	Stool	#e8cb72	1	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Campylobacter concisus	Attached	#622ffe	8	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Campylobacter gracilis	Subgingival_plaque	#ffac5c	3	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Campylobacter showae	Supragingival_plaque	#ff8646	3	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Candidatus Alistipes marseilloanorexicus	Stool	#e8cb72	6	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Candidatus Bacteroides timonensis	Stool	#e8cb72	1	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Candidatus Saccharibacteria oral taxon TM7x	Saliva	#cbe486	4	2.0	2.0	#4df3ce	#1996f3	Mixed	#cccccc
+Capnocytophaga gingivalis	Supragingival_plaque	#ff8646	10	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Capnocytophaga granulosa	Supragingival_plaque	#ff8646	2	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Capnocytophaga ochracea	Supragingival_plaque	#ff8646	1	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Capnocytophaga sp. CM59	Supragingival_plaque	#ff8646	2	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Capnocytophaga sp. oral taxon 326	Subgingival_plaque	#ffac5c	1	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Capnocytophaga sp. oral taxon 329	Supragingival_plaque	#ff8646	5	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Capnocytophaga sp. oral taxon 332	Supragingival_plaque	#ff8646	2	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Capnocytophaga sp. oral taxon 338	Subgingival_plaque	#ffac5c	1	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Capnocytophaga sp. oral taxon 863	Supragingival_plaque	#ff8646	2	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Capnocytophaga sputigena	Supragingival_plaque	#ff8646	5	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Carnobacterium maltaromaticum	Hard_palate	#08acee	1	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Catenibacterium mitsuokai	Stool	#e8cb72	2	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Catonella morbi	Subgingival_plaque	#ffac5c	2	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Caulobacter vibrioides	Anterior_nares	#8000ff	3	3.0	0.0	#b2f396	#8000ff	Mixed	#cccccc
+Clostridia bacterium UC5.1-1D10	Stool	#e8cb72	2	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Clostridiales bacterium S5-A14a	Anterior_nares	#8000ff	4	1.0	1.0	#1996f3	#4e4dfc	Mixed	#cccccc
+Clostridiales bacterium VE202-27	Stool	#e8cb72	1	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Clostridium botulinum	Stool	#e8cb72	1	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+[Clostridium] clostridioforme	Stool	#e8cb72	2	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Clostridium colicanis	Posterior_fornix	#8efeac	2	1.0	1.0	#1996f3	#4e4dfc	Mixed	#cccccc
+[Clostridium] hiranonis	Stool	#e8cb72	1	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+[Clostridium] leptum	L_Retroauricular_crease	#34e4d9	2	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Clostridium sp. 1_1_41A1FAA	Stool	#e8cb72	1	1.0	1.0	#1996f3	#4e4dfc	Mixed	#cccccc
+Clostridium sp. ATCC 29733	Stool	#e8cb72	2	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Clostridium sp. FS41	Stool	#e8cb72	1	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Clostridium sp. GD3	Stool	#e8cb72	2	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+[Clostridium] spiroforme	Stool	#e8cb72	1	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Clostridium sp. L2-50	Stool	#e8cb72	3	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Clostridium sp. M62/1	Stool	#e8cb72	1	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Clostridium sp. ND2	Posterior_fornix	#8efeac	15	1.0	1.0	#1996f3	#4e4dfc	Mixed	#cccccc
+Collinsella aerofaciens	Stool	#e8cb72	2	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Collinsella sp. 4_8_47FAA	Stool	#e8cb72	2	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Comamonas testosteroni	Mid_vagina	#52f5cb	3	1.0	1.0	#1996f3	#4e4dfc	Mixed	#cccccc
+Coprobacter fastidiosus	Stool	#e8cb72	1	3.0	0.0	#b2f396	#8000ff	Mixed	#cccccc
+Coprococcus comes	Stool	#e8cb72	6	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Coprococcus eutactus	Stool	#e8cb72	1	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Coriobacteriaceae bacterium BV3Ac1	R_Retroauricular_crease	#acf59a	7	1.0	1.0	#1996f3	#4e4dfc	Mixed	#cccccc
+Corynebacterium accolens	Anterior_nares	#8000ff	1	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Corynebacterium aurimucosum	Anterior_nares	#8000ff	6	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Corynebacterium durum	Supragingival_plaque	#ff8646	14	3.0	2.0	#b2f396	#1996f3	Mixed	#cccccc
+Corynebacterium genitalium	Anterior_nares	#8000ff	2	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Corynebacterium glucuronolyticum	L_Retroauricular_crease	#34e4d9	2	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Corynebacterium imitans	L_Retroauricular_crease	#34e4d9	1	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Corynebacterium jeikeium	Anterior_nares	#8000ff	2	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Corynebacterium kroppenstedtii	R_Retroauricular_crease	#acf59a	10	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Corynebacterium lactis	L_Retroauricular_crease	#34e4d9	1	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Corynebacterium massiliense	Anterior_nares	#8000ff	1	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Corynebacterium matruchotii	Supragingival_plaque	#ff8646	22	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Corynebacterium minutissimum	Anterior_nares	#8000ff	2	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Corynebacterium pseudogenitalium	Anterior_nares	#8000ff	2	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Corynebacterium pyruviciproducens	R_Retroauricular_crease	#acf59a	4	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Corynebacterium sp. GD7	Anterior_nares	#8000ff	2	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Corynebacterium tuberculostearicum	Anterior_nares	#8000ff	2	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Curvibacter gracilis	Anterior_nares	#8000ff	3	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Curvibacter lanceolatus	Anterior_nares	#8000ff	3	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Deinococcus radiodurans	Posterior_fornix	#8efeac	1	3.0	2.0	#b2f396	#1996f3	Mixed	#cccccc
+Dialister micraerophilus	Saliva	#cbe486	40	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Dolosigranulum pigrum	Anterior_nares	#8000ff	3	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Dorea formicigenerans	Stool	#e8cb72	2	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Dorea longicatena	Stool	#e8cb72	7	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Eikenella corrodens	Subgingival_plaque	#ffac5c	1	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Elizabethkingia genomosp. 2	Anterior_nares	#8000ff	3	3.0	0.0	#b2f396	#8000ff	Mixed	#cccccc
+Empedobacter falsenii	Anterior_nares	#8000ff	1	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Enhydrobacter aerosaccus	R_Retroauricular_crease	#acf59a	3	1.0	1.0	#1996f3	#4e4dfc	Mixed	#cccccc
+Enterobacter aerogenes	Anterior_nares	#8000ff	1	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Enterococcus cecorum	Anterior_nares	#8000ff	2	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Enterococcus faecalis	Anterior_nares	#8000ff	2	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Escherichia coli	Stool	#e8cb72	7	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Eubacterium brachy	Palatine_Tonsils	#70febc	1	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+[Eubacterium] dolichum	Stool	#e8cb72	1	1.0	1.0	#1996f3	#4e4dfc	Mixed	#cccccc
+[Eubacterium] eligens	Stool	#e8cb72	13	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+[Eubacterium] hallii	Stool	#e8cb72	2	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Eubacterium ramulus	Stool	#e8cb72	4	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+[Eubacterium] rectale	Stool	#e8cb72	33	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Eubacterium saphenum	Buccal_mucosa	#445cfb	1	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+[Eubacterium] siraeum	Stool	#e8cb72	5	3.0	4.0	#b2f396	#4df3ce	Mixed	#cccccc
+[Eubacterium] sulci	Tongue_dorsum	#ff2f18	5	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Eubacterium ventriosum	Stool	#e8cb72	9	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Exiguobacterium sp. S17	Anterior_nares	#8000ff	1	1.0	1.0	#1996f3	#4e4dfc	Mixed	#cccccc
+Facklamia hominis	R_Retroauricular_crease	#acf59a	1	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Facklamia ignava	Mid_vagina	#52f5cb	2	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Facklamia languida	L_Retroauricular_crease	#34e4d9	1	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Faecalibacterium prausnitzii	Stool	#e8cb72	29	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Fenollaria massiliensis	Anterior_nares	#8000ff	12	3.0	1.0	#b2f396	#4e4dfc	Mixed	#cccccc
+Fusobacterium nucleatum	Subgingival_plaque	#ffac5c	4	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Fusobacterium periodonticum	Throat	#ff5c2f	6	2.0	2.0	#4df3ce	#1996f3	Mixed	#cccccc
+Gemella haemolysans	Buccal_mucosa	#445cfb	10	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Gemella morbillorum	Attached	#622ffe	3	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Gemella sanguinis	Tongue_dorsum	#ff2f18	7	3.0	0.0	#b2f396	#8000ff	Mixed	#cccccc
+Granulicatella elegans	Keratinized_gingiva	#17cbe4	5	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Haemophilus haemolyticus	Keratinized_gingiva	#17cbe4	1	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Haemophilus influenzae	Attached	#622ffe	3	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Haemophilus parainfluenzae	Tongue_dorsum	#ff2f18	9	3.0	0.0	#b2f396	#8000ff	Mixed	#cccccc
+Haemophilus sputorum	Saliva	#cbe486	2	2.0	0.0	#4df3ce	#8000ff	Mixed	#cccccc
+Herbaspirillum autotrophicum	Anterior_nares	#8000ff	2	3.0	0.0	#b2f396	#8000ff	Mixed	#cccccc
+Herbaspirillum chlorophenolicum	Vaginal_introitus	#ff0000	7	3.0	0.0	#b2f396	#8000ff	Mixed	#cccccc
+Herbaspirillum huttiense	Vaginal_introitus	#ff0000	31	3.0	0.0	#b2f396	#8000ff	Mixed	#cccccc
+Herbaspirillum rubrisubalbicans	Vaginal_introitus	#ff0000	3	3.0	0.0	#b2f396	#8000ff	Mixed	#cccccc
+Herbaspirillum seropedicae	Vaginal_introitus	#ff0000	2	3.0	0.0	#b2f396	#8000ff	Mixed	#cccccc
+Herbaspirillum sp. B39	Vaginal_introitus	#ff0000	15	3.0	0.0	#b2f396	#8000ff	Mixed	#cccccc
+Herbaspirillum sp. GW103	Vaginal_introitus	#ff0000	5	3.0	2.0	#b2f396	#1996f3	Mixed	#cccccc
+Hungatella hathewayi	Stool	#e8cb72	3	3.0	4.0	#b2f396	#4df3ce	Mixed	#cccccc
+Intestinimonas butyriciproducens	Stool	#e8cb72	5	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Jeotgalicoccus marinus	L_Retroauricular_crease	#34e4d9	3	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Jonquetella anthropi	R_Retroauricular_crease	#acf59a	1	0.0	7.0	#8000ff	#e4cf74	Mixed	#cccccc
+Kingella denitrificans	Supragingival_plaque	#ff8646	2	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Kingella oralis	Supragingival_plaque	#ff8646	4	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Kocuria rhizophila	Anterior_nares	#8000ff	2	1.0	1.0	#1996f3	#4e4dfc	Mixed	#cccccc
+Kytococcus sedentarius	Throat	#ff5c2f	1	1.0	1.0	#1996f3	#4e4dfc	Mixed	#cccccc
+Lachnoanaerobaculum saburreum	Attached	#622ffe	1	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Lachnoanaerobaculum sp. ICM7	Tongue_dorsum	#ff2f18	1	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Lachnoclostridium phytofermentans	Stool	#e8cb72	1	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Lachnospiraceae bacterium 7_1_58FAA	Stool	#e8cb72	4	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Lachnospiraceae bacterium TF01-11	Stool	#e8cb72	1	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Lachnospira multipara	Stool	#e8cb72	1	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Lactobacillus acidophilus	Anterior_nares	#8000ff	5	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Lactobacillus amylolyticus	Posterior_fornix	#8efeac	2	1.0	9.0	#1996f3	#ff5029	Mixed	#cccccc
+Lactobacillus antri	Posterior_fornix	#8efeac	12	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Lactobacillus brevis	Anterior_nares	#8000ff	1	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Lactobacillus coleohominis	Mid_vagina	#52f5cb	52	3.0	0.0	#b2f396	#8000ff	Mixed	#cccccc
+Lactobacillus curvatus	Anterior_nares	#8000ff	1	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Lactobacillus delbrueckii	Posterior_fornix	#8efeac	4	1.0	5.0	#1996f3	#7effb5	Mixed	#cccccc
+Lactobacillus fermentum	Posterior_fornix	#8efeac	12	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Lactobacillus frumenti	Posterior_fornix	#8efeac	3	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Lactobacillus gallinarum	Vaginal_introitus	#ff0000	7	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Lactobacillus gasseri	Posterior_fornix	#8efeac	46	1.0	5.0	#1996f3	#7effb5	Mixed	#cccccc
+Lactobacillus hominis	Posterior_fornix	#8efeac	14	1.0	5.0	#1996f3	#7effb5	Mixed	#cccccc
+Lactobacillus iners	Posterior_fornix	#8efeac	60	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Lactobacillus jensenii	Posterior_fornix	#8efeac	89	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Lactobacillus johnsonii	Posterior_fornix	#8efeac	28	3.0	0.0	#b2f396	#8000ff	Mixed	#cccccc
+Lactobacillus kalixensis	Posterior_fornix	#8efeac	1	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Lactobacillus kefiranofaciens	Vaginal_introitus	#ff0000	19	3.0	2.0	#b2f396	#1996f3	Mixed	#cccccc
+Lactobacillus kitasatonis	Vaginal_introitus	#ff0000	7	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Lactobacillus mucosae	Posterior_fornix	#8efeac	5	4.0	8.0	#ff964f	#ff964f	Mixed	#cccccc
+Lactobacillus oris	Posterior_fornix	#8efeac	15	3.0	0.0	#b2f396	#8000ff	Mixed	#cccccc
+Lactobacillus panis	Posterior_fornix	#8efeac	2	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Lactobacillus psittaci	Posterior_fornix	#8efeac	8	4.0	6.0	#ff964f	#b2f396	Mixed	#cccccc
+Lactobacillus reuteri	Posterior_fornix	#8efeac	24	3.0	0.0	#b2f396	#8000ff	Mixed	#cccccc
+Lactobacillus rhamnosus	Buccal_mucosa	#445cfb	2	2.0	0.0	#4df3ce	#8000ff	Mixed	#cccccc
+Lactobacillus sp.	Posterior_fornix	#8efeac	2	1.0	9.0	#1996f3	#ff5029	Mixed	#cccccc
+Lactobacillus sp. 7_1_47FAA	Posterior_fornix	#8efeac	10	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Lactobacillus taiwanensis	Posterior_fornix	#8efeac	9	1.0	5.0	#1996f3	#7effb5	Mixed	#cccccc
+Lactobacillus ultunensis	Mid_vagina	#52f5cb	2	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Lactobacillus vaginalis	Posterior_fornix	#8efeac	56	3.0	0.0	#b2f396	#8000ff	Mixed	#cccccc
+Lactococcus lactis	Anterior_nares	#8000ff	13	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Lautropia mirabilis	Supragingival_plaque	#ff8646	11	3.0	4.0	#b2f396	#4df3ce	Mixed	#cccccc
+Lawsonella clevelandensis	Anterior_nares	#8000ff	10	3.0	0.0	#b2f396	#8000ff	Mixed	#cccccc
+Leptotrichia buccalis	Supragingival_plaque	#ff8646	2	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Leptotrichia goodfellowii	Subgingival_plaque	#ffac5c	1	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Leptotrichia sp. oral taxon 212	Supragingival_plaque	#ff8646	3	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Leptotrichia sp. oral taxon 215	Throat	#ff5c2f	1	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Leptotrichia wadei	Tongue_dorsum	#ff2f18	2	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Levyella massiliensis	Anterior_nares	#8000ff	9	3.0	2.0	#b2f396	#1996f3	Mixed	#cccccc
+Limnohabitans sp. Rim47	Vaginal_introitus	#ff0000	6	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Listeria monocytogenes	L_Retroauricular_crease	#34e4d9	1	3.0	2.0	#b2f396	#1996f3	Mixed	#cccccc
+Mageeibacillus indolicus	Posterior_fornix	#8efeac	20	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Marvinbryantia formatexigens	Stool	#e8cb72	1	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Megamonas funiformis	Stool	#e8cb72	1	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Megamonas rupellensis	Stool	#e8cb72	2	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Megasphaera micronuciformis	Saliva	#cbe486	3	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Megasphaera sp. BV3C16-1	Saliva	#cbe486	4	1.0	5.0	#1996f3	#7effb5	Mixed	#cccccc
+Megasphaera sp. UPII 135-E	L_Retroauricular_crease	#34e4d9	13	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Megasphaera sp. UPII 199-6	Posterior_fornix	#8efeac	7	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Micrococcus luteus	L_Retroauricular_crease	#34e4d9	2	1.0	1.0	#1996f3	#4e4dfc	Mixed	#cccccc
+Mobiluncus curtisii	Posterior_fornix	#8efeac	18	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Moraxella catarrhalis	Anterior_nares	#8000ff	2	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Mycobacterium abscessus	Vaginal_introitus	#ff0000	11	3.0	0.0	#b2f396	#8000ff	Mixed	#cccccc
+Mycobacterium chelonae	Mid_vagina	#52f5cb	15	3.0	1.0	#b2f396	#4e4dfc	Mixed	#cccccc
+Mycoplasma hominis	Posterior_fornix	#8efeac	13	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Neisseria gonorrhoeae	Keratinized_gingiva	#17cbe4	15	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Neisseria lactamica	Keratinized_gingiva	#17cbe4	2	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Neisseria meningitidis	Throat	#ff5c2f	4	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Neisseria sicca	Buccal_mucosa	#445cfb	1	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Neisseria sp. oral taxon 014	Supragingival_plaque	#ff8646	1	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Nocardia otitidiscaviarum	Mid_vagina	#52f5cb	4	1.0	1.0	#1996f3	#4e4dfc	Mixed	#cccccc
+Nosocomiicoccus massiliensis	Anterior_nares	#8000ff	2	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Odoribacter laneus	Stool	#e8cb72	2	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Odoribacter splanchnicus	Stool	#e8cb72	21	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Oribacterium sinus	Throat	#ff5c2f	3	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Oscillibacter sp. ER4	Stool	#e8cb72	18	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Ottowia sp. oral taxon 894	Supragingival_plaque	#ff8646	2	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Oxalobacter formigenes	Stool	#e8cb72	2	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Paenibacillus polymyxa	L_Retroauricular_crease	#34e4d9	2	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Paenibacillus sophorae	R_Retroauricular_crease	#acf59a	2	1.0	1.0	#1996f3	#4e4dfc	Mixed	#cccccc
+Pantoea sp. 3.5.1	R_Retroauricular_crease	#acf59a	1	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Parabacteroides distasonis	Stool	#e8cb72	2	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Parabacteroides goldsteinii	Stool	#e8cb72	2	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Parabacteroides johnsonii	Stool	#e8cb72	5	5.0	2.0	#ff0000	#1996f3	Mixed	#cccccc
+Parabacteroides merdae	Stool	#e8cb72	24	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Parabacteroides sp. 20_3	Stool	#e8cb72	2	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Parabacteroides sp. D13	Stool	#e8cb72	2	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Parabacteroides sp. D26	Stool	#e8cb72	4	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Paraburkholderia phytofirmans	Posterior_fornix	#8efeac	4	3.0	10.0	#b2f396	#ff0000	Mixed	#cccccc
+Paracoccus sp. PAMC 22219	Anterior_nares	#8000ff	2	1.0	1.0	#1996f3	#4e4dfc	Mixed	#cccccc
+Paracoccus yeei	R_Retroauricular_crease	#acf59a	1	1.0	1.0	#1996f3	#4e4dfc	Mixed	#cccccc
+Paraprevotella clara	Stool	#e8cb72	9	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Parasutterella excrementihominis	Stool	#e8cb72	1	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Parvimonas micra	Subgingival_plaque	#ffac5c	1	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Parvimonas sp. oral taxon 110	Subgingival_plaque	#ffac5c	1	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Parvimonas sp. oral taxon 393	Palatine_Tonsils	#70febc	1	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Peptoniphilaceae bacterium SIT14	R_Retroauricular_crease	#acf59a	3	1.0	1.0	#1996f3	#4e4dfc	Mixed	#cccccc
+Peptoniphilus grossensis	R_Retroauricular_crease	#acf59a	14	3.0	0.0	#b2f396	#8000ff	Mixed	#cccccc
+Peptoniphilus harei	R_Retroauricular_crease	#acf59a	28	3.0	1.0	#b2f396	#4e4dfc	Mixed	#cccccc
+Peptoniphilus lacrimalis	Hard_palate	#08acee	10	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Peptoniphilus obesi	R_Retroauricular_crease	#acf59a	1	1.0	1.0	#1996f3	#4e4dfc	Mixed	#cccccc
+Peptoniphilus rhinitidis	Anterior_nares	#8000ff	2	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Peptoniphilus senegalensis	R_Retroauricular_crease	#acf59a	1	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Peptoniphilus sp. BV3AC2	Posterior_fornix	#8efeac	9	3.0	2.0	#b2f396	#1996f3	Mixed	#cccccc
+Peptoniphilus sp. BV3C26	Vaginal_introitus	#ff0000	13	3.0	0.0	#b2f396	#8000ff	Mixed	#cccccc
+Peptoniphilus sp. oral taxon 375	L_Retroauricular_crease	#34e4d9	6	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Peptoniphilus timonensis	R_Retroauricular_crease	#acf59a	2	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Peptostreptococcus anaerobius	Saliva	#cbe486	15	1.0	5.0	#1996f3	#7effb5	Mixed	#cccccc
+Peptostreptococcus sp. MV1	Throat	#ff5c2f	4	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Phascolarctobacterium succinatutens	Stool	#e8cb72	2	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Planomicrobium glaciei	Anterior_nares	#8000ff	1	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Porphyromonas asaccharolytica	Posterior_fornix	#8efeac	13	1.0	5.0	#1996f3	#7effb5	Mixed	#cccccc
+Porphyromonas bennonis	Anterior_nares	#8000ff	15	3.0	0.0	#b2f396	#8000ff	Mixed	#cccccc
+Porphyromonas catoniae	Subgingival_plaque	#ffac5c	1	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Porphyromonas endodontalis	Saliva	#cbe486	4	1.0	5.0	#1996f3	#7effb5	Mixed	#cccccc
+Porphyromonas gingivalis	Keratinized_gingiva	#17cbe4	5	1.0	5.0	#1996f3	#7effb5	Mixed	#cccccc
+Porphyromonas gingivicanis	R_Retroauricular_crease	#acf59a	2	1.0	5.0	#1996f3	#7effb5	Mixed	#cccccc
+Porphyromonas gulae	R_Retroauricular_crease	#acf59a	2	1.0	5.0	#1996f3	#7effb5	Mixed	#cccccc
+Porphyromonas somerae	Palatine_Tonsils	#70febc	11	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Porphyromonas sp. KLE 1280	Hard_palate	#08acee	3	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Porphyromonas sp. oral taxon 278	Saliva	#cbe486	1	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Porphyromonas sp. oral taxon 279	Hard_palate	#08acee	2	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Porphyromonas uenonis	Posterior_fornix	#8efeac	22	1.0	5.0	#1996f3	#7effb5	Mixed	#cccccc
+Prevotella amnii	L_Retroauricular_crease	#34e4d9	12	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Prevotella aurantiaca	Tongue_dorsum	#ff2f18	1	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Prevotella bergensis	Stool	#e8cb72	11	1.0	5.0	#1996f3	#7effb5	Mixed	#cccccc
+Prevotella bivia	Saliva	#cbe486	19	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Prevotella buccalis	L_Retroauricular_crease	#34e4d9	26	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Prevotella conceptionensis	Subgingival_plaque	#ffac5c	1	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Prevotella copri	Stool	#e8cb72	17	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Prevotella corporis	R_Retroauricular_crease	#acf59a	18	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Prevotella dentalis	Saliva	#cbe486	1	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Prevotella dentasini	Saliva	#cbe486	1	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Prevotella denticola	Posterior_fornix	#8efeac	10	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Prevotella disiens	Palatine_Tonsils	#70febc	33	3.0	0.0	#b2f396	#8000ff	Mixed	#cccccc
+Prevotella enoeca	Subgingival_plaque	#ffac5c	3	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Prevotella falsenii	Palatine_Tonsils	#70febc	4	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Prevotella fusca	Palatine_Tonsils	#70febc	2	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Prevotella histicola	Palatine_Tonsils	#70febc	14	3.0	0.0	#b2f396	#8000ff	Mixed	#cccccc
+Prevotella intermedia	Palatine_Tonsils	#70febc	4	1.0	5.0	#1996f3	#7effb5	Mixed	#cccccc
+Prevotella maculosa	Subgingival_plaque	#ffac5c	1	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Prevotella marshii	Subgingival_plaque	#ffac5c	2	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Prevotella melaninogenica	Palatine_Tonsils	#70febc	8	3.0	0.0	#b2f396	#8000ff	Mixed	#cccccc
+Prevotella micans	Subgingival_plaque	#ffac5c	1	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Prevotella multiformis	Subgingival_plaque	#ffac5c	3	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Prevotella nanceiensis	Hard_palate	#08acee	3	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Prevotella nigrescens	Subgingival_plaque	#ffac5c	5	1.0	5.0	#1996f3	#7effb5	Mixed	#cccccc
+Prevotella oralis	Subgingival_plaque	#ffac5c	2	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Prevotella oris	Subgingival_plaque	#ffac5c	5	3.0	0.0	#b2f396	#8000ff	Mixed	#cccccc
+Prevotella oulorum	Subgingival_plaque	#ffac5c	5	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Prevotella pallens	Throat	#ff5c2f	10	3.0	0.0	#b2f396	#8000ff	Mixed	#cccccc
+Prevotella saccharolytica	Subgingival_plaque	#ffac5c	1	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Prevotella salivae	Saliva	#cbe486	8	3.0	0.0	#b2f396	#8000ff	Mixed	#cccccc
+Prevotella scopos	Throat	#ff5c2f	3	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Prevotella shahii	Throat	#ff5c2f	7	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Prevotella sp. 109	Stool	#e8cb72	4	3.0	2.0	#b2f396	#1996f3	Mixed	#cccccc
+Prevotella sp. BV3P1	Palatine_Tonsils	#70febc	7	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Prevotella sp. C561	Palatine_Tonsils	#70febc	6	3.0	0.0	#b2f396	#8000ff	Mixed	#cccccc
+Prevotella sp. F0091	Palatine_Tonsils	#70febc	2	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Prevotella sp. HUN102	Keratinized_gingiva	#17cbe4	2	1.0	5.0	#1996f3	#7effb5	Mixed	#cccccc
+Prevotella sp. ICM33	Saliva	#cbe486	2	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Prevotella sp. oral taxon 299	Attached	#622ffe	2	1.0	5.0	#1996f3	#7effb5	Mixed	#cccccc
+Prevotella sp. oral taxon 306	Throat	#ff5c2f	2	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Prevotella sp. oral taxon 317	Subgingival_plaque	#ffac5c	4	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Prevotella sp. oral taxon 473	Keratinized_gingiva	#17cbe4	6	2.0	2.0	#4df3ce	#1996f3	Mixed	#cccccc
+Prevotella sp. S7-1-8	Posterior_fornix	#8efeac	15	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Prevotella sp. S7 MS 2	Keratinized_gingiva	#17cbe4	2	1.0	5.0	#1996f3	#7effb5	Mixed	#cccccc
+Prevotella stercorea	L_Retroauricular_crease	#34e4d9	5	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Prevotella timonensis	Anterior_nares	#8000ff	50	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Prevotella veroralis	Saliva	#cbe486	4	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Propionibacterium acidifaciens	Subgingival_plaque	#ffac5c	1	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Propionibacterium acnes	R_Retroauricular_crease	#acf59a	7	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Propionibacterium granulosum	R_Retroauricular_crease	#acf59a	2	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Propionibacterium humerusii	R_Retroauricular_crease	#acf59a	31	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Propionibacterium propionicum	Subgingival_plaque	#ffac5c	7	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Propionibacterium sp. HGH0353	R_Retroauricular_crease	#acf59a	1	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Propionibacterium sp. KPL1844	R_Retroauricular_crease	#acf59a	2	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Pseudobutyrivibrio ruminis	Stool	#e8cb72	1	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Pseudochrobactrum sp. AO18b	Anterior_nares	#8000ff	1	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Pseudoflavonifractor capillosus	Stool	#e8cb72	1	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Pseudomonas aeruginosa	Anterior_nares	#8000ff	5	3.0	2.0	#b2f396	#1996f3	Mixed	#cccccc
+Pseudomonas alcaligenes	L_Retroauricular_crease	#34e4d9	1	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Pseudomonas extremaustralis	Vaginal_introitus	#ff0000	1	1.0	1.0	#1996f3	#4e4dfc	Mixed	#cccccc
+Pseudomonas fluorescens	Vaginal_introitus	#ff0000	20	3.0	2.0	#b2f396	#1996f3	Mixed	#cccccc
+Pseudomonas frederiksbergensis	Vaginal_introitus	#ff0000	5	3.0	2.0	#b2f396	#1996f3	Mixed	#cccccc
+Pseudomonas libanensis	Vaginal_introitus	#ff0000	2	1.0	1.0	#1996f3	#4e4dfc	Mixed	#cccccc
+Pseudomonas mandelii	Vaginal_introitus	#ff0000	7	3.0	0.0	#b2f396	#8000ff	Mixed	#cccccc
+Pseudomonas orientalis	Vaginal_introitus	#ff0000	4	3.0	2.0	#b2f396	#1996f3	Mixed	#cccccc
+Pseudomonas oryzihabitans	Anterior_nares	#8000ff	1	1.0	1.0	#1996f3	#4e4dfc	Mixed	#cccccc
+Pseudomonas pseudoalcaligenes	Anterior_nares	#8000ff	1	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Pseudomonas putida	Anterior_nares	#8000ff	4	3.0	2.0	#b2f396	#1996f3	Mixed	#cccccc
+Pseudomonas sp. Ag1	Vaginal_introitus	#ff0000	10	3.0	2.0	#b2f396	#1996f3	Mixed	#cccccc
+Pseudomonas sp. DSM 28140	Anterior_nares	#8000ff	1	1.0	1.0	#1996f3	#4e4dfc	Mixed	#cccccc
+Pseudomonas sp. DSM 28142	Vaginal_introitus	#ff0000	2	1.0	1.0	#1996f3	#4e4dfc	Mixed	#cccccc
+Pseudomonas sp. DSM 29164	Vaginal_introitus	#ff0000	1	1.0	1.0	#1996f3	#4e4dfc	Mixed	#cccccc
+Pseudomonas sp. DSM 29167	Mid_vagina	#52f5cb	5	3.0	2.0	#b2f396	#1996f3	Mixed	#cccccc
+Pseudomonas sp. Eur1 9.41	Vaginal_introitus	#ff0000	18	3.0	2.0	#b2f396	#1996f3	Mixed	#cccccc
+Pseudomonas sp. FH1	Vaginal_introitus	#ff0000	7	3.0	0.0	#b2f396	#8000ff	Mixed	#cccccc
+Pseudomonas sp. HPB0071	L_Retroauricular_crease	#34e4d9	1	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Pseudomonas sp. NBRC 111132	Vaginal_introitus	#ff0000	20	3.0	2.0	#b2f396	#1996f3	Mixed	#cccccc
+Pseudomonas sp. NBRC 111134	Vaginal_introitus	#ff0000	6	3.0	0.0	#b2f396	#8000ff	Mixed	#cccccc
+Pseudomonas sp. NBRC 111137	Saliva	#cbe486	1	1.0	1.0	#1996f3	#4e4dfc	Mixed	#cccccc
+Pseudomonas sp. Root9	Vaginal_introitus	#ff0000	8	3.0	2.0	#b2f396	#1996f3	Mixed	#cccccc
+Pseudomonas synxantha	Vaginal_introitus	#ff0000	3	1.0	1.0	#1996f3	#4e4dfc	Mixed	#cccccc
+Pseudomonas thermotolerans	Anterior_nares	#8000ff	2	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Pseudomonas tolaasii	Vaginal_introitus	#ff0000	3	3.0	2.0	#b2f396	#1996f3	Mixed	#cccccc
+Pseudomonas veronii	Anterior_nares	#8000ff	1	1.0	1.0	#1996f3	#4e4dfc	Mixed	#cccccc
+Ralstonia sp. MD27	L_Retroauricular_crease	#34e4d9	1	2.0	5.0	#4df3ce	#7effb5	Mixed	#cccccc
+Rhodobacter sphaeroides	Anterior_nares	#8000ff	2	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Rhodopseudomonas sp. AAP120	Anterior_nares	#8000ff	8	3.0	4.0	#b2f396	#4df3ce	Mixed	#cccccc
+Roseburia faecis	Stool	#e8cb72	19	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Roseburia hominis	Stool	#e8cb72	4	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Roseburia intestinalis	Stool	#e8cb72	12	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Roseburia inulinivorans	Stool	#e8cb72	14	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Rothia dentocariosa	Supragingival_plaque	#ff8646	21	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Rothia mucilaginosa	Hard_palate	#08acee	26	3.0	0.0	#b2f396	#8000ff	Mixed	#cccccc
+Ruminococcaceae bacterium D16	Stool	#e8cb72	2	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Ruminococcus bicirculans	Stool	#e8cb72	19	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Ruminococcus faecis	Stool	#e8cb72	8	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Ruminococcus flavefaciens	Stool	#e8cb72	2	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Ruminococcus lactaris	Stool	#e8cb72	3	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Selenomonas noxia	Supragingival_plaque	#ff8646	5	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Sneathia amnii	L_Retroauricular_crease	#34e4d9	13	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Sphingobium ummariense	Posterior_fornix	#8efeac	1	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Sphingobium xenophagum	Anterior_nares	#8000ff	2	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Sphingobium yanoikuyae	Vaginal_introitus	#ff0000	15	3.0	0.0	#b2f396	#8000ff	Mixed	#cccccc
+Sphingomonas echinoides	Anterior_nares	#8000ff	2	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Sphingomonas sanxanigenens	Posterior_fornix	#8efeac	2	1.0	1.0	#1996f3	#4e4dfc	Mixed	#cccccc
+Sphingomonas sp. Ant H11	Anterior_nares	#8000ff	2	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Sphingomonas sp. MEA3-1	Vaginal_introitus	#ff0000	1	1.0	1.0	#1996f3	#4e4dfc	Mixed	#cccccc
+Sphingomonas taxi	Anterior_nares	#8000ff	2	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Sphingopyxis fribergensis	Vaginal_introitus	#ff0000	2	1.0	1.0	#1996f3	#4e4dfc	Mixed	#cccccc
+Sphingopyxis macrogoltabida	Vaginal_introitus	#ff0000	4	1.0	1.0	#1996f3	#4e4dfc	Mixed	#cccccc
+Sphingopyxis sp. H115	Mid_vagina	#52f5cb	2	1.0	1.0	#1996f3	#4e4dfc	Mixed	#cccccc
+Sphingopyxis sp. LC363	Posterior_fornix	#8efeac	2	1.0	1.0	#1996f3	#4e4dfc	Mixed	#cccccc
+Sphingopyxis sp. LC81	Vaginal_introitus	#ff0000	1	1.0	1.0	#1996f3	#4e4dfc	Mixed	#cccccc
+Sphingopyxis sp. Root1497	Mid_vagina	#52f5cb	1	1.0	1.0	#1996f3	#4e4dfc	Mixed	#cccccc
+Staphylococcus aureus	Anterior_nares	#8000ff	2	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Staphylococcus epidermidis	L_Retroauricular_crease	#34e4d9	6	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Staphylococcus haemolyticus	L_Retroauricular_crease	#34e4d9	5	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Staphylococcus lugdunensis	Anterior_nares	#8000ff	3	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Staphylococcus pasteuri	Keratinized_gingiva	#17cbe4	1	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Staphylococcus warneri	L_Retroauricular_crease	#34e4d9	2	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Stenotrophomonas maltophilia	Anterior_nares	#8000ff	10	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Stomatobaculum longum	Tongue_dorsum	#ff2f18	5	2.0	5.0	#4df3ce	#7effb5	Mixed	#cccccc
+Streptococcus agalactiae	Posterior_fornix	#8efeac	17	1.0	5.0	#1996f3	#7effb5	Mixed	#cccccc
+Streptococcus anginosus	Buccal_mucosa_NA	#2686f5	4	3.0	0.0	#b2f396	#8000ff	Mixed	#cccccc
+Streptococcus canis	Attached	#622ffe	1	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Streptococcus constellatus	Palatine_Tonsils	#70febc	2	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Streptococcus infantis	Tongue_dorsum	#ff2f18	2	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Streptococcus mitis	Buccal_mucosa_NA	#2686f5	8	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Streptococcus mutans	Subgingival_plaque	#ffac5c	5	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Streptococcus parasanguinis	Tongue_dorsum	#ff2f18	16	3.0	0.0	#b2f396	#8000ff	Mixed	#cccccc
+Streptococcus pneumoniae	Buccal_mucosa_NA	#2686f5	9	3.0	2.0	#b2f396	#1996f3	Mixed	#cccccc
+Streptococcus pseudopneumoniae	Buccal_mucosa_NA	#2686f5	3	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Streptococcus salivarius	Tongue_dorsum	#ff2f18	1	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Streptococcus sanguinis	Supragingival_plaque	#ff8646	5	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Streptococcus sp. F0442	Palatine_Tonsils	#70febc	7	3.0	2.0	#b2f396	#1996f3	Mixed	#cccccc
+Streptococcus suis	Buccal_mucosa_NA	#2686f5	1	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Streptococcus thermophilus	Anterior_nares	#8000ff	5	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Sutterellaceae bacterium ND3	Anterior_nares	#8000ff	2	1.0	5.0	#1996f3	#7effb5	Mixed	#cccccc
+Sutterella wadsworthensis	Stool	#e8cb72	16	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Tannerella forsythia	Subgingival_plaque	#ffac5c	3	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Tepidiphilus thermophilus	Anterior_nares	#8000ff	2	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Tissierellia bacterium GD9	Anterior_nares	#8000ff	10	1.0	1.0	#1996f3	#4e4dfc	Mixed	#cccccc
+Tissierellia bacterium S7-1-4	Anterior_nares	#8000ff	22	3.0	0.0	#b2f396	#8000ff	Mixed	#cccccc
+Tyzzerella nexilis	Stool	#e8cb72	5	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Ureaplasma parvum	Vaginal_introitus	#ff0000	35	3.0	10.0	#b2f396	#ff0000	Mixed	#cccccc
+Varibaculum cambriense	R_Retroauricular_crease	#acf59a	22	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Veillonella dispar	Throat	#ff5c2f	22	3.0	0.0	#b2f396	#8000ff	Mixed	#cccccc
+Veillonella parvula	Attached	#622ffe	6	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Veillonella sp. oral taxon 158	Palatine_Tonsils	#70febc	7	3.0	0.0	#b2f396	#8000ff	Mixed	#cccccc
+Veillonella sp. oral taxon 780	Keratinized_gingiva	#17cbe4	3	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Veillonella tobetsuensis	Tongue_dorsum	#ff2f18	2	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Xanthomonas campestris	Anterior_nares	#8000ff	4	2.0	0.0	#4df3ce	#8000ff	Mixed	#cccccc
+Acidovorax caeni	Anterior_nares	#8000ff	2	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Acidovorax ebreus	Buccal_mucosa	#445cfb	1	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Acidovorax sp. JS42	Buccal_mucosa	#445cfb	1	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Actinomyces dentalis	Subgingival_plaque	#ffac5c	2	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Abiotrophia defectiva	Buccal_mucosa	#445cfb	4	3.0	0.0	#b2f396	#8000ff	Mixed	#cccccc
+Actinomyces neuii	Posterior_fornix	#8efeac	12	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Acidovorax temperans	L_Retroauricular_crease	#34e4d9	4	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Actinomyces sp. oral taxon 175	Supragingival_plaque	#ff8646	1	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Actinomyces sp. SD1	L_Retroauricular_crease	#34e4d9	2	1.0	5.0	#1996f3	#7effb5	Mixed	#cccccc
+Actinomyces graevenitzii	Tongue_dorsum	#ff2f18	19	3.0	0.0	#b2f396	#8000ff	Mixed	#cccccc
+Alistipes obesi	Stool	#e8cb72	9	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Alistipes finegoldii	Stool	#e8cb72	8	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Akkermansia muciniphila	Stool	#e8cb72	14	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Alistipes sp. AL-1	Stool	#e8cb72	2	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Acidovorax delafieldii	Anterior_nares	#8000ff	2	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Achromobacter sp. DH1f	Posterior_fornix	#8efeac	1	3.0	0.0	#b2f396	#8000ff	Mixed	#cccccc
+Acinetobacter johnsonii	Anterior_nares	#8000ff	5	2.0	3.0	#4df3ce	#18cde4	Mixed	#cccccc
+Alistipes indistinctus	Stool	#e8cb72	4	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Bacteroides clarus	Stool	#e8cb72	1	5.0	2.0	#ff0000	#1996f3	Mixed	#cccccc
+Bacillus cereus	Anterior_nares	#8000ff	1	4.0	6.0	#ff964f	#b2f396	Mixed	#cccccc
+Bifidobacterium breve	Posterior_fornix	#8efeac	13	1.0	5.0	#1996f3	#7effb5	Mixed	#cccccc
+Aerococcus christensenii	Posterior_fornix	#8efeac	34	1.0	5.0	#1996f3	#7effb5	Mixed	#cccccc
+Bradyrhizobium japonicum	Vaginal_introitus	#ff0000	4	0.0	7.0	#8000ff	#e4cf74	Mixed	#cccccc
+Anaerococcus sp. MT16	L_Retroauricular_crease	#34e4d9	1	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Arcanobacterium sp. S3PF19	L_Retroauricular_crease	#34e4d9	1	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+[Bacteroides] pectinophilus	Stool	#e8cb72	1	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Bulleidia extructa	Throat	#ff5c2f	1	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Actinobaculum sp. oral taxon 183	Subgingival_plaque	#ffac5c	6	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Actinomyces sp. oral taxon 171	Supragingival_plaque	#ff8646	4	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Achromobacter xylosoxidans	Posterior_fornix	#8efeac	1	1.0	1.0	#1996f3	#4e4dfc	Mixed	#cccccc
+Anaerococcus vaginalis	L_Retroauricular_crease	#34e4d9	1	1.0	1.0	#1996f3	#4e4dfc	Mixed	#cccccc
+Anaerococcus prevotii	L_Retroauricular_crease	#34e4d9	13	1.0	1.0	#1996f3	#4e4dfc	Mixed	#cccccc
+Anaerococcus hydrogenalis	L_Retroauricular_crease	#34e4d9	14	3.0	0.0	#b2f396	#8000ff	Mixed	#cccccc
+Chlamydia trachomatis	Keratinized_gingiva	#17cbe4	23	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Bacteroides plebeius	Stool	#e8cb72	20	3.0	0.0	#b2f396	#8000ff	Mixed	#cccccc
+Chryseobacterium haifense	R_Retroauricular_crease	#acf59a	2	1.0	2.0	#1996f3	#1996f3	Mixed	#cccccc
+Anaerococcus sp. PH9	L_Retroauricular_crease	#34e4d9	10	3.0	2.0	#b2f396	#1996f3	Mixed	#cccccc
+Cupriavidus basilensis	Mid_vagina	#52f5cb	6	3.0	2.0	#b2f396	#1996f3	Mixed	#cccccc
+Campylobacter ureolyticus	R_Retroauricular_crease	#acf59a	19	3.0	2.0	#b2f396	#1996f3	Mixed	#cccccc
+Anaeroglobus geminatus	Subgingival_plaque	#ffac5c	2	3.0	0.0	#b2f396	#8000ff	Mixed	#cccccc
+Helicobacter pylori	Anterior_nares	#8000ff	3	1.0	9.0	#1996f3	#ff5029	Mixed	#cccccc
+Finegoldia magna	R_Retroauricular_crease	#acf59a	64	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Corallococcus coralloides	Posterior_fornix	#8efeac	1	4.0	8.0	#ff964f	#ff964f	Mixed	#cccccc
+Atopobium vaginae	Posterior_fornix	#8efeac	33	3.0	2.0	#b2f396	#1996f3	Mixed	#cccccc
+Butyrivibrio sp. XPD2002	Posterior_fornix	#8efeac	1	1.0	5.0	#1996f3	#7effb5	Mixed	#cccccc
+Megasphaera genomosp. type_1	L_Retroauricular_crease	#34e4d9	8	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Dialister invisus	Stool	#e8cb72	12	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Anaerococcus tetradius	L_Retroauricular_crease	#34e4d9	24	3.0	1.0	#b2f396	#4e4dfc	Mixed	#cccccc
+Burkholderia cepacia	Posterior_fornix	#8efeac	10	3.0	2.0	#b2f396	#1996f3	Mixed	#cccccc
+Lactobacillus crispatus	Mid_vagina	#52f5cb	85	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Anaerococcus lactolyticus	L_Retroauricular_crease	#34e4d9	14	1.0	0.0	#1996f3	#8000ff	Mixed	#cccccc
+Lactobacillus salivarius	Posterior_fornix	#8efeac	5	3.0	0.0	#b2f396	#8000ff	Mixed	#cccccc
+Mobiluncus mulieris	Stool	#e8cb72	7	1.0	5.0	#1996f3	#7effb5	Mixed	#cccccc
+Lactobacillus amylovorus	Vaginal_introitus	#ff0000	16	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc
+Lactobacillus helveticus	Posterior_fornix	#8efeac	18	5.0	4.0	#ff0000	#4df3ce	Mixed	#cccccc

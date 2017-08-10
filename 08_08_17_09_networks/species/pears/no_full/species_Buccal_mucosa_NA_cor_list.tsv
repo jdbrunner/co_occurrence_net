@@ -1,0 +1,69 @@
+	source	target	weight	edge_sample	edge_color
+0	Butyrivibrio crossotus	Actinomyces sp. oral taxon 448	1.0	Mixed	#cccccc
+1	Capnocytophaga sputigena	Actinomyces viscosus	1.0	Mixed	#cccccc
+2	Fusobacterium nucleatum	Atopobium parvulum	1.0	Mixed	#cccccc
+3	Haemophilus sp. C1	Actinomyces johnsonii	1.0	Mixed	#cccccc
+4	Leptotrichia sp. oral taxon 225	Lactobacillus crispatus	1.0	Mixed	#cccccc
+5	Paraprevotella clara	Lactobacillus crispatus	1.0	Mixed	#cccccc
+6	Paraprevotella clara	Leptotrichia sp. oral taxon 225	1.0	Mixed	#cccccc
+7	Porphyromonas gingivalis	Actinomyces sp. oral taxon 448	1.0	Mixed	#cccccc
+8	Porphyromonas gingivalis	Butyrivibrio crossotus	1.0	Mixed	#cccccc
+9	Prevotella aurantiaca	Actinomyces sp. oral taxon 448	1.0	Mixed	#cccccc
+10	Prevotella aurantiaca	Butyrivibrio crossotus	1.0	Mixed	#cccccc
+11	Prevotella aurantiaca	Porphyromonas gingivalis	1.0	Mixed	#cccccc
+12	Prevotella fusca	Actinomyces sp. oral taxon 448	1.0	Mixed	#cccccc
+13	Prevotella fusca	Butyrivibrio crossotus	1.0	Mixed	#cccccc
+14	Prevotella fusca	Porphyromonas gingivalis	1.0	Mixed	#cccccc
+15	Prevotella fusca	Prevotella aurantiaca	1.0	Mixed	#cccccc
+16	Prevotella oralis	Lactobacillus crispatus	1.0	Mixed	#cccccc
+17	Prevotella oralis	Leptotrichia sp. oral taxon 225	1.0	Mixed	#cccccc
+18	Prevotella oralis	Paraprevotella clara	1.0	Mixed	#cccccc
+19	Prevotella sp. F0091	Lactobacillus crispatus	1.0	Mixed	#cccccc
+20	Prevotella sp. F0091	Leptotrichia sp. oral taxon 225	1.0	Mixed	#cccccc
+21	Prevotella sp. F0091	Paraprevotella clara	1.0	Mixed	#cccccc
+22	Prevotella sp. F0091	Prevotella oralis	1.0	Mixed	#cccccc
+23	Roseburia inulinivorans	Actinomyces sp. oral taxon 448	1.0	Mixed	#cccccc
+24	Roseburia inulinivorans	Butyrivibrio crossotus	1.0	Stool	#e8cb72
+25	Roseburia inulinivorans	Porphyromonas gingivalis	1.0	Mixed	#cccccc
+26	Roseburia inulinivorans	Prevotella aurantiaca	1.0	Mixed	#cccccc
+27	Roseburia inulinivorans	Prevotella fusca	1.0	Mixed	#cccccc
+28	Stomatobaculum longum	Odoribacter splanchnicus	1.0	Mixed	#cccccc
+29	Streptococcus infantis	Leptotrichia wadei	1.0	Tongue_dorsum	#ff2f18
+30	Streptococcus sp. CM6	Odoribacter splanchnicus	1.0	Mixed	#cccccc
+31	Streptococcus sp. CM6	Stomatobaculum longum	1.0	Mixed	#cccccc
+32	Streptococcus sp. SR1	Actinomyces sp. oral taxon 448	1.0	Mixed	#cccccc
+33	Streptococcus sp. SR1	Butyrivibrio crossotus	1.0	Mixed	#cccccc
+34	Streptococcus sp. SR1	Porphyromonas gingivalis	1.0	Mixed	#cccccc
+35	Streptococcus sp. SR1	Prevotella aurantiaca	1.0	Mixed	#cccccc
+36	Streptococcus sp. SR1	Prevotella fusca	1.0	Mixed	#cccccc
+37	Streptococcus sp. SR1	Roseburia inulinivorans	1.0	Mixed	#cccccc
+38	Streptococcus uberis	Lactobacillus crispatus	1.0	Mixed	#cccccc
+39	Streptococcus uberis	Leptotrichia sp. oral taxon 225	1.0	Mixed	#cccccc
+40	Streptococcus uberis	Paraprevotella clara	1.0	Mixed	#cccccc
+41	Streptococcus uberis	Prevotella oralis	1.0	Mixed	#cccccc
+42	Streptococcus uberis	Prevotella sp. F0091	1.0	Mixed	#cccccc
+43	Treponema socranskii	Actinomyces sp. oral taxon 448	1.0	Mixed	#cccccc
+44	Treponema socranskii	Butyrivibrio crossotus	1.0	Mixed	#cccccc
+45	Treponema socranskii	Porphyromonas gingivalis	1.0	Mixed	#cccccc
+46	Treponema socranskii	Prevotella aurantiaca	1.0	Mixed	#cccccc
+47	Treponema socranskii	Prevotella fusca	1.0	Mixed	#cccccc
+48	Treponema socranskii	Roseburia inulinivorans	1.0	Mixed	#cccccc
+49	Treponema socranskii	Streptococcus sp. SR1	1.0	Mixed	#cccccc
+50	Veillonella sp. HPA0037	Actinomyces sp. oral taxon 448	1.0	Mixed	#cccccc
+51	Veillonella sp. HPA0037	Butyrivibrio crossotus	1.0	Mixed	#cccccc
+52	Veillonella sp. HPA0037	Porphyromonas gingivalis	1.0	Mixed	#cccccc
+53	Veillonella sp. HPA0037	Prevotella aurantiaca	1.0	Tongue_dorsum	#ff2f18
+54	Veillonella sp. HPA0037	Prevotella fusca	1.0	Mixed	#cccccc
+55	Veillonella sp. HPA0037	Roseburia inulinivorans	1.0	Mixed	#cccccc
+56	Veillonella sp. HPA0037	Streptococcus sp. SR1	1.0	Mixed	#cccccc
+57	Veillonella sp. HPA0037	Treponema socranskii	1.0	Mixed	#cccccc
+58	Veillonella sp. oral taxon 780	Actinomyces sp. oral taxon 448	1.0	Mixed	#cccccc
+59	Veillonella sp. oral taxon 780	Butyrivibrio crossotus	1.0	Mixed	#cccccc
+60	Veillonella sp. oral taxon 780	Porphyromonas gingivalis	1.0	Keratinized_gingiva	#17cbe4
+61	Veillonella sp. oral taxon 780	Prevotella aurantiaca	1.0	Mixed	#cccccc
+62	Veillonella sp. oral taxon 780	Prevotella fusca	1.0	Mixed	#cccccc
+63	Veillonella sp. oral taxon 780	Roseburia inulinivorans	1.0	Mixed	#cccccc
+64	Veillonella sp. oral taxon 780	Streptococcus sp. SR1	1.0	Mixed	#cccccc
+65	Veillonella sp. oral taxon 780	Treponema socranskii	1.0	Mixed	#cccccc
+66	Veillonella sp. oral taxon 780	Veillonella sp. HPA0037	1.0	Mixed	#cccccc
+67	Veillonella tobetsuensis	Prevotella maculosa	1.0	Mixed	#cccccc

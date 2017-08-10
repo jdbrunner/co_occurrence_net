@@ -1,0 +1,754 @@
+TAXA	sample_type	sample_color	frequency	spect_cluster	commun_cluster	spect_color	comm_color	Gender_type	Gender_color
+Acidovorax sp. JS42	Buccal_mucosa	#445cfb	4	27.0	5.0	#40ecd4	#5e35fe	Mixed	#cccccc
+Acidovorax sp. NO-1	R_Retroauricular_crease	#acf59a	2	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+Acidovorax sp. SD340	R_Retroauricular_crease	#acf59a	1	44.0	3.0	#bced8f	#6c1fff	Mixed	#cccccc
+Acinetobacter bereziniae	R_Retroauricular_crease	#acf59a	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Acinetobacter parvus	R_Retroauricular_crease	#acf59a	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Acinetobacter soli	R_Retroauricular_crease	#acf59a	2	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Acinetobacter sp. Ag2	R_Retroauricular_crease	#acf59a	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Acinetobacter sp. MDS7A	Anterior_nares	#8000ff	3	52.0	0.0	#f4c069	#8000ff	Mixed	#cccccc
+Acinetobacter sp. NIPH 284	L_Retroauricular_crease	#34e4d9	1	59.0	8.0	#ff8444	#4856fb	Mixed	#cccccc
+Acinetobacter ursingii	R_Retroauricular_crease	#acf59a	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+[Actinobacillus] muris	Attached	#622ffe	2	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+Actinobacillus ureae	Keratinized_gingiva	#17cbe4	1	8.0	12.0	#4856fb	#2981f6	Mixed	#cccccc
+Actinomyces israelii	Subgingival_plaque	#ffac5c	2	48.0	19.0	#d9da7d	#08bee9	Mixed	#cccccc
+Actinomyces sp. oral taxon 848	Supragingival_plaque	#ff8646	3	48.0	19.0	#d9da7d	#08bee9	Mixed	#cccccc
+Actinomyces sp. oral taxon 849	Supragingival_plaque	#ff8646	2	48.0	19.0	#d9da7d	#08bee9	Mixed	#cccccc
+Actinomyces sp. ph3	Tongue_dorsum	#ff2f18	1	2.0	4.0	#7216ff	#642cfe	Mixed	#cccccc
+Actinomyces viscosus	Attached	#622ffe	20	13.0	7.0	#2489f5	#4e4dfc	Mixed	#cccccc
+Aerococcus viridans	R_Retroauricular_crease	#acf59a	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Aggregatibacter actinomycetemcomitans	Buccal_mucosa	#445cfb	1	44.0	3.0	#bced8f	#6c1fff	Mixed	#cccccc
+Aggregatibacter segnis	Supragingival_plaque	#ff8646	6	14.0	21.0	#1c93f3	#17cbe4	Mixed	#cccccc
+Agrobacterium larrymoorei	R_Retroauricular_crease	#acf59a	1	64.0	12.0	#ff5029	#2981f6	Mixed	#cccccc
+Agrobacterium sp. SUL3	Anterior_nares	#8000ff	4	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Agrobacterium vitis	R_Retroauricular_crease	#acf59a	1	21.0	13.0	#17cbe4	#2489f5	Mixed	#cccccc
+Alcaligenes faecalis	Anterior_nares	#8000ff	1	64.0	12.0	#ff5029	#2981f6	Mixed	#cccccc
+Alicycliphilus sp. CRZ1	R_Retroauricular_crease	#acf59a	1	2.0	4.0	#7216ff	#642cfe	Mixed	#cccccc
+Aliihoeflea sp. 2WW	R_Retroauricular_crease	#acf59a	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Alistipes finegoldii	Stool	#e8cb72	3	29.0	0.0	#50f4cc	#8000ff	Mixed	#cccccc
+Alistipes onderdonkii	Stool	#e8cb72	3	29.0	0.0	#50f4cc	#8000ff	Mixed	#cccccc
+Alistipes shahii	Stool	#e8cb72	15	1.0	26.0	#7a09ff	#3ae8d6	Mixed	#cccccc
+Alistipes sp. HGB5	Stool	#e8cb72	2	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+Alkaliphilus oremlandii	Anterior_nares	#8000ff	2	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+alpha proteobacterium L41A	R_Retroauricular_crease	#acf59a	5	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Altererythrobacter troitsensis	L_Retroauricular_crease	#34e4d9	1	2.0	4.0	#7216ff	#642cfe	Mixed	#cccccc
+Anaerococcus provenciensis	L_Retroauricular_crease	#34e4d9	36	42.0	28.0	#acf59a	#48f1d0	Mixed	#cccccc
+Anaerococcus senegalensis	L_Retroauricular_crease	#34e4d9	16	42.0	28.0	#acf59a	#48f1d0	Mixed	#cccccc
+Anaerococcus sp. MT16	L_Retroauricular_crease	#34e4d9	12	42.0	28.0	#acf59a	#48f1d0	Mixed	#cccccc
+Anaerococcus sp. PH9	L_Retroauricular_crease	#34e4d9	15	45.0	29.0	#c2ea8c	#50f4cc	Mixed	#cccccc
+Anaerococcus sp. SB3	L_Retroauricular_crease	#34e4d9	16	45.0	29.0	#c2ea8c	#50f4cc	Mixed	#cccccc
+Anaerococcus tetradius	L_Retroauricular_crease	#34e4d9	18	45.0	29.0	#c2ea8c	#50f4cc	Mixed	#cccccc
+Anaeroglobus geminatus	Subgingival_plaque	#ffac5c	2	48.0	19.0	#d9da7d	#08bee9	Mixed	#cccccc
+Arcobacter butzleri	L_Retroauricular_crease	#34e4d9	2	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+Arthrobacter sp. YC-RL1	L_Retroauricular_crease	#34e4d9	2	48.0	19.0	#d9da7d	#08bee9	Mixed	#cccccc
+Asticcacaulis excentricus	R_Retroauricular_crease	#acf59a	1	26.0	4.0	#3ae8d6	#642cfe	Mixed	#cccccc
+Aureimonas altamirensis	R_Retroauricular_crease	#acf59a	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Azohydromonas australica	Anterior_nares	#8000ff	1	0.0	23.0	#8000ff	#24d8df	Mixed	#cccccc
+Azospira oryzae	Anterior_nares	#8000ff	1	12.0	2.0	#2981f6	#7216ff	Mixed	#cccccc
+Azotobacter vinelandii	R_Retroauricular_crease	#acf59a	1	44.0	3.0	#bced8f	#6c1fff	Mixed	#cccccc
+Bacillus coagulans	R_Retroauricular_crease	#acf59a	1	55.0	10.0	#ffa759	#396bf9	Mixed	#cccccc
+Bacillus smithii	L_Retroauricular_crease	#34e4d9	2	12.0	20.0	#2981f6	#0fc4e7	Mixed	#cccccc
+Bacillus sp. X1(2014)	R_Retroauricular_crease	#acf59a	1	44.0	3.0	#bced8f	#6c1fff	Mixed	#cccccc
+bacteria symbiont BFo1 of Frankliniella occidentalis	R_Retroauricular_crease	#acf59a	6	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+bacteria symbiont BFo2 of Frankliniella occidentalis	Anterior_nares	#8000ff	4	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+bacterium LF-3	Stool	#e8cb72	2	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+Bacteroides acidifaciens	Stool	#e8cb72	1	64.0	12.0	#ff5029	#2981f6	Mixed	#cccccc
+Bacteroides cellulosilyticus	Stool	#e8cb72	3	39.0	0.0	#99fca6	#8000ff	Mixed	#cccccc
+Bacteroides clarus	Stool	#e8cb72	2	19.0	24.0	#08bee9	#2ddedc	Mixed	#cccccc
+Bacteroides faecichinchillae	Stool	#e8cb72	2	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+Bacteroides fluxus	Stool	#e8cb72	2	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+Bacteroides helcogenes	Stool	#e8cb72	1	64.0	12.0	#ff5029	#2981f6	Mixed	#cccccc
+Bacteroides nordii	Stool	#e8cb72	1	12.0	2.0	#2981f6	#7216ff	Mixed	#cccccc
+[Bacteroides] pectinophilus	Stool	#e8cb72	2	19.0	24.0	#08bee9	#2ddedc	Mixed	#cccccc
+Bacteroides salyersiae	Stool	#e8cb72	5	36.0	24.0	#82ffb3	#2ddedc	Mixed	#cccccc
+Bacteroides sp. 1_1_30	Stool	#e8cb72	7	63.0	24.0	#ff592d	#2ddedc	Mixed	#cccccc
+Bacteroides sp. 1_1_6	Stool	#e8cb72	2	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+Bacteroides sp. 14(A)	Stool	#e8cb72	2	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+Bacteroides sp. 2_1_33B	Stool	#e8cb72	1	21.0	13.0	#17cbe4	#2489f5	Mixed	#cccccc
+Bacteroides sp. 2_1_56FAA	Stool	#e8cb72	2	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+Bacteroides sp. 2_2_4	Stool	#e8cb72	2	3.0	0.0	#6c1fff	#8000ff	Mixed	#cccccc
+Bacteroides sp. 3_1_13	Stool	#e8cb72	4	63.0	0.0	#ff592d	#8000ff	Mixed	#cccccc
+Bacteroides sp. 3_1_19	Stool	#e8cb72	2	63.0	0.0	#ff592d	#8000ff	Mixed	#cccccc
+Bacteroides sp. 3_1_23	Stool	#e8cb72	5	36.0	24.0	#82ffb3	#2ddedc	Mixed	#cccccc
+Bacteroides sp. 3_1_33FAA	Stool	#e8cb72	4	29.0	24.0	#50f4cc	#2ddedc	Mixed	#cccccc
+Bacteroides sp. 3_1_40A	Stool	#e8cb72	3	3.0	0.0	#6c1fff	#8000ff	Mixed	#cccccc
+Bacteroides sp. 4_3_47FAA	Stool	#e8cb72	2	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+Bacteroides sp. 9_1_42FAA	Stool	#e8cb72	1	44.0	3.0	#bced8f	#6c1fff	Mixed	#cccccc
+Bacteroides sp. D2	Stool	#e8cb72	5	63.0	24.0	#ff592d	#2ddedc	Mixed	#cccccc
+Bacteroides sp. D20	Stool	#e8cb72	9	63.0	24.0	#ff592d	#2ddedc	Mixed	#cccccc
+Bacteroides sp. D22	Stool	#e8cb72	2	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+Bacteroides stercorirosoris	Stool	#e8cb72	2	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+Bacteroides xylanisolvens	Stool	#e8cb72	5	63.0	0.0	#ff592d	#8000ff	Mixed	#cccccc
+Barnesiella viscericola	Stool	#e8cb72	2	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+Belnapia sp. F-4-1	L_Retroauricular_crease	#34e4d9	1	34.0	36.0	#74feba	#82ffb3	Mixed	#cccccc
+Bhargavaea cecembensis	R_Retroauricular_crease	#acf59a	2	12.0	20.0	#2981f6	#0fc4e7	Mixed	#cccccc
+Bifidobacterium bifidum	Stool	#e8cb72	3	16.0	34.0	#0ea5ef	#74feba	Mixed	#cccccc
+Bifidobacterium kashiwanohense	L_Retroauricular_crease	#34e4d9	1	41.0	18.0	#a6f89d	#00b5eb	Mixed	#cccccc
+Bifidobacterium pseudocatenulatum	L_Retroauricular_crease	#34e4d9	3	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+Bilophila wadsworthia	Stool	#e8cb72	1	44.0	3.0	#bced8f	#6c1fff	Mixed	#cccccc
+Blautia obeum	Stool	#e8cb72	6	36.0	24.0	#82ffb3	#2ddedc	Mixed	#cccccc
+Blautia producta	Stool	#e8cb72	1	41.0	18.0	#a6f89d	#00b5eb	Mixed	#cccccc
+Blautia sp. GD9	Stool	#e8cb72	1	12.0	2.0	#2981f6	#7216ff	Mixed	#cccccc
+Blautia sp. KLE 1732	Stool	#e8cb72	1	25.0	13.0	#32e3da	#2489f5	Mixed	#cccccc
+Bosea sp. Root483D1	L_Retroauricular_crease	#34e4d9	1	15.0	30.0	#169bf2	#56f7ca	Mixed	#cccccc
+Bosea vaviloviae	R_Retroauricular_crease	#acf59a	1	59.0	8.0	#ff8444	#4856fb	Mixed	#cccccc
+Brachybacterium sp. SW0106-09	L_Retroauricular_crease	#34e4d9	4	35.0	11.0	#7affb7	#3176f8	Mixed	#cccccc
+Brachybacterium squillarum	R_Retroauricular_crease	#acf59a	1	41.0	18.0	#a6f89d	#00b5eb	Mixed	#cccccc
+Bradyrhizobium sp. BTAi1	L_Retroauricular_crease	#34e4d9	1	41.0	18.0	#a6f89d	#00b5eb	Mixed	#cccccc
+Bradyrhizobium sp. Leaf396	R_Retroauricular_crease	#acf59a	1	15.0	30.0	#169bf2	#56f7ca	Mixed	#cccccc
+Brevibacterium sp. VCM10	Anterior_nares	#8000ff	2	48.0	19.0	#d9da7d	#08bee9	Mixed	#cccccc
+Brevundimonas abyssalis	R_Retroauricular_crease	#acf59a	2	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Brevundimonas aveniformis	R_Retroauricular_crease	#acf59a	1	59.0	8.0	#ff8444	#4856fb	Mixed	#cccccc
+Brevundimonas bacteroides	R_Retroauricular_crease	#acf59a	2	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Brevundimonas naejangsanensis	R_Retroauricular_crease	#acf59a	5	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Brevundimonas nasdae	R_Retroauricular_crease	#acf59a	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Brevundimonas sp. AAP58	R_Retroauricular_crease	#acf59a	1	59.0	8.0	#ff8444	#4856fb	Mixed	#cccccc
+Brevundimonas sp. BAL3	R_Retroauricular_crease	#acf59a	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Brevundimonas sp. DS20	R_Retroauricular_crease	#acf59a	7	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Brevundimonas sp. EAKA	R_Retroauricular_crease	#acf59a	4	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Brevundimonas sp. KM4	R_Retroauricular_crease	#acf59a	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Brevundimonas sp. Leaf168	R_Retroauricular_crease	#acf59a	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Brevundimonas sp. Leaf280	R_Retroauricular_crease	#acf59a	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Brevundimonas sp. Leaf363	R_Retroauricular_crease	#acf59a	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Brevundimonas sp. Root1279	R_Retroauricular_crease	#acf59a	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Brevundimonas sp. Root1423	R_Retroauricular_crease	#acf59a	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Brevundimonas subvibrioides	R_Retroauricular_crease	#acf59a	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Burkholderiales bacterium 1_1_47	Stool	#e8cb72	2	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+Butyricicoccus pullicaecorum	Stool	#e8cb72	3	52.0	0.0	#f4c069	#8000ff	Mixed	#cccccc
+Butyricimonas synergistica	Stool	#e8cb72	1	44.0	3.0	#bced8f	#6c1fff	Mixed	#cccccc
+Butyrivibrio fibrisolvens	R_Retroauricular_crease	#acf59a	1	62.0	4.0	#ff6533	#642cfe	Mixed	#cccccc
+Caldimonas manganoxidans	R_Retroauricular_crease	#acf59a	1	41.0	18.0	#a6f89d	#00b5eb	Mixed	#cccccc
+Campylobacter ureolyticus	R_Retroauricular_crease	#acf59a	14	10.0	28.0	#396bf9	#48f1d0	Mixed	#cccccc
+Candidatus Alistipes marseilloanorexicus	Stool	#e8cb72	7	1.0	25.0	#7a09ff	#32e3da	Mixed	#cccccc
+Candidatus Bacteroides timonensis	Stool	#e8cb72	2	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+Candidatus Blastococcus massiliensis	Anterior_nares	#8000ff	1	15.0	30.0	#169bf2	#56f7ca	Mixed	#cccccc
+Capnocytophaga cynodegmi	R_Retroauricular_crease	#acf59a	5	37.0	37.0	#88ffaf	#88ffaf	Mixed	#cccccc
+Capnocytophaga sp. CM59	Supragingival_plaque	#ff8646	4	9.0	39.0	#4062fa	#99fca6	Mixed	#cccccc
+Capnocytophaga sp. oral taxon 326	Subgingival_plaque	#ffac5c	12	61.0	44.0	#ff6d38	#bced8f	Mixed	#cccccc
+Capnocytophaga sp. oral taxon 329	Supragingival_plaque	#ff8646	28	31.0	47.0	#5efac6	#d0e082	Mixed	#cccccc
+Capnocytophaga sp. oral taxon 332	Supragingival_plaque	#ff8646	11	61.0	44.0	#ff6d38	#bced8f	Mixed	#cccccc
+Capnocytophaga sp. oral taxon 863	Supragingival_plaque	#ff8646	4	9.0	39.0	#4062fa	#99fca6	Mixed	#cccccc
+Capnocytophaga sputigena	Supragingival_plaque	#ff8646	18	13.0	7.0	#2489f5	#4e4dfc	Mixed	#cccccc
+Carnobacterium divergens	Saliva	#cbe486	2	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+Carnobacterium sp. WN1374	R_Retroauricular_crease	#acf59a	1	0.0	23.0	#8000ff	#24d8df	Mixed	#cccccc
+Casaltella massiliensis	L_Retroauricular_crease	#34e4d9	7	10.0	28.0	#396bf9	#48f1d0	Mixed	#cccccc
+Centipeda periodontii	Subgingival_plaque	#ffac5c	1	15.0	30.0	#169bf2	#56f7ca	Mixed	#cccccc
+Chryseobacterium gleum	R_Retroauricular_crease	#acf59a	3	27.0	5.0	#40ecd4	#5e35fe	Mixed	#cccccc
+Chryseobacterium haifense	R_Retroauricular_crease	#acf59a	5	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Chryseobacterium hispalense	R_Retroauricular_crease	#acf59a	1	25.0	13.0	#32e3da	#2489f5	Mixed	#cccccc
+Chryseobacterium indologenes	L_Retroauricular_crease	#34e4d9	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Chryseobacterium jeonii	R_Retroauricular_crease	#acf59a	1	71.0	14.0	#ff0000	#1c93f3	Mixed	#cccccc
+Chryseobacterium koreense	Anterior_nares	#8000ff	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Chryseobacterium sp. CF356	R_Retroauricular_crease	#acf59a	2	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Chryseobacterium sp. FF12	R_Retroauricular_crease	#acf59a	5	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Citrobacter sp. MGH109	R_Retroauricular_crease	#acf59a	2	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+Clostridiales bacterium SIT13	L_Retroauricular_crease	#34e4d9	9	49.0	28.0	#ded579	#48f1d0	Mixed	#cccccc
+Clostridiales bacterium VE202-03	Stool	#e8cb72	2	63.0	0.0	#ff592d	#8000ff	Mixed	#cccccc
+[Clostridium] clariflavum	L_Retroauricular_crease	#34e4d9	5	54.0	49.0	#ffb05f	#ded579	Mixed	#cccccc
+[Clostridium] clostridioforme	Stool	#e8cb72	2	19.0	24.0	#08bee9	#2ddedc	Mixed	#cccccc
+Clostridium sp. ATCC BAA-442	Stool	#e8cb72	1	71.0	32.0	#ff0000	#64fbc3	Mixed	#cccccc
+[Clostridium] spiroforme	Stool	#e8cb72	2	19.0	24.0	#08bee9	#2ddedc	Mixed	#cccccc
+Clostridium sp. JCC	L_Retroauricular_crease	#34e4d9	1	71.0	32.0	#ff0000	#64fbc3	Mixed	#cccccc
+Clostridium sp. M62/1	Stool	#e8cb72	2	19.0	24.0	#08bee9	#2ddedc	Mixed	#cccccc
+[Clostridium] symbiosum	Stool	#e8cb72	1	62.0	4.0	#ff6533	#642cfe	Mixed	#cccccc
+[Clostridium] ultunense	R_Retroauricular_crease	#acf59a	1	31.0	38.0	#5efac6	#90feab	Mixed	#cccccc
+Collinsella aerofaciens	Stool	#e8cb72	1	41.0	18.0	#a6f89d	#00b5eb	Mixed	#cccccc
+Collinsella tanakaei	Stool	#e8cb72	1	6.0	27.0	#5641fd	#40ecd4	Mixed	#cccccc
+Comamonas aquatica	R_Retroauricular_crease	#acf59a	7	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Comamonas testosteroni	Mid_vagina	#52f5cb	4	29.0	0.0	#50f4cc	#8000ff	Mixed	#cccccc
+Conchiformibius steedae	R_Retroauricular_crease	#acf59a	8	37.0	37.0	#88ffaf	#88ffaf	Mixed	#cccccc
+Coprococcus comes	Stool	#e8cb72	5	36.0	24.0	#82ffb3	#2ddedc	Mixed	#cccccc
+Coriobacteriaceae bacterium BV3Ac1	R_Retroauricular_crease	#acf59a	3	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+Corynebacterium argentoratense	Tongue_dorsum	#ff2f18	6	41.0	42.0	#a6f89d	#acf59a	Mixed	#cccccc
+Corynebacterium atypicum	Anterior_nares	#8000ff	1	62.0	4.0	#ff6533	#642cfe	Mixed	#cccccc
+Corynebacterium bovis	Anterior_nares	#8000ff	4	46.0	35.0	#cbe486	#7affb7	Mixed	#cccccc
+Corynebacterium callunae	Anterior_nares	#8000ff	1	0.0	23.0	#8000ff	#24d8df	Mixed	#cccccc
+Corynebacterium camporealensis	Anterior_nares	#8000ff	1	55.0	10.0	#ffa759	#396bf9	Mixed	#cccccc
+Corynebacterium casei	Anterior_nares	#8000ff	4	3.0	0.0	#6c1fff	#8000ff	Mixed	#cccccc
+Corynebacterium freiburgense	R_Retroauricular_crease	#acf59a	3	18.0	15.0	#00b5eb	#169bf2	Mixed	#cccccc
+Corynebacterium lactis	L_Retroauricular_crease	#34e4d9	6	45.0	54.0	#c2ea8c	#ffb05f	Mixed	#cccccc
+Corynebacterium lipophiloflavum	Anterior_nares	#8000ff	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Corynebacterium lubricantis	L_Retroauricular_crease	#34e4d9	3	48.0	19.0	#d9da7d	#08bee9	Mixed	#cccccc
+Corynebacterium mastitidis	Anterior_nares	#8000ff	4	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Corynebacterium matruchotii	Supragingival_plaque	#ff8646	38	13.0	7.0	#2489f5	#4e4dfc	Mixed	#cccccc
+Corynebacterium mustelae	R_Retroauricular_crease	#acf59a	4	18.0	15.0	#00b5eb	#169bf2	Mixed	#cccccc
+Corynebacterium sp. ATCC 6931	L_Retroauricular_crease	#34e4d9	1	34.0	36.0	#74feba	#82ffb3	Mixed	#cccccc
+Corynebacterium sp. HFH0082	R_Retroauricular_crease	#acf59a	4	48.0	19.0	#d9da7d	#08bee9	Mixed	#cccccc
+Corynebacterium sp. L2-79-05	L_Retroauricular_crease	#34e4d9	3	48.0	19.0	#d9da7d	#08bee9	Mixed	#cccccc
+Corynebacterium striatum	Anterior_nares	#8000ff	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Corynebacterium timonense	R_Retroauricular_crease	#acf59a	2	48.0	19.0	#d9da7d	#08bee9	Mixed	#cccccc
+Corynebacterium variabile	R_Retroauricular_crease	#acf59a	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Corynebacterium xerosis	R_Retroauricular_crease	#acf59a	2	27.0	5.0	#40ecd4	#5e35fe	Mixed	#cccccc
+Cryptobacterium curtum	Saliva	#cbe486	2	12.0	20.0	#2981f6	#0fc4e7	Mixed	#cccccc
+Cupriavidus basilensis	Mid_vagina	#52f5cb	1	0.0	23.0	#8000ff	#24d8df	Mixed	#cccccc
+Curtobacterium citreum	R_Retroauricular_crease	#acf59a	2	48.0	19.0	#d9da7d	#08bee9	Mixed	#cccccc
+Curvibacter gracilis	Anterior_nares	#8000ff	1	15.0	30.0	#169bf2	#56f7ca	Mixed	#cccccc
+Dechloromonas agitata	Buccal_mucosa	#445cfb	3	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+Defluviitalea phaphyphila	L_Retroauricular_crease	#34e4d9	9	54.0	49.0	#ffb05f	#ded579	Mixed	#cccccc
+Deinococcus aquatilis	Anterior_nares	#8000ff	1	64.0	12.0	#ff5029	#2981f6	Mixed	#cccccc
+Deinococcus wulumuqiensis	R_Retroauricular_crease	#acf59a	4	28.0	11.0	#48f1d0	#3176f8	Mixed	#cccccc
+Delftia lacustris	Anterior_nares	#8000ff	4	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Delftia sp. Cs1-4	Anterior_nares	#8000ff	1	62.0	4.0	#ff6533	#642cfe	Mixed	#cccccc
+Delftia sp. RIT313	R_Retroauricular_crease	#acf59a	1	44.0	3.0	#bced8f	#6c1fff	Mixed	#cccccc
+Delftia sp. ZNC0008	R_Retroauricular_crease	#acf59a	1	5.0	16.0	#5e35fe	#0ea5ef	Mixed	#cccccc
+Dermacoccus sp. PE3	R_Retroauricular_crease	#acf59a	4	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Devosia geojensis	Anterior_nares	#8000ff	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Diaphorobacter sp. J5-51	Buccal_mucosa	#445cfb	1	64.0	12.0	#ff5029	#2981f6	Mixed	#cccccc
+Dorea formicigenerans	Stool	#e8cb72	2	19.0	24.0	#08bee9	#2ddedc	Mixed	#cccccc
+Dorea sp. 5-2	R_Retroauricular_crease	#acf59a	1	64.0	12.0	#ff5029	#2981f6	Mixed	#cccccc
+Duganella zoogloeoides	R_Retroauricular_crease	#acf59a	2	48.0	19.0	#d9da7d	#08bee9	Mixed	#cccccc
+Dyadobacter alkalitolerans	R_Retroauricular_crease	#acf59a	2	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+Dysgonomonas capnocytophagoides	Stool	#e8cb72	2	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+Dysgonomonas sp. BGC7	R_Retroauricular_crease	#acf59a	2	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+Eggerthia catenaformis	Subgingival_plaque	#ffac5c	2	38.0	53.0	#90feab	#fcb763	Mixed	#cccccc
+Eikenella corrodens	Subgingival_plaque	#ffac5c	4	11.0	39.0	#3176f8	#99fca6	Mixed	#cccccc
+Empedobacter brevis	Anterior_nares	#8000ff	2	46.0	51.0	#cbe486	#eec66d	Mixed	#cccccc
+Enorma massiliensis	R_Retroauricular_crease	#acf59a	1	34.0	36.0	#74feba	#82ffb3	Mixed	#cccccc
+Enterobacter cloacae	Anterior_nares	#8000ff	3	52.0	0.0	#f4c069	#8000ff	Mixed	#cccccc
+Enterobacter hormaechei	R_Retroauricular_crease	#acf59a	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Enterococcus casseliflavus	Anterior_nares	#8000ff	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Enterococcus italicus	R_Retroauricular_crease	#acf59a	1	15.0	30.0	#169bf2	#56f7ca	Mixed	#cccccc
+Enterococcus mundtii	Anterior_nares	#8000ff	1	15.0	30.0	#169bf2	#56f7ca	Mixed	#cccccc
+Epilithonimonas tenax	R_Retroauricular_crease	#acf59a	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Erysipelotrichaceae bacterium 5_2_54FAA	Stool	#e8cb72	2	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+[Eubacterium] eligens	Stool	#e8cb72	12	63.0	24.0	#ff592d	#2ddedc	Mixed	#cccccc
+[Eubacterium] hallii	Stool	#e8cb72	4	40.0	40.0	#9efaa2	#9efaa2	Mixed	#cccccc
+[Eubacterium] infirmum	Subgingival_plaque	#ffac5c	1	6.0	27.0	#5641fd	#40ecd4	Mixed	#cccccc
+Eubacterium ramulus	Stool	#e8cb72	2	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+Eubacterium ventriosum	Stool	#e8cb72	7	36.0	24.0	#82ffb3	#2ddedc	Mixed	#cccccc
+Ewingella americana	Anterior_nares	#8000ff	2	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Facklamia ignava	Mid_vagina	#52f5cb	2	28.0	11.0	#48f1d0	#3176f8	Mixed	#cccccc
+Fenollaria massiliensis	Anterior_nares	#8000ff	3	52.0	0.0	#f4c069	#8000ff	Mixed	#cccccc
+Fermentimonas caenicola	R_Retroauricular_crease	#acf59a	1	43.0	23.0	#b4f295	#24d8df	Mixed	#cccccc
+Flavobacteriaceae bacterium 3519-10	R_Retroauricular_crease	#acf59a	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Flavobacterium aquidurense	R_Retroauricular_crease	#acf59a	1	43.0	23.0	#b4f295	#24d8df	Mixed	#cccccc
+Flavobacterium sasangense	R_Retroauricular_crease	#acf59a	1	5.0	16.0	#5e35fe	#0ea5ef	Mixed	#cccccc
+Flavobacterium sp. B17	R_Retroauricular_crease	#acf59a	1	53.0	3.0	#fcb763	#6c1fff	Mixed	#cccccc
+Flavobacterium sp. Leaf359	Anterior_nares	#8000ff	3	27.0	5.0	#40ecd4	#5e35fe	Mixed	#cccccc
+Flavonifractor plautii	Stool	#e8cb72	1	53.0	3.0	#fcb763	#6c1fff	Mixed	#cccccc
+Frateuria aurantia	R_Retroauricular_crease	#acf59a	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Fusobacterium hwasookii	Supragingival_plaque	#ff8646	2	17.0	39.0	#06aeed	#99fca6	Mixed	#cccccc
+Fusobacterium russii	Attached	#622ffe	3	18.0	15.0	#00b5eb	#169bf2	Mixed	#cccccc
+Gemella cuniculi	Attached	#622ffe	1	64.0	12.0	#ff5029	#2981f6	Mixed	#cccccc
+Geobacillus thermoglucosidasius	R_Retroauricular_crease	#acf59a	2	12.0	20.0	#2981f6	#0fc4e7	Mixed	#cccccc
+Gluconobacter frateurii	R_Retroauricular_crease	#acf59a	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Gluconobacter oxydans	L_Retroauricular_crease	#34e4d9	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Gordonia aichiensis	L_Retroauricular_crease	#34e4d9	2	3.0	0.0	#6c1fff	#8000ff	Mixed	#cccccc
+Gordonia alkanivorans	R_Retroauricular_crease	#acf59a	1	55.0	10.0	#ffa759	#396bf9	Mixed	#cccccc
+Gordonia bronchialis	R_Retroauricular_crease	#acf59a	1	53.0	3.0	#fcb763	#6c1fff	Mixed	#cccccc
+Gordonia otitidis	Anterior_nares	#8000ff	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Gordonia sputi	R_Retroauricular_crease	#acf59a	3	3.0	0.0	#6c1fff	#8000ff	Mixed	#cccccc
+Gordonia terrae	R_Retroauricular_crease	#acf59a	2	27.0	5.0	#40ecd4	#5e35fe	Mixed	#cccccc
+Gulbenkiania mobilis	L_Retroauricular_crease	#34e4d9	24	51.0	56.0	#eec66d	#ff9d53	Mixed	#cccccc
+Haematobacter massiliensis	R_Retroauricular_crease	#acf59a	4	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Haematobacter missouriensis	R_Retroauricular_crease	#acf59a	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Haemophilus parainfluenzae	Tongue_dorsum	#ff2f18	32	31.0	47.0	#5efac6	#d0e082	Mixed	#cccccc
+[Haemophilus] parasuis	Buccal_mucosa	#445cfb	5	46.0	35.0	#cbe486	#7affb7	Mixed	#cccccc
+Haemophilus sp. C1	Buccal_mucosa	#445cfb	2	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+Haemophilus sp. oral taxon 851	Keratinized_gingiva	#17cbe4	2	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+Halomonas hydrothermalis	R_Retroauricular_crease	#acf59a	1	62.0	4.0	#ff6533	#642cfe	Mixed	#cccccc
+Helcococcus kunzii	Attached	#622ffe	6	10.0	28.0	#396bf9	#48f1d0	Mixed	#cccccc
+Helcococcus sueciensis	R_Retroauricular_crease	#acf59a	5	10.0	28.0	#396bf9	#48f1d0	Mixed	#cccccc
+Helicobacter bilis	L_Retroauricular_crease	#34e4d9	4	46.0	35.0	#cbe486	#7affb7	Mixed	#cccccc
+Helicobacter pylori	Anterior_nares	#8000ff	2	19.0	24.0	#08bee9	#2ddedc	Mixed	#cccccc
+Helicobacter suis	Anterior_nares	#8000ff	17	45.0	55.0	#c2ea8c	#ffa759	Mixed	#cccccc
+Herbaspirillum frisingense	R_Retroauricular_crease	#acf59a	1	62.0	4.0	#ff6533	#642cfe	Mixed	#cccccc
+Holdemanella biformis	L_Retroauricular_crease	#34e4d9	1	7.0	58.0	#4e4dfc	#ff8c49	Mixed	#cccccc
+Holdemania filiformis	Stool	#e8cb72	2	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+Intestinimonas butyriciproducens	Stool	#e8cb72	4	36.0	24.0	#82ffb3	#2ddedc	Mixed	#cccccc
+Intestinimonas sp. GD2	Stool	#e8cb72	3	39.0	0.0	#99fca6	#8000ff	Mixed	#cccccc
+Isoptericola variabilis	Tongue_dorsum	#ff2f18	2	3.0	0.0	#6c1fff	#8000ff	Mixed	#cccccc
+Janibacter hoylei	Anterior_nares	#8000ff	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Jonquetella anthropi	R_Retroauricular_crease	#acf59a	2	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+Jonquetella sp. BV3C21	R_Retroauricular_crease	#acf59a	1	8.0	12.0	#4856fb	#2981f6	Mixed	#cccccc
+Ketogulonicigenium vulgare	R_Retroauricular_crease	#acf59a	1	43.0	23.0	#b4f295	#24d8df	Mixed	#cccccc
+Kineosphaera limosa	Subgingival_plaque	#ffac5c	1	2.0	4.0	#7216ff	#642cfe	Mixed	#cccccc
+Kingella oralis	Supragingival_plaque	#ff8646	22	13.0	7.0	#2489f5	#4e4dfc	Mixed	#cccccc
+Klebsiella cf. planticola B43	Anterior_nares	#8000ff	1	43.0	23.0	#b4f295	#24d8df	Mixed	#cccccc
+Klebsiella oxytoca	Anterior_nares	#8000ff	4	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Kocuria kristinae	Anterior_nares	#8000ff	1	2.0	4.0	#7216ff	#642cfe	Mixed	#cccccc
+Kocuria marina	Anterior_nares	#8000ff	1	15.0	30.0	#169bf2	#56f7ca	Mixed	#cccccc
+Kocuria polaris	Anterior_nares	#8000ff	1	21.0	13.0	#17cbe4	#2489f5	Mixed	#cccccc
+Kocuria salsicia	R_Retroauricular_crease	#acf59a	2	27.0	5.0	#40ecd4	#5e35fe	Mixed	#cccccc
+Lachnoanaerobaculum sp. ICM7	Tongue_dorsum	#ff2f18	2	48.0	19.0	#d9da7d	#08bee9	Mixed	#cccccc
+Lachnospiraceae bacterium 5_1_63FAA	Stool	#e8cb72	1	21.0	13.0	#17cbe4	#2489f5	Mixed	#cccccc
+Lachnospiraceae bacterium 7_1_58FAA	Stool	#e8cb72	5	36.0	24.0	#82ffb3	#2ddedc	Mixed	#cccccc
+Lachnospiraceae bacterium oral taxon 082	Tongue_dorsum	#ff2f18	1	62.0	4.0	#ff6533	#642cfe	Mixed	#cccccc
+Lachnospiraceae bacterium oral taxon 500	Supragingival_plaque	#ff8646	4	10.0	28.0	#396bf9	#48f1d0	Mixed	#cccccc
+Lachnospiraceae bacterium TF01-11	Stool	#e8cb72	3	19.0	24.0	#08bee9	#2ddedc	Mixed	#cccccc
+Lachnospira multipara	Stool	#e8cb72	1	64.0	12.0	#ff5029	#2981f6	Mixed	#cccccc
+Lactobacillus animalis	R_Retroauricular_crease	#acf59a	1	6.0	27.0	#5641fd	#40ecd4	Mixed	#cccccc
+Lactobacillus brevis	Anterior_nares	#8000ff	1	44.0	3.0	#bced8f	#6c1fff	Mixed	#cccccc
+Lactobacillus coleohominis	Mid_vagina	#52f5cb	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Lactobacillus curvatus	Anterior_nares	#8000ff	2	17.0	39.0	#06aeed	#99fca6	Mixed	#cccccc
+Lactobacillus fermentum	Posterior_fornix	#8efeac	5	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Lactobacillus gasseri	Posterior_fornix	#8efeac	3	52.0	0.0	#f4c069	#8000ff	Mixed	#cccccc
+Lactobacillus jensenii	Posterior_fornix	#8efeac	11	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Lactobacillus melliventris	R_Retroauricular_crease	#acf59a	1	8.0	12.0	#4856fb	#2981f6	Mixed	#cccccc
+Lactobacillus plantarum	Anterior_nares	#8000ff	3	27.0	5.0	#40ecd4	#5e35fe	Mixed	#cccccc
+Lactobacillus reuteri	Posterior_fornix	#8efeac	1	44.0	3.0	#bced8f	#6c1fff	Mixed	#cccccc
+Lactobacillus rhamnosus	Buccal_mucosa	#445cfb	1	53.0	3.0	#fcb763	#6c1fff	Mixed	#cccccc
+Lactobacillus saerimneri	L_Retroauricular_crease	#34e4d9	4	46.0	35.0	#cbe486	#7affb7	Mixed	#cccccc
+Lactobacillus sakei	Anterior_nares	#8000ff	3	3.0	0.0	#6c1fff	#8000ff	Mixed	#cccccc
+Lactobacillus sp. 7_1_47FAA	Posterior_fornix	#8efeac	1	53.0	3.0	#fcb763	#6c1fff	Mixed	#cccccc
+Lactobacillus vaginalis	Posterior_fornix	#8efeac	6	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Lautropia mirabilis	Supragingival_plaque	#ff8646	25	13.0	7.0	#2489f5	#4e4dfc	Mixed	#cccccc
+Leclercia adecarboxylata	Anterior_nares	#8000ff	6	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Leisingera sp. ANG-M1	R_Retroauricular_crease	#acf59a	1	53.0	3.0	#fcb763	#6c1fff	Mixed	#cccccc
+Leptotrichia buccalis	Supragingival_plaque	#ff8646	3	17.0	39.0	#06aeed	#99fca6	Mixed	#cccccc
+Leptotrichia hofstadii	Supragingival_plaque	#ff8646	3	17.0	39.0	#06aeed	#99fca6	Mixed	#cccccc
+Leptotrichia sp. oral taxon 212	Supragingival_plaque	#ff8646	18	33.0	43.0	#6dfdbf	#b4f295	Mixed	#cccccc
+Leptotrichia sp. oral taxon 225	Supragingival_plaque	#ff8646	2	17.0	39.0	#06aeed	#99fca6	Mixed	#cccccc
+Leptotrichia sp. oral taxon 879	Subgingival_plaque	#ffac5c	2	17.0	39.0	#06aeed	#99fca6	Mixed	#cccccc
+Leptotrichia trevisanii	Palatine_Tonsils	#70febc	9	61.0	44.0	#ff6d38	#bced8f	Mixed	#cccccc
+Leucobacter sp. Ag1	L_Retroauricular_crease	#34e4d9	1	41.0	18.0	#a6f89d	#00b5eb	Mixed	#cccccc
+Leucobacter sp. CBX151	Anterior_nares	#8000ff	18	45.0	55.0	#c2ea8c	#ffa759	Mixed	#cccccc
+Leuconostoc carnosum	Saliva	#cbe486	2	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+Leuconostoc gelidum	L_Retroauricular_crease	#34e4d9	5	63.0	0.0	#ff592d	#8000ff	Mixed	#cccccc
+Leuconostoc mesenteroides	Anterior_nares	#8000ff	1	56.0	9.0	#ff9d53	#4062fa	Mixed	#cccccc
+Leuconostoc pseudomesenteroides	R_Retroauricular_crease	#acf59a	5	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Limnohabitans sp. 103DPR2	R_Retroauricular_crease	#acf59a	2	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+Limnohabitans sp. Rim28	R_Retroauricular_crease	#acf59a	2	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+Listeria monocytogenes	L_Retroauricular_crease	#34e4d9	2	19.0	24.0	#08bee9	#2ddedc	Mixed	#cccccc
+Marinilabilia salmonicolor	L_Retroauricular_crease	#34e4d9	2	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+Marmoricola sp. Leaf446	L_Retroauricular_crease	#34e4d9	1	15.0	30.0	#169bf2	#56f7ca	Mixed	#cccccc
+Massilia alkalitolerans	R_Retroauricular_crease	#acf59a	2	27.0	5.0	#40ecd4	#5e35fe	Mixed	#cccccc
+Massilia sp. LC238	R_Retroauricular_crease	#acf59a	3	27.0	5.0	#40ecd4	#5e35fe	Mixed	#cccccc
+Massilia sp. Leaf139	R_Retroauricular_crease	#acf59a	2	27.0	5.0	#40ecd4	#5e35fe	Mixed	#cccccc
+Megasphaera genomosp. type_1	L_Retroauricular_crease	#34e4d9	3	18.0	15.0	#00b5eb	#169bf2	Mixed	#cccccc
+Megasphaera sp. UPII 135-E	L_Retroauricular_crease	#34e4d9	5	34.0	62.0	#74feba	#ff6533	Mixed	#cccccc
+Megasphaera sp. UPII 199-6	Posterior_fornix	#8efeac	3	18.0	15.0	#00b5eb	#169bf2	Mixed	#cccccc
+Meiothermus ruber	R_Retroauricular_crease	#acf59a	1	2.0	4.0	#7216ff	#642cfe	Mixed	#cccccc
+Mesorhizobium sp. UASWS1009	R_Retroauricular_crease	#acf59a	2	27.0	5.0	#40ecd4	#5e35fe	Mixed	#cccccc
+Methylobacillus glycogenes	R_Retroauricular_crease	#acf59a	2	48.0	19.0	#d9da7d	#08bee9	Mixed	#cccccc
+Methylobacterium extorquens	Anterior_nares	#8000ff	1	5.0	16.0	#5e35fe	#0ea5ef	Mixed	#cccccc
+Methylobacterium populi	Anterior_nares	#8000ff	1	25.0	13.0	#32e3da	#2489f5	Mixed	#cccccc
+Methylobacterium sp. AMS5	R_Retroauricular_crease	#acf59a	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Methylobacterium sp. GXS13	R_Retroauricular_crease	#acf59a	3	12.0	20.0	#2981f6	#0fc4e7	Mixed	#cccccc
+Methylobacterium sp. Leaf85	R_Retroauricular_crease	#acf59a	1	53.0	3.0	#fcb763	#6c1fff	Mixed	#cccccc
+Methylobacterium sp. MB200	L_Retroauricular_crease	#34e4d9	2	3.0	0.0	#6c1fff	#8000ff	Mixed	#cccccc
+Microbacterium paraoxydans	R_Retroauricular_crease	#acf59a	5	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Microbacterium sp. Ag1	R_Retroauricular_crease	#acf59a	1	59.0	8.0	#ff8444	#4856fb	Mixed	#cccccc
+Microbacterium sp. KROCY2	L_Retroauricular_crease	#34e4d9	3	28.0	11.0	#48f1d0	#3176f8	Mixed	#cccccc
+Microbacterium sp. Leaf203	Anterior_nares	#8000ff	1	62.0	4.0	#ff6533	#642cfe	Mixed	#cccccc
+Microbacterium sp. TS-1	Anterior_nares	#8000ff	3	46.0	51.0	#cbe486	#eec66d	Mixed	#cccccc
+Microbacterium testaceum	R_Retroauricular_crease	#acf59a	2	46.0	51.0	#cbe486	#eec66d	Mixed	#cccccc
+Micrococcus sp. 28	L_Retroauricular_crease	#34e4d9	1	41.0	18.0	#a6f89d	#00b5eb	Mixed	#cccccc
+Micrococcus sp. A1	L_Retroauricular_crease	#34e4d9	2	28.0	11.0	#48f1d0	#3176f8	Mixed	#cccccc
+Micrococcus sp. MS-ASIII-49	L_Retroauricular_crease	#34e4d9	2	28.0	11.0	#48f1d0	#3176f8	Mixed	#cccccc
+Microcoleus sp. PCC 7113	Anterior_nares	#8000ff	1	64.0	12.0	#ff5029	#2981f6	Mixed	#cccccc
+Microlunatus phosphovorus	R_Retroauricular_crease	#acf59a	3	27.0	5.0	#40ecd4	#5e35fe	Mixed	#cccccc
+Moraxella boevrei	Anterior_nares	#8000ff	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Moraxella bovoculi	Anterior_nares	#8000ff	1	37.0	57.0	#88ffaf	#ff964f	Mixed	#cccccc
+Moraxella caprae	Anterior_nares	#8000ff	5	37.0	37.0	#88ffaf	#88ffaf	Mixed	#cccccc
+Mycobacterium avium	L_Retroauricular_crease	#34e4d9	2	48.0	19.0	#d9da7d	#08bee9	Mixed	#cccccc
+Mycobacterium chimaera	R_Retroauricular_crease	#acf59a	1	0.0	23.0	#8000ff	#24d8df	Mixed	#cccccc
+Mycobacterium fortuitum	R_Retroauricular_crease	#acf59a	1	15.0	30.0	#169bf2	#56f7ca	Mixed	#cccccc
+Mycobacterium gilvum	R_Retroauricular_crease	#acf59a	1	62.0	4.0	#ff6533	#642cfe	Mixed	#cccccc
+Mycobacterium haemophilum	R_Retroauricular_crease	#acf59a	2	12.0	20.0	#2981f6	#0fc4e7	Mixed	#cccccc
+Mycobacterium kansasii	R_Retroauricular_crease	#acf59a	2	12.0	20.0	#2981f6	#0fc4e7	Mixed	#cccccc
+Mycobacterium sp. Root135	R_Retroauricular_crease	#acf59a	2	48.0	19.0	#d9da7d	#08bee9	Mixed	#cccccc
+Mycobacterium sp. UNC410CL29Cvi84	R_Retroauricular_crease	#acf59a	1	64.0	12.0	#ff5029	#2981f6	Mixed	#cccccc
+Mycoplasma canis	R_Retroauricular_crease	#acf59a	1	60.0	60.0	#ff793e	#ff793e	Mixed	#cccccc
+Mycoplasma cynos	R_Retroauricular_crease	#acf59a	2	18.0	15.0	#00b5eb	#169bf2	Mixed	#cccccc
+Nakamurella multipartita	L_Retroauricular_crease	#34e4d9	1	62.0	4.0	#ff6533	#642cfe	Mixed	#cccccc
+Neisseria bacilliformis	Throat	#ff5c2f	1	31.0	41.0	#5efac6	#a6f89d	Mixed	#cccccc
+Neisseria flavescens	Throat	#ff5c2f	4	11.0	39.0	#3176f8	#99fca6	Mixed	#cccccc
+Neisseria gonorrhoeae	Keratinized_gingiva	#17cbe4	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Neisseria meningitidis	Throat	#ff5c2f	20	13.0	7.0	#2489f5	#4e4dfc	Mixed	#cccccc
+Neisseria mucosa	Throat	#ff5c2f	4	48.0	19.0	#d9da7d	#08bee9	Mixed	#cccccc
+Neisseria shayeganii	R_Retroauricular_crease	#acf59a	3	18.0	15.0	#00b5eb	#169bf2	Mixed	#cccccc
+Neisseria sp. 74A18	R_Retroauricular_crease	#acf59a	5	18.0	15.0	#00b5eb	#169bf2	Mixed	#cccccc
+Neisseria sp. 83E34	R_Retroauricular_crease	#acf59a	1	60.0	60.0	#ff793e	#ff793e	Mixed	#cccccc
+Neisseria sp. HMSC06F02	Saliva	#cbe486	2	17.0	39.0	#06aeed	#99fca6	Mixed	#cccccc
+Neisseria wadsworthii	R_Retroauricular_crease	#acf59a	2	18.0	15.0	#00b5eb	#169bf2	Mixed	#cccccc
+Neisseria weaveri	R_Retroauricular_crease	#acf59a	3	18.0	15.0	#00b5eb	#169bf2	Mixed	#cccccc
+Nesterenkonia sp. NP1	R_Retroauricular_crease	#acf59a	1	15.0	30.0	#169bf2	#56f7ca	Mixed	#cccccc
+Nitrosomonas sp. AL212	L_Retroauricular_crease	#34e4d9	2	28.0	11.0	#48f1d0	#3176f8	Mixed	#cccccc
+Niveispirillum irakense	Anterior_nares	#8000ff	1	43.0	23.0	#b4f295	#24d8df	Mixed	#cccccc
+Nocardia sp. 348MFTsu5.1	R_Retroauricular_crease	#acf59a	1	26.0	4.0	#3ae8d6	#642cfe	Mixed	#cccccc
+Nosocomiicoccus massiliensis	Anterior_nares	#8000ff	2	47.0	50.0	#d0e082	#e6cd73	Mixed	#cccccc
+Ochrobactrum anthropi	R_Retroauricular_crease	#acf59a	4	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Ochrobactrum rhizosphaerae	R_Retroauricular_crease	#acf59a	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Ochrobactrum sp. CDB2	Anterior_nares	#8000ff	2	46.0	51.0	#cbe486	#eec66d	Mixed	#cccccc
+Odoribacter laneus	Stool	#e8cb72	3	16.0	34.0	#0ea5ef	#74feba	Mixed	#cccccc
+Oribacterium asaccharolyticum	Saliva	#cbe486	3	12.0	20.0	#2981f6	#0fc4e7	Mixed	#cccccc
+Oribacterium parvum	Throat	#ff5c2f	5	12.0	20.0	#2981f6	#0fc4e7	Mixed	#cccccc
+Oribacterium sp. FC2011	R_Retroauricular_crease	#acf59a	1	6.0	27.0	#5641fd	#40ecd4	Mixed	#cccccc
+Oribacterium sp. oral taxon 108	Saliva	#cbe486	3	12.0	20.0	#2981f6	#0fc4e7	Mixed	#cccccc
+Ornithinimicrobium pekingense	R_Retroauricular_crease	#acf59a	1	62.0	4.0	#ff6533	#642cfe	Mixed	#cccccc
+Oscillatoria acuminata	R_Retroauricular_crease	#acf59a	2	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+Oscillibacter ruminantium	Stool	#e8cb72	1	55.0	10.0	#ffa759	#396bf9	Mixed	#cccccc
+Oscillibacter sp. 1-3	Stool	#e8cb72	1	64.0	12.0	#ff5029	#2981f6	Mixed	#cccccc
+Oscillibacter sp. ER4	Stool	#e8cb72	11	63.0	24.0	#ff592d	#2ddedc	Mixed	#cccccc
+Oscillibacter valericigenes	Stool	#e8cb72	1	64.0	12.0	#ff5029	#2981f6	Mixed	#cccccc
+Oscillospiraceae bacterium VE202-24	Stool	#e8cb72	1	44.0	3.0	#bced8f	#6c1fff	Mixed	#cccccc
+Pantoea agglomerans	R_Retroauricular_crease	#acf59a	1	71.0	14.0	#ff0000	#1c93f3	Mixed	#cccccc
+Pantoea ananatis	R_Retroauricular_crease	#acf59a	10	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Pantoea sp. A4	R_Retroauricular_crease	#acf59a	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Pantoea sp. NGS-ED-1003	R_Retroauricular_crease	#acf59a	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Pantoea sp. PSNIH2	R_Retroauricular_crease	#acf59a	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Pantoea stewartii	R_Retroauricular_crease	#acf59a	1	62.0	4.0	#ff6533	#642cfe	Mixed	#cccccc
+Pantoea vagans	R_Retroauricular_crease	#acf59a	6	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Parabacteroides distasonis	Stool	#e8cb72	2	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+Parabacteroides goldsteinii	Stool	#e8cb72	1	44.0	3.0	#bced8f	#6c1fff	Mixed	#cccccc
+Parabacteroides merdae	Stool	#e8cb72	20	56.0	31.0	#ff9d53	#5efac6	Mixed	#cccccc
+Paraburkholderia andropogonis	Anterior_nares	#8000ff	3	52.0	0.0	#f4c069	#8000ff	Mixed	#cccccc
+Paraburkholderia ferrariae	L_Retroauricular_crease	#34e4d9	1	55.0	10.0	#ffa759	#396bf9	Mixed	#cccccc
+Paraburkholderia sordidicola	R_Retroauricular_crease	#acf59a	1	43.0	23.0	#b4f295	#24d8df	Mixed	#cccccc
+Paracoccus halophilus	R_Retroauricular_crease	#acf59a	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Paracoccus sanguinis	R_Retroauricular_crease	#acf59a	5	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Paracoccus sp. MKU1	R_Retroauricular_crease	#acf59a	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Paracoccus sp. N5	R_Retroauricular_crease	#acf59a	1	5.0	16.0	#5e35fe	#0ea5ef	Mixed	#cccccc
+Paracoccus sp. TRP	R_Retroauricular_crease	#acf59a	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Paracoccus versutus	Buccal_mucosa	#445cfb	2	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+Paraprevotella xylaniphila	Stool	#e8cb72	2	19.0	24.0	#08bee9	#2ddedc	Mixed	#cccccc
+Parasutterella excrementihominis	Stool	#e8cb72	4	29.0	0.0	#50f4cc	#8000ff	Mixed	#cccccc
+Parvimonas micra	Subgingival_plaque	#ffac5c	4	12.0	20.0	#2981f6	#0fc4e7	Mixed	#cccccc
+Pasteurella dagmatis	R_Retroauricular_crease	#acf59a	5	71.0	46.0	#ff0000	#cbe486	Mixed	#cccccc
+Pasteurella multocida	Keratinized_gingiva	#17cbe4	5	37.0	37.0	#88ffaf	#88ffaf	Mixed	#cccccc
+Pectobacterium carotovorum	Anterior_nares	#8000ff	5	30.0	40.0	#56f7ca	#9efaa2	Mixed	#cccccc
+Pedobacter agri	Anterior_nares	#8000ff	6	37.0	48.0	#88ffaf	#d9da7d	Mixed	#cccccc
+Pedobacter sp. Leaf194	L_Retroauricular_crease	#34e4d9	1	0.0	23.0	#8000ff	#24d8df	Mixed	#cccccc
+Pedobacter sp. R20-19	R_Retroauricular_crease	#acf59a	1	41.0	18.0	#a6f89d	#00b5eb	Mixed	#cccccc
+Peptoclostridium difficile	L_Retroauricular_crease	#34e4d9	2	17.0	39.0	#06aeed	#99fca6	Mixed	#cccccc
+Peptoniphilaceae bacterium SIT14	R_Retroauricular_crease	#acf59a	9	54.0	49.0	#ffb05f	#ded579	Mixed	#cccccc
+Peptoniphilus duerdenii	R_Retroauricular_crease	#acf59a	6	10.0	28.0	#396bf9	#48f1d0	Mixed	#cccccc
+Peptoniphilus grossensis	R_Retroauricular_crease	#acf59a	13	6.0	45.0	#5641fd	#c2ea8c	Mixed	#cccccc
+Peptoniphilus lacrimalis	Hard_palate	#08acee	13	42.0	28.0	#acf59a	#48f1d0	Mixed	#cccccc
+Peptoniphilus obesi	R_Retroauricular_crease	#acf59a	8	10.0	28.0	#396bf9	#48f1d0	Mixed	#cccccc
+Peptoniphilus rhinitidis	Anterior_nares	#8000ff	35	42.0	28.0	#acf59a	#48f1d0	Mixed	#cccccc
+Peptoniphilus senegalensis	R_Retroauricular_crease	#acf59a	8	10.0	28.0	#396bf9	#48f1d0	Mixed	#cccccc
+Peptoniphilus sp. 1-1	L_Retroauricular_crease	#34e4d9	5	10.0	28.0	#396bf9	#48f1d0	Mixed	#cccccc
+Peptoniphilus sp. BV3AC2	Posterior_fornix	#8efeac	8	58.0	61.0	#ff8c49	#ff6d38	Mixed	#cccccc
+Peptoniphilus sp. BV3C26	Vaginal_introitus	#ff0000	2	47.0	50.0	#d0e082	#e6cd73	Mixed	#cccccc
+Peptoniphilus sp. oral taxon 375	L_Retroauricular_crease	#34e4d9	6	10.0	28.0	#396bf9	#48f1d0	Mixed	#cccccc
+Peptoniphilus sp. oral taxon 386	R_Retroauricular_crease	#acf59a	1	37.0	57.0	#88ffaf	#ff964f	Mixed	#cccccc
+Peptostreptococcaceae bacterium OBRC8	Subgingival_plaque	#ffac5c	1	2.0	4.0	#7216ff	#642cfe	Mixed	#cccccc
+Peptostreptococcaceae bacterium oral taxon 113	Palatine_Tonsils	#70febc	3	18.0	15.0	#00b5eb	#169bf2	Mixed	#cccccc
+Peptostreptococcus stomatis	Throat	#ff5c2f	4	12.0	20.0	#2981f6	#0fc4e7	Mixed	#cccccc
+Phascolarctobacterium succinatutens	Stool	#e8cb72	1	41.0	18.0	#a6f89d	#00b5eb	Mixed	#cccccc
+Phenylobacterium zucineum	R_Retroauricular_crease	#acf59a	2	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Photobacterium iliopiscarium	L_Retroauricular_crease	#34e4d9	2	48.0	19.0	#d9da7d	#08bee9	Mixed	#cccccc
+Pontibacter sp. BAB1700	R_Retroauricular_crease	#acf59a	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Porphyrobacter cryptus	L_Retroauricular_crease	#34e4d9	1	34.0	36.0	#74feba	#82ffb3	Mixed	#cccccc
+Porphyromonadaceae bacterium COT-184 OH4590	Subgingival_plaque	#ffac5c	3	18.0	15.0	#00b5eb	#169bf2	Mixed	#cccccc
+Porphyromonas asaccharolytica	Posterior_fornix	#8efeac	1	8.0	12.0	#4856fb	#2981f6	Mixed	#cccccc
+Porphyromonas cangingivalis	R_Retroauricular_crease	#acf59a	6	37.0	37.0	#88ffaf	#88ffaf	Mixed	#cccccc
+Porphyromonas canoris	Keratinized_gingiva	#17cbe4	3	18.0	15.0	#00b5eb	#169bf2	Mixed	#cccccc
+Porphyromonas crevioricanis	R_Retroauricular_crease	#acf59a	6	18.0	15.0	#00b5eb	#169bf2	Mixed	#cccccc
+Porphyromonas gingivalis	Keratinized_gingiva	#17cbe4	3	18.0	15.0	#00b5eb	#169bf2	Mixed	#cccccc
+Porphyromonas gingivicanis	R_Retroauricular_crease	#acf59a	6	37.0	37.0	#88ffaf	#88ffaf	Mixed	#cccccc
+Porphyromonas gulae	R_Retroauricular_crease	#acf59a	3	18.0	15.0	#00b5eb	#169bf2	Mixed	#cccccc
+Porphyromonas macacae	Attached	#622ffe	5	37.0	37.0	#88ffaf	#88ffaf	Mixed	#cccccc
+Porphyromonas sp. COT-108 OH1349	R_Retroauricular_crease	#acf59a	3	18.0	15.0	#00b5eb	#169bf2	Mixed	#cccccc
+Porphyromonas sp. COT-108 OH2963	R_Retroauricular_crease	#acf59a	3	18.0	15.0	#00b5eb	#169bf2	Mixed	#cccccc
+Porphyromonas sp. COT-239 OH1446	R_Retroauricular_crease	#acf59a	3	18.0	15.0	#00b5eb	#169bf2	Mixed	#cccccc
+Porphyromonas sp. COT-290 OH3588	R_Retroauricular_crease	#acf59a	3	18.0	15.0	#00b5eb	#169bf2	Mixed	#cccccc
+Porphyromonas sp. COT-290 OH860	R_Retroauricular_crease	#acf59a	3	18.0	15.0	#00b5eb	#169bf2	Mixed	#cccccc
+Porphyromonas sp. KLE 1280	Hard_palate	#08acee	5	9.0	39.0	#4062fa	#99fca6	Mixed	#cccccc
+Porphyromonas uenonis	Posterior_fornix	#8efeac	2	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+Prevotella amnii	L_Retroauricular_crease	#34e4d9	4	12.0	20.0	#2981f6	#0fc4e7	Mixed	#cccccc
+Prevotella bergensis	Stool	#e8cb72	4	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+Prevotella bivia	Saliva	#cbe486	7	34.0	62.0	#74feba	#ff6533	Mixed	#cccccc
+Prevotella fusca	Palatine_Tonsils	#70febc	2	12.0	20.0	#2981f6	#0fc4e7	Mixed	#cccccc
+Prevotella intermedia	Palatine_Tonsils	#70febc	4	11.0	39.0	#3176f8	#99fca6	Mixed	#cccccc
+Prevotella loescheii	Subgingival_plaque	#ffac5c	3	17.0	39.0	#06aeed	#99fca6	Mixed	#cccccc
+Prevotella marshii	Subgingival_plaque	#ffac5c	2	12.0	20.0	#2981f6	#0fc4e7	Mixed	#cccccc
+Prevotella micans	Subgingival_plaque	#ffac5c	2	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+Prevotella nanceiensis	Hard_palate	#08acee	22	33.0	59.0	#6dfdbf	#ff8444	Mixed	#cccccc
+Prevotella oralis	Subgingival_plaque	#ffac5c	2	48.0	19.0	#d9da7d	#08bee9	Mixed	#cccccc
+Prevotella oris	Subgingival_plaque	#ffac5c	20	13.0	7.0	#2489f5	#4e4dfc	Mixed	#cccccc
+Prevotella oulorum	Subgingival_plaque	#ffac5c	13	69.0	63.0	#ff190d	#ff592d	Mixed	#cccccc
+Prevotella scopos	Throat	#ff5c2f	5	12.0	20.0	#2981f6	#0fc4e7	Mixed	#cccccc
+Prevotella sp. BV3P1	Palatine_Tonsils	#70febc	1	56.0	9.0	#ff9d53	#4062fa	Mixed	#cccccc
+Prevotella sp. F0091	Palatine_Tonsils	#70febc	3	12.0	20.0	#2981f6	#0fc4e7	Mixed	#cccccc
+Prevotella sp. ICM33	Saliva	#cbe486	9	22.0	22.0	#1fd3e1	#1fd3e1	Mixed	#cccccc
+Prevotella sp. oral taxon 306	Throat	#ff5c2f	5	12.0	20.0	#2981f6	#0fc4e7	Mixed	#cccccc
+Prevotella sp. oral taxon 472	Subgingival_plaque	#ffac5c	5	9.0	39.0	#4062fa	#99fca6	Mixed	#cccccc
+Prevotella sp. S7-1-8	Posterior_fornix	#8efeac	3	52.0	0.0	#f4c069	#8000ff	Mixed	#cccccc
+Prevotella stercorea	L_Retroauricular_crease	#34e4d9	5	28.0	11.0	#48f1d0	#3176f8	Mixed	#cccccc
+Prevotella timonensis	Anterior_nares	#8000ff	17	69.0	66.0	#ff190d	#ff381c	Mixed	#cccccc
+Propionibacterium acidifaciens	Subgingival_plaque	#ffac5c	5	9.0	39.0	#4062fa	#99fca6	Mixed	#cccccc
+Propionibacterium propionicum	Subgingival_plaque	#ffac5c	25	13.0	7.0	#2489f5	#4e4dfc	Mixed	#cccccc
+Propionibacterium sp. KPL1844	R_Retroauricular_crease	#acf59a	40	69.0	67.0	#ff190d	#ff2f18	Mixed	#cccccc
+Propionibacterium sp. oral taxon 192	Subgingival_plaque	#ffac5c	2	27.0	5.0	#40ecd4	#5e35fe	Mixed	#cccccc
+Propionicicella superfundia	R_Retroauricular_crease	#acf59a	1	68.0	6.0	#ff2211	#5641fd	Mixed	#cccccc
+Proteiniclasticum ruminis	R_Retroauricular_crease	#acf59a	2	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+Pseudoclavibacter faecalis	L_Retroauricular_crease	#34e4d9	1	25.0	13.0	#32e3da	#2489f5	Mixed	#cccccc
+Pseudoflavonifractor capillosus	Stool	#e8cb72	1	0.0	23.0	#8000ff	#24d8df	Mixed	#cccccc
+Pseudomonas chloritidismutans	R_Retroauricular_crease	#acf59a	2	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+Pseudomonas fragi	Saliva	#cbe486	4	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Pseudomonas helleri	Anterior_nares	#8000ff	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Pseudomonas mendocina	Anterior_nares	#8000ff	4	12.0	20.0	#2981f6	#0fc4e7	Mixed	#cccccc
+Pseudomonas monteilii	Anterior_nares	#8000ff	1	60.0	60.0	#ff793e	#ff793e	Mixed	#cccccc
+Pseudomonas nitroreducens	R_Retroauricular_crease	#acf59a	1	34.0	36.0	#74feba	#82ffb3	Mixed	#cccccc
+Pseudomonas sp. 313	R_Retroauricular_crease	#acf59a	4	35.0	11.0	#7affb7	#3176f8	Mixed	#cccccc
+Pseudomonas sp. EpSL25	R_Retroauricular_crease	#acf59a	1	44.0	3.0	#bced8f	#6c1fff	Mixed	#cccccc
+Pseudomonas sp. LAMO17WK12:I2	Anterior_nares	#8000ff	1	41.0	18.0	#a6f89d	#00b5eb	Mixed	#cccccc
+Pseudomonas sp. Leaf83	Anterior_nares	#8000ff	2	12.0	20.0	#2981f6	#0fc4e7	Mixed	#cccccc
+Pseudomonas sp. NBRC 111131	R_Retroauricular_crease	#acf59a	4	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Pseudomonas sp. NBRC 111135	R_Retroauricular_crease	#acf59a	1	2.0	4.0	#7216ff	#642cfe	Mixed	#cccccc
+Pseudomonas syringae	Anterior_nares	#8000ff	3	28.0	11.0	#48f1d0	#3176f8	Mixed	#cccccc
+Pseudomonas veronii	Anterior_nares	#8000ff	1	21.0	13.0	#17cbe4	#2489f5	Mixed	#cccccc
+Pseudoxanthomonas spadix	R_Retroauricular_crease	#acf59a	1	31.0	41.0	#5efac6	#a6f89d	Mixed	#cccccc
+Psychrobacter phenylpyruvicus	Anterior_nares	#8000ff	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Psychrobacter sp. 1501(2011)	Saliva	#cbe486	4	10.0	28.0	#396bf9	#48f1d0	Mixed	#cccccc
+Psychrobacter sp. P11G3	Saliva	#cbe486	1	15.0	30.0	#169bf2	#56f7ca	Mixed	#cccccc
+Psychrobacter sp. PAMC 21119	Saliva	#cbe486	1	43.0	23.0	#b4f295	#24d8df	Mixed	#cccccc
+Rahnella aquatilis	R_Retroauricular_crease	#acf59a	1	71.0	14.0	#ff0000	#1c93f3	Mixed	#cccccc
+Ralstonia solanacearum	R_Retroauricular_crease	#acf59a	1	34.0	36.0	#74feba	#82ffb3	Mixed	#cccccc
+Ralstonia sp. A12	L_Retroauricular_crease	#34e4d9	1	55.0	10.0	#ffa759	#396bf9	Mixed	#cccccc
+Ralstonia sp. AU12-08	R_Retroauricular_crease	#acf59a	1	25.0	13.0	#32e3da	#2489f5	Mixed	#cccccc
+Ralstonia sp. NT80	R_Retroauricular_crease	#acf59a	1	15.0	30.0	#169bf2	#56f7ca	Mixed	#cccccc
+Raoultella ornithinolytica	Anterior_nares	#8000ff	1	59.0	8.0	#ff8444	#4856fb	Mixed	#cccccc
+Rheinheimera sp. A13L	R_Retroauricular_crease	#acf59a	2	27.0	5.0	#40ecd4	#5e35fe	Mixed	#cccccc
+Rheinheimera sp. KL1	Anterior_nares	#8000ff	5	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Rhizobium sp. AAP116	R_Retroauricular_crease	#acf59a	1	59.0	8.0	#ff8444	#4856fb	Mixed	#cccccc
+Rhizobium sp. H41	R_Retroauricular_crease	#acf59a	5	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Rhizobium sp. LMB-1	R_Retroauricular_crease	#acf59a	1	15.0	30.0	#169bf2	#56f7ca	Mixed	#cccccc
+Rhizobium sp. YR519	R_Retroauricular_crease	#acf59a	1	60.0	60.0	#ff793e	#ff793e	Mixed	#cccccc
+Rhodobacter sphaeroides	Anterior_nares	#8000ff	2	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+Rhodococcus pyridinivorans	L_Retroauricular_crease	#34e4d9	1	71.0	64.0	#ff0000	#ff5029	Mixed	#cccccc
+Rickettsiella grylli	Anterior_nares	#8000ff	2	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+Rikenella microfusus	Stool	#e8cb72	1	44.0	3.0	#bced8f	#6c1fff	Mixed	#cccccc
+Roseburia hominis	Stool	#e8cb72	2	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+Roseomonas gilardii	R_Retroauricular_crease	#acf59a	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Roseomonas mucosa	R_Retroauricular_crease	#acf59a	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Roseomonas sp. B5	R_Retroauricular_crease	#acf59a	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Rothia dentocariosa	Supragingival_plaque	#ff8646	40	31.0	52.0	#5efac6	#f4c069	Mixed	#cccccc
+Rothia mucilaginosa	Hard_palate	#08acee	40	31.0	52.0	#5efac6	#f4c069	Mixed	#cccccc
+Rouxiella chamberiensis	L_Retroauricular_crease	#34e4d9	1	2.0	4.0	#7216ff	#642cfe	Mixed	#cccccc
+Rubellimicrobium mesophilum	R_Retroauricular_crease	#acf59a	3	48.0	19.0	#d9da7d	#08bee9	Mixed	#cccccc
+Rubrobacter xylanophilus	R_Retroauricular_crease	#acf59a	4	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Rudanella lutea	R_Retroauricular_crease	#acf59a	1	37.0	57.0	#88ffaf	#ff964f	Mixed	#cccccc
+Ruminococcaceae bacterium 585-1	Stool	#e8cb72	1	44.0	3.0	#bced8f	#6c1fff	Mixed	#cccccc
+Ruminococcaceae bacterium D16	Stool	#e8cb72	2	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+[Ruminococcus] gnavus	Stool	#e8cb72	1	41.0	18.0	#a6f89d	#00b5eb	Mixed	#cccccc
+Ruminococcus lactaris	Stool	#e8cb72	8	4.0	33.0	#642cfe	#6dfdbf	Mixed	#cccccc
+Ruminococcus sp. 5_1_39BFAA	Stool	#e8cb72	2	19.0	24.0	#08bee9	#2ddedc	Mixed	#cccccc
+Ruminococcus sp. JC304	Stool	#e8cb72	3	19.0	24.0	#08bee9	#2ddedc	Mixed	#cccccc
+[Ruminococcus] torques	Stool	#e8cb72	1	8.0	12.0	#4856fb	#2981f6	Mixed	#cccccc
+Runella limosa	R_Retroauricular_crease	#acf59a	1	44.0	3.0	#bced8f	#6c1fff	Mixed	#cccccc
+Runella zeae	Anterior_nares	#8000ff	1	62.0	4.0	#ff6533	#642cfe	Mixed	#cccccc
+Salinicoccus sp. YB14-2	L_Retroauricular_crease	#34e4d9	2	27.0	5.0	#40ecd4	#5e35fe	Mixed	#cccccc
+Sandarakinorhabdus limnophila	R_Retroauricular_crease	#acf59a	1	15.0	30.0	#169bf2	#56f7ca	Mixed	#cccccc
+Sanguibacter keddieii	Throat	#ff5c2f	6	12.0	20.0	#2981f6	#0fc4e7	Mixed	#cccccc
+Scardovia inopinata	R_Retroauricular_crease	#acf59a	1	71.0	32.0	#ff0000	#64fbc3	Mixed	#cccccc
+Scytonema tolypothrichoides	R_Retroauricular_crease	#acf59a	1	44.0	3.0	#bced8f	#6c1fff	Mixed	#cccccc
+Sediminibacterium salmoneum	R_Retroauricular_crease	#acf59a	1	71.0	14.0	#ff0000	#1c93f3	Mixed	#cccccc
+Selenomonas artemidis	Supragingival_plaque	#ff8646	4	9.0	39.0	#4062fa	#99fca6	Mixed	#cccccc
+Selenomonas infelix	Attached	#622ffe	2	17.0	39.0	#06aeed	#99fca6	Mixed	#cccccc
+Selenomonas noxia	Supragingival_plaque	#ff8646	19	67.0	17.0	#ff2f18	#06aeed	Mixed	#cccccc
+Selenomonas sp. CM52	Subgingival_plaque	#ffac5c	1	34.0	36.0	#74feba	#82ffb3	Mixed	#cccccc
+Selenomonas sp. oral taxon 478	Saliva	#cbe486	1	6.0	27.0	#5641fd	#40ecd4	Mixed	#cccccc
+Selenomonas sp. oral taxon 892	Supragingival_plaque	#ff8646	7	61.0	44.0	#ff6d38	#bced8f	Mixed	#cccccc
+Selenomonas sputigena	Subgingival_plaque	#ffac5c	2	3.0	0.0	#6c1fff	#8000ff	Mixed	#cccccc
+Senegalimassilia anaerobia	Stool	#e8cb72	1	6.0	27.0	#5641fd	#40ecd4	Mixed	#cccccc
+Serratia sp. Leaf51	Anterior_nares	#8000ff	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Shewanella baltica	L_Retroauricular_crease	#34e4d9	1	37.0	57.0	#88ffaf	#ff964f	Mixed	#cccccc
+Shewanella putrefaciens	R_Retroauricular_crease	#acf59a	3	18.0	15.0	#00b5eb	#169bf2	Mixed	#cccccc
+Shinella sp. DD12	R_Retroauricular_crease	#acf59a	1	62.0	4.0	#ff6533	#642cfe	Mixed	#cccccc
+Simonsiella muelleri	Keratinized_gingiva	#17cbe4	3	12.0	20.0	#2981f6	#0fc4e7	Mixed	#cccccc
+Sinomonas humi	R_Retroauricular_crease	#acf59a	1	71.0	64.0	#ff0000	#ff5029	Mixed	#cccccc
+Skermanella aerolata	Anterior_nares	#8000ff	5	9.0	39.0	#4062fa	#99fca6	Mixed	#cccccc
+Sneathia amnii	L_Retroauricular_crease	#34e4d9	3	18.0	15.0	#00b5eb	#169bf2	Mixed	#cccccc
+Sphaerobacter thermophilus	R_Retroauricular_crease	#acf59a	1	62.0	4.0	#ff6533	#642cfe	Mixed	#cccccc
+Sphaerotilus natans	R_Retroauricular_crease	#acf59a	1	0.0	23.0	#8000ff	#24d8df	Mixed	#cccccc
+Sphingobacterium sp. T2	L_Retroauricular_crease	#34e4d9	2	52.0	0.0	#f4c069	#8000ff	Mixed	#cccccc
+Sphingobacterium thalpophilum	R_Retroauricular_crease	#acf59a	2	38.0	53.0	#90feab	#fcb763	Mixed	#cccccc
+Sphingobium sp. DC-2	R_Retroauricular_crease	#acf59a	5	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Sphingomonas echinoides	Anterior_nares	#8000ff	1	43.0	23.0	#b4f295	#24d8df	Mixed	#cccccc
+Sphingomonas sp. Leaf67	R_Retroauricular_crease	#acf59a	1	62.0	4.0	#ff6533	#642cfe	Mixed	#cccccc
+Sphingomonas sp. MM-1	R_Retroauricular_crease	#acf59a	1	0.0	23.0	#8000ff	#24d8df	Mixed	#cccccc
+Sphingomonas taxi	Anterior_nares	#8000ff	2	48.0	19.0	#d9da7d	#08bee9	Mixed	#cccccc
+Sphingopyxis macrogoltabida	Vaginal_introitus	#ff0000	2	57.0	0.0	#ff964f	#8000ff	Mixed	#cccccc
+Staphylococcus auricularis	Anterior_nares	#8000ff	26	51.0	56.0	#eec66d	#ff9d53	Mixed	#cccccc
+Staphylococcus haemolyticus	L_Retroauricular_crease	#34e4d9	40	31.0	52.0	#5efac6	#f4c069	Mixed	#cccccc
+Staphylococcus hominis	Anterior_nares	#8000ff	3	12.0	20.0	#2981f6	#0fc4e7	Mixed	#cccccc
+Staphylococcus massiliensis	L_Retroauricular_crease	#34e4d9	3	38.0	53.0	#90feab	#fcb763	Mixed	#cccccc
+Staphylococcus pettenkoferi	L_Retroauricular_crease	#34e4d9	1	34.0	36.0	#74feba	#82ffb3	Mixed	#cccccc
+Staphylococcus saprophyticus	Anterior_nares	#8000ff	5	30.0	40.0	#56f7ca	#9efaa2	Mixed	#cccccc
+Staphylococcus sciuri	R_Retroauricular_crease	#acf59a	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Staphylococcus sp. E463	Anterior_nares	#8000ff	2	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+Staphylococcus sp. URHA0057	R_Retroauricular_crease	#acf59a	1	6.0	27.0	#5641fd	#40ecd4	Mixed	#cccccc
+Staphylococcus succinus	L_Retroauricular_crease	#34e4d9	2	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+Stenotrophomonas koreensis	R_Retroauricular_crease	#acf59a	1	59.0	8.0	#ff8444	#4856fb	Mixed	#cccccc
+Stenotrophomonas rhizophila	R_Retroauricular_crease	#acf59a	1	64.0	12.0	#ff5029	#2981f6	Mixed	#cccccc
+Stomatobaculum longum	Tongue_dorsum	#ff2f18	7	12.0	20.0	#2981f6	#0fc4e7	Mixed	#cccccc
+Streptococcus anginosus	Buccal_mucosa_NA	#2686f5	3	28.0	11.0	#48f1d0	#3176f8	Mixed	#cccccc
+Streptococcus canis	Attached	#622ffe	1	25.0	13.0	#32e3da	#2489f5	Mixed	#cccccc
+Streptococcus constellatus	Palatine_Tonsils	#70febc	10	23.0	69.0	#24d8df	#ff190d	Mixed	#cccccc
+Streptococcus cristatus	Keratinized_gingiva	#17cbe4	1	44.0	3.0	#bced8f	#6c1fff	Mixed	#cccccc
+Streptococcus gordonii	Keratinized_gingiva	#17cbe4	3	29.0	0.0	#50f4cc	#8000ff	Mixed	#cccccc
+Streptococcus intermedius	Subgingival_plaque	#ffac5c	1	55.0	10.0	#ffa759	#396bf9	Mixed	#cccccc
+Streptococcus merionis	Buccal_mucosa	#445cfb	2	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+Streptococcus minor	R_Retroauricular_crease	#acf59a	3	18.0	15.0	#00b5eb	#169bf2	Mixed	#cccccc
+Streptococcus oligofermentans	Keratinized_gingiva	#17cbe4	2	50.0	68.0	#e6cd73	#ff2211	Mixed	#cccccc
+Streptococcus parauberis	Buccal_mucosa	#445cfb	2	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Streptococcus peroris	Throat	#ff5c2f	2	28.0	11.0	#48f1d0	#3176f8	Mixed	#cccccc
+Streptococcus pseudoporcinus	L_Retroauricular_crease	#34e4d9	5	10.0	28.0	#396bf9	#48f1d0	Mixed	#cccccc
+Streptococcus sp. 1171_SSPC	Palatine_Tonsils	#70febc	2	48.0	19.0	#d9da7d	#08bee9	Mixed	#cccccc
+Streptococcus sp. 263_SSPC	Tongue_dorsum	#ff2f18	11	24.0	20.0	#2ddedc	#0fc4e7	Mixed	#cccccc
+Streptococcus sp. 400_SSPC	Palatine_Tonsils	#70febc	2	48.0	19.0	#d9da7d	#08bee9	Mixed	#cccccc
+Streptococcus sp. C150	Buccal_mucosa	#445cfb	1	55.0	10.0	#ffa759	#396bf9	Mixed	#cccccc
+Streptococcus sp. C300	Attached	#622ffe	2	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+Streptococcus sp. CCH5-D3	Tongue_dorsum	#ff2f18	1	2.0	4.0	#7216ff	#642cfe	Mixed	#cccccc
+Streptococcus sp. CCH8-H5	Attached	#622ffe	2	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+Streptococcus sp. HPH0090	Palatine_Tonsils	#70febc	1	8.0	12.0	#4856fb	#2981f6	Mixed	#cccccc
+Streptococcus sp. I-G2	Tongue_dorsum	#ff2f18	1	34.0	36.0	#74feba	#82ffb3	Mixed	#cccccc
+Streptococcus sp. I-P16	Tongue_dorsum	#ff2f18	4	63.0	0.0	#ff592d	#8000ff	Mixed	#cccccc
+Streptococcus sp. M334	Buccal_mucosa	#445cfb	3	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+Streptococcus sp. oral taxon 056	Keratinized_gingiva	#17cbe4	1	55.0	10.0	#ffa759	#396bf9	Mixed	#cccccc
+Streptococcus suis	Buccal_mucosa_NA	#2686f5	3	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+Streptococcus thermophilus	Anterior_nares	#8000ff	30	31.0	47.0	#5efac6	#d0e082	Mixed	#cccccc
+Streptococcus tigurinus	Hard_palate	#08acee	3	32.0	0.0	#64fbc3	#8000ff	Mixed	#cccccc
+Streptococcus vestibularis	Buccal_mucosa_NA	#2686f5	1	6.0	27.0	#5641fd	#40ecd4	Mixed	#cccccc
+Streptomyces sp. RSD-27	R_Retroauricular_crease	#acf59a	19	9.0	71.0	#4062fa	#ff0000	Mixed	#cccccc
+Subdoligranulum variabile	Stool	#e8cb72	3	20.0	24.0	#0fc4e7	#2ddedc	Mixed	#cccccc
+Tannerella sp. 6_1_58FAA_CT1	Stool	#e8cb72	2	19.0	24.0	#08bee9	#2ddedc	Mixed	#cccccc
+Tatumella morbirosei	R_Retroauricular_crease	#acf59a	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Tatumella saanichensis	R_Retroauricular_crease	#acf59a	2	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Tepidiphilus margaritifer	Anterior_nares	#8000ff	1	34.0	65.0	#74feba	#ff4422	Mixed	#cccccc
+Thermoactinomyces daqus	Anterior_nares	#8000ff	1	56.0	9.0	#ff9d53	#4062fa	Mixed	#cccccc
+Thermoactinomyces vulgaris	R_Retroauricular_crease	#acf59a	1	2.0	4.0	#7216ff	#642cfe	Mixed	#cccccc
+Tissierellia bacterium GD9	Anterior_nares	#8000ff	6	63.0	24.0	#ff592d	#2ddedc	Mixed	#cccccc
+Tissierellia bacterium S5-A11	Anterior_nares	#8000ff	10	10.0	28.0	#396bf9	#48f1d0	Mixed	#cccccc
+Treponema denticola	Subgingival_plaque	#ffac5c	4	18.0	15.0	#00b5eb	#169bf2	Mixed	#cccccc
+Treponema maltophilum	Subgingival_plaque	#ffac5c	2	17.0	39.0	#06aeed	#99fca6	Mixed	#cccccc
+Treponema pedis	Subgingival_plaque	#ffac5c	1	37.0	57.0	#88ffaf	#ff964f	Mixed	#cccccc
+Treponema vincentii	Subgingival_plaque	#ffac5c	3	57.0	0.0	#ff964f	#8000ff	Mixed	#cccccc
+Trueperella pyogenes	Tongue_dorsum	#ff2f18	6	65.0	21.0	#ff4422	#17cbe4	Mixed	#cccccc
+Turicella otitidis	Anterior_nares	#8000ff	3	12.0	20.0	#2981f6	#0fc4e7	Mixed	#cccccc
+Ureaplasma parvum	Vaginal_introitus	#ff0000	1	44.0	3.0	#bced8f	#6c1fff	Mixed	#cccccc
+Ureibacillus thermosphaericus	R_Retroauricular_crease	#acf59a	2	38.0	53.0	#90feab	#fcb763	Mixed	#cccccc
+Veillonella dispar	Throat	#ff5c2f	34	23.0	70.0	#24d8df	#ff0d06	Mixed	#cccccc
+Veillonella sp. ICM51a	Saliva	#cbe486	4	12.0	20.0	#2981f6	#0fc4e7	Mixed	#cccccc
+Veillonella sp. oral taxon 158	Palatine_Tonsils	#70febc	27	31.0	47.0	#5efac6	#d0e082	Mixed	#cccccc
+Veillonella tobetsuensis	Tongue_dorsum	#ff2f18	8	24.0	20.0	#2ddedc	#0fc4e7	Mixed	#cccccc
+Vibrio furnissii	R_Retroauricular_crease	#acf59a	3	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Vibrio vulnificus	Anterior_nares	#8000ff	2	12.0	20.0	#2981f6	#0fc4e7	Mixed	#cccccc
+Weeksella virosa	Buccal_mucosa	#445cfb	1	8.0	12.0	#4856fb	#2981f6	Mixed	#cccccc
+Weissella cibaria	R_Retroauricular_crease	#acf59a	4	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Williamsia sp. D3	L_Retroauricular_crease	#34e4d9	2	48.0	19.0	#d9da7d	#08bee9	Mixed	#cccccc
+Xanthomonas campestris	Anterior_nares	#8000ff	25	13.0	7.0	#2489f5	#4e4dfc	Mixed	#cccccc
+Xanthomonas sp. MUS 060	R_Retroauricular_crease	#acf59a	1	62.0	4.0	#ff6533	#642cfe	Mixed	#cccccc
+Xylanimonas cellulosilytica	Throat	#ff5c2f	4	16.0	34.0	#0ea5ef	#74feba	Mixed	#cccccc
+Acetivibrio ethanolgignens	Stool	#e8cb72	3	57.0	0.0	#ff964f	#8000ff	Mixed	#cccccc
+Acidithiobacillus caldus	Buccal_mucosa	#445cfb	1	44.0	3.0	#bced8f	#6c1fff	Mixed	#cccccc
+Acetobacter okinawensis	R_Retroauricular_crease	#acf59a	2	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Acinetobacter guillouiae	R_Retroauricular_crease	#acf59a	1	59.0	8.0	#ff8444	#4856fb	Mixed	#cccccc
+Acinetobacter schindleri	R_Retroauricular_crease	#acf59a	1	64.0	12.0	#ff5029	#2981f6	Mixed	#cccccc
+Actinomyces georgiae	Subgingival_plaque	#ffac5c	2	48.0	19.0	#d9da7d	#08bee9	Mixed	#cccccc
+Acidovorax ebreus	Buccal_mucosa	#445cfb	1	2.0	4.0	#7216ff	#642cfe	Mixed	#cccccc
+Actinomyces oris	Supragingival_plaque	#ff8646	24	13.0	7.0	#2489f5	#4e4dfc	Mixed	#cccccc
+Actinomyces sp. oral taxon 171	Supragingival_plaque	#ff8646	18	13.0	7.0	#2489f5	#4e4dfc	Mixed	#cccccc
+Actinomyces sp. ICM58	Tongue_dorsum	#ff2f18	6	65.0	21.0	#ff4422	#17cbe4	Mixed	#cccccc
+Acinetobacter sp. CIP 101966	R_Retroauricular_crease	#acf59a	1	21.0	13.0	#17cbe4	#2489f5	Mixed	#cccccc
+Alistipes putredinis	Stool	#e8cb72	23	1.0	26.0	#7a09ff	#3ae8d6	Mixed	#cccccc
+Anaerococcus lactolyticus	L_Retroauricular_crease	#34e4d9	23	42.0	28.0	#acf59a	#48f1d0	Mixed	#cccccc
+Anaerococcus hydrogenalis	L_Retroauricular_crease	#34e4d9	17	42.0	28.0	#acf59a	#48f1d0	Mixed	#cccccc
+Anaerococcus obesiensis	L_Retroauricular_crease	#34e4d9	15	45.0	29.0	#c2ea8c	#50f4cc	Mixed	#cccccc
+Adlercreutzia equolifaciens	Stool	#e8cb72	1	43.0	23.0	#b4f295	#24d8df	Mixed	#cccccc
+Acetobacter tropicalis	R_Retroauricular_crease	#acf59a	1	12.0	2.0	#2981f6	#7216ff	Mixed	#cccccc
+Acinetobacter pittii	R_Retroauricular_crease	#acf59a	1	55.0	10.0	#ffa759	#396bf9	Mixed	#cccccc
+Atopobium sp. ICM42b	Saliva	#cbe486	2	12.0	20.0	#2981f6	#0fc4e7	Mixed	#cccccc
+Aerococcus christensenii	Posterior_fornix	#8efeac	5	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Alistipes timonensis	Stool	#e8cb72	2	39.0	0.0	#99fca6	#8000ff	Mixed	#cccccc
+Arcanobacterium haemolyticum	R_Retroauricular_crease	#acf59a	3	19.0	24.0	#08bee9	#2ddedc	Mixed	#cccccc
+Bacteroides finegoldii	Stool	#e8cb72	7	36.0	24.0	#82ffb3	#2ddedc	Mixed	#cccccc
+Actinomyces sp. SD1	L_Retroauricular_crease	#34e4d9	3	3.0	0.0	#6c1fff	#8000ff	Mixed	#cccccc
+Alistipes indistinctus	Stool	#e8cb72	7	63.0	24.0	#ff592d	#2ddedc	Mixed	#cccccc
+Belnapia moabensis	L_Retroauricular_crease	#34e4d9	1	34.0	36.0	#74feba	#82ffb3	Mixed	#cccccc
+Bacteroides propionicifaciens	L_Retroauricular_crease	#34e4d9	4	16.0	34.0	#0ea5ef	#74feba	Mixed	#cccccc
+Actinomyces europaeus	Anterior_nares	#8000ff	1	41.0	18.0	#a6f89d	#00b5eb	Mixed	#cccccc
+Alistipes senegalensis	Stool	#e8cb72	6	36.0	24.0	#82ffb3	#2ddedc	Mixed	#cccccc
+Arthrobacter sp. PAO19	Anterior_nares	#8000ff	1	15.0	30.0	#169bf2	#56f7ca	Mixed	#cccccc
+Acinetobacter radioresistens	L_Retroauricular_crease	#34e4d9	3	28.0	11.0	#48f1d0	#3176f8	Mixed	#cccccc
+Brachybacterium paraconglomeratum	L_Retroauricular_crease	#34e4d9	5	35.0	11.0	#7affb7	#3176f8	Mixed	#cccccc
+Campylobacter corcagiensis	Anterior_nares	#8000ff	7	10.0	28.0	#396bf9	#48f1d0	Mixed	#cccccc
+Alistipes obesi	Stool	#e8cb72	9	1.0	25.0	#7a09ff	#32e3da	Mixed	#cccccc
+Bergeyella zoohelcum	R_Retroauricular_crease	#acf59a	7	37.0	37.0	#88ffaf	#88ffaf	Mixed	#cccccc
+Brevibacterium massiliense	Anterior_nares	#8000ff	3	11.0	39.0	#3176f8	#99fca6	Mixed	#cccccc
+Campylobacter gracilis	Subgingival_plaque	#ffac5c	13	61.0	44.0	#ff6d38	#bced8f	Mixed	#cccccc
+Campylobacter showae	Supragingival_plaque	#ff8646	13	61.0	44.0	#ff6d38	#bced8f	Mixed	#cccccc
+Capnocytophaga gingivalis	Supragingival_plaque	#ff8646	29	31.0	47.0	#5efac6	#d0e082	Mixed	#cccccc
+Actinomyces naeslundii	Supragingival_plaque	#ff8646	22	13.0	7.0	#2489f5	#4e4dfc	Mixed	#cccccc
+Candidatus Odyssella thessalonicensis	R_Retroauricular_crease	#acf59a	2	27.0	5.0	#40ecd4	#5e35fe	Mixed	#cccccc
+Acinetobacter sp. P8-3-8	R_Retroauricular_crease	#acf59a	1	71.0	14.0	#ff0000	#1c93f3	Mixed	#cccccc
+Clostridiales bacterium SIT11	R_Retroauricular_crease	#acf59a	7	54.0	49.0	#ffb05f	#ded579	Mixed	#cccccc
+Bacteroides coprophilus	Stool	#e8cb72	1	71.0	32.0	#ff0000	#64fbc3	Mixed	#cccccc
+Bifidobacterium breve	Posterior_fornix	#8efeac	1	31.0	38.0	#5efac6	#90feab	Mixed	#cccccc
+alpha proteobacterium LLX12A	Anterior_nares	#8000ff	1	6.0	27.0	#5641fd	#40ecd4	Mixed	#cccccc
+Agrobacterium tumefaciens	R_Retroauricular_crease	#acf59a	8	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Calothrix sp. PCC 7103	Anterior_nares	#8000ff	8	41.0	42.0	#a6f89d	#acf59a	Mixed	#cccccc
+Basilea psittacipulmonis	R_Retroauricular_crease	#acf59a	4	46.0	35.0	#cbe486	#7affb7	Mixed	#cccccc
+Acinetobacter sp. TTH0-4	Anterior_nares	#8000ff	2	18.0	15.0	#00b5eb	#169bf2	Mixed	#cccccc
+Corynebacterium kutscheri	L_Retroauricular_crease	#34e4d9	8	45.0	54.0	#c2ea8c	#ffb05f	Mixed	#cccccc
+Alkanindiges illinoisensis	Anterior_nares	#8000ff	4	52.0	0.0	#f4c069	#8000ff	Mixed	#cccccc
+Actinobaculum massiliense	Vaginal_introitus	#ff0000	1	5.0	16.0	#5e35fe	#0ea5ef	Mixed	#cccccc
+Corynebacterium halotolerans	R_Retroauricular_crease	#acf59a	2	38.0	53.0	#90feab	#fcb763	Mixed	#cccccc
+Clostridium sp. L2-50	Stool	#e8cb72	3	46.0	51.0	#cbe486	#eec66d	Mixed	#cccccc
+Brochothrix thermosphacta	Saliva	#cbe486	5	30.0	40.0	#56f7ca	#9efaa2	Mixed	#cccccc
+Aliterella atlantica	Anterior_nares	#8000ff	4	27.0	5.0	#40ecd4	#5e35fe	Mixed	#cccccc
+Corynebacterium ulcerans	L_Retroauricular_crease	#34e4d9	3	17.0	39.0	#06aeed	#99fca6	Mixed	#cccccc
+Devosia limi	L_Retroauricular_crease	#34e4d9	24	51.0	56.0	#eec66d	#ff9d53	Mixed	#cccccc
+Actinomyces neuii	Posterior_fornix	#8efeac	5	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Gemella sanguinis	Tongue_dorsum	#ff2f18	29	31.0	47.0	#5efac6	#d0e082	Mixed	#cccccc
+Caloramator mitchellensis	L_Retroauricular_crease	#34e4d9	6	10.0	28.0	#396bf9	#48f1d0	Mixed	#cccccc
+Corynebacterium sp. JCB	L_Retroauricular_crease	#34e4d9	16	45.0	55.0	#c2ea8c	#ffa759	Mixed	#cccccc
+Flavobacterium sp. MEB061	R_Retroauricular_crease	#acf59a	1	7.0	58.0	#4e4dfc	#ff8c49	Mixed	#cccccc
+Actinomyces massiliensis	Supragingival_plaque	#ff8646	25	13.0	7.0	#2489f5	#4e4dfc	Mixed	#cccccc
+Blautia wexlerae	Stool	#e8cb72	7	36.0	24.0	#82ffb3	#2ddedc	Mixed	#cccccc
+Caulobacter vibrioides	Anterior_nares	#8000ff	6	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Campylobacter concisus	Attached	#622ffe	17	33.0	43.0	#6dfdbf	#b4f295	Mixed	#cccccc
+Acinetobacter harbinensis	Anterior_nares	#8000ff	1	56.0	9.0	#ff9d53	#4062fa	Mixed	#cccccc
+Levyella massiliensis	Anterior_nares	#8000ff	6	34.0	62.0	#74feba	#ff6533	Mixed	#cccccc
+Actinomyces timonensis	Subgingival_plaque	#ffac5c	2	12.0	20.0	#2981f6	#0fc4e7	Mixed	#cccccc
+Campylobacter rectus	Subgingival_plaque	#ffac5c	3	28.0	11.0	#48f1d0	#3176f8	Mixed	#cccccc
+Corynebacterium amycolatum	L_Retroauricular_crease	#34e4d9	3	35.0	11.0	#7affb7	#3176f8	Mixed	#cccccc
+Filifactor alocis	Palatine_Tonsils	#70febc	1	37.0	57.0	#88ffaf	#ff964f	Mixed	#cccccc
+Histophilus somni	Buccal_mucosa	#445cfb	1	60.0	60.0	#ff793e	#ff793e	Mixed	#cccccc
+Caldibacillus debilis	L_Retroauricular_crease	#34e4d9	1	31.0	41.0	#5efac6	#a6f89d	Mixed	#cccccc
+Helicobacter canis	Anterior_nares	#8000ff	3	18.0	15.0	#00b5eb	#169bf2	Mixed	#cccccc
+Clostridium baratii	R_Retroauricular_crease	#acf59a	2	47.0	50.0	#d0e082	#e6cd73	Mixed	#cccccc
+Empedobacter falsenii	Anterior_nares	#8000ff	5	66.0	1.0	#ff381c	#7a09ff	Mixed	#cccccc
+Actinomyces sp. oral taxon 172	Tongue_dorsum	#ff2f18	6	12.0	20.0	#2981f6	#0fc4e7	Mixed	#cccccc
+Alloprevotella rava	Saliva	#cbe486	4	12.0	20.0	#2981f6	#0fc4e7	Mixed	#cccccc
+Actinomyces sp. ICM54	Tongue_dorsum	#ff2f18	4	12.0	20.0	#2981f6	#0fc4e7	Mixed	#cccccc
+Atopobium sp. BS2	Saliva	#cbe486	4	12.0	20.0	#2981f6	#0fc4e7	Mixed	#cccccc
+Bradyrhizobium sp. CCH5-F6	R_Retroauricular_crease	#acf59a	4	12.0	20.0	#2981f6	#0fc4e7	Mixed	#cccccc
+Bacteroides caccae	Stool	#e8cb72	20	56.0	31.0	#ff9d53	#5efac6	Mixed	#cccccc
+Capnocytophaga canimorsus	R_Retroauricular_crease	#acf59a	5	71.0	46.0	#ff0000	#cbe486	Mixed	#cccccc
+Chlamydia trachomatis	Keratinized_gingiva	#17cbe4	6	37.0	48.0	#88ffaf	#d9da7d	Mixed	#cccccc
+Facklamia hominis	R_Retroauricular_crease	#acf59a	8	10.0	28.0	#396bf9	#48f1d0	Mixed	#cccccc
+Campylobacter hominis	R_Retroauricular_crease	#acf59a	12	6.0	45.0	#5641fd	#c2ea8c	Mixed	#cccccc
+Jeotgalicoccus marinus	L_Retroauricular_crease	#34e4d9	8	58.0	61.0	#ff8c49	#ff6d38	Mixed	#cccccc
+Corynebacterium pseudotuberculosis	Anterior_nares	#8000ff	5	11.0	39.0	#3176f8	#99fca6	Mixed	#cccccc
+Butyricimonas virosa	Stool	#e8cb72	4	17.0	39.0	#06aeed	#99fca6	Mixed	#cccccc
+Fusobacterium periodonticum	Throat	#ff5c2f	23	33.0	59.0	#6dfdbf	#ff8444	Mixed	#cccccc
+Ottowia sp. oral taxon 894	Supragingival_plaque	#ff8646	12	69.0	63.0	#ff190d	#ff592d	Mixed	#cccccc
+Actinomyces sp. S6-Spd3	Tongue_dorsum	#ff2f18	9	22.0	22.0	#1fd3e1	#1fd3e1	Mixed	#cccccc
+Prevotella copri	Stool	#e8cb72	16	69.0	66.0	#ff190d	#ff381c	Mixed	#cccccc
+[Eubacterium] siraeum	Stool	#e8cb72	7	9.0	39.0	#4062fa	#99fca6	Mixed	#cccccc
+Acidovorax temperans	L_Retroauricular_crease	#34e4d9	23	13.0	7.0	#2489f5	#4e4dfc	Mixed	#cccccc
+Propionibacterium granulosum	R_Retroauricular_crease	#acf59a	40	69.0	67.0	#ff190d	#ff2f18	Mixed	#cccccc
+Acidovorax sp. Leaf160	R_Retroauricular_crease	#acf59a	1	68.0	6.0	#ff2211	#5641fd	Mixed	#cccccc
+Paenibacillus polymyxa	L_Retroauricular_crease	#34e4d9	1	71.0	64.0	#ff0000	#ff5029	Mixed	#cccccc
+Corynebacterium aurimucosum	Anterior_nares	#8000ff	40	31.0	52.0	#5efac6	#f4c069	Mixed	#cccccc
+Bacteroides intestinalis	Stool	#e8cb72	8	4.0	33.0	#642cfe	#6dfdbf	Mixed	#cccccc
+Actinomyces dentalis	Subgingival_plaque	#ffac5c	17	67.0	17.0	#ff2f18	#06aeed	Mixed	#cccccc
+Prevotella maculosa	Subgingival_plaque	#ffac5c	15	67.0	17.0	#ff2f18	#06aeed	Mixed	#cccccc
+Oribacterium sp. oral taxon 078	Subgingival_plaque	#ffac5c	7	61.0	44.0	#ff6d38	#bced8f	Mixed	#cccccc
+Actinomyces sp. oral taxon 181	Tongue_dorsum	#ff2f18	3	57.0	0.0	#ff964f	#8000ff	Mixed	#cccccc
+Streptococcus agalactiae	Posterior_fornix	#8efeac	13	23.0	69.0	#24d8df	#ff190d	Mixed	#cccccc
+Pseudomonas agarici	Anterior_nares	#8000ff	2	50.0	68.0	#e6cd73	#ff2211	Mixed	#cccccc
+Actinomyces sp. ICM39	Tongue_dorsum	#ff2f18	12	24.0	20.0	#2ddedc	#0fc4e7	Mixed	#cccccc
+Prevotella disiens	Palatine_Tonsils	#70febc	8	24.0	20.0	#2ddedc	#0fc4e7	Mixed	#cccccc
+Prevotella salivae	Saliva	#cbe486	18	24.0	20.0	#2ddedc	#0fc4e7	Mixed	#cccccc
+Streptococcus infantis	Tongue_dorsum	#ff2f18	10	24.0	20.0	#2ddedc	#0fc4e7	Mixed	#cccccc
+Streptomyces sp. MUSC119T	R_Retroauricular_crease	#acf59a	16	9.0	71.0	#4062fa	#ff0000	Mixed	#cccccc
+Pantoea sp. YR343	Anterior_nares	#8000ff	1	34.0	65.0	#74feba	#ff4422	Mixed	#cccccc
+Finegoldia magna	R_Retroauricular_crease	#acf59a	40	10.0	28.0	#396bf9	#48f1d0	Mixed	#cccccc
+Streptococcus parasanguinis	Tongue_dorsum	#ff2f18	36	23.0	70.0	#24d8df	#ff0d06	Mixed	#cccccc
+Veillonella atypica	Saliva	#cbe486	6	24.0	20.0	#2ddedc	#0fc4e7	Mixed	#cccccc

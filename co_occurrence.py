@@ -34,9 +34,9 @@ if __name__ == '__main__':
 		sample_types = True
 	else:
 		sample_types = False
-
-	hldouts = sys.argv[5]#hold out some columns to test on
-	if hldouts == 'True':
+	
+	numhld = int(sys.argv[5])#hold out some columns to test on
+	if numhld != 0:
 		hldouts = True
 	else:
 		hldouts = False
@@ -88,6 +88,12 @@ if __name__ == '__main__':
 	#Combine samples of the same kind (that is, the same part of the body) so that we can 
 	#color according to where abundance of a genome is highest.
 	diff_samps_types = unique([name[:-10] for name in array(abundance_array_full.keys())[2:]])
+	for sty in range(len(diff_samps_types)):
+		if 'female' in diff_samps_types[sty]:
+			diff_samps_types[sty] = diff_samps_types[sty][:-7]
+		elif 'male' in diff_samps_types[sty]:
+			diff_samps_types[sty] = diff_samps_types[sty][:-5]
+	diff_samps_types = unique(diff_samps_types)
 	data_samps_types = transpose([sum([abundance_array_full[samp] for samp in abundance_array_full.keys()[2:]
 								 if smp_type in samp],axis = 0) for smp_type in diff_samps_types])
 
@@ -105,33 +111,69 @@ if __name__ == '__main__':
 	the_levels = abundance_array_full['LEVEL'].values
 	the_taxa = abundance_array_full['TAXA'].values
 
-	ab_arrays = []	
+
+	gender = True
+	other_meta = False
+	
+	ab_arrays = [abundance_array_full]	
+	#gender and sample location are in the sample titles. For other meta, we need a metadata file
 	if sample_types:
 		for samp in diff_samps_types:
-			slist = []
 			ab_samp = pd.DataFrame(the_levels, columns = ['LEVEL'], index = abundance_array_full.index)
 			ab_samp['TAXA'] = the_taxa
 			selecter = abundance_array_full.columns.map(lambda x: bool(re.search(samp,x)))
 			ab_samp[abundance_array_full.columns[where(selecter)]] = abundance_array_full[abundance_array_full.columns[where(selecter)]]
 			ab_arrays = ab_arrays + [ab_samp]
-	else:
-		ab_arrays = [abundance_array_full]
+	elif gender:
+		for gen in ['male','female']:
+			ab_gen = pd.DataFrame(the_levels, columns = ['LEVEL'], index = abundance_array_full.index)
+			ab_gen['TAXA'] = the_taxa
+			selecter = abundance_array_full.columns.map(lambda x: bool(re.search(gen,x)))
+			ab_gen[abundance_array_full.columns[where(selecter)]] = abundance_array_full[abundance_array_full.columns[where(selecter)]]
+			ab_arrays = ab_arrays + [ab_gen]
+	elif other_meta:
+		meta_file = sys.argv[6]
+		meta_column = sys.argv[7]
+		meta_arr = pd.read_csv(meta_file, sep = ' ', index_col= 0)
+		meta_col_dat = meta_arr.meta_column
+		meta_groups = unique(meta_col_dat.values)
+		if len(meta_groups) > 0.9*len(meta_arr):
+			#if the category is numerical (BMI for example), we need to bin it
+			numbins = 10
+			meta_groups = linspace(min(meta_col_dat), max(meta_col_dat), numbins)
+			x = subtract.outer(meta_col_dat, meta_groups) #row j is meta_col_dat[j] - meta_groups
+			y = argmin(abs(x),axis = 1) #entry j is entry number of meta_groups closest to meta_col_dat[j]
+			catdat = pd.DataFrame(meta_groups[y], columns = [c], index = meta_arr.index)
+		else:
+			catdat = meta_col_dat
+		for cl in meta_groups:
+			id_list = meta_arr.index[meta_col_dat == cl].values
+			ab_met = pd.DataFrame(the_levels, columns = ['LEVEL'], index = abundance_array_full.index)
+			ab_met['TAXA'] = the_taxa
+			selecter = where([any([id in colnm for id in id_list]) for colnm in abundance_array_full.columns])
+			ab_met[abundance_array_full.columns[selecter]] = abundance_array_full[abundance_array_full.columns[selecter]]
+			ab_arrays = ab_arrays + [ab_met]
 
 
 	if hldouts:
 		L = len(abundance_array_full.columns) - 2
-		hld = randint(L, size = 4) + 2
+		hld = randint(L, size = numhld) + 2
 		abundance_array_full.drop(abundance_array_full.columns[hld],axis = 1, inplace = True)
 
 	save = True
+	stype_ns = ['Full_'] + [spty + '_' for spty in diff_samps_types]
+	gtype = ['Full_','Male_','Female_']
 	for i in level:
 		print(i)
 		for ii in range(len(ab_arrays)):
 			if sample_types:
-				stype = diff_samps_types[ii]
+				stype = stype_ns[ii]
+			elif gender:
+				
 			else:
 				stype = ''
 			abundance_array = ab_arrays[ii]
+			print(stype)
 
 		
 			#start by getting the indices of the members of the level
@@ -157,43 +199,41 @@ if __name__ == '__main__':
 
 
 			if save:
+					
+					
+				flname1 = net_name+'/bins/'+i + '_' + stype+'_adj.tsv'
+				flname2 = net_name+'/bins/'+i + '_' + stype+'_list.tsv'
+				flname5 = net_name+'/bins/'+i + '_' + stype+'_node_data.tsv'
+			
+				flname3t = net_name+'/pears/'+i + '_' + stype+'thr_adj.tsv'
+				flname4t = net_name+'/pears/'+i + '_' + stype+'thr_list.tsv'
+				flname6t = net_name+'/pears/'+i + '_' + stype+'thr_node_data.tsv'
+		
+				flname3 = net_name+'/pears/'+i + '_' + stype+'cor_adj.tsv'
+				flname4 = net_name+'/pears/'+i + '_' + stype+'cor_list.tsv'
+				flname6 = net_name+'/pears/'+i + '_' + stype+'cor_node_data.tsv'
+				
 				if hldouts:
-					held = '_'.join(map(str,hld))
-					flname1 = net_name+'/bins/'+i + '_' + stype+'_'+held+'_adj.tsv'
-					flname2 = net_name+'/bins/'+i + '_' + stype+'_'+held+'_list.tsv'
-					flname5 = net_name+'/bins/'+i + '_' + stype+'_'+held+'_node_data.tsv'
-				
-					flname3t = net_name+'/pears/'+i + '_' + stype+'_'+held+'thr_adj.tsv'
-					flname4t = net_name+'/pears/'+i + '_' + stype+'_'+held+'thr_list.tsv'
-					flname6t = net_name+'/pears/'+i + '_' + stype+'_'+held+'thr_node_data.tsv'
-			
-					flname3 = net_name+'/pears/'+i + '_' + stype+'_'+held+'cor_adj.tsv'
-					flname4 = net_name+'/pears/'+i + '_' + stype+'_'+held+'cor_list.tsv'
-					flname6 = net_name+'/pears/'+i + '_' + stype+'_'+held+'cor_node_data.tsv'
-				else:
-					flname1 = net_name+'/bins/'+i + '_' + stype+'_adj.tsv'
-					flname2 = net_name+'/bins/'+i + '_' + stype+'_list.tsv'
-					flname5 = net_name+'/bins/'+i + '_' + stype+'_node_data.tsv'
-				
-					flname3t = net_name+'/pears/'+i + '_' + stype+'thr_adj.tsv'
-					flname4t = net_name+'/pears/'+i + '_' + stype+'thr_list.tsv'
-					flname6t = net_name+'/pears/'+i + '_' + stype+'thr_node_data.tsv'
-			
-					flname3 = net_name+'/pears/'+i + '_' + stype+'cor_adj.tsv'
-					flname4 = net_name+'/pears/'+i + '_' + stype+'cor_list.tsv'
-					flname6 = net_name+'/pears/'+i + '_' + stype+'cor_node_data.tsv'
+					holddf = pd.DataFrame(hld, columns = ['Holdouts'])
+					hldfile1 = flname1[:-8] + '_held.tsv' 
+					hldfile2 = flname3t[:-8] + '_held.tsv'
+					hldfile3 = flname3[:-8] + '_held.tsv'
+					holddf.to_csv(hldfile1, sep = '\t')
+					holddf.to_csv(hldfile2, sep = '\t')
+					holddf.to_csv(hldfile3, sep = '\t')
+					
 				
 			
 				adjacency_frames_bins.to_csv(flname1, sep = '\t')
-				source_target_frames_bins.to_csv(flname2, sep = '\t')
+				source_target_frames_bins.to_csv(flname2, sep = '\t', index = False)
 				node_data_bins.to_csv(flname5, sep = '\t')
 
 				adjacency_frames_pear.to_csv(flname3, sep = '\t')
-				source_target_frames_pear.to_csv(flname4, sep = '\t')
+				source_target_frames_pear.to_csv(flname4, sep = '\t', index = False)
 				node_data_pear.to_csv(flname6, sep = '\t')
 			
 				adjacency_frames_pear_thr.to_csv(flname3t, sep = '\t')
-				source_target_frames_pear_thr.to_csv(flname4t, sep = '\t')
+				source_target_frames_pear_thr.to_csv(flname4t, sep = '\t', index = False)
 				node_data_pear_thr.to_csv(flname6t, sep = '\t')
 
 

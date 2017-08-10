@@ -1,0 +1,45 @@
+	source	target	weight	edge_sample	edge_color
+0	Actinomyces sp. oral taxon 175	Actinomyces oris	1.0	Supragingival_plaque	#ff8646
+1	Campylobacter concisus	Abiotrophia defectiva	1.0	Mixed	#cccccc
+2	Capnocytophaga gingivalis	Aggregatibacter aphrophilus	1.0	Mixed	#cccccc
+3	Cardiobacterium valvarum	Abiotrophia defectiva	1.0	Mixed	#cccccc
+4	Cardiobacterium valvarum	Campylobacter concisus	1.0	Mixed	#cccccc
+5	Facklamia ignava	Capnocytophaga sputigena	1.0	Mixed	#cccccc
+6	Haemophilus parainfluenzae	Capnocytophaga sputigena	1.0	Mixed	#cccccc
+7	Haemophilus parainfluenzae	Facklamia ignava	1.0	Mixed	#cccccc
+8	Kingella oralis	Actinomyces sp. oral taxon 175	1.0	Supragingival_plaque	#ff8646
+9	Lactobacillus gasseri	Capnocytophaga sputigena	1.0	Mixed	#cccccc
+10	Lactobacillus gasseri	Facklamia ignava	1.0	Mixed	#cccccc
+11	Lactobacillus gasseri	Haemophilus parainfluenzae	1.0	Mixed	#cccccc
+12	Lactobacillus oris	Herbaspirillum sp. GW103	1.0	Mixed	#cccccc
+13	Lactobacillus reuteri	Herbaspirillum sp. GW103	1.0	Mixed	#cccccc
+14	Lactobacillus reuteri	Lactobacillus oris	1.0	Posterior_fornix	#8efeac
+15	Lautropia mirabilis	Actinomyces sp. oral taxon 175	1.0	Supragingival_plaque	#ff8646
+16	Neisseria sp. oral taxon 014	Actinomyces oris	1.0	Supragingival_plaque	#ff8646
+17	Porphyromonas catoniae	Actinomyces sp. oral taxon 170	1.0	Mixed	#cccccc
+18	Porphyromonas catoniae	Capnocytophaga sp. oral taxon 329	1.0	Mixed	#cccccc
+19	Prevotella bergensis	Abiotrophia defectiva	1.0	Mixed	#cccccc
+20	Prevotella bergensis	Campylobacter concisus	1.0	Mixed	#cccccc
+21	Prevotella disiens	Corynebacterium matruchotii	1.0	Mixed	#cccccc
+22	Pseudomonas frederiksbergensis	Herbaspirillum sp. GW103	1.0	Vaginal_introitus	#ff0000
+23	Pseudomonas frederiksbergensis	Lactobacillus oris	1.0	Mixed	#cccccc
+24	Pseudomonas frederiksbergensis	Lactobacillus reuteri	1.0	Mixed	#cccccc
+25	Pseudomonas sp. DSM 29167	Pseudomonas mandelii	1.0	Mixed	#cccccc
+26	Pseudomonas synxantha	Herbaspirillum sp. B39	1.0	Vaginal_introitus	#ff0000
+27	Rothia dentocariosa	Neisseria sp. oral taxon 014	1.0	Supragingival_plaque	#ff8646
+28	Rothia mucilaginosa	Lawsonella clevelandensis	1.0	Mixed	#cccccc
+29	Sphingopyxis macrogoltabida	Pseudomonas orientalis	1.0	Vaginal_introitus	#ff0000
+30	Sphingopyxis sp. H115	Herbaspirillum sp. GW103	1.0	Mixed	#cccccc
+31	Sphingopyxis sp. H115	Lactobacillus oris	1.0	Mixed	#cccccc
+32	Sphingopyxis sp. H115	Lactobacillus reuteri	1.0	Mixed	#cccccc
+33	Sphingopyxis sp. H115	Pseudomonas frederiksbergensis	1.0	Mixed	#cccccc
+34	Sphingopyxis sp. LC81	Pseudomonas orientalis	1.0	Vaginal_introitus	#ff0000
+35	Sphingopyxis sp. LC81	Sphingopyxis macrogoltabida	1.0	Vaginal_introitus	#ff0000
+36	Sphingopyxis sp. Root1497	Pseudomonas orientalis	1.0	Mixed	#cccccc
+37	Sphingopyxis sp. Root1497	Sphingopyxis macrogoltabida	1.0	Mixed	#cccccc
+38	Sphingopyxis sp. Root1497	Sphingopyxis sp. LC81	1.0	Mixed	#cccccc
+39	Stenotrophomonas maltophilia	Pseudomonas sp. Ag1	1.0	Mixed	#cccccc
+40	Streptococcus pneumoniae	Pseudomonas sp. FH1	1.0	Mixed	#cccccc
+41	Streptococcus pneumoniae	Sphingopyxis sp. H050	1.0	Mixed	#cccccc
+42	Ureaplasma parvum	Pseudomonas sp. NBRC 111134	1.0	Vaginal_introitus	#ff0000
+43	Veillonella parvula	Rothia mucilaginosa	1.0	Mixed	#cccccc

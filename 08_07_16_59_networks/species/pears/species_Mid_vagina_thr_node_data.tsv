@@ -1,0 +1,45 @@
+TAXA	sample_type	sample_color	frequency	spect_cluster	commun_cluster	spect_color	comm_color
+Actinomyces sp. oral taxon 175	Supragingival_plaque	#ff8646	2	11.0	1.0	#ff793e	#5a3bfd
+Campylobacter concisus	Attached	#622ffe	1	2.0	0.0	#3176f8	#8000ff
+Capnocytophaga gingivalis	Supragingival_plaque	#ff8646	2	5.0	3.0	#44eed2	#0ca7ef
+Cardiobacterium valvarum	Subgingival_plaque	#ffac5c	1	2.0	0.0	#3176f8	#8000ff
+Facklamia ignava	Mid_vagina	#52f5cb	1	8.0	4.0	#b9ef92	#1dd1e2
+Haemophilus parainfluenzae	Tongue_dorsum	#ff2f18	1	8.0	4.0	#b9ef92	#1dd1e2
+Kingella oralis	Supragingival_plaque	#ff8646	2	11.0	1.0	#ff793e	#5a3bfd
+Lactobacillus gasseri	Posterior_fornix	#8efeac	1	8.0	4.0	#b9ef92	#1dd1e2
+Lactobacillus oris	Posterior_fornix	#8efeac	1	7.0	7.0	#92fda9	#92fda9
+Lactobacillus reuteri	Posterior_fornix	#8efeac	1	7.0	7.0	#92fda9	#92fda9
+Lautropia mirabilis	Supragingival_plaque	#ff8646	2	11.0	1.0	#ff793e	#5a3bfd
+Neisseria sp. oral taxon 014	Supragingival_plaque	#ff8646	2	11.0	1.0	#ff793e	#5a3bfd
+Porphyromonas catoniae	Subgingival_plaque	#ffac5c	2	1.0	2.0	#5a3bfd	#3176f8
+Prevotella bergensis	Stool	#e8cb72	1	2.0	0.0	#3176f8	#8000ff
+Prevotella disiens	Palatine_Tonsils	#70febc	2	6.0	5.0	#6afdc0	#44eed2
+Pseudomonas frederiksbergensis	Vaginal_introitus	#ff0000	1	7.0	7.0	#92fda9	#92fda9
+Pseudomonas sp. DSM 29167	Mid_vagina	#52f5cb	2	0.0	9.0	#8000ff	#e0d377
+Pseudomonas synxantha	Vaginal_introitus	#ff0000	2	12.0	6.0	#ff3e1f	#6afdc0
+Rothia dentocariosa	Supragingival_plaque	#ff8646	2	11.0	1.0	#ff793e	#5a3bfd
+Rothia mucilaginosa	Hard_palate	#08acee	2	13.0	8.0	#ff0000	#b9ef92
+Sphingopyxis macrogoltabida	Vaginal_introitus	#ff0000	1	9.0	10.0	#e0d377	#ffa95b
+Sphingopyxis sp. H115	Mid_vagina	#52f5cb	1	7.0	7.0	#92fda9	#92fda9
+Sphingopyxis sp. LC81	Vaginal_introitus	#ff0000	1	9.0	10.0	#e0d377	#ffa95b
+Sphingopyxis sp. Root1497	Mid_vagina	#52f5cb	1	9.0	10.0	#e0d377	#ffa95b
+Stenotrophomonas maltophilia	Anterior_nares	#8000ff	2	4.0	11.0	#1dd1e2	#ff793e
+Streptococcus pneumoniae	Buccal_mucosa_NA	#2686f5	2	10.0	12.0	#ffa95b	#ff3e1f
+Ureaplasma parvum	Vaginal_introitus	#ff0000	2	3.0	13.0	#0ca7ef	#ff0000
+Veillonella parvula	Attached	#622ffe	2	13.0	8.0	#ff0000	#b9ef92
+Actinomyces oris	Supragingival_plaque	#ff8646	2	11.0	1.0	#ff793e	#5a3bfd
+Abiotrophia defectiva	Buccal_mucosa	#445cfb	1	2.0	0.0	#3176f8	#8000ff
+Aggregatibacter aphrophilus	Saliva	#cbe486	2	5.0	3.0	#44eed2	#0ca7ef
+Capnocytophaga sputigena	Supragingival_plaque	#ff8646	1	8.0	4.0	#b9ef92	#1dd1e2
+Herbaspirillum sp. GW103	Vaginal_introitus	#ff0000	1	7.0	7.0	#92fda9	#92fda9
+Actinomyces sp. oral taxon 170	Supragingival_plaque	#ff8646	2	1.0	2.0	#5a3bfd	#3176f8
+Capnocytophaga sp. oral taxon 329	Supragingival_plaque	#ff8646	2	1.0	2.0	#5a3bfd	#3176f8
+Corynebacterium matruchotii	Supragingival_plaque	#ff8646	2	6.0	5.0	#6afdc0	#44eed2
+Pseudomonas mandelii	Vaginal_introitus	#ff0000	2	0.0	9.0	#8000ff	#e0d377
+Herbaspirillum sp. B39	Vaginal_introitus	#ff0000	2	12.0	6.0	#ff3e1f	#6afdc0
+Lawsonella clevelandensis	Anterior_nares	#8000ff	2	13.0	8.0	#ff0000	#b9ef92
+Pseudomonas orientalis	Vaginal_introitus	#ff0000	1	9.0	10.0	#e0d377	#ffa95b
+Pseudomonas sp. Ag1	Vaginal_introitus	#ff0000	2	4.0	11.0	#1dd1e2	#ff793e
+Pseudomonas sp. FH1	Vaginal_introitus	#ff0000	2	10.0	12.0	#ffa95b	#ff3e1f
+Sphingopyxis sp. H050	Vaginal_introitus	#ff0000	2	10.0	12.0	#ffa95b	#ff3e1f
+Pseudomonas sp. NBRC 111134	Vaginal_introitus	#ff0000	2	3.0	13.0	#0ca7ef	#ff0000

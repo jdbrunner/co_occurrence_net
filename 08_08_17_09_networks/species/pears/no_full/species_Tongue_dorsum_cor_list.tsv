@@ -1,0 +1,1737 @@
+	source	target	weight	edge_sample	edge_color
+0	Actinobacillus suis	Acidovorax caeni	1.0	Mixed	#cccccc
+1	Actinobaculum sp. oral taxon 183	Acidovorax avenae	0.85005384871	Mixed	#cccccc
+2	Actinomyces dentalis	Acidovorax avenae	0.996502494807	Mixed	#cccccc
+3	Actinomyces dentalis	Actinobaculum sp. oral taxon 183	0.86013938765	Subgingival_plaque	#ffac5c
+4	Actinomyces gerencseriae	Acidovorax avenae	0.991650582388	Mixed	#cccccc
+5	Actinomyces gerencseriae	Actinobaculum sp. oral taxon 183	0.870433035888	Subgingival_plaque	#ffac5c
+6	Actinomyces gerencseriae	Actinomyces dentalis	0.994697882397	Subgingival_plaque	#ffac5c
+7	Actinomyces johnsonii	Abiotrophia defectiva	0.818352598074	Mixed	#cccccc
+8	Actinomyces johnsonii	Acidovorax avenae	0.981525241445	Mixed	#cccccc
+9	Actinomyces johnsonii	Actinobaculum sp. oral taxon 183	0.842001847211	Subgingival_plaque	#ffac5c
+10	Actinomyces johnsonii	Actinomyces dentalis	0.984384488328	Subgingival_plaque	#ffac5c
+11	Actinomyces johnsonii	Actinomyces gerencseriae	0.977062470606	Subgingival_plaque	#ffac5c
+12	Actinomyces massiliensis	Acidovorax avenae	0.959863121783	Supragingival_plaque	#ff8646
+13	Actinomyces massiliensis	Actinobaculum sp. oral taxon 183	0.895531109369	Mixed	#cccccc
+14	Actinomyces massiliensis	Actinomyces dentalis	0.963058577012	Mixed	#cccccc
+15	Actinomyces massiliensis	Actinomyces gerencseriae	0.966386809712	Mixed	#cccccc
+16	Actinomyces massiliensis	Actinomyces johnsonii	0.954018666702	Mixed	#cccccc
+17	Actinomyces naeslundii	Acidovorax avenae	0.965481273947	Supragingival_plaque	#ff8646
+18	Actinomyces naeslundii	Actinobaculum sp. oral taxon 183	0.878460692416	Mixed	#cccccc
+19	Actinomyces naeslundii	Actinomyces dentalis	0.974942773085	Mixed	#cccccc
+20	Actinomyces naeslundii	Actinomyces gerencseriae	0.973992914906	Mixed	#cccccc
+21	Actinomyces naeslundii	Actinomyces johnsonii	0.962166229596	Mixed	#cccccc
+22	Actinomyces naeslundii	Actinomyces massiliensis	0.955829990296	Supragingival_plaque	#ff8646
+23	Actinomyces sp. oral taxon 170	Acidovorax avenae	0.982587997185	Supragingival_plaque	#ff8646
+24	Actinomyces sp. oral taxon 170	Actinobaculum sp. oral taxon 183	0.866118972361	Mixed	#cccccc
+25	Actinomyces sp. oral taxon 170	Actinomyces dentalis	0.981984332289	Mixed	#cccccc
+26	Actinomyces sp. oral taxon 170	Actinomyces gerencseriae	0.982450662856	Mixed	#cccccc
+27	Actinomyces sp. oral taxon 170	Actinomyces johnsonii	0.972846978171	Mixed	#cccccc
+28	Actinomyces sp. oral taxon 170	Actinomyces massiliensis	0.984804531172	Supragingival_plaque	#ff8646
+29	Actinomyces sp. oral taxon 170	Actinomyces naeslundii	0.960408639081	Supragingival_plaque	#ff8646
+30	Actinomyces sp. oral taxon 175	Abiotrophia defectiva	0.889513336297	Mixed	#cccccc
+31	Actinomyces sp. oral taxon 175	Actinomyces oris	0.804872016693	Supragingival_plaque	#ff8646
+32	Actinomyces sp. oral taxon 414	Abiotrophia defectiva	0.847139288537	Mixed	#cccccc
+33	Actinomyces sp. oral taxon 414	Acidovorax avenae	0.964707734401	Mixed	#cccccc
+34	Actinomyces sp. oral taxon 414	Actinobaculum sp. oral taxon 183	0.844247168881	Subgingival_plaque	#ffac5c
+35	Actinomyces sp. oral taxon 414	Actinomyces dentalis	0.970753810251	Subgingival_plaque	#ffac5c
+36	Actinomyces sp. oral taxon 414	Actinomyces gerencseriae	0.964447626622	Subgingival_plaque	#ffac5c
+37	Actinomyces sp. oral taxon 414	Actinomyces johnsonii	0.971448494545	Subgingival_plaque	#ffac5c
+38	Actinomyces sp. oral taxon 414	Actinomyces massiliensis	0.937341303043	Mixed	#cccccc
+39	Actinomyces sp. oral taxon 414	Actinomyces naeslundii	0.954311093794	Mixed	#cccccc
+40	Actinomyces sp. oral taxon 414	Actinomyces sp. oral taxon 170	0.952984260655	Mixed	#cccccc
+41	Actinomyces sp. oral taxon 848	Abiotrophia defectiva	0.831723152633	Mixed	#cccccc
+42	Actinomyces sp. oral taxon 848	Acidovorax avenae	0.990980305754	Supragingival_plaque	#ff8646
+43	Actinomyces sp. oral taxon 848	Actinobaculum sp. oral taxon 183	0.849159826628	Mixed	#cccccc
+44	Actinomyces sp. oral taxon 848	Actinomyces dentalis	0.990386527164	Mixed	#cccccc
+45	Actinomyces sp. oral taxon 848	Actinomyces gerencseriae	0.984563000063	Mixed	#cccccc
+46	Actinomyces sp. oral taxon 848	Actinomyces johnsonii	0.985619847804	Mixed	#cccccc
+47	Actinomyces sp. oral taxon 848	Actinomyces massiliensis	0.967036691532	Supragingival_plaque	#ff8646
+48	Actinomyces sp. oral taxon 848	Actinomyces naeslundii	0.96379990986	Supragingival_plaque	#ff8646
+49	Actinomyces sp. oral taxon 848	Actinomyces sp. oral taxon 170	0.985169902746	Supragingival_plaque	#ff8646
+50	Actinomyces sp. oral taxon 848	Actinomyces sp. oral taxon 414	0.974315161704	Mixed	#cccccc
+51	Actinomyces sp. oral taxon 849	Acidovorax avenae	1.0	Supragingival_plaque	#ff8646
+52	Actinomyces sp. oral taxon 849	Actinobaculum sp. oral taxon 183	0.85005384871	Mixed	#cccccc
+53	Actinomyces sp. oral taxon 849	Actinomyces dentalis	0.996502494807	Mixed	#cccccc
+54	Actinomyces sp. oral taxon 849	Actinomyces gerencseriae	0.991650582388	Mixed	#cccccc
+55	Actinomyces sp. oral taxon 849	Actinomyces johnsonii	0.981525241445	Mixed	#cccccc
+56	Actinomyces sp. oral taxon 849	Actinomyces massiliensis	0.959863121783	Supragingival_plaque	#ff8646
+57	Actinomyces sp. oral taxon 849	Actinomyces naeslundii	0.965481273947	Supragingival_plaque	#ff8646
+58	Actinomyces sp. oral taxon 849	Actinomyces sp. oral taxon 170	0.982587997185	Supragingival_plaque	#ff8646
+59	Actinomyces sp. oral taxon 849	Actinomyces sp. oral taxon 414	0.964707734401	Mixed	#cccccc
+60	Actinomyces sp. oral taxon 849	Actinomyces sp. oral taxon 848	0.990980305754	Supragingival_plaque	#ff8646
+61	Actinomyces sp. ph3	Actinomyces sp. oral taxon 181	0.899369801196	Tongue_dorsum	#ff2f18
+62	Actinomyces viscosus	Actinomyces sp. oral taxon 175	0.821747246485	Mixed	#cccccc
+63	Aggregatibacter segnis	Acidovorax avenae	0.830359388417	Supragingival_plaque	#ff8646
+64	Aggregatibacter segnis	Actinomyces dentalis	0.827334044304	Mixed	#cccccc
+65	Aggregatibacter segnis	Actinomyces gerencseriae	0.826917584279	Mixed	#cccccc
+66	Aggregatibacter segnis	Actinomyces johnsonii	0.82916705264	Mixed	#cccccc
+67	Aggregatibacter segnis	Actinomyces naeslundii	0.830610270057	Supragingival_plaque	#ff8646
+68	Aggregatibacter segnis	Actinomyces sp. oral taxon 170	0.813967859633	Supragingival_plaque	#ff8646
+69	Aggregatibacter segnis	Actinomyces sp. oral taxon 414	0.826611254876	Mixed	#cccccc
+70	Aggregatibacter segnis	Actinomyces sp. oral taxon 848	0.830023136755	Supragingival_plaque	#ff8646
+71	Aggregatibacter segnis	Actinomyces sp. oral taxon 849	0.830359388417	Supragingival_plaque	#ff8646
+72	Aggregatibacter segnis	Aggregatibacter aphrophilus	0.807225585138	Mixed	#cccccc
+73	Alistipes shahii	Alistipes putredinis	0.869347418683	Stool	#e8cb72
+74	Anaerostipes hadrus	Alloscardovia omnicolens	1.0	Mixed	#cccccc
+75	Atopobium sp. BS2	Atopobium parvulum	0.978000903762	Saliva	#cbe486
+76	Atopobium sp. ICM42b	Atopobium parvulum	0.986307128804	Saliva	#cbe486
+77	Atopobium sp. ICM42b	Atopobium sp. BS2	0.982321643002	Saliva	#cbe486
+78	Bacteroides cellulosilyticus	Alistipes obesi	1.0	Stool	#e8cb72
+79	Bacteroides finegoldii	Bacteroides faecis	0.815021427815	Stool	#e8cb72
+80	Bacteroides intestinalis	Acidovorax caeni	1.0	Mixed	#cccccc
+81	Bacteroides intestinalis	Actinobacillus suis	1.0	Mixed	#cccccc
+82	Bacteroides salyersiae	Bacteroides faecis	0.948456713793	Stool	#e8cb72
+83	Bacteroides stercoris	Bacteroides massiliensis	0.845144715997	Stool	#e8cb72
+84	Bacteroides thetaiotaomicron	Bacteroides gallinarum	1.0	Stool	#e8cb72
+85	Bacteroidetes oral taxon 274	Acidovorax avenae	0.987410100684	Mixed	#cccccc
+86	Bacteroidetes oral taxon 274	Actinobaculum sp. oral taxon 183	0.849454206217	Subgingival_plaque	#ffac5c
+87	Bacteroidetes oral taxon 274	Actinomyces dentalis	0.986950180927	Subgingival_plaque	#ffac5c
+88	Bacteroidetes oral taxon 274	Actinomyces gerencseriae	0.982044825806	Subgingival_plaque	#ffac5c
+89	Bacteroidetes oral taxon 274	Actinomyces johnsonii	0.971997213979	Subgingival_plaque	#ffac5c
+90	Bacteroidetes oral taxon 274	Actinomyces massiliensis	0.955119746864	Mixed	#cccccc
+91	Bacteroidetes oral taxon 274	Actinomyces naeslundii	0.968887685048	Mixed	#cccccc
+92	Bacteroidetes oral taxon 274	Actinomyces sp. oral taxon 170	0.971067377946	Mixed	#cccccc
+93	Bacteroidetes oral taxon 274	Actinomyces sp. oral taxon 414	0.962137793145	Subgingival_plaque	#ffac5c
+94	Bacteroidetes oral taxon 274	Actinomyces sp. oral taxon 848	0.980827528051	Mixed	#cccccc
+95	Bacteroidetes oral taxon 274	Actinomyces sp. oral taxon 849	0.987410100684	Mixed	#cccccc
+96	Bacteroidetes oral taxon 274	Aggregatibacter segnis	0.843131142649	Mixed	#cccccc
+97	Bergeyella zoohelcum	Acidovorax avenae	1.0	Mixed	#cccccc
+98	Bergeyella zoohelcum	Actinobaculum sp. oral taxon 183	0.85005384871	Mixed	#cccccc
+99	Bergeyella zoohelcum	Actinomyces dentalis	0.996502494807	Mixed	#cccccc
+100	Bergeyella zoohelcum	Actinomyces gerencseriae	0.991650582388	Mixed	#cccccc
+101	Bergeyella zoohelcum	Actinomyces johnsonii	0.981525241445	Mixed	#cccccc
+102	Bergeyella zoohelcum	Actinomyces massiliensis	0.959863121783	Mixed	#cccccc
+103	Bergeyella zoohelcum	Actinomyces naeslundii	0.965481273947	Mixed	#cccccc
+104	Bergeyella zoohelcum	Actinomyces sp. oral taxon 170	0.982587997185	Mixed	#cccccc
+105	Bergeyella zoohelcum	Actinomyces sp. oral taxon 414	0.964707734401	Mixed	#cccccc
+106	Bergeyella zoohelcum	Actinomyces sp. oral taxon 848	0.990980305754	Mixed	#cccccc
+107	Bergeyella zoohelcum	Actinomyces sp. oral taxon 849	1.0	Mixed	#cccccc
+108	Bergeyella zoohelcum	Aggregatibacter segnis	0.830359388417	Mixed	#cccccc
+109	Bergeyella zoohelcum	Bacteroidetes oral taxon 274	0.987410100684	Mixed	#cccccc
+110	Bifidobacterium bifidum	Bacteroides coprocola	0.900208233616	Stool	#e8cb72
+111	Bifidobacterium breve	Bacteroides coprocola	0.973174783098	Mixed	#cccccc
+112	Bifidobacterium breve	Bifidobacterium bifidum	0.925585796001	Mixed	#cccccc
+113	Butyrivibrio crossotus	Alistipes shahii	0.879137116854	Stool	#e8cb72
+114	Butyrivibrio crossotus	Butyricimonas virosa	0.805145624197	Stool	#e8cb72
+115	Campylobacter fetus	Acidovorax avenae	1.0	Mixed	#cccccc
+116	Campylobacter fetus	Actinobaculum sp. oral taxon 183	0.85005384871	Mixed	#cccccc
+117	Campylobacter fetus	Actinomyces dentalis	0.996502494807	Mixed	#cccccc
+118	Campylobacter fetus	Actinomyces gerencseriae	0.991650582388	Mixed	#cccccc
+119	Campylobacter fetus	Actinomyces johnsonii	0.981525241445	Mixed	#cccccc
+120	Campylobacter fetus	Actinomyces massiliensis	0.959863121783	Mixed	#cccccc
+121	Campylobacter fetus	Actinomyces naeslundii	0.965481273947	Mixed	#cccccc
+122	Campylobacter fetus	Actinomyces sp. oral taxon 170	0.982587997185	Mixed	#cccccc
+123	Campylobacter fetus	Actinomyces sp. oral taxon 414	0.964707734401	Mixed	#cccccc
+124	Campylobacter fetus	Actinomyces sp. oral taxon 848	0.990980305754	Mixed	#cccccc
+125	Campylobacter fetus	Actinomyces sp. oral taxon 849	1.0	Mixed	#cccccc
+126	Campylobacter fetus	Aggregatibacter segnis	0.830359388417	Mixed	#cccccc
+127	Campylobacter fetus	Bacteroidetes oral taxon 274	0.987410100684	Mixed	#cccccc
+128	Campylobacter fetus	Bergeyella zoohelcum	1.0	Mixed	#cccccc
+129	Campylobacter gracilis	Acidovorax avenae	0.969431163171	Mixed	#cccccc
+130	Campylobacter gracilis	Actinobaculum sp. oral taxon 183	0.87586766737	Subgingival_plaque	#ffac5c
+131	Campylobacter gracilis	Actinomyces dentalis	0.976236422111	Subgingival_plaque	#ffac5c
+132	Campylobacter gracilis	Actinomyces gerencseriae	0.98158637677	Subgingival_plaque	#ffac5c
+133	Campylobacter gracilis	Actinomyces johnsonii	0.959507321026	Subgingival_plaque	#ffac5c
+134	Campylobacter gracilis	Actinomyces massiliensis	0.955999659368	Mixed	#cccccc
+135	Campylobacter gracilis	Actinomyces naeslundii	0.972358581967	Mixed	#cccccc
+136	Campylobacter gracilis	Actinomyces sp. oral taxon 170	0.962302112113	Mixed	#cccccc
+137	Campylobacter gracilis	Actinomyces sp. oral taxon 414	0.948873056602	Subgingival_plaque	#ffac5c
+138	Campylobacter gracilis	Actinomyces sp. oral taxon 848	0.963816346254	Mixed	#cccccc
+139	Campylobacter gracilis	Actinomyces sp. oral taxon 849	0.969431163171	Mixed	#cccccc
+140	Campylobacter gracilis	Aggregatibacter segnis	0.832511950413	Mixed	#cccccc
+141	Campylobacter gracilis	Bacteroidetes oral taxon 274	0.974889303589	Subgingival_plaque	#ffac5c
+142	Campylobacter gracilis	Bergeyella zoohelcum	0.969431163171	Mixed	#cccccc
+143	Campylobacter gracilis	Campylobacter fetus	0.969431163171	Mixed	#cccccc
+144	Campylobacter rectus	Bacteroidetes oral taxon 274	0.806456939432	Subgingival_plaque	#ffac5c
+145	Capnocytophaga cynodegmi	Acidovorax avenae	1.0	Mixed	#cccccc
+146	Capnocytophaga cynodegmi	Actinobaculum sp. oral taxon 183	0.85005384871	Mixed	#cccccc
+147	Capnocytophaga cynodegmi	Actinomyces dentalis	0.996502494807	Mixed	#cccccc
+148	Capnocytophaga cynodegmi	Actinomyces gerencseriae	0.991650582388	Mixed	#cccccc
+149	Capnocytophaga cynodegmi	Actinomyces johnsonii	0.981525241445	Mixed	#cccccc
+150	Capnocytophaga cynodegmi	Actinomyces massiliensis	0.959863121783	Mixed	#cccccc
+151	Capnocytophaga cynodegmi	Actinomyces naeslundii	0.965481273947	Mixed	#cccccc
+152	Capnocytophaga cynodegmi	Actinomyces sp. oral taxon 170	0.982587997185	Mixed	#cccccc
+153	Capnocytophaga cynodegmi	Actinomyces sp. oral taxon 414	0.964707734401	Mixed	#cccccc
+154	Capnocytophaga cynodegmi	Actinomyces sp. oral taxon 848	0.990980305754	Mixed	#cccccc
+155	Capnocytophaga cynodegmi	Actinomyces sp. oral taxon 849	1.0	Mixed	#cccccc
+156	Capnocytophaga cynodegmi	Aggregatibacter segnis	0.830359388417	Mixed	#cccccc
+157	Capnocytophaga cynodegmi	Bacteroidetes oral taxon 274	0.987410100684	Mixed	#cccccc
+158	Capnocytophaga cynodegmi	Bergeyella zoohelcum	1.0	R_Retroauricular_crease	#acf59a
+159	Capnocytophaga cynodegmi	Campylobacter fetus	1.0	Mixed	#cccccc
+160	Capnocytophaga cynodegmi	Campylobacter gracilis	0.969431163171	Mixed	#cccccc
+161	Capnocytophaga ochracea	Acidovorax avenae	0.802938487822	Supragingival_plaque	#ff8646
+162	Capnocytophaga ochracea	Actinomyces sp. oral taxon 849	0.802938487822	Supragingival_plaque	#ff8646
+163	Capnocytophaga ochracea	Bacteroidetes oral taxon 274	0.821258652712	Mixed	#cccccc
+164	Capnocytophaga ochracea	Bergeyella zoohelcum	0.802938487822	Mixed	#cccccc
+165	Capnocytophaga ochracea	Campylobacter fetus	0.802938487822	Mixed	#cccccc
+166	Capnocytophaga ochracea	Capnocytophaga cynodegmi	0.802938487822	Mixed	#cccccc
+167	Capnocytophaga sp. CM59	Capnocytophaga granulosa	0.972534435739	Supragingival_plaque	#ff8646
+168	Capnocytophaga sp. oral taxon 324	Capnocytophaga ochracea	0.877100202564	Mixed	#cccccc
+169	Capnocytophaga sp. oral taxon 326	Capnocytophaga ochracea	0.928483025542	Mixed	#cccccc
+170	Capnocytophaga sp. oral taxon 326	Capnocytophaga sp. oral taxon 324	0.81155612074	Subgingival_plaque	#ffac5c
+171	Capnocytophaga sp. oral taxon 332	Acidovorax avenae	0.940456396589	Supragingival_plaque	#ff8646
+172	Capnocytophaga sp. oral taxon 332	Actinomyces dentalis	0.935242630395	Mixed	#cccccc
+173	Capnocytophaga sp. oral taxon 332	Actinomyces gerencseriae	0.92957649206	Mixed	#cccccc
+174	Capnocytophaga sp. oral taxon 332	Actinomyces johnsonii	0.920250467005	Mixed	#cccccc
+175	Capnocytophaga sp. oral taxon 332	Actinomyces massiliensis	0.898892348895	Supragingival_plaque	#ff8646
+176	Capnocytophaga sp. oral taxon 332	Actinomyces naeslundii	0.905310346507	Supragingival_plaque	#ff8646
+177	Capnocytophaga sp. oral taxon 332	Actinomyces sp. oral taxon 170	0.918605572642	Supragingival_plaque	#ff8646
+178	Capnocytophaga sp. oral taxon 332	Actinomyces sp. oral taxon 414	0.912622087209	Mixed	#cccccc
+179	Capnocytophaga sp. oral taxon 332	Actinomyces sp. oral taxon 848	0.928684402277	Supragingival_plaque	#ff8646
+180	Capnocytophaga sp. oral taxon 332	Actinomyces sp. oral taxon 849	0.940456396589	Supragingival_plaque	#ff8646
+181	Capnocytophaga sp. oral taxon 332	Aggregatibacter segnis	0.82366220406	Supragingival_plaque	#ff8646
+182	Capnocytophaga sp. oral taxon 332	Bacteroidetes oral taxon 274	0.945485387615	Mixed	#cccccc
+183	Capnocytophaga sp. oral taxon 332	Bergeyella zoohelcum	0.940456396589	Mixed	#cccccc
+184	Capnocytophaga sp. oral taxon 332	Campylobacter fetus	0.940456396589	Mixed	#cccccc
+185	Capnocytophaga sp. oral taxon 332	Campylobacter gracilis	0.922358571941	Mixed	#cccccc
+186	Capnocytophaga sp. oral taxon 332	Campylobacter rectus	0.82319036655	Mixed	#cccccc
+187	Capnocytophaga sp. oral taxon 332	Capnocytophaga cynodegmi	0.940456396589	Mixed	#cccccc
+188	Capnocytophaga sp. oral taxon 332	Capnocytophaga ochracea	0.878469413263	Supragingival_plaque	#ff8646
+189	Capnocytophaga sp. oral taxon 332	Capnocytophaga sp. oral taxon 324	0.808649561281	Mixed	#cccccc
+190	Capnocytophaga sp. oral taxon 335	Capnocytophaga ochracea	0.804707211898	Supragingival_plaque	#ff8646
+191	Capnocytophaga sp. oral taxon 335	Capnocytophaga sp. oral taxon 332	0.82145104765	Supragingival_plaque	#ff8646
+192	Capnocytophaga sp. oral taxon 336	Capnocytophaga sp. oral taxon 326	0.864278173705	Subgingival_plaque	#ffac5c
+193	Capnocytophaga sp. oral taxon 338	Capnocytophaga sp. oral taxon 326	0.806946991583	Subgingival_plaque	#ffac5c
+194	Capnocytophaga sp. oral taxon 338	Capnocytophaga sp. oral taxon 336	0.856491391512	Subgingival_plaque	#ffac5c
+195	Capnocytophaga sp. oral taxon 380	Capnocytophaga ochracea	0.839576288775	Supragingival_plaque	#ff8646
+196	Capnocytophaga sp. oral taxon 380	Capnocytophaga sp. oral taxon 323	0.894666217511	Supragingival_plaque	#ff8646
+197	Capnocytophaga sp. oral taxon 380	Capnocytophaga sp. oral taxon 324	0.802191974628	Mixed	#cccccc
+198	Capnocytophaga sp. oral taxon 380	Capnocytophaga sp. oral taxon 326	0.830417966834	Mixed	#cccccc
+199	Capnocytophaga sp. oral taxon 412	Acidovorax avenae	0.879736492553	Supragingival_plaque	#ff8646
+200	Capnocytophaga sp. oral taxon 412	Actinomyces dentalis	0.875842703888	Mixed	#cccccc
+201	Capnocytophaga sp. oral taxon 412	Actinomyces gerencseriae	0.868032161887	Mixed	#cccccc
+202	Capnocytophaga sp. oral taxon 412	Actinomyces johnsonii	0.863632344931	Mixed	#cccccc
+203	Capnocytophaga sp. oral taxon 412	Actinomyces massiliensis	0.836510449782	Supragingival_plaque	#ff8646
+204	Capnocytophaga sp. oral taxon 412	Actinomyces naeslundii	0.836993964486	Supragingival_plaque	#ff8646
+205	Capnocytophaga sp. oral taxon 412	Actinomyces sp. oral taxon 170	0.860998420582	Supragingival_plaque	#ff8646
+206	Capnocytophaga sp. oral taxon 412	Actinomyces sp. oral taxon 414	0.842705186813	Mixed	#cccccc
+207	Capnocytophaga sp. oral taxon 412	Actinomyces sp. oral taxon 848	0.871883306546	Supragingival_plaque	#ff8646
+208	Capnocytophaga sp. oral taxon 412	Actinomyces sp. oral taxon 849	0.879736492553	Supragingival_plaque	#ff8646
+209	Capnocytophaga sp. oral taxon 412	Bacteroidetes oral taxon 274	0.880388440187	Mixed	#cccccc
+210	Capnocytophaga sp. oral taxon 412	Bergeyella zoohelcum	0.879736492553	Mixed	#cccccc
+211	Capnocytophaga sp. oral taxon 412	Campylobacter fetus	0.879736492553	Mixed	#cccccc
+212	Capnocytophaga sp. oral taxon 412	Campylobacter gracilis	0.860927175938	Mixed	#cccccc
+213	Capnocytophaga sp. oral taxon 412	Campylobacter rectus	0.817872011168	Mixed	#cccccc
+214	Capnocytophaga sp. oral taxon 412	Capnocytophaga cynodegmi	0.879736492553	Mixed	#cccccc
+215	Capnocytophaga sp. oral taxon 412	Capnocytophaga ochracea	0.878981768393	Supragingival_plaque	#ff8646
+216	Capnocytophaga sp. oral taxon 412	Capnocytophaga sp. oral taxon 324	0.839330820207	Mixed	#cccccc
+217	Capnocytophaga sp. oral taxon 412	Capnocytophaga sp. oral taxon 332	0.906765145544	Supragingival_plaque	#ff8646
+218	Capnocytophaga sp. oral taxon 412	Capnocytophaga sp. oral taxon 335	0.823786790376	Supragingival_plaque	#ff8646
+219	Capnocytophaga sp. oral taxon 863	Campylobacter showae	0.85993710847	Supragingival_plaque	#ff8646
+220	Capnocytophaga sp. oral taxon 863	Capnocytophaga sp. oral taxon 329	0.834889292349	Supragingival_plaque	#ff8646
+221	Capnocytophaga sp. oral taxon 863	Capnocytophaga sp. oral taxon 332	0.808559339903	Supragingival_plaque	#ff8646
+222	Capnocytophaga sputigena	Capnocytophaga ochracea	0.853700519194	Supragingival_plaque	#ff8646
+223	Capnocytophaga sputigena	Capnocytophaga sp. oral taxon 326	0.975093138301	Mixed	#cccccc
+224	Capnocytophaga sputigena	Capnocytophaga sp. oral taxon 336	0.821543295848	Mixed	#cccccc
+225	Cardiobacterium hominis	Abiotrophia defectiva	0.803854506596	Mixed	#cccccc
+226	Cardiobacterium hominis	Acidovorax avenae	0.993015254779	Mixed	#cccccc
+227	Cardiobacterium hominis	Actinobaculum sp. oral taxon 183	0.869558895916	Subgingival_plaque	#ffac5c
+228	Cardiobacterium hominis	Actinomyces dentalis	0.990707400363	Subgingival_plaque	#ffac5c
+229	Cardiobacterium hominis	Actinomyces gerencseriae	0.986612277185	Subgingival_plaque	#ffac5c
+230	Cardiobacterium hominis	Actinomyces johnsonii	0.978978943631	Subgingival_plaque	#ffac5c
+231	Cardiobacterium hominis	Actinomyces massiliensis	0.966844662416	Mixed	#cccccc
+232	Cardiobacterium hominis	Actinomyces naeslundii	0.966158413344	Mixed	#cccccc
+233	Cardiobacterium hominis	Actinomyces sp. oral taxon 170	0.981426183186	Mixed	#cccccc
+234	Cardiobacterium hominis	Actinomyces sp. oral taxon 414	0.969119030439	Subgingival_plaque	#ffac5c
+235	Cardiobacterium hominis	Actinomyces sp. oral taxon 848	0.991105084752	Mixed	#cccccc
+236	Cardiobacterium hominis	Actinomyces sp. oral taxon 849	0.993015254779	Mixed	#cccccc
+237	Cardiobacterium hominis	Aggregatibacter segnis	0.851984543537	Mixed	#cccccc
+238	Cardiobacterium hominis	Bacteroidetes oral taxon 274	0.984231034564	Subgingival_plaque	#ffac5c
+239	Cardiobacterium hominis	Bergeyella zoohelcum	0.993015254779	Mixed	#cccccc
+240	Cardiobacterium hominis	Campylobacter fetus	0.993015254779	Mixed	#cccccc
+241	Cardiobacterium hominis	Campylobacter gracilis	0.970516099658	Subgingival_plaque	#ffac5c
+242	Cardiobacterium hominis	Capnocytophaga cynodegmi	0.993015254779	Mixed	#cccccc
+243	Cardiobacterium hominis	Capnocytophaga ochracea	0.810448773999	Mixed	#cccccc
+244	Cardiobacterium hominis	Capnocytophaga sp. oral taxon 332	0.94379079113	Mixed	#cccccc
+245	Cardiobacterium hominis	Capnocytophaga sp. oral taxon 412	0.868913833419	Mixed	#cccccc
+246	Cardiobacterium valvarum	Abiotrophia defectiva	0.802172216988	Mixed	#cccccc
+247	Cardiobacterium valvarum	Acidovorax avenae	0.83156226459	Mixed	#cccccc
+248	Cardiobacterium valvarum	Actinobaculum sp. oral taxon 183	0.803755776856	Subgingival_plaque	#ffac5c
+249	Cardiobacterium valvarum	Actinomyces dentalis	0.83743444645	Subgingival_plaque	#ffac5c
+250	Cardiobacterium valvarum	Actinomyces gerencseriae	0.834430305385	Subgingival_plaque	#ffac5c
+251	Cardiobacterium valvarum	Actinomyces johnsonii	0.839792315859	Subgingival_plaque	#ffac5c
+252	Cardiobacterium valvarum	Actinomyces massiliensis	0.829466403113	Mixed	#cccccc
+253	Cardiobacterium valvarum	Actinomyces naeslundii	0.866773936607	Mixed	#cccccc
+254	Cardiobacterium valvarum	Actinomyces sp. oral taxon 170	0.824710074126	Mixed	#cccccc
+255	Cardiobacterium valvarum	Actinomyces sp. oral taxon 414	0.872044737327	Subgingival_plaque	#ffac5c
+256	Cardiobacterium valvarum	Actinomyces sp. oral taxon 848	0.847298993444	Mixed	#cccccc
+257	Cardiobacterium valvarum	Actinomyces sp. oral taxon 849	0.83156226459	Mixed	#cccccc
+258	Cardiobacterium valvarum	Aggregatibacter segnis	0.840120208441	Mixed	#cccccc
+259	Cardiobacterium valvarum	Bacteroidetes oral taxon 274	0.859152778114	Subgingival_plaque	#ffac5c
+260	Cardiobacterium valvarum	Bergeyella zoohelcum	0.83156226459	Mixed	#cccccc
+261	Cardiobacterium valvarum	Campylobacter fetus	0.83156226459	Mixed	#cccccc
+262	Cardiobacterium valvarum	Campylobacter gracilis	0.852455136788	Subgingival_plaque	#ffac5c
+263	Cardiobacterium valvarum	Capnocytophaga cynodegmi	0.83156226459	Mixed	#cccccc
+264	Cardiobacterium valvarum	Capnocytophaga sp. oral taxon 332	0.832303519698	Mixed	#cccccc
+265	Cardiobacterium valvarum	Cardiobacterium hominis	0.864027779854	Subgingival_plaque	#ffac5c
+266	Carnobacterium divergens	Brochothrix thermosphacta	1.0	Saliva	#cbe486
+267	Centipeda periodontii	Acidovorax avenae	0.920555726176	Mixed	#cccccc
+268	Centipeda periodontii	Actinomyces dentalis	0.915059961581	Subgingival_plaque	#ffac5c
+269	Centipeda periodontii	Actinomyces gerencseriae	0.909393472541	Subgingival_plaque	#ffac5c
+270	Centipeda periodontii	Actinomyces johnsonii	0.896185406237	Subgingival_plaque	#ffac5c
+271	Centipeda periodontii	Actinomyces massiliensis	0.87532247334	Mixed	#cccccc
+272	Centipeda periodontii	Actinomyces naeslundii	0.881397206227	Mixed	#cccccc
+273	Centipeda periodontii	Actinomyces sp. oral taxon 170	0.9047384736	Mixed	#cccccc
+274	Centipeda periodontii	Actinomyces sp. oral taxon 414	0.879289822086	Subgingival_plaque	#ffac5c
+275	Centipeda periodontii	Actinomyces sp. oral taxon 848	0.909075037556	Mixed	#cccccc
+276	Centipeda periodontii	Actinomyces sp. oral taxon 849	0.920555726176	Mixed	#cccccc
+277	Centipeda periodontii	Bacteroidetes oral taxon 274	0.900444798245	Subgingival_plaque	#ffac5c
+278	Centipeda periodontii	Bergeyella zoohelcum	0.920555726176	Mixed	#cccccc
+279	Centipeda periodontii	Campylobacter fetus	0.920555726176	Mixed	#cccccc
+280	Centipeda periodontii	Campylobacter gracilis	0.887192406174	Subgingival_plaque	#ffac5c
+281	Centipeda periodontii	Capnocytophaga cynodegmi	0.920555726176	Mixed	#cccccc
+282	Centipeda periodontii	Capnocytophaga sp. oral taxon 332	0.855630809583	Mixed	#cccccc
+283	Centipeda periodontii	Capnocytophaga sp. oral taxon 412	0.812268044018	Mixed	#cccccc
+284	Centipeda periodontii	Cardiobacterium hominis	0.907263566504	Subgingival_plaque	#ffac5c
+285	Coriobacteriaceae bacterium BV3Ac1	Bacteroides eggerthii	1.0	Mixed	#cccccc
+286	Corynebacterium matruchotii	Acidovorax avenae	0.994222056277	Supragingival_plaque	#ff8646
+287	Corynebacterium matruchotii	Actinobaculum sp. oral taxon 183	0.865985632329	Mixed	#cccccc
+288	Corynebacterium matruchotii	Actinomyces dentalis	0.994708629785	Mixed	#cccccc
+289	Corynebacterium matruchotii	Actinomyces gerencseriae	0.991021833685	Mixed	#cccccc
+290	Corynebacterium matruchotii	Actinomyces johnsonii	0.9831703488	Mixed	#cccccc
+291	Corynebacterium matruchotii	Actinomyces massiliensis	0.968630577642	Supragingival_plaque	#ff8646
+292	Corynebacterium matruchotii	Actinomyces naeslundii	0.978867552792	Supragingival_plaque	#ff8646
+293	Corynebacterium matruchotii	Actinomyces sp. oral taxon 170	0.984026449167	Supragingival_plaque	#ff8646
+294	Corynebacterium matruchotii	Actinomyces sp. oral taxon 414	0.964449734305	Mixed	#cccccc
+295	Corynebacterium matruchotii	Actinomyces sp. oral taxon 848	0.987933453118	Supragingival_plaque	#ff8646
+296	Corynebacterium matruchotii	Actinomyces sp. oral taxon 849	0.994222056277	Supragingival_plaque	#ff8646
+297	Corynebacterium matruchotii	Aggregatibacter segnis	0.83852485936	Supragingival_plaque	#ff8646
+298	Corynebacterium matruchotii	Bacteroidetes oral taxon 274	0.986914517839	Mixed	#cccccc
+299	Corynebacterium matruchotii	Bergeyella zoohelcum	0.994222056277	Mixed	#cccccc
+300	Corynebacterium matruchotii	Campylobacter fetus	0.994222056277	Mixed	#cccccc
+301	Corynebacterium matruchotii	Campylobacter gracilis	0.976266979248	Mixed	#cccccc
+302	Corynebacterium matruchotii	Capnocytophaga cynodegmi	0.994222056277	Mixed	#cccccc
+303	Corynebacterium matruchotii	Capnocytophaga sp. oral taxon 332	0.934802251163	Supragingival_plaque	#ff8646
+304	Corynebacterium matruchotii	Capnocytophaga sp. oral taxon 412	0.871021625667	Supragingival_plaque	#ff8646
+305	Corynebacterium matruchotii	Cardiobacterium hominis	0.990237950221	Mixed	#cccccc
+306	Corynebacterium matruchotii	Cardiobacterium valvarum	0.847302690618	Mixed	#cccccc
+307	Corynebacterium matruchotii	Centipeda periodontii	0.909865367926	Mixed	#cccccc
+308	[Eubacterium] eligens	Butyricimonas virosa	0.815021427815	Stool	#e8cb72
+309	[Eubacterium] eligens	Butyrivibrio crossotus	0.896889274468	Stool	#e8cb72
+310	[Eubacterium] sulci	[Eubacterium] infirmum	0.878984953257	Mixed	#cccccc
+311	Fusobacterium equinum	Campylobacter mucosalis	0.892799478657	Attached	#622ffe
+312	Fusobacterium hwasookii	Acidovorax avenae	0.888811211806	Supragingival_plaque	#ff8646
+313	Fusobacterium hwasookii	Actinomyces dentalis	0.883586754941	Mixed	#cccccc
+314	Fusobacterium hwasookii	Actinomyces gerencseriae	0.87642035911	Mixed	#cccccc
+315	Fusobacterium hwasookii	Actinomyces johnsonii	0.870745709508	Mixed	#cccccc
+316	Fusobacterium hwasookii	Actinomyces massiliensis	0.840821570781	Supragingival_plaque	#ff8646
+317	Fusobacterium hwasookii	Actinomyces naeslundii	0.849654986691	Supragingival_plaque	#ff8646
+318	Fusobacterium hwasookii	Actinomyces sp. oral taxon 170	0.862810350988	Supragingival_plaque	#ff8646
+319	Fusobacterium hwasookii	Actinomyces sp. oral taxon 414	0.866587422371	Mixed	#cccccc
+320	Fusobacterium hwasookii	Actinomyces sp. oral taxon 848	0.879969819436	Supragingival_plaque	#ff8646
+321	Fusobacterium hwasookii	Actinomyces sp. oral taxon 849	0.888811211806	Supragingival_plaque	#ff8646
+322	Fusobacterium hwasookii	Bacteroidetes oral taxon 274	0.891196960206	Mixed	#cccccc
+323	Fusobacterium hwasookii	Bergeyella zoohelcum	0.888811211806	Mixed	#cccccc
+324	Fusobacterium hwasookii	Campylobacter fetus	0.888811211806	Mixed	#cccccc
+325	Fusobacterium hwasookii	Campylobacter gracilis	0.866865663464	Mixed	#cccccc
+326	Fusobacterium hwasookii	Capnocytophaga cynodegmi	0.888811211806	Mixed	#cccccc
+327	Fusobacterium hwasookii	Capnocytophaga sp. oral taxon 332	0.916231997548	Supragingival_plaque	#ff8646
+328	Fusobacterium hwasookii	Capnocytophaga sp. oral taxon 412	0.84672222835	Supragingival_plaque	#ff8646
+329	Fusobacterium hwasookii	Cardiobacterium hominis	0.889327794959	Mixed	#cccccc
+330	Fusobacterium hwasookii	Centipeda periodontii	0.80271696865	Mixed	#cccccc
+331	Fusobacterium hwasookii	Corynebacterium matruchotii	0.87950497721	Supragingival_plaque	#ff8646
+332	Fusobacterium necrophorum	Clostridium botulinum	0.955912301782	Mixed	#cccccc
+333	Fusobacterium sp. oral taxon 370	Fusobacterium periodonticum	0.913500327718	Mixed	#cccccc
+334	Gallibacterium anatis	Acidovorax caeni	0.818012106166	Mixed	#cccccc
+335	Gallibacterium anatis	Actinobacillus suis	0.818012106166	Mixed	#cccccc
+336	Gallibacterium anatis	Bacteroides intestinalis	0.818012106166	Mixed	#cccccc
+337	Gemella bergeri	Eubacterium saphenum	0.816253202788	Mixed	#cccccc
+338	Gemella morbillorum	Acidovorax avenae	0.902981048	Mixed	#cccccc
+339	Gemella morbillorum	Actinomyces dentalis	0.901978668378	Mixed	#cccccc
+340	Gemella morbillorum	Actinomyces gerencseriae	0.899525400198	Mixed	#cccccc
+341	Gemella morbillorum	Actinomyces johnsonii	0.897806305688	Mixed	#cccccc
+342	Gemella morbillorum	Actinomyces massiliensis	0.86533144943	Mixed	#cccccc
+343	Gemella morbillorum	Actinomyces naeslundii	0.875641321277	Mixed	#cccccc
+344	Gemella morbillorum	Actinomyces sp. oral taxon 170	0.887505724361	Mixed	#cccccc
+345	Gemella morbillorum	Actinomyces sp. oral taxon 414	0.891893459282	Mixed	#cccccc
+346	Gemella morbillorum	Actinomyces sp. oral taxon 848	0.906561599844	Mixed	#cccccc
+347	Gemella morbillorum	Actinomyces sp. oral taxon 849	0.902981048	Mixed	#cccccc
+348	Gemella morbillorum	Bacteroidetes oral taxon 274	0.911085598621	Mixed	#cccccc
+349	Gemella morbillorum	Bergeyella zoohelcum	0.902981048	Mixed	#cccccc
+350	Gemella morbillorum	Campylobacter fetus	0.902981048	Mixed	#cccccc
+351	Gemella morbillorum	Campylobacter gracilis	0.892726766049	Mixed	#cccccc
+352	Gemella morbillorum	Capnocytophaga cynodegmi	0.902981048	Mixed	#cccccc
+353	Gemella morbillorum	Capnocytophaga ochracea	0.823154721338	Mixed	#cccccc
+354	Gemella morbillorum	Capnocytophaga sp. oral taxon 332	0.905943613504	Mixed	#cccccc
+355	Gemella morbillorum	Capnocytophaga sp. oral taxon 335	0.875943048071	Mixed	#cccccc
+356	Gemella morbillorum	Capnocytophaga sp. oral taxon 412	0.89778746395	Mixed	#cccccc
+357	Gemella morbillorum	Cardiobacterium hominis	0.90217658453	Mixed	#cccccc
+358	Gemella morbillorum	Centipeda periodontii	0.850003461214	Mixed	#cccccc
+359	Gemella morbillorum	Corynebacterium matruchotii	0.900401484943	Mixed	#cccccc
+360	Gemella morbillorum	Fusobacterium hwasookii	0.843431696485	Mixed	#cccccc
+361	Granulicatella adiacens	Carnobacterium maltaromaticum	0.957003374307	Mixed	#cccccc
+362	Granulicatella elegans	Gemella haemolysans	0.926257168243	Mixed	#cccccc
+363	Haemophilus parainfluenzae	Haemophilus influenzae	0.911093229107	Mixed	#cccccc
+364	Helicobacter pylori	Actinomyces oris	0.899086402067	Mixed	#cccccc
+365	Helicobacter pylori	Actinomyces timonensis	0.823179666917	Mixed	#cccccc
+366	Holdemanella biformis	Alloscardovia omnicolens	1.0	Mixed	#cccccc
+367	Holdemanella biformis	Anaerostipes hadrus	1.0	Mixed	#cccccc
+368	Isoptericola variabilis	Actinomyces sp. HPA0247	0.921487360683	Tongue_dorsum	#ff2f18
+369	Kingella denitrificans	Acidovorax avenae	0.920420959987	Supragingival_plaque	#ff8646
+370	Kingella denitrificans	Actinobaculum sp. oral taxon 183	0.805755049985	Mixed	#cccccc
+371	Kingella denitrificans	Actinomyces dentalis	0.915924128158	Mixed	#cccccc
+372	Kingella denitrificans	Actinomyces gerencseriae	0.914535428559	Mixed	#cccccc
+373	Kingella denitrificans	Actinomyces johnsonii	0.904508456726	Mixed	#cccccc
+374	Kingella denitrificans	Actinomyces massiliensis	0.925686682244	Supragingival_plaque	#ff8646
+375	Kingella denitrificans	Actinomyces naeslundii	0.906977400411	Supragingival_plaque	#ff8646
+376	Kingella denitrificans	Actinomyces sp. oral taxon 170	0.930935250651	Supragingival_plaque	#ff8646
+377	Kingella denitrificans	Actinomyces sp. oral taxon 414	0.887642194343	Mixed	#cccccc
+378	Kingella denitrificans	Actinomyces sp. oral taxon 848	0.921787971805	Supragingival_plaque	#ff8646
+379	Kingella denitrificans	Actinomyces sp. oral taxon 849	0.920420959987	Supragingival_plaque	#ff8646
+380	Kingella denitrificans	Aggregatibacter segnis	0.800308707947	Supragingival_plaque	#ff8646
+381	Kingella denitrificans	Bacteroidetes oral taxon 274	0.925264696584	Mixed	#cccccc
+382	Kingella denitrificans	Bergeyella zoohelcum	0.920420959987	Mixed	#cccccc
+383	Kingella denitrificans	Campylobacter fetus	0.920420959987	Mixed	#cccccc
+384	Kingella denitrificans	Campylobacter gracilis	0.908923300824	Mixed	#cccccc
+385	Kingella denitrificans	Capnocytophaga cynodegmi	0.920420959987	Mixed	#cccccc
+386	Kingella denitrificans	Capnocytophaga sp. oral taxon 332	0.888635623629	Supragingival_plaque	#ff8646
+387	Kingella denitrificans	Cardiobacterium hominis	0.934946439584	Mixed	#cccccc
+388	Kingella denitrificans	Cardiobacterium valvarum	0.811622099746	Mixed	#cccccc
+389	Kingella denitrificans	Centipeda periodontii	0.829788556029	Mixed	#cccccc
+390	Kingella denitrificans	Corynebacterium matruchotii	0.922676923187	Supragingival_plaque	#ff8646
+391	Kingella denitrificans	Fusobacterium hwasookii	0.829708394041	Supragingival_plaque	#ff8646
+392	Kingella denitrificans	Gemella morbillorum	0.828709670294	Mixed	#cccccc
+393	Lachnospiraceae bacterium 3_1_46FAA	Fusobacterium gonidiaformans	0.815021427815	Mixed	#cccccc
+394	Lachnospiraceae bacterium AC2012	Capnocytophaga sp. oral taxon 329	0.803683755278	Mixed	#cccccc
+395	Lachnospiraceae bacterium oral taxon 082	Lachnoanaerobaculum saburreum	0.959261988578	Mixed	#cccccc
+396	Lachnospiraceae bacterium oral taxon 500	Acidovorax avenae	0.947091350577	Supragingival_plaque	#ff8646
+397	Lachnospiraceae bacterium oral taxon 500	Actinobaculum sp. oral taxon 183	0.811600263589	Mixed	#cccccc
+398	Lachnospiraceae bacterium oral taxon 500	Actinomyces dentalis	0.942707938774	Mixed	#cccccc
+399	Lachnospiraceae bacterium oral taxon 500	Actinomyces gerencseriae	0.936188135502	Mixed	#cccccc
+400	Lachnospiraceae bacterium oral taxon 500	Actinomyces johnsonii	0.928923792814	Mixed	#cccccc
+401	Lachnospiraceae bacterium oral taxon 500	Actinomyces massiliensis	0.911248952284	Supragingival_plaque	#ff8646
+402	Lachnospiraceae bacterium oral taxon 500	Actinomyces naeslundii	0.921089461563	Supragingival_plaque	#ff8646
+403	Lachnospiraceae bacterium oral taxon 500	Actinomyces sp. oral taxon 170	0.929257286119	Supragingival_plaque	#ff8646
+404	Lachnospiraceae bacterium oral taxon 500	Actinomyces sp. oral taxon 414	0.919675617715	Mixed	#cccccc
+405	Lachnospiraceae bacterium oral taxon 500	Actinomyces sp. oral taxon 848	0.938180479031	Supragingival_plaque	#ff8646
+406	Lachnospiraceae bacterium oral taxon 500	Actinomyces sp. oral taxon 849	0.947091350577	Supragingival_plaque	#ff8646
+407	Lachnospiraceae bacterium oral taxon 500	Aggregatibacter segnis	0.854110863488	Supragingival_plaque	#ff8646
+408	Lachnospiraceae bacterium oral taxon 500	Bacteroidetes oral taxon 274	0.950931456827	Mixed	#cccccc
+409	Lachnospiraceae bacterium oral taxon 500	Bergeyella zoohelcum	0.947091350577	Mixed	#cccccc
+410	Lachnospiraceae bacterium oral taxon 500	Campylobacter fetus	0.947091350577	Mixed	#cccccc
+411	Lachnospiraceae bacterium oral taxon 500	Campylobacter gracilis	0.930978156017	Mixed	#cccccc
+412	Lachnospiraceae bacterium oral taxon 500	Capnocytophaga cynodegmi	0.947091350577	Mixed	#cccccc
+413	Lachnospiraceae bacterium oral taxon 500	Capnocytophaga ochracea	0.846704862374	Supragingival_plaque	#ff8646
+414	Lachnospiraceae bacterium oral taxon 500	Capnocytophaga sp. oral taxon 332	0.953472221865	Supragingival_plaque	#ff8646
+415	Lachnospiraceae bacterium oral taxon 500	Capnocytophaga sp. oral taxon 412	0.851993438961	Supragingival_plaque	#ff8646
+416	Lachnospiraceae bacterium oral taxon 500	Cardiobacterium hominis	0.954099229835	Mixed	#cccccc
+417	Lachnospiraceae bacterium oral taxon 500	Cardiobacterium valvarum	0.862652059725	Mixed	#cccccc
+418	Lachnospiraceae bacterium oral taxon 500	Centipeda periodontii	0.881461565467	Mixed	#cccccc
+419	Lachnospiraceae bacterium oral taxon 500	Corynebacterium matruchotii	0.943019307072	Supragingival_plaque	#ff8646
+420	Lachnospiraceae bacterium oral taxon 500	Fusobacterium hwasookii	0.890497918908	Supragingival_plaque	#ff8646
+421	Lachnospiraceae bacterium oral taxon 500	Gemella morbillorum	0.887249909956	Mixed	#cccccc
+422	Lachnospiraceae bacterium oral taxon 500	Kingella denitrificans	0.908916175556	Supragingival_plaque	#ff8646
+423	Lautropia mirabilis	Acidovorax avenae	0.932078836456	Supragingival_plaque	#ff8646
+424	Lautropia mirabilis	Actinobaculum sp. oral taxon 183	0.889322988629	Mixed	#cccccc
+425	Lautropia mirabilis	Actinomyces dentalis	0.937037163107	Mixed	#cccccc
+426	Lautropia mirabilis	Actinomyces gerencseriae	0.939743722794	Mixed	#cccccc
+427	Lautropia mirabilis	Actinomyces johnsonii	0.918415621875	Mixed	#cccccc
+428	Lautropia mirabilis	Actinomyces massiliensis	0.909797203245	Supragingival_plaque	#ff8646
+429	Lautropia mirabilis	Actinomyces naeslundii	0.941656264145	Supragingival_plaque	#ff8646
+430	Lautropia mirabilis	Actinomyces sp. oral taxon 170	0.917701185429	Supragingival_plaque	#ff8646
+431	Lautropia mirabilis	Actinomyces sp. oral taxon 414	0.915192071666	Mixed	#cccccc
+432	Lautropia mirabilis	Actinomyces sp. oral taxon 848	0.924751337724	Supragingival_plaque	#ff8646
+433	Lautropia mirabilis	Actinomyces sp. oral taxon 849	0.932078836456	Supragingival_plaque	#ff8646
+434	Lautropia mirabilis	Aggregatibacter segnis	0.881897441859	Supragingival_plaque	#ff8646
+435	Lautropia mirabilis	Bacteroidetes oral taxon 274	0.930732745274	Mixed	#cccccc
+436	Lautropia mirabilis	Bergeyella zoohelcum	0.932078836456	Mixed	#cccccc
+437	Lautropia mirabilis	Campylobacter fetus	0.932078836456	Mixed	#cccccc
+438	Lautropia mirabilis	Campylobacter gracilis	0.938769505093	Mixed	#cccccc
+439	Lautropia mirabilis	Capnocytophaga cynodegmi	0.932078836456	Mixed	#cccccc
+440	Lautropia mirabilis	Capnocytophaga sp. oral taxon 332	0.880410384091	Supragingival_plaque	#ff8646
+441	Lautropia mirabilis	Capnocytophaga sp. oral taxon 412	0.80843017974	Supragingival_plaque	#ff8646
+442	Lautropia mirabilis	Cardiobacterium hominis	0.947623324678	Mixed	#cccccc
+443	Lautropia mirabilis	Cardiobacterium valvarum	0.878673892555	Mixed	#cccccc
+444	Lautropia mirabilis	Centipeda periodontii	0.839286686305	Mixed	#cccccc
+445	Lautropia mirabilis	Corynebacterium matruchotii	0.941013725086	Supragingival_plaque	#ff8646
+446	Lautropia mirabilis	Gemella morbillorum	0.850185434196	Mixed	#cccccc
+447	Lautropia mirabilis	Kingella denitrificans	0.861852773272	Supragingival_plaque	#ff8646
+448	Lautropia mirabilis	Lachnospiraceae bacterium oral taxon 500	0.901081411617	Supragingival_plaque	#ff8646
+449	Leptotrichia buccalis	Acidovorax avenae	0.960243672644	Supragingival_plaque	#ff8646
+450	Leptotrichia buccalis	Actinomyces dentalis	0.95571891536	Mixed	#cccccc
+451	Leptotrichia buccalis	Actinomyces gerencseriae	0.949273021252	Mixed	#cccccc
+452	Leptotrichia buccalis	Actinomyces johnsonii	0.939487035217	Mixed	#cccccc
+453	Leptotrichia buccalis	Actinomyces massiliensis	0.913437782943	Supragingival_plaque	#ff8646
+454	Leptotrichia buccalis	Actinomyces naeslundii	0.925307739054	Supragingival_plaque	#ff8646
+455	Leptotrichia buccalis	Actinomyces sp. oral taxon 170	0.938915530675	Supragingival_plaque	#ff8646
+456	Leptotrichia buccalis	Actinomyces sp. oral taxon 414	0.920377031754	Mixed	#cccccc
+457	Leptotrichia buccalis	Actinomyces sp. oral taxon 848	0.94972752858	Supragingival_plaque	#ff8646
+458	Leptotrichia buccalis	Actinomyces sp. oral taxon 849	0.960243672644	Supragingival_plaque	#ff8646
+459	Leptotrichia buccalis	Bacteroidetes oral taxon 274	0.949096308222	Mixed	#cccccc
+460	Leptotrichia buccalis	Bergeyella zoohelcum	0.960243672644	Mixed	#cccccc
+461	Leptotrichia buccalis	Campylobacter fetus	0.960243672644	Mixed	#cccccc
+462	Leptotrichia buccalis	Campylobacter gracilis	0.928643498471	Mixed	#cccccc
+463	Leptotrichia buccalis	Capnocytophaga cynodegmi	0.960243672644	Mixed	#cccccc
+464	Leptotrichia buccalis	Capnocytophaga sp. oral taxon 332	0.908280185356	Supragingival_plaque	#ff8646
+465	Leptotrichia buccalis	Capnocytophaga sp. oral taxon 412	0.858186874182	Supragingival_plaque	#ff8646
+466	Leptotrichia buccalis	Cardiobacterium hominis	0.949439897428	Mixed	#cccccc
+467	Leptotrichia buccalis	Centipeda periodontii	0.920389430275	Mixed	#cccccc
+468	Leptotrichia buccalis	Corynebacterium matruchotii	0.95466647522	Supragingival_plaque	#ff8646
+469	Leptotrichia buccalis	Fusobacterium hwasookii	0.872179117684	Supragingival_plaque	#ff8646
+470	Leptotrichia buccalis	Gemella morbillorum	0.870118293611	Mixed	#cccccc
+471	Leptotrichia buccalis	Kingella denitrificans	0.874234779479	Supragingival_plaque	#ff8646
+472	Leptotrichia buccalis	Lachnospiraceae bacterium oral taxon 500	0.929804864389	Supragingival_plaque	#ff8646
+473	Leptotrichia buccalis	Lautropia mirabilis	0.88634274681	Supragingival_plaque	#ff8646
+474	Leptotrichia goodfellowii	Capnocytophaga ochracea	0.816096328811	Mixed	#cccccc
+475	Leptotrichia goodfellowii	Capnocytophaga sp. oral taxon 332	0.843891254286	Mixed	#cccccc
+476	Leptotrichia goodfellowii	Lachnospiraceae bacterium oral taxon 500	0.83421712745	Mixed	#cccccc
+477	Leptotrichia shahii	Leptotrichia hofstadii	0.904050285585	Mixed	#cccccc
+478	Leptotrichia sp. oral taxon 212	Acidovorax avenae	0.972407334983	Supragingival_plaque	#ff8646
+479	Leptotrichia sp. oral taxon 212	Actinobaculum sp. oral taxon 183	0.824230463523	Mixed	#cccccc
+480	Leptotrichia sp. oral taxon 212	Actinomyces dentalis	0.96785469864	Mixed	#cccccc
+481	Leptotrichia sp. oral taxon 212	Actinomyces gerencseriae	0.961205163952	Mixed	#cccccc
+482	Leptotrichia sp. oral taxon 212	Actinomyces johnsonii	0.953794462387	Mixed	#cccccc
+483	Leptotrichia sp. oral taxon 212	Actinomyces massiliensis	0.928020968549	Supragingival_plaque	#ff8646
+484	Leptotrichia sp. oral taxon 212	Actinomyces naeslundii	0.935338164019	Supragingival_plaque	#ff8646
+485	Leptotrichia sp. oral taxon 212	Actinomyces sp. oral taxon 170	0.951458111302	Supragingival_plaque	#ff8646
+486	Leptotrichia sp. oral taxon 212	Actinomyces sp. oral taxon 414	0.94121033053	Mixed	#cccccc
+487	Leptotrichia sp. oral taxon 212	Actinomyces sp. oral taxon 848	0.963488124551	Supragingival_plaque	#ff8646
+488	Leptotrichia sp. oral taxon 212	Actinomyces sp. oral taxon 849	0.972407334983	Supragingival_plaque	#ff8646
+489	Leptotrichia sp. oral taxon 212	Aggregatibacter segnis	0.843693864554	Supragingival_plaque	#ff8646
+490	Leptotrichia sp. oral taxon 212	Bacteroidetes oral taxon 274	0.97266395679	Mixed	#cccccc
+491	Leptotrichia sp. oral taxon 212	Bergeyella zoohelcum	0.972407334983	Mixed	#cccccc
+492	Leptotrichia sp. oral taxon 212	Campylobacter fetus	0.972407334983	Mixed	#cccccc
+493	Leptotrichia sp. oral taxon 212	Campylobacter gracilis	0.947292427964	Mixed	#cccccc
+494	Leptotrichia sp. oral taxon 212	Campylobacter rectus	0.815727231424	Mixed	#cccccc
+495	Leptotrichia sp. oral taxon 212	Capnocytophaga cynodegmi	0.972407334983	Mixed	#cccccc
+496	Leptotrichia sp. oral taxon 212	Capnocytophaga ochracea	0.870968915691	Supragingival_plaque	#ff8646
+497	Leptotrichia sp. oral taxon 212	Capnocytophaga sp. oral taxon 332	0.975920276029	Supragingival_plaque	#ff8646
+498	Leptotrichia sp. oral taxon 212	Capnocytophaga sp. oral taxon 412	0.904705920762	Supragingival_plaque	#ff8646
+499	Leptotrichia sp. oral taxon 212	Cardiobacterium hominis	0.973869610103	Mixed	#cccccc
+500	Leptotrichia sp. oral taxon 212	Cardiobacterium valvarum	0.845302580036	Mixed	#cccccc
+501	Leptotrichia sp. oral taxon 212	Centipeda periodontii	0.888295293479	Mixed	#cccccc
+502	Leptotrichia sp. oral taxon 212	Corynebacterium matruchotii	0.966085746244	Supragingival_plaque	#ff8646
+503	Leptotrichia sp. oral taxon 212	Fusobacterium hwasookii	0.939444553434	Supragingival_plaque	#ff8646
+504	Leptotrichia sp. oral taxon 212	Gemella morbillorum	0.921076849496	Mixed	#cccccc
+505	Leptotrichia sp. oral taxon 212	Kingella denitrificans	0.90735529532	Supragingival_plaque	#ff8646
+506	Leptotrichia sp. oral taxon 212	Lachnospiraceae bacterium oral taxon 500	0.965160854049	Supragingival_plaque	#ff8646
+507	Leptotrichia sp. oral taxon 212	Lautropia mirabilis	0.919027723441	Supragingival_plaque	#ff8646
+508	Leptotrichia sp. oral taxon 212	Leptotrichia buccalis	0.944308910338	Supragingival_plaque	#ff8646
+509	Leptotrichia sp. oral taxon 212	Leptotrichia goodfellowii	0.850499680531	Mixed	#cccccc
+510	Leptotrichia sp. oral taxon 225	Leptotrichia buccalis	0.806664808611	Supragingival_plaque	#ff8646
+511	Leptotrichia sp. oral taxon 225	Leptotrichia shahii	0.816075087201	Mixed	#cccccc
+512	Leptotrichia sp. oral taxon 879	Leptotrichia hofstadii	0.864137512036	Mixed	#cccccc
+513	Leptotrichia sp. oral taxon 879	Leptotrichia shahii	0.879275506761	Mixed	#cccccc
+514	Leptotrichia trevisanii	Leptotrichia hofstadii	0.902052361962	Mixed	#cccccc
+515	Leptotrichia trevisanii	Leptotrichia shahii	0.925268610824	Mixed	#cccccc
+516	Leptotrichia trevisanii	Leptotrichia sp. oral taxon 879	0.838960695449	Mixed	#cccccc
+517	Leptotrichia wadei	Leptotrichia hofstadii	0.860395683934	Mixed	#cccccc
+518	Leptotrichia wadei	Leptotrichia shahii	0.936233091507	Tongue_dorsum	#ff2f18
+519	Leptotrichia wadei	Leptotrichia sp. oral taxon 879	0.832907613388	Mixed	#cccccc
+520	Leptotrichia wadei	Leptotrichia trevisanii	0.936691361716	Mixed	#cccccc
+521	Leucobacter chironomi	Corynebacterium diphtheriae	0.885141471575	Mixed	#cccccc
+522	Mannheimia sp. MG13	Butyricimonas virosa	0.80735978076	Mixed	#cccccc
+523	[Mannheimia] succiniciproducens	Acidovorax avenae	0.815021427815	Mixed	#cccccc
+524	[Mannheimia] succiniciproducens	Actinomyces dentalis	0.816521691194	Mixed	#cccccc
+525	[Mannheimia] succiniciproducens	Actinomyces gerencseriae	0.824507501897	Mixed	#cccccc
+526	[Mannheimia] succiniciproducens	Actinomyces naeslundii	0.834400240981	Mixed	#cccccc
+527	[Mannheimia] succiniciproducens	Actinomyces sp. oral taxon 170	0.805245876214	Mixed	#cccccc
+528	[Mannheimia] succiniciproducens	Actinomyces sp. oral taxon 848	0.806703272374	Mixed	#cccccc
+529	[Mannheimia] succiniciproducens	Actinomyces sp. oral taxon 849	0.815021427815	Mixed	#cccccc
+530	[Mannheimia] succiniciproducens	Bacteroidetes oral taxon 274	0.819516299857	Mixed	#cccccc
+531	[Mannheimia] succiniciproducens	Bergeyella zoohelcum	0.815021427815	Mixed	#cccccc
+532	[Mannheimia] succiniciproducens	Campylobacter fetus	0.815021427815	Mixed	#cccccc
+533	[Mannheimia] succiniciproducens	Campylobacter gracilis	0.818459802788	Mixed	#cccccc
+534	[Mannheimia] succiniciproducens	Capnocytophaga cynodegmi	0.815021427815	Mixed	#cccccc
+535	[Mannheimia] succiniciproducens	Cardiobacterium hominis	0.821136415783	Mixed	#cccccc
+536	[Mannheimia] succiniciproducens	Corynebacterium matruchotii	0.830170751422	Mixed	#cccccc
+537	[Mannheimia] succiniciproducens	Lautropia mirabilis	0.888428114315	Mixed	#cccccc
+538	[Mannheimia] succiniciproducens	Leptotrichia sp. oral taxon 212	0.802726793074	Mixed	#cccccc
+539	Microbacterium sp. CH12i	Corynebacterium diphtheriae	1.0	Mixed	#cccccc
+540	Microbacterium sp. CH12i	Leucobacter chironomi	0.885141471575	Tongue_dorsum	#ff2f18
+541	Moraxella bovis	Acidovorax avenae	0.980444550102	Mixed	#cccccc
+542	Moraxella bovis	Actinobaculum sp. oral taxon 183	0.829795059534	Mixed	#cccccc
+543	Moraxella bovis	Actinomyces dentalis	0.968106318428	Mixed	#cccccc
+544	Moraxella bovis	Actinomyces gerencseriae	0.965919815904	Mixed	#cccccc
+545	Moraxella bovis	Actinomyces johnsonii	0.962331073762	Mixed	#cccccc
+546	Moraxella bovis	Actinomyces massiliensis	0.937611890172	Mixed	#cccccc
+547	Moraxella bovis	Actinomyces naeslundii	0.940382063469	Mixed	#cccccc
+548	Moraxella bovis	Actinomyces sp. oral taxon 170	0.958838825562	Mixed	#cccccc
+549	Moraxella bovis	Actinomyces sp. oral taxon 414	0.940042022107	Mixed	#cccccc
+550	Moraxella bovis	Actinomyces sp. oral taxon 848	0.968034206073	Mixed	#cccccc
+551	Moraxella bovis	Actinomyces sp. oral taxon 849	0.980444550102	Mixed	#cccccc
+552	Moraxella bovis	Aggregatibacter segnis	0.820884470929	Mixed	#cccccc
+553	Moraxella bovis	Bacteroidetes oral taxon 274	0.969292882138	Mixed	#cccccc
+554	Moraxella bovis	Bergeyella zoohelcum	0.980444550102	Mixed	#cccccc
+555	Moraxella bovis	Campylobacter fetus	0.980444550102	Mixed	#cccccc
+556	Moraxella bovis	Campylobacter gracilis	0.953210016874	Mixed	#cccccc
+557	Moraxella bovis	Capnocytophaga cynodegmi	0.980444550102	Mixed	#cccccc
+558	Moraxella bovis	Capnocytophaga sp. oral taxon 332	0.923241511553	Mixed	#cccccc
+559	Moraxella bovis	Capnocytophaga sp. oral taxon 412	0.86253284965	Mixed	#cccccc
+560	Moraxella bovis	Cardiobacterium hominis	0.973596394716	Mixed	#cccccc
+561	Moraxella bovis	Cardiobacterium valvarum	0.815300690388	Mixed	#cccccc
+562	Moraxella bovis	Centipeda periodontii	0.899407171596	Mixed	#cccccc
+563	Moraxella bovis	Corynebacterium matruchotii	0.974068718801	Mixed	#cccccc
+564	Moraxella bovis	Fusobacterium hwasookii	0.874019663656	Mixed	#cccccc
+565	Moraxella bovis	Gemella morbillorum	0.888408803518	Mixed	#cccccc
+566	Moraxella bovis	Kingella denitrificans	0.902421714018	Mixed	#cccccc
+567	Moraxella bovis	Lachnospiraceae bacterium oral taxon 500	0.9301421102	Mixed	#cccccc
+568	Moraxella bovis	Lautropia mirabilis	0.909812741653	Mixed	#cccccc
+569	Moraxella bovis	Leptotrichia buccalis	0.943606503875	Mixed	#cccccc
+570	Moraxella bovis	Leptotrichia sp. oral taxon 212	0.956056508089	Mixed	#cccccc
+571	Moraxella bovoculi	Acidovorax avenae	1.0	Mixed	#cccccc
+572	Moraxella bovoculi	Actinobaculum sp. oral taxon 183	0.85005384871	Mixed	#cccccc
+573	Moraxella bovoculi	Actinomyces dentalis	0.996502494807	Mixed	#cccccc
+574	Moraxella bovoculi	Actinomyces gerencseriae	0.991650582388	Mixed	#cccccc
+575	Moraxella bovoculi	Actinomyces johnsonii	0.981525241445	Mixed	#cccccc
+576	Moraxella bovoculi	Actinomyces massiliensis	0.959863121783	Mixed	#cccccc
+577	Moraxella bovoculi	Actinomyces naeslundii	0.965481273947	Mixed	#cccccc
+578	Moraxella bovoculi	Actinomyces sp. oral taxon 170	0.982587997185	Mixed	#cccccc
+579	Moraxella bovoculi	Actinomyces sp. oral taxon 414	0.964707734401	Mixed	#cccccc
+580	Moraxella bovoculi	Actinomyces sp. oral taxon 848	0.990980305754	Mixed	#cccccc
+581	Moraxella bovoculi	Actinomyces sp. oral taxon 849	1.0	Mixed	#cccccc
+582	Moraxella bovoculi	Aggregatibacter segnis	0.830359388417	Mixed	#cccccc
+583	Moraxella bovoculi	Bacteroidetes oral taxon 274	0.987410100684	Mixed	#cccccc
+584	Moraxella bovoculi	Bergeyella zoohelcum	1.0	Mixed	#cccccc
+585	Moraxella bovoculi	Campylobacter fetus	1.0	Mixed	#cccccc
+586	Moraxella bovoculi	Campylobacter gracilis	0.969431163171	Mixed	#cccccc
+587	Moraxella bovoculi	Capnocytophaga cynodegmi	1.0	Mixed	#cccccc
+588	Moraxella bovoculi	Capnocytophaga ochracea	0.802938487822	Mixed	#cccccc
+589	Moraxella bovoculi	Capnocytophaga sp. oral taxon 332	0.940456396589	Mixed	#cccccc
+590	Moraxella bovoculi	Capnocytophaga sp. oral taxon 412	0.879736492553	Mixed	#cccccc
+591	Moraxella bovoculi	Cardiobacterium hominis	0.993015254779	Mixed	#cccccc
+592	Moraxella bovoculi	Cardiobacterium valvarum	0.83156226459	Mixed	#cccccc
+593	Moraxella bovoculi	Centipeda periodontii	0.920555726176	Mixed	#cccccc
+594	Moraxella bovoculi	Corynebacterium matruchotii	0.994222056277	Mixed	#cccccc
+595	Moraxella bovoculi	Fusobacterium hwasookii	0.888811211806	Mixed	#cccccc
+596	Moraxella bovoculi	Gemella morbillorum	0.902981048	Mixed	#cccccc
+597	Moraxella bovoculi	Kingella denitrificans	0.920420959987	Mixed	#cccccc
+598	Moraxella bovoculi	Lachnospiraceae bacterium oral taxon 500	0.947091350577	Mixed	#cccccc
+599	Moraxella bovoculi	Lautropia mirabilis	0.932078836456	Mixed	#cccccc
+600	Moraxella bovoculi	Leptotrichia buccalis	0.960243672644	Mixed	#cccccc
+601	Moraxella bovoculi	Leptotrichia sp. oral taxon 212	0.972407334983	Mixed	#cccccc
+602	Moraxella bovoculi	[Mannheimia] succiniciproducens	0.815021427815	Mixed	#cccccc
+603	Moraxella bovoculi	Moraxella bovis	0.980444550102	Anterior_nares	#8000ff
+604	Moraxella caprae	Acidovorax avenae	1.0	Mixed	#cccccc
+605	Moraxella caprae	Actinobaculum sp. oral taxon 183	0.85005384871	Mixed	#cccccc
+606	Moraxella caprae	Actinomyces dentalis	0.996502494807	Mixed	#cccccc
+607	Moraxella caprae	Actinomyces gerencseriae	0.991650582388	Mixed	#cccccc
+608	Moraxella caprae	Actinomyces johnsonii	0.981525241445	Mixed	#cccccc
+609	Moraxella caprae	Actinomyces massiliensis	0.959863121783	Mixed	#cccccc
+610	Moraxella caprae	Actinomyces naeslundii	0.965481273947	Mixed	#cccccc
+611	Moraxella caprae	Actinomyces sp. oral taxon 170	0.982587997185	Mixed	#cccccc
+612	Moraxella caprae	Actinomyces sp. oral taxon 414	0.964707734401	Mixed	#cccccc
+613	Moraxella caprae	Actinomyces sp. oral taxon 848	0.990980305754	Mixed	#cccccc
+614	Moraxella caprae	Actinomyces sp. oral taxon 849	1.0	Mixed	#cccccc
+615	Moraxella caprae	Aggregatibacter segnis	0.830359388417	Mixed	#cccccc
+616	Moraxella caprae	Bacteroidetes oral taxon 274	0.987410100684	Mixed	#cccccc
+617	Moraxella caprae	Bergeyella zoohelcum	1.0	Mixed	#cccccc
+618	Moraxella caprae	Campylobacter fetus	1.0	Mixed	#cccccc
+619	Moraxella caprae	Campylobacter gracilis	0.969431163171	Mixed	#cccccc
+620	Moraxella caprae	Capnocytophaga cynodegmi	1.0	Mixed	#cccccc
+621	Moraxella caprae	Capnocytophaga ochracea	0.802938487822	Mixed	#cccccc
+622	Moraxella caprae	Capnocytophaga sp. oral taxon 332	0.940456396589	Mixed	#cccccc
+623	Moraxella caprae	Capnocytophaga sp. oral taxon 412	0.879736492553	Mixed	#cccccc
+624	Moraxella caprae	Cardiobacterium hominis	0.993015254779	Mixed	#cccccc
+625	Moraxella caprae	Cardiobacterium valvarum	0.83156226459	Mixed	#cccccc
+626	Moraxella caprae	Centipeda periodontii	0.920555726176	Mixed	#cccccc
+627	Moraxella caprae	Corynebacterium matruchotii	0.994222056277	Mixed	#cccccc
+628	Moraxella caprae	Fusobacterium hwasookii	0.888811211806	Mixed	#cccccc
+629	Moraxella caprae	Gemella morbillorum	0.902981048	Mixed	#cccccc
+630	Moraxella caprae	Kingella denitrificans	0.920420959987	Mixed	#cccccc
+631	Moraxella caprae	Lachnospiraceae bacterium oral taxon 500	0.947091350577	Mixed	#cccccc
+632	Moraxella caprae	Lautropia mirabilis	0.932078836456	Mixed	#cccccc
+633	Moraxella caprae	Leptotrichia buccalis	0.960243672644	Mixed	#cccccc
+634	Moraxella caprae	Leptotrichia sp. oral taxon 212	0.972407334983	Mixed	#cccccc
+635	Moraxella caprae	[Mannheimia] succiniciproducens	0.815021427815	Mixed	#cccccc
+636	Moraxella caprae	Moraxella bovis	0.980444550102	Anterior_nares	#8000ff
+637	Moraxella caprae	Moraxella bovoculi	1.0	Anterior_nares	#8000ff
+638	Moraxella catarrhalis	Acidovorax avenae	0.993094466044	Mixed	#cccccc
+639	Moraxella catarrhalis	Actinobaculum sp. oral taxon 183	0.857253250992	Mixed	#cccccc
+640	Moraxella catarrhalis	Actinomyces dentalis	0.990502021103	Mixed	#cccccc
+641	Moraxella catarrhalis	Actinomyces gerencseriae	0.988101152419	Mixed	#cccccc
+642	Moraxella catarrhalis	Actinomyces johnsonii	0.974391094027	Mixed	#cccccc
+643	Moraxella catarrhalis	Actinomyces massiliensis	0.953919282476	Mixed	#cccccc
+644	Moraxella catarrhalis	Actinomyces naeslundii	0.968433935235	Mixed	#cccccc
+645	Moraxella catarrhalis	Actinomyces sp. oral taxon 170	0.976696730327	Mixed	#cccccc
+646	Moraxella catarrhalis	Actinomyces sp. oral taxon 414	0.95767450843	Mixed	#cccccc
+647	Moraxella catarrhalis	Actinomyces sp. oral taxon 848	0.983941286925	Mixed	#cccccc
+648	Moraxella catarrhalis	Actinomyces sp. oral taxon 849	0.993094466044	Mixed	#cccccc
+649	Moraxella catarrhalis	Aggregatibacter segnis	0.839616993189	Mixed	#cccccc
+650	Moraxella catarrhalis	Bacteroidetes oral taxon 274	0.98357913783	Mixed	#cccccc
+651	Moraxella catarrhalis	Bergeyella zoohelcum	0.993094466044	Mixed	#cccccc
+652	Moraxella catarrhalis	Campylobacter fetus	0.993094466044	Mixed	#cccccc
+653	Moraxella catarrhalis	Campylobacter gracilis	0.968477284746	Mixed	#cccccc
+654	Moraxella catarrhalis	Capnocytophaga cynodegmi	0.993094466044	Mixed	#cccccc
+655	Moraxella catarrhalis	Capnocytophaga ochracea	0.802619573598	Mixed	#cccccc
+656	Moraxella catarrhalis	Capnocytophaga sp. oral taxon 332	0.933427698138	Mixed	#cccccc
+657	Moraxella catarrhalis	Capnocytophaga sp. oral taxon 412	0.872858067104	Mixed	#cccccc
+658	Moraxella catarrhalis	Cardiobacterium hominis	0.988548661909	Mixed	#cccccc
+659	Moraxella catarrhalis	Cardiobacterium valvarum	0.848088899932	Mixed	#cccccc
+660	Moraxella catarrhalis	Centipeda periodontii	0.912577337339	Mixed	#cccccc
+661	Moraxella catarrhalis	Corynebacterium matruchotii	0.991377169634	Mixed	#cccccc
+662	Moraxella catarrhalis	Fusobacterium hwasookii	0.884265804075	Mixed	#cccccc
+663	Moraxella catarrhalis	Gemella morbillorum	0.899514954473	Mixed	#cccccc
+664	Moraxella catarrhalis	Kingella denitrificans	0.912870344259	Mixed	#cccccc
+665	Moraxella catarrhalis	Lachnospiraceae bacterium oral taxon 500	0.943222603738	Mixed	#cccccc
+666	Moraxella catarrhalis	Lautropia mirabilis	0.951713177353	Mixed	#cccccc
+667	Moraxella catarrhalis	Leptotrichia buccalis	0.953240607419	Mixed	#cccccc
+668	Moraxella catarrhalis	Leptotrichia sp. oral taxon 212	0.967756319373	Mixed	#cccccc
+669	Moraxella catarrhalis	[Mannheimia] succiniciproducens	0.877370609297	Mixed	#cccccc
+670	Moraxella catarrhalis	Moraxella bovis	0.97367405697	Anterior_nares	#8000ff
+671	Moraxella catarrhalis	Moraxella bovoculi	0.993094466044	Anterior_nares	#8000ff
+672	Moraxella catarrhalis	Moraxella caprae	0.993094466044	Anterior_nares	#8000ff
+673	Moraxella macacae	Acidovorax avenae	1.0	Mixed	#cccccc
+674	Moraxella macacae	Actinobaculum sp. oral taxon 183	0.85005384871	Mixed	#cccccc
+675	Moraxella macacae	Actinomyces dentalis	0.996502494807	Mixed	#cccccc
+676	Moraxella macacae	Actinomyces gerencseriae	0.991650582388	Mixed	#cccccc
+677	Moraxella macacae	Actinomyces johnsonii	0.981525241445	Mixed	#cccccc
+678	Moraxella macacae	Actinomyces massiliensis	0.959863121783	Mixed	#cccccc
+679	Moraxella macacae	Actinomyces naeslundii	0.965481273947	Mixed	#cccccc
+680	Moraxella macacae	Actinomyces sp. oral taxon 170	0.982587997185	Mixed	#cccccc
+681	Moraxella macacae	Actinomyces sp. oral taxon 414	0.964707734401	Mixed	#cccccc
+682	Moraxella macacae	Actinomyces sp. oral taxon 848	0.990980305754	Mixed	#cccccc
+683	Moraxella macacae	Actinomyces sp. oral taxon 849	1.0	Mixed	#cccccc
+684	Moraxella macacae	Aggregatibacter segnis	0.830359388417	Mixed	#cccccc
+685	Moraxella macacae	Bacteroidetes oral taxon 274	0.987410100684	Mixed	#cccccc
+686	Moraxella macacae	Bergeyella zoohelcum	1.0	Mixed	#cccccc
+687	Moraxella macacae	Campylobacter fetus	1.0	Mixed	#cccccc
+688	Moraxella macacae	Campylobacter gracilis	0.969431163171	Mixed	#cccccc
+689	Moraxella macacae	Capnocytophaga cynodegmi	1.0	Mixed	#cccccc
+690	Moraxella macacae	Capnocytophaga ochracea	0.802938487822	Mixed	#cccccc
+691	Moraxella macacae	Capnocytophaga sp. oral taxon 332	0.940456396589	Mixed	#cccccc
+692	Moraxella macacae	Capnocytophaga sp. oral taxon 412	0.879736492553	Mixed	#cccccc
+693	Moraxella macacae	Cardiobacterium hominis	0.993015254779	Mixed	#cccccc
+694	Moraxella macacae	Cardiobacterium valvarum	0.83156226459	Mixed	#cccccc
+695	Moraxella macacae	Centipeda periodontii	0.920555726176	Mixed	#cccccc
+696	Moraxella macacae	Corynebacterium matruchotii	0.994222056277	Mixed	#cccccc
+697	Moraxella macacae	Fusobacterium hwasookii	0.888811211806	Mixed	#cccccc
+698	Moraxella macacae	Gemella morbillorum	0.902981048	Mixed	#cccccc
+699	Moraxella macacae	Kingella denitrificans	0.920420959987	Mixed	#cccccc
+700	Moraxella macacae	Lachnospiraceae bacterium oral taxon 500	0.947091350577	Mixed	#cccccc
+701	Moraxella macacae	Lautropia mirabilis	0.932078836456	Mixed	#cccccc
+702	Moraxella macacae	Leptotrichia buccalis	0.960243672644	Mixed	#cccccc
+703	Moraxella macacae	Leptotrichia sp. oral taxon 212	0.972407334983	Mixed	#cccccc
+704	Moraxella macacae	[Mannheimia] succiniciproducens	0.815021427815	Mixed	#cccccc
+705	Moraxella macacae	Moraxella bovis	0.980444550102	Anterior_nares	#8000ff
+706	Moraxella macacae	Moraxella bovoculi	1.0	Anterior_nares	#8000ff
+707	Moraxella macacae	Moraxella caprae	1.0	Anterior_nares	#8000ff
+708	Moraxella macacae	Moraxella catarrhalis	0.993094466044	Anterior_nares	#8000ff
+709	Morococcus cerebrosus	Actinobacillus capsulatus	0.854478206725	Mixed	#cccccc
+710	Necropsobacter massiliensis	Agarivorans gilvus	1.0	Mixed	#cccccc
+711	Necropsobacter rosorum	Histophilus somni	0.813522084407	Buccal_mucosa	#445cfb
+712	Neisseria macacae	Neisseria gonorrhoeae	0.845460206042	Mixed	#cccccc
+713	Neisseria shayeganii	Neisseria gonorrhoeae	0.812990097373	Mixed	#cccccc
+714	Neisseria sp. HMSC06F02	Enterococcus pallens	0.876847920992	Mixed	#cccccc
+715	Neisseria sp. oral taxon 014	Acidovorax avenae	0.972307093917	Supragingival_plaque	#ff8646
+716	Neisseria sp. oral taxon 014	Actinobaculum sp. oral taxon 183	0.87234479729	Mixed	#cccccc
+717	Neisseria sp. oral taxon 014	Actinomyces dentalis	0.970640120845	Mixed	#cccccc
+718	Neisseria sp. oral taxon 014	Actinomyces gerencseriae	0.96742746334	Mixed	#cccccc
+719	Neisseria sp. oral taxon 014	Actinomyces johnsonii	0.955571439967	Mixed	#cccccc
+720	Neisseria sp. oral taxon 014	Actinomyces massiliensis	0.948335062388	Supragingival_plaque	#ff8646
+721	Neisseria sp. oral taxon 014	Actinomyces naeslundii	0.956726441056	Supragingival_plaque	#ff8646
+722	Neisseria sp. oral taxon 014	Actinomyces sp. oral taxon 170	0.9557056228	Supragingival_plaque	#ff8646
+723	Neisseria sp. oral taxon 014	Actinomyces sp. oral taxon 414	0.952356104093	Mixed	#cccccc
+724	Neisseria sp. oral taxon 014	Actinomyces sp. oral taxon 848	0.965120272267	Supragingival_plaque	#ff8646
+725	Neisseria sp. oral taxon 014	Actinomyces sp. oral taxon 849	0.972307093917	Supragingival_plaque	#ff8646
+726	Neisseria sp. oral taxon 014	Aggregatibacter segnis	0.836654157698	Supragingival_plaque	#ff8646
+727	Neisseria sp. oral taxon 014	Bacteroidetes oral taxon 274	0.97427343574	Mixed	#cccccc
+728	Neisseria sp. oral taxon 014	Bergeyella zoohelcum	0.972307093917	Mixed	#cccccc
+729	Neisseria sp. oral taxon 014	Campylobacter fetus	0.972307093917	Mixed	#cccccc
+730	Neisseria sp. oral taxon 014	Campylobacter gracilis	0.953367192722	Mixed	#cccccc
+731	Neisseria sp. oral taxon 014	Capnocytophaga cynodegmi	0.972307093917	Mixed	#cccccc
+732	Neisseria sp. oral taxon 014	Capnocytophaga ochracea	0.801703142986	Supragingival_plaque	#ff8646
+733	Neisseria sp. oral taxon 014	Capnocytophaga sp. oral taxon 332	0.927037314452	Supragingival_plaque	#ff8646
+734	Neisseria sp. oral taxon 014	Capnocytophaga sp. oral taxon 412	0.852390929391	Supragingival_plaque	#ff8646
+735	Neisseria sp. oral taxon 014	Cardiobacterium hominis	0.978065627931	Mixed	#cccccc
+736	Neisseria sp. oral taxon 014	Cardiobacterium valvarum	0.874793502439	Mixed	#cccccc
+737	Neisseria sp. oral taxon 014	Centipeda periodontii	0.887141615418	Mixed	#cccccc
+738	Neisseria sp. oral taxon 014	Corynebacterium matruchotii	0.970568921463	Supragingival_plaque	#ff8646
+739	Neisseria sp. oral taxon 014	Fusobacterium hwasookii	0.881227275597	Supragingival_plaque	#ff8646
+740	Neisseria sp. oral taxon 014	Gemella morbillorum	0.88025711189	Mixed	#cccccc
+741	Neisseria sp. oral taxon 014	Kingella denitrificans	0.931065239376	Supragingival_plaque	#ff8646
+742	Neisseria sp. oral taxon 014	Lachnospiraceae bacterium oral taxon 500	0.941217985617	Supragingival_plaque	#ff8646
+743	Neisseria sp. oral taxon 014	Lautropia mirabilis	0.934665179182	Supragingival_plaque	#ff8646
+744	Neisseria sp. oral taxon 014	Leptotrichia buccalis	0.933570894088	Supragingival_plaque	#ff8646
+745	Neisseria sp. oral taxon 014	Leptotrichia sp. oral taxon 212	0.956057304323	Supragingival_plaque	#ff8646
+746	Neisseria sp. oral taxon 014	Moraxella bovis	0.953293191256	Mixed	#cccccc
+747	Neisseria sp. oral taxon 014	Moraxella bovoculi	0.972307093917	Mixed	#cccccc
+748	Neisseria sp. oral taxon 014	Moraxella caprae	0.972307093917	Mixed	#cccccc
+749	Neisseria sp. oral taxon 014	Moraxella catarrhalis	0.966954702622	Mixed	#cccccc
+750	Neisseria sp. oral taxon 014	Moraxella macacae	0.972307093917	Mixed	#cccccc
+751	Neisseria sp. oral taxon 020	Conchiformibius steedae	0.805290477737	Mixed	#cccccc
+752	Nitrospira defluvii	Acinetobacter baumannii	0.814505303026	Mixed	#cccccc
+753	Nitrospira defluvii	Gulbenkiania mobilis	0.948340998455	Mixed	#cccccc
+754	Odoribacter laneus	Alistipes obesi	0.928108793681	Stool	#e8cb72
+755	Odoribacter laneus	Alistipes shahii	0.819687685594	Stool	#e8cb72
+756	Odoribacter laneus	Bacteroides cellulosilyticus	0.928108793681	Stool	#e8cb72
+757	Odoribacter laneus	Butyrivibrio crossotus	0.842109682781	Stool	#e8cb72
+758	Odoribacter laneus	Mycoplasma salivarium	0.87262188278	Mixed	#cccccc
+759	Odoribacter splanchnicus	Alistipes putredinis	0.81845946377	Stool	#e8cb72
+760	Odoribacter splanchnicus	Alistipes shahii	0.876072475636	Stool	#e8cb72
+761	Odoribacter splanchnicus	Butyrivibrio crossotus	0.857784997502	Stool	#e8cb72
+762	Odoribacter splanchnicus	Odoribacter laneus	0.800015682505	Stool	#e8cb72
+763	Olsenella profusa	Lachnospiraceae bacterium 7_1_58FAA	1.0	Mixed	#cccccc
+764	Olsenella uli	Actinomyces israelii	0.816835727166	Mixed	#cccccc
+765	Olsenella uli	Eubacterium saphenum	0.911176313504	Mixed	#cccccc
+766	Oribacterium sp. FC2011	Lachnospiraceae bacterium FE2018	1.0	Mixed	#cccccc
+767	Oribacterium sp. NK2B42	Lachnospiraceae bacterium FE2018	1.0	Tongue_dorsum	#ff2f18
+768	Oribacterium sp. NK2B42	Oribacterium sp. FC2011	1.0	Mixed	#cccccc
+769	Oribacterium sp. oral taxon 108	Oribacterium asaccharolyticum	0.9614668972	Saliva	#cbe486
+770	Ottowia sp. oral taxon 894	Acidovorax avenae	0.99975098808	Supragingival_plaque	#ff8646
+771	Ottowia sp. oral taxon 894	Actinobaculum sp. oral taxon 183	0.851403308409	Mixed	#cccccc
+772	Ottowia sp. oral taxon 894	Actinomyces dentalis	0.997197909698	Mixed	#cccccc
+773	Ottowia sp. oral taxon 894	Actinomyces gerencseriae	0.992293086833	Mixed	#cccccc
+774	Ottowia sp. oral taxon 894	Actinomyces johnsonii	0.981192511135	Mixed	#cccccc
+775	Ottowia sp. oral taxon 894	Actinomyces massiliensis	0.960871139045	Supragingival_plaque	#ff8646
+776	Ottowia sp. oral taxon 894	Actinomyces naeslundii	0.966205683225	Supragingival_plaque	#ff8646
+777	Ottowia sp. oral taxon 894	Actinomyces sp. oral taxon 170	0.983115414124	Supragingival_plaque	#ff8646
+778	Ottowia sp. oral taxon 894	Actinomyces sp. oral taxon 414	0.965085495999	Mixed	#cccccc
+779	Ottowia sp. oral taxon 894	Actinomyces sp. oral taxon 848	0.991228774945	Supragingival_plaque	#ff8646
+780	Ottowia sp. oral taxon 894	Actinomyces sp. oral taxon 849	0.99975098808	Supragingival_plaque	#ff8646
+781	Ottowia sp. oral taxon 894	Aggregatibacter segnis	0.831047602162	Supragingival_plaque	#ff8646
+782	Ottowia sp. oral taxon 894	Bacteroidetes oral taxon 274	0.987332325522	Mixed	#cccccc
+783	Ottowia sp. oral taxon 894	Bergeyella zoohelcum	0.99975098808	Mixed	#cccccc
+784	Ottowia sp. oral taxon 894	Campylobacter fetus	0.99975098808	Mixed	#cccccc
+785	Ottowia sp. oral taxon 894	Campylobacter gracilis	0.970052715024	Mixed	#cccccc
+786	Ottowia sp. oral taxon 894	Capnocytophaga cynodegmi	0.99975098808	Mixed	#cccccc
+787	Ottowia sp. oral taxon 894	Capnocytophaga ochracea	0.804115602257	Supragingival_plaque	#ff8646
+788	Ottowia sp. oral taxon 894	Capnocytophaga sp. oral taxon 332	0.941568494271	Supragingival_plaque	#ff8646
+789	Ottowia sp. oral taxon 894	Capnocytophaga sp. oral taxon 412	0.879237083755	Supragingival_plaque	#ff8646
+790	Ottowia sp. oral taxon 894	Cardiobacterium hominis	0.993436531273	Mixed	#cccccc
+791	Ottowia sp. oral taxon 894	Cardiobacterium valvarum	0.833035081804	Mixed	#cccccc
+792	Ottowia sp. oral taxon 894	Centipeda periodontii	0.920125534965	Mixed	#cccccc
+793	Ottowia sp. oral taxon 894	Corynebacterium matruchotii	0.994166191792	Supragingival_plaque	#ff8646
+794	Ottowia sp. oral taxon 894	Fusobacterium hwasookii	0.889219304598	Supragingival_plaque	#ff8646
+795	Ottowia sp. oral taxon 894	Gemella morbillorum	0.902730900042	Mixed	#cccccc
+796	Ottowia sp. oral taxon 894	Kingella denitrificans	0.921910794837	Supragingival_plaque	#ff8646
+797	Ottowia sp. oral taxon 894	Lachnospiraceae bacterium oral taxon 500	0.948709733227	Supragingival_plaque	#ff8646
+798	Ottowia sp. oral taxon 894	Lautropia mirabilis	0.932886336459	Supragingival_plaque	#ff8646
+799	Ottowia sp. oral taxon 894	Leptotrichia buccalis	0.959595835356	Supragingival_plaque	#ff8646
+800	Ottowia sp. oral taxon 894	Leptotrichia sp. oral taxon 212	0.972730785787	Supragingival_plaque	#ff8646
+801	Ottowia sp. oral taxon 894	[Mannheimia] succiniciproducens	0.814695216048	Mixed	#cccccc
+802	Ottowia sp. oral taxon 894	Moraxella bovis	0.976443335932	Mixed	#cccccc
+803	Ottowia sp. oral taxon 894	Moraxella bovoculi	0.99975098808	Mixed	#cccccc
+804	Ottowia sp. oral taxon 894	Moraxella caprae	0.99975098808	Mixed	#cccccc
+805	Ottowia sp. oral taxon 894	Moraxella catarrhalis	0.992822216867	Mixed	#cccccc
+806	Ottowia sp. oral taxon 894	Moraxella macacae	0.99975098808	Mixed	#cccccc
+807	Ottowia sp. oral taxon 894	Neisseria sp. oral taxon 014	0.972702628039	Supragingival_plaque	#ff8646
+808	Paracoccus sp. TRP	Acidovorax avenae	1.0	Mixed	#cccccc
+809	Paracoccus sp. TRP	Actinobaculum sp. oral taxon 183	0.85005384871	Mixed	#cccccc
+810	Paracoccus sp. TRP	Actinomyces dentalis	0.996502494807	Mixed	#cccccc
+811	Paracoccus sp. TRP	Actinomyces gerencseriae	0.991650582388	Mixed	#cccccc
+812	Paracoccus sp. TRP	Actinomyces johnsonii	0.981525241445	Mixed	#cccccc
+813	Paracoccus sp. TRP	Actinomyces massiliensis	0.959863121783	Mixed	#cccccc
+814	Paracoccus sp. TRP	Actinomyces naeslundii	0.965481273947	Mixed	#cccccc
+815	Paracoccus sp. TRP	Actinomyces sp. oral taxon 170	0.982587997185	Mixed	#cccccc
+816	Paracoccus sp. TRP	Actinomyces sp. oral taxon 414	0.964707734401	Mixed	#cccccc
+817	Paracoccus sp. TRP	Actinomyces sp. oral taxon 848	0.990980305754	Mixed	#cccccc
+818	Paracoccus sp. TRP	Actinomyces sp. oral taxon 849	1.0	Mixed	#cccccc
+819	Paracoccus sp. TRP	Aggregatibacter segnis	0.830359388417	Mixed	#cccccc
+820	Paracoccus sp. TRP	Bacteroidetes oral taxon 274	0.987410100684	Mixed	#cccccc
+821	Paracoccus sp. TRP	Bergeyella zoohelcum	1.0	R_Retroauricular_crease	#acf59a
+822	Paracoccus sp. TRP	Campylobacter fetus	1.0	Mixed	#cccccc
+823	Paracoccus sp. TRP	Campylobacter gracilis	0.969431163171	Mixed	#cccccc
+824	Paracoccus sp. TRP	Capnocytophaga cynodegmi	1.0	R_Retroauricular_crease	#acf59a
+825	Paracoccus sp. TRP	Capnocytophaga ochracea	0.802938487822	Mixed	#cccccc
+826	Paracoccus sp. TRP	Capnocytophaga sp. oral taxon 332	0.940456396589	Mixed	#cccccc
+827	Paracoccus sp. TRP	Capnocytophaga sp. oral taxon 412	0.879736492553	Mixed	#cccccc
+828	Paracoccus sp. TRP	Cardiobacterium hominis	0.993015254779	Mixed	#cccccc
+829	Paracoccus sp. TRP	Cardiobacterium valvarum	0.83156226459	Mixed	#cccccc
+830	Paracoccus sp. TRP	Centipeda periodontii	0.920555726176	Mixed	#cccccc
+831	Paracoccus sp. TRP	Corynebacterium matruchotii	0.994222056277	Mixed	#cccccc
+832	Paracoccus sp. TRP	Fusobacterium hwasookii	0.888811211806	Mixed	#cccccc
+833	Paracoccus sp. TRP	Gemella morbillorum	0.902981048	Mixed	#cccccc
+834	Paracoccus sp. TRP	Kingella denitrificans	0.920420959987	Mixed	#cccccc
+835	Paracoccus sp. TRP	Lachnospiraceae bacterium oral taxon 500	0.947091350577	Mixed	#cccccc
+836	Paracoccus sp. TRP	Lautropia mirabilis	0.932078836456	Mixed	#cccccc
+837	Paracoccus sp. TRP	Leptotrichia buccalis	0.960243672644	Mixed	#cccccc
+838	Paracoccus sp. TRP	Leptotrichia sp. oral taxon 212	0.972407334983	Mixed	#cccccc
+839	Paracoccus sp. TRP	[Mannheimia] succiniciproducens	0.815021427815	Mixed	#cccccc
+840	Paracoccus sp. TRP	Moraxella bovis	0.980444550102	Mixed	#cccccc
+841	Paracoccus sp. TRP	Moraxella bovoculi	1.0	Mixed	#cccccc
+842	Paracoccus sp. TRP	Moraxella caprae	1.0	Mixed	#cccccc
+843	Paracoccus sp. TRP	Moraxella catarrhalis	0.993094466044	Mixed	#cccccc
+844	Paracoccus sp. TRP	Moraxella macacae	1.0	Mixed	#cccccc
+845	Paracoccus sp. TRP	Neisseria sp. oral taxon 014	0.972307093917	Mixed	#cccccc
+846	Paracoccus sp. TRP	Ottowia sp. oral taxon 894	0.99975098808	Mixed	#cccccc
+847	Paraprevotella clara	Capnocytophaga sp. oral taxon 329	0.984770185219	Mixed	#cccccc
+848	Paraprevotella clara	Capnocytophaga sp. oral taxon 863	0.825239781794	Mixed	#cccccc
+849	Parvimonas sp. oral taxon 110	Parvimonas micra	0.928674437217	Subgingival_plaque	#ffac5c
+850	Parvimonas sp. oral taxon 393	Parvimonas micra	0.940343649318	Mixed	#cccccc
+851	Parvimonas sp. oral taxon 393	Parvimonas sp. oral taxon 110	0.97040685709	Mixed	#cccccc
+852	Pasteurella dagmatis	Neisseria gonorrhoeae	0.955696350555	Mixed	#cccccc
+853	Pasteurella dagmatis	Neisseria macacae	0.878598851156	Mixed	#cccccc
+854	Pasteurella dagmatis	Neisseria shayeganii	0.851967917102	R_Retroauricular_crease	#acf59a
+855	Pasteurella multocida	Haemophilus parainfluenzae	0.800642816767	Mixed	#cccccc
+856	Peptostreptococcus sp. MV1	Peptostreptococcus anaerobius	0.837974783834	Mixed	#cccccc
+857	Peptostreptococcus stomatis	Peptostreptococcus anaerobius	0.870062191111	Mixed	#cccccc
+858	Peptostreptococcus stomatis	Peptostreptococcus sp. MV1	0.919275373261	Throat	#ff5c2f
+859	Porphyromonadaceae bacterium COT-184 OH4590	Acidovorax avenae	1.0	Mixed	#cccccc
+860	Porphyromonadaceae bacterium COT-184 OH4590	Actinobaculum sp. oral taxon 183	0.85005384871	Subgingival_plaque	#ffac5c
+861	Porphyromonadaceae bacterium COT-184 OH4590	Actinomyces dentalis	0.996502494807	Subgingival_plaque	#ffac5c
+862	Porphyromonadaceae bacterium COT-184 OH4590	Actinomyces gerencseriae	0.991650582388	Subgingival_plaque	#ffac5c
+863	Porphyromonadaceae bacterium COT-184 OH4590	Actinomyces johnsonii	0.981525241445	Subgingival_plaque	#ffac5c
+864	Porphyromonadaceae bacterium COT-184 OH4590	Actinomyces massiliensis	0.959863121783	Mixed	#cccccc
+865	Porphyromonadaceae bacterium COT-184 OH4590	Actinomyces naeslundii	0.965481273947	Mixed	#cccccc
+866	Porphyromonadaceae bacterium COT-184 OH4590	Actinomyces sp. oral taxon 170	0.982587997185	Mixed	#cccccc
+867	Porphyromonadaceae bacterium COT-184 OH4590	Actinomyces sp. oral taxon 414	0.964707734401	Subgingival_plaque	#ffac5c
+868	Porphyromonadaceae bacterium COT-184 OH4590	Actinomyces sp. oral taxon 848	0.990980305754	Mixed	#cccccc
+869	Porphyromonadaceae bacterium COT-184 OH4590	Actinomyces sp. oral taxon 849	1.0	Mixed	#cccccc
+870	Porphyromonadaceae bacterium COT-184 OH4590	Aggregatibacter segnis	0.830359388417	Mixed	#cccccc
+871	Porphyromonadaceae bacterium COT-184 OH4590	Bacteroidetes oral taxon 274	0.987410100684	Subgingival_plaque	#ffac5c
+872	Porphyromonadaceae bacterium COT-184 OH4590	Bergeyella zoohelcum	1.0	Mixed	#cccccc
+873	Porphyromonadaceae bacterium COT-184 OH4590	Campylobacter fetus	1.0	Mixed	#cccccc
+874	Porphyromonadaceae bacterium COT-184 OH4590	Campylobacter gracilis	0.969431163171	Subgingival_plaque	#ffac5c
+875	Porphyromonadaceae bacterium COT-184 OH4590	Capnocytophaga cynodegmi	1.0	Mixed	#cccccc
+876	Porphyromonadaceae bacterium COT-184 OH4590	Capnocytophaga ochracea	0.802938487822	Mixed	#cccccc
+877	Porphyromonadaceae bacterium COT-184 OH4590	Capnocytophaga sp. oral taxon 332	0.940456396589	Mixed	#cccccc
+878	Porphyromonadaceae bacterium COT-184 OH4590	Capnocytophaga sp. oral taxon 412	0.879736492553	Mixed	#cccccc
+879	Porphyromonadaceae bacterium COT-184 OH4590	Cardiobacterium hominis	0.993015254779	Subgingival_plaque	#ffac5c
+880	Porphyromonadaceae bacterium COT-184 OH4590	Cardiobacterium valvarum	0.83156226459	Subgingival_plaque	#ffac5c
+881	Porphyromonadaceae bacterium COT-184 OH4590	Centipeda periodontii	0.920555726176	Subgingival_plaque	#ffac5c
+882	Porphyromonadaceae bacterium COT-184 OH4590	Corynebacterium matruchotii	0.994222056277	Mixed	#cccccc
+883	Porphyromonadaceae bacterium COT-184 OH4590	Fusobacterium hwasookii	0.888811211806	Mixed	#cccccc
+884	Porphyromonadaceae bacterium COT-184 OH4590	Gemella morbillorum	0.902981048	Mixed	#cccccc
+885	Porphyromonadaceae bacterium COT-184 OH4590	Kingella denitrificans	0.920420959987	Mixed	#cccccc
+886	Porphyromonadaceae bacterium COT-184 OH4590	Lachnospiraceae bacterium oral taxon 500	0.947091350577	Mixed	#cccccc
+887	Porphyromonadaceae bacterium COT-184 OH4590	Lautropia mirabilis	0.932078836456	Mixed	#cccccc
+888	Porphyromonadaceae bacterium COT-184 OH4590	Leptotrichia buccalis	0.960243672644	Mixed	#cccccc
+889	Porphyromonadaceae bacterium COT-184 OH4590	Leptotrichia sp. oral taxon 212	0.972407334983	Mixed	#cccccc
+890	Porphyromonadaceae bacterium COT-184 OH4590	[Mannheimia] succiniciproducens	0.815021427815	Mixed	#cccccc
+891	Porphyromonadaceae bacterium COT-184 OH4590	Moraxella bovis	0.980444550102	Mixed	#cccccc
+892	Porphyromonadaceae bacterium COT-184 OH4590	Moraxella bovoculi	1.0	Mixed	#cccccc
+893	Porphyromonadaceae bacterium COT-184 OH4590	Moraxella caprae	1.0	Mixed	#cccccc
+894	Porphyromonadaceae bacterium COT-184 OH4590	Moraxella catarrhalis	0.993094466044	Mixed	#cccccc
+895	Porphyromonadaceae bacterium COT-184 OH4590	Moraxella macacae	1.0	Mixed	#cccccc
+896	Porphyromonadaceae bacterium COT-184 OH4590	Neisseria sp. oral taxon 014	0.972307093917	Mixed	#cccccc
+897	Porphyromonadaceae bacterium COT-184 OH4590	Ottowia sp. oral taxon 894	0.99975098808	Mixed	#cccccc
+898	Porphyromonadaceae bacterium COT-184 OH4590	Paracoccus sp. TRP	1.0	Mixed	#cccccc
+899	Porphyromonas catoniae	Acidovorax avenae	0.860293307638	Mixed	#cccccc
+900	Porphyromonas catoniae	Actinobaculum sp. oral taxon 183	0.814394263329	Subgingival_plaque	#ffac5c
+901	Porphyromonas catoniae	Actinomyces dentalis	0.863120651329	Subgingival_plaque	#ffac5c
+902	Porphyromonas catoniae	Actinomyces gerencseriae	0.861635524907	Subgingival_plaque	#ffac5c
+903	Porphyromonas catoniae	Actinomyces johnsonii	0.862423246757	Subgingival_plaque	#ffac5c
+904	Porphyromonas catoniae	Actinomyces massiliensis	0.844043488914	Mixed	#cccccc
+905	Porphyromonas catoniae	Actinomyces naeslundii	0.860956988688	Mixed	#cccccc
+906	Porphyromonas catoniae	Actinomyces sp. oral taxon 170	0.850164372174	Mixed	#cccccc
+907	Porphyromonas catoniae	Actinomyces sp. oral taxon 414	0.858332728282	Subgingival_plaque	#ffac5c
+908	Porphyromonas catoniae	Actinomyces sp. oral taxon 848	0.862580593942	Mixed	#cccccc
+909	Porphyromonas catoniae	Actinomyces sp. oral taxon 849	0.860293307638	Mixed	#cccccc
+910	Porphyromonas catoniae	Aggregatibacter segnis	0.91213528979	Mixed	#cccccc
+911	Porphyromonas catoniae	Bacteroidetes oral taxon 274	0.866850499803	Subgingival_plaque	#ffac5c
+912	Porphyromonas catoniae	Bergeyella zoohelcum	0.860293307638	Mixed	#cccccc
+913	Porphyromonas catoniae	Campylobacter fetus	0.860293307638	Mixed	#cccccc
+914	Porphyromonas catoniae	Campylobacter gracilis	0.861850262356	Subgingival_plaque	#ffac5c
+915	Porphyromonas catoniae	Capnocytophaga cynodegmi	0.860293307638	Mixed	#cccccc
+916	Porphyromonas catoniae	Capnocytophaga sp. oral taxon 332	0.843814391606	Mixed	#cccccc
+917	Porphyromonas catoniae	Cardiobacterium hominis	0.888507139078	Subgingival_plaque	#ffac5c
+918	Porphyromonas catoniae	Cardiobacterium valvarum	0.856856623737	Subgingival_plaque	#ffac5c
+919	Porphyromonas catoniae	Corynebacterium matruchotii	0.868918447805	Mixed	#cccccc
+920	Porphyromonas catoniae	Kingella denitrificans	0.82159346729	Mixed	#cccccc
+921	Porphyromonas catoniae	Lachnospiraceae bacterium oral taxon 500	0.865917363681	Mixed	#cccccc
+922	Porphyromonas catoniae	Lautropia mirabilis	0.931354470363	Mixed	#cccccc
+923	Porphyromonas catoniae	Leptotrichia sp. oral taxon 212	0.88138913938	Mixed	#cccccc
+924	Porphyromonas catoniae	Moraxella bovis	0.84499724565	Mixed	#cccccc
+925	Porphyromonas catoniae	Moraxella bovoculi	0.860293307638	Mixed	#cccccc
+926	Porphyromonas catoniae	Moraxella caprae	0.860293307638	Mixed	#cccccc
+927	Porphyromonas catoniae	Moraxella catarrhalis	0.870635845986	Mixed	#cccccc
+928	Porphyromonas catoniae	Moraxella macacae	0.860293307638	Mixed	#cccccc
+929	Porphyromonas catoniae	Neisseria sp. oral taxon 014	0.86695886045	Mixed	#cccccc
+930	Porphyromonas catoniae	Ottowia sp. oral taxon 894	0.860952095912	Mixed	#cccccc
+931	Porphyromonas catoniae	Paracoccus sp. TRP	0.860293307638	Mixed	#cccccc
+932	Porphyromonas catoniae	Porphyromonadaceae bacterium COT-184 OH4590	0.860293307638	Subgingival_plaque	#ffac5c
+933	Porphyromonas sp. KLE 1280	Porphyromonas somerae	0.965835540259	Mixed	#cccccc
+934	Porphyromonas sp. oral taxon 278	Acidovorax avenae	0.956975103997	Mixed	#cccccc
+935	Porphyromonas sp. oral taxon 278	Actinobaculum sp. oral taxon 183	0.814054509366	Mixed	#cccccc
+936	Porphyromonas sp. oral taxon 278	Actinomyces dentalis	0.953854127145	Mixed	#cccccc
+937	Porphyromonas sp. oral taxon 278	Actinomyces gerencseriae	0.949818345837	Mixed	#cccccc
+938	Porphyromonas sp. oral taxon 278	Actinomyces johnsonii	0.945134184916	Mixed	#cccccc
+939	Porphyromonas sp. oral taxon 278	Actinomyces massiliensis	0.910647923974	Mixed	#cccccc
+940	Porphyromonas sp. oral taxon 278	Actinomyces naeslundii	0.926827758986	Mixed	#cccccc
+941	Porphyromonas sp. oral taxon 278	Actinomyces sp. oral taxon 170	0.935709616477	Mixed	#cccccc
+942	Porphyromonas sp. oral taxon 278	Actinomyces sp. oral taxon 414	0.940189647569	Mixed	#cccccc
+943	Porphyromonas sp. oral taxon 278	Actinomyces sp. oral taxon 848	0.951138079871	Mixed	#cccccc
+944	Porphyromonas sp. oral taxon 278	Actinomyces sp. oral taxon 849	0.956975103997	Mixed	#cccccc
+945	Porphyromonas sp. oral taxon 278	Aggregatibacter segnis	0.901742371091	Mixed	#cccccc
+946	Porphyromonas sp. oral taxon 278	Bacteroidetes oral taxon 274	0.953811295591	Mixed	#cccccc
+947	Porphyromonas sp. oral taxon 278	Bergeyella zoohelcum	0.956975103997	Mixed	#cccccc
+948	Porphyromonas sp. oral taxon 278	Campylobacter fetus	0.956975103997	Mixed	#cccccc
+949	Porphyromonas sp. oral taxon 278	Campylobacter gracilis	0.930643121495	Mixed	#cccccc
+950	Porphyromonas sp. oral taxon 278	Capnocytophaga cynodegmi	0.956975103997	Mixed	#cccccc
+951	Porphyromonas sp. oral taxon 278	Capnocytophaga ochracea	0.848690958286	Mixed	#cccccc
+952	Porphyromonas sp. oral taxon 278	Capnocytophaga sp. oral taxon 332	0.928836514831	Mixed	#cccccc
+953	Porphyromonas sp. oral taxon 278	Capnocytophaga sp. oral taxon 412	0.86696579293	Mixed	#cccccc
+954	Porphyromonas sp. oral taxon 278	Cardiobacterium hominis	0.962215302242	Mixed	#cccccc
+955	Porphyromonas sp. oral taxon 278	Cardiobacterium valvarum	0.856242382945	Mixed	#cccccc
+956	Porphyromonas sp. oral taxon 278	Centipeda periodontii	0.860122230575	Mixed	#cccccc
+957	Porphyromonas sp. oral taxon 278	Corynebacterium matruchotii	0.953110039384	Mixed	#cccccc
+958	Porphyromonas sp. oral taxon 278	Fusobacterium hwasookii	0.893311463618	Mixed	#cccccc
+959	Porphyromonas sp. oral taxon 278	Gemella morbillorum	0.90385706746	Mixed	#cccccc
+960	Porphyromonas sp. oral taxon 278	Kingella denitrificans	0.889580599845	Mixed	#cccccc
+961	Porphyromonas sp. oral taxon 278	Lachnospiraceae bacterium oral taxon 500	0.939941341781	Mixed	#cccccc
+962	Porphyromonas sp. oral taxon 278	Lautropia mirabilis	0.936467619138	Mixed	#cccccc
+963	Porphyromonas sp. oral taxon 278	Leptotrichia buccalis	0.908428487303	Mixed	#cccccc
+964	Porphyromonas sp. oral taxon 278	Leptotrichia sp. oral taxon 212	0.961700699024	Mixed	#cccccc
+965	Porphyromonas sp. oral taxon 278	[Mannheimia] succiniciproducens	0.803292967725	Mixed	#cccccc
+966	Porphyromonas sp. oral taxon 278	Moraxella bovis	0.938261025297	Mixed	#cccccc
+967	Porphyromonas sp. oral taxon 278	Moraxella bovoculi	0.956975103997	Mixed	#cccccc
+968	Porphyromonas sp. oral taxon 278	Moraxella caprae	0.956975103997	Mixed	#cccccc
+969	Porphyromonas sp. oral taxon 278	Moraxella catarrhalis	0.955091877867	Mixed	#cccccc
+970	Porphyromonas sp. oral taxon 278	Moraxella macacae	0.956975103997	Mixed	#cccccc
+971	Porphyromonas sp. oral taxon 278	Neisseria sp. oral taxon 014	0.941070860489	Mixed	#cccccc
+972	Porphyromonas sp. oral taxon 278	Ottowia sp. oral taxon 894	0.957112990227	Mixed	#cccccc
+973	Porphyromonas sp. oral taxon 278	Paracoccus sp. TRP	0.956975103997	Mixed	#cccccc
+974	Porphyromonas sp. oral taxon 278	Porphyromonadaceae bacterium COT-184 OH4590	0.956975103997	Mixed	#cccccc
+975	Porphyromonas sp. oral taxon 278	Porphyromonas catoniae	0.940762891201	Mixed	#cccccc
+976	Porphyromonas sp. oral taxon 279	Porphyromonas somerae	0.970703148114	Mixed	#cccccc
+977	Porphyromonas sp. oral taxon 279	Porphyromonas sp. KLE 1280	0.994450561421	Hard_palate	#08acee
+978	Porphyromonas uenonis	Porphyromonas asaccharolytica	0.808954259593	Posterior_fornix	#8efeac
+979	Prevotella baroniae	Lachnospiraceae bacterium 7_1_58FAA	0.889453706638	Mixed	#cccccc
+980	Prevotella baroniae	Olsenella profusa	0.889453706638	Mixed	#cccccc
+981	Prevotella buccae	Campylobacter mucosalis	0.906991763068	Mixed	#cccccc
+982	Prevotella buccae	Fusobacterium equinum	0.804101981973	Mixed	#cccccc
+983	Prevotella conceptionensis	Acidovorax avenae	0.913327440652	Mixed	#cccccc
+984	Prevotella conceptionensis	Actinomyces dentalis	0.911881686733	Subgingival_plaque	#ffac5c
+985	Prevotella conceptionensis	Actinomyces gerencseriae	0.905511445927	Subgingival_plaque	#ffac5c
+986	Prevotella conceptionensis	Actinomyces johnsonii	0.895931451746	Subgingival_plaque	#ffac5c
+987	Prevotella conceptionensis	Actinomyces massiliensis	0.870864660857	Mixed	#cccccc
+988	Prevotella conceptionensis	Actinomyces naeslundii	0.901250601743	Mixed	#cccccc
+989	Prevotella conceptionensis	Actinomyces sp. oral taxon 170	0.891886630745	Mixed	#cccccc
+990	Prevotella conceptionensis	Actinomyces sp. oral taxon 414	0.893597809595	Subgingival_plaque	#ffac5c
+991	Prevotella conceptionensis	Actinomyces sp. oral taxon 848	0.907244534837	Mixed	#cccccc
+992	Prevotella conceptionensis	Actinomyces sp. oral taxon 849	0.913327440652	Mixed	#cccccc
+993	Prevotella conceptionensis	Aggregatibacter segnis	0.80044599511	Mixed	#cccccc
+994	Prevotella conceptionensis	Bacteroidetes oral taxon 274	0.91651001063	Subgingival_plaque	#ffac5c
+995	Prevotella conceptionensis	Bergeyella zoohelcum	0.913327440652	Mixed	#cccccc
+996	Prevotella conceptionensis	Campylobacter fetus	0.913327440652	Mixed	#cccccc
+997	Prevotella conceptionensis	Campylobacter gracilis	0.897665085103	Subgingival_plaque	#ffac5c
+998	Prevotella conceptionensis	Capnocytophaga cynodegmi	0.913327440652	Mixed	#cccccc
+999	Prevotella conceptionensis	Capnocytophaga sp. oral taxon 332	0.88695877921	Mixed	#cccccc
+1000	Prevotella conceptionensis	Capnocytophaga sp. oral taxon 412	0.843542141468	Mixed	#cccccc
+1001	Prevotella conceptionensis	Cardiobacterium hominis	0.910247938687	Subgingival_plaque	#ffac5c
+1002	Prevotella conceptionensis	Cardiobacterium valvarum	0.806695676208	Subgingival_plaque	#ffac5c
+1003	Prevotella conceptionensis	Centipeda periodontii	0.860447236778	Subgingival_plaque	#ffac5c
+1004	Prevotella conceptionensis	Corynebacterium matruchotii	0.912870469881	Mixed	#cccccc
+1005	Prevotella conceptionensis	Fusobacterium hwasookii	0.877740900067	Mixed	#cccccc
+1006	Prevotella conceptionensis	Gemella morbillorum	0.868453951605	Mixed	#cccccc
+1007	Prevotella conceptionensis	Kingella denitrificans	0.843173555164	Mixed	#cccccc
+1008	Prevotella conceptionensis	Lachnospiraceae bacterium oral taxon 500	0.893260755159	Mixed	#cccccc
+1009	Prevotella conceptionensis	Lautropia mirabilis	0.871526631683	Mixed	#cccccc
+1010	Prevotella conceptionensis	Leptotrichia buccalis	0.872911477908	Mixed	#cccccc
+1011	Prevotella conceptionensis	Leptotrichia sp. oral taxon 212	0.925915565108	Mixed	#cccccc
+1012	Prevotella conceptionensis	Moraxella bovis	0.899254877203	Mixed	#cccccc
+1013	Prevotella conceptionensis	Moraxella bovoculi	0.913327440652	Mixed	#cccccc
+1014	Prevotella conceptionensis	Moraxella caprae	0.913327440652	Mixed	#cccccc
+1015	Prevotella conceptionensis	Moraxella catarrhalis	0.911212999132	Mixed	#cccccc
+1016	Prevotella conceptionensis	Moraxella macacae	0.913327440652	Mixed	#cccccc
+1017	Prevotella conceptionensis	Neisseria sp. oral taxon 014	0.890951251713	Mixed	#cccccc
+1018	Prevotella conceptionensis	Ottowia sp. oral taxon 894	0.912704679649	Mixed	#cccccc
+1019	Prevotella conceptionensis	Paracoccus sp. TRP	0.913327440652	Mixed	#cccccc
+1020	Prevotella conceptionensis	Porphyromonadaceae bacterium COT-184 OH4590	0.913327440652	Subgingival_plaque	#ffac5c
+1021	Prevotella conceptionensis	Porphyromonas catoniae	0.846663269245	Subgingival_plaque	#ffac5c
+1022	Prevotella conceptionensis	Porphyromonas sp. oral taxon 278	0.922571679615	Mixed	#cccccc
+1023	Prevotella loescheii	Acidovorax avenae	0.920393752442	Mixed	#cccccc
+1024	Prevotella loescheii	Actinomyces dentalis	0.917399755476	Subgingival_plaque	#ffac5c
+1025	Prevotella loescheii	Actinomyces gerencseriae	0.91492481766	Subgingival_plaque	#ffac5c
+1026	Prevotella loescheii	Actinomyces johnsonii	0.903126067889	Subgingival_plaque	#ffac5c
+1027	Prevotella loescheii	Actinomyces massiliensis	0.874008198255	Mixed	#cccccc
+1028	Prevotella loescheii	Actinomyces naeslundii	0.897102004545	Mixed	#cccccc
+1029	Prevotella loescheii	Actinomyces sp. oral taxon 170	0.897955016353	Mixed	#cccccc
+1030	Prevotella loescheii	Actinomyces sp. oral taxon 414	0.896126110322	Subgingival_plaque	#ffac5c
+1031	Prevotella loescheii	Actinomyces sp. oral taxon 848	0.908520875665	Mixed	#cccccc
+1032	Prevotella loescheii	Actinomyces sp. oral taxon 849	0.920393752442	Mixed	#cccccc
+1033	Prevotella loescheii	Aggregatibacter segnis	0.814743926859	Mixed	#cccccc
+1034	Prevotella loescheii	Bacteroidetes oral taxon 274	0.926011440021	Subgingival_plaque	#ffac5c
+1035	Prevotella loescheii	Bergeyella zoohelcum	0.920393752442	Mixed	#cccccc
+1036	Prevotella loescheii	Campylobacter fetus	0.920393752442	Mixed	#cccccc
+1037	Prevotella loescheii	Campylobacter gracilis	0.906312146242	Subgingival_plaque	#ffac5c
+1038	Prevotella loescheii	Capnocytophaga cynodegmi	0.920393752442	Mixed	#cccccc
+1039	Prevotella loescheii	Capnocytophaga sp. oral taxon 332	0.915083525999	Mixed	#cccccc
+1040	Prevotella loescheii	Capnocytophaga sp. oral taxon 412	0.848478441827	Mixed	#cccccc
+1041	Prevotella loescheii	Cardiobacterium hominis	0.92013884764	Subgingival_plaque	#ffac5c
+1042	Prevotella loescheii	Cardiobacterium valvarum	0.80012284933	Subgingival_plaque	#ffac5c
+1043	Prevotella loescheii	Centipeda periodontii	0.869198395175	Subgingival_plaque	#ffac5c
+1044	Prevotella loescheii	Corynebacterium matruchotii	0.916452996719	Mixed	#cccccc
+1045	Prevotella loescheii	Fusobacterium hwasookii	0.865139718173	Mixed	#cccccc
+1046	Prevotella loescheii	Gemella morbillorum	0.889577693476	Mixed	#cccccc
+1047	Prevotella loescheii	Kingella denitrificans	0.858494292624	Mixed	#cccccc
+1048	Prevotella loescheii	Lachnospiraceae bacterium oral taxon 500	0.917798771549	Mixed	#cccccc
+1049	Prevotella loescheii	Lautropia mirabilis	0.877691839776	Mixed	#cccccc
+1050	Prevotella loescheii	Leptotrichia buccalis	0.896060951353	Mixed	#cccccc
+1051	Prevotella loescheii	Leptotrichia sp. oral taxon 212	0.935155006315	Mixed	#cccccc
+1052	Prevotella loescheii	Moraxella bovis	0.9077094072	Mixed	#cccccc
+1053	Prevotella loescheii	Moraxella bovoculi	0.920393752442	Mixed	#cccccc
+1054	Prevotella loescheii	Moraxella caprae	0.920393752442	Mixed	#cccccc
+1055	Prevotella loescheii	Moraxella catarrhalis	0.916743993567	Mixed	#cccccc
+1056	Prevotella loescheii	Moraxella macacae	0.920393752442	Mixed	#cccccc
+1057	Prevotella loescheii	Neisseria sp. oral taxon 014	0.912068762036	Mixed	#cccccc
+1058	Prevotella loescheii	Ottowia sp. oral taxon 894	0.92041409594	Mixed	#cccccc
+1059	Prevotella loescheii	Paracoccus sp. TRP	0.920393752442	Mixed	#cccccc
+1060	Prevotella loescheii	Porphyromonadaceae bacterium COT-184 OH4590	0.920393752442	Subgingival_plaque	#ffac5c
+1061	Prevotella loescheii	Porphyromonas catoniae	0.853427699887	Subgingival_plaque	#ffac5c
+1062	Prevotella loescheii	Porphyromonas sp. oral taxon 278	0.921046212688	Mixed	#cccccc
+1063	Prevotella loescheii	Prevotella conceptionensis	0.929662438836	Subgingival_plaque	#ffac5c
+1064	Prevotella maculosa	Actinomyces naeslundii	0.800363618912	Mixed	#cccccc
+1065	Prevotella maculosa	Campylobacter gracilis	0.805963019564	Subgingival_plaque	#ffac5c
+1066	Prevotella nigrescens	Acidovorax avenae	0.889780096235	Mixed	#cccccc
+1067	Prevotella nigrescens	Actinomyces dentalis	0.89044166994	Subgingival_plaque	#ffac5c
+1068	Prevotella nigrescens	Actinomyces gerencseriae	0.886228763629	Subgingival_plaque	#ffac5c
+1069	Prevotella nigrescens	Actinomyces johnsonii	0.871240582361	Subgingival_plaque	#ffac5c
+1070	Prevotella nigrescens	Actinomyces massiliensis	0.861543495778	Mixed	#cccccc
+1071	Prevotella nigrescens	Actinomyces naeslundii	0.876183415395	Mixed	#cccccc
+1072	Prevotella nigrescens	Actinomyces sp. oral taxon 170	0.874389503965	Mixed	#cccccc
+1073	Prevotella nigrescens	Actinomyces sp. oral taxon 414	0.866268543798	Subgingival_plaque	#ffac5c
+1074	Prevotella nigrescens	Actinomyces sp. oral taxon 848	0.881126169914	Mixed	#cccccc
+1075	Prevotella nigrescens	Actinomyces sp. oral taxon 849	0.889780096235	Mixed	#cccccc
+1076	Prevotella nigrescens	Bacteroidetes oral taxon 274	0.896640557121	Subgingival_plaque	#ffac5c
+1077	Prevotella nigrescens	Bergeyella zoohelcum	0.889780096235	Mixed	#cccccc
+1078	Prevotella nigrescens	Campylobacter fetus	0.889780096235	Mixed	#cccccc
+1079	Prevotella nigrescens	Campylobacter gracilis	0.885411316381	Subgingival_plaque	#ffac5c
+1080	Prevotella nigrescens	Capnocytophaga cynodegmi	0.889780096235	Mixed	#cccccc
+1081	Prevotella nigrescens	Capnocytophaga sp. oral taxon 332	0.832233211844	Mixed	#cccccc
+1082	Prevotella nigrescens	Cardiobacterium hominis	0.884090599557	Subgingival_plaque	#ffac5c
+1083	Prevotella nigrescens	Centipeda periodontii	0.827680918607	Subgingival_plaque	#ffac5c
+1084	Prevotella nigrescens	Corynebacterium matruchotii	0.886145423154	Mixed	#cccccc
+1085	Prevotella nigrescens	Kingella denitrificans	0.822189913726	Mixed	#cccccc
+1086	Prevotella nigrescens	Lachnospiraceae bacterium oral taxon 500	0.876380795146	Mixed	#cccccc
+1087	Prevotella nigrescens	Leptotrichia buccalis	0.879126284084	Mixed	#cccccc
+1088	Prevotella nigrescens	Leptotrichia sp. oral taxon 212	0.876784258819	Mixed	#cccccc
+1089	Prevotella nigrescens	Moraxella bovis	0.874285134064	Mixed	#cccccc
+1090	Prevotella nigrescens	Moraxella bovoculi	0.889780096235	Mixed	#cccccc
+1091	Prevotella nigrescens	Moraxella caprae	0.889780096235	Mixed	#cccccc
+1092	Prevotella nigrescens	Moraxella catarrhalis	0.883430931019	Mixed	#cccccc
+1093	Prevotella nigrescens	Moraxella macacae	0.889780096235	Mixed	#cccccc
+1094	Prevotella nigrescens	Neisseria sp. oral taxon 014	0.872914897846	Mixed	#cccccc
+1095	Prevotella nigrescens	Ottowia sp. oral taxon 894	0.889825683313	Mixed	#cccccc
+1096	Prevotella nigrescens	Paracoccus sp. TRP	0.889780096235	Mixed	#cccccc
+1097	Prevotella nigrescens	Porphyromonadaceae bacterium COT-184 OH4590	0.889780096235	Subgingival_plaque	#ffac5c
+1098	Prevotella nigrescens	Porphyromonas sp. oral taxon 278	0.875978734308	Mixed	#cccccc
+1099	Prevotella nigrescens	Prevotella conceptionensis	0.874036557162	Subgingival_plaque	#ffac5c
+1100	Prevotella nigrescens	Prevotella loescheii	0.868226359598	Subgingival_plaque	#ffac5c
+1101	Prevotella saccharolytica	Acidovorax avenae	0.998904879975	Mixed	#cccccc
+1102	Prevotella saccharolytica	Actinobaculum sp. oral taxon 183	0.854223008114	Subgingival_plaque	#ffac5c
+1103	Prevotella saccharolytica	Actinomyces dentalis	0.996082270885	Subgingival_plaque	#ffac5c
+1104	Prevotella saccharolytica	Actinomyces gerencseriae	0.99166668131	Subgingival_plaque	#ffac5c
+1105	Prevotella saccharolytica	Actinomyces johnsonii	0.982800009646	Subgingival_plaque	#ffac5c
+1106	Prevotella saccharolytica	Actinomyces massiliensis	0.961152939667	Mixed	#cccccc
+1107	Prevotella saccharolytica	Actinomyces naeslundii	0.968146325323	Mixed	#cccccc
+1108	Prevotella saccharolytica	Actinomyces sp. oral taxon 170	0.982974452754	Mixed	#cccccc
+1109	Prevotella saccharolytica	Actinomyces sp. oral taxon 414	0.967231483582	Subgingival_plaque	#ffac5c
+1110	Prevotella saccharolytica	Actinomyces sp. oral taxon 848	0.990881347415	Mixed	#cccccc
+1111	Prevotella saccharolytica	Actinomyces sp. oral taxon 849	0.998904879975	Mixed	#cccccc
+1112	Prevotella saccharolytica	Aggregatibacter segnis	0.842290142252	Mixed	#cccccc
+1113	Prevotella saccharolytica	Bacteroidetes oral taxon 274	0.989665999867	Subgingival_plaque	#ffac5c
+1114	Prevotella saccharolytica	Bergeyella zoohelcum	0.998904879975	Mixed	#cccccc
+1115	Prevotella saccharolytica	Campylobacter fetus	0.998904879975	Mixed	#cccccc
+1116	Prevotella saccharolytica	Campylobacter gracilis	0.972031055744	Subgingival_plaque	#ffac5c
+1117	Prevotella saccharolytica	Capnocytophaga cynodegmi	0.998904879975	Mixed	#cccccc
+1118	Prevotella saccharolytica	Capnocytophaga ochracea	0.810371482321	Mixed	#cccccc
+1119	Prevotella saccharolytica	Capnocytophaga sp. oral taxon 332	0.943143259312	Mixed	#cccccc
+1120	Prevotella saccharolytica	Capnocytophaga sp. oral taxon 412	0.879147374254	Mixed	#cccccc
+1121	Prevotella saccharolytica	Cardiobacterium hominis	0.993782892213	Subgingival_plaque	#ffac5c
+1122	Prevotella saccharolytica	Cardiobacterium valvarum	0.84555341091	Subgingival_plaque	#ffac5c
+1123	Prevotella saccharolytica	Centipeda periodontii	0.919172505536	Subgingival_plaque	#ffac5c
+1124	Prevotella saccharolytica	Corynebacterium matruchotii	0.995016757465	Mixed	#cccccc
+1125	Prevotella saccharolytica	Fusobacterium hwasookii	0.893273962725	Mixed	#cccccc
+1126	Prevotella saccharolytica	Gemella morbillorum	0.906691386688	Mixed	#cccccc
+1127	Prevotella saccharolytica	Kingella denitrificans	0.921583948113	Mixed	#cccccc
+1128	Prevotella saccharolytica	Lachnospiraceae bacterium oral taxon 500	0.951822682694	Mixed	#cccccc
+1129	Prevotella saccharolytica	Lautropia mirabilis	0.938248063059	Mixed	#cccccc
+1130	Prevotella saccharolytica	Leptotrichia buccalis	0.959713397542	Mixed	#cccccc
+1131	Prevotella saccharolytica	Leptotrichia sp. oral taxon 212	0.975704971848	Mixed	#cccccc
+1132	Prevotella saccharolytica	[Mannheimia] succiniciproducens	0.824838938957	Mixed	#cccccc
+1133	Prevotella saccharolytica	Moraxella bovis	0.980475176022	Mixed	#cccccc
+1134	Prevotella saccharolytica	Moraxella bovoculi	0.998904879975	Mixed	#cccccc
+1135	Prevotella saccharolytica	Moraxella caprae	0.998904879975	Mixed	#cccccc
+1136	Prevotella saccharolytica	Moraxella catarrhalis	0.994175375241	Mixed	#cccccc
+1137	Prevotella saccharolytica	Moraxella macacae	0.998904879975	Mixed	#cccccc
+1138	Prevotella saccharolytica	Neisseria sp. oral taxon 014	0.973773810474	Mixed	#cccccc
+1139	Prevotella saccharolytica	Ottowia sp. oral taxon 894	0.998620324287	Mixed	#cccccc
+1140	Prevotella saccharolytica	Paracoccus sp. TRP	0.998904879975	Mixed	#cccccc
+1141	Prevotella saccharolytica	Porphyromonadaceae bacterium COT-184 OH4590	0.998904879975	Subgingival_plaque	#ffac5c
+1142	Prevotella saccharolytica	Porphyromonas catoniae	0.873501561283	Subgingival_plaque	#ffac5c
+1143	Prevotella saccharolytica	Porphyromonas sp. oral taxon 278	0.962415906644	Mixed	#cccccc
+1144	Prevotella saccharolytica	Prevotella conceptionensis	0.919576561707	Subgingival_plaque	#ffac5c
+1145	Prevotella saccharolytica	Prevotella loescheii	0.92733852219	Subgingival_plaque	#ffac5c
+1146	Prevotella saccharolytica	Prevotella nigrescens	0.894423009215	Subgingival_plaque	#ffac5c
+1147	Prevotella sp. 109	Bacteroides coprocola	0.973174783098	Stool	#e8cb72
+1148	Prevotella sp. 109	Bifidobacterium bifidum	0.925585796001	Stool	#e8cb72
+1149	Prevotella sp. 109	Bifidobacterium breve	1.0	Mixed	#cccccc
+1150	Prevotella sp. ICM33	Prevotella melaninogenica	0.954076364647	Mixed	#cccccc
+1151	Prevotella sp. oral taxon 299	Prevotella nanceiensis	0.995179312105	Mixed	#cccccc
+1152	Prevotella sp. oral taxon 317	Acidovorax avenae	0.856993117218	Mixed	#cccccc
+1153	Prevotella sp. oral taxon 317	Actinomyces dentalis	0.851956170448	Subgingival_plaque	#ffac5c
+1154	Prevotella sp. oral taxon 317	Actinomyces gerencseriae	0.848909513673	Subgingival_plaque	#ffac5c
+1155	Prevotella sp. oral taxon 317	Actinomyces johnsonii	0.833429412605	Subgingival_plaque	#ffac5c
+1156	Prevotella sp. oral taxon 317	Actinomyces massiliensis	0.809962564372	Mixed	#cccccc
+1157	Prevotella sp. oral taxon 317	Actinomyces naeslundii	0.839939036367	Mixed	#cccccc
+1158	Prevotella sp. oral taxon 317	Actinomyces sp. oral taxon 170	0.832811318932	Mixed	#cccccc
+1159	Prevotella sp. oral taxon 317	Actinomyces sp. oral taxon 414	0.822928646919	Subgingival_plaque	#ffac5c
+1160	Prevotella sp. oral taxon 317	Actinomyces sp. oral taxon 848	0.8486662415	Mixed	#cccccc
+1161	Prevotella sp. oral taxon 317	Actinomyces sp. oral taxon 849	0.856993117218	Mixed	#cccccc
+1162	Prevotella sp. oral taxon 317	Bacteroidetes oral taxon 274	0.852758201077	Subgingival_plaque	#ffac5c
+1163	Prevotella sp. oral taxon 317	Bergeyella zoohelcum	0.856993117218	Mixed	#cccccc
+1164	Prevotella sp. oral taxon 317	Campylobacter fetus	0.856993117218	Mixed	#cccccc
+1165	Prevotella sp. oral taxon 317	Campylobacter gracilis	0.834383616865	Subgingival_plaque	#ffac5c
+1166	Prevotella sp. oral taxon 317	Capnocytophaga cynodegmi	0.856993117218	Mixed	#cccccc
+1167	Prevotella sp. oral taxon 317	Capnocytophaga sp. oral taxon 332	0.855035429045	Mixed	#cccccc
+1168	Prevotella sp. oral taxon 317	Capnocytophaga sp. oral taxon 412	0.813565917071	Mixed	#cccccc
+1169	Prevotella sp. oral taxon 317	Cardiobacterium hominis	0.854919373578	Subgingival_plaque	#ffac5c
+1170	Prevotella sp. oral taxon 317	Centipeda periodontii	0.827048224339	Subgingival_plaque	#ffac5c
+1171	Prevotella sp. oral taxon 317	Corynebacterium matruchotii	0.852907161203	Mixed	#cccccc
+1172	Prevotella sp. oral taxon 317	Fusobacterium hwasookii	0.845166605803	Mixed	#cccccc
+1173	Prevotella sp. oral taxon 317	Gemella morbillorum	0.835112069524	Mixed	#cccccc
+1174	Prevotella sp. oral taxon 317	Kingella denitrificans	0.802969297168	Mixed	#cccccc
+1175	Prevotella sp. oral taxon 317	Lachnospiraceae bacterium oral taxon 500	0.860706552603	Mixed	#cccccc
+1176	Prevotella sp. oral taxon 317	Leptotrichia buccalis	0.828310847848	Mixed	#cccccc
+1177	Prevotella sp. oral taxon 317	Leptotrichia sp. oral taxon 212	0.890207590317	Mixed	#cccccc
+1178	Prevotella sp. oral taxon 317	Moraxella bovis	0.840234231251	Mixed	#cccccc
+1179	Prevotella sp. oral taxon 317	Moraxella bovoculi	0.856993117218	Mixed	#cccccc
+1180	Prevotella sp. oral taxon 317	Moraxella caprae	0.856993117218	Mixed	#cccccc
+1181	Prevotella sp. oral taxon 317	Moraxella catarrhalis	0.8531822425	Mixed	#cccccc
+1182	Prevotella sp. oral taxon 317	Moraxella macacae	0.856993117218	Mixed	#cccccc
+1183	Prevotella sp. oral taxon 317	Neisseria sp. oral taxon 014	0.849699134625	Mixed	#cccccc
+1184	Prevotella sp. oral taxon 317	Ottowia sp. oral taxon 894	0.857127733283	Mixed	#cccccc
+1185	Prevotella sp. oral taxon 317	Paracoccus sp. TRP	0.856993117218	Mixed	#cccccc
+1186	Prevotella sp. oral taxon 317	Porphyromonadaceae bacterium COT-184 OH4590	0.856993117218	Subgingival_plaque	#ffac5c
+1187	Prevotella sp. oral taxon 317	Porphyromonas sp. oral taxon 278	0.877988294432	Mixed	#cccccc
+1188	Prevotella sp. oral taxon 317	Prevotella conceptionensis	0.928562522381	Subgingival_plaque	#ffac5c
+1189	Prevotella sp. oral taxon 317	Prevotella loescheii	0.882741762176	Subgingival_plaque	#ffac5c
+1190	Prevotella sp. oral taxon 317	Prevotella saccharolytica	0.861824478706	Subgingival_plaque	#ffac5c
+1191	Prevotella sp. oral taxon 472	Acidovorax avenae	0.805087682753	Mixed	#cccccc
+1192	Prevotella sp. oral taxon 472	Actinomyces dentalis	0.802020074883	Subgingival_plaque	#ffac5c
+1193	Prevotella sp. oral taxon 472	Actinomyces sp. oral taxon 849	0.805087682753	Mixed	#cccccc
+1194	Prevotella sp. oral taxon 472	Bacteroidetes oral taxon 274	0.811460150773	Subgingival_plaque	#ffac5c
+1195	Prevotella sp. oral taxon 472	Bergeyella zoohelcum	0.805087682753	Mixed	#cccccc
+1196	Prevotella sp. oral taxon 472	Campylobacter fetus	0.805087682753	Mixed	#cccccc
+1197	Prevotella sp. oral taxon 472	Capnocytophaga cynodegmi	0.805087682753	Mixed	#cccccc
+1198	Prevotella sp. oral taxon 472	Capnocytophaga ochracea	0.802070704146	Mixed	#cccccc
+1199	Prevotella sp. oral taxon 472	Capnocytophaga sp. oral taxon 332	0.856840115592	Mixed	#cccccc
+1200	Prevotella sp. oral taxon 472	Cardiobacterium hominis	0.824592389808	Subgingival_plaque	#ffac5c
+1201	Prevotella sp. oral taxon 472	Fusobacterium hwasookii	0.805370089045	Mixed	#cccccc
+1202	Prevotella sp. oral taxon 472	Gemella morbillorum	0.810096902953	Mixed	#cccccc
+1203	Prevotella sp. oral taxon 472	Lachnospiraceae bacterium oral taxon 500	0.851955533692	Mixed	#cccccc
+1204	Prevotella sp. oral taxon 472	Leptotrichia goodfellowii	0.838263101034	Subgingival_plaque	#ffac5c
+1205	Prevotella sp. oral taxon 472	Leptotrichia sp. oral taxon 212	0.871826347964	Mixed	#cccccc
+1206	Prevotella sp. oral taxon 472	Moraxella bovoculi	0.805087682753	Mixed	#cccccc
+1207	Prevotella sp. oral taxon 472	Moraxella caprae	0.805087682753	Mixed	#cccccc
+1208	Prevotella sp. oral taxon 472	Moraxella macacae	0.805087682753	Mixed	#cccccc
+1209	Prevotella sp. oral taxon 472	Neisseria sp. oral taxon 014	0.809093419489	Mixed	#cccccc
+1210	Prevotella sp. oral taxon 472	Ottowia sp. oral taxon 894	0.806856336212	Mixed	#cccccc
+1211	Prevotella sp. oral taxon 472	Paracoccus sp. TRP	0.805087682753	Mixed	#cccccc
+1212	Prevotella sp. oral taxon 472	Porphyromonadaceae bacterium COT-184 OH4590	0.805087682753	Subgingival_plaque	#ffac5c
+1213	Prevotella sp. oral taxon 472	Porphyromonas sp. oral taxon 278	0.846992704106	Mixed	#cccccc
+1214	Prevotella sp. oral taxon 472	Prevotella conceptionensis	0.867515101903	Subgingival_plaque	#ffac5c
+1215	Prevotella sp. oral taxon 472	Prevotella loescheii	0.875920108786	Subgingival_plaque	#ffac5c
+1216	Prevotella sp. oral taxon 472	Prevotella saccharolytica	0.81412409104	Subgingival_plaque	#ffac5c
+1217	Prevotella sp. oral taxon 472	Prevotella sp. oral taxon 317	0.891573866245	Subgingival_plaque	#ffac5c
+1218	Propionibacterium acidifaciens	[Eubacterium] nodatum	0.898044436168	Subgingival_plaque	#ffac5c
+1219	Propionibacterium acidifaciens	Lachnospiraceae bacterium 7_1_58FAA	0.942431258756	Mixed	#cccccc
+1220	Propionibacterium acidifaciens	Olsenella profusa	0.942431258756	Subgingival_plaque	#ffac5c
+1221	Propionibacterium acidifaciens	Prevotella baroniae	0.86172029179	Mixed	#cccccc
+1222	Propionibacterium propionicum	Abiotrophia defectiva	0.823566234632	Mixed	#cccccc
+1223	Propionibacterium propionicum	Acidovorax avenae	0.972996618538	Mixed	#cccccc
+1224	Propionibacterium propionicum	Actinobaculum sp. oral taxon 183	0.879907530693	Subgingival_plaque	#ffac5c
+1225	Propionibacterium propionicum	Actinomyces dentalis	0.977426770238	Subgingival_plaque	#ffac5c
+1226	Propionibacterium propionicum	Actinomyces gerencseriae	0.976014660958	Subgingival_plaque	#ffac5c
+1227	Propionibacterium propionicum	Actinomyces johnsonii	0.969288446011	Subgingival_plaque	#ffac5c
+1228	Propionibacterium propionicum	Actinomyces massiliensis	0.957293073335	Mixed	#cccccc
+1229	Propionibacterium propionicum	Actinomyces naeslundii	0.972203241995	Mixed	#cccccc
+1230	Propionibacterium propionicum	Actinomyces sp. oral taxon 170	0.961186390237	Mixed	#cccccc
+1231	Propionibacterium propionicum	Actinomyces sp. oral taxon 414	0.970019227742	Subgingival_plaque	#ffac5c
+1232	Propionibacterium propionicum	Actinomyces sp. oral taxon 848	0.974784077002	Mixed	#cccccc
+1233	Propionibacterium propionicum	Actinomyces sp. oral taxon 849	0.972996618538	Mixed	#cccccc
+1234	Propionibacterium propionicum	Aggregatibacter segnis	0.84435655922	Mixed	#cccccc
+1235	Propionibacterium propionicum	Bacteroidetes oral taxon 274	0.97483026147	Subgingival_plaque	#ffac5c
+1236	Propionibacterium propionicum	Bergeyella zoohelcum	0.972996618538	Mixed	#cccccc
+1237	Propionibacterium propionicum	Campylobacter fetus	0.972996618538	Mixed	#cccccc
+1238	Propionibacterium propionicum	Campylobacter gracilis	0.965274496239	Subgingival_plaque	#ffac5c
+1239	Propionibacterium propionicum	Capnocytophaga cynodegmi	0.972996618538	Mixed	#cccccc
+1240	Propionibacterium propionicum	Capnocytophaga sp. oral taxon 332	0.917401632715	Mixed	#cccccc
+1241	Propionibacterium propionicum	Capnocytophaga sp. oral taxon 412	0.848146302923	Mixed	#cccccc
+1242	Propionibacterium propionicum	Cardiobacterium hominis	0.981903629412	Subgingival_plaque	#ffac5c
+1243	Propionibacterium propionicum	Cardiobacterium valvarum	0.887304023459	Subgingival_plaque	#ffac5c
+1244	Propionibacterium propionicum	Centipeda periodontii	0.888327281697	Subgingival_plaque	#ffac5c
+1245	Propionibacterium propionicum	Corynebacterium matruchotii	0.976951473536	Mixed	#cccccc
+1246	Propionibacterium propionicum	Fusobacterium hwasookii	0.862459544515	Mixed	#cccccc
+1247	Propionibacterium propionicum	Gemella morbillorum	0.895501292053	Mixed	#cccccc
+1248	Propionibacterium propionicum	Kingella denitrificans	0.914685381257	Mixed	#cccccc
+1249	Propionibacterium propionicum	Lachnospiraceae bacterium oral taxon 500	0.928868132151	Mixed	#cccccc
+1250	Propionibacterium propionicum	Lautropia mirabilis	0.946111084744	Mixed	#cccccc
+1251	Propionibacterium propionicum	Leptotrichia buccalis	0.93108323107	Mixed	#cccccc
+1252	Propionibacterium propionicum	Leptotrichia sp. oral taxon 212	0.948213481878	Mixed	#cccccc
+1253	Propionibacterium propionicum	[Mannheimia] succiniciproducens	0.810620340259	Mixed	#cccccc
+1254	Propionibacterium propionicum	Moraxella bovis	0.950114764258	Mixed	#cccccc
+1255	Propionibacterium propionicum	Moraxella bovoculi	0.972996618538	Mixed	#cccccc
+1256	Propionibacterium propionicum	Moraxella caprae	0.972996618538	Mixed	#cccccc
+1257	Propionibacterium propionicum	Moraxella catarrhalis	0.969842499118	Mixed	#cccccc
+1258	Propionibacterium propionicum	Moraxella macacae	0.972996618538	Mixed	#cccccc
+1259	Propionibacterium propionicum	Neisseria sp. oral taxon 014	0.980277320246	Mixed	#cccccc
+1260	Propionibacterium propionicum	Ottowia sp. oral taxon 894	0.973541326167	Mixed	#cccccc
+1261	Propionibacterium propionicum	Paracoccus sp. TRP	0.972996618538	Mixed	#cccccc
+1262	Propionibacterium propionicum	Porphyromonadaceae bacterium COT-184 OH4590	0.972996618538	Subgingival_plaque	#ffac5c
+1263	Propionibacterium propionicum	Porphyromonas catoniae	0.88629416094	Subgingival_plaque	#ffac5c
+1264	Propionibacterium propionicum	Porphyromonas sp. oral taxon 278	0.945678372571	Mixed	#cccccc
+1265	Propionibacterium propionicum	Prevotella conceptionensis	0.895695016628	Subgingival_plaque	#ffac5c
+1266	Propionibacterium propionicum	Prevotella loescheii	0.913477916447	Subgingival_plaque	#ffac5c
+1267	Propionibacterium propionicum	Prevotella nigrescens	0.87138469298	Subgingival_plaque	#ffac5c
+1268	Propionibacterium propionicum	Prevotella saccharolytica	0.9760586727	Subgingival_plaque	#ffac5c
+1269	Propionibacterium propionicum	Prevotella sp. oral taxon 317	0.836183790861	Subgingival_plaque	#ffac5c
+1270	Propionibacterium propionicum	Prevotella sp. oral taxon 472	0.803277124767	Subgingival_plaque	#ffac5c
+1271	Propionimicrobium lymphophilum	Arcanobacterium sp. S3PF19	0.846086401461	Mixed	#cccccc
+1272	Roseburia faecis	Butyrivibrio crossotus	0.844045269124	Stool	#e8cb72
+1273	Roseburia intestinalis	Bacteroides gallinarum	1.0	Stool	#e8cb72
+1274	Roseburia intestinalis	Bacteroides thetaiotaomicron	1.0	Stool	#e8cb72
+1275	Ruminococcus bicirculans	[Clostridium] innocuum	1.0	Stool	#e8cb72
+1276	Sebaldella termitidis	Dialister invisus	0.865741984131	Mixed	#cccccc
+1277	Selenomonas infelix	Acidovorax avenae	0.999298257327	Mixed	#cccccc
+1278	Selenomonas infelix	Actinobaculum sp. oral taxon 183	0.850320212583	Mixed	#cccccc
+1279	Selenomonas infelix	Actinomyces dentalis	0.995917026969	Mixed	#cccccc
+1280	Selenomonas infelix	Actinomyces gerencseriae	0.991182264252	Mixed	#cccccc
+1281	Selenomonas infelix	Actinomyces johnsonii	0.980664013519	Mixed	#cccccc
+1282	Selenomonas infelix	Actinomyces massiliensis	0.960069455716	Mixed	#cccccc
+1283	Selenomonas infelix	Actinomyces naeslundii	0.965316794264	Mixed	#cccccc
+1284	Selenomonas infelix	Actinomyces sp. oral taxon 170	0.982656208193	Mixed	#cccccc
+1285	Selenomonas infelix	Actinomyces sp. oral taxon 414	0.963457198176	Mixed	#cccccc
+1286	Selenomonas infelix	Actinomyces sp. oral taxon 848	0.990241997093	Mixed	#cccccc
+1287	Selenomonas infelix	Actinomyces sp. oral taxon 849	0.999298257327	Mixed	#cccccc
+1288	Selenomonas infelix	Aggregatibacter segnis	0.825907285094	Mixed	#cccccc
+1289	Selenomonas infelix	Bacteroidetes oral taxon 274	0.986793832947	Mixed	#cccccc
+1290	Selenomonas infelix	Bergeyella zoohelcum	0.999298257327	Mixed	#cccccc
+1291	Selenomonas infelix	Campylobacter fetus	0.999298257327	Mixed	#cccccc
+1292	Selenomonas infelix	Campylobacter gracilis	0.969508907251	Mixed	#cccccc
+1293	Selenomonas infelix	Capnocytophaga cynodegmi	0.999298257327	Mixed	#cccccc
+1294	Selenomonas infelix	Capnocytophaga sp. oral taxon 332	0.938343930876	Mixed	#cccccc
+1295	Selenomonas infelix	Capnocytophaga sp. oral taxon 412	0.878645020578	Mixed	#cccccc
+1296	Selenomonas infelix	Cardiobacterium hominis	0.991869995802	Mixed	#cccccc
+1297	Selenomonas infelix	Cardiobacterium valvarum	0.829415314906	Mixed	#cccccc
+1298	Selenomonas infelix	Centipeda periodontii	0.930527030381	Mixed	#cccccc
+1299	Selenomonas infelix	Corynebacterium matruchotii	0.99366888086	Mixed	#cccccc
+1300	Selenomonas infelix	Fusobacterium hwasookii	0.886285368786	Mixed	#cccccc
+1301	Selenomonas infelix	Gemella morbillorum	0.90353194547	Attached	#622ffe
+1302	Selenomonas infelix	Kingella denitrificans	0.919551434494	Mixed	#cccccc
+1303	Selenomonas infelix	Lachnospiraceae bacterium oral taxon 500	0.947713753718	Mixed	#cccccc
+1304	Selenomonas infelix	Lautropia mirabilis	0.930061513917	Mixed	#cccccc
+1305	Selenomonas infelix	Leptotrichia buccalis	0.963666368803	Mixed	#cccccc
+1306	Selenomonas infelix	Leptotrichia sp. oral taxon 212	0.97107053963	Mixed	#cccccc
+1307	Selenomonas infelix	[Mannheimia] succiniciproducens	0.813677474358	Mixed	#cccccc
+1308	Selenomonas infelix	Moraxella bovis	0.979193179152	Mixed	#cccccc
+1309	Selenomonas infelix	Moraxella bovoculi	0.999298257327	Mixed	#cccccc
+1310	Selenomonas infelix	Moraxella caprae	0.999298257327	Mixed	#cccccc
+1311	Selenomonas infelix	Moraxella catarrhalis	0.992241258657	Mixed	#cccccc
+1312	Selenomonas infelix	Moraxella macacae	0.999298257327	Mixed	#cccccc
+1313	Selenomonas infelix	Neisseria sp. oral taxon 014	0.971815020113	Mixed	#cccccc
+1314	Selenomonas infelix	Ottowia sp. oral taxon 894	0.999088301567	Mixed	#cccccc
+1315	Selenomonas infelix	Paracoccus sp. TRP	0.999298257327	Mixed	#cccccc
+1316	Selenomonas infelix	Porphyromonadaceae bacterium COT-184 OH4590	0.999298257327	Mixed	#cccccc
+1317	Selenomonas infelix	Porphyromonas catoniae	0.857453200247	Mixed	#cccccc
+1318	Selenomonas infelix	Porphyromonas sp. oral taxon 278	0.954154797801	Mixed	#cccccc
+1319	Selenomonas infelix	Prevotella conceptionensis	0.912879669578	Mixed	#cccccc
+1320	Selenomonas infelix	Prevotella loescheii	0.921504648696	Mixed	#cccccc
+1321	Selenomonas infelix	Prevotella nigrescens	0.891160348514	Mixed	#cccccc
+1322	Selenomonas infelix	Prevotella saccharolytica	0.998334561731	Mixed	#cccccc
+1323	Selenomonas infelix	Prevotella sp. oral taxon 317	0.858547133535	Mixed	#cccccc
+1324	Selenomonas infelix	Prevotella sp. oral taxon 472	0.803728411047	Mixed	#cccccc
+1325	Selenomonas infelix	Propionibacterium propionicum	0.97240551731	Mixed	#cccccc
+1326	Selenomonas noxia	Acidovorax avenae	0.988784601696	Supragingival_plaque	#ff8646
+1327	Selenomonas noxia	Actinobaculum sp. oral taxon 183	0.866401486754	Mixed	#cccccc
+1328	Selenomonas noxia	Actinomyces dentalis	0.991218840342	Mixed	#cccccc
+1329	Selenomonas noxia	Actinomyces gerencseriae	0.989627490169	Mixed	#cccccc
+1330	Selenomonas noxia	Actinomyces johnsonii	0.973021247359	Mixed	#cccccc
+1331	Selenomonas noxia	Actinomyces massiliensis	0.962043196742	Supragingival_plaque	#ff8646
+1332	Selenomonas noxia	Actinomyces naeslundii	0.975516735537	Supragingival_plaque	#ff8646
+1333	Selenomonas noxia	Actinomyces sp. oral taxon 170	0.976705290741	Supragingival_plaque	#ff8646
+1334	Selenomonas noxia	Actinomyces sp. oral taxon 414	0.963525546588	Mixed	#cccccc
+1335	Selenomonas noxia	Actinomyces sp. oral taxon 848	0.979564918344	Supragingival_plaque	#ff8646
+1336	Selenomonas noxia	Actinomyces sp. oral taxon 849	0.988784601696	Supragingival_plaque	#ff8646
+1337	Selenomonas noxia	Aggregatibacter segnis	0.81855075405	Supragingival_plaque	#ff8646
+1338	Selenomonas noxia	Bacteroidetes oral taxon 274	0.98147529585	Mixed	#cccccc
+1339	Selenomonas noxia	Bergeyella zoohelcum	0.988784601696	Mixed	#cccccc
+1340	Selenomonas noxia	Campylobacter fetus	0.988784601696	Mixed	#cccccc
+1341	Selenomonas noxia	Campylobacter gracilis	0.978243606322	Mixed	#cccccc
+1342	Selenomonas noxia	Capnocytophaga cynodegmi	0.988784601696	Mixed	#cccccc
+1343	Selenomonas noxia	Capnocytophaga sp. oral taxon 332	0.925379756207	Supragingival_plaque	#ff8646
+1344	Selenomonas noxia	Capnocytophaga sp. oral taxon 412	0.859497229317	Supragingival_plaque	#ff8646
+1345	Selenomonas noxia	Cardiobacterium hominis	0.983014866969	Mixed	#cccccc
+1346	Selenomonas noxia	Cardiobacterium valvarum	0.834377539579	Mixed	#cccccc
+1347	Selenomonas noxia	Centipeda periodontii	0.930524889015	Mixed	#cccccc
+1348	Selenomonas noxia	Corynebacterium matruchotii	0.9890420303	Supragingival_plaque	#ff8646
+1349	Selenomonas noxia	Fusobacterium hwasookii	0.876509114157	Supragingival_plaque	#ff8646
+1350	Selenomonas noxia	Gemella morbillorum	0.889591294169	Mixed	#cccccc
+1351	Selenomonas noxia	Kingella denitrificans	0.913488248102	Supragingival_plaque	#ff8646
+1352	Selenomonas noxia	Lachnospiraceae bacterium oral taxon 500	0.940614182498	Supragingival_plaque	#ff8646
+1353	Selenomonas noxia	Lautropia mirabilis	0.936489259964	Supragingival_plaque	#ff8646
+1354	Selenomonas noxia	Leptotrichia buccalis	0.960998592235	Supragingival_plaque	#ff8646
+1355	Selenomonas noxia	Leptotrichia sp. oral taxon 212	0.959185901963	Supragingival_plaque	#ff8646
+1356	Selenomonas noxia	[Mannheimia] succiniciproducens	0.816053978321	Mixed	#cccccc
+1357	Selenomonas noxia	Moraxella bovis	0.967792717328	Mixed	#cccccc
+1358	Selenomonas noxia	Moraxella bovoculi	0.988784601696	Mixed	#cccccc
+1359	Selenomonas noxia	Moraxella caprae	0.988784601696	Mixed	#cccccc
+1360	Selenomonas noxia	Moraxella catarrhalis	0.984016313724	Mixed	#cccccc
+1361	Selenomonas noxia	Moraxella macacae	0.988784601696	Mixed	#cccccc
+1362	Selenomonas noxia	Neisseria sp. oral taxon 014	0.967195349897	Supragingival_plaque	#ff8646
+1363	Selenomonas noxia	Ottowia sp. oral taxon 894	0.988869367933	Supragingival_plaque	#ff8646
+1364	Selenomonas noxia	Paracoccus sp. TRP	0.988784601696	Mixed	#cccccc
+1365	Selenomonas noxia	Porphyromonadaceae bacterium COT-184 OH4590	0.988784601696	Mixed	#cccccc
+1366	Selenomonas noxia	Porphyromonas catoniae	0.859253892562	Mixed	#cccccc
+1367	Selenomonas noxia	Porphyromonas sp. oral taxon 278	0.941457977426	Mixed	#cccccc
+1368	Selenomonas noxia	Prevotella conceptionensis	0.909182541843	Mixed	#cccccc
+1369	Selenomonas noxia	Prevotella loescheii	0.918487593816	Mixed	#cccccc
+1370	Selenomonas noxia	Prevotella maculosa	0.81436623105	Mixed	#cccccc
+1371	Selenomonas noxia	Prevotella nigrescens	0.89457075296	Mixed	#cccccc
+1372	Selenomonas noxia	Prevotella saccharolytica	0.989678759933	Mixed	#cccccc
+1373	Selenomonas noxia	Prevotella sp. oral taxon 317	0.852614131398	Mixed	#cccccc
+1374	Selenomonas noxia	Propionibacterium propionicum	0.971217713913	Mixed	#cccccc
+1375	Selenomonas noxia	Selenomonas infelix	0.991006743628	Mixed	#cccccc
+1376	Selenomonas sp. CM52	Selenomonas flueggei	0.812081489755	Mixed	#cccccc
+1377	Selenomonas sp. F0473	Acidovorax avenae	1.0	Supragingival_plaque	#ff8646
+1378	Selenomonas sp. F0473	Actinobaculum sp. oral taxon 183	0.85005384871	Mixed	#cccccc
+1379	Selenomonas sp. F0473	Actinomyces dentalis	0.996502494807	Mixed	#cccccc
+1380	Selenomonas sp. F0473	Actinomyces gerencseriae	0.991650582388	Mixed	#cccccc
+1381	Selenomonas sp. F0473	Actinomyces johnsonii	0.981525241445	Mixed	#cccccc
+1382	Selenomonas sp. F0473	Actinomyces massiliensis	0.959863121783	Supragingival_plaque	#ff8646
+1383	Selenomonas sp. F0473	Actinomyces naeslundii	0.965481273947	Supragingival_plaque	#ff8646
+1384	Selenomonas sp. F0473	Actinomyces sp. oral taxon 170	0.982587997185	Supragingival_plaque	#ff8646
+1385	Selenomonas sp. F0473	Actinomyces sp. oral taxon 414	0.964707734401	Mixed	#cccccc
+1386	Selenomonas sp. F0473	Actinomyces sp. oral taxon 848	0.990980305754	Supragingival_plaque	#ff8646
+1387	Selenomonas sp. F0473	Actinomyces sp. oral taxon 849	1.0	Supragingival_plaque	#ff8646
+1388	Selenomonas sp. F0473	Aggregatibacter segnis	0.830359388417	Supragingival_plaque	#ff8646
+1389	Selenomonas sp. F0473	Bacteroidetes oral taxon 274	0.987410100684	Mixed	#cccccc
+1390	Selenomonas sp. F0473	Bergeyella zoohelcum	1.0	Mixed	#cccccc
+1391	Selenomonas sp. F0473	Campylobacter fetus	1.0	Mixed	#cccccc
+1392	Selenomonas sp. F0473	Campylobacter gracilis	0.969431163171	Mixed	#cccccc
+1393	Selenomonas sp. F0473	Capnocytophaga cynodegmi	1.0	Mixed	#cccccc
+1394	Selenomonas sp. F0473	Capnocytophaga ochracea	0.802938487822	Supragingival_plaque	#ff8646
+1395	Selenomonas sp. F0473	Capnocytophaga sp. oral taxon 332	0.940456396589	Supragingival_plaque	#ff8646
+1396	Selenomonas sp. F0473	Capnocytophaga sp. oral taxon 412	0.879736492553	Supragingival_plaque	#ff8646
+1397	Selenomonas sp. F0473	Cardiobacterium hominis	0.993015254779	Mixed	#cccccc
+1398	Selenomonas sp. F0473	Cardiobacterium valvarum	0.83156226459	Mixed	#cccccc
+1399	Selenomonas sp. F0473	Centipeda periodontii	0.920555726176	Mixed	#cccccc
+1400	Selenomonas sp. F0473	Corynebacterium matruchotii	0.994222056277	Supragingival_plaque	#ff8646
+1401	Selenomonas sp. F0473	Fusobacterium hwasookii	0.888811211806	Supragingival_plaque	#ff8646
+1402	Selenomonas sp. F0473	Gemella morbillorum	0.902981048	Mixed	#cccccc
+1403	Selenomonas sp. F0473	Kingella denitrificans	0.920420959987	Supragingival_plaque	#ff8646
+1404	Selenomonas sp. F0473	Lachnospiraceae bacterium oral taxon 500	0.947091350577	Supragingival_plaque	#ff8646
+1405	Selenomonas sp. F0473	Lautropia mirabilis	0.932078836456	Supragingival_plaque	#ff8646
+1406	Selenomonas sp. F0473	Leptotrichia buccalis	0.960243672644	Supragingival_plaque	#ff8646
+1407	Selenomonas sp. F0473	Leptotrichia sp. oral taxon 212	0.972407334983	Supragingival_plaque	#ff8646
+1408	Selenomonas sp. F0473	[Mannheimia] succiniciproducens	0.815021427815	Mixed	#cccccc
+1409	Selenomonas sp. F0473	Moraxella bovis	0.980444550102	Mixed	#cccccc
+1410	Selenomonas sp. F0473	Moraxella bovoculi	1.0	Mixed	#cccccc
+1411	Selenomonas sp. F0473	Moraxella caprae	1.0	Mixed	#cccccc
+1412	Selenomonas sp. F0473	Moraxella catarrhalis	0.993094466044	Mixed	#cccccc
+1413	Selenomonas sp. F0473	Moraxella macacae	1.0	Mixed	#cccccc
+1414	Selenomonas sp. F0473	Neisseria sp. oral taxon 014	0.972307093917	Supragingival_plaque	#ff8646
+1415	Selenomonas sp. F0473	Ottowia sp. oral taxon 894	0.99975098808	Supragingival_plaque	#ff8646
+1416	Selenomonas sp. F0473	Paracoccus sp. TRP	1.0	Mixed	#cccccc
+1417	Selenomonas sp. F0473	Porphyromonadaceae bacterium COT-184 OH4590	1.0	Mixed	#cccccc
+1418	Selenomonas sp. F0473	Porphyromonas catoniae	0.860293307638	Mixed	#cccccc
+1419	Selenomonas sp. F0473	Porphyromonas sp. oral taxon 278	0.956975103997	Mixed	#cccccc
+1420	Selenomonas sp. F0473	Prevotella conceptionensis	0.913327440652	Mixed	#cccccc
+1421	Selenomonas sp. F0473	Prevotella loescheii	0.920393752442	Mixed	#cccccc
+1422	Selenomonas sp. F0473	Prevotella nigrescens	0.889780096235	Mixed	#cccccc
+1423	Selenomonas sp. F0473	Prevotella saccharolytica	0.998904879975	Mixed	#cccccc
+1424	Selenomonas sp. F0473	Prevotella sp. oral taxon 317	0.856993117218	Mixed	#cccccc
+1425	Selenomonas sp. F0473	Prevotella sp. oral taxon 472	0.805087682753	Mixed	#cccccc
+1426	Selenomonas sp. F0473	Propionibacterium propionicum	0.972996618538	Mixed	#cccccc
+1427	Selenomonas sp. F0473	Selenomonas infelix	0.999298257327	Mixed	#cccccc
+1428	Selenomonas sp. F0473	Selenomonas noxia	0.988784601696	Supragingival_plaque	#ff8646
+1429	Selenomonas sp. FOBRC6	Acidovorax avenae	0.973424458857	Mixed	#cccccc
+1430	Selenomonas sp. FOBRC6	Actinobaculum sp. oral taxon 183	0.825994732742	Mixed	#cccccc
+1431	Selenomonas sp. FOBRC6	Actinomyces dentalis	0.970787811476	Mixed	#cccccc
+1432	Selenomonas sp. FOBRC6	Actinomyces gerencseriae	0.965155623805	Mixed	#cccccc
+1433	Selenomonas sp. FOBRC6	Actinomyces johnsonii	0.953592473772	Mixed	#cccccc
+1434	Selenomonas sp. FOBRC6	Actinomyces massiliensis	0.930972576716	Mixed	#cccccc
+1435	Selenomonas sp. FOBRC6	Actinomyces naeslundii	0.938122175527	Mixed	#cccccc
+1436	Selenomonas sp. FOBRC6	Actinomyces sp. oral taxon 170	0.955393715932	Mixed	#cccccc
+1437	Selenomonas sp. FOBRC6	Actinomyces sp. oral taxon 414	0.93829841514	Mixed	#cccccc
+1438	Selenomonas sp. FOBRC6	Actinomyces sp. oral taxon 848	0.964339210922	Mixed	#cccccc
+1439	Selenomonas sp. FOBRC6	Actinomyces sp. oral taxon 849	0.973424458857	Mixed	#cccccc
+1440	Selenomonas sp. FOBRC6	Aggregatibacter segnis	0.806594736117	Mixed	#cccccc
+1441	Selenomonas sp. FOBRC6	Bacteroidetes oral taxon 274	0.959970446202	Mixed	#cccccc
+1442	Selenomonas sp. FOBRC6	Bergeyella zoohelcum	0.973424458857	Mixed	#cccccc
+1443	Selenomonas sp. FOBRC6	Campylobacter fetus	0.973424458857	Mixed	#cccccc
+1444	Selenomonas sp. FOBRC6	Campylobacter gracilis	0.944563413008	Mixed	#cccccc
+1445	Selenomonas sp. FOBRC6	Capnocytophaga cynodegmi	0.973424458857	Mixed	#cccccc
+1446	Selenomonas sp. FOBRC6	Capnocytophaga ochracea	0.811951683869	Mixed	#cccccc
+1447	Selenomonas sp. FOBRC6	Capnocytophaga sp. oral taxon 332	0.919953726386	Mixed	#cccccc
+1448	Selenomonas sp. FOBRC6	Capnocytophaga sp. oral taxon 412	0.880180889567	Mixed	#cccccc
+1449	Selenomonas sp. FOBRC6	Cardiobacterium hominis	0.965118671283	Mixed	#cccccc
+1450	Selenomonas sp. FOBRC6	Cardiobacterium valvarum	0.802847631663	Mixed	#cccccc
+1451	Selenomonas sp. FOBRC6	Centipeda periodontii	0.922153136509	Mixed	#cccccc
+1452	Selenomonas sp. FOBRC6	Corynebacterium matruchotii	0.966760930838	Mixed	#cccccc
+1453	Selenomonas sp. FOBRC6	Fusobacterium hwasookii	0.867090682067	Mixed	#cccccc
+1454	Selenomonas sp. FOBRC6	Gemella morbillorum	0.881674276991	Attached	#622ffe
+1455	Selenomonas sp. FOBRC6	Kingella denitrificans	0.893030608202	Mixed	#cccccc
+1456	Selenomonas sp. FOBRC6	Lachnospiraceae bacterium oral taxon 500	0.918878353504	Mixed	#cccccc
+1457	Selenomonas sp. FOBRC6	Lautropia mirabilis	0.905196251702	Mixed	#cccccc
+1458	Selenomonas sp. FOBRC6	Leptotrichia buccalis	0.937058631881	Mixed	#cccccc
+1459	Selenomonas sp. FOBRC6	Leptotrichia sp. oral taxon 212	0.946942934071	Mixed	#cccccc
+1460	Selenomonas sp. FOBRC6	Moraxella bovis	0.946673959893	Mixed	#cccccc
+1461	Selenomonas sp. FOBRC6	Moraxella bovoculi	0.973424458857	Mixed	#cccccc
+1462	Selenomonas sp. FOBRC6	Moraxella caprae	0.973424458857	Mixed	#cccccc
+1463	Selenomonas sp. FOBRC6	Moraxella catarrhalis	0.966443692107	Mixed	#cccccc
+1464	Selenomonas sp. FOBRC6	Moraxella macacae	0.973424458857	Mixed	#cccccc
+1465	Selenomonas sp. FOBRC6	Neisseria sp. oral taxon 014	0.944552396058	Mixed	#cccccc
+1466	Selenomonas sp. FOBRC6	Ottowia sp. oral taxon 894	0.973800980644	Mixed	#cccccc
+1467	Selenomonas sp. FOBRC6	Paracoccus sp. TRP	0.973424458857	Mixed	#cccccc
+1468	Selenomonas sp. FOBRC6	Porphyromonadaceae bacterium COT-184 OH4590	0.973424458857	Mixed	#cccccc
+1469	Selenomonas sp. FOBRC6	Porphyromonas catoniae	0.839164890825	Mixed	#cccccc
+1470	Selenomonas sp. FOBRC6	Porphyromonas sp. oral taxon 278	0.936108444054	Mixed	#cccccc
+1471	Selenomonas sp. FOBRC6	Prevotella conceptionensis	0.910055082109	Mixed	#cccccc
+1472	Selenomonas sp. FOBRC6	Prevotella loescheii	0.913150804025	Mixed	#cccccc
+1473	Selenomonas sp. FOBRC6	Prevotella nigrescens	0.864312269333	Mixed	#cccccc
+1474	Selenomonas sp. FOBRC6	Prevotella saccharolytica	0.972610986492	Mixed	#cccccc
+1475	Selenomonas sp. FOBRC6	Prevotella sp. oral taxon 317	0.874489168486	Mixed	#cccccc
+1476	Selenomonas sp. FOBRC6	Prevotella sp. oral taxon 472	0.809318442488	Mixed	#cccccc
+1477	Selenomonas sp. FOBRC6	Propionibacterium propionicum	0.946952990342	Mixed	#cccccc
+1478	Selenomonas sp. FOBRC6	Selenomonas infelix	0.974735802666	Attached	#622ffe
+1479	Selenomonas sp. FOBRC6	Selenomonas noxia	0.965608928596	Mixed	#cccccc
+1480	Selenomonas sp. FOBRC6	Selenomonas sp. F0473	0.973424458857	Mixed	#cccccc
+1481	Selenomonas sp. oral taxon 137	Acidovorax avenae	1.0	Supragingival_plaque	#ff8646
+1482	Selenomonas sp. oral taxon 137	Actinobaculum sp. oral taxon 183	0.85005384871	Mixed	#cccccc
+1483	Selenomonas sp. oral taxon 137	Actinomyces dentalis	0.996502494807	Mixed	#cccccc
+1484	Selenomonas sp. oral taxon 137	Actinomyces gerencseriae	0.991650582388	Mixed	#cccccc
+1485	Selenomonas sp. oral taxon 137	Actinomyces johnsonii	0.981525241445	Mixed	#cccccc
+1486	Selenomonas sp. oral taxon 137	Actinomyces massiliensis	0.959863121783	Supragingival_plaque	#ff8646
+1487	Selenomonas sp. oral taxon 137	Actinomyces naeslundii	0.965481273947	Supragingival_plaque	#ff8646
+1488	Selenomonas sp. oral taxon 137	Actinomyces sp. oral taxon 170	0.982587997185	Supragingival_plaque	#ff8646
+1489	Selenomonas sp. oral taxon 137	Actinomyces sp. oral taxon 414	0.964707734401	Mixed	#cccccc
+1490	Selenomonas sp. oral taxon 137	Actinomyces sp. oral taxon 848	0.990980305754	Supragingival_plaque	#ff8646
+1491	Selenomonas sp. oral taxon 137	Actinomyces sp. oral taxon 849	1.0	Supragingival_plaque	#ff8646
+1492	Selenomonas sp. oral taxon 137	Aggregatibacter segnis	0.830359388417	Supragingival_plaque	#ff8646
+1493	Selenomonas sp. oral taxon 137	Bacteroidetes oral taxon 274	0.987410100684	Mixed	#cccccc
+1494	Selenomonas sp. oral taxon 137	Bergeyella zoohelcum	1.0	Mixed	#cccccc
+1495	Selenomonas sp. oral taxon 137	Campylobacter fetus	1.0	Mixed	#cccccc
+1496	Selenomonas sp. oral taxon 137	Campylobacter gracilis	0.969431163171	Mixed	#cccccc
+1497	Selenomonas sp. oral taxon 137	Capnocytophaga cynodegmi	1.0	Mixed	#cccccc
+1498	Selenomonas sp. oral taxon 137	Capnocytophaga ochracea	0.802938487822	Supragingival_plaque	#ff8646
+1499	Selenomonas sp. oral taxon 137	Capnocytophaga sp. oral taxon 332	0.940456396589	Supragingival_plaque	#ff8646
+1500	Selenomonas sp. oral taxon 137	Capnocytophaga sp. oral taxon 412	0.879736492553	Supragingival_plaque	#ff8646
+1501	Selenomonas sp. oral taxon 137	Cardiobacterium hominis	0.993015254779	Mixed	#cccccc
+1502	Selenomonas sp. oral taxon 137	Cardiobacterium valvarum	0.83156226459	Mixed	#cccccc
+1503	Selenomonas sp. oral taxon 137	Centipeda periodontii	0.920555726176	Mixed	#cccccc
+1504	Selenomonas sp. oral taxon 137	Corynebacterium matruchotii	0.994222056277	Supragingival_plaque	#ff8646
+1505	Selenomonas sp. oral taxon 137	Fusobacterium hwasookii	0.888811211806	Supragingival_plaque	#ff8646
+1506	Selenomonas sp. oral taxon 137	Gemella morbillorum	0.902981048	Mixed	#cccccc
+1507	Selenomonas sp. oral taxon 137	Kingella denitrificans	0.920420959987	Supragingival_plaque	#ff8646
+1508	Selenomonas sp. oral taxon 137	Lachnospiraceae bacterium oral taxon 500	0.947091350577	Supragingival_plaque	#ff8646
+1509	Selenomonas sp. oral taxon 137	Lautropia mirabilis	0.932078836456	Supragingival_plaque	#ff8646
+1510	Selenomonas sp. oral taxon 137	Leptotrichia buccalis	0.960243672644	Supragingival_plaque	#ff8646
+1511	Selenomonas sp. oral taxon 137	Leptotrichia sp. oral taxon 212	0.972407334983	Supragingival_plaque	#ff8646
+1512	Selenomonas sp. oral taxon 137	[Mannheimia] succiniciproducens	0.815021427815	Mixed	#cccccc
+1513	Selenomonas sp. oral taxon 137	Moraxella bovis	0.980444550102	Mixed	#cccccc
+1514	Selenomonas sp. oral taxon 137	Moraxella bovoculi	1.0	Mixed	#cccccc
+1515	Selenomonas sp. oral taxon 137	Moraxella caprae	1.0	Mixed	#cccccc
+1516	Selenomonas sp. oral taxon 137	Moraxella catarrhalis	0.993094466044	Mixed	#cccccc
+1517	Selenomonas sp. oral taxon 137	Moraxella macacae	1.0	Mixed	#cccccc
+1518	Selenomonas sp. oral taxon 137	Neisseria sp. oral taxon 014	0.972307093917	Supragingival_plaque	#ff8646
+1519	Selenomonas sp. oral taxon 137	Ottowia sp. oral taxon 894	0.99975098808	Supragingival_plaque	#ff8646
+1520	Selenomonas sp. oral taxon 137	Paracoccus sp. TRP	1.0	Mixed	#cccccc
+1521	Selenomonas sp. oral taxon 137	Porphyromonadaceae bacterium COT-184 OH4590	1.0	Mixed	#cccccc
+1522	Selenomonas sp. oral taxon 137	Porphyromonas catoniae	0.860293307638	Mixed	#cccccc
+1523	Selenomonas sp. oral taxon 137	Porphyromonas sp. oral taxon 278	0.956975103997	Mixed	#cccccc
+1524	Selenomonas sp. oral taxon 137	Prevotella conceptionensis	0.913327440652	Mixed	#cccccc
+1525	Selenomonas sp. oral taxon 137	Prevotella loescheii	0.920393752442	Mixed	#cccccc
+1526	Selenomonas sp. oral taxon 137	Prevotella nigrescens	0.889780096235	Mixed	#cccccc
+1527	Selenomonas sp. oral taxon 137	Prevotella saccharolytica	0.998904879975	Mixed	#cccccc
+1528	Selenomonas sp. oral taxon 137	Prevotella sp. oral taxon 317	0.856993117218	Mixed	#cccccc
+1529	Selenomonas sp. oral taxon 137	Prevotella sp. oral taxon 472	0.805087682753	Mixed	#cccccc
+1530	Selenomonas sp. oral taxon 137	Propionibacterium propionicum	0.972996618538	Mixed	#cccccc
+1531	Selenomonas sp. oral taxon 137	Selenomonas infelix	0.999298257327	Mixed	#cccccc
+1532	Selenomonas sp. oral taxon 137	Selenomonas noxia	0.988784601696	Supragingival_plaque	#ff8646
+1533	Selenomonas sp. oral taxon 137	Selenomonas sp. F0473	1.0	Supragingival_plaque	#ff8646
+1534	Selenomonas sp. oral taxon 137	Selenomonas sp. FOBRC6	0.973424458857	Mixed	#cccccc
+1535	Selenomonas sp. oral taxon 138	Acidovorax avenae	0.977801844757	Mixed	#cccccc
+1536	Selenomonas sp. oral taxon 138	Actinobaculum sp. oral taxon 183	0.823207264114	Mixed	#cccccc
+1537	Selenomonas sp. oral taxon 138	Actinomyces dentalis	0.972819609129	Mixed	#cccccc
+1538	Selenomonas sp. oral taxon 138	Actinomyces gerencseriae	0.967459068185	Mixed	#cccccc
+1539	Selenomonas sp. oral taxon 138	Actinomyces johnsonii	0.95686910464	Mixed	#cccccc
+1540	Selenomonas sp. oral taxon 138	Actinomyces massiliensis	0.9322322202	Mixed	#cccccc
+1541	Selenomonas sp. oral taxon 138	Actinomyces naeslundii	0.939150213606	Mixed	#cccccc
+1542	Selenomonas sp. oral taxon 138	Actinomyces sp. oral taxon 170	0.958778426916	Mixed	#cccccc
+1543	Selenomonas sp. oral taxon 138	Actinomyces sp. oral taxon 414	0.940302423426	Mixed	#cccccc
+1544	Selenomonas sp. oral taxon 138	Actinomyces sp. oral taxon 848	0.967406007507	Mixed	#cccccc
+1545	Selenomonas sp. oral taxon 138	Actinomyces sp. oral taxon 849	0.977801844757	Mixed	#cccccc
+1546	Selenomonas sp. oral taxon 138	Bacteroidetes oral taxon 274	0.962952460996	Mixed	#cccccc
+1547	Selenomonas sp. oral taxon 138	Bergeyella zoohelcum	0.977801844757	Mixed	#cccccc
+1548	Selenomonas sp. oral taxon 138	Campylobacter fetus	0.977801844757	Mixed	#cccccc
+1549	Selenomonas sp. oral taxon 138	Campylobacter gracilis	0.946140007753	Mixed	#cccccc
+1550	Selenomonas sp. oral taxon 138	Capnocytophaga cynodegmi	0.977801844757	Mixed	#cccccc
+1551	Selenomonas sp. oral taxon 138	Capnocytophaga sp. oral taxon 332	0.915908888105	Mixed	#cccccc
+1552	Selenomonas sp. oral taxon 138	Capnocytophaga sp. oral taxon 412	0.853739113817	Mixed	#cccccc
+1553	Selenomonas sp. oral taxon 138	Cardiobacterium hominis	0.968634067143	Mixed	#cccccc
+1554	Selenomonas sp. oral taxon 138	Cardiobacterium valvarum	0.8028371519	Mixed	#cccccc
+1555	Selenomonas sp. oral taxon 138	Centipeda periodontii	0.956895600612	Mixed	#cccccc
+1556	Selenomonas sp. oral taxon 138	Corynebacterium matruchotii	0.969795538046	Mixed	#cccccc
+1557	Selenomonas sp. oral taxon 138	Fusobacterium hwasookii	0.862129013878	Mixed	#cccccc
+1558	Selenomonas sp. oral taxon 138	Gemella morbillorum	0.88388159834	Attached	#622ffe
+1559	Selenomonas sp. oral taxon 138	Kingella denitrificans	0.891838596226	Mixed	#cccccc
+1560	Selenomonas sp. oral taxon 138	Lachnospiraceae bacterium oral taxon 500	0.933234132675	Mixed	#cccccc
+1561	Selenomonas sp. oral taxon 138	Lautropia mirabilis	0.905061040096	Mixed	#cccccc
+1562	Selenomonas sp. oral taxon 138	Leptotrichia buccalis	0.95738779219	Mixed	#cccccc
+1563	Selenomonas sp. oral taxon 138	Leptotrichia sp. oral taxon 212	0.947115463148	Mixed	#cccccc
+1564	Selenomonas sp. oral taxon 138	Moraxella bovis	0.958680489771	Mixed	#cccccc
+1565	Selenomonas sp. oral taxon 138	Moraxella bovoculi	0.977801844757	Mixed	#cccccc
+1566	Selenomonas sp. oral taxon 138	Moraxella caprae	0.977801844757	Mixed	#cccccc
+1567	Selenomonas sp. oral taxon 138	Moraxella catarrhalis	0.970648064617	Mixed	#cccccc
+1568	Selenomonas sp. oral taxon 138	Moraxella macacae	0.977801844757	Mixed	#cccccc
+1569	Selenomonas sp. oral taxon 138	Neisseria sp. oral taxon 014	0.950594398802	Mixed	#cccccc
+1570	Selenomonas sp. oral taxon 138	Ottowia sp. oral taxon 894	0.977357405847	Mixed	#cccccc
+1571	Selenomonas sp. oral taxon 138	Paracoccus sp. TRP	0.977801844757	Mixed	#cccccc
+1572	Selenomonas sp. oral taxon 138	Porphyromonadaceae bacterium COT-184 OH4590	0.977801844757	Mixed	#cccccc
+1573	Selenomonas sp. oral taxon 138	Porphyromonas catoniae	0.83345089172	Mixed	#cccccc
+1574	Selenomonas sp. oral taxon 138	Porphyromonas sp. oral taxon 278	0.929468536488	Mixed	#cccccc
+1575	Selenomonas sp. oral taxon 138	Prevotella conceptionensis	0.899695409874	Mixed	#cccccc
+1576	Selenomonas sp. oral taxon 138	Prevotella loescheii	0.916045507185	Mixed	#cccccc
+1577	Selenomonas sp. oral taxon 138	Prevotella maculosa	0.814260949925	Mixed	#cccccc
+1578	Selenomonas sp. oral taxon 138	Prevotella nigrescens	0.879119739152	Mixed	#cccccc
+1579	Selenomonas sp. oral taxon 138	Prevotella saccharolytica	0.976601891445	Mixed	#cccccc
+1580	Selenomonas sp. oral taxon 138	Prevotella sp. oral taxon 317	0.851894903619	Mixed	#cccccc
+1581	Selenomonas sp. oral taxon 138	Propionibacterium propionicum	0.948831185173	Mixed	#cccccc
+1582	Selenomonas sp. oral taxon 138	Selenomonas infelix	0.981704683592	Attached	#622ffe
+1583	Selenomonas sp. oral taxon 138	Selenomonas noxia	0.975716620427	Mixed	#cccccc
+1584	Selenomonas sp. oral taxon 138	Selenomonas sp. F0473	0.977801844757	Mixed	#cccccc
+1585	Selenomonas sp. oral taxon 138	Selenomonas sp. FOBRC6	0.963539588316	Attached	#622ffe
+1586	Selenomonas sp. oral taxon 138	Selenomonas sp. oral taxon 137	0.977801844757	Mixed	#cccccc
+1587	Selenomonas sp. oral taxon 149	Selenomonas flueggei	0.945049324168	Saliva	#cbe486
+1588	Selenomonas sp. oral taxon 478	Selenomonas flueggei	0.968401911728	Saliva	#cbe486
+1589	Selenomonas sp. oral taxon 478	Selenomonas sp. oral taxon 149	0.980335755411	Saliva	#cbe486
+1590	Selenomonas sp. oral taxon 892	Acidovorax avenae	0.975476161588	Supragingival_plaque	#ff8646
+1591	Selenomonas sp. oral taxon 892	Actinobaculum sp. oral taxon 183	0.818981436438	Mixed	#cccccc
+1592	Selenomonas sp. oral taxon 892	Actinomyces dentalis	0.969912225966	Mixed	#cccccc
+1593	Selenomonas sp. oral taxon 892	Actinomyces gerencseriae	0.963631201804	Mixed	#cccccc
+1594	Selenomonas sp. oral taxon 892	Actinomyces johnsonii	0.954387813455	Mixed	#cccccc
+1595	Selenomonas sp. oral taxon 892	Actinomyces massiliensis	0.931632024823	Supragingival_plaque	#ff8646
+1596	Selenomonas sp. oral taxon 892	Actinomyces naeslundii	0.936090786691	Supragingival_plaque	#ff8646
+1597	Selenomonas sp. oral taxon 892	Actinomyces sp. oral taxon 170	0.956709714974	Supragingival_plaque	#ff8646
+1598	Selenomonas sp. oral taxon 892	Actinomyces sp. oral taxon 414	0.942085275058	Mixed	#cccccc
+1599	Selenomonas sp. oral taxon 892	Actinomyces sp. oral taxon 848	0.964413616758	Supragingival_plaque	#ff8646
+1600	Selenomonas sp. oral taxon 892	Actinomyces sp. oral taxon 849	0.975476161588	Supragingival_plaque	#ff8646
+1601	Selenomonas sp. oral taxon 892	Aggregatibacter segnis	0.804329003816	Supragingival_plaque	#ff8646
+1602	Selenomonas sp. oral taxon 892	Bacteroidetes oral taxon 274	0.962365594622	Mixed	#cccccc
+1603	Selenomonas sp. oral taxon 892	Bergeyella zoohelcum	0.975476161588	Mixed	#cccccc
+1604	Selenomonas sp. oral taxon 892	Campylobacter fetus	0.975476161588	Mixed	#cccccc
+1605	Selenomonas sp. oral taxon 892	Campylobacter gracilis	0.942115879884	Mixed	#cccccc
+1606	Selenomonas sp. oral taxon 892	Capnocytophaga cynodegmi	0.975476161588	Mixed	#cccccc
+1607	Selenomonas sp. oral taxon 892	Capnocytophaga sp. oral taxon 332	0.919405459169	Supragingival_plaque	#ff8646
+1608	Selenomonas sp. oral taxon 892	Capnocytophaga sp. oral taxon 412	0.875461510633	Supragingival_plaque	#ff8646
+1609	Selenomonas sp. oral taxon 892	Cardiobacterium hominis	0.967707334133	Mixed	#cccccc
+1610	Selenomonas sp. oral taxon 892	Cardiobacterium valvarum	0.818277521468	Mixed	#cccccc
+1611	Selenomonas sp. oral taxon 892	Centipeda periodontii	0.955896413669	Mixed	#cccccc
+1612	Selenomonas sp. oral taxon 892	Corynebacterium matruchotii	0.968022540737	Supragingival_plaque	#ff8646
+1613	Selenomonas sp. oral taxon 892	Fusobacterium hwasookii	0.870059814264	Supragingival_plaque	#ff8646
+1614	Selenomonas sp. oral taxon 892	Gemella morbillorum	0.896032682204	Mixed	#cccccc
+1615	Selenomonas sp. oral taxon 892	Kingella denitrificans	0.892276833259	Supragingival_plaque	#ff8646
+1616	Selenomonas sp. oral taxon 892	Lachnospiraceae bacterium oral taxon 500	0.936265566432	Supragingival_plaque	#ff8646
+1617	Selenomonas sp. oral taxon 892	Lautropia mirabilis	0.909539179596	Supragingival_plaque	#ff8646
+1618	Selenomonas sp. oral taxon 892	Leptotrichia buccalis	0.962831938615	Supragingival_plaque	#ff8646
+1619	Selenomonas sp. oral taxon 892	Leptotrichia sp. oral taxon 212	0.951345592959	Supragingival_plaque	#ff8646
+1620	Selenomonas sp. oral taxon 892	[Mannheimia] succiniciproducens	0.803831271008	Mixed	#cccccc
+1621	Selenomonas sp. oral taxon 892	Moraxella bovis	0.956400286384	Mixed	#cccccc
+1622	Selenomonas sp. oral taxon 892	Moraxella bovoculi	0.975476161588	Mixed	#cccccc
+1623	Selenomonas sp. oral taxon 892	Moraxella caprae	0.975476161588	Mixed	#cccccc
+1624	Selenomonas sp. oral taxon 892	Moraxella catarrhalis	0.97052116779	Mixed	#cccccc
+1625	Selenomonas sp. oral taxon 892	Moraxella macacae	0.975476161588	Mixed	#cccccc
+1626	Selenomonas sp. oral taxon 892	Neisseria sp. oral taxon 014	0.950665635029	Supragingival_plaque	#ff8646
+1627	Selenomonas sp. oral taxon 892	Ottowia sp. oral taxon 894	0.97494947212	Supragingival_plaque	#ff8646
+1628	Selenomonas sp. oral taxon 892	Paracoccus sp. TRP	0.975476161588	Mixed	#cccccc
+1629	Selenomonas sp. oral taxon 892	Porphyromonadaceae bacterium COT-184 OH4590	0.975476161588	Mixed	#cccccc
+1630	Selenomonas sp. oral taxon 892	Porphyromonas catoniae	0.840104685228	Mixed	#cccccc
+1631	Selenomonas sp. oral taxon 892	Porphyromonas sp. oral taxon 278	0.933209204583	Mixed	#cccccc
+1632	Selenomonas sp. oral taxon 892	Prevotella conceptionensis	0.893541911602	Mixed	#cccccc
+1633	Selenomonas sp. oral taxon 892	Prevotella loescheii	0.905461442526	Mixed	#cccccc
+1634	Selenomonas sp. oral taxon 892	Prevotella nigrescens	0.866852989631	Mixed	#cccccc
+1635	Selenomonas sp. oral taxon 892	Prevotella saccharolytica	0.975315427213	Mixed	#cccccc
+1636	Selenomonas sp. oral taxon 892	Prevotella sp. oral taxon 317	0.851208460762	Mixed	#cccccc
+1637	Selenomonas sp. oral taxon 892	Propionibacterium propionicum	0.94975038981	Mixed	#cccccc
+1638	Selenomonas sp. oral taxon 892	Selenomonas infelix	0.979461112213	Mixed	#cccccc
+1639	Selenomonas sp. oral taxon 892	Selenomonas noxia	0.973407657738	Supragingival_plaque	#ff8646
+1640	Selenomonas sp. oral taxon 892	Selenomonas sp. F0473	0.975476161588	Supragingival_plaque	#ff8646
+1641	Selenomonas sp. oral taxon 892	Selenomonas sp. FOBRC6	0.956292039186	Mixed	#cccccc
+1642	Selenomonas sp. oral taxon 892	Selenomonas sp. oral taxon 137	0.975476161588	Supragingival_plaque	#ff8646
+1643	Selenomonas sp. oral taxon 892	Selenomonas sp. oral taxon 138	0.974909719649	Mixed	#cccccc
+1644	Selenomonas sputigena	Selenomonas flueggei	0.837988691287	Mixed	#cccccc
+1645	Selenomonas sputigena	Selenomonas sp. CM52	0.921621455575	Subgingival_plaque	#ffac5c
+1646	Selenomonas sputigena	Selenomonas sp. oral taxon 149	0.816391329108	Mixed	#cccccc
+1647	Selenomonas sputigena	Selenomonas sp. oral taxon 478	0.81781267182	Mixed	#cccccc
+1648	Simonsiella muelleri	Gemella haemolysans	0.986256649327	Mixed	#cccccc
+1649	Simonsiella muelleri	Granulicatella elegans	0.913519426713	Keratinized_gingiva	#17cbe4
+1650	Slackia sp. CM382	Lachnospiraceae bacterium FE2018	1.0	Mixed	#cccccc
+1651	Slackia sp. CM382	Oribacterium sp. FC2011	1.0	Mixed	#cccccc
+1652	Slackia sp. CM382	Oribacterium sp. NK2B42	1.0	Mixed	#cccccc
+1653	Staphylococcus epidermidis	Gemella haemolysans	0.997271671896	Mixed	#cccccc
+1654	Staphylococcus epidermidis	Granulicatella elegans	0.918541795504	Mixed	#cccccc
+1655	Staphylococcus epidermidis	Simonsiella muelleri	0.988587232595	Mixed	#cccccc
+1656	Staphylococcus lugdunensis	Actinomyces oris	0.903634433881	Mixed	#cccccc
+1657	Staphylococcus lugdunensis	Actinomyces timonensis	0.830669276377	Mixed	#cccccc
+1658	Staphylococcus lugdunensis	Helicobacter pylori	0.997759070656	Anterior_nares	#8000ff
+1659	Staphylococcus pasteuri	Gemella haemolysans	0.924450592645	Mixed	#cccccc
+1660	Staphylococcus pasteuri	Granulicatella elegans	0.905014336739	Keratinized_gingiva	#17cbe4
+1661	Staphylococcus pasteuri	Simonsiella muelleri	0.911564073878	Keratinized_gingiva	#17cbe4
+1662	Staphylococcus pasteuri	Staphylococcus epidermidis	0.907532127607	Mixed	#cccccc
+1663	Streptococcus dentasini	Bacteroides sp. D20	0.928805063341	Mixed	#cccccc
+1664	Streptococcus dentisani	Gemella haemolysans	0.827567879608	Mixed	#cccccc
+1665	Streptococcus dentisani	Granulicatella elegans	0.806345157356	Mixed	#cccccc
+1666	Streptococcus dentisani	Simonsiella muelleri	0.803091052116	Mixed	#cccccc
+1667	Streptococcus dentisani	Staphylococcus epidermidis	0.815021427815	Mixed	#cccccc
+1668	Streptococcus equinus	Bacteroides eggerthii	1.0	Mixed	#cccccc
+1669	Streptococcus equinus	Coriobacteriaceae bacterium BV3Ac1	1.0	Mixed	#cccccc
+1670	Streptococcus gordonii	Pseudomonas aeruginosa	0.843251476414	Mixed	#cccccc
+1671	Streptococcus hyovaginalis	Bacteroides sp. D20	1.0	Mixed	#cccccc
+1672	Streptococcus hyovaginalis	Streptococcus dentasini	0.928805063341	Mixed	#cccccc
+1673	Streptococcus mitis	Gemella haemolysans	0.95314897	Mixed	#cccccc
+1674	Streptococcus mitis	Granulicatella elegans	0.907552495631	Mixed	#cccccc
+1675	Streptococcus mitis	Simonsiella muelleri	0.934374367157	Mixed	#cccccc
+1676	Streptococcus mitis	Staphylococcus epidermidis	0.940693845542	Mixed	#cccccc
+1677	Streptococcus mitis	Staphylococcus pasteuri	0.932630390256	Mixed	#cccccc
+1678	Streptococcus peroris	Alloscardovia omnicolens	0.86861983688	Mixed	#cccccc
+1679	Streptococcus peroris	Anaerostipes hadrus	0.86861983688	Mixed	#cccccc
+1680	Streptococcus peroris	Holdemanella biformis	0.86861983688	Mixed	#cccccc
+1681	Streptococcus pneumoniae	Gemella haemolysans	0.904472456292	Mixed	#cccccc
+1682	Streptococcus pneumoniae	Granulicatella elegans	0.849589414702	Mixed	#cccccc
+1683	Streptococcus pneumoniae	Simonsiella muelleri	0.876842737989	Mixed	#cccccc
+1684	Streptococcus pneumoniae	Staphylococcus epidermidis	0.888493779199	Mixed	#cccccc
+1685	Streptococcus pneumoniae	Staphylococcus pasteuri	0.884425873341	Mixed	#cccccc
+1686	Streptococcus pneumoniae	Streptococcus mitis	0.933020348473	Buccal_mucosa_NA	#2686f5
+1687	Streptococcus sinensis	Enterococcus faecium	0.980444550102	Mixed	#cccccc
+1688	Streptococcus sp. 2_1_36FAA	Actinomyces oris	0.903634433881	Mixed	#cccccc
+1689	Streptococcus sp. 2_1_36FAA	Actinomyces timonensis	0.830669276377	Mixed	#cccccc
+1690	Streptococcus sp. 2_1_36FAA	Helicobacter pylori	0.997759070656	Mixed	#cccccc
+1691	Streptococcus sp. 2_1_36FAA	Staphylococcus lugdunensis	1.0	Mixed	#cccccc
+1692	Streptococcus sp. 263_SSPC	Carnobacterium maltaromaticum	0.964009708638	Mixed	#cccccc
+1693	Streptococcus sp. 263_SSPC	Granulicatella adiacens	0.949238766042	Mixed	#cccccc
+1694	Streptococcus sp. 400_SSPC	Streptococcus sp. 1171_SSPC	0.918069343595	Palatine_Tonsils	#70febc
+1695	Streptococcus sp. 400_SSPC	Streptococcus sp. 343_SSPC	0.886064341886	Palatine_Tonsils	#70febc
+1696	Streptococcus sp. C150	Bacteroides sp. D20	0.804615076711	Mixed	#cccccc
+1697	Streptococcus sp. C150	Streptococcus dentasini	0.862781955675	Buccal_mucosa	#445cfb
+1698	Streptococcus sp. C150	Streptococcus hyovaginalis	0.804615076711	Mixed	#cccccc
+1699	Streptococcus sp. C300	Streptococcus orisratti	0.815021427815	Mixed	#cccccc
+1700	Streptococcus sp. CCH8-C6	Moraxella bovis	0.831436477038	Mixed	#cccccc
+1701	Streptococcus sp. CM6	Streptococcus sinensis	0.831436477038	Mixed	#cccccc
+1702	Streptococcus sp. CM7	Corynebacterium diphtheriae	1.0	Mixed	#cccccc
+1703	Streptococcus sp. CM7	Leucobacter chironomi	0.885141471575	Mixed	#cccccc
+1704	Streptococcus sp. CM7	Microbacterium sp. CH12i	1.0	Mixed	#cccccc
+1705	Streptococcus sp. HSISS1	Bacteroides faecis	1.0	Mixed	#cccccc
+1706	Streptococcus sp. HSISS1	Bacteroides finegoldii	0.815021427815	Mixed	#cccccc
+1707	Streptococcus sp. HSISS1	Bacteroides salyersiae	0.948456713793	Mixed	#cccccc
+1708	Streptococcus sp. I-P16	Streptococcus sp. I-G2	0.945512903428	Tongue_dorsum	#ff2f18
+1709	Streptococcus sp. SR1	Gemella bergeri	0.842064100854	Mixed	#cccccc
+1710	Streptococcus tigurinus	Gemella haemolysans	0.827567879608	Mixed	#cccccc
+1711	Streptococcus tigurinus	Granulicatella elegans	0.806345157356	Mixed	#cccccc
+1712	Streptococcus tigurinus	Simonsiella muelleri	0.803091052116	Mixed	#cccccc
+1713	Streptococcus tigurinus	Staphylococcus epidermidis	0.815021427815	Mixed	#cccccc
+1714	Streptococcus tigurinus	Streptococcus dentisani	1.0	Hard_palate	#08acee
+1715	Tannerella forsythia	Olsenella uli	0.821465820019	Mixed	#cccccc
+1716	Tepidiphilus thermophilus	Actinomyces oris	0.903634433881	Mixed	#cccccc
+1717	Tepidiphilus thermophilus	Actinomyces timonensis	0.830669276377	Mixed	#cccccc
+1718	Tepidiphilus thermophilus	Helicobacter pylori	0.997759070656	Anterior_nares	#8000ff
+1719	Tepidiphilus thermophilus	Staphylococcus lugdunensis	1.0	Anterior_nares	#8000ff
+1720	Tepidiphilus thermophilus	Streptococcus sp. 2_1_36FAA	1.0	Mixed	#cccccc
+1721	Thiothrix flexilis	Streptococcus sinensis	0.831436477038	Mixed	#cccccc
+1722	Thiothrix flexilis	Streptococcus sp. CM6	1.0	Mixed	#cccccc
+1723	Treponema denticola	Eubacterium saphenum	0.899801971391	Mixed	#cccccc
+1724	Treponema denticola	Olsenella uli	0.912338639648	Mixed	#cccccc
+1725	Treponema denticola	Tannerella forsythia	0.853203633117	Subgingival_plaque	#ffac5c
+1726	Treponema maltophilum	Tannerella forsythia	0.810988603356	Subgingival_plaque	#ffac5c
+1727	Treponema sp. OMZ 838	Treponema medium	0.962168804398	Subgingival_plaque	#ffac5c
+1728	Treponema vincentii	Treponema medium	0.94652070995	Subgingival_plaque	#ffac5c
+1729	Treponema vincentii	Treponema sp. OMZ 838	0.956323629668	Subgingival_plaque	#ffac5c
+1730	Trueperella pyogenes	Actinomyces sp. oral taxon 181	0.887990158998	Tongue_dorsum	#ff2f18
+1731	Trueperella pyogenes	Actinomyces sp. ph3	0.899588256664	Tongue_dorsum	#ff2f18
+1732	Varibaculum cambriense	Arcanobacterium sp. S3PF19	0.902777757981	Mixed	#cccccc
+1733	Varibaculum cambriense	Propionimicrobium lymphophilum	0.89227778448	Mixed	#cccccc
+1734	Veillonella sp. HPA0037	Veillonella sp. ACP1	0.883647104981	Mixed	#cccccc
+1735	Veillonella sp. OK1	Streptobacillus moniliformis	0.880985017044	Mixed	#cccccc

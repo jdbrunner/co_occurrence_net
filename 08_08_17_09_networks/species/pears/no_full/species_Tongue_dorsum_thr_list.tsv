@@ -1,0 +1,511 @@
+	source	target	weight	edge_sample	edge_color
+0	Actinobacillus suis	Acidovorax caeni	1.0	Mixed	#cccccc
+1	Actinomyces sp. ICM39	Actinomyces graevenitzii	0.815021427815	Tongue_dorsum	#ff2f18
+2	Actinomyces sp. ICM39	Actinomyces sp. HPA0247	0.86445509351	Tongue_dorsum	#ff2f18
+3	Actinomyces sp. ICM58	Actinomyces graevenitzii	1.0	Tongue_dorsum	#ff2f18
+4	Actinomyces sp. ICM58	Actinomyces sp. ICM39	0.815021427815	Tongue_dorsum	#ff2f18
+5	Actinomyces sp. oral taxon 172	Actinomyces graevenitzii	1.0	Tongue_dorsum	#ff2f18
+6	Actinomyces sp. oral taxon 172	Actinomyces sp. ICM39	0.815021427815	Tongue_dorsum	#ff2f18
+7	Actinomyces sp. oral taxon 172	Actinomyces sp. ICM58	1.0	Tongue_dorsum	#ff2f18
+8	Actinomyces sp. oral taxon 849	Acidovorax avenae	1.0	Supragingival_plaque	#ff8646
+9	Actinomyces sp. S6-Spd3	Actinomyces graevenitzii	1.0	Tongue_dorsum	#ff2f18
+10	Actinomyces sp. S6-Spd3	Actinomyces sp. ICM39	0.815021427815	Tongue_dorsum	#ff2f18
+11	Actinomyces sp. S6-Spd3	Actinomyces sp. ICM58	1.0	Tongue_dorsum	#ff2f18
+12	Actinomyces sp. S6-Spd3	Actinomyces sp. oral taxon 172	1.0	Tongue_dorsum	#ff2f18
+13	Anaerostipes hadrus	Alloscardovia omnicolens	1.0	Mixed	#cccccc
+14	Atopobium sp. ICM42b	Atopobium sp. BS2	0.912921348315	Saliva	#cbe486
+15	Bacteroides cellulosilyticus	Alistipes obesi	1.0	Stool	#e8cb72
+16	Bacteroides finegoldii	Bacteroides faecis	0.815021427815	Stool	#e8cb72
+17	Bacteroides intestinalis	Acidovorax caeni	1.0	Mixed	#cccccc
+18	Bacteroides intestinalis	Actinobacillus suis	1.0	Mixed	#cccccc
+19	Bacteroides thetaiotaomicron	Bacteroides gallinarum	1.0	Stool	#e8cb72
+20	Bergeyella zoohelcum	Acidovorax avenae	1.0	Mixed	#cccccc
+21	Bergeyella zoohelcum	Actinomyces sp. oral taxon 849	1.0	Mixed	#cccccc
+22	Bifidobacterium breve	Bacteroides coprocola	0.815021427815	Mixed	#cccccc
+23	Campylobacter fetus	Acidovorax avenae	1.0	Mixed	#cccccc
+24	Campylobacter fetus	Actinomyces sp. oral taxon 849	1.0	Mixed	#cccccc
+25	Campylobacter fetus	Bergeyella zoohelcum	1.0	Mixed	#cccccc
+26	Capnocytophaga cynodegmi	Acidovorax avenae	1.0	Mixed	#cccccc
+27	Capnocytophaga cynodegmi	Actinomyces sp. oral taxon 849	1.0	Mixed	#cccccc
+28	Capnocytophaga cynodegmi	Bergeyella zoohelcum	1.0	R_Retroauricular_crease	#acf59a
+29	Capnocytophaga cynodegmi	Campylobacter fetus	1.0	Mixed	#cccccc
+30	Capnocytophaga sp. oral taxon 323	Capnocytophaga ochracea	0.804813477945	Supragingival_plaque	#ff8646
+31	Capnocytophaga sp. oral taxon 336	Capnocytophaga sp. oral taxon 323	0.81589873265	Mixed	#cccccc
+32	Capnocytophaga sp. oral taxon 380	Capnocytophaga sp. oral taxon 323	0.869320843091	Supragingival_plaque	#ff8646
+33	Carnobacterium divergens	Brochothrix thermosphacta	1.0	Saliva	#cbe486
+34	Coriobacteriaceae bacterium BV3Ac1	Bacteroides eggerthii	1.0	Mixed	#cccccc
+35	Escherichia coli	Alistipes obesi	0.815021427815	Stool	#e8cb72
+36	Escherichia coli	Bacteroides cellulosilyticus	0.815021427815	Stool	#e8cb72
+37	[Eubacterium] eligens	Butyricimonas virosa	0.815021427815	Stool	#e8cb72
+38	Fusobacterium equinum	Campylobacter mucosalis	0.892799478657	Attached	#622ffe
+39	Gemella sanguinis	Actinomyces graevenitzii	1.0	Tongue_dorsum	#ff2f18
+40	Gemella sanguinis	Actinomyces sp. ICM39	0.815021427815	Tongue_dorsum	#ff2f18
+41	Gemella sanguinis	Actinomyces sp. ICM58	1.0	Tongue_dorsum	#ff2f18
+42	Gemella sanguinis	Actinomyces sp. oral taxon 172	1.0	Tongue_dorsum	#ff2f18
+43	Gemella sanguinis	Actinomyces sp. S6-Spd3	1.0	Tongue_dorsum	#ff2f18
+44	Histophilus somni	Gallibacterium anatis	0.811997942941	Mixed	#cccccc
+45	Holdemanella biformis	Alloscardovia omnicolens	1.0	Mixed	#cccccc
+46	Holdemanella biformis	Anaerostipes hadrus	1.0	Mixed	#cccccc
+47	Isoptericola variabilis	Actinomyces graevenitzii	0.815021427815	Tongue_dorsum	#ff2f18
+48	Isoptericola variabilis	Actinomyces sp. HPA0247	0.86445509351	Tongue_dorsum	#ff2f18
+49	Isoptericola variabilis	Actinomyces sp. ICM39	1.0	Tongue_dorsum	#ff2f18
+50	Isoptericola variabilis	Actinomyces sp. ICM58	0.815021427815	Tongue_dorsum	#ff2f18
+51	Isoptericola variabilis	Actinomyces sp. oral taxon 172	0.815021427815	Tongue_dorsum	#ff2f18
+52	Isoptericola variabilis	Actinomyces sp. S6-Spd3	0.815021427815	Tongue_dorsum	#ff2f18
+53	Isoptericola variabilis	Gemella sanguinis	0.815021427815	Tongue_dorsum	#ff2f18
+54	Lachnospiraceae bacterium 3_1_46FAA	Fusobacterium gonidiaformans	0.815021427815	Mixed	#cccccc
+55	[Mannheimia] succiniciproducens	Acidovorax avenae	0.815021427815	Mixed	#cccccc
+56	[Mannheimia] succiniciproducens	Actinomyces sp. oral taxon 849	0.815021427815	Mixed	#cccccc
+57	[Mannheimia] succiniciproducens	Bergeyella zoohelcum	0.815021427815	Mixed	#cccccc
+58	[Mannheimia] succiniciproducens	Campylobacter fetus	0.815021427815	Mixed	#cccccc
+59	[Mannheimia] succiniciproducens	Capnocytophaga cynodegmi	0.815021427815	Mixed	#cccccc
+60	Microbacterium sp. CH12i	Corynebacterium diphtheriae	1.0	Mixed	#cccccc
+61	Moraxella bovis	Acidovorax avenae	1.0	Mixed	#cccccc
+62	Moraxella bovis	Actinomyces sp. oral taxon 849	1.0	Mixed	#cccccc
+63	Moraxella bovis	Bergeyella zoohelcum	1.0	Mixed	#cccccc
+64	Moraxella bovis	Campylobacter fetus	1.0	Mixed	#cccccc
+65	Moraxella bovis	Capnocytophaga cynodegmi	1.0	Mixed	#cccccc
+66	Moraxella bovis	[Mannheimia] succiniciproducens	0.815021427815	Mixed	#cccccc
+67	Moraxella bovoculi	Acidovorax avenae	1.0	Mixed	#cccccc
+68	Moraxella bovoculi	Actinomyces sp. oral taxon 849	1.0	Mixed	#cccccc
+69	Moraxella bovoculi	Bergeyella zoohelcum	1.0	Mixed	#cccccc
+70	Moraxella bovoculi	Campylobacter fetus	1.0	Mixed	#cccccc
+71	Moraxella bovoculi	Capnocytophaga cynodegmi	1.0	Mixed	#cccccc
+72	Moraxella bovoculi	[Mannheimia] succiniciproducens	0.815021427815	Mixed	#cccccc
+73	Moraxella bovoculi	Moraxella bovis	1.0	Anterior_nares	#8000ff
+74	Moraxella caprae	Acidovorax avenae	1.0	Mixed	#cccccc
+75	Moraxella caprae	Actinomyces sp. oral taxon 849	1.0	Mixed	#cccccc
+76	Moraxella caprae	Bergeyella zoohelcum	1.0	Mixed	#cccccc
+77	Moraxella caprae	Campylobacter fetus	1.0	Mixed	#cccccc
+78	Moraxella caprae	Capnocytophaga cynodegmi	1.0	Mixed	#cccccc
+79	Moraxella caprae	[Mannheimia] succiniciproducens	0.815021427815	Mixed	#cccccc
+80	Moraxella caprae	Moraxella bovis	1.0	Anterior_nares	#8000ff
+81	Moraxella caprae	Moraxella bovoculi	1.0	Anterior_nares	#8000ff
+82	Moraxella catarrhalis	Acidovorax avenae	0.815021427815	Mixed	#cccccc
+83	Moraxella catarrhalis	Actinomyces sp. oral taxon 849	0.815021427815	Mixed	#cccccc
+84	Moraxella catarrhalis	Bergeyella zoohelcum	0.815021427815	Mixed	#cccccc
+85	Moraxella catarrhalis	Campylobacter fetus	0.815021427815	Mixed	#cccccc
+86	Moraxella catarrhalis	Capnocytophaga cynodegmi	0.815021427815	Mixed	#cccccc
+87	Moraxella catarrhalis	[Mannheimia] succiniciproducens	1.0	Mixed	#cccccc
+88	Moraxella catarrhalis	Moraxella bovis	0.815021427815	Anterior_nares	#8000ff
+89	Moraxella catarrhalis	Moraxella bovoculi	0.815021427815	Anterior_nares	#8000ff
+90	Moraxella catarrhalis	Moraxella caprae	0.815021427815	Anterior_nares	#8000ff
+91	Moraxella macacae	Acidovorax avenae	1.0	Mixed	#cccccc
+92	Moraxella macacae	Actinomyces sp. oral taxon 849	1.0	Mixed	#cccccc
+93	Moraxella macacae	Bergeyella zoohelcum	1.0	Mixed	#cccccc
+94	Moraxella macacae	Campylobacter fetus	1.0	Mixed	#cccccc
+95	Moraxella macacae	Capnocytophaga cynodegmi	1.0	Mixed	#cccccc
+96	Moraxella macacae	[Mannheimia] succiniciproducens	0.815021427815	Mixed	#cccccc
+97	Moraxella macacae	Moraxella bovis	1.0	Anterior_nares	#8000ff
+98	Moraxella macacae	Moraxella bovoculi	1.0	Anterior_nares	#8000ff
+99	Moraxella macacae	Moraxella caprae	1.0	Anterior_nares	#8000ff
+100	Moraxella macacae	Moraxella catarrhalis	0.815021427815	Anterior_nares	#8000ff
+101	Necropsobacter massiliensis	Agarivorans gilvus	1.0	Mixed	#cccccc
+102	Necropsobacter rosorum	Histophilus somni	0.813522084407	Buccal_mucosa	#445cfb
+103	Nitrospira defluvii	Gulbenkiania mobilis	1.0	Mixed	#cccccc
+104	Odoribacter laneus	Alistipes shahii	0.892799478657	Stool	#e8cb72
+105	Odoribacter laneus	Butyrivibrio crossotus	0.813522084407	Stool	#e8cb72
+106	Odoribacter laneus	[Eubacterium] eligens	0.86445509351	Stool	#e8cb72
+107	Olsenella profusa	Lachnospiraceae bacterium 7_1_58FAA	1.0	Mixed	#cccccc
+108	Oribacterium asaccharolyticum	Actinomyces graevenitzii	1.0	Mixed	#cccccc
+109	Oribacterium asaccharolyticum	Actinomyces sp. ICM39	0.815021427815	Mixed	#cccccc
+110	Oribacterium asaccharolyticum	Actinomyces sp. ICM58	1.0	Mixed	#cccccc
+111	Oribacterium asaccharolyticum	Actinomyces sp. oral taxon 172	1.0	Mixed	#cccccc
+112	Oribacterium asaccharolyticum	Actinomyces sp. S6-Spd3	1.0	Mixed	#cccccc
+113	Oribacterium asaccharolyticum	Gemella sanguinis	1.0	Mixed	#cccccc
+114	Oribacterium asaccharolyticum	Isoptericola variabilis	0.815021427815	Mixed	#cccccc
+115	Oribacterium sinus	Actinomyces graevenitzii	1.0	Mixed	#cccccc
+116	Oribacterium sinus	Actinomyces sp. ICM39	0.815021427815	Mixed	#cccccc
+117	Oribacterium sinus	Actinomyces sp. ICM58	1.0	Mixed	#cccccc
+118	Oribacterium sinus	Actinomyces sp. oral taxon 172	1.0	Mixed	#cccccc
+119	Oribacterium sinus	Actinomyces sp. S6-Spd3	1.0	Mixed	#cccccc
+120	Oribacterium sinus	Gemella sanguinis	1.0	Mixed	#cccccc
+121	Oribacterium sinus	Isoptericola variabilis	0.815021427815	Mixed	#cccccc
+122	Oribacterium sinus	Oribacterium asaccharolyticum	1.0	Mixed	#cccccc
+123	Oribacterium sp. FC2011	Lachnospiraceae bacterium FE2018	1.0	Mixed	#cccccc
+124	Oribacterium sp. NK2B42	Lachnospiraceae bacterium FE2018	1.0	Tongue_dorsum	#ff2f18
+125	Oribacterium sp. NK2B42	Oribacterium sp. FC2011	1.0	Mixed	#cccccc
+126	Oribacterium sp. oral taxon 108	Actinomyces graevenitzii	1.0	Mixed	#cccccc
+127	Oribacterium sp. oral taxon 108	Actinomyces sp. ICM39	0.815021427815	Mixed	#cccccc
+128	Oribacterium sp. oral taxon 108	Actinomyces sp. ICM58	1.0	Mixed	#cccccc
+129	Oribacterium sp. oral taxon 108	Actinomyces sp. oral taxon 172	1.0	Mixed	#cccccc
+130	Oribacterium sp. oral taxon 108	Actinomyces sp. S6-Spd3	1.0	Mixed	#cccccc
+131	Oribacterium sp. oral taxon 108	Gemella sanguinis	1.0	Mixed	#cccccc
+132	Oribacterium sp. oral taxon 108	Isoptericola variabilis	0.815021427815	Mixed	#cccccc
+133	Oribacterium sp. oral taxon 108	Oribacterium asaccharolyticum	1.0	Saliva	#cbe486
+134	Oribacterium sp. oral taxon 108	Oribacterium sinus	1.0	Mixed	#cccccc
+135	Paracoccus sp. TRP	Acidovorax avenae	1.0	Mixed	#cccccc
+136	Paracoccus sp. TRP	Actinomyces sp. oral taxon 849	1.0	Mixed	#cccccc
+137	Paracoccus sp. TRP	Bergeyella zoohelcum	1.0	R_Retroauricular_crease	#acf59a
+138	Paracoccus sp. TRP	Campylobacter fetus	1.0	Mixed	#cccccc
+139	Paracoccus sp. TRP	Capnocytophaga cynodegmi	1.0	R_Retroauricular_crease	#acf59a
+140	Paracoccus sp. TRP	[Mannheimia] succiniciproducens	0.815021427815	Mixed	#cccccc
+141	Paracoccus sp. TRP	Moraxella bovis	1.0	Mixed	#cccccc
+142	Paracoccus sp. TRP	Moraxella bovoculi	1.0	Mixed	#cccccc
+143	Paracoccus sp. TRP	Moraxella caprae	1.0	Mixed	#cccccc
+144	Paracoccus sp. TRP	Moraxella catarrhalis	0.815021427815	Mixed	#cccccc
+145	Paracoccus sp. TRP	Moraxella macacae	1.0	Mixed	#cccccc
+146	Parvimonas sp. oral taxon 393	Parvimonas sp. oral taxon 110	0.903348070153	Mixed	#cccccc
+147	Porphyromonadaceae bacterium COT-184 OH4590	Acidovorax avenae	1.0	Mixed	#cccccc
+148	Porphyromonadaceae bacterium COT-184 OH4590	Actinomyces sp. oral taxon 849	1.0	Mixed	#cccccc
+149	Porphyromonadaceae bacterium COT-184 OH4590	Bergeyella zoohelcum	1.0	Mixed	#cccccc
+150	Porphyromonadaceae bacterium COT-184 OH4590	Campylobacter fetus	1.0	Mixed	#cccccc
+151	Porphyromonadaceae bacterium COT-184 OH4590	Capnocytophaga cynodegmi	1.0	Mixed	#cccccc
+152	Porphyromonadaceae bacterium COT-184 OH4590	[Mannheimia] succiniciproducens	0.815021427815	Mixed	#cccccc
+153	Porphyromonadaceae bacterium COT-184 OH4590	Moraxella bovis	1.0	Mixed	#cccccc
+154	Porphyromonadaceae bacterium COT-184 OH4590	Moraxella bovoculi	1.0	Mixed	#cccccc
+155	Porphyromonadaceae bacterium COT-184 OH4590	Moraxella caprae	1.0	Mixed	#cccccc
+156	Porphyromonadaceae bacterium COT-184 OH4590	Moraxella catarrhalis	0.815021427815	Mixed	#cccccc
+157	Porphyromonadaceae bacterium COT-184 OH4590	Moraxella macacae	1.0	Mixed	#cccccc
+158	Porphyromonadaceae bacterium COT-184 OH4590	Paracoccus sp. TRP	1.0	Mixed	#cccccc
+159	Porphyromonas sp. KLE 1280	Porphyromonas somerae	0.928291968329	Mixed	#cccccc
+160	Porphyromonas sp. oral taxon 279	Porphyromonas somerae	0.913308173477	Mixed	#cccccc
+161	Porphyromonas sp. oral taxon 279	Porphyromonas sp. KLE 1280	0.940407736503	Hard_palate	#08acee
+162	Prevotella salivae	Actinomyces graevenitzii	1.0	Mixed	#cccccc
+163	Prevotella salivae	Actinomyces sp. ICM39	0.815021427815	Mixed	#cccccc
+164	Prevotella salivae	Actinomyces sp. ICM58	1.0	Mixed	#cccccc
+165	Prevotella salivae	Actinomyces sp. oral taxon 172	1.0	Mixed	#cccccc
+166	Prevotella salivae	Actinomyces sp. S6-Spd3	1.0	Mixed	#cccccc
+167	Prevotella salivae	Gemella sanguinis	1.0	Mixed	#cccccc
+168	Prevotella salivae	Isoptericola variabilis	0.815021427815	Mixed	#cccccc
+169	Prevotella salivae	Oribacterium asaccharolyticum	1.0	Saliva	#cbe486
+170	Prevotella salivae	Oribacterium sinus	1.0	Mixed	#cccccc
+171	Prevotella salivae	Oribacterium sp. oral taxon 108	1.0	Saliva	#cbe486
+172	Prevotella scopos	Actinomyces graevenitzii	1.0	Mixed	#cccccc
+173	Prevotella scopos	Actinomyces sp. ICM39	0.815021427815	Mixed	#cccccc
+174	Prevotella scopos	Actinomyces sp. ICM58	1.0	Mixed	#cccccc
+175	Prevotella scopos	Actinomyces sp. oral taxon 172	1.0	Mixed	#cccccc
+176	Prevotella scopos	Actinomyces sp. S6-Spd3	1.0	Mixed	#cccccc
+177	Prevotella scopos	Gemella sanguinis	1.0	Mixed	#cccccc
+178	Prevotella scopos	Isoptericola variabilis	0.815021427815	Mixed	#cccccc
+179	Prevotella scopos	Oribacterium asaccharolyticum	1.0	Mixed	#cccccc
+180	Prevotella scopos	Oribacterium sinus	1.0	Throat	#ff5c2f
+181	Prevotella scopos	Oribacterium sp. oral taxon 108	1.0	Mixed	#cccccc
+182	Prevotella scopos	Prevotella salivae	1.0	Mixed	#cccccc
+183	Prevotella sp. 109	Bacteroides coprocola	0.815021427815	Stool	#e8cb72
+184	Prevotella sp. 109	Bifidobacterium breve	1.0	Mixed	#cccccc
+185	Prevotella veroralis	Lachnospiraceae bacterium oral taxon 082	0.810719131615	Mixed	#cccccc
+186	Propionibacterium acidifaciens	Lachnospiraceae bacterium 7_1_58FAA	0.815021427815	Mixed	#cccccc
+187	Propionibacterium acidifaciens	Olsenella profusa	0.815021427815	Subgingival_plaque	#ffac5c
+188	Roseburia faecis	Butyrivibrio crossotus	1.0	Stool	#e8cb72
+189	Roseburia faecis	Odoribacter laneus	0.813522084407	Stool	#e8cb72
+190	Roseburia intestinalis	Bacteroides gallinarum	1.0	Stool	#e8cb72
+191	Roseburia intestinalis	Bacteroides thetaiotaomicron	1.0	Stool	#e8cb72
+192	Rothia mucilaginosa	Actinomyces graevenitzii	1.0	Mixed	#cccccc
+193	Rothia mucilaginosa	Actinomyces sp. ICM39	0.815021427815	Mixed	#cccccc
+194	Rothia mucilaginosa	Actinomyces sp. ICM58	1.0	Mixed	#cccccc
+195	Rothia mucilaginosa	Actinomyces sp. oral taxon 172	1.0	Mixed	#cccccc
+196	Rothia mucilaginosa	Actinomyces sp. S6-Spd3	1.0	Mixed	#cccccc
+197	Rothia mucilaginosa	Gemella sanguinis	1.0	Mixed	#cccccc
+198	Rothia mucilaginosa	Isoptericola variabilis	0.815021427815	Mixed	#cccccc
+199	Rothia mucilaginosa	Oribacterium asaccharolyticum	1.0	Mixed	#cccccc
+200	Rothia mucilaginosa	Oribacterium sinus	1.0	Mixed	#cccccc
+201	Rothia mucilaginosa	Oribacterium sp. oral taxon 108	1.0	Mixed	#cccccc
+202	Rothia mucilaginosa	Prevotella salivae	1.0	Mixed	#cccccc
+203	Rothia mucilaginosa	Prevotella scopos	1.0	Mixed	#cccccc
+204	Ruminococcus bicirculans	[Clostridium] innocuum	1.0	Stool	#e8cb72
+205	Sanguibacter keddieii	Actinomyces graevenitzii	1.0	Mixed	#cccccc
+206	Sanguibacter keddieii	Actinomyces sp. ICM39	0.815021427815	Mixed	#cccccc
+207	Sanguibacter keddieii	Actinomyces sp. ICM58	1.0	Mixed	#cccccc
+208	Sanguibacter keddieii	Actinomyces sp. oral taxon 172	1.0	Mixed	#cccccc
+209	Sanguibacter keddieii	Actinomyces sp. S6-Spd3	1.0	Mixed	#cccccc
+210	Sanguibacter keddieii	Gemella sanguinis	1.0	Mixed	#cccccc
+211	Sanguibacter keddieii	Isoptericola variabilis	0.815021427815	Mixed	#cccccc
+212	Sanguibacter keddieii	Oribacterium asaccharolyticum	1.0	Mixed	#cccccc
+213	Sanguibacter keddieii	Oribacterium sinus	1.0	Throat	#ff5c2f
+214	Sanguibacter keddieii	Oribacterium sp. oral taxon 108	1.0	Mixed	#cccccc
+215	Sanguibacter keddieii	Prevotella salivae	1.0	Mixed	#cccccc
+216	Sanguibacter keddieii	Prevotella scopos	1.0	Throat	#ff5c2f
+217	Sanguibacter keddieii	Rothia mucilaginosa	1.0	Mixed	#cccccc
+218	Selenomonas sp. F0473	Acidovorax avenae	1.0	Supragingival_plaque	#ff8646
+219	Selenomonas sp. F0473	Actinomyces sp. oral taxon 849	1.0	Supragingival_plaque	#ff8646
+220	Selenomonas sp. F0473	Bergeyella zoohelcum	1.0	Mixed	#cccccc
+221	Selenomonas sp. F0473	Campylobacter fetus	1.0	Mixed	#cccccc
+222	Selenomonas sp. F0473	Capnocytophaga cynodegmi	1.0	Mixed	#cccccc
+223	Selenomonas sp. F0473	[Mannheimia] succiniciproducens	0.815021427815	Mixed	#cccccc
+224	Selenomonas sp. F0473	Moraxella bovis	1.0	Mixed	#cccccc
+225	Selenomonas sp. F0473	Moraxella bovoculi	1.0	Mixed	#cccccc
+226	Selenomonas sp. F0473	Moraxella caprae	1.0	Mixed	#cccccc
+227	Selenomonas sp. F0473	Moraxella catarrhalis	0.815021427815	Mixed	#cccccc
+228	Selenomonas sp. F0473	Moraxella macacae	1.0	Mixed	#cccccc
+229	Selenomonas sp. F0473	Paracoccus sp. TRP	1.0	Mixed	#cccccc
+230	Selenomonas sp. F0473	Porphyromonadaceae bacterium COT-184 OH4590	1.0	Mixed	#cccccc
+231	Selenomonas sp. oral taxon 137	Acidovorax avenae	1.0	Supragingival_plaque	#ff8646
+232	Selenomonas sp. oral taxon 137	Actinomyces sp. oral taxon 849	1.0	Supragingival_plaque	#ff8646
+233	Selenomonas sp. oral taxon 137	Bergeyella zoohelcum	1.0	Mixed	#cccccc
+234	Selenomonas sp. oral taxon 137	Campylobacter fetus	1.0	Mixed	#cccccc
+235	Selenomonas sp. oral taxon 137	Capnocytophaga cynodegmi	1.0	Mixed	#cccccc
+236	Selenomonas sp. oral taxon 137	[Mannheimia] succiniciproducens	0.815021427815	Mixed	#cccccc
+237	Selenomonas sp. oral taxon 137	Moraxella bovis	1.0	Mixed	#cccccc
+238	Selenomonas sp. oral taxon 137	Moraxella bovoculi	1.0	Mixed	#cccccc
+239	Selenomonas sp. oral taxon 137	Moraxella caprae	1.0	Mixed	#cccccc
+240	Selenomonas sp. oral taxon 137	Moraxella catarrhalis	0.815021427815	Mixed	#cccccc
+241	Selenomonas sp. oral taxon 137	Moraxella macacae	1.0	Mixed	#cccccc
+242	Selenomonas sp. oral taxon 137	Paracoccus sp. TRP	1.0	Mixed	#cccccc
+243	Selenomonas sp. oral taxon 137	Porphyromonadaceae bacterium COT-184 OH4590	1.0	Mixed	#cccccc
+244	Selenomonas sp. oral taxon 137	Selenomonas sp. F0473	1.0	Supragingival_plaque	#ff8646
+245	Selenomonas sp. oral taxon 149	Selenomonas flueggei	0.936943151165	Saliva	#cbe486
+246	Selenomonas sp. oral taxon 478	Selenomonas sp. oral taxon 149	0.823897388865	Saliva	#cbe486
+247	Selenomonas sputigena	Selenomonas sp. CM52	0.902040165325	Subgingival_plaque	#ffac5c
+248	Slackia sp. CM382	Lachnospiraceae bacterium FE2018	1.0	Mixed	#cccccc
+249	Slackia sp. CM382	Oribacterium sp. FC2011	1.0	Mixed	#cccccc
+250	Slackia sp. CM382	Oribacterium sp. NK2B42	1.0	Mixed	#cccccc
+251	Staphylococcus lugdunensis	Actinomyces timonensis	0.813522084407	Mixed	#cccccc
+252	Staphylococcus lugdunensis	Helicobacter pylori	0.813522084407	Anterior_nares	#8000ff
+253	Stomatobaculum longum	Actinomyces graevenitzii	1.0	Tongue_dorsum	#ff2f18
+254	Stomatobaculum longum	Actinomyces sp. ICM39	0.815021427815	Tongue_dorsum	#ff2f18
+255	Stomatobaculum longum	Actinomyces sp. ICM58	1.0	Tongue_dorsum	#ff2f18
+256	Stomatobaculum longum	Actinomyces sp. oral taxon 172	1.0	Tongue_dorsum	#ff2f18
+257	Stomatobaculum longum	Actinomyces sp. S6-Spd3	1.0	Tongue_dorsum	#ff2f18
+258	Stomatobaculum longum	Gemella sanguinis	1.0	Tongue_dorsum	#ff2f18
+259	Stomatobaculum longum	Isoptericola variabilis	0.815021427815	Tongue_dorsum	#ff2f18
+260	Stomatobaculum longum	Oribacterium asaccharolyticum	1.0	Mixed	#cccccc
+261	Stomatobaculum longum	Oribacterium sinus	1.0	Mixed	#cccccc
+262	Stomatobaculum longum	Oribacterium sp. oral taxon 108	1.0	Mixed	#cccccc
+263	Stomatobaculum longum	Prevotella salivae	1.0	Mixed	#cccccc
+264	Stomatobaculum longum	Prevotella scopos	1.0	Mixed	#cccccc
+265	Stomatobaculum longum	Rothia mucilaginosa	1.0	Mixed	#cccccc
+266	Stomatobaculum longum	Sanguibacter keddieii	1.0	Mixed	#cccccc
+267	Streptococcus dentisani	Staphylococcus epidermidis	0.815021427815	Mixed	#cccccc
+268	Streptococcus equinus	Bacteroides eggerthii	1.0	Mixed	#cccccc
+269	Streptococcus equinus	Coriobacteriaceae bacterium BV3Ac1	1.0	Mixed	#cccccc
+270	Streptococcus hyovaginalis	Bacteroides sp. D20	1.0	Mixed	#cccccc
+271	Streptococcus infantis	Actinomyces graevenitzii	1.0	Tongue_dorsum	#ff2f18
+272	Streptococcus infantis	Actinomyces sp. ICM39	0.815021427815	Tongue_dorsum	#ff2f18
+273	Streptococcus infantis	Actinomyces sp. ICM58	1.0	Tongue_dorsum	#ff2f18
+274	Streptococcus infantis	Actinomyces sp. oral taxon 172	1.0	Tongue_dorsum	#ff2f18
+275	Streptococcus infantis	Actinomyces sp. S6-Spd3	1.0	Tongue_dorsum	#ff2f18
+276	Streptococcus infantis	Gemella sanguinis	1.0	Tongue_dorsum	#ff2f18
+277	Streptococcus infantis	Isoptericola variabilis	0.815021427815	Tongue_dorsum	#ff2f18
+278	Streptococcus infantis	Oribacterium asaccharolyticum	1.0	Mixed	#cccccc
+279	Streptococcus infantis	Oribacterium sinus	1.0	Mixed	#cccccc
+280	Streptococcus infantis	Oribacterium sp. oral taxon 108	1.0	Mixed	#cccccc
+281	Streptococcus infantis	Prevotella salivae	1.0	Mixed	#cccccc
+282	Streptococcus infantis	Prevotella scopos	1.0	Mixed	#cccccc
+283	Streptococcus infantis	Rothia mucilaginosa	1.0	Mixed	#cccccc
+284	Streptococcus infantis	Sanguibacter keddieii	1.0	Mixed	#cccccc
+285	Streptococcus infantis	Stomatobaculum longum	1.0	Tongue_dorsum	#ff2f18
+286	Streptococcus parasanguinis	Actinomyces graevenitzii	1.0	Tongue_dorsum	#ff2f18
+287	Streptococcus parasanguinis	Actinomyces sp. ICM39	0.815021427815	Tongue_dorsum	#ff2f18
+288	Streptococcus parasanguinis	Actinomyces sp. ICM58	1.0	Tongue_dorsum	#ff2f18
+289	Streptococcus parasanguinis	Actinomyces sp. oral taxon 172	1.0	Tongue_dorsum	#ff2f18
+290	Streptococcus parasanguinis	Actinomyces sp. S6-Spd3	1.0	Tongue_dorsum	#ff2f18
+291	Streptococcus parasanguinis	Gemella sanguinis	1.0	Tongue_dorsum	#ff2f18
+292	Streptococcus parasanguinis	Isoptericola variabilis	0.815021427815	Tongue_dorsum	#ff2f18
+293	Streptococcus parasanguinis	Oribacterium asaccharolyticum	1.0	Mixed	#cccccc
+294	Streptococcus parasanguinis	Oribacterium sinus	1.0	Mixed	#cccccc
+295	Streptococcus parasanguinis	Oribacterium sp. oral taxon 108	1.0	Mixed	#cccccc
+296	Streptococcus parasanguinis	Prevotella salivae	1.0	Mixed	#cccccc
+297	Streptococcus parasanguinis	Prevotella scopos	1.0	Mixed	#cccccc
+298	Streptococcus parasanguinis	Rothia mucilaginosa	1.0	Mixed	#cccccc
+299	Streptococcus parasanguinis	Sanguibacter keddieii	1.0	Mixed	#cccccc
+300	Streptococcus parasanguinis	Stomatobaculum longum	1.0	Tongue_dorsum	#ff2f18
+301	Streptococcus parasanguinis	Streptococcus infantis	1.0	Tongue_dorsum	#ff2f18
+302	Streptococcus sinensis	Enterococcus faecium	1.0	Mixed	#cccccc
+303	Streptococcus sp. 2_1_36FAA	Actinomyces timonensis	0.813522084407	Mixed	#cccccc
+304	Streptococcus sp. 2_1_36FAA	Helicobacter pylori	0.813522084407	Mixed	#cccccc
+305	Streptococcus sp. 2_1_36FAA	Staphylococcus lugdunensis	1.0	Mixed	#cccccc
+306	Streptococcus sp. 263_SSPC	Actinomyces graevenitzii	1.0	Tongue_dorsum	#ff2f18
+307	Streptococcus sp. 263_SSPC	Actinomyces sp. ICM39	0.815021427815	Tongue_dorsum	#ff2f18
+308	Streptococcus sp. 263_SSPC	Actinomyces sp. ICM58	1.0	Tongue_dorsum	#ff2f18
+309	Streptococcus sp. 263_SSPC	Actinomyces sp. oral taxon 172	1.0	Tongue_dorsum	#ff2f18
+310	Streptococcus sp. 263_SSPC	Actinomyces sp. S6-Spd3	1.0	Tongue_dorsum	#ff2f18
+311	Streptococcus sp. 263_SSPC	Gemella sanguinis	1.0	Tongue_dorsum	#ff2f18
+312	Streptococcus sp. 263_SSPC	Isoptericola variabilis	0.815021427815	Tongue_dorsum	#ff2f18
+313	Streptococcus sp. 263_SSPC	Oribacterium asaccharolyticum	1.0	Mixed	#cccccc
+314	Streptococcus sp. 263_SSPC	Oribacterium sinus	1.0	Mixed	#cccccc
+315	Streptococcus sp. 263_SSPC	Oribacterium sp. oral taxon 108	1.0	Mixed	#cccccc
+316	Streptococcus sp. 263_SSPC	Prevotella salivae	1.0	Mixed	#cccccc
+317	Streptococcus sp. 263_SSPC	Prevotella scopos	1.0	Mixed	#cccccc
+318	Streptococcus sp. 263_SSPC	Rothia mucilaginosa	1.0	Mixed	#cccccc
+319	Streptococcus sp. 263_SSPC	Sanguibacter keddieii	1.0	Mixed	#cccccc
+320	Streptococcus sp. 263_SSPC	Stomatobaculum longum	1.0	Tongue_dorsum	#ff2f18
+321	Streptococcus sp. 263_SSPC	Streptococcus infantis	1.0	Tongue_dorsum	#ff2f18
+322	Streptococcus sp. 263_SSPC	Streptococcus parasanguinis	1.0	Tongue_dorsum	#ff2f18
+323	Streptococcus sp. C300	Streptococcus orisratti	0.815021427815	Mixed	#cccccc
+324	Streptococcus sp. CM7	Corynebacterium diphtheriae	1.0	Mixed	#cccccc
+325	Streptococcus sp. CM7	Microbacterium sp. CH12i	1.0	Mixed	#cccccc
+326	Streptococcus sp. HSISS1	Bacteroides faecis	1.0	Mixed	#cccccc
+327	Streptococcus sp. HSISS1	Bacteroides finegoldii	0.815021427815	Mixed	#cccccc
+328	Streptococcus sp. SR1	Gemella bergeri	0.842064100854	Mixed	#cccccc
+329	Streptococcus tigurinus	Staphylococcus epidermidis	0.815021427815	Mixed	#cccccc
+330	Streptococcus tigurinus	Streptococcus dentisani	1.0	Hard_palate	#08acee
+331	Sutterella wadsworthensis	Bacteroides salyersiae	0.813522084407	Stool	#e8cb72
+332	Tepidiphilus thermophilus	Actinomyces timonensis	0.813522084407	Mixed	#cccccc
+333	Tepidiphilus thermophilus	Helicobacter pylori	0.813522084407	Anterior_nares	#8000ff
+334	Tepidiphilus thermophilus	Staphylococcus lugdunensis	1.0	Anterior_nares	#8000ff
+335	Tepidiphilus thermophilus	Streptococcus sp. 2_1_36FAA	1.0	Mixed	#cccccc
+336	Thiothrix flexilis	Streptococcus sp. CM6	1.0	Mixed	#cccccc
+337	Treponema sp. OMZ 838	Treponema medium	0.801116071048	Subgingival_plaque	#ffac5c
+338	Treponema vincentii	Treponema medium	0.902924553007	Subgingival_plaque	#ffac5c
+339	Treponema vincentii	Treponema sp. OMZ 838	0.807254093556	Subgingival_plaque	#ffac5c
+340	Veillonella atypica	Actinomyces graevenitzii	1.0	Mixed	#cccccc
+341	Veillonella atypica	Actinomyces sp. ICM39	0.815021427815	Mixed	#cccccc
+342	Veillonella atypica	Actinomyces sp. ICM58	1.0	Mixed	#cccccc
+343	Veillonella atypica	Actinomyces sp. oral taxon 172	1.0	Mixed	#cccccc
+344	Veillonella atypica	Actinomyces sp. S6-Spd3	1.0	Mixed	#cccccc
+345	Veillonella atypica	Gemella sanguinis	1.0	Mixed	#cccccc
+346	Veillonella atypica	Isoptericola variabilis	0.815021427815	Mixed	#cccccc
+347	Veillonella atypica	Oribacterium asaccharolyticum	1.0	Saliva	#cbe486
+348	Veillonella atypica	Oribacterium sinus	1.0	Mixed	#cccccc
+349	Veillonella atypica	Oribacterium sp. oral taxon 108	1.0	Saliva	#cbe486
+350	Veillonella atypica	Prevotella salivae	1.0	Saliva	#cbe486
+351	Veillonella atypica	Prevotella scopos	1.0	Mixed	#cccccc
+352	Veillonella atypica	Rothia mucilaginosa	1.0	Mixed	#cccccc
+353	Veillonella atypica	Sanguibacter keddieii	1.0	Mixed	#cccccc
+354	Veillonella atypica	Stomatobaculum longum	1.0	Mixed	#cccccc
+355	Veillonella atypica	Streptococcus infantis	1.0	Mixed	#cccccc
+356	Veillonella atypica	Streptococcus parasanguinis	1.0	Mixed	#cccccc
+357	Veillonella atypica	Streptococcus sp. 263_SSPC	1.0	Mixed	#cccccc
+358	Veillonella dispar	Actinomyces graevenitzii	1.0	Mixed	#cccccc
+359	Veillonella dispar	Actinomyces sp. ICM39	0.815021427815	Mixed	#cccccc
+360	Veillonella dispar	Actinomyces sp. ICM58	1.0	Mixed	#cccccc
+361	Veillonella dispar	Actinomyces sp. oral taxon 172	1.0	Mixed	#cccccc
+362	Veillonella dispar	Actinomyces sp. S6-Spd3	1.0	Mixed	#cccccc
+363	Veillonella dispar	Gemella sanguinis	1.0	Mixed	#cccccc
+364	Veillonella dispar	Isoptericola variabilis	0.815021427815	Mixed	#cccccc
+365	Veillonella dispar	Oribacterium asaccharolyticum	1.0	Mixed	#cccccc
+366	Veillonella dispar	Oribacterium sinus	1.0	Throat	#ff5c2f
+367	Veillonella dispar	Oribacterium sp. oral taxon 108	1.0	Mixed	#cccccc
+368	Veillonella dispar	Prevotella salivae	1.0	Mixed	#cccccc
+369	Veillonella dispar	Prevotella scopos	1.0	Throat	#ff5c2f
+370	Veillonella dispar	Rothia mucilaginosa	1.0	Mixed	#cccccc
+371	Veillonella dispar	Sanguibacter keddieii	1.0	Throat	#ff5c2f
+372	Veillonella dispar	Stomatobaculum longum	1.0	Mixed	#cccccc
+373	Veillonella dispar	Streptococcus infantis	1.0	Mixed	#cccccc
+374	Veillonella dispar	Streptococcus parasanguinis	1.0	Mixed	#cccccc
+375	Veillonella dispar	Streptococcus sp. 263_SSPC	1.0	Mixed	#cccccc
+376	Veillonella dispar	Veillonella atypica	1.0	Mixed	#cccccc
+377	Veillonella sp. AS16	Actinomyces graevenitzii	0.815021427815	Tongue_dorsum	#ff2f18
+378	Veillonella sp. AS16	Actinomyces sp. ICM58	0.815021427815	Tongue_dorsum	#ff2f18
+379	Veillonella sp. AS16	Actinomyces sp. oral taxon 172	0.815021427815	Tongue_dorsum	#ff2f18
+380	Veillonella sp. AS16	Actinomyces sp. S6-Spd3	0.815021427815	Tongue_dorsum	#ff2f18
+381	Veillonella sp. AS16	Gemella sanguinis	0.815021427815	Tongue_dorsum	#ff2f18
+382	Veillonella sp. AS16	Oribacterium asaccharolyticum	0.815021427815	Mixed	#cccccc
+383	Veillonella sp. AS16	Oribacterium sinus	0.815021427815	Mixed	#cccccc
+384	Veillonella sp. AS16	Oribacterium sp. oral taxon 108	0.815021427815	Mixed	#cccccc
+385	Veillonella sp. AS16	Prevotella salivae	0.815021427815	Mixed	#cccccc
+386	Veillonella sp. AS16	Prevotella scopos	0.815021427815	Mixed	#cccccc
+387	Veillonella sp. AS16	Rothia mucilaginosa	0.815021427815	Mixed	#cccccc
+388	Veillonella sp. AS16	Sanguibacter keddieii	0.815021427815	Mixed	#cccccc
+389	Veillonella sp. AS16	Stomatobaculum longum	0.815021427815	Tongue_dorsum	#ff2f18
+390	Veillonella sp. AS16	Streptococcus infantis	0.815021427815	Tongue_dorsum	#ff2f18
+391	Veillonella sp. AS16	Streptococcus parasanguinis	0.815021427815	Tongue_dorsum	#ff2f18
+392	Veillonella sp. AS16	Streptococcus sp. 263_SSPC	0.815021427815	Tongue_dorsum	#ff2f18
+393	Veillonella sp. AS16	Veillonella atypica	0.815021427815	Mixed	#cccccc
+394	Veillonella sp. AS16	Veillonella dispar	0.815021427815	Mixed	#cccccc
+395	Veillonella sp. HPA0037	Actinomyces graevenitzii	1.0	Tongue_dorsum	#ff2f18
+396	Veillonella sp. HPA0037	Actinomyces sp. ICM39	0.815021427815	Tongue_dorsum	#ff2f18
+397	Veillonella sp. HPA0037	Actinomyces sp. ICM58	1.0	Tongue_dorsum	#ff2f18
+398	Veillonella sp. HPA0037	Actinomyces sp. oral taxon 172	1.0	Tongue_dorsum	#ff2f18
+399	Veillonella sp. HPA0037	Actinomyces sp. S6-Spd3	1.0	Tongue_dorsum	#ff2f18
+400	Veillonella sp. HPA0037	Gemella sanguinis	1.0	Tongue_dorsum	#ff2f18
+401	Veillonella sp. HPA0037	Isoptericola variabilis	0.815021427815	Tongue_dorsum	#ff2f18
+402	Veillonella sp. HPA0037	Oribacterium asaccharolyticum	1.0	Mixed	#cccccc
+403	Veillonella sp. HPA0037	Oribacterium sinus	1.0	Mixed	#cccccc
+404	Veillonella sp. HPA0037	Oribacterium sp. oral taxon 108	1.0	Mixed	#cccccc
+405	Veillonella sp. HPA0037	Prevotella salivae	1.0	Mixed	#cccccc
+406	Veillonella sp. HPA0037	Prevotella scopos	1.0	Mixed	#cccccc
+407	Veillonella sp. HPA0037	Rothia mucilaginosa	1.0	Mixed	#cccccc
+408	Veillonella sp. HPA0037	Sanguibacter keddieii	1.0	Mixed	#cccccc
+409	Veillonella sp. HPA0037	Stomatobaculum longum	1.0	Tongue_dorsum	#ff2f18
+410	Veillonella sp. HPA0037	Streptococcus infantis	1.0	Tongue_dorsum	#ff2f18
+411	Veillonella sp. HPA0037	Streptococcus parasanguinis	1.0	Tongue_dorsum	#ff2f18
+412	Veillonella sp. HPA0037	Streptococcus sp. 263_SSPC	1.0	Tongue_dorsum	#ff2f18
+413	Veillonella sp. HPA0037	Veillonella atypica	1.0	Mixed	#cccccc
+414	Veillonella sp. HPA0037	Veillonella dispar	1.0	Mixed	#cccccc
+415	Veillonella sp. HPA0037	Veillonella sp. AS16	0.815021427815	Tongue_dorsum	#ff2f18
+416	Veillonella sp. ICM51a	Actinomyces graevenitzii	1.0	Mixed	#cccccc
+417	Veillonella sp. ICM51a	Actinomyces sp. ICM39	0.815021427815	Mixed	#cccccc
+418	Veillonella sp. ICM51a	Actinomyces sp. ICM58	1.0	Mixed	#cccccc
+419	Veillonella sp. ICM51a	Actinomyces sp. oral taxon 172	1.0	Mixed	#cccccc
+420	Veillonella sp. ICM51a	Actinomyces sp. S6-Spd3	1.0	Mixed	#cccccc
+421	Veillonella sp. ICM51a	Gemella sanguinis	1.0	Mixed	#cccccc
+422	Veillonella sp. ICM51a	Isoptericola variabilis	0.815021427815	Mixed	#cccccc
+423	Veillonella sp. ICM51a	Oribacterium asaccharolyticum	1.0	Saliva	#cbe486
+424	Veillonella sp. ICM51a	Oribacterium sinus	1.0	Mixed	#cccccc
+425	Veillonella sp. ICM51a	Oribacterium sp. oral taxon 108	1.0	Saliva	#cbe486
+426	Veillonella sp. ICM51a	Prevotella salivae	1.0	Saliva	#cbe486
+427	Veillonella sp. ICM51a	Prevotella scopos	1.0	Mixed	#cccccc
+428	Veillonella sp. ICM51a	Rothia mucilaginosa	1.0	Mixed	#cccccc
+429	Veillonella sp. ICM51a	Sanguibacter keddieii	1.0	Mixed	#cccccc
+430	Veillonella sp. ICM51a	Stomatobaculum longum	1.0	Mixed	#cccccc
+431	Veillonella sp. ICM51a	Streptococcus infantis	1.0	Mixed	#cccccc
+432	Veillonella sp. ICM51a	Streptococcus parasanguinis	1.0	Mixed	#cccccc
+433	Veillonella sp. ICM51a	Streptococcus sp. 263_SSPC	1.0	Mixed	#cccccc
+434	Veillonella sp. ICM51a	Veillonella atypica	1.0	Saliva	#cbe486
+435	Veillonella sp. ICM51a	Veillonella dispar	1.0	Mixed	#cccccc
+436	Veillonella sp. ICM51a	Veillonella sp. AS16	0.815021427815	Mixed	#cccccc
+437	Veillonella sp. ICM51a	Veillonella sp. HPA0037	1.0	Mixed	#cccccc
+438	Veillonella sp. oral taxon 158	Actinomyces graevenitzii	1.0	Mixed	#cccccc
+439	Veillonella sp. oral taxon 158	Actinomyces sp. ICM39	0.815021427815	Mixed	#cccccc
+440	Veillonella sp. oral taxon 158	Actinomyces sp. ICM58	1.0	Mixed	#cccccc
+441	Veillonella sp. oral taxon 158	Actinomyces sp. oral taxon 172	1.0	Mixed	#cccccc
+442	Veillonella sp. oral taxon 158	Actinomyces sp. S6-Spd3	1.0	Mixed	#cccccc
+443	Veillonella sp. oral taxon 158	Gemella sanguinis	1.0	Mixed	#cccccc
+444	Veillonella sp. oral taxon 158	Isoptericola variabilis	0.815021427815	Mixed	#cccccc
+445	Veillonella sp. oral taxon 158	Oribacterium asaccharolyticum	1.0	Mixed	#cccccc
+446	Veillonella sp. oral taxon 158	Oribacterium sinus	1.0	Mixed	#cccccc
+447	Veillonella sp. oral taxon 158	Oribacterium sp. oral taxon 108	1.0	Mixed	#cccccc
+448	Veillonella sp. oral taxon 158	Prevotella salivae	1.0	Mixed	#cccccc
+449	Veillonella sp. oral taxon 158	Prevotella scopos	1.0	Mixed	#cccccc
+450	Veillonella sp. oral taxon 158	Rothia mucilaginosa	1.0	Mixed	#cccccc
+451	Veillonella sp. oral taxon 158	Sanguibacter keddieii	1.0	Mixed	#cccccc
+452	Veillonella sp. oral taxon 158	Stomatobaculum longum	1.0	Mixed	#cccccc
+453	Veillonella sp. oral taxon 158	Streptococcus infantis	1.0	Mixed	#cccccc
+454	Veillonella sp. oral taxon 158	Streptococcus parasanguinis	1.0	Mixed	#cccccc
+455	Veillonella sp. oral taxon 158	Streptococcus sp. 263_SSPC	1.0	Mixed	#cccccc
+456	Veillonella sp. oral taxon 158	Veillonella atypica	1.0	Mixed	#cccccc
+457	Veillonella sp. oral taxon 158	Veillonella dispar	1.0	Mixed	#cccccc
+458	Veillonella sp. oral taxon 158	Veillonella sp. AS16	0.815021427815	Mixed	#cccccc
+459	Veillonella sp. oral taxon 158	Veillonella sp. HPA0037	1.0	Mixed	#cccccc
+460	Veillonella sp. oral taxon 158	Veillonella sp. ICM51a	1.0	Mixed	#cccccc
+461	Veillonella tobetsuensis	Actinomyces graevenitzii	1.0	Tongue_dorsum	#ff2f18
+462	Veillonella tobetsuensis	Actinomyces sp. ICM39	0.815021427815	Tongue_dorsum	#ff2f18
+463	Veillonella tobetsuensis	Actinomyces sp. ICM58	1.0	Tongue_dorsum	#ff2f18
+464	Veillonella tobetsuensis	Actinomyces sp. oral taxon 172	1.0	Tongue_dorsum	#ff2f18
+465	Veillonella tobetsuensis	Actinomyces sp. S6-Spd3	1.0	Tongue_dorsum	#ff2f18
+466	Veillonella tobetsuensis	Gemella sanguinis	1.0	Tongue_dorsum	#ff2f18
+467	Veillonella tobetsuensis	Isoptericola variabilis	0.815021427815	Tongue_dorsum	#ff2f18
+468	Veillonella tobetsuensis	Oribacterium asaccharolyticum	1.0	Mixed	#cccccc
+469	Veillonella tobetsuensis	Oribacterium sinus	1.0	Mixed	#cccccc
+470	Veillonella tobetsuensis	Oribacterium sp. oral taxon 108	1.0	Mixed	#cccccc
+471	Veillonella tobetsuensis	Prevotella salivae	1.0	Mixed	#cccccc
+472	Veillonella tobetsuensis	Prevotella scopos	1.0	Mixed	#cccccc
+473	Veillonella tobetsuensis	Rothia mucilaginosa	1.0	Mixed	#cccccc
+474	Veillonella tobetsuensis	Sanguibacter keddieii	1.0	Mixed	#cccccc
+475	Veillonella tobetsuensis	Stomatobaculum longum	1.0	Tongue_dorsum	#ff2f18
+476	Veillonella tobetsuensis	Streptococcus infantis	1.0	Tongue_dorsum	#ff2f18
+477	Veillonella tobetsuensis	Streptococcus parasanguinis	1.0	Tongue_dorsum	#ff2f18
+478	Veillonella tobetsuensis	Streptococcus sp. 263_SSPC	1.0	Tongue_dorsum	#ff2f18
+479	Veillonella tobetsuensis	Veillonella atypica	1.0	Mixed	#cccccc
+480	Veillonella tobetsuensis	Veillonella dispar	1.0	Mixed	#cccccc
+481	Veillonella tobetsuensis	Veillonella sp. AS16	0.815021427815	Tongue_dorsum	#ff2f18
+482	Veillonella tobetsuensis	Veillonella sp. HPA0037	1.0	Tongue_dorsum	#ff2f18
+483	Veillonella tobetsuensis	Veillonella sp. ICM51a	1.0	Mixed	#cccccc
+484	Veillonella tobetsuensis	Veillonella sp. oral taxon 158	1.0	Mixed	#cccccc
+485	Xylanimonas cellulosilytica	Actinomyces graevenitzii	0.815021427815	Mixed	#cccccc
+486	Xylanimonas cellulosilytica	Actinomyces sp. HPA0247	0.86445509351	Mixed	#cccccc
+487	Xylanimonas cellulosilytica	Actinomyces sp. ICM39	1.0	Mixed	#cccccc
+488	Xylanimonas cellulosilytica	Actinomyces sp. ICM58	0.815021427815	Mixed	#cccccc
+489	Xylanimonas cellulosilytica	Actinomyces sp. oral taxon 172	0.815021427815	Mixed	#cccccc
+490	Xylanimonas cellulosilytica	Actinomyces sp. S6-Spd3	0.815021427815	Mixed	#cccccc
+491	Xylanimonas cellulosilytica	Gemella sanguinis	0.815021427815	Mixed	#cccccc
+492	Xylanimonas cellulosilytica	Isoptericola variabilis	1.0	Mixed	#cccccc
+493	Xylanimonas cellulosilytica	Oribacterium asaccharolyticum	0.815021427815	Mixed	#cccccc
+494	Xylanimonas cellulosilytica	Oribacterium sinus	0.815021427815	Throat	#ff5c2f
+495	Xylanimonas cellulosilytica	Oribacterium sp. oral taxon 108	0.815021427815	Mixed	#cccccc
+496	Xylanimonas cellulosilytica	Prevotella salivae	0.815021427815	Mixed	#cccccc
+497	Xylanimonas cellulosilytica	Prevotella scopos	0.815021427815	Throat	#ff5c2f
+498	Xylanimonas cellulosilytica	Rothia mucilaginosa	0.815021427815	Mixed	#cccccc
+499	Xylanimonas cellulosilytica	Sanguibacter keddieii	0.815021427815	Throat	#ff5c2f
+500	Xylanimonas cellulosilytica	Stomatobaculum longum	0.815021427815	Mixed	#cccccc
+501	Xylanimonas cellulosilytica	Streptococcus infantis	0.815021427815	Mixed	#cccccc
+502	Xylanimonas cellulosilytica	Streptococcus parasanguinis	0.815021427815	Mixed	#cccccc
+503	Xylanimonas cellulosilytica	Streptococcus sp. 263_SSPC	0.815021427815	Mixed	#cccccc
+504	Xylanimonas cellulosilytica	Veillonella atypica	0.815021427815	Mixed	#cccccc
+505	Xylanimonas cellulosilytica	Veillonella dispar	0.815021427815	Throat	#ff5c2f
+506	Xylanimonas cellulosilytica	Veillonella sp. HPA0037	0.815021427815	Mixed	#cccccc
+507	Xylanimonas cellulosilytica	Veillonella sp. ICM51a	0.815021427815	Mixed	#cccccc
+508	Xylanimonas cellulosilytica	Veillonella sp. oral taxon 158	0.815021427815	Mixed	#cccccc
+509	Xylanimonas cellulosilytica	Veillonella tobetsuensis	0.815021427815	Mixed	#cccccc

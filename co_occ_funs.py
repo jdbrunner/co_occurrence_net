@@ -18,6 +18,7 @@ import itertools as iter
 from scipy.special import binom as choose
 from scipy.stats import binom
 from numpy.random import binomial as bino
+from numpy.random import normal as gaussian
 import re
 import numpy.ma as mask
 from scipy import misc, sparse, cluster
@@ -68,7 +69,10 @@ def color_picker(r):
 	'''Function that classifies nodes by which type of sample they have the highest abundance in. If it's a dataframe
 	;it will return the column head of the winner'''
 	numcols = len(r)
-	#print(r)
+	if len(r.shape)>1:
+		#print(r)
+		grey = matplotlib.colors.rgb2hex([0.80000001192092896, 0.80000001192092896, 0.80000001192092896, 1.0])
+		return ['Error', grey]
 	most_found = argmax(r)
 	strgth = r[most_found] - mean(r)
 	std_dev = std(r)
@@ -215,7 +219,7 @@ def min_nz(arr, rows = False):
 	else:
 		return mask_arr.min()
 		
-def build_network(abundance_array, cotype, thr = False, list_too = True):
+def build_network(abundance_array, cotype = 'pearson', thr = False, list_too = True):
 	'''Build a cooccurrence network from a pandas dataframe. Data should all come from same taxonomic level, with columns
 	['LEVEL','TAXA','SAMPLE_1',...,'SAMPLE_N']'''
 	ab_np_array = abundance_array.values[:,2:].astype(float)
@@ -277,6 +281,8 @@ def build_network(abundance_array, cotype, thr = False, list_too = True):
 
 		else:
 			adjacency_frames = pd.DataFrame( [[0]], columns = ['empty'],index = ['empty'])
+			if list_too:
+				source_target_frames = pd.DataFrame( [[0]], columns = ['empty'],index = ['empty'])
 				
 	elif cotype == 'pearson':
 			pears = array(ab_np_array)
@@ -344,6 +350,8 @@ def build_network(abundance_array, cotype, thr = False, list_too = True):
 			
 			else:
 				adjacency_frames = pd.DataFrame( [[0]], columns = ['empty'],index = ['empty'])
+				if list_too:
+					source_target_frames = pd.DataFrame( [[0]], columns = ['empty'],index = ['empty'])
 			
 	else:
 		sys.exit('Choose bins or pearson for edge construction')
@@ -360,6 +368,8 @@ def make_meta(edges, ab_by_samp_type, orig_array):
 	'''Make separate node attribute table, and add edge metadata to the existing 
 	network data frame (given as list of edges). Node table needs columns for node frequency,
 	sample most commonly seen in, and sample type color. Edges need sample type and color.'''
+	if edges.columns[0] == 'empty':
+		return [pd.DataFrame( [[0]], columns = ['empty'],index = ['empty']),pd.DataFrame( [[0]], columns = ['empty'],index = ['empty'])]
 	#initialize the node table	
 	all_taxa = list(edges['source'].values) + list(edges['target'].values)
 	node_data = pd.DataFrame(all_taxa, columns = ['TAXA'])
@@ -390,13 +400,17 @@ def make_meta(edges, ab_by_samp_type, orig_array):
 	##and return
 	return[edges, node_data]
 	
-def make_meta_from_file(edges, metadata, orig_array):
+def make_meta_from_file(edges, metadata, orig_array, existing_table = []):
 	'''Make a node attribute table using sample metadata file. edges is the network dataframe
 	while metadata is a dataframe of metadata, and orig_array is the array of abundances (at 
 	the appropriate taxonomic level). The index set of the metadata should correspond columns 
-	2: of the orig_array'''
+	[2:] of the orig_array'''
 	#initialize the node table	
 	num_samps = len(metadata)
+	if len(edges) == 0:
+		return []
+	if edges.columns[1] == 'empty':
+		return []
 	all_taxa = list(edges['source'].values) + list(edges['target'].values)
 	node_data = pd.DataFrame(all_taxa, columns = ['TAXA'])
 	node_data.drop_duplicates(inplace = True)
@@ -404,6 +418,8 @@ def make_meta_from_file(edges, metadata, orig_array):
 	## determine the metadata categories
 	cats = list(metadata.columns)
 	cats.remove('Name')
+	orig2 = orig_array.drop('TAXA', axis = 1)
+	orig2 = orig2.drop('LEVEL', axis = 1)
 	#for each category, classify the taxa
 	for c in cats:
 		#get the possibilities:
@@ -418,16 +434,26 @@ def make_meta_from_file(edges, metadata, orig_array):
 			catdat = pd.DataFrame(typesof[y], columns = [c], index = metadata.index)
 		else:
 			catdat = metadata[c]
-		summed = transpose(array([sum(orig_array[catdat.index[(catdat == let).T.values[0]]], axis = 1).values for let in unique(catdat.values)]))
+		summed = transpose(array([sum(orig2[orig2.columns[catdat == let]], axis = 1).values for let in unique(catdat.values)]))
 		sumdf = pd.DataFrame(summed, columns = unique(catdat.values), index = orig_array.index)
-		sumdf['TAXA'] = orig_array.loc(sumdf.index,'TAXA')
+		sumdf['TAXA'] = orig_array.loc[sumdf.index,'TAXA']
 		ilocs_of_tax = [where(sumdf['TAXA'] == tx) for tx in taxa_net]
 		assign = [color_picker(sumdf.iloc[rw[0][0]][:-1]) for rw in ilocs_of_tax]
 		types = [asment[0] for asment in assign]
 		color_types = [asment[1] for asment in assign]
 		node_data[c+'_type'] = types
 		node_data[c+'_color'] = color_types
-	return node_data
+	if len(existing_table) == 0:
+		return node_data
+	else:
+		if any(unique(node_data['TAXA']) != unique(existing_table['TAXA'])):
+			print('Existing data from wrong network')
+			return node_data
+		else:
+			node_data.index = node_data['TAXA']
+			for col in node_data.columns[1:]:
+				existing_table[col] = node_data.loc[existing_table['TAXA'], col].values
+			return existing_table
 	
 	
 	
@@ -439,9 +465,10 @@ def make_meta_from_file(edges, metadata, orig_array):
 ######################
 
 def mc_network_stats(abdata, network, thr = False, bins = False, sims = 1000):
-	'''Construct an ER random graph and compute statistics, compare these to the statistics of
-	the statistics of the given adjacency matrix. So this a lot. abdata is the data values (numpy
-	array) and network is the adjacency matrix.'''
+	'''Construct a random network and compute statistics, compare these to the statistics of
+	the statistics of the given adjacency matrix. abdata is the data values (numpy
+	array) and network is the adjacency matrix. Random graph is made from null model detailed
+	in the writeup'''
 	num_nodes = len(network)
 	#first, compute stats of given adjacency matrix
 	if len(network)>0:
@@ -781,6 +808,33 @@ def spectral_cluster(adj_mat):
 	return spect_clusts[0]
 
 
+def clust_judge(node_data, meta_col, clust_type):
+	'''Create a dataframe containing the percentage of each class in the metadata category
+	appears in each cluster. clust_type should be either commun or spect. node_data
+	should be a dataframe indexed by nodes, with a column for clusters and columns
+	classifying nodes by meta data categories. meta_col should be the name of a column of 
+	node_data.'''
+	if clust_type == 'commun':
+		ct = 'commun_cluster'
+	elif clust_type == 'spect':
+		ct = 'spect_cluster'
+	else:
+		sys.exit('bad cluster type argument')
+	#get the clusters and classes of the category
+	clusters = unique(node_data[ct].values)
+	classifs = unique(node_data[meta_col].vales)
+	distrs = pd.DataFrame(zeros([len(clusters),len(classifs)]), columns = classifs, index = clusters)
+	#count the number of each sample class in each cluster
+	for i in distrs.index:
+		the_inds = where(node_data[ct] == i)
+		counts = array([len(where(node_data[meta_col].loc[the_inds] == col)[0]) for col in distr.columns])
+		distr.loc[i] = counts
+	#normalize by number of samples of the type.
+	totals = sum(distr, axis = 1)
+	for cl in distr.index:
+		distr[cl] = distr[cl]/toals[cl]
+	return distr
+	
 
 
 def color_picker2(r,the_map = cm.rainbow, weighted = False):
@@ -847,25 +901,32 @@ def find_cliques(node, network):
 	comp_cliqs = []
 	#create a tree so that tracing up from each leaf gives a maximal clique including the 
 	#node in question, and grow cliques
+	#The tree is saved as a set of paths through it: [(l1,n1,...,n,r),...,(l2,n2,...,n,r)]
+	#this makes the construction easier
 	while children > 0:
 		this_lvl = []
 		this_lvl_kids = []
 		for child in lvls[lvl_num]:
-			lineage = child[1:]
+			lineage = child[1:] #(possibly incomplete) list of nodes the first node in child is connected to 
+			#find the other nodes connected to all the nodes in lineage
 			siblings_ind = where([chld[1:] == lineage for chld in lvls[lvl_num]])[0]
 			siblings = [lvls[lvl_num][sind][0] for sind in siblings_ind]
+			#figure out which of these are connected to child[0]
 			offspring_ind = nonzero(network[child[0],siblings])[0]
 			offspring = [siblings[off_in] for off_in in offspring_ind] 
-			this_lvl_kids = this_lvl_kids + [len(offspring)]
-			this_lvl = this_lvl + [[off] + child for off in offspring]
+			this_lvl_kids = this_lvl_kids + [len(offspring)] #count how many leaves we are adding
+			this_lvl = this_lvl + [[off] + child for off in offspring] #add leaves for each thing in offspring
 			if len(offspring) == 0:
+				#A list of full paths from root to leaf - these are maximal cliques. contains (unordered) duplicates
 				comp_cliqs = comp_cliqs + [child]
+		#want to know if we are done so see the largest number of children
 		children = max(this_lvl_kids)
 		lvl_num = lvl_num+1
 		lvls = lvls + [this_lvl]
 	cl_sizes = [len(cl) for cl in comp_cliqs]
 	cl_sz = unique(cl_sizes)
 	cliques = []
+	#going by size, remove unordered duplicates
 	for sz in cl_sz:
 		sz_cliques = where(cl_sizes == sz)[0]
 		cliques = cliques + [unique([sort(comp_cliqs[ind]) for ind in sz_cliques])]
@@ -913,10 +974,12 @@ def diff_cliques(s1,s2,network):
 def diffusion_ivp(known_on,known_off, network, suspected =0.5, non_suspected = 0, probably = 1, sample = [], all = False):
 	'''Using diffusion on the graph, rank the nodes we don't know about. Solve diffusion with
 	initial condition being 1 for known on nodes and -1 for known off nodes. Network should be
-	the adjacency graph (probably unweighted) given as a numpy array.'''
+	the adjacency graph (probably unweighted) given as a numpy array.
+	Output is list of node indices ordered by the ranking procedure, with ties grouped in sublists'''
 	#construct graph laplacian
 	L = diag(sum(network,axis = 0)) - network
 	#then its easy
+	L = L.astype(float)
 	[eval, evec] = eig(L)
 	if len(sample) == 0:
 		#set up initial conditions, giving some initial mass to the nodes we are questioning about
@@ -956,6 +1019,11 @@ def diffusion_ivp(known_on,known_off, network, suspected =0.5, non_suspected = 0
 	ranked = list(ranked)
 	srt_str = strengths[tmp[::-1]]
 	ust, whch = unique(equib_unk, return_inverse = True)
+	#what follows deals with ties. These should be grouped into sublists, and
+	#ties can be in equilibrium or transient behavior. Thus, the level 0 (full list) and level 1
+	#sublists are ordered, while the level 2 sublists are ties in the transient and equilibrium 
+	#behavior and so unordered. Notice we can find ties in the equilibrium simply by finding connected
+	#components.
 	if len(ust) != len(equib_unk):
 		for j in range(len(ust)):
 			if sum([j == w for w in whch]) > 1:
@@ -1072,20 +1140,26 @@ def diffusion_forced(known_on,known_off, network):
 #########################################################################################
 
 def make_sample(templ):
-	'''create a random sample with the organsims in the real data'''
+	'''create a random sample with the organsims in the real data. Made by choosing a subset
+	of taxa to be present, and then giving those a random non-zero abundance'''
 	rsamp = pd.DataFrame(templ['LEVEL'], columns = ['LEVEL'])
 	rsamp['TAXA'] = templ['TAXA']
+	num_pres = [len(nonzero(templ[col].values)[0]) for col in templ.columns[2:]]
+	mean_np = mean(num_pres)
+	std_d_np = std(num_pres)
+	abund_avg = mean([mean(templ[col][nonzero(temp[col].values)[0]]) for col in templ.columns[2:]])
 	N = len(rsamp)
 	abds = zeros(N)
-	min20N = min([N,63])
+	min20N = int(around(gaussian(loc = mean_np, scale = std_d_np)))
 	nonzer = sample(range(N), k = min20N)
-	nonzerval = 0.1*rand(len(nonzer))
+	nonzerval = abund_avg*rand(len(nonzer))
 	abds[nonzer] = nonzerval
 	rsamp['abundance'] = abds
 	return rsamp
 
 def get_sample(daata, holdouts = []):
-	'''grab a real sample (column) from the template data'''
+	'''grab a real sample (column) from the template data. Option to choose the sample from
+	a set of holdout columns that are not training data'''
 	samp = pd.DataFrame(daata['LEVEL'], columns = ['LEVEL'])
 	samp['TAXA'] = daata['TAXA']
 	L = len(daata.columns) - 2
@@ -1103,6 +1177,7 @@ def get_sample(daata, holdouts = []):
 
 ########Flat it
 def flat_two_deep(li):
+	'''Flattens doubly nested lists to lists. Allows originals like [x,[x,x],[x,[x,x,x]]]'''
 	firstpass = []
 	for item in li:
 		if isinstance(item,list):
@@ -1116,6 +1191,16 @@ def flat_two_deep(li):
 		else:
 			final = final + [item2]
 	return final
+	
+def flat_one_deep(li):
+	'''Flattens nested lists to lists. Allows originals like [x,[x,x],x,x,x,x]'''
+	firstpass = []
+	for item in li:
+		if isinstance(item,list):
+			firstpass = firstpass + item
+		else:
+			firstpass = firstpass + [item]
+	return firstpass
 			
 
 

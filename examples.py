@@ -12,7 +12,7 @@ from co_occ_funs import *
 if __name__ == '__main__':
 
 
-	tiny = False
+	tiny = True
 	if tiny:
 		A1 = array([[0,1,1,1,1,0],
 					[1,0,1,0,0,0],
@@ -57,7 +57,7 @@ if __name__ == '__main__':
 
 	
 		u1A1 = u1[flat_two_deep(u1_rkd_A1[0])]
-		#print(u1_rkd_A1[0])
+		print(u1_rkd_A1[0])
 		val11 = dot(u1A1/tot_ab1,geoms)
 		u1A2 = u1[flat_two_deep(u1_rkd_A2[0])]
 		#print(u1_rkd_A2[0])

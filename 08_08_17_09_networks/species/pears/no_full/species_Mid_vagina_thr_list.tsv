@@ -1,0 +1,57 @@
+	source	target	weight	edge_sample	edge_color
+0	Actinomyces oris	Actinomyces massiliensis	1.0	Supragingival_plaque	#ff8646
+1	Campylobacter concisus	Abiotrophia defectiva	1.0	Mixed	#cccccc
+2	Cardiobacterium valvarum	Abiotrophia defectiva	1.0	Mixed	#cccccc
+3	Cardiobacterium valvarum	Campylobacter concisus	1.0	Mixed	#cccccc
+4	Corynebacterium durum	Actinomyces sp. oral taxon 170	1.0	Supragingival_plaque	#ff8646
+5	Corynebacterium pyruviciproducens	Actinomyces oris	1.0	Mixed	#cccccc
+6	Facklamia ignava	Capnocytophaga sputigena	1.0	Mixed	#cccccc
+7	Haemophilus parainfluenzae	Capnocytophaga sputigena	1.0	Mixed	#cccccc
+8	Haemophilus parainfluenzae	Facklamia ignava	1.0	Mixed	#cccccc
+9	Kingella oralis	Capnocytophaga gingivalis	1.0	Supragingival_plaque	#ff8646
+10	Lactobacillus gasseri	Capnocytophaga sputigena	1.0	Mixed	#cccccc
+11	Lactobacillus gasseri	Facklamia ignava	1.0	Mixed	#cccccc
+12	Lactobacillus gasseri	Haemophilus parainfluenzae	1.0	Mixed	#cccccc
+13	Lactobacillus oris	Herbaspirillum sp. GW103	1.0	Mixed	#cccccc
+14	Lactobacillus reuteri	Herbaspirillum sp. GW103	1.0	Mixed	#cccccc
+15	Lactobacillus reuteri	Lactobacillus oris	1.0	Posterior_fornix	#8efeac
+16	Lawsonella clevelandensis	Actinomyces sp. oral taxon 175	1.0	Mixed	#cccccc
+17	Lawsonella clevelandensis	Capnocytophaga gingivalis	1.0	Mixed	#cccccc
+18	Neisseria sp. oral taxon 014	Actinomyces massiliensis	1.0	Supragingival_plaque	#ff8646
+19	Ottowia sp. oral taxon 894	Kingella oralis	1.0	Supragingival_plaque	#ff8646
+20	Peptoniphilus harei	Lactobacillus ultunensis	1.0	Mixed	#cccccc
+21	Prevotella bergensis	Abiotrophia defectiva	1.0	Mixed	#cccccc
+22	Prevotella bergensis	Campylobacter concisus	1.0	Mixed	#cccccc
+23	Prevotella bergensis	Cardiobacterium valvarum	1.0	Mixed	#cccccc
+24	Prevotella buccalis	Kingella oralis	1.0	Mixed	#cccccc
+25	Prevotella disiens	Actinomyces oris	1.0	Mixed	#cccccc
+26	Pseudomonas frederiksbergensis	Herbaspirillum sp. GW103	1.0	Vaginal_introitus	#ff0000
+27	Pseudomonas frederiksbergensis	Lactobacillus oris	1.0	Mixed	#cccccc
+28	Pseudomonas frederiksbergensis	Lactobacillus reuteri	1.0	Mixed	#cccccc
+29	Pseudomonas sp. DSM 29167	Herbaspirillum huttiense	1.0	Mixed	#cccccc
+30	Pseudomonas sp. FH1	Comamonas testosteroni	1.0	Mixed	#cccccc
+31	Pseudomonas sp. NBRC 111134	Pseudomonas sp. NBRC 111132	1.0	Vaginal_introitus	#ff0000
+32	Pseudomonas synxantha	Herbaspirillum huttiense	1.0	Vaginal_introitus	#ff0000
+33	Rothia dentocariosa	Actinomyces sp. oral taxon 170	1.0	Supragingival_plaque	#ff8646
+34	Rothia dentocariosa	Lawsonella clevelandensis	1.0	Mixed	#cccccc
+35	Rothia mucilaginosa	Capnocytophaga sp. oral taxon 329	1.0	Mixed	#cccccc
+36	Rothia mucilaginosa	Corynebacterium durum	1.0	Mixed	#cccccc
+37	Rothia mucilaginosa	Kingella oralis	1.0	Mixed	#cccccc
+38	Sphingobium yanoikuyae	Herbaspirillum sp. B39	1.0	Vaginal_introitus	#ff0000
+39	Sphingobium yanoikuyae	Pseudomonas sp. DSM 29167	1.0	Mixed	#cccccc
+40	Sphingopyxis sp. H050	Pseudomonas sp. Eur1 9.41	1.0	Vaginal_introitus	#ff0000
+41	Sphingopyxis sp. H050	Pseudomonas sp. FH1	1.0	Vaginal_introitus	#ff0000
+42	Sphingopyxis sp. H115	Herbaspirillum sp. GW103	1.0	Mixed	#cccccc
+43	Sphingopyxis sp. H115	Lactobacillus oris	1.0	Mixed	#cccccc
+44	Sphingopyxis sp. H115	Lactobacillus reuteri	1.0	Mixed	#cccccc
+45	Sphingopyxis sp. H115	Pseudomonas frederiksbergensis	1.0	Mixed	#cccccc
+46	Sphingopyxis sp. LC81	Pseudomonas orientalis	1.0	Vaginal_introitus	#ff0000
+47	Sphingopyxis sp. LC81	Sphingopyxis macrogoltabida	1.0	Vaginal_introitus	#ff0000
+48	Sphingopyxis sp. Root1497	Pseudomonas orientalis	1.0	Mixed	#cccccc
+49	Sphingopyxis sp. Root1497	Sphingopyxis macrogoltabida	1.0	Mixed	#cccccc
+50	Sphingopyxis sp. Root1497	Sphingopyxis sp. LC81	1.0	Mixed	#cccccc
+51	Stenotrophomonas maltophilia	Sphingobium yanoikuyae	1.0	Mixed	#cccccc
+52	Streptococcus pneumoniae	Pseudomonas sp. NBRC 111134	1.0	Mixed	#cccccc
+53	Streptococcus sanguinis	Capnocytophaga gingivalis	1.0	Supragingival_plaque	#ff8646
+54	Ureaplasma parvum	Pseudomonas synxantha	1.0	Vaginal_introitus	#ff0000
+55	Ureaplasma parvum	Streptococcus pneumoniae	1.0	Mixed	#cccccc
