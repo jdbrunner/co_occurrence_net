@@ -1147,10 +1147,11 @@ def make_sample(templ):
 	num_pres = [len(nonzero(templ[col].values)[0]) for col in templ.columns[2:]]
 	mean_np = mean(num_pres)
 	std_d_np = std(num_pres)
-	abund_avg = mean([mean(templ[col][nonzero(temp[col].values)[0]]) for col in templ.columns[2:]])
+	abund_avg = 0.1#mean([mean(templ[col][nonzero(templ[col].values)[0]]) for col in templ.columns[2:]])
 	N = len(rsamp)
 	abds = zeros(N)
-	min20N = int(around(gaussian(loc = mean_np, scale = std_d_np)))
+	min20N = min(N,int(around(gaussian(loc = mean_np, scale = std_d_np))))
+	min20N = max(1,min20N)
 	nonzer = sample(range(N), k = min20N)
 	nonzerval = abund_avg*rand(len(nonzer))
 	abds[nonzer] = nonzerval

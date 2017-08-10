@@ -179,7 +179,7 @@ if __name__ == '__main__':
 					ccrks_false_pos = ccrks_false_pos + [rk/num_ccs for rk in fp_ccrks]
 					overrks_false_negs = overrks_false_negs + [rk/len(the_samp) for rk in fn_ovrrks]
 					overrks_false_pos = overrks_false_pos + [rk/len(the_samp) for rk in fp_ovrrks]
-			
+# 		
 
 			fit_scores_rands = []
 			for rs in range(100):
@@ -198,7 +198,8 @@ if __name__ == '__main__':
 					geoms = con**array(range(len(samp_orded)))
 					score = dot(geoms, samp_orded/samp_tot)
 					fit_scores_rands = fit_scores_rands + [score]
-		
+					
+			
 			fit_scores_wrong = []
 			for hld in not_these:
 				the_samp = hld_columns_df.iloc[:,hld]

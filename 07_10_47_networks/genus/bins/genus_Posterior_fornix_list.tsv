@@ -1,3 +1,0 @@
-	source	target	weight	source_freq	target_freq	first_sample	second_sample	edge_sample	fscolor	sscolor	edcolor	num_samps
-0	Gardnerella	Dialister	3.0	6	5	Posterior_fornix	Stool	Intertype	#4df3ce	#b2f396	#cccccc	9
-1	Dialister	Gardnerella	3.0	5	6	Stool	Posterior_fornix	Intertype	#b2f396	#4df3ce	#cccccc	9
