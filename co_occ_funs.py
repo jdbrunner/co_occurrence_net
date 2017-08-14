@@ -166,7 +166,7 @@ def approx_rand_prob(occ,wij,i,j):
 
 
 	
-def mc_pearson(N,P,W,num_samps = 100):
+def mc_pearson(N,P,W,num_samps = 1000):
 	'''MC approximation for pearson coefficient where X is a random vector of binomial(n1,p1)
 	and Y is a random vector of binomial(n2,p2), where p1,p2 are vectors. Expected value is identity.'''
 	N = N.astype(int)
@@ -190,7 +190,7 @@ def make_null(N,P,W):
 	return sample
 	
 	
-def mc_pearson_thr(N,P,W,data_header = None,num_samps = 1000):
+def mc_pearson_thr(N,P,W,num_samps = 1000):
 	'''MC approximation for pearson coefficient where X is a random vector of binomial(n1,p1)
 	and Y is a random vector of binomial(n2,p2), where p1,p2 are vectors. Expected value is identity.'''
 	mc_samples = zeros((num_samps,N.shape[0],N.shape[0]))
@@ -991,7 +991,7 @@ def diffusion_ivp(known_on,known_off, network, suspected =0.5, non_suspected = 0
 	else:
 		print('Initial distribution must cover whole network')
 		return False
-	u0 = u0/norm(u0)
+	#u0 = u0/norm(u0)
 	#find the coefficients c_i
 	ci = solve(evec,u0)
 	zers = where(abs(eval) > 10**(-10)) #find nonzero eigenvalues
@@ -1013,8 +1013,8 @@ def diffusion_ivp(known_on,known_off, network, suspected =0.5, non_suspected = 0
 	ranked = empty(len(tmp),int)
 	requib = empty(len(tmp))
 	rstren = empty(len(tmp))
-	requib = equib_unk[tmp[::-1]]
-	rstren = list(strengths[tmp[::-1]])
+	requib = real(equib_unk[tmp[::-1]])
+	rstren = list(real(strengths[tmp[::-1]]))
 	ranked = array(unknown)[tmp[::-1]]
 	ranked = list(ranked)
 	srt_str = strengths[tmp[::-1]]
@@ -1054,11 +1054,12 @@ def diffusion_ivp(known_on,known_off, network, suspected =0.5, non_suspected = 0
 						ranked.remove(po)
 				ranked.insert(tied_rank,list(them_rked))
 				for po2 in their_str_rk:
-					rstren.remove(po2)
+					poo2 = asscalar(po2)
+					rstren.remove(poo2)
 				rstren.insert(tied_rank,list(their_str_rk))
-		return [ranked, real(requib), real(rstren)]
+		return [ranked, requib, rstren]
 	else:
-		return [ranked,real(requib), real(rstren)]
+		return [ranked,requib, rstren]
 	
 def diffusion_bdvp(known_on,known_off, network):
 	'''Using diffusion on the graph, rank the nodes we don't know about. Find equilibrium
@@ -1134,28 +1135,37 @@ def diffusion_forced(known_on,known_off, network):
 	else:
 		return [ranked,real(requib)]
 		
+def ivp_score(network_adj, the_samp, con = 0.2):
+	samp_tot = sum(the_samp.values)
+	if samp_tot > 0:
+		ranking1 = diffusion_ivp([],[], network_adj.values[:,1:], sample = the_samp.values, all = True)[0]
+		samp_orded = the_samp.values[flat_two_deep(ranking1)]
+		geoms = con**array(range(len(samp_orded)))
+		score = dot(geoms, samp_orded/samp_tot)
+	else:
+		score = 0
+	return score
+		
 #########################################################################################
 
 ############################# Create a sample to test things with #######################
 #########################################################################################
 
-def make_sample(templ):
+def make_sample(templ, numb = 1):
 	'''create a random sample with the organsims in the real data. Made by choosing a subset
 	of taxa to be present, and then giving those a random non-zero abundance'''
 	rsamp = pd.DataFrame(templ['LEVEL'], columns = ['LEVEL'])
 	rsamp['TAXA'] = templ['TAXA']
-	num_pres = [len(nonzero(templ[col].values)[0]) for col in templ.columns[2:]]
-	mean_np = mean(num_pres)
-	std_d_np = std(num_pres)
-	abund_avg = 0.1#mean([mean(templ[col][nonzero(templ[col].values)[0]]) for col in templ.columns[2:]])
-	N = len(rsamp)
-	abds = zeros(N)
-	min20N = min(N,int(around(gaussian(loc = mean_np, scale = std_d_np))))
-	min20N = max(1,min20N)
-	nonzer = sample(range(N), k = min20N)
-	nonzerval = abund_avg*rand(len(nonzer))
-	abds[nonzer] = nonzerval
-	rsamp['abundance'] = abds
+	N_v = array([len(nonzero(ab_row)[0]) for ab_row in templ.values])
+	N = outer(N_v,ones(len(templ.iloc[0]))).astype(int)
+	P_v = array([len(nonzero(ab_col)[0]) for ab_col in transpose(templ.values)])/len(templ) ##sum(abdata,0)/sum(abdata)
+	P = outer(ones(len(templ)),P_v).astype(float)
+	rand_mat = bino(N,P)
+	abs = pd.DataFrame(rand_mat)
+	whch = sample(range(len(rand_mat[0])), k = numb)
+	abs_w = abs[abs.columns[whch]]
+	abs_w.index = rsamp.index
+	rsamp = rsamp.join(abs_w)
 	return rsamp
 
 def get_sample(daata, holdouts = []):

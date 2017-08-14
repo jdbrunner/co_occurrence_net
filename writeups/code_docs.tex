@@ -1,0 +1,538 @@
+\documentclass[10pt]{article}
+%\documentclass[review]{siamart1116}
+%\documentclass[review]{siamonline1116}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{fancyhdr}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{graphicx}
+\usepackage[section]{placeins}
+\usepackage{nicefrac}
+\usepackage{bm}
+\usepackage{xcolor}
+\usepackage[format=plain,indention=.5cm, font={it,small},labelfont=bf]{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{enumerate}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta}
+\usepackage[all]{xy}
+\usepackage{url}
+\usepackage{multicol}
+\usepackage{cprotect}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{stackengine}
+\usepackage{amsthm}
+\usepackage{cleveref}
+
+
+\newtheorem{theorem}{Theorem}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem*{lemma*}{Lemma}
+\newtheorem{conj}{Conjecture}
+\newtheorem{corollary}{Corollary}
+\newtheorem{clm}{Claim}
+\newtheorem{rmk}{Remark}
+\newtheorem{note}{NOTE}
+\newtheorem{method}{Method}
+
+\theoremstyle{definition}
+\newtheorem*{def*}{Definition}
+\newtheorem{definition}{Definition}
+\numberwithin{theorem}{section}
+\numberwithin{definition}{section}
+\numberwithin{lemma}{section}
+\numberwithin{corollary}{section}
+\numberwithin{clm}{section}
+\numberwithin{rmk}{section}
+
+\newcommand{\low}[1]{$_{\text{#1}}$}
+\newcommand\xput[2][0.5]{%
+	\rule{#1\linewidth}{0pt}\makebox[0pt][c]{#2}\hfill}
+
+\setlength{\headheight}{15pt}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead[L]{Brunner}
+\fancyhead[C]{Co-Occurrance Network}
+\fancyhead[R]{\today}
+\lfoot{}
+\cfoot{\thepage}
+\rfoot{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+%\newsiamthm{clm}{Claim}
+%\newsiamremark{rmk}{Remark}
+%\newsiamremark{note}{NOTE}
+%\numberwithin{theorem}{section}
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newenvironment{inbox}[1]
+{\begin{center}
+		\begin{tabular}{|p{0.9\textwidth}|}
+			\hline
+			{\bf #1}\\
+		}
+		{ 
+			\\\\\hline
+		\end{tabular} 
+	\end{center}
+}
+\newenvironment{inbox2}
+{\begin{center}
+		\begin{tabular}{|p{0.9\textwidth}|}
+			\hline \vspace{-0.5 cm}
+		}
+		{ 
+			\\ \hline
+		\end{tabular} 
+	\end{center}
+}
+
+
+
+
+\newcommand{\nhalf}{\nicefrac{1}{2}}
+\newcommand{\eps}{\epsilon_{machine}}
+\newcommand{\ol}{\overline}
+\renewcommand{\b}{\bm}
+
+\definecolor{dgreen}{RGB}{49,128,23}
+\definecolor{lgreen}{RGB}{77, 255, 166}
+\definecolor{nicepink}{RGB}{255, 0, 102}
+\definecolor{nicered}{RGB}{255, 80, 80}
+\definecolor{lblue}{RGB}{102, 163, 255}
+\definecolor{lgray}{RGB}{217, 217, 217}
+
+\newcommand{\bE}{\mathbb{E}}
+\newcommand{\bP}{\mathbb{P}}
+\newcommand{\bR}{\mathbb{R}}
+\newcommand{\bN}{\mathbb{N}}
+\newcommand{\bZ}{\mathbb{Z}}
+\newcommand{\bQ}{\mathbb{Q}}
+\newcommand{\bC}{\mathbb{C}}
+\newcommand{\cA}{\mathcal{A}}
+\newcommand{\cB}{\mathcal{B}}
+\newcommand{\cC}{\mathcal{C}}
+\newcommand{\cD}{\mathcal{D}}
+\newcommand{\cE}{\mathcal{E}}
+\newcommand{\cF}{\mathcal{F}}
+\newcommand{\cG}{\mathcal{G}}
+\newcommand{\cH}{\mathcal{H}}
+\newcommand{\cI}{\mathcal{I}}
+\newcommand{\cJ}{\mathcal{J}}
+\newcommand{\cK}{\mathcal{K}}
+\newcommand{\cL}{\mathcal{L}}
+\newcommand{\cM}{\mathcal{M}}
+\newcommand{\cN}{\mathcal{N}}
+\newcommand{\cO}{\mathcal{O}}
+\newcommand{\cP}{\mathcal{P}}
+\newcommand{\cQ}{\mathcal{Q}}
+\newcommand{\cR}{\mathcal{R}}
+\newcommand{\cS}{\mathcal{S}}
+\newcommand{\cT}{\mathcal{T}}
+\newcommand{\cU}{\mathcal{U}}
+\newcommand{\cV}{\mathcal{V}}
+\newcommand{\cW}{\mathcal{W}}
+\newcommand{\cX}{\mathcal{X}}
+\newcommand{\cY}{\mathcal{Y}}
+\newcommand{\cZ}{\mathcal{Z}}
+
+\newcommand{\inter}{\text{\normalfont int}}
+\newcommand{\ka}{\kappa}
+\newcommand{\fp}{\varrho}
+\newcommand{\problem}[2]{ \ \\ {\bf #1} {\it #2} \ \\} 
+
+\renewcommand{\arraystretch}{1.5}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}	
+\author{Jim Brunner}
+\title{Co-occurrence Code Documentation}
+
+\begin{document}
+\maketitle
+
+\tableofcontents
+
+\cprotect \section{\verb|co_occ_funs.py|}
+Module of python functions used in the rest of the project.
+\cprotect \subsection{\verb|both_occ|}
+Function that counts the number of times both \verb|r1| and \verb|r2| are within a range, and then 
+returns the fraction of times this occurs. The range is half open: $(a,b]$.
+\begin{itemize}
+	\item Input: array \verb|r1| and array \verb|r2|.
+	\item Optional input: lower bound \verb|lbd|, default $0$. Upper bound \verb|ubd| default $1$.
+	\item Output: int count of indices $i$ such that $r1(i) \in (lbd, ubd]$ and $r2(i) \in (lbd, ubd]$.
+\end{itemize}
+
+\cprotect \subsection{\verb|both_same_bin|}
+Function that counts the number of times the two occur in the same abundance range.
+\begin{itemize}
+	\item Input: array \verb|r1|, array \verb|r2|, float \verb|lthresh|, int \verb|numthresh|.
+	\item Optional input: bool \verb|rel|, default True.
+	\item Output: count of indices $i$ such that such that $r1(i) \in (lbd_j, ubd_j]$ and $r2(i) \in (lbd_j, ubd_j]$ for $j = 0,..,numthresh$.
+\end{itemize}
+
+Divides the interval $[0,1]$ into $numthresh$ intervals $(a_j,b_j]$ and calls \verb|both_occ(r1,r2,lbd = a_j, ubd = b_j)| for each. 
+
+\cprotect \subsection{\verb|color_picker|}
+Function that classifies nodes by which type of sample they have the highest abundance in. If it's a dataframe it will return the column head of the winner'
+
+\begin{itemize}
+	\item Input: array or row of dataframe \verb|r|
+	\item Optional input: none
+	\item Output: index or column name of argmax of \verb|r|, if the max is greater than $1.5*\sigma  + \mu$, where $\sigma$ is the sample standard deviation, and $\mu$ is the sample mean
+\end{itemize}
+
+\cprotect \subsection{\verb|matchyn|}
+
+\begin{itemize}
+	\item Input: scalars or list \verb|a|, \verb|b|
+	\item Optional input: none
+	\item Output: \verb|a| if $a = b$, otherwise \verb|['Intertype', grey]|, where grey is the hex value for grey
+\end{itemize}
+
+purpose is to compare two lists that look like \verb|['Class', color]|. 
+
+\cprotect \subsection{\verb|occ_probs|}
+Calculate probability of occurrence at an abundance level in a random graph, binomial distribution with parameters edge degree and sample degree/total edges, as in \cite{coocc}.
+
+\begin{itemize}
+	\item Input: dataframe of GOTTCHA output \verb|abund_array|, lower bound \verb|lthresh|, number of bins \verb|numthresh|
+	\item Optional input: bool rel, default True - whether or not to normalize GOTTCHA data.
+	\item Output: array \verb|occ_prob|, the probability of an abundance level in a null model that assumes abundances are binomial with parameters coming from the number of taxa appearing in the sample and number of times a taxa appears.
+\end{itemize}
+
+\cprotect \subsection{\verb|random_coocc_prob|}
+Calculate a poisson-binomial...$P(X > wij)$ where $X$ is the number of times i and j co occur in random graph (X is a random variable) \cite{coocc}.
+\begin{itemize}
+	\item Input: array of probabilities (output of \verb|occ_probs|) \verb|occ|, \verb|wij| the abundance to test, \verb|i|, \verb|j|, the indices of the taxa pair tested
+	\item Optional input: none
+	\item Output: float, probability that the null model produces taxa i and taxa j in the same bin more than $wij$ times.
+\end{itemize}
+
+First gets the probability for each sample-level they are both present, then calculates a probability of the number of times this happens. Very very slow, do not use. This is because there are many ways 2 things can co-occur some number of times.
+
+\cprotect \subsection{\verb|approx_rand_prob|}
+Calculate an approximation of a poisson-binomial...P(X > wij) where X 
+is the number of timesi and j co occur in random graph (X is a random variable)
+The paper \cite{coocc} calls it bi-binomial because its as if you had two 
+probabilities in the above.
+
+\begin{itemize}
+	\item Input: array of probabilities (output of \verb|occ_probs|) \verb|occ|, \verb|wij| the abundance to test, \verb|i|, \verb|j|, the indices of the taxa pair tested
+	\item Optional input: none
+	\item Output: float, approximate probability that the null model produces taxa i and taxa j in the same bin more than $wij$ times.
+\end{itemize}
+
+First gets the probability for each sample-level they are both present, then calculates an approximate probability.
+
+\cprotect \subsection{\verb|mc_pearson|}
+
+MC approximation for pearson coefficient where X is a random vector of binomial(n1,p1)
+and Y is a random vector of binomial(n2,p2), where p1,p2 are vectors. Expected value is identity matrix.
+
+\begin{itemize}
+	\item Input: N - matrix of number of trials, P - matrix of probability of successes, W - the observed correlation matrix
+	\item Optional input: \verb|num_samps|, default = 1000. Number of Monte Carlo draws
+	\item Output: matrix giving the percentage of MC draws that had higher correlation than observed.
+\end{itemize}
+
+If $n$ is the number of samples $m$ the number of taxa in the network being built (number of taxa in data at given level, minus any that do not correlate with any other taxa), then $N$ and $P$ should be $m\times n$ matrices. The MC draw is an $m\times m$ matrix of ``correlations" made from the null model.
+
+\cprotect \subsection{\verb|make_null|}
+
+Companion to \verb|mc_pearson| for palatalization
+
+\begin{itemize}
+	\item Input: N, P, W from \verb|mc_pearson|
+	\item Optional input: none
+	\item Output: sample - A binary matrix of bools (simulated correlation > observed correlation)
+\end{itemize}
+
+The null model assumes that the abundance of a taxa in a sample is binomial(n,p) where $n$ is the number of times the taxa is seen in the real data, and $p$ is the proportion of non-zero entries in the real data that occur in the sample. A simulated data array of abundances of taxa in sample is created. Then, the correlation matrix is computed for this. Finally, this is compared to the observed correlation matrix.
+
+\cprotect \subsection{\verb|mc_pearson_thr|}
+MC approximation for pearson coefficient where X is a random vector of binomial(n1,p1)
+and Y is a random vector of binomial(n2,p2), where p1,p2 are vectors. Expected value is identity.
+\begin{itemize}
+	\item Input: N - matrix of number of trials, P - matrix of probability of successes, W - the observed correlation matrix
+	\item Optional input: \verb|num_samps|, default = 1000. Number of Monte Carlo draws
+	\item Output: matrix giving the percentage of MC draws that had higher correlation than observed.
+\end{itemize}
+
+Same as the two above (in combination), with the only difference being that simulated data is thresholded before correlations are computed. Should compare to observed correlations of thresholded data. 
+
+\cprotect \subsection{\verb|min_nz|}
+
+\begin{itemize}
+	\item Input: 
+	\item Optional input:
+	\item Output: 
+\end{itemize}
+
+\cprotect \subsection{\verb|build_network|}
+
+\begin{itemize}
+	\item Input: 
+	\item Optional input:
+	\item Output: 
+\end{itemize}
+
+\cprotect \subsection{\verb|make_meta|}
+
+\begin{itemize}
+	\item Input: 
+	\item Optional input:
+	\item Output: 
+\end{itemize}
+
+\cprotect \subsection{\verb|make_meta_from_file|}
+
+\begin{itemize}
+	\item Input: 
+	\item Optional input:
+	\item Output: 
+\end{itemize}
+
+\cprotect \subsection{\verb|mc_network_stats|}
+
+\begin{itemize}
+	\item Input: 
+	\item Optional input:
+	\item Output: 
+\end{itemize}
+
+\cprotect \subsection{\verb|sim_pears|}
+
+\begin{itemize}
+	\item Input: 
+	\item Optional input:
+	\item Output: 
+\end{itemize}
+
+\cprotect \subsection{\verb|sim_pears_thr|}
+
+\begin{itemize}
+	\item Input: 
+	\item Optional input:
+	\item Output: 
+\end{itemize}
+
+\cprotect \subsection{\verb|sim_bins|}
+
+\begin{itemize}
+	\item Input: 
+	\item Optional input:
+	\item Output: 
+\end{itemize}
+
+\cprotect \subsection{\verb|edge_prob|}
+
+\begin{itemize}
+	\item Input: 
+	\item Optional input:
+	\item Output: 
+\end{itemize}
+
+\cprotect \subsection{\verb|nodes_in_sub|}
+
+\begin{itemize}
+	\item Input: 
+	\item Optional input:
+	\item Output: 
+\end{itemize}
+
+\cprotect \subsection{\verb|random_sub_graph|}
+
+\begin{itemize}
+	\item Input: 
+	\item Optional input:
+	\item Output: 
+\end{itemize}
+
+\cprotect \subsection{\verb|exp_cut_edges|}
+
+\begin{itemize}
+	\item Input: 
+	\item Optional input:
+	\item Output: 
+\end{itemize}
+
+\cprotect \subsection{\verb|cut_cond|}
+
+\begin{itemize}
+	\item Input: 
+	\item Optional input:
+	\item Output: 
+\end{itemize}
+
+\cprotect \subsection{\verb|com_clust|}
+
+\begin{itemize}
+	\item Input: 
+	\item Optional input:
+	\item Output: 
+\end{itemize}
+
+\cprotect \subsection{\verb|spectral_cluster|}
+
+\begin{itemize}
+	\item Input: 
+	\item Optional input:
+	\item Output: 
+\end{itemize}
+
+\cprotect \subsection{\verb|clust_judge|}
+
+\begin{itemize}
+	\item Input: 
+	\item Optional input:
+	\item Output: 
+\end{itemize}
+
+\cprotect \subsection{\verb|color_picker2|}
+
+\begin{itemize}
+	\item Input: 
+	\item Optional input:
+	\item Output: 
+\end{itemize}
+
+\cprotect \subsection{\verb|est_prob|}
+
+\begin{itemize}
+	\item Input: 
+	\item Optional input:
+	\item Output: 
+\end{itemize}
+
+\cprotect \subsection{\verb|find_cliques|}
+
+\begin{itemize}
+	\item Input: 
+	\item Optional input:
+	\item Output: 
+\end{itemize}
+
+\cprotect \subsection{\verb|psi_over_psi|}
+
+\begin{itemize}
+	\item Input: 
+	\item Optional input:
+	\item Output: 
+\end{itemize}
+
+\cprotect \subsection{\verb|diff_cliques|}
+
+\begin{itemize}
+	\item Input: 
+	\item Optional input:
+	\item Output: 
+\end{itemize}
+
+\cprotect \subsection{\verb|diffusion_ivp|}
+
+\begin{itemize}
+	\item Input: 
+	\item Optional input:
+	\item Output: 
+\end{itemize}
+
+\cprotect \subsection{\verb|diffusion_bvp|}
+
+\begin{itemize}
+	\item Input: 
+	\item Optional input:
+	\item Output: 
+\end{itemize}
+
+\cprotect \subsection{\verb|diffusion_forced|}
+
+\begin{itemize}
+	\item Input: 
+	\item Optional input:
+	\item Output: 
+\end{itemize}
+
+\cprotect \subsection{\verb|ivp_score|}
+
+\begin{itemize}
+	\item Input: 
+	\item Optional input:
+	\item Output: 
+\end{itemize}
+
+\cprotect \subsection{\verb|make_sample|}
+
+\begin{itemize}
+	\item Input: 
+	\item Optional input:
+	\item Output: 
+\end{itemize}
+
+\cprotect \subsection{\verb|get_sample|}
+
+\begin{itemize}
+	\item Input: 
+	\item Optional input:
+	\item Output: 
+\end{itemize}
+
+\cprotect \subsection{\verb|flat_two_deep|}
+
+\begin{itemize}
+	\item Input: 
+	\item Optional input:
+	\item Output: 
+\end{itemize}
+
+\cprotect \subsection{\verb|flat_one_deep|}
+
+\begin{itemize}
+	\item Input: 
+	\item Optional input:
+	\item Output: 
+\end{itemize}
+
+\cprotect \section{\verb|co_occurrence.py|}
+
+\cprotect \section{\verb|cluster_net.py|}
+
+\cprotect \section{\verb|network_stats.py|}
+
+\cprotect \section{\verb|falsepm.py|}
+
+\cprotect \section{\verb|sample_analysis.py|}
+
+\cprotect \section{\verb|examples.py|}
+
+\cprotect \section{\verb|adding_data.py|}
+
+\cprotect \section{\verb|mc_speed.py|}
+
+\cprotect \section{\verb|add_gender.py|}
+
+\cprotect \section{\verb|cleanup.py|}
+
+\cprotect \section{\verb|color_key.py|}
+
+\cprotect \section{\verb|funct_tests.py|}
+
+\cprotect \section{\verb|rand_samp.py|}
+
+\cprotect \section{\verb|net_making.sh|}
+
+\cprotect \section{\verb|sample_test.sh|}
+
+\bibliographystyle{plain}
+\bibliography{../../../summer17}
+\end{document}

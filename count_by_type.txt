@@ -1,0 +1,62 @@
+Here we see how many of each type of sample we actually have, so we can pretty my ignore the ones
+with a low number (I'll make 50 the cutoff)
+
+>>> for t in utyp:
+...     t
+...     sum([int(t == ty) for ty in type_list])
+... 
+'Anterior_nares' ##### Good
+215
+'Attached'
+10
+'Buccal_mucosa' ##### Good
+265
+'Hard_palate'
+2
+'Keratinized_gingiva'
+2
+'L_Retroauricular_crease'
+23
+'Mid_vagina'
+4
+'Palatine_Tonsils'
+12
+'Posterior_fornix' ##### Good
+128
+'R_Retroauricular_crease'
+42
+'Saliva'
+12
+'Stool' ##### Good
+360
+'Subgingival_plaque'
+19
+'Supragingival_plaque' ##### Good
+271
+'Throat'
+15
+'Tongue_dorsum' ##### Good
+279
+'Vaginal_introitus'
+6
+>>> 
+And here's the number of hold outs for each.
+Anterior_nares :  32   ##### Good
+Attached :  3
+Buccal_mucosa :  42   ##### Good
+Buccal_mucosa_NA :  42   ##### Good
+Full :  300   ##### Good
+Hard_palate :  0
+Keratinized_gingiva :  0
+L_Retroauricular_crease :  6
+Mid_vagina :  0
+Palatine_Tonsils :  2
+Posterior_fornix :  26   ##### Good
+R_Retroauricular_crease :  7
+Saliva :  1
+Stool :  78   ##### Good
+Subgingival_plaque :  5
+Supragingival_plaque :  52   ##### Good
+Throat :  0
+Tongue_dorsum :  45   ##### Good
+Vaginal_introitus :  1

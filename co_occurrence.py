@@ -93,6 +93,8 @@ if __name__ == '__main__':
 			diff_samps_types[sty] = diff_samps_types[sty][:-7]
 		elif 'male' in diff_samps_types[sty]:
 			diff_samps_types[sty] = diff_samps_types[sty][:-5]
+		elif 'NA' in diff_samps_types[sty]:
+			diff_samps_types[sty] = diff_samps_types[sty][:-3]
 	diff_samps_types = unique(diff_samps_types)
 	data_samps_types = transpose([sum([abundance_array_full[samp] for samp in abundance_array_full.keys()[2:]
 								 if smp_type in samp],axis = 0) for smp_type in diff_samps_types])
@@ -114,6 +116,22 @@ if __name__ == '__main__':
 
 	gender = True
 	other_meta = False
+	
+	minsamps = 50
+
+	dst_temp  = list(diff_samps_types)
+	
+	
+	for ty in diff_samps_types:
+		num_of = sum([int(ty in col_name) for col_name in abundance_array_full.columns])
+		print(ty, num_of)
+		if num_of < minsamps:
+			dst_temp.remove(ty)
+
+	diff_samps_types = array(dst_temp)
+	print(diff_samps_types)
+	
+	sys.exit()
 	
 	ab_arrays = [abundance_array_full]	
 	#gender and sample location are in the sample titles. For other meta, we need a metadata file
@@ -156,9 +174,12 @@ if __name__ == '__main__':
 
 
 	if hldouts:
-		L = len(abundance_array_full.columns) - 2
-		hld = randint(L, size = numhld) + 2
+		choices_of = where([any([typ in col for typ in diff_samps_types]) for col in abundance_array_full.columns])[0]
+		L = len(choices_of)
+		hldin = sample(range(L), k = numhld)
+		hld = choices_of[hldin]
 		abundance_array_full.drop(abundance_array_full.columns[hld],axis = 1, inplace = True)
+
 
 	save = True
 	stype_ns = ['Full_'] + [spty + '_' for spty in diff_samps_types]
@@ -169,7 +190,7 @@ if __name__ == '__main__':
 			if sample_types:
 				stype = stype_ns[ii]
 			elif gender:
-				
+				stype = gtype[ii]
 			else:
 				stype = ''
 			abundance_array = ab_arrays[ii]
