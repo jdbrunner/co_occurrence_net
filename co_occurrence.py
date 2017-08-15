@@ -114,7 +114,7 @@ if __name__ == '__main__':
 	the_taxa = abundance_array_full['TAXA'].values
 
 
-	gender = True
+	gender = False
 	other_meta = False
 	
 	minsamps = 50
@@ -124,14 +124,11 @@ if __name__ == '__main__':
 	
 	for ty in diff_samps_types:
 		num_of = sum([int(ty in col_name) for col_name in abundance_array_full.columns])
-		print(ty, num_of)
 		if num_of < minsamps:
 			dst_temp.remove(ty)
 
 	diff_samps_types = array(dst_temp)
-	print(diff_samps_types)
 	
-	sys.exit()
 	
 	ab_arrays = [abundance_array_full]	
 	#gender and sample location are in the sample titles. For other meta, we need a metadata file

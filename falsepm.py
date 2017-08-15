@@ -54,18 +54,9 @@ if __name__ == '__main__':
 		elif 'male' in hld_stypes[sty]:
 			hld_stypes[sty] = hld_stypes[sty][:-5]
 	
-	all_fit_scores_samp = []
-	all_fit_scores_rand = []
-	all_fit_scores_wrong = []
-	
-	all_fn_cc_rks = []
-	all_fn_ov_rks = []
-	all_fp_cc_rks = []
-	all_fp_ov_rks = []
+
 	
 		
-	fposo = True
-	fnegs = False
 	
 	
 	networks_cor = dict()
@@ -251,7 +242,6 @@ if __name__ == '__main__':
 	
 	perc_right_cor = []
 	for typ in unique(score_res_nofull_cor['Sample Type']):
-		jj =score_res_nofull_cor[score_res_nofull_cor['Sample Type'] == typ].index[0]
 		correct = sum([int(typ in score_res_nofull_cor.loc[j,'Winner']) for j in score_res_nofull_cor[score_res_nofull_cor['Sample Type'] == typ].index])
 		tots = len(score_res_nofull_cor[score_res_nofull_cor['Sample Type'] == typ])
 		perc_right_cor =perc_right_cor + [correct/tots]

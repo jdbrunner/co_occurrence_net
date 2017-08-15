@@ -1,0 +1,278 @@
+TAXA	sample_type	sample_color	frequency	spect_cluster	commun_cluster	spect_color	comm_color
+Actinomyces graevenitzii	Tongue_dorsum	#ff3219	66	5.0	2.0	#445cfb	#6629fe
+Actinomyces sp. HPA0247	Tongue_dorsum	#ff3219	2	13.0	2.0	#1dd1e2	#6629fe
+Actinomyces sp. ICM39	Tongue_dorsum	#ff3219	11	18.0	2.0	#5af8c8	#6629fe
+Actinomyces sp. ICM47	Tongue_dorsum	#ff3219	28	13.0	2.0	#1dd1e2	#6629fe
+Actinomyces sp. ICM58	Tongue_dorsum	#ff3219	3	13.0	2.0	#1dd1e2	#6629fe
+Actinomyces sp. oral taxon 172	Tongue_dorsum	#ff3219	11	18.0	2.0	#5af8c8	#6629fe
+Actinomyces sp. ph3	Tongue_dorsum	#ff3219	8	19.0	4.0	#66fcc2	#4c50fc
+Actinomyces sp. S6-Spd3	Tongue_dorsum	#ff3219	12	5.0	2.0	#445cfb	#6629fe
+Alistipes obesi	Stool	#ded579	4	33.0	0.0	#ffa055	#8000ff
+Alistipes putredinis	Stool	#ded579	20	37.0	10.0	#ff5f30	#02b7eb
+Alistipes shahii	Stool	#ded579	6	37.0	10.0	#ff5f30	#02b7eb
+Anaerococcus lactolyticus	L_Retroauricular_crease	#1fd3e1	2	26.0	1.0	#bbee91	#7413ff
+Atopobium sp. BS2	Saliva	#beec8e	5	13.0	2.0	#1dd1e2	#6629fe
+Atopobium sp. ICM42b	Saliva	#beec8e	2	13.0	2.0	#1dd1e2	#6629fe
+Atopobium sp. oral taxon 199	Subgingival_plaque	#feb562	3	4.0	12.0	#504afc	#1dd1e2
+Atopobium sp. oral taxon 810	Buccal_mucosa	#425ffa	2	4.0	12.0	#504afc	#1dd1e2
+Bacteroides caccae	Stool	#ded579	18	17.0	9.0	#4ef3cd	#0ca7ef
+Bacteroides dorei	Stool	#ded579	4	20.0	0.0	#72febb	#8000ff
+Bacteroides eggerthii	Stool	#ded579	4	32.0	15.0	#ffae5e	#44eed2
+Bacteroides faecis	Stool	#ded579	5	17.0	9.0	#4ef3cd	#0ca7ef
+Bacteroides finegoldii	Stool	#ded579	4	20.0	0.0	#72febb	#8000ff
+Bacteroides massiliensis	Stool	#ded579	12	20.0	0.0	#72febb	#8000ff
+Bacteroides nordii	Stool	#ded579	2	17.0	9.0	#4ef3cd	#0ca7ef
+Bacteroides sp. 1_1_30	Stool	#ded579	2	17.0	9.0	#4ef3cd	#0ca7ef
+Bacteroides sp. 1_1_6	Stool	#ded579	1	17.0	9.0	#4ef3cd	#0ca7ef
+Bacteroides sp. 2_2_4	Stool	#ded579	3	12.0	3.0	#10c6e6	#5a3bfd
+Bacteroides sp. 3_1_13	Stool	#ded579	4	17.0	9.0	#4ef3cd	#0ca7ef
+Bacteroides sp. 3_1_19	Stool	#ded579	2	20.0	0.0	#72febb	#8000ff
+Bacteroides sp. 3_1_23	Stool	#ded579	2	12.0	3.0	#10c6e6	#5a3bfd
+Bacteroides sp. 3_1_33FAA	Stool	#ded579	2	20.0	0.0	#72febb	#8000ff
+Bacteroides sp. 4_1_36	Stool	#ded579	2	17.0	9.0	#4ef3cd	#0ca7ef
+Bacteroides sp. 9_1_42FAA	Stool	#ded579	2	20.0	0.0	#72febb	#8000ff
+Bacteroides sp. D2	Stool	#ded579	1	12.0	3.0	#10c6e6	#5a3bfd
+Bacteroides sp. D20	Stool	#ded579	2	17.0	9.0	#4ef3cd	#0ca7ef
+Bacteroides sp. D22	Stool	#ded579	1	12.0	3.0	#10c6e6	#5a3bfd
+Bacteroides stercoris	Stool	#ded579	17	33.0	0.0	#ffa055	#8000ff
+Bacteroides thetaiotaomicron	Stool	#ded579	4	17.0	9.0	#4ef3cd	#0ca7ef
+Bacteroides uniformis	Stool	#ded579	10	42.0	0.0	#ff0000	#8000ff
+Bacteroides vulgatus	Stool	#ded579	12	20.0	0.0	#72febb	#8000ff
+Bacteroides xylanisolvens	Stool	#ded579	1	12.0	3.0	#10c6e6	#5a3bfd
+Barnesiella intestinihominis	Stool	#ded579	12	37.0	10.0	#ff5f30	#02b7eb
+Bifidobacterium pseudocatenulatum	L_Retroauricular_crease	#1fd3e1	1	12.0	3.0	#10c6e6	#5a3bfd
+Blautia wexlerae	Stool	#ded579	1	17.0	9.0	#4ef3cd	#0ca7ef
+Carnobacterium maltaromaticum	Hard_palate	#218cf4	126	36.0	2.0	#ff703a	#6629fe
+Cellulomonas carbonis	Stool	#ded579	2	17.0	9.0	#4ef3cd	#0ca7ef
+Clostridia bacterium UC5.1-1D10	Stool	#ded579	2	20.0	0.0	#72febb	#8000ff
+[Clostridium] clostridioforme	Stool	#ded579	3	17.0	9.0	#4ef3cd	#0ca7ef
+Clostridium sp. GD3	Stool	#ded579	2	17.0	9.0	#4ef3cd	#0ca7ef
+Clostridium sp. L2-50	Stool	#ded579	2	17.0	9.0	#4ef3cd	#0ca7ef
+Clostridium sp. M62/1	Stool	#ded579	2	17.0	9.0	#4ef3cd	#0ca7ef
+Collinsella aerofaciens	Stool	#ded579	2	17.0	9.0	#4ef3cd	#0ca7ef
+Collinsella sp. 4_8_47FAA	Stool	#ded579	2	17.0	9.0	#4ef3cd	#0ca7ef
+Coprococcus comes	Stool	#ded579	2	17.0	9.0	#4ef3cd	#0ca7ef
+Corynebacterium diphtheriae	Anterior_nares	#8000ff	52	21.0	17.0	#7effb5	#5efac6
+Cryptobacterium curtum	Saliva	#beec8e	14	4.0	12.0	#504afc	#1dd1e2
+Deinococcus radiodurans	Posterior_fornix	#7effb5	1	12.0	3.0	#10c6e6	#5a3bfd
+Dolosigranulum pigrum	Anterior_nares	#8000ff	2	1.0	6.0	#7413ff	#3176f8
+Escherichia coli	Stool	#ded579	4	17.0	9.0	#4ef3cd	#0ca7ef
+[Eubacterium] eligens	Stool	#ded579	4	17.0	9.0	#4ef3cd	#0ca7ef
+[Eubacterium] hallii	Stool	#ded579	2	20.0	0.0	#72febb	#8000ff
+Eubacterium ramulus	Stool	#ded579	1	12.0	3.0	#10c6e6	#5a3bfd
+[Eubacterium] rectale	Stool	#ded579	15	23.0	9.0	#96fca7	#0ca7ef
+[Eubacterium] sulci	Tongue_dorsum	#ff3219	16	5.0	2.0	#445cfb	#6629fe
+Eubacterium ventriosum	Stool	#ded579	2	17.0	9.0	#4ef3cd	#0ca7ef
+Faecalibacterium prausnitzii	Stool	#ded579	10	17.0	9.0	#4ef3cd	#0ca7ef
+Filifactor alocis	Palatine_Tonsils	#5efac6	54	14.0	23.0	#2adddd	#acf59a
+Fusobacterium periodonticum	Throat	#ff6232	251	18.0	2.0	#5af8c8	#6629fe
+Gemella bergeri	Keratinized_gingiva	#01b3ec	4	37.0	10.0	#ff5f30	#02b7eb
+Gemella cuniculi	Attached	#622ffe	2	37.0	10.0	#ff5f30	#02b7eb
+Gemella haemolysans	Buccal_mucosa	#425ffa	226	3.0	10.0	#5c38fd	#02b7eb
+Gemella sanguinis	Tongue_dorsum	#ff3219	135	36.0	2.0	#ff703a	#6629fe
+Granulicatella elegans	Keratinized_gingiva	#01b3ec	144	37.0	10.0	#ff5f30	#02b7eb
+Haemophilus parahaemolyticus	Buccal_mucosa	#425ffa	129	37.0	10.0	#ff5f30	#02b7eb
+Haemophilus paraphrohaemolyticus	Buccal_mucosa	#425ffa	101	41.0	21.0	#ff160b	#92fda9
+Haemophilus sp. C1	Buccal_mucosa	#425ffa	47	40.0	8.0	#ff2914	#1898f2
+Haemophilus sputorum	Saliva	#beec8e	151	37.0	10.0	#ff5f30	#02b7eb
+Hallella seregens	Subgingival_plaque	#feb562	2	30.0	20.0	#ecc86f	#84ffb2
+Intestinimonas butyriciproducens	Stool	#ded579	2	17.0	9.0	#4ef3cd	#0ca7ef
+Intestinimonas sp. GD2	Stool	#ded579	2	17.0	9.0	#4ef3cd	#0ca7ef
+Isoptericola variabilis	Tongue_dorsum	#ff3219	10	22.0	2.0	#8bfeae	#6629fe
+Kineosphaera limosa	Subgingival_plaque	#feb562	2	21.0	25.0	#7effb5	#c6e789
+Kingella sp. Sch538	Keratinized_gingiva	#01b3ec	21	15.0	28.0	#37e6d8	#eec66d
+Lachnoanaerobaculum sp. ICM7	Tongue_dorsum	#ff3219	111	5.0	2.0	#445cfb	#6629fe
+Lactobacillus crispatus	Mid_vagina	#3febd5	2	21.0	29.0	#7effb5	#fbb965
+Lactobacillus vaginalis	Posterior_fornix	#7effb5	6	37.0	10.0	#ff5f30	#02b7eb
+Lactococcus garvieae	Stool	#ded579	1	35.0	14.0	#ff8143	#37e6d8
+Lactococcus lactis	Anterior_nares	#8000ff	27	12.0	3.0	#10c6e6	#5a3bfd
+Listeria monocytogenes	L_Retroauricular_crease	#1fd3e1	1	12.0	3.0	#10c6e6	#5a3bfd
+Mannheimia haemolytica	Keratinized_gingiva	#01b3ec	2	37.0	10.0	#ff5f30	#02b7eb
+Mannheimia varigena	Saliva	#beec8e	5	40.0	8.0	#ff2914	#1898f2
+Megasphaera sp. UPII 135-E	L_Retroauricular_crease	#1fd3e1	1	15.0	28.0	#37e6d8	#eec66d
+Mogibacterium timidum	Palatine_Tonsils	#5efac6	2	4.0	12.0	#504afc	#1dd1e2
+Moraxella caprae	Anterior_nares	#8000ff	2	10.0	31.0	#08acee	#ff9b52
+Moraxella catarrhalis	Anterior_nares	#8000ff	4	10.0	31.0	#08acee	#ff9b52
+Moraxella macacae	Anterior_nares	#8000ff	2	10.0	31.0	#08acee	#ff9b52
+Necropsobacter massiliensis	Attached	#622ffe	4	40.0	8.0	#ff2914	#1898f2
+Necropsobacter rosorum	Buccal_mucosa	#425ffa	5	40.0	8.0	#ff2914	#1898f2
+Neisseria gonorrhoeae	Keratinized_gingiva	#01b3ec	92	37.0	10.0	#ff5f30	#02b7eb
+Neisseria shayeganii	R_Retroauricular_crease	#9efaa2	2	25.0	7.0	#aef498	#2686f5
+Neisseria sp. 83E34	R_Retroauricular_crease	#9efaa2	2	27.0	30.0	#c6e789	#ffa95b
+Neisseria sp. KH1503	Throat	#ff6232	2	27.0	30.0	#c6e789	#ffa95b
+Neisseria subflava	Tongue_dorsum	#ff3219	49	25.0	32.0	#aef498	#ff8947
+Novosphingobium subterraneum	Throat	#ff6232	2	1.0	6.0	#7413ff	#3176f8
+Odoribacter splanchnicus	Stool	#ded579	10	20.0	0.0	#72febb	#8000ff
+Olsenella sp. oral taxon 809	Buccal_mucosa	#425ffa	2	4.0	12.0	#504afc	#1dd1e2
+Olsenella uli	Palatine_Tonsils	#5efac6	17	4.0	12.0	#504afc	#1dd1e2
+Oribacterium asaccharolyticum	Saliva	#beec8e	6	18.0	2.0	#5af8c8	#6629fe
+Oribacterium parvum	Throat	#ff6232	12	5.0	2.0	#445cfb	#6629fe
+Oribacterium sinus	Throat	#ff6232	90	36.0	2.0	#ff703a	#6629fe
+Oribacterium sp. oral taxon 108	Saliva	#beec8e	5	18.0	2.0	#5af8c8	#6629fe
+Oscillibacter ruminantium	Stool	#ded579	2	17.0	9.0	#4ef3cd	#0ca7ef
+Oscillibacter sp. ER4	Stool	#ded579	4	17.0	9.0	#4ef3cd	#0ca7ef
+Oscillospiraceae bacterium VE202-24	Stool	#ded579	2	17.0	9.0	#4ef3cd	#0ca7ef
+Parabacteroides distasonis	Stool	#ded579	4	20.0	0.0	#72febb	#8000ff
+Parabacteroides goldsteinii	Stool	#ded579	2	17.0	9.0	#4ef3cd	#0ca7ef
+Parabacteroides johnsonii	Stool	#ded579	4	37.0	10.0	#ff5f30	#02b7eb
+Parabacteroides merdae	Stool	#ded579	12	17.0	9.0	#4ef3cd	#0ca7ef
+Parabacteroides sp. 20_3	Stool	#ded579	2	17.0	9.0	#4ef3cd	#0ca7ef
+Parabacteroides sp. D13	Stool	#ded579	2	17.0	9.0	#4ef3cd	#0ca7ef
+Paraprevotella clara	Stool	#ded579	237	6.0	19.0	#386df9	#78ffb8
+Paraprevotella xylaniphila	Stool	#ded579	2	17.0	9.0	#4ef3cd	#0ca7ef
+Parasutterella excrementihominis	Stool	#ded579	3	37.0	10.0	#ff5f30	#02b7eb
+Parvimonas sp. oral taxon 393	Palatine_Tonsils	#5efac6	16	8.0	2.0	#208ef4	#6629fe
+Pasteurella dagmatis	R_Retroauricular_crease	#9efaa2	1	15.0	28.0	#37e6d8	#eec66d
+Peptostreptococcaceae bacterium AS15	Subgingival_plaque	#feb562	174	32.0	24.0	#ffae5e	#b9ef92
+Peptostreptococcus sp. MV1	Throat	#ff6232	2	13.0	2.0	#1dd1e2	#6629fe
+Peptostreptococcus stomatis	Throat	#ff6232	92	29.0	22.0	#e0d377	#9efaa2
+Phocaeicola abscessus	Attached	#622ffe	4	4.0	12.0	#504afc	#1dd1e2
+Porphyromonas bennonis	Anterior_nares	#8000ff	11	14.0	23.0	#2adddd	#acf59a
+Porphyromonas canoris	Keratinized_gingiva	#01b3ec	2	14.0	23.0	#2adddd	#acf59a
+Porphyromonas levii	Throat	#ff6232	4	14.0	23.0	#2adddd	#acf59a
+Porphyromonas somerae	Palatine_Tonsils	#5efac6	221	24.0	2.0	#a2f9a0	#6629fe
+Porphyromonas sp. oral taxon 278	Saliva	#beec8e	204	30.0	20.0	#ecc86f	#84ffb2
+Porphyromonas sp. oral taxon 279	Hard_palate	#218cf4	212	2.0	34.0	#6826fe	#ff6533
+Porphyromonas uenonis	Posterior_fornix	#7effb5	2	32.0	5.0	#ffae5e	#4062fa
+Prevotella baroniae	Palatine_Tonsils	#5efac6	35	6.0	23.0	#386df9	#acf59a
+Prevotella buccae	Saliva	#beec8e	18	20.0	0.0	#72febb	#8000ff
+Prevotella buccalis	L_Retroauricular_crease	#1fd3e1	2	17.0	9.0	#4ef3cd	#0ca7ef
+Prevotella copri	Stool	#ded579	9	17.0	9.0	#4ef3cd	#0ca7ef
+Prevotella corporis	R_Retroauricular_crease	#9efaa2	2	10.0	31.0	#08acee	#ff9b52
+Prevotella dentalis	Saliva	#beec8e	1	26.0	16.0	#bbee91	#50f4cc
+Prevotella dentasini	Saliva	#beec8e	2	4.0	12.0	#504afc	#1dd1e2
+Prevotella denticola	Posterior_fornix	#7effb5	144	4.0	12.0	#504afc	#1dd1e2
+Prevotella fusca	Palatine_Tonsils	#5efac6	55	6.0	35.0	#386df9	#ff532a
+Prevotella histicola	Palatine_Tonsils	#5efac6	132	13.0	2.0	#1dd1e2	#6629fe
+Prevotella intermedia	Palatine_Tonsils	#5efac6	132	6.0	35.0	#386df9	#ff532a
+Prevotella multiformis	Subgingival_plaque	#feb562	36	4.0	12.0	#504afc	#1dd1e2
+Prevotella multisaccharivorax	Subgingival_plaque	#feb562	3	32.0	5.0	#ffae5e	#4062fa
+Prevotella nanceiensis	Hard_palate	#218cf4	176	36.0	2.0	#ff703a	#6629fe
+Prevotella oralis	Subgingival_plaque	#feb562	75	29.0	22.0	#e0d377	#9efaa2
+Prevotella pallens	Throat	#ff6232	126	8.0	2.0	#208ef4	#6629fe
+Prevotella scopos	Throat	#ff6232	44	6.0	37.0	#386df9	#ff2c16
+Prevotella shahii	Throat	#ff6232	163	13.0	2.0	#1dd1e2	#6629fe
+Prevotella sp. 109	Stool	#ded579	2	17.0	9.0	#4ef3cd	#0ca7ef
+Prevotella sp. C561	Palatine_Tonsils	#5efac6	84	5.0	2.0	#445cfb	#6629fe
+Prevotella sp. HJM029	Palatine_Tonsils	#5efac6	73	0.0	38.0	#8000ff	#ff160b
+Prevotella sp. ICM33	Saliva	#beec8e	67	6.0	37.0	#386df9	#ff2c16
+Prevotella sp. oral taxon 472	Subgingival_plaque	#feb562	206	9.0	36.0	#149df1	#ff3e1f
+Prevotella sp. S7-1-8	Posterior_fornix	#7effb5	4	33.0	0.0	#ffa055	#8000ff
+Prevotella stercorea	L_Retroauricular_crease	#1fd3e1	2	17.0	9.0	#4ef3cd	#0ca7ef
+Prevotella veroralis	Saliva	#beec8e	148	4.0	12.0	#504afc	#1dd1e2
+Propionibacterium humerusii	R_Retroauricular_crease	#9efaa2	3	41.0	11.0	#ff160b	#0fc4e7
+Pseudoflavonifractor capillosus	Stool	#ded579	2	17.0	9.0	#4ef3cd	#0ca7ef
+Roseburia faecis	Stool	#ded579	4	33.0	0.0	#ffa055	#8000ff
+Roseburia intestinalis	Stool	#ded579	5	33.0	0.0	#ffa055	#8000ff
+Roseburia inulinivorans	Stool	#ded579	12	20.0	0.0	#72febb	#8000ff
+Rothia mucilaginosa	Hard_palate	#218cf4	253	36.0	2.0	#ff703a	#6629fe
+Ruminococcaceae bacterium D16	Stool	#ded579	2	17.0	9.0	#4ef3cd	#0ca7ef
+Ruminococcus bicirculans	Stool	#ded579	10	17.0	9.0	#4ef3cd	#0ca7ef
+Ruminococcus callidus	Stool	#ded579	2	17.0	9.0	#4ef3cd	#0ca7ef
+Ruminococcus faecis	Stool	#ded579	1	32.0	18.0	#ffae5e	#6afdc0
+[Ruminococcus] gnavus	Stool	#ded579	1	12.0	3.0	#10c6e6	#5a3bfd
+Selenomonas sp. oral taxon 149	Saliva	#beec8e	103	31.0	12.0	#f9bb66	#1dd1e2
+Selenomonas sp. oral taxon 478	Saliva	#beec8e	71	31.0	12.0	#f9bb66	#1dd1e2
+Selenomonas sputigena	Subgingival_plaque	#feb562	140	4.0	12.0	#504afc	#1dd1e2
+Shuttleworthia satelles	Subgingival_plaque	#feb562	2	4.0	12.0	#504afc	#1dd1e2
+Shuttleworthia sp. MSX8B	Subgingival_plaque	#feb562	3	4.0	12.0	#504afc	#1dd1e2
+Sinorhizobium sp. GL28	Stool	#ded579	2	17.0	9.0	#4ef3cd	#0ca7ef
+Solobacterium moorei	Palatine_Tonsils	#5efac6	122	5.0	2.0	#445cfb	#6629fe
+Sphingomonas sp. Ant H11	Anterior_nares	#8000ff	2	21.0	29.0	#7effb5	#fbb965
+Staphylococcus pasteuri	Keratinized_gingiva	#01b3ec	122	37.0	10.0	#ff5f30	#02b7eb
+Stenotrophomonas maltophilia	Anterior_nares	#8000ff	2	21.0	29.0	#7effb5	#fbb965
+Stomatobaculum longum	Tongue_dorsum	#ff3219	136	4.0	12.0	#504afc	#1dd1e2
+Streptococcus agalactiae	Posterior_fornix	#7effb5	48	37.0	10.0	#ff5f30	#02b7eb
+Streptococcus australis	Tongue_dorsum	#ff3219	14	16.0	2.0	#42edd3	#6629fe
+Streptococcus equi	Anterior_nares	#8000ff	2	0.0	33.0	#8000ff	#ff793e
+Streptococcus infantis	Tongue_dorsum	#ff3219	100	36.0	2.0	#ff703a	#6629fe
+Streptococcus merionis	Buccal_mucosa	#425ffa	1	35.0	14.0	#ff8143	#37e6d8
+Streptococcus mitis	Buccal_mucosa	#425ffa	270	37.0	10.0	#ff5f30	#02b7eb
+Streptococcus parasanguinis	Tongue_dorsum	#ff3219	198	19.0	4.0	#66fcc2	#4c50fc
+Streptococcus peroris	Throat	#ff6232	8	7.0	10.0	#2c7ef7	#02b7eb
+Streptococcus pneumoniae	Keratinized_gingiva	#01b3ec	242	37.0	10.0	#ff5f30	#02b7eb
+Streptococcus pseudopneumoniae	Attached	#622ffe	258	37.0	10.0	#ff5f30	#02b7eb
+Streptococcus salivarius	Tongue_dorsum	#ff3219	26	13.0	2.0	#1dd1e2	#6629fe
+Streptococcus sinensis	Buccal_mucosa	#425ffa	34	39.0	13.0	#ff3b1e	#2adddd
+Streptococcus sp. 263_SSPC	Tongue_dorsum	#ff3219	68	36.0	2.0	#ff703a	#6629fe
+Streptococcus sp. 343_SSPC	Palatine_Tonsils	#5efac6	17	11.0	39.0	#04b9ea	#ff0000
+Streptococcus sp. 400_SSPC	Palatine_Tonsils	#5efac6	14	11.0	39.0	#04b9ea	#ff0000
+Streptococcus sp. ACS2	Tongue_dorsum	#ff3219	13	13.0	2.0	#1dd1e2	#6629fe
+Streptococcus sp. CCH5-D3	Tongue_dorsum	#ff3219	2	13.0	2.0	#1dd1e2	#6629fe
+Streptococcus sp. CCH8-H5	Attached	#622ffe	2	13.0	2.0	#1dd1e2	#6629fe
+Streptococcus sp. F0442	Palatine_Tonsils	#5efac6	8	36.0	2.0	#ff703a	#6629fe
+Streptococcus sp. HPH0090	Palatine_Tonsils	#5efac6	9	36.0	2.0	#ff703a	#6629fe
+Streptococcus sp. I-P16	Tongue_dorsum	#ff3219	4	16.0	2.0	#42edd3	#6629fe
+Streptococcus sp. M334	Buccal_mucosa	#425ffa	13	37.0	10.0	#ff5f30	#02b7eb
+Streptococcus sp. oral taxon 431	Hard_palate	#218cf4	8	7.0	10.0	#2c7ef7	#02b7eb
+Streptococcus sp. SK643	Keratinized_gingiva	#01b3ec	11	7.0	10.0	#2c7ef7	#02b7eb
+Streptococcus thermophilus	Anterior_nares	#8000ff	263	28.0	26.0	#d4dd80	#d4dd80
+Streptococcus urinalis	Saliva	#beec8e	2	37.0	10.0	#ff5f30	#02b7eb
+Treponema denticola	Subgingival_plaque	#feb562	139	14.0	23.0	#2adddd	#acf59a
+Treponema pedis	Subgingival_plaque	#feb562	37	14.0	23.0	#2adddd	#acf59a
+Treponema phagedenis	Subgingival_plaque	#feb562	4	14.0	23.0	#2adddd	#acf59a
+Treponema putidum	Subgingival_plaque	#feb562	29	14.0	23.0	#2adddd	#acf59a
+Treponema sp. OMZ 838	Subgingival_plaque	#feb562	140	6.0	23.0	#386df9	#acf59a
+Treponema succinifaciens	Subgingival_plaque	#feb562	13	14.0	23.0	#2adddd	#acf59a
+Trueperella pyogenes	Tongue_dorsum	#ff3219	6	19.0	4.0	#66fcc2	#4c50fc
+Tyzzerella nexilis	Stool	#ded579	1	12.0	3.0	#10c6e6	#5a3bfd
+Veillonella dispar	Throat	#ff6232	250	13.0	2.0	#1dd1e2	#6629fe
+Veillonella sp. AS16	Tongue_dorsum	#ff3219	91	15.0	28.0	#37e6d8	#eec66d
+Veillonella sp. HPA0037	Tongue_dorsum	#ff3219	10	18.0	2.0	#5af8c8	#6629fe
+Veillonella sp. OK1	Tongue_dorsum	#ff3219	2	13.0	2.0	#1dd1e2	#6629fe
+Veillonella sp. oral taxon 158	Palatine_Tonsils	#5efac6	238	34.0	2.0	#ff914c	#6629fe
+Veillonella tobetsuensis	Tongue_dorsum	#ff3219	77	11.0	39.0	#04b9ea	#ff0000
+Vitreoscilla stercoraria	Tongue_dorsum	#ff3219	1	6.0	27.0	#386df9	#e0d377
+Xanthomonas campestris	Anterior_nares	#8000ff	1	12.0	3.0	#10c6e6	#5a3bfd
+Acinetobacter baumannii	Keratinized_gingiva	#01b3ec	3	5.0	2.0	#445cfb	#6629fe
+Actinomyces sp. oral taxon 181	Tongue_dorsum	#ff3219	6	19.0	4.0	#66fcc2	#4c50fc
+Alistipes finegoldii	Stool	#ded579	4	37.0	10.0	#ff5f30	#02b7eb
+Acidovorax avenae	Supragingival_plaque	#ff8e4a	2	26.0	1.0	#bbee91	#7413ff
+Atopobium rimae	Subgingival_plaque	#feb562	70	4.0	12.0	#504afc	#1dd1e2
+Akkermansia muciniphila	Stool	#ded579	4	17.0	9.0	#4ef3cd	#0ca7ef
+Acetivibrio ethanolgignens	Stool	#ded579	2	20.0	0.0	#72febb	#8000ff
+Bacteroides coprophilus	Stool	#ded579	2	32.0	15.0	#ffae5e	#44eed2
+bacterium LF-3	Stool	#ded579	1	17.0	9.0	#4ef3cd	#0ca7ef
+Bacteroides ovatus	Stool	#ded579	13	12.0	3.0	#10c6e6	#5a3bfd
+Bacteroides fragilis	Stool	#ded579	14	23.0	9.0	#96fca7	#0ca7ef
+Actinomyces cardiffensis	Subgingival_plaque	#feb562	8	12.0	3.0	#10c6e6	#5a3bfd
+Brevibacterium linens	R_Retroauricular_crease	#9efaa2	6	21.0	17.0	#7effb5	#5efac6
+Afipia birgiae	Throat	#ff6232	2	1.0	6.0	#7413ff	#3176f8
+[Eubacterium] nodatum	Subgingival_plaque	#feb562	21	14.0	23.0	#2adddd	#acf59a
+Corynebacterium vitaeruminis	Throat	#ff6232	3	41.0	21.0	#ff160b	#92fda9
+Aggregatibacter aphrophilus	Saliva	#beec8e	263	40.0	8.0	#ff2914	#1898f2
+Gallibacterium anatis	Keratinized_gingiva	#01b3ec	3	40.0	8.0	#ff2914	#1898f2
+Corynebacterium aurimucosum	Anterior_nares	#8000ff	2	30.0	20.0	#ecc86f	#84ffb2
+Gordonia polyisoprenivorans	L_Retroauricular_crease	#1fd3e1	2	21.0	25.0	#7effb5	#c6e789
+Helicobacter pylori	Anterior_nares	#8000ff	7	15.0	28.0	#37e6d8	#eec66d
+Kocuria palustris	L_Retroauricular_crease	#1fd3e1	2	21.0	29.0	#7effb5	#fbb965
+Bacteroides clarus	Stool	#ded579	1	35.0	14.0	#ff8143	#37e6d8
+Moraxella bovis	Anterior_nares	#8000ff	2	38.0	31.0	#ff4d27	#ff9b52
+Aggregatibacter actinomycetemcomitans	Buccal_mucosa	#425ffa	220	25.0	7.0	#aef498	#2686f5
+Mannheimia sp. MG13	Tongue_dorsum	#ff3219	3	27.0	30.0	#c6e789	#ffa95b
+Neisseria lactamica	Keratinized_gingiva	#01b3ec	245	25.0	32.0	#aef498	#ff8947
+Capnocytophaga sp. oral taxon 329	Supragingival_plaque	#ff8e4a	271	6.0	19.0	#386df9	#78ffb8
+[Eubacterium] yurii	Subgingival_plaque	#feb562	168	32.0	24.0	#ffae5e	#b9ef92
+Mogibacterium sp. CM50	Subgingival_plaque	#feb562	4	29.0	22.0	#e0d377	#9efaa2
+Porphyromonas sp. KLE 1280	Hard_palate	#218cf4	193	2.0	34.0	#6826fe	#ff6533
+Actinotignum schaalii	Buccal_mucosa	#425ffa	2	32.0	5.0	#ffae5e	#4062fa
+Peptostreptococcaceae bacterium ACC19a	Throat	#ff6232	23	6.0	23.0	#386df9	#acf59a
+Bacteroidetes bacterium oral taxon 272	Supragingival_plaque	#ff8e4a	1	26.0	16.0	#bbee91	#50f4cc
+Prevotella falsenii	Palatine_Tonsils	#5efac6	25	6.0	35.0	#386df9	#ff532a
+[Eubacterium] infirmum	Subgingival_plaque	#feb562	68	29.0	22.0	#e0d377	#9efaa2
+Prevotella melaninogenica	Palatine_Tonsils	#5efac6	150	6.0	37.0	#386df9	#ff2c16
+Prevotella oulorum	Subgingival_plaque	#feb562	178	0.0	38.0	#8000ff	#ff160b
+Prevotella loescheii	Subgingival_plaque	#feb562	207	9.0	36.0	#149df1	#ff3e1f
+Prevotella enoeca	Subgingival_plaque	#feb562	25	4.0	12.0	#504afc	#1dd1e2
+Alysiella crassa	Keratinized_gingiva	#01b3ec	2	41.0	11.0	#ff160b	#0fc4e7
+Butyricimonas virosa	Stool	#ded579	1	32.0	18.0	#ffae5e	#6afdc0
+Selenomonas sp. CM52	Subgingival_plaque	#feb562	150	31.0	12.0	#f9bb66	#1dd1e2
+Neisseria sp. GT4A_CT1	Supragingival_plaque	#ff8e4a	151	0.0	33.0	#8000ff	#ff793e
+Avibacterium paragallinarum	Attached	#622ffe	2	39.0	13.0	#ff3b1e	#2adddd
+Streptococcus sp. 1171_SSPC	Palatine_Tonsils	#5efac6	20	11.0	39.0	#04b9ea	#ff0000
+Simonsiella muelleri	Keratinized_gingiva	#01b3ec	19	34.0	2.0	#ff914c	#6629fe
+Streptococcus sp. I-G2	Tongue_dorsum	#ff3219	6	34.0	2.0	#ff914c	#6629fe
+Granulicatella adiacens	Attached	#622ffe	259	28.0	26.0	#d4dd80	#d4dd80
+Treponema medium	Subgingival_plaque	#feb562	132	6.0	23.0	#386df9	#acf59a
+Sanguibacter keddieii	Throat	#ff6232	23	8.0	2.0	#208ef4	#6629fe
+Haemophilus sp. FF7	Buccal_mucosa	#425ffa	1	6.0	27.0	#386df9	#e0d377

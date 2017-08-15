@@ -168,16 +168,30 @@ Module of python functions used in the rest of the project.
 Function that counts the number of times both \verb|r1| and \verb|r2| are within a range, and then 
 returns the fraction of times this occurs. The range is half open: $(a,b]$.
 \begin{itemize}
-	\item Input: array \verb|r1| and array \verb|r2|.
-	\item Optional input: lower bound \verb|lbd|, default $0$. Upper bound \verb|ubd| default $1$.
+	\item Input: \begin{itemize}
+		\item \verb|r1|, \verb|r2| - numpy arrays
+	\end{itemize}
+	\item Optional input: 
+	\begin{itemize}
+		\item  \verb|lbd| - lower bound, default $0$.
+		\item  \verb|ubd| - upper bound, default $1$.
+	\end{itemize}
 	\item Output: int count of indices $i$ such that $r1(i) \in (lbd, ubd]$ and $r2(i) \in (lbd, ubd]$.
 \end{itemize}
 
 \cprotect \subsection{\verb|both_same_bin|}
 Function that counts the number of times the two occur in the same abundance range.
 \begin{itemize}
-	\item Input: array \verb|r1|, array \verb|r2|, float \verb|lthresh|, int \verb|numthresh|.
-	\item Optional input: bool \verb|rel|, default True.
+	\item Input: 
+	\begin{itemize}
+		\item \verb|r1|, \verb|r2| -  numpy arrays
+		\item \verb|lthresh| - float, abundances lower are ignored.
+		\item \verb|numthresh| - number of ranges (bins) to use.
+	\end{itemize}
+	\item Optional input:
+	\begin{itemize}
+		\item \verb|rel| - bool, whether or not to normalize rows, default True.
+	\end{itemize}
 	\item Output: count of indices $i$ such that such that $r1(i) \in (lbd_j, ubd_j]$ and $r2(i) \in (lbd_j, ubd_j]$ for $j = 0,..,numthresh$.
 \end{itemize}
 
@@ -187,7 +201,9 @@ Divides the interval $[0,1]$ into $numthresh$ intervals $(a_j,b_j]$ and calls \v
 Function that classifies nodes by which type of sample they have the highest abundance in. If it's a dataframe it will return the column head of the winner'
 
 \begin{itemize}
-	\item Input: array or row of dataframe \verb|r|
+	\item Input: \begin{itemize}
+		\item \verb|r| - array or row of dataframe 
+	\end{itemize}
 	\item Optional input: none
 	\item Output: index or column name of argmax of \verb|r|, if the max is greater than $1.5*\sigma  + \mu$, where $\sigma$ is the sample standard deviation, and $\mu$ is the sample mean
 \end{itemize}
@@ -195,7 +211,9 @@ Function that classifies nodes by which type of sample they have the highest abu
 \cprotect \subsection{\verb|matchyn|}
 
 \begin{itemize}
-	\item Input: scalars or list \verb|a|, \verb|b|
+	\item Input: \begin{itemize}
+		\item \verb|a|, \verb|b| - scalars or list to be compared
+	\end{itemize}
 	\item Optional input: none
 	\item Output: \verb|a| if $a = b$, otherwise \verb|['Intertype', grey]|, where grey is the hex value for grey
 \end{itemize}
@@ -206,15 +224,28 @@ purpose is to compare two lists that look like \verb|['Class', color]|.
 Calculate probability of occurrence at an abundance level in a random graph, binomial distribution with parameters edge degree and sample degree/total edges, as in \cite{coocc}.
 
 \begin{itemize}
-	\item Input: dataframe of GOTTCHA output \verb|abund_array|, lower bound \verb|lthresh|, number of bins \verb|numthresh|
-	\item Optional input: bool rel, default True - whether or not to normalize GOTTCHA data.
+	\item Input: 
+	\begin{itemize}
+		\item \verb|abund_array| - dataframe of GOTTCHA output
+		\item \verb|lthresh| - float lower bound, abundances below are ignored
+		\item \verb|numthresh| - int number of bins
+	\end{itemize}
+	\item Optional input: 
+	\begin{itemize}
+		\item \verb|rel| - bool, whether or not to normalize GOTTCHA data, default True
+	\end{itemize}
 	\item Output: array \verb|occ_prob|, the probability of an abundance level in a null model that assumes abundances are binomial with parameters coming from the number of taxa appearing in the sample and number of times a taxa appears.
 \end{itemize}
 
 \cprotect \subsection{\verb|random_coocc_prob|}
 Calculate a poisson-binomial...$P(X > wij)$ where $X$ is the number of times i and j co occur in random graph (X is a random variable) \cite{coocc}.
 \begin{itemize}
-	\item Input: array of probabilities (output of \verb|occ_probs|) \verb|occ|, \verb|wij| the abundance to test, \verb|i|, \verb|j|, the indices of the taxa pair tested
+	\item Input: 
+	\begin{itemize}
+		\item \verb|occ| - numpy array of probabilities (output of \verb|occ_probs|) 
+		\item \verb|wij| - float the abundance to test
+		\item  \verb|i|, \verb|j| -  the indices of the taxa pair tested
+	\end{itemize}
 	\item Optional input: none
 	\item Output: float, probability that the null model produces taxa i and taxa j in the same bin more than $wij$ times.
 \end{itemize}
@@ -222,13 +253,18 @@ Calculate a poisson-binomial...$P(X > wij)$ where $X$ is the number of times i a
 First gets the probability for each sample-level they are both present, then calculates a probability of the number of times this happens. Very very slow, do not use. This is because there are many ways 2 things can co-occur some number of times.
 
 \cprotect \subsection{\verb|approx_rand_prob|}
-Calculate an approximation of a poisson-binomial...P(X > wij) where X 
+Calculate an approximation of a poisson-binomial...$P(X > wij)$ where $X$
 is the number of timesi and j co occur in random graph (X is a random variable)
 The paper \cite{coocc} calls it bi-binomial because its as if you had two 
 probabilities in the above.
 
 \begin{itemize}
-	\item Input: array of probabilities (output of \verb|occ_probs|) \verb|occ|, \verb|wij| the abundance to test, \verb|i|, \verb|j|, the indices of the taxa pair tested
+	\item Input: 
+	\begin{itemize}
+		\item \verb|occ| - numpy array of probabilities (output of \verb|occ_probs|) 
+		\item \verb|wij| - float the abundance to test
+		\item  \verb|i|, \verb|j| -  the indices of the taxa pair tested
+	\end{itemize}
 	\item Optional input: none
 	\item Output: float, approximate probability that the null model produces taxa i and taxa j in the same bin more than $wij$ times.
 \end{itemize}
@@ -241,8 +277,16 @@ MC approximation for pearson coefficient where X is a random vector of binomial(
 and Y is a random vector of binomial(n2,p2), where p1,p2 are vectors. Expected value is identity matrix.
 
 \begin{itemize}
-	\item Input: N - matrix of number of trials, P - matrix of probability of successes, W - the observed correlation matrix
-	\item Optional input: \verb|num_samps|, default = 1000. Number of Monte Carlo draws
+	\item Input:
+	\begin{itemize}
+		\item \verb|N| - numpy array of of number of trials parameter for binomial RV
+		\item  \verb|P| - numpy array of probabilities of success
+		\item \verb|W| - the observed correlation matrix
+	\end{itemize}
+	\item Optional input: 
+	\begin{itemize}
+		\item \verb|num_samps|, default = 1000. Number of Monte Carlo draws
+	\end{itemize}
 	\item Output: matrix giving the percentage of MC draws that had higher correlation than observed.
 \end{itemize}
 
@@ -253,7 +297,12 @@ If $n$ is the number of samples $m$ the number of taxa in the network being buil
 Companion to \verb|mc_pearson| for palatalization
 
 \begin{itemize}
-	\item Input: N, P, W from \verb|mc_pearson|
+	\item Input: 
+		\begin{itemize}
+		\item \verb|N| - numpy array of of number of trials parameter for binomial RV
+		\item  \verb|P| - numpy array of probabilities of success
+		\item \verb|W| - the observed correlation matrix
+	\end{itemize}
 	\item Optional input: none
 	\item Output: sample - A binary matrix of bools (simulated correlation > observed correlation)
 \end{itemize}
@@ -264,274 +313,689 @@ The null model assumes that the abundance of a taxa in a sample is binomial(n,p)
 MC approximation for pearson coefficient where X is a random vector of binomial(n1,p1)
 and Y is a random vector of binomial(n2,p2), where p1,p2 are vectors. Expected value is identity.
 \begin{itemize}
-	\item Input: N - matrix of number of trials, P - matrix of probability of successes, W - the observed correlation matrix
-	\item Optional input: \verb|num_samps|, default = 1000. Number of Monte Carlo draws
+	\item Input:
+		\begin{itemize}
+		\item \verb|N| - numpy array of of number of trials parameter for binomial RV
+		\item  \verb|P| - numpy array of probabilities of success
+		\item \verb|W| - the observed correlation matrix
+	\end{itemize}
+	\item Optional input: 
+		\begin{itemize}
+		\item \verb|num_samps|, default = 1000. Number of Monte Carlo draws.
+	\end{itemize}
 	\item Output: matrix giving the percentage of MC draws that had higher correlation than observed.
 \end{itemize}
 
 Same as the two above (in combination), with the only difference being that simulated data is thresholded before correlations are computed. Should compare to observed correlations of thresholded data. 
 
 \cprotect \subsection{\verb|min_nz|}
-
+Find minimum non-zero value
 \begin{itemize}
 	\item Input: 
-	\item Optional input:
-	\item Output: 
+	\begin{itemize}
+		\item  \verb|arr| - numpy array
+	\end{itemize}
+	\item Optional input: 
+	\begin{itemize}
+		\item \verb|row| - bool, whether or not to compute minimum by row, default False.
+	\end{itemize}
+	\item Output: the minimum nonzero value in a 1D array (if row is false), or an array containing the min nonzero in each of row of a 2D array
 \end{itemize}
 
 \cprotect \subsection{\verb|build_network|}
-
+Build a cooccurrence network from a pandas dataframe. Data should all come from same taxonomic level, with columns
+\verb|['LEVEL','TAXA','SAMPLE_1',...,'SAMPLE_N']|
 \begin{itemize}
 	\item Input: 
-	\item Optional input:
-	\item Output: 
+	\begin{itemize}
+		\item \verb|abundance_array| - abundance array dataframe at one tax level
+	\end{itemize}
+	\item Optional input: 
+	\begin{itemize}
+		\item \verb|cotype| - str, way to compute correlations, default `pearson', options `pearson' and `bins'.
+		\item \verb|thr| - bool default False, whether to threshold data before computing correlations.
+		\item \verb|list_too| - bool default True, whether or not to return an edge list as well as adjacency matrix
+	\end{itemize}
+	\item Output: adjacency matrix as dataframe with index and columns taxa names. If \verb|list_too|, a dataframe of edges, each row is Node, Node, Weight.
 \end{itemize}
+
+bins counts the number of times row have the same binned value in a columns, while pearson computes a correlation matrix. Networks are filtered by the null model described in the above functions \verb|approx_rand_prob|, \verb|mc_pearson|, or \verb|mc_pearson_thr|. Edges are kept if $p< 0.05$ according to these null models. List output (result of \verb|list_too| True) is formatted for easy loading into cytoscape, using the ``import network from file" option.
 
 \cprotect \subsection{\verb|make_meta|}
-
+Make separate node attribute table, and add edge metadata to the existing 
+network data frame (given as list of edges). Node table needs columns for node frequency,
+sample most commonly seen in, and sample type color. Edges need sample type and color.
 \begin{itemize}
 	\item Input: 
-	\item Optional input:
-	\item Output: 
+	\begin{itemize}
+		\item \verb|edges| - dataframe list of Node, Node, Weight.
+		\item \verb|ab_by_sample_type|, dataframe abundance array with columns of same class (location on body, for example) summed.
+		\item \verb|orig_array| dataframe given to \verb|build_network|.
+	\end{itemize}	
+	\item Optional input: none
+	\item Output: dataframe list of Node, Node, Weight, Edge Classification, Edge Classification Color. dataframe of node attributes - sample most seen in, color with that sample.
 \end{itemize}
+
+The node data table is formatted for easy input into cytoscape using the ``import table from file" option, after the network has been imported.
+
 
 \cprotect \subsection{\verb|make_meta_from_file|}
+'Make a node attribute table using sample metadata file. edges is the network dataframe
+while metadata is a dataframe of metadata, and \verb|orig_array| is the array of abundances (at 
+the appropriate taxonomic level). The index set of the metadata should correspond columns 
+[2:] of the \verb|orig_array|
 
 \begin{itemize}
 	\item Input: 
-	\item Optional input:
-	\item Output: 
+	\begin{itemize}
+		\item 	\verb|edges| -  DF of Node, Node, Weight, (can have additional columns).
+		\item  \verb|metadata| - dataframe table of metadata indexed by sample ID.
+		\item \verb|orig_array| - the dataframe used to build network. 
+	\end{itemize}
+	\item Optional input: 
+	\begin{itemize}
+		\item \verb|existing_table| - dataframe of node data, default \verb|[]|. If a dataframe is passed, node data columns will be added to this.
+	\end{itemize}
+	\item Output: dataframe table of node data
 \end{itemize}
+
+The node data table is formatted for easy input into cytoscape using the ``import table from file" option, after the network has been imported.
 
 \cprotect \subsection{\verb|mc_network_stats|}
+Construct a random network and compute statistics, compare these to the statistics of
+the statistics of the given adjacency matrix. abdata is the data values (numpy
+array) and network is the adjacency matrix. Random graph is made from null model detailed
+in the writeup
 
 \begin{itemize}
 	\item Input: 
+	\begin{itemize}
+		\item \verb|abdata| -  numpy array, abundance array used to build network. 
+		\item \verb|network| -  adjacency matrix as numpy array.
+	\end{itemize}
 	\item Optional input:
-	\item Output: 
+	\begin{itemize}
+		\item \verb|thr| - bool, whether or not data was thresholded in building the network, default False.
+		\item  \verb|bins| - bool, whether or not the binning method was used (as opposed to correlation), default False.
+		\item  \verb|sims| - number of MC draws used to estimate statistics, default 1000
+	\end{itemize}
+	\item Output: the probability of seeing a greater mean degree, variance (in degree), minimum eigenvalue, maximum eigenvalue, and number of edges in a draw generated by the null model.
 \end{itemize}
+
+Null model is the same as in network construction, as described in \verb|make_null|
 
 \cprotect \subsection{\verb|sim_pears|}
-
+Construct a MC draw simulating correlation
 \begin{itemize}
 	\item Input: 
-	\item Optional input:
-	\item Output: 
+	\begin{itemize}
+		\item \verb|N| - numpy array of of number of trials parameter for binomial RV
+		\item  \verb|P| - numpy array of probabilities of success
+	\end{itemize}
+	\item Optional input: none
+	\item Output: mean degree, variance (in degree), minimum eigenvalue, maximum eigenvalue, and number of edges in the draw (given as list)
 \end{itemize}
+
+Constructs an abundance array as in \verb|make_null|
 
 \cprotect \subsection{\verb|sim_pears_thr|}
 
+Construct a MC draw simulating thresholded correlation
 \begin{itemize}
 	\item Input: 
-	\item Optional input:
-	\item Output: 
+	\begin{itemize}
+		\item \verb|N| - numpy array of of number of trials parameter for binomial RV
+		\item  \verb|P| - numpy array of probabilities of success
+	\end{itemize}
+	\item Optional input: none
+	\item Output: mean degree, variance (in degree), minimum eigenvalue, maximum eigenvalue, and number of edges in the draw (given as list)
 \end{itemize}
+
+Constructs an abundance array as in \verb|make_null|
 
 \cprotect \subsection{\verb|sim_bins|}
 
+Construct a MC draw simulating binning
 \begin{itemize}
 	\item Input: 
-	\item Optional input:
-	\item Output: 
+	\begin{itemize}
+		\item \verb|N| - numpy array of of number of trials parameter for binomial RV
+		\item  \verb|P| - numpy array of probabilities of success
+	\end{itemize}
+	\item Optional input: none
+	\item Output: mean degree, variance (in degree), minimum eigenvalue, maximum eigenvalue, and number of edges in the draw (given as list)
 \end{itemize}
+
+Constructs an abundance array as in \verb|make_null|
 
 \cprotect \subsection{\verb|edge_prob|}
-
+calculate probability of seeing an edge in a graph with that many edges
+if edge prob is p and we see m edges, $p \approx  2m/n^2$ (n nodes)
 \begin{itemize}
 	\item Input: 
-	\item Optional input:
-	\item Output: 
-\end{itemize}
-
-\cprotect \subsection{\verb|nodes_in_sub|}
-
-\begin{itemize}
-	\item Input: 
-	\item Optional input:
-	\item Output: 
+	\begin{itemize}
+		\item \verb|network| - dataframe list Node, Node, Weight (can have additional columns)
+	\end{itemize}
+	\item Optional input: none
+	\item Output: probability of an edge in a random graph with the same number of edges.
 \end{itemize}
 
 \cprotect \subsection{\verb|random_sub_graph|}
-
+Calculate probability that the subnetwork has as many edges as it has
 \begin{itemize}
 	\item Input: 
-	\item Optional input:
-	\item Output: 
+		\begin{itemize}
+		\item \verb|network| - dataframe list Node, Node, Weight, \verb|edge_sample|
+		\item \verb|types| - types of sample to look for, string
+	\end{itemize}
+	\item Optional input: 
+	\begin{itemize}
+		\item 	\verb|p| - float, probability of an edge, default $0.5$
+	\end{itemize}
+	\item Output: expected number of edges in a subgraph that size, actual number
 \end{itemize}
 
 \cprotect \subsection{\verb|exp_cut_edges|}
+Calculate the probability of seeing that many intertype edges, or edges between some
+certain set of types, or out of some set of types.
 
 \begin{itemize}
 	\item Input: 
-	\item Optional input:
-	\item Output: 
+\begin{itemize}
+	\item \verb|network| - dataframe list Node, Node, Weight, \verb|edge_sample|
+	\item \verb|types| - types of sample to look for, string
+\end{itemize}
+\item Optional input: 
+\begin{itemize}
+	\item 	\verb|p| - float, probability of an edge, default $0.5$
+\end{itemize}
+	\item Output: expected number, actual number
 \end{itemize}
 
 \cprotect \subsection{\verb|cut_cond|}
-
+{\bf Depreciated}
+Calculate conductance of cuts that cut out a type or set of types
 \begin{itemize}
 	\item Input: 
-	\item Optional input:
-	\item Output: 
+	\begin{itemize}
+		\item \verb|network| - dataframe of Node, Node, Weight, \emph{with column for sample type - this column has been moved to the node data file and so this function must be rewritten}
+		\item \verb|types| - string, type of nodes to look for
+	\end{itemize}
+	\item Optional input: none
+	\item Output: the conductance of a cut which removes the nodes of type specified.
 \end{itemize}
+
+Cut conductance \cite{dgraph_theory} is 
+\[
+\phi(S,\ol{S}) = \frac{\sum_{i\in S, j\in \ol{S}}a_{ij}}{\min(a(S), a(\ol{S}))}
+\]
+where
+\[
+a(S) = \sum_{i\in S, j\in V} a_{ij}
+\]
 
 \cprotect \subsection{\verb|com_clust|}
+Clustering using Girvan and Newman algortithm. This means we try to maximize the 
+quantity \emph{modularity} over all possible community groupings. Modularity is
+the quantity: (Fraction of edges that are inside a community) - (expected fraction in a random graph)
+I'd like to weight this, so I'll maximize
+(($\delta$ is Kronecher, d is sum of weights of edges on that vertex (generalized degree))
+Also, the undirectedness means I only have to take the sum over the subdiagonal.
 
 \begin{itemize}
 	\item Input: 
-	\item Optional input:
-	\item Output: 
+	\begin{itemize}
+		\item \verb|network| - dataframe of adjacency matrix for graph
+	\end{itemize}
+	\item Optional input: none
+	\item Output:  list of such that entry $i$ tells us what cluster node $i$ is in, and the modularity $Q$
 \end{itemize}
+
+Community clustering minimizes a function of the graph called modularity \cite{PhysRevE.70.066111}\cite{PhysRevE.70.056131}. That is 
+\[
+Q = \frac{1}{2m}\sum_{i,j}\left(w_{ij} + \frac{d_id_j}{2m}\right) \delta(c_i,c_j)
+\]
+where $m = \sum_{i\sim j} w_{ij}$, $d_i$ is the (weighted) degree of vertex $i$, $c_i$ is the community containing vertex $i$, and $\delta$ is the Kronecker $\delta$. This done by a gradient search/greedy algorithm.
 
 \cprotect \subsection{\verb|spectral_cluster|}
-
+Clustering using spectral clustering.
 \begin{itemize}
 	\item Input: 
-	\item Optional input:
-	\item Output: 
+	\begin{itemize}
+		\item \verb|adj_mat| - numpy array of adjacency matrix for graph
+	\end{itemize}
+	\item Optional input: none
+	\item Output: list of such that entry $i$ tells us what cluster node $i$ is in.
 \end{itemize}
 
-\cprotect \subsection{\verb|clust_judge|}
+Spectral clustering performs a $k$-means clustering on the rows of the matrix whose columns are the $k$ eigenvectors of the graph Laplacian corresponding to the smallest $k$ eigenvalues \cite{vonLuxburg2007} . Intuitively, this means it clusters points together that are close in the first $k$ (slowest decaying) modes of the diffusion equation on the graph. 
 
+\cprotect \subsection{\verb|clust_judge|}
+Create a dataframe containing the percentage of each class in the metadata category
+appears in each cluster. \verb|clust_type| should be either commun or spect. \verb|node_data|
+should be a dataframe indexed by nodes, with a column for clusters and columns
+classifying nodes by meta data categories. \verb|meta_col| should be the name of a column of 
+\verb|node_data|. 
 \begin{itemize}
 	\item Input: 
-	\item Optional input:
-	\item Output: 
+	\begin{itemize}
+		\item \verb|node_data| - dataframe of node data (including cluster number)
+		\item \verb|meta_col| - string, name of a column of \verb|node_data| to asses
+		\item \verb|clust_type| - string, options `commun' or `spect'
+	\end{itemize}
+	\item Optional input: none
+	\item Output: the percentage of each class that appears in each cluster (dataframe)
 \end{itemize}
 
 \cprotect \subsection{\verb|color_picker2|}
-
+Takes in vector r and maps to hex colors
 \begin{itemize}
 	\item Input: 
+	\begin{itemize}
+		\item \verb|r| - a 1D array or list of values to be mapped to colors
+	\end{itemize}
 	\item Optional input:
-	\item Output: 
+	\begin{itemize}
+		\item \verb|the_map| - matplotlib colormap to pull colors from, default \verb|cm.rainbow|.
+		\item \verb|weighted| - bool, whether color values should be taken according values, as opposed to evenly distributed.
+	\end{itemize}
+	\item Output: A list of colors (hex values)
 \end{itemize}
 
 \cprotect \subsection{\verb|est_prob|}
+{\bf Unclear if this function is working correctly}
 
+Use distribution factorization from random markov field to estimate the probability of
+seeing the subset of taxa in the sample. Takes in the ROW NUMBERS of the represented edges,
+along with the whole network.
 \begin{itemize}
 	\item Input: 
-	\item Optional input:
-	\item Output: 
+	\begin{itemize}
+		\item \verb|source| - list of row numbers of edges represented in the sample
+		\item \verb|induced| - list of edges such that both nodes are in sample
+		\item \verb|whole| - dataframe adjacency matrix of the network
+		\item \verb|N| - number of nodes
+	\end{itemize}
+	\item Optional input: none
+	\item Output: log probability of a sample.
 \end{itemize}
 
+We can consider the network a Markov random field \cite{machine_learning}. This can give us a way to calculate the probability a group of taxa occurs together. The main idea of a MRF is that nodes are conditionally independent of nodes they aren't neighbors of (conditioned on ones they are neighbors of). If $c$ are the (maximal) cliques of the graph (complete sub-graphs), then the probability of configuration $\b{x}$ is
+\[
+P(\b{x}) = \frac{1}{Z} \prod_{c} \psi_c (x_{c})
+\]	
+where $Z$ is a normalizing constant and $\psi_c$ are some functions, often called ``potential functions"\cite{machine_learning}.
+
 \cprotect \subsection{\verb|find_cliques|}
+find all the maximal cliques containing a given node, where network is an adjacency graph
+given as a numpy array
 
 \begin{itemize}
 	\item Input: 
-	\item Optional input:
-	\item Output: 
+	\begin{itemize}
+		\item \verb|node| - indices of the node of interest
+		\item \verb|network| - numpy array of adjacency matrix
+	\end{itemize}
+	\item Optional input: none
+	\item Output: list of maximal cliques involving the given node
 \end{itemize}
 
 \cprotect \subsection{\verb|psi_over_psi|}
+calculate ratio between $\psi(k+1)$ \& $\psi(k)$
 
 \begin{itemize}
 	\item Input: 
+		\begin{itemize}
+			\item \verb|k1|, \verb|k2| - scalar values, should be number of nodes present in the clique in sample 1 and 2
+			\item \verb|cliq| - list of nodes in a clique
+		\end{itemize}
 	\item Optional input:
-	\item Output: 
+	\begin{itemize}
+		\item \verb|rm| - scalar constant effecting formula, default $0.8$
+	\end{itemize}
+	\item Output: value of $\frac{\psi(k+1)}{\psi(k)}$ estimate
 \end{itemize}
 
 \cprotect \subsection{\verb|diff_cliques|}
-
+Take two different samples and identify which cliques are different. Then, compute the
+ratio of probabilities between the two configurations based on the rule that 
+$\frac{\psi(k+1)}{\psi(k)}$ depends on whether or not k is above or below half the size of the clique. 
 \begin{itemize}
 	\item Input: 
-	\item Optional input:
-	\item Output: 
+		\begin{itemize}
+		\item \verb|s1|, \verb|s2| - abundance samples, given as numpy 1D arrays
+		\item \verb|network| - numpy array of adjacency matrix
+	\end{itemize}
+	\item Optional input: none
+	\item Output: comparison of two samples.
 \end{itemize}
 
 \cprotect \subsection{\verb|diffusion_ivp|}
-
+Using diffusion on the graph, rank the nodes we don't know about. Solve diffusion with
+initial condition being 1 for known on nodes and -1 for known off nodes. Network should be
+the adjacency graph (probably unweighted) given as a numpy array.
+Output is list of node indices ordered by the ranking procedure, with ties grouped in sublists
 \begin{itemize}
 	\item Input: 
+	\begin{itemize}
+		\item \verb|known_on| - list of nodes considered present, can be empty
+		\item \verb|known_off| - list of nodes considered absent, can be empty
+		\item \verb|network| - numpy array of adjacency matrix
+	\end{itemize}
 	\item Optional input:
-	\item Output: 
+	\begin{itemize}
+		\item \verb|suspected| - value to give nodes not in \verb|known_on| or \verb|known_off|, default $0.5$.
+		\item \verb|non_suspected| - value to give nodes in \verb|known_off|, default $0$.
+		\item \verb|probably| - value to give nodes in \verb|known_on|, default $1$.
+		\item \verb|sample| - a sample of data covering all nodes, to use as the initial condition. Default \verb|[]|
+		\item \verb|all| - bool, whether or not to rank all the nodes as opposed to just those not in  \verb|known_on| or \verb|known_off|, default False
+	\end{itemize}
+	\item Output: list of nodes in rank order, with nodes on the same connected component grouped and ties grouped. Rank is first over equilibrium solution, and secondly over transient.
 \end{itemize}
 
 \cprotect \subsection{\verb|diffusion_bvp|}
+Using diffusion on the graph, rank the nodes we don't know about. Find equilibrium
+of solution with "boundary values" given by known node values (0,1). Network should be
+the adjacency graph (probably unweighted) given as a numpy array.
 
 \begin{itemize}
 	\item Input: 
-	\item Optional input:
-	\item Output: 
+		\begin{itemize}
+		\item \verb|known_on| - list of nodes considered present, can be empty
+		\item \verb|known_off| - list of nodes considered absent, can be empty
+		\item \verb|network| - numpy array of adjacency matrix
+	\end{itemize}
+	\item Optional input: none
+	\item Output:  list of nodes in rank order, with ties grouped.
 \end{itemize}
 
 \cprotect \subsection{\verb|diffusion_forced|}
+Using diffusion on the graph, rank the nodes we don't know about. Find equilibrium
+of solution with forcing (pm 1) on the known nodes. Network should be
+the adjacency graph (probably unweighted) given as a numpy array
 
 \begin{itemize}
 	\item Input: 
-	\item Optional input:
-	\item Output: 
+	\begin{itemize}
+		\item \verb|known_on| - list of nodes considered present, can be empty
+		\item \verb|known_off| - list of nodes considered absent, can be empty
+		\item \verb|network| - numpy array of adjacency matrix
+	\end{itemize}
+	\item Optional input: none
+	\item Output:  list of nodes in rank order, with ties grouped.
 \end{itemize}
 
-\cprotect \subsection{\verb|ivp_score|}
 
+\cprotect \subsection{\verb|ivp_score|}
+Calculate a fit score based on IVP ranking
 \begin{itemize}
 	\item Input: 
+	\begin{itemize}
+		\item \verb|network_adj| - dataframe of network adjacency matrix
+		\item \verb|the_samp| - dataframe of sample to be judged
+	\end{itemize}
 	\item Optional input:
-	\item Output: 
+	\begin{itemize}
+		\item \verb|con| - scalar constant used in score calculation.
+	\end{itemize}
+	\item Output: fit score:
+\[
+F_j(\b{s}) =\frac{1}{\|\b{s}\|} \sum_{i=0}^{n-1} c^i s_i
+\]
+where $\b{s} = (u_{j_1}(0),u_{j_2}(0),...,u_{j_n}(0))$ such that if 
+\[
+\frac{d}{dt}\b{u} = -L\b{u}
+\]
+and $U_l = \int_0^{\infty} u_l(t) dt$ then
+\[
+U_{j_1} \geq U_{j_2} \geq \cdots \geq U_{j_n}
+\]
+\end{itemize}
+
+
+\cprotect \subsection{\verb|get_sample|}
+create a random sample with the organsims in the real data. Made with the null model
+\begin{itemize}
+	\item Input: 
+	\begin{itemize}
+		\item \verb|templ| - dataframe template that the fake sample should look like
+	\end{itemize}
+	\item Optional input:
+	\begin{itemize}
+		\item \verb|numb| - number of samples to make, default 1
+	\end{itemize}
+	\item Output: dataframe of sample generated by the null model, as in \verb|make_null|
 \end{itemize}
 
 \cprotect \subsection{\verb|make_sample|}
+grab a real sample (column) from the template data. Option to choose the sample from
+a set of holdout columns that are not training data
 
 \begin{itemize}
 	\item Input: 
+	\begin{itemize}
+		\item \verb|daata|  - template data to get a column of
+	\end{itemize}
 	\item Optional input:
-	\item Output: 
+	\begin{itemize}
+		\item \verb|holdouts| - list of columns held out of the network building, one of these will be chosen if there are any, default \verb|[]|.
+	\end{itemize}
+	\item Output: chosen sample and its type. 
 \end{itemize}
 
-\cprotect \subsection{\verb|get_sample|}
-
-\begin{itemize}
-	\item Input: 
-	\item Optional input:
-	\item Output: 
-\end{itemize}
 
 \cprotect \subsection{\verb|flat_two_deep|}
+Flattens doubly nested lists to lists. Allows originals like \verb|[x,[x,x],[x,[x,x,x]]]|
 
 \begin{itemize}
 	\item Input: 
-	\item Optional input:
-	\item Output: 
+	\begin{itemize}
+		\item \verb|li| - list with entries that may be lists or lists of lists.
+	\end{itemize}
+	\item Optional input: none
+	\item Output: flattened list
 \end{itemize}
 
 \cprotect \subsection{\verb|flat_one_deep|}
-
+Flattens nested lists to lists. Allows originals like \verb|[x,[x,x],x,x,x,x]|
 \begin{itemize}
 	\item Input: 
-	\item Optional input:
-	\item Output: 
+	\begin{itemize}
+		\item \verb|li| - list with entries that may be lists.
+	\end{itemize}
+	\item Optional input: none
+	\item Output: flattened list
 \end{itemize}
 
 \cprotect \section{\verb|co_occurrence.py|}
 
+This script builds three networks at each specified taxonomic level. Those are, a network build from the binning procedure, a network built from correlation, and a network built from correlations of thresholded data.
+
+Command line input (all required):
+\begin{itemize}
+	\item \verb|csv_name| - The name of the GOTTCHA output data file. This should be a .txt or .csv with \emph{space as separation character between columns}. To change the separation character, change line 61. Uses pandas \verb|pandas.read_csv| to import the data.
+	\item \verb|level| - list of taxonomic levels to make networks for, or `all'. 
+	\item \verb|net_name| - name of a \emph{folder} that the networks will be saved in.
+	\item \verb|sample_types| - bool that specifies whether networks should be made with subsets of the data corresponding to different body locations the samples were taken from.
+	\item \verb|numhld| - the number of columns that should be removed from the data for future testing.
+\end{itemize}
+
+The GOTTCHA output data should have a column specifying taxonomic level headed ``LEVEL", and another column with taxa names headed ``TAXA". The remaining columns should be of the form ``\verb|Body_Part_gender_LLL#######|" where the gender is optional, and can be ``male", ``female', or ``NA". 
+
+The script combines abundances of samples from the same body part (referred to as the sample type) in order to classify nodes in the network according to where they are found in the highest abundance. This is saved in the pandas dataframe \verb|samp_type_abund|. 
+
+Samples can be separated by metadata to make separate networks. If \verb|sample_types| is true, then new data matrices are made, containing only samples of a single type(body location), and only types with more than 50 samples. The full array is also kept. This script can instead separate by gender, if this is in the column headings of data, by inputting \verb|sample_types| as false, and switching \verb|gender| to true (line 117). There is also the option to use some other type of metadata to create subsets of data and make networks, by setting \verb|gender| to false and \verb|other_meta| to true. Then, one must also input \verb|meta_file| file name of a file that \emph{can be parsed by pandas} \verb|read_csv|, as well as \verb|meta_column|, the name of the column of interest in the metadata. The file should be separated by spaces and the first column should be sample IDs. \emph{This last possibility has not been tested and may contain bugs}.
+
+Networks are made using \verb|build_network| and \verb|make_meta| from \verb|co_occ_funs.py|. 
+
+Networks and node data .tsv files are created. The folder specified must have subfolders ``bins" and ``pears". The bin networks will be saved in ``bins" and correlation in ``pears". with the network file (list of edges: Node, Node, Weight, Edge Data, Edge Data) saved as ``...\verb|_list.tsv|", the adjacency matrix ``...\verb|_adj.tsv|", and the node data table as ``...\verb|_node_data.tsv|". In the ``pears" folder, correlation of abundances and correlation of thresholded abundances can be distinguished by ``cor" and ``thr" respectively. If there were held out columns, a list of their indices is saved in ``...\verb|_held.tsv|". All of these files are saved as tab-separated text files using pandas \verb|to_csv|.
+
 \cprotect \section{\verb|cluster_net.py|}
+
+This script takes networks and adds to the node data table the result of two clustering algorithms. 
+
+Command line input (required):
+\begin{itemize}
+	\item \verb|folder| - The folder where the network or networks in question are saved. Networks are assumed to have been saved as by \verb|co_occurrence.py|, so adjacency matrices must end with ``adj.tsv" and node data must end with ``data.tsv".
+\end{itemize}
+
+This script will cluster \emph{all the networks in the folder}. For each network found in the file, community clustering is run using 
+\verb|com_clust|, and spectral clustering is run using \verb|spectral_cluster|, both from \verb|co_occ_funs.py|. Both of these return a list such that entry $i$ is the cluster number of node $i$.
+
+Rather than producing a new output file, this script adds columns to the existing node data table. It adds four columns - the spectral cluster, the community cluster, a color (hex value) assigned to the spectral cluster, and a color (hex value) assigned to the community cluster. These colors can be shown in cytoscape using a ``passthrough" mapping for node color.
 
 \cprotect \section{\verb|network_stats.py|}
 
+The purpose of this script is to determine the significance of the network build compared to the null model described in \verb|make_null|. 
+
+Command line input (all required)
+\begin{itemize}
+	\item \verb|csv_name| - the data file used to build the network
+	\item \verb|level| - the taxonomic level at which the network was built
+	\item \verb|sample_types| - whether or not a network was made for each sample type.
+	\item \verb|adj_name| - name of the adjacency matrix file
+	\item \verb|type| - `\verb|pears|' - correlation, '\verb|pears_thr|' -  thresholded correlation, or `\verb|binned|' - binned.
+\end{itemize}
+
+Computes the following statistics for the network given:
+\begin{itemize}
+	\item Number of edges
+	\item Mean node degree
+	\item Probability the null model produces a higher mean degree
+	\item Probability the null model produces a higher degree variance
+	\item Probability the null model produces a larger maximum eigenvalue
+	\item Probability the null model produces a larger minimum eigenvalue
+	\item Probability the null model produces more edges
+\end{itemize}
+The function \verb|mc_network_stats| from \verb|co_occ_funs.py| is used.
+
+It outputs these to a file called \verb|stats.txt| in the same folder as the network. If the file already exists, this will append to the end of it.
+
+These statistics are meant to give some indication of how expected the network would be given the null model:
+
+Let 
+\[
+N_j = |\{i: r_{ij} \neq 0\}|
+\]
+and 
+\[
+P_i = \frac{|\{j: r_{ij}\neq 0 \}|}{|\{(i,j): r_{ij}\neq 0 \}|}
+\]
+then I take 
+\[
+\hat{r}_{ij} = \mathit{binom}(N_j,P_i)
+\]
+as randomly generated abundance data. The values $N_i$ are the counts of appearances of taxi $i$, while the values $P_j$ are the proportions of all appearances which happen within each sample. 
+
+Then, I construct our random graph from this random data. If $\hat{\b{r}}_i$ is the vector of random ``abundances" of taxa $i$, I have edges
+\[
+w_{ik}^{null} = \frac{1}{N}\frac{(\b{\hat{\b{r}}_i}- \hat{\mu}_i\b{1}) \cdot (\hat{\b{r}}_k - \hat{\mu}_k\b{1})}{\hat{\sigma}_i \hat{\sigma}_k}
+\]
+
 \cprotect \section{\verb|falsepm.py|}
 
-\cprotect \section{\verb|sample_analysis.py|}
+This script is used for verification of the methods. It attempts to measure how well the network fitting procedure works, and how whether or not the ranking procedure can identify false negatives in a sample.
 
-\cprotect \section{\verb|examples.py|}
+Command line input (all required):
+\begin{itemize}
+	\item \verb|abund_name| - the name to the original array used to construct the networks
+	\item \verb|folder| - the folder all the networks are stored in.
+\end{itemize}
 
-\cprotect \section{\verb|adding_data.py|}
+The folder should have networks made from all of the data as well as subsets by sample type (body location) - adjacency matrices saved as files ending with ``adj.tsv". It should also have at least one file saved ending in ``held.tsv" listing the nodes that were held out of network making. 
 
-\cprotect \section{\verb|mc_speed.py|}
+The held out nodes are all tested for fit to the full network as well as fit to each of the networks made from subsets of the data, using \verb|ivp_scores| from \verb|co_occ_funs.py|. Then, each of the 30 highest abundance entries are set to 0 from the sample (one at a time) and the rank of the node is found using \verb|diffusion_ivp|. We record this rank (minus the number of non-zero nodes). 
 
-\cprotect \section{\verb|add_gender.py|}
+Next, random samples are generate (equal in number to the number of hold outs) and tested for fit to the whole network. 
 
-\cprotect \section{\verb|cleanup.py|}
-
-\cprotect \section{\verb|color_key.py|}
-
-\cprotect \section{\verb|funct_tests.py|}
-
-\cprotect \section{\verb|rand_samp.py|}
+Finally, this script produces the following plots, saved in a subfolder ``\verb|validation_plots|":
+\begin{itemize}
+	\item histogram of fit scores to the full (correlation) network of the holdouts and the randomly generated samples
+	\item histogram of fit scores to the full (thresholded) network of the holdouts and the randomly generated samples
+	\item A bar chart of the proportion of samples of each type that were correctly classified (by the best fit score)
+	\item Bar charts of the proportion of classification of the samples of each type
+	\item scatter plot of abundance rank vs diffusion rank (after abundance is set to 0)
+\end{itemize}
 
 \cprotect \section{\verb|net_making.sh|}
 
+This script creates a folder and networks (\verb|co_occurrence.py|) at the genus and species level using the data in \verb|merged2.txt|. It also runs clustering on these networks (\verb|cluster_net.py|), computes network significance statistics (\verb|network_stats.py|). Finally, it runs method validation (\verb|falsepm.py|).
+
+\cprotect \section{\verb|rand_samp.py|}
+
+This script creates modified samples for method validation with \verb|sample_analysis.py|.
+
+Command line input (all required):
+\begin{itemize}
+	\item \verb|template_name| - file name of data used to create network, or similar
+	\item \verb|level| - taxonomic level the sample should ``look like"
+	\item \verb|flder| - folder the sample should be saved in
+	\item \verb|cols_not_used| - numbers of the columns held out of network building.
+\end{itemize}
+
+Takes a column of the data (possibly a hold-out column) used to the create the full network. Creates a dataframe with the column's abundances, and a bool column of whether or not the abundance is nonzero. Optionally can modify the sample, and creates two columns of bools whether or not the abundance has been artificially set to 0 or artificially set to non-zero.
+
+Additionally, if \verb|rand_samp| is true, creates a sample from the null model and does the same to it. 
+
+Saves the sample or samples as .tsv files.
+
+
+\cprotect \section{\verb|sample_analysis.py|}
+
+Runs the diffusion procedures on a given sample.
+
+Command line input (all required):
+\begin{itemize}
+	\item \verb|sample_name| - filename of sample - should be able to be interpreted by pandas \verb|read_csv|.
+	\item \verb|node_atts_name| - the filename of the node attribute table of the network to be used
+	\item \verb|cocc_mat_name| - name of adjacency matrix file.
+	\item \verb|level| - taxonomic level of the network
+\end{itemize}
+
+This script ranks the nodes but all three possible diffusion rankings, \verb|diffusion_ivp|, \verb|diffustion_bdvp|, and \verb|diffusion_forced|. It also assigns colors to these ranks. It saves the sample with abundances, non-zero nodes identified, rankings, and colors in a .tsv that can be imported into cytoscape as a node table. 
+
 \cprotect \section{\verb|sample_test.sh|}
+
+Script that makes folders for samples, creates samples using \verb|rand_samp.py|, and runs \verb|sample_analysis.py| on these samples.
+
+\cprotect \section{\verb|examples.py|}
+
+Script to create some examples. If 
+
+Command line input (only if \verb|tiny| is false):
+\begin{itemize}
+	\item \verb|sample_name| - file output from \verb|sample_analysis.py|
+\end{itemize}
+
+If tiny is true, runs \verb|diffusion_ivp| on three small toy networks. Then, computes their fit score. Finally, it plots abundance vs rank and displays the fit score.
+
+If tiny is false, it takes a sample that has rankings associated with it already, computes the fit score, and plots abundance vs fit score and displays fit score. It also tries to classify the sample by the clusters of the network, and which clusters the highest rank nodes appear in.
+
+\cprotect \section{\verb|adding_data.py|}
+
+Script to build networks using growing subsets of the data. 
+
+Command line input (all required):
+\begin{itemize}
+	\item \verb|csv_name| - the GOTTCHA output data array
+	\item \verb|level| - the taxonomic level to be tested
+	\item \verb|sample_types| - whether or not the data should be separated by sample types (body locations).
+\end{itemize}
+
+Builds a network and, if \verb|monte| is true, runs \verb|mc_network_stats| using random subset of the data, increasing in size. Creates plots of how number of edges, mean degree, and if \verb|monte| is true, the stats computed by \verb|mc_network_stats| change as data is added.
+
+\cprotect \section{\verb|mc_speed.py|}
+
+A script to test how the length of time it takes to build a network and run \verb|mc_network_stats| takes as data is added.
+
+Command line input (required):
+\begin{itemize}
+	\item \verb|csv_name| - the GOTTCHA output data
+\end{itemize}
+
+Script is similar to \verb|adding_data.py|, except that it repeats the process. Rather than saving the stats, it saves the length of time it takes to build and compute the stats of each network. It plots how time increases as data is added.
+
+
 
 \bibliographystyle{plain}
 \bibliography{../../../summer17}

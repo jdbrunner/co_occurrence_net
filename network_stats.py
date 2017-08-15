@@ -89,6 +89,8 @@ if __name__ == '__main__':
 		elif 'male' in diff_samps_types[sty]:
 			diff_samps_types[sty] = diff_samps_types[sty][:-5]
 	diff_samps_types = unique(diff_samps_types)
+	
+
 
 	ab_arrays = [abundance_array_full]	
 	if sample_types:

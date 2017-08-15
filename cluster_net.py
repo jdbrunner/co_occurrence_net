@@ -42,7 +42,7 @@ if __name__ == '__main__':
 
 
 	for that_net in range(numnets):
-		node_data = pd.read_csv(folder + '/' + node_table[that_net], sep = '\t')
+		node_data = pd.read_csv(folder + '/' + node_table[that_net], sep = '\t') 
 		if node_data.columns[1] != 'empty':
 			node_data.index = node_data['TAXA']
 			network_mat = pd.read_csv(folder + '/' + matrices[that_net],sep = "\t")

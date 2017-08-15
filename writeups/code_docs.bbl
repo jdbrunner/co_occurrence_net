@@ -1,3 +1,34 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
+
+\bibitem{PhysRevE.70.066111}
+Aaron Clauset, M.~E.~J. Newman, and Cristopher Moore.
+\newblock Finding community structure in very large networks.
+\newblock {\em Phys. Rev. E}, 70:066111, Dec 2004.
+
+\bibitem{dgraph_theory}
+Reinhard Diestel.
+\newblock {\em Graph Theory}, volume 173 of {\em Graduate Texts in
+  Mathematics}.
+\newblock Springer, 2 edition, 2000.
+
+\bibitem{machine_learning}
+Kevin~P. Murphy.
+\newblock {\em Machine Learning: A Probabilistic Perspective}.
+\newblock The MIT Press, 2012.
+
+\bibitem{coocc}
+Heiko Müller and Francesco Mancuso.
+\newblock Identification and analysis of co-occurrence networks with netcutter.
+\newblock {\em PLOS ONE}, 3(9):1--16, 09 2008.
+
+\bibitem{PhysRevE.70.056131}
+M.~E.~J. Newman.
+\newblock Analysis of weighted networks.
+\newblock {\em Phys. Rev. E}, 70:056131, Nov 2004.
+
+\bibitem{vonLuxburg2007}
+Ulrike von Luxburg.
+\newblock A tutorial on spectral clustering.
+\newblock {\em Statistics and Computing}, 17(4):395--416, 2007.
 
 \end{thebibliography}

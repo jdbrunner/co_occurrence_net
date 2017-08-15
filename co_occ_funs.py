@@ -523,6 +523,7 @@ def mc_network_stats(abdata, network, thr = False, bins = False, sims = 1000):
 	return [mean_deg_p, var_dg_p, max_eval_p, min_eval_p, num_edges_p]
 
 def sim_pears(N,P):
+	'''Construct a MC draw simulating correlation'''
 	#construct a random adjacency graph
 	the_rand_mat = bino(N,P)#RANDOM SAMPLE DATA
 	the_rand_mat = the_rand_mat[where(sum(the_rand_mat,axis = 1)>0)] 
@@ -557,6 +558,7 @@ def sim_pears(N,P):
 	return [sim_mean_deg,sim_var_deg,sim_min_ev,sim_max_ev,num_edges_sims]
 
 def sim_pears_thr(N,P):
+	'''Construct a MC draw simulating thresholded correlation'''
 	#construct a random adjacency graph
 	the_rand_mat = bino(N,P)#RANDOM SAMPLE DATA
 	the_rand_mat = the_rand_mat[where(sum(the_rand_mat,axis = 1)>0)] 
@@ -594,7 +596,8 @@ def sim_pears_thr(N,P):
 		num_edges_sims = 0
 	return [sim_mean_deg,sim_var_deg,sim_min_ev,sim_max_ev,num_edges_sims]
 
-def sim_bins(N,P, num_sims = 1000):
+def sim_bins(N,P):
+	'''Construct a MC draw simulating binning'''
 	#construct a random adjacency graph
 	the_rand_mat = bino(N,P)#RANDOM SAMPLE DATA
 	the_rand_mat = the_rand_mat[where(sum(the_rand_mat,axis = 1)>0)]
@@ -630,12 +633,6 @@ def edge_prob(network):
 	return p
 	
 
-#
-def nodes_in_sub(network,type):
-	'''count the nodes of a type'''
-	nodes = network.iloc[where(network['first_sample']==type)]
-	num_nodes = len(unique(nodes['source']))
-	return num_nodes
 
 ###
 def random_sub_graph(network,types, p = 0.5):
@@ -710,29 +707,29 @@ def exp_cut_edges(network, types, p = 0.5, between = True):
 #	- This will give an idea about the strength of intertype nodes - because they will
 #		always be the ones cut. Also allows us to group types (i.e. gums with cheek)
 
-def cut_cond(network,types):
-	'''Calculate conductance of cuts that cut out a type or set of types'''
-	###Isolate relevant edges (get their integer index)
-	sub_edges = where([type in types for type in network['first_sample']])
-	##Pick out edges to be cut - this is the index in rel_edges of their index in network (woof) 
-	cut_edges = where([type not in types for type in network['second_sample'].iloc[sub_edges]])
-	edges_to_be_cut = network.iloc[sub_edges[0][cut_edges]]
-	#
-	sub_only_edges_loc =  where([type in types for type in network['second_sample'].iloc[sub_edges]])
-	sub_only_edges = network.iloc[sub_edges[0][sub_only_edges_loc]]
-	#
-	non_sub_edges_pre =  where([type not in types for type in network['first_sample']])
-	non_sub_edges_loc =  where([type not in types for type in network['second_sample'].iloc[non_sub_edges_pre]])
-	non_sub_edges = network.iloc[non_sub_edges_pre[0][non_sub_edges_loc]]
-	#
-	cut_cond_num = sum(edges_to_be_cut['weight'])
-	a_non_sub = sum(non_sub_edges['weight'])
-	a_sub = sum(sub_only_edges['weight'])
-	cut_cond_den = min(a_non_sub, a_sub)
-	if cut_cond_den != 0:
-		return float(cut_cond_num)/float(cut_cond_den)
-	else:
-		return 'Empty Cut'
+# def cut_cond(network,types):
+# 	'''Calculate conductance of cuts that cut out a type or set of types'''
+# 	###Isolate relevant edges (get their integer index)
+# 	sub_edges = where([type in types for type in network['first_sample']])
+# 	##Pick out edges to be cut - this is the index in rel_edges of their index in network (woof) 
+# 	cut_edges = where([type not in types for type in network['second_sample'].iloc[sub_edges]])
+# 	edges_to_be_cut = network.iloc[sub_edges[0][cut_edges]]
+# 	#
+# 	sub_only_edges_loc =  where([type in types for type in network['second_sample'].iloc[sub_edges]])
+# 	sub_only_edges = network.iloc[sub_edges[0][sub_only_edges_loc]]
+# 	#
+# 	non_sub_edges_pre =  where([type not in types for type in network['first_sample']])
+# 	non_sub_edges_loc =  where([type not in types for type in network['second_sample'].iloc[non_sub_edges_pre]])
+# 	non_sub_edges = network.iloc[non_sub_edges_pre[0][non_sub_edges_loc]]
+# 	#
+# 	cut_cond_num = sum(edges_to_be_cut['weight'])
+# 	a_non_sub = sum(non_sub_edges['weight'])
+# 	a_sub = sum(sub_only_edges['weight'])
+# 	cut_cond_den = min(a_non_sub, a_sub)
+# 	if cut_cond_den != 0:
+# 		return float(cut_cond_num)/float(cut_cond_den)
+# 	else:
+# 		return 'Empty Cut'
 	
 	
 ############# Clustering #######################################
@@ -1136,6 +1133,7 @@ def diffusion_forced(known_on,known_off, network):
 		return [ranked,real(requib)]
 		
 def ivp_score(network_adj, the_samp, con = 0.2):
+	'''Calculate a fit score based on IVP ranking'''
 	samp_tot = sum(the_samp.values)
 	if samp_tot > 0:
 		ranking1 = diffusion_ivp([],[], network_adj.values[:,1:], sample = the_samp.values, all = True)[0]

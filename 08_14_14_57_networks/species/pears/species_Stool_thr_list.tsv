@@ -1,0 +1,160 @@
+source	target	weight	edge_sample	edge_color
+Afipia broomeae	Acidovorax delafieldii	1.0	Anterior_nares	#8000ff
+Alistipes onderdonkii	Alistipes finegoldii	0.866795764716	Stool	#ded579
+Alistipes senegalensis	Alistipes finegoldii	0.822994116549	Stool	#ded579
+Alistipes senegalensis	Alistipes onderdonkii	0.806994390999	Stool	#ded579
+Alistipes timonensis	Alistipes senegalensis	0.816920845223	Stool	#ded579
+Alkaliflexus imshenetskii	Actinotignum schaalii	1.0	Mixed	#cccccc
+Bradyrhizobium sp. BTAi1	Acidovorax delafieldii	1.0	Mixed	#cccccc
+Bradyrhizobium sp. BTAi1	Afipia broomeae	1.0	Mixed	#cccccc
+Candidatus Saccharibacteria oral taxon TM7x	Actinomyces graevenitzii	0.893170089618	Mixed	#cccccc
+[Clostridium] litorale	Acetobacterium dehalogenans	1.0	Stool	#ded579
+Clostridium sp. 7_2_43FAA	Clostridium sartagoforme	1.0	Stool	#ded579
+Clostridium sp. C8	Clostridium sartagoforme	1.0	Stool	#ded579
+Clostridium sp. C8	Clostridium sp. 7_2_43FAA	1.0	Stool	#ded579
+Collinsella sp. 4_8_47FAA	Collinsella aerofaciens	0.900773700545	Stool	#ded579
+Desulfotomaculum nigrificans	Clostridium sartagoforme	1.0	Stool	#ded579
+Desulfotomaculum nigrificans	Clostridium sp. 7_2_43FAA	1.0	Stool	#ded579
+Desulfotomaculum nigrificans	Clostridium sp. C8	1.0	Stool	#ded579
+Desulfovibrio sp. 6_1_46AFAA	Desulfovibrio sp. 3_1_syn3	0.851427252772	Stool	#ded579
+Dorea sp. D27	Anaerococcus lactolyticus	0.815355425121	Mixed	#cccccc
+Eggerthella sp. 1_3_56FAA	Dialister micraerophilus	0.815355425121	Mixed	#cccccc
+Enterobacter cloacae	Citrobacter koseri	1.0	Mixed	#cccccc
+Enterobacteriaceae bacterium strain FGI 57	Buttiauxella agrestis	1.0	Stool	#ded579
+Enterococcus columbae	Eggerthia catenaformis	1.0	Mixed	#cccccc
+Erwinia tracheiphila	Candidatus Hamiltonella defensa	1.0	Stool	#ded579
+Escherichia albertii	Buttiauxella agrestis	1.0	Stool	#ded579
+Escherichia albertii	Enterobacteriaceae bacterium strain FGI 57	1.0	Stool	#ded579
+Escherichia fergusonii	Citrobacter koseri	1.0	Stool	#ded579
+Escherichia fergusonii	Enterobacter cloacae	1.0	Mixed	#cccccc
+[Eubacterium] infirmum	Anaerococcus lactolyticus	1.0	Mixed	#cccccc
+[Eubacterium] infirmum	Dorea sp. D27	0.815355425121	Mixed	#cccccc
+Fermentimonas caenicola	Citrobacter koseri	1.0	Mixed	#cccccc
+Fermentimonas caenicola	Enterobacter cloacae	1.0	Mixed	#cccccc
+Fermentimonas caenicola	Escherichia fergusonii	1.0	Mixed	#cccccc
+Fibrella aestuarina	Actinomyces graevenitzii	0.864811632475	Mixed	#cccccc
+Fusobacterium varium	Acidaminococcus sp. D21	1.0	Mixed	#cccccc
+Gardnerella vaginalis	Anaerococcus lactolyticus	1.0	Mixed	#cccccc
+Gardnerella vaginalis	Dorea sp. D27	0.815355425121	Mixed	#cccccc
+Gardnerella vaginalis	[Eubacterium] infirmum	1.0	Mixed	#cccccc
+Gemella morbillorum	Clostridium sartagoforme	1.0	Mixed	#cccccc
+Gemella morbillorum	Clostridium sp. 7_2_43FAA	1.0	Mixed	#cccccc
+Gemella morbillorum	Clostridium sp. C8	1.0	Mixed	#cccccc
+Gemella morbillorum	Desulfotomaculum nigrificans	1.0	Mixed	#cccccc
+Haemophilus haemolyticus	Candidatus Hamiltonella defensa	1.0	Mixed	#cccccc
+Haemophilus haemolyticus	Erwinia tracheiphila	1.0	Mixed	#cccccc
+Intestinibacter bartlettii	Clostridium sp. 1_1_41A1FAA	0.814199820876	Stool	#ded579
+Klebsiella sp. 4_1_44FAA	Acidaminococcus sp. D21	1.0	Stool	#ded579
+Klebsiella sp. 4_1_44FAA	Fusobacterium varium	1.0	Mixed	#cccccc
+Kluyvera cryocrescens	Citrobacter koseri	1.0	Mixed	#cccccc
+Kluyvera cryocrescens	Enterobacter cloacae	1.0	Mixed	#cccccc
+Kluyvera cryocrescens	Escherichia fergusonii	1.0	Mixed	#cccccc
+Kluyvera cryocrescens	Fermentimonas caenicola	1.0	Mixed	#cccccc
+Lachnoclostridium phytofermentans	Butyrivibrio fibrisolvens	0.842770175918	Mixed	#cccccc
+Lachnospiraceae bacterium 3-2	Ethanoligenens harbinense	1.0	Stool	#ded579
+Lachnospiraceae bacterium 5_1_57FAA	Halalkalibacillus halophilus	0.815355425121	Stool	#ded579
+Lachnospiraceae bacterium AC2014	Butyrivibrio fibrisolvens	0.83309722812	Mixed	#cccccc
+Lachnospiraceae bacterium AC2029	Butyrivibrio sp. FCS014	0.815355425121	Stool	#ded579
+Lachnospiraceae bacterium AC2029	Desulfitobacterium hafniense	0.864811632475	Stool	#ded579
+Lachnospiraceae bacterium AC2029	Enterorhabdus caecimuris	0.864811632475	Stool	#ded579
+Lachnospiraceae bacterium AC3007	Butyrivibrio sp. MC2021	1.0	Stool	#ded579
+Lachnospiraceae bacterium ND2006	Ethanoligenens harbinense	1.0	Mixed	#cccccc
+Lachnospiraceae bacterium ND2006	Lachnospiraceae bacterium 3-2	1.0	Mixed	#cccccc
+Lachnospiraceae bacterium oral taxon 500	Actinomyces graevenitzii	1.0	Mixed	#cccccc
+Lachnospiraceae bacterium oral taxon 500	Candidatus Saccharibacteria oral taxon TM7x	0.893170089618	Mixed	#cccccc
+Lachnospiraceae bacterium oral taxon 500	Fibrella aestuarina	0.864811632475	Mixed	#cccccc
+Lachnospiraceae bacterium P6B14	Eubacterium sp. 14-2	0.893170089618	Stool	#ded579
+Lachnospiraceae bacterium P6B14	Lachnoclostridium phytofermentans	0.893170089618	Stool	#ded579
+Lachnospiraceae bacterium TWA4	Butyrivibrio sp. FCS014	0.815355425121	Stool	#ded579
+Lachnospiraceae bacterium TWA4	Desulfitobacterium hafniense	0.864811632475	Stool	#ded579
+Lachnospiraceae bacterium TWA4	Lachnospiraceae bacterium FE2018	0.815355425121	Mixed	#cccccc
+Lachnospiraceae bacterium V9D3004	Dorea sp. D27	0.864811632475	Stool	#ded579
+Leuconostoc mesenteroides	Clostridium dakarense	1.0	Mixed	#cccccc
+Marinilabilia salmonicolor	Candidatus Hamiltonella defensa	1.0	Mixed	#cccccc
+Marinilabilia salmonicolor	Erwinia tracheiphila	1.0	Mixed	#cccccc
+Marinilabilia salmonicolor	Haemophilus haemolyticus	1.0	Mixed	#cccccc
+Megamonas hypermegale	Bifidobacterium ruminantium	0.863575539177	Stool	#ded579
+Megamonas rupellensis	Megamonas funiformis	0.869419823189	Stool	#ded579
+Megasphaera sp. DJF_B143	Megasphaera elsdenii	1.0	Stool	#ded579
+Mitsuokella jalaludinii	Megasphaera elsdenii	0.851757122705	Stool	#ded579
+Mitsuokella jalaludinii	Megasphaera sp. DJF_B143	0.851757122705	Stool	#ded579
+Mitsuokella multacida	Bifidobacterium angulatum	0.831132169595	Stool	#ded579
+Mitsuokella multacida	Megasphaera elsdenii	0.895969497931	Stool	#ded579
+Mitsuokella multacida	Megasphaera sp. DJF_B143	0.895969497931	Stool	#ded579
+Mobiluncus curtisii	Atopobium vaginae	1.0	Posterior_fornix	#7effb5
+Mobiluncus mulieris	Atopobium vaginae	1.0	Mixed	#cccccc
+Mobiluncus mulieris	Mobiluncus curtisii	1.0	Mixed	#cccccc
+Neisseria sp. KH1503	Acetobacterium dehalogenans	1.0	Mixed	#cccccc
+Neisseria sp. KH1503	[Clostridium] litorale	1.0	Mixed	#cccccc
+Novosphingobium nitrogenifigens	Acidovorax delafieldii	1.0	Anterior_nares	#8000ff
+Novosphingobium nitrogenifigens	Afipia broomeae	1.0	Anterior_nares	#8000ff
+Novosphingobium nitrogenifigens	Bradyrhizobium sp. BTAi1	1.0	Mixed	#cccccc
+Paludibacter propionicigenes	Paenibacillus stellifer	1.0	Stool	#ded579
+Parasutterella excrementihominis	Burkholderiales bacterium 1_1_47	0.943879807449	Stool	#ded579
+Parvimonas micra	Enterococcus dispar	1.0	Mixed	#cccccc
+Peptoniphilus grossensis	Dialister micraerophilus	0.815355425121	Mixed	#cccccc
+Peptoniphilus grossensis	Finegoldia magna	0.864811632475	R_Retroauricular_crease	#9efaa2
+Peptostreptococcaceae bacterium VA2	Clostridium dakarense	1.0	Stool	#ded579
+Peptostreptococcaceae bacterium VA2	Leuconostoc mesenteroides	1.0	Mixed	#cccccc
+Polaromonas sp. JS666	Acidovorax delafieldii	1.0	Anterior_nares	#8000ff
+Polaromonas sp. JS666	Afipia broomeae	1.0	Anterior_nares	#8000ff
+Polaromonas sp. JS666	Bradyrhizobium sp. BTAi1	1.0	Mixed	#cccccc
+Polaromonas sp. JS666	Novosphingobium nitrogenifigens	1.0	Anterior_nares	#8000ff
+Pontibacter roseus	Fibrella aestuarina	0.815355425121	Mixed	#cccccc
+Porphyromonas gulae	Dialister micraerophilus	1.0	Mixed	#cccccc
+Porphyromonas gulae	Eggerthella sp. 1_3_56FAA	0.815355425121	Mixed	#cccccc
+Porphyromonas gulae	Peptoniphilus grossensis	0.815355425121	R_Retroauricular_crease	#9efaa2
+Prevotella histicola	Idiomarina zobellii	0.814199820876	Mixed	#cccccc
+Prevotella paludivivens	Prevotella oris	0.866143374737	Mixed	#cccccc
+Prolixibacter bellariivorans	Ornithobacterium rhinotracheale	1.0	Mixed	#cccccc
+Pseudobutyrivibrio ruminis	Enterorhabdus caecimuris	1.0	Stool	#ded579
+Pseudobutyrivibrio ruminis	Lachnospiraceae bacterium AC2029	0.864811632475	Stool	#ded579
+Pseudobutyrivibrio sp. MD2005	Anaerovibrio lipolyticus	1.0	Stool	#ded579
+Pyramidobacter piscolens	Hallella seregens	0.81298941537	Mixed	#cccccc
+Pyramidobacter piscolens	Megasphaera elsdenii	0.829080120776	Stool	#ded579
+Pyramidobacter piscolens	Megasphaera sp. DJF_B143	0.829080120776	Stool	#ded579
+Pyramidobacter piscolens	Mitsuokella multacida	0.926087067844	Stool	#ded579
+Roseburia inulinivorans	[Eubacterium] eligens	0.808879369206	Stool	#ded579
+Sanguibacteroides sp. GM7	Acetobacterium dehalogenans	1.0	Stool	#ded579
+Sanguibacteroides sp. GM7	[Clostridium] litorale	1.0	Stool	#ded579
+Sanguibacteroides sp. GM7	Neisseria sp. KH1503	1.0	Mixed	#cccccc
+Shigella flexneri	Citrobacter koseri	1.0	Stool	#ded579
+Shigella flexneri	Enterobacter cloacae	1.0	Mixed	#cccccc
+Shigella flexneri	Escherichia fergusonii	1.0	Stool	#ded579
+Shigella flexneri	Fermentimonas caenicola	1.0	Mixed	#cccccc
+Shigella flexneri	Kluyvera cryocrescens	1.0	Mixed	#cccccc
+Sinorhizobium sp. GL28	Cellulomonas carbonis	0.903314392269	Stool	#ded579
+Sphingomonas sp. Ant H11	Anaerococcus lactolyticus	1.0	Mixed	#cccccc
+Sphingomonas sp. Ant H11	Dorea sp. D27	0.815355425121	Mixed	#cccccc
+Sphingomonas sp. Ant H11	[Eubacterium] infirmum	1.0	Mixed	#cccccc
+Sphingomonas sp. Ant H11	Gardnerella vaginalis	1.0	Mixed	#cccccc
+Streptococcus agalactiae	Desulfitobacterium hafniense	0.893170089618	Mixed	#cccccc
+Streptococcus agalactiae	Enterorhabdus caecimuris	0.893170089618	Mixed	#cccccc
+Streptococcus agalactiae	Pseudobutyrivibrio ruminis	0.893170089618	Mixed	#cccccc
+Streptococcus gallolyticus	Anaerococcus lactolyticus	1.0	Mixed	#cccccc
+Streptococcus gallolyticus	Dorea sp. D27	0.815355425121	Mixed	#cccccc
+Streptococcus gallolyticus	[Eubacterium] infirmum	1.0	Mixed	#cccccc
+Streptococcus gallolyticus	Gardnerella vaginalis	1.0	Mixed	#cccccc
+Streptococcus gallolyticus	Sphingomonas sp. Ant H11	1.0	Mixed	#cccccc
+Succinispira mobilis	Candidatus Stoquefichus sp. SB1	0.815355425121	Stool	#ded579
+Terrisporobacter othiniensis	Clostridium dakarense	1.0	Stool	#ded579
+Terrisporobacter othiniensis	Leuconostoc mesenteroides	1.0	Mixed	#cccccc
+Terrisporobacter othiniensis	Peptostreptococcaceae bacterium VA2	1.0	Stool	#ded579
+Turicibacter sanguinis	Clostridium dakarense	1.0	Stool	#ded579
+Turicibacter sanguinis	Leuconostoc mesenteroides	1.0	Mixed	#cccccc
+Turicibacter sanguinis	Peptostreptococcaceae bacterium VA2	1.0	Stool	#ded579
+Turicibacter sanguinis	Terrisporobacter othiniensis	1.0	Stool	#ded579
+Turicibacter sp. HGF1	Clostridium dakarense	1.0	Stool	#ded579
+Turicibacter sp. HGF1	Leuconostoc mesenteroides	1.0	Mixed	#cccccc
+Turicibacter sp. HGF1	Peptostreptococcaceae bacterium VA2	1.0	Stool	#ded579
+Turicibacter sp. HGF1	Terrisporobacter othiniensis	1.0	Stool	#ded579
+Turicibacter sp. HGF1	Turicibacter sanguinis	1.0	Stool	#ded579
+Varibaculum cambriense	Anaerococcus lactolyticus	1.0	Mixed	#cccccc
+Varibaculum cambriense	Dorea sp. D27	0.815355425121	Mixed	#cccccc
+Varibaculum cambriense	[Eubacterium] infirmum	1.0	Mixed	#cccccc
+Varibaculum cambriense	Gardnerella vaginalis	1.0	Mixed	#cccccc
+Varibaculum cambriense	Sphingomonas sp. Ant H11	1.0	Mixed	#cccccc
+Varibaculum cambriense	Streptococcus gallolyticus	1.0	Mixed	#cccccc
+Veillonella montpellierensis	Pedobacter kyungheensis	1.0	Mixed	#cccccc
+Veillonella seminalis	Clostridium neonatale	1.0	Mixed	#cccccc
+Veillonella sp. 6_1_27	Veillonella sp. 3_1_44	1.0	Mixed	#cccccc

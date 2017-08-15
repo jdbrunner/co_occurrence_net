@@ -1,0 +1,70 @@
+pears: genus Anterior_nares_
+Number of Edges, Mean Degree, Mean Degree Prob., Degree Variance Prob., Max Eigenvalue Prob., Min Eigenvalue Prob., Number of Edges Prob.
+[355.0, 2.8594341144883542, 1.0, 1.0, 1.0, 0.0, 1.0]
+All probabilities are probability that random is as high as observed
+
+pears: genus Buccal_mucosa_
+Number of Edges, Mean Degree, Mean Degree Prob., Degree Variance Prob., Max Eigenvalue Prob., Min Eigenvalue Prob., Number of Edges Prob.
+[604.0, 7.0521394313472294, 0.0, 0.08, 0.0, 1.0, 0.0]
+All probabilities are probability that random is as high as observed
+
+pears: genus Full_
+Number of Edges, Mean Degree, Mean Degree Prob., Degree Variance Prob., Max Eigenvalue Prob., Min Eigenvalue Prob., Number of Edges Prob.
+[300.0, 2.841395767692191, 1.0, 1.0, 1.0, 0.0, 1.0]
+All probabilities are probability that random is as high as observed
+
+pears: genus Posterior_fornix_
+Number of Edges, Mean Degree, Mean Degree Prob., Degree Variance Prob., Max Eigenvalue Prob., Min Eigenvalue Prob., Number of Edges Prob.
+[412.0, 5.9723386986305975, 0.0, 0.0, 0.0, 0.99, 0.0]
+All probabilities are probability that random is as high as observed
+
+pears: genus Stool_
+Number of Edges, Mean Degree, Mean Degree Prob., Degree Variance Prob., Max Eigenvalue Prob., Min Eigenvalue Prob., Number of Edges Prob.
+[138.0, 3.0487931077977786, 1.0, 1.0, 1.0, 1.0, 1.0]
+All probabilities are probability that random is as high as observed
+
+pears: genus Supragingival_plaque_
+Number of Edges, Mean Degree, Mean Degree Prob., Degree Variance Prob., Max Eigenvalue Prob., Min Eigenvalue Prob., Number of Edges Prob.
+[168.0, 5.411730748687221, 0.0, 0.54, 0.0, 1.0, 1.0]
+All probabilities are probability that random is as high as observed
+
+pears: genus Tongue_dorsum_
+Number of Edges, Mean Degree, Mean Degree Prob., Degree Variance Prob., Max Eigenvalue Prob., Min Eigenvalue Prob., Number of Edges Prob.
+[99.0, 3.6989721248984933, 0.0, 0.0, 0.0, 1.0, 0.0]
+All probabilities are probability that random is as high as observed
+
+pears_thr: genus Anterior_nares_
+Number of Edges, Mean Degree, Mean Degree Prob., Degree Variance Prob., Max Eigenvalue Prob., Min Eigenvalue Prob., Number of Edges Prob.
+[99.0, 2.1531162552889995, 0.0, 0.0, 0.0, 1.0, 1.0]
+All probabilities are probability that random is as high as observed
+
+pears_thr: genus Buccal_mucosa_
+Number of Edges, Mean Degree, Mean Degree Prob., Degree Variance Prob., Max Eigenvalue Prob., Min Eigenvalue Prob., Number of Edges Prob.
+[160.0, 3.7454211288367674, 1.0, 1.0, 1.0, 0.15, 1.0]
+All probabilities are probability that random is as high as observed
+
+pears_thr: genus Full_
+Number of Edges, Mean Degree, Mean Degree Prob., Degree Variance Prob., Max Eigenvalue Prob., Min Eigenvalue Prob., Number of Edges Prob.
+[96.0, 2.3842237346347614, 1.0, 1.0, 0.0, 0.01, 1.0]
+All probabilities are probability that random is as high as observed
+
+pears_thr: genus Posterior_fornix_
+Number of Edges, Mean Degree, Mean Degree Prob., Degree Variance Prob., Max Eigenvalue Prob., Min Eigenvalue Prob., Number of Edges Prob.
+[125.0, 3.8515422905120222, 0.0, 0.0, 0.0, 1.0, 0.0]
+All probabilities are probability that random is as high as observed
+
+pears_thr: genus Stool_
+Number of Edges, Mean Degree, Mean Degree Prob., Degree Variance Prob., Max Eigenvalue Prob., Min Eigenvalue Prob., Number of Edges Prob.
+[62.0, 2.233089670415592, 0.98, 1.0, 0.98, 1.0, 1.0]
+All probabilities are probability that random is as high as observed
+
+pears_thr: genus Supragingival_plaque_
+Number of Edges, Mean Degree, Mean Degree Prob., Degree Variance Prob., Max Eigenvalue Prob., Min Eigenvalue Prob., Number of Edges Prob.
+[49.0, 2.7425335966228852, 0.0, 0.0, 0.0, 1.0, 0.0]
+All probabilities are probability that random is as high as observed
+
+pears_thr: genus Tongue_dorsum_
+Number of Edges, Mean Degree, Mean Degree Prob., Degree Variance Prob., Max Eigenvalue Prob., Min Eigenvalue Prob., Number of Edges Prob.
+[21.0, 1.6668658115767043, 0.0, 0.0, 0.0, 1.0, 1.0]
+All probabilities are probability that random is as high as observed
+

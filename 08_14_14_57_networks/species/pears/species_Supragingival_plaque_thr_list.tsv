@@ -1,0 +1,631 @@
+source	target	weight	edge_sample	edge_color
+Actinomyces sp. HPA0247	Acinetobacter baumannii	0.814977516206	Mixed	#cccccc
+Actinomyces sp. ICM58	Actinomyces sp. HPA0247	0.814977516206	Tongue_dorsum	#ff3219
+Actinomyces sp. oral taxon 414	Actinomyces dentalis	0.895923814606	Subgingival_plaque	#feb562
+Actinomyces sp. ph3	Actinomyces sp. oral taxon 181	0.862751193938	Tongue_dorsum	#ff3219
+Alistipes obesi	Alistipes finegoldii	1.0	Stool	#ded579
+Anaerococcus lactolyticus	Acidovorax avenae	1.0	Mixed	#cccccc
+Atopobium sp. ICM42b	Acinetobacter baumannii	0.814977516206	Mixed	#cccccc
+Atopobium sp. ICM42b	Actinomyces sp. HPA0247	1.0	Mixed	#cccccc
+Atopobium sp. ICM42b	Actinomyces sp. ICM58	0.814977516206	Mixed	#cccccc
+Atopobium sp. oral taxon 810	Atopobium sp. oral taxon 199	0.814977516206	Mixed	#cccccc
+Bacteroides eggerthii	Alistipes shahii	0.813432793084	Stool	#ded579
+Bacteroides finegoldii	Bacteroides dorei	1.0	Stool	#ded579
+Bacteroides sp. 1_1_30	Bacteroides nordii	1.0	Stool	#ded579
+Bacteroides sp. 1_1_6	bacterium LF-3	1.0	Stool	#ded579
+Bacteroides sp. 2_2_4	Bacteroides nordii	0.814977516206	Stool	#ded579
+Bacteroides sp. 2_2_4	Bacteroides sp. 1_1_30	0.814977516206	Stool	#ded579
+Bacteroides sp. 3_1_13	Bacteroides sp. 2_2_4	0.864408174728	Stool	#ded579
+Bacteroides sp. 3_1_19	Acetivibrio ethanolgignens	1.0	Stool	#ded579
+Bacteroides sp. 3_1_23	Bacteroides sp. 2_2_4	0.814977516206	Stool	#ded579
+Bacteroides sp. 3_1_33FAA	Acetivibrio ethanolgignens	1.0	Stool	#ded579
+Bacteroides sp. 3_1_33FAA	Bacteroides sp. 3_1_19	1.0	Stool	#ded579
+Bacteroides sp. 4_1_36	Bacteroides nordii	1.0	Stool	#ded579
+Bacteroides sp. 4_1_36	Bacteroides sp. 1_1_30	1.0	Stool	#ded579
+Bacteroides sp. 4_1_36	Bacteroides sp. 2_2_4	0.814977516206	Stool	#ded579
+Bacteroides sp. 9_1_42FAA	Acetivibrio ethanolgignens	1.0	Stool	#ded579
+Bacteroides sp. 9_1_42FAA	Bacteroides sp. 3_1_19	1.0	Stool	#ded579
+Bacteroides sp. 9_1_42FAA	Bacteroides sp. 3_1_33FAA	1.0	Stool	#ded579
+Bacteroides sp. D20	Bacteroides nordii	1.0	Stool	#ded579
+Bacteroides sp. D20	Bacteroides sp. 1_1_30	1.0	Stool	#ded579
+Bacteroides sp. D20	Bacteroides sp. 2_2_4	0.814977516206	Stool	#ded579
+Bacteroides sp. D20	Bacteroides sp. 4_1_36	1.0	Stool	#ded579
+Bacteroides sp. D22	Bacteroides sp. D2	1.0	Stool	#ded579
+Bacteroides uniformis	Bacteroides ovatus	0.872002887754	Stool	#ded579
+Bacteroides vulgatus	Bacteroides ovatus	0.958912362791	Stool	#ded579
+Bacteroides vulgatus	Bacteroides uniformis	0.909366613249	Stool	#ded579
+Bacteroides xylanisolvens	Bacteroides sp. D2	1.0	Stool	#ded579
+Bacteroides xylanisolvens	Bacteroides sp. D22	1.0	Stool	#ded579
+Bifidobacterium pseudocatenulatum	Bacteroides sp. D2	1.0	Mixed	#cccccc
+Bifidobacterium pseudocatenulatum	Bacteroides sp. D22	1.0	Mixed	#cccccc
+Bifidobacterium pseudocatenulatum	Bacteroides xylanisolvens	1.0	Mixed	#cccccc
+Blautia wexlerae	bacterium LF-3	1.0	Stool	#ded579
+Blautia wexlerae	Bacteroides sp. 1_1_6	1.0	Stool	#ded579
+Capnocytophaga sp. oral taxon 338	Capnocytophaga sp. CM59	0.878570157634	Mixed	#cccccc
+Capnocytophaga sp. oral taxon 412	Capnocytophaga sp. oral taxon 332	0.864844342722	Supragingival_plaque	#ff8e4a
+Capnocytophaga sp. oral taxon 863	Campylobacter concisus	0.814977516206	Mixed	#cccccc
+Capnocytophaga sputigena	Capnocytophaga sp. oral taxon 326	1.0	Mixed	#cccccc
+Cellulomonas carbonis	Bacteroides nordii	1.0	Stool	#ded579
+Cellulomonas carbonis	Bacteroides sp. 1_1_30	1.0	Stool	#ded579
+Cellulomonas carbonis	Bacteroides sp. 2_2_4	0.814977516206	Stool	#ded579
+Cellulomonas carbonis	Bacteroides sp. 4_1_36	1.0	Stool	#ded579
+Cellulomonas carbonis	Bacteroides sp. D20	1.0	Stool	#ded579
+Clostridia bacterium UC5.1-1D10	Acetivibrio ethanolgignens	1.0	Stool	#ded579
+Clostridia bacterium UC5.1-1D10	Bacteroides sp. 3_1_19	1.0	Stool	#ded579
+Clostridia bacterium UC5.1-1D10	Bacteroides sp. 3_1_33FAA	1.0	Stool	#ded579
+Clostridia bacterium UC5.1-1D10	Bacteroides sp. 9_1_42FAA	1.0	Stool	#ded579
+[Clostridium] clostridioforme	Bacteroides nordii	0.814977516206	Stool	#ded579
+[Clostridium] clostridioforme	Bacteroides sp. 1_1_30	0.814977516206	Stool	#ded579
+[Clostridium] clostridioforme	Bacteroides sp. 2_2_4	1.0	Stool	#ded579
+[Clostridium] clostridioforme	Bacteroides sp. 3_1_13	0.864408174728	Stool	#ded579
+[Clostridium] clostridioforme	Bacteroides sp. 3_1_23	0.814977516206	Stool	#ded579
+[Clostridium] clostridioforme	Bacteroides sp. 4_1_36	0.814977516206	Stool	#ded579
+[Clostridium] clostridioforme	Bacteroides sp. D20	0.814977516206	Stool	#ded579
+[Clostridium] clostridioforme	Cellulomonas carbonis	0.814977516206	Stool	#ded579
+Clostridium sp. GD3	Bacteroides nordii	1.0	Stool	#ded579
+Clostridium sp. GD3	Bacteroides sp. 1_1_30	1.0	Stool	#ded579
+Clostridium sp. GD3	Bacteroides sp. 2_2_4	0.814977516206	Stool	#ded579
+Clostridium sp. GD3	Bacteroides sp. 4_1_36	1.0	Stool	#ded579
+Clostridium sp. GD3	Bacteroides sp. D20	1.0	Stool	#ded579
+Clostridium sp. GD3	Cellulomonas carbonis	1.0	Stool	#ded579
+Clostridium sp. GD3	[Clostridium] clostridioforme	0.814977516206	Stool	#ded579
+Clostridium sp. L2-50	Bacteroides nordii	1.0	Stool	#ded579
+Clostridium sp. L2-50	Bacteroides sp. 1_1_30	1.0	Stool	#ded579
+Clostridium sp. L2-50	Bacteroides sp. 2_2_4	0.814977516206	Stool	#ded579
+Clostridium sp. L2-50	Bacteroides sp. 4_1_36	1.0	Stool	#ded579
+Clostridium sp. L2-50	Bacteroides sp. D20	1.0	Stool	#ded579
+Clostridium sp. L2-50	Cellulomonas carbonis	1.0	Stool	#ded579
+Clostridium sp. L2-50	[Clostridium] clostridioforme	0.814977516206	Stool	#ded579
+Clostridium sp. L2-50	Clostridium sp. GD3	1.0	Stool	#ded579
+Clostridium sp. M62/1	Bacteroides nordii	1.0	Stool	#ded579
+Clostridium sp. M62/1	Bacteroides sp. 1_1_30	1.0	Stool	#ded579
+Clostridium sp. M62/1	Bacteroides sp. 2_2_4	0.814977516206	Stool	#ded579
+Clostridium sp. M62/1	Bacteroides sp. 4_1_36	1.0	Stool	#ded579
+Clostridium sp. M62/1	Bacteroides sp. D20	1.0	Stool	#ded579
+Clostridium sp. M62/1	Cellulomonas carbonis	1.0	Stool	#ded579
+Clostridium sp. M62/1	[Clostridium] clostridioforme	0.814977516206	Stool	#ded579
+Clostridium sp. M62/1	Clostridium sp. GD3	1.0	Stool	#ded579
+Clostridium sp. M62/1	Clostridium sp. L2-50	1.0	Stool	#ded579
+Collinsella aerofaciens	Bacteroides nordii	1.0	Stool	#ded579
+Collinsella aerofaciens	Bacteroides sp. 1_1_30	1.0	Stool	#ded579
+Collinsella aerofaciens	Bacteroides sp. 2_2_4	0.814977516206	Stool	#ded579
+Collinsella aerofaciens	Bacteroides sp. 4_1_36	1.0	Stool	#ded579
+Collinsella aerofaciens	Bacteroides sp. D20	1.0	Stool	#ded579
+Collinsella aerofaciens	Cellulomonas carbonis	1.0	Stool	#ded579
+Collinsella aerofaciens	[Clostridium] clostridioforme	0.814977516206	Stool	#ded579
+Collinsella aerofaciens	Clostridium sp. GD3	1.0	Stool	#ded579
+Collinsella aerofaciens	Clostridium sp. L2-50	1.0	Stool	#ded579
+Collinsella aerofaciens	Clostridium sp. M62/1	1.0	Stool	#ded579
+Collinsella sp. 4_8_47FAA	Bacteroides nordii	1.0	Stool	#ded579
+Collinsella sp. 4_8_47FAA	Bacteroides sp. 1_1_30	1.0	Stool	#ded579
+Collinsella sp. 4_8_47FAA	Bacteroides sp. 2_2_4	0.814977516206	Stool	#ded579
+Collinsella sp. 4_8_47FAA	Bacteroides sp. 4_1_36	1.0	Stool	#ded579
+Collinsella sp. 4_8_47FAA	Bacteroides sp. D20	1.0	Stool	#ded579
+Collinsella sp. 4_8_47FAA	Cellulomonas carbonis	1.0	Stool	#ded579
+Collinsella sp. 4_8_47FAA	[Clostridium] clostridioforme	0.814977516206	Stool	#ded579
+Collinsella sp. 4_8_47FAA	Clostridium sp. GD3	1.0	Stool	#ded579
+Collinsella sp. 4_8_47FAA	Clostridium sp. L2-50	1.0	Stool	#ded579
+Collinsella sp. 4_8_47FAA	Clostridium sp. M62/1	1.0	Stool	#ded579
+Collinsella sp. 4_8_47FAA	Collinsella aerofaciens	1.0	Stool	#ded579
+Coprococcus comes	Bacteroides nordii	1.0	Stool	#ded579
+Coprococcus comes	Bacteroides sp. 1_1_30	1.0	Stool	#ded579
+Coprococcus comes	Bacteroides sp. 2_2_4	0.814977516206	Stool	#ded579
+Coprococcus comes	Bacteroides sp. 4_1_36	1.0	Stool	#ded579
+Coprococcus comes	Bacteroides sp. D20	1.0	Stool	#ded579
+Coprococcus comes	Cellulomonas carbonis	1.0	Stool	#ded579
+Coprococcus comes	[Clostridium] clostridioforme	0.814977516206	Stool	#ded579
+Coprococcus comes	Clostridium sp. GD3	1.0	Stool	#ded579
+Coprococcus comes	Clostridium sp. L2-50	1.0	Stool	#ded579
+Coprococcus comes	Clostridium sp. M62/1	1.0	Stool	#ded579
+Coprococcus comes	Collinsella aerofaciens	1.0	Stool	#ded579
+Coprococcus comes	Collinsella sp. 4_8_47FAA	1.0	Stool	#ded579
+Deinococcus radiodurans	Bacteroides sp. D2	1.0	Mixed	#cccccc
+Deinococcus radiodurans	Bacteroides sp. D22	1.0	Mixed	#cccccc
+Deinococcus radiodurans	Bacteroides xylanisolvens	1.0	Mixed	#cccccc
+Deinococcus radiodurans	Bifidobacterium pseudocatenulatum	1.0	Mixed	#cccccc
+Dolosigranulum pigrum	Afipia birgiae	1.0	Mixed	#cccccc
+Escherichia coli	Bacteroides dorei	1.0	Stool	#ded579
+Escherichia coli	Bacteroides finegoldii	1.0	Stool	#ded579
+[Eubacterium] hallii	Acetivibrio ethanolgignens	1.0	Stool	#ded579
+[Eubacterium] hallii	Bacteroides sp. 3_1_19	1.0	Stool	#ded579
+[Eubacterium] hallii	Bacteroides sp. 3_1_33FAA	1.0	Stool	#ded579
+[Eubacterium] hallii	Bacteroides sp. 9_1_42FAA	1.0	Stool	#ded579
+[Eubacterium] hallii	Clostridia bacterium UC5.1-1D10	1.0	Stool	#ded579
+Eubacterium ramulus	Bacteroides sp. D2	1.0	Stool	#ded579
+Eubacterium ramulus	Bacteroides sp. D22	1.0	Stool	#ded579
+Eubacterium ramulus	Bacteroides xylanisolvens	1.0	Stool	#ded579
+Eubacterium ramulus	Bifidobacterium pseudocatenulatum	1.0	Mixed	#cccccc
+Eubacterium ramulus	Deinococcus radiodurans	1.0	Mixed	#cccccc
+[Eubacterium] rectale	Bacteroides uniformis	0.808637913151	Stool	#ded579
+Eubacterium ventriosum	Bacteroides nordii	1.0	Stool	#ded579
+Eubacterium ventriosum	Bacteroides sp. 1_1_30	1.0	Stool	#ded579
+Eubacterium ventriosum	Bacteroides sp. 2_2_4	0.814977516206	Stool	#ded579
+Eubacterium ventriosum	Bacteroides sp. 4_1_36	1.0	Stool	#ded579
+Eubacterium ventriosum	Bacteroides sp. D20	1.0	Stool	#ded579
+Eubacterium ventriosum	Cellulomonas carbonis	1.0	Stool	#ded579
+Eubacterium ventriosum	[Clostridium] clostridioforme	0.814977516206	Stool	#ded579
+Eubacterium ventriosum	Clostridium sp. GD3	1.0	Stool	#ded579
+Eubacterium ventriosum	Clostridium sp. L2-50	1.0	Stool	#ded579
+Eubacterium ventriosum	Clostridium sp. M62/1	1.0	Stool	#ded579
+Eubacterium ventriosum	Collinsella aerofaciens	1.0	Stool	#ded579
+Eubacterium ventriosum	Collinsella sp. 4_8_47FAA	1.0	Stool	#ded579
+Eubacterium ventriosum	Coprococcus comes	1.0	Stool	#ded579
+Faecalibacterium prausnitzii	Bacteroides ovatus	0.872002887754	Stool	#ded579
+Faecalibacterium prausnitzii	Bacteroides uniformis	1.0	Stool	#ded579
+Faecalibacterium prausnitzii	Bacteroides vulgatus	0.909366613249	Stool	#ded579
+Faecalibacterium prausnitzii	[Eubacterium] rectale	0.808637913151	Stool	#ded579
+Hallella seregens	Corynebacterium aurimucosum	1.0	Mixed	#cccccc
+Intestinimonas butyriciproducens	Bacteroides nordii	1.0	Stool	#ded579
+Intestinimonas butyriciproducens	Bacteroides sp. 1_1_30	1.0	Stool	#ded579
+Intestinimonas butyriciproducens	Bacteroides sp. 2_2_4	0.814977516206	Stool	#ded579
+Intestinimonas butyriciproducens	Bacteroides sp. 4_1_36	1.0	Stool	#ded579
+Intestinimonas butyriciproducens	Bacteroides sp. D20	1.0	Stool	#ded579
+Intestinimonas butyriciproducens	Cellulomonas carbonis	1.0	Stool	#ded579
+Intestinimonas butyriciproducens	[Clostridium] clostridioforme	0.814977516206	Stool	#ded579
+Intestinimonas butyriciproducens	Clostridium sp. GD3	1.0	Stool	#ded579
+Intestinimonas butyriciproducens	Clostridium sp. L2-50	1.0	Stool	#ded579
+Intestinimonas butyriciproducens	Clostridium sp. M62/1	1.0	Stool	#ded579
+Intestinimonas butyriciproducens	Collinsella aerofaciens	1.0	Stool	#ded579
+Intestinimonas butyriciproducens	Collinsella sp. 4_8_47FAA	1.0	Stool	#ded579
+Intestinimonas butyriciproducens	Coprococcus comes	1.0	Stool	#ded579
+Intestinimonas butyriciproducens	Eubacterium ventriosum	1.0	Stool	#ded579
+Intestinimonas sp. GD2	Bacteroides nordii	1.0	Stool	#ded579
+Intestinimonas sp. GD2	Bacteroides sp. 1_1_30	1.0	Stool	#ded579
+Intestinimonas sp. GD2	Bacteroides sp. 2_2_4	0.814977516206	Stool	#ded579
+Intestinimonas sp. GD2	Bacteroides sp. 4_1_36	1.0	Stool	#ded579
+Intestinimonas sp. GD2	Bacteroides sp. D20	1.0	Stool	#ded579
+Intestinimonas sp. GD2	Cellulomonas carbonis	1.0	Stool	#ded579
+Intestinimonas sp. GD2	[Clostridium] clostridioforme	0.814977516206	Stool	#ded579
+Intestinimonas sp. GD2	Clostridium sp. GD3	1.0	Stool	#ded579
+Intestinimonas sp. GD2	Clostridium sp. L2-50	1.0	Stool	#ded579
+Intestinimonas sp. GD2	Clostridium sp. M62/1	1.0	Stool	#ded579
+Intestinimonas sp. GD2	Collinsella aerofaciens	1.0	Stool	#ded579
+Intestinimonas sp. GD2	Collinsella sp. 4_8_47FAA	1.0	Stool	#ded579
+Intestinimonas sp. GD2	Coprococcus comes	1.0	Stool	#ded579
+Intestinimonas sp. GD2	Eubacterium ventriosum	1.0	Stool	#ded579
+Intestinimonas sp. GD2	Intestinimonas butyriciproducens	1.0	Stool	#ded579
+Kineosphaera limosa	Gordonia polyisoprenivorans	1.0	Mixed	#cccccc
+Lactobacillus crispatus	Kocuria palustris	1.0	Mixed	#cccccc
+Lactococcus garvieae	Bacteroides clarus	1.0	Stool	#ded579
+Listeria monocytogenes	Bacteroides sp. D2	1.0	Mixed	#cccccc
+Listeria monocytogenes	Bacteroides sp. D22	1.0	Mixed	#cccccc
+Listeria monocytogenes	Bacteroides xylanisolvens	1.0	Mixed	#cccccc
+Listeria monocytogenes	Bifidobacterium pseudocatenulatum	1.0	L_Retroauricular_crease	#1fd3e1
+Listeria monocytogenes	Deinococcus radiodurans	1.0	Mixed	#cccccc
+Listeria monocytogenes	Eubacterium ramulus	1.0	Mixed	#cccccc
+Mannheimia haemolytica	Gemella cuniculi	1.0	Mixed	#cccccc
+Mogibacterium timidum	Atopobium sp. oral taxon 199	0.814977516206	Mixed	#cccccc
+Mogibacterium timidum	Atopobium sp. oral taxon 810	1.0	Mixed	#cccccc
+Moraxella caprae	Moraxella bovis	1.0	Anterior_nares	#8000ff
+Moraxella macacae	Moraxella bovis	1.0	Anterior_nares	#8000ff
+Moraxella macacae	Moraxella caprae	1.0	Anterior_nares	#8000ff
+Necropsobacter massiliensis	Gallibacterium anatis	0.864408174728	Mixed	#cccccc
+Necropsobacter rosorum	Necropsobacter massiliensis	0.892750662458	Mixed	#cccccc
+Neisseria sp. 83E34	Mannheimia sp. MG13	0.814977516206	Mixed	#cccccc
+Neisseria sp. KH1503	Mannheimia sp. MG13	0.814977516206	Mixed	#cccccc
+Neisseria sp. KH1503	Neisseria sp. 83E34	1.0	Mixed	#cccccc
+Novosphingobium subterraneum	Afipia birgiae	1.0	Throat	#ff6232
+Novosphingobium subterraneum	Dolosigranulum pigrum	1.0	Mixed	#cccccc
+Olsenella sp. oral taxon 809	Atopobium sp. oral taxon 199	0.814977516206	Mixed	#cccccc
+Olsenella sp. oral taxon 809	Atopobium sp. oral taxon 810	1.0	Buccal_mucosa	#425ffa
+Olsenella sp. oral taxon 809	Mogibacterium timidum	1.0	Mixed	#cccccc
+Oribacterium sp. oral taxon 108	Oribacterium asaccharolyticum	0.911153390628	Saliva	#beec8e
+Oscillibacter ruminantium	Bacteroides nordii	1.0	Stool	#ded579
+Oscillibacter ruminantium	Bacteroides sp. 1_1_30	1.0	Stool	#ded579
+Oscillibacter ruminantium	Bacteroides sp. 2_2_4	0.814977516206	Stool	#ded579
+Oscillibacter ruminantium	Bacteroides sp. 4_1_36	1.0	Stool	#ded579
+Oscillibacter ruminantium	Bacteroides sp. D20	1.0	Stool	#ded579
+Oscillibacter ruminantium	Cellulomonas carbonis	1.0	Stool	#ded579
+Oscillibacter ruminantium	[Clostridium] clostridioforme	0.814977516206	Stool	#ded579
+Oscillibacter ruminantium	Clostridium sp. GD3	1.0	Stool	#ded579
+Oscillibacter ruminantium	Clostridium sp. L2-50	1.0	Stool	#ded579
+Oscillibacter ruminantium	Clostridium sp. M62/1	1.0	Stool	#ded579
+Oscillibacter ruminantium	Collinsella aerofaciens	1.0	Stool	#ded579
+Oscillibacter ruminantium	Collinsella sp. 4_8_47FAA	1.0	Stool	#ded579
+Oscillibacter ruminantium	Coprococcus comes	1.0	Stool	#ded579
+Oscillibacter ruminantium	Eubacterium ventriosum	1.0	Stool	#ded579
+Oscillibacter ruminantium	Intestinimonas butyriciproducens	1.0	Stool	#ded579
+Oscillibacter ruminantium	Intestinimonas sp. GD2	1.0	Stool	#ded579
+Oscillibacter sp. ER4	Bacteroides thetaiotaomicron	1.0	Stool	#ded579
+Oscillospiraceae bacterium VE202-24	Bacteroides nordii	1.0	Stool	#ded579
+Oscillospiraceae bacterium VE202-24	Bacteroides sp. 1_1_30	1.0	Stool	#ded579
+Oscillospiraceae bacterium VE202-24	Bacteroides sp. 2_2_4	0.814977516206	Stool	#ded579
+Oscillospiraceae bacterium VE202-24	Bacteroides sp. 4_1_36	1.0	Stool	#ded579
+Oscillospiraceae bacterium VE202-24	Bacteroides sp. D20	1.0	Stool	#ded579
+Oscillospiraceae bacterium VE202-24	Cellulomonas carbonis	1.0	Stool	#ded579
+Oscillospiraceae bacterium VE202-24	[Clostridium] clostridioforme	0.814977516206	Stool	#ded579
+Oscillospiraceae bacterium VE202-24	Clostridium sp. GD3	1.0	Stool	#ded579
+Oscillospiraceae bacterium VE202-24	Clostridium sp. L2-50	1.0	Stool	#ded579
+Oscillospiraceae bacterium VE202-24	Clostridium sp. M62/1	1.0	Stool	#ded579
+Oscillospiraceae bacterium VE202-24	Collinsella aerofaciens	1.0	Stool	#ded579
+Oscillospiraceae bacterium VE202-24	Collinsella sp. 4_8_47FAA	1.0	Stool	#ded579
+Oscillospiraceae bacterium VE202-24	Coprococcus comes	1.0	Stool	#ded579
+Oscillospiraceae bacterium VE202-24	Eubacterium ventriosum	1.0	Stool	#ded579
+Oscillospiraceae bacterium VE202-24	Intestinimonas butyriciproducens	1.0	Stool	#ded579
+Oscillospiraceae bacterium VE202-24	Intestinimonas sp. GD2	1.0	Stool	#ded579
+Oscillospiraceae bacterium VE202-24	Oscillibacter ruminantium	1.0	Stool	#ded579
+Parabacteroides distasonis	Bacteroides dorei	1.0	Stool	#ded579
+Parabacteroides distasonis	Bacteroides finegoldii	1.0	Stool	#ded579
+Parabacteroides distasonis	Escherichia coli	1.0	Stool	#ded579
+Parabacteroides goldsteinii	Bacteroides nordii	1.0	Stool	#ded579
+Parabacteroides goldsteinii	Bacteroides sp. 1_1_30	1.0	Stool	#ded579
+Parabacteroides goldsteinii	Bacteroides sp. 2_2_4	0.814977516206	Stool	#ded579
+Parabacteroides goldsteinii	Bacteroides sp. 4_1_36	1.0	Stool	#ded579
+Parabacteroides goldsteinii	Bacteroides sp. D20	1.0	Stool	#ded579
+Parabacteroides goldsteinii	Cellulomonas carbonis	1.0	Stool	#ded579
+Parabacteroides goldsteinii	[Clostridium] clostridioforme	0.814977516206	Stool	#ded579
+Parabacteroides goldsteinii	Clostridium sp. GD3	1.0	Stool	#ded579
+Parabacteroides goldsteinii	Clostridium sp. L2-50	1.0	Stool	#ded579
+Parabacteroides goldsteinii	Clostridium sp. M62/1	1.0	Stool	#ded579
+Parabacteroides goldsteinii	Collinsella aerofaciens	1.0	Stool	#ded579
+Parabacteroides goldsteinii	Collinsella sp. 4_8_47FAA	1.0	Stool	#ded579
+Parabacteroides goldsteinii	Coprococcus comes	1.0	Stool	#ded579
+Parabacteroides goldsteinii	Eubacterium ventriosum	1.0	Stool	#ded579
+Parabacteroides goldsteinii	Intestinimonas butyriciproducens	1.0	Stool	#ded579
+Parabacteroides goldsteinii	Intestinimonas sp. GD2	1.0	Stool	#ded579
+Parabacteroides goldsteinii	Oscillibacter ruminantium	1.0	Stool	#ded579
+Parabacteroides goldsteinii	Oscillospiraceae bacterium VE202-24	1.0	Stool	#ded579
+Parabacteroides johnsonii	Bacteroides thetaiotaomicron	1.0	Stool	#ded579
+Parabacteroides johnsonii	Oscillibacter sp. ER4	1.0	Stool	#ded579
+Parabacteroides sp. 20_3	Bacteroides nordii	1.0	Stool	#ded579
+Parabacteroides sp. 20_3	Bacteroides sp. 1_1_30	1.0	Stool	#ded579
+Parabacteroides sp. 20_3	Bacteroides sp. 2_2_4	0.814977516206	Stool	#ded579
+Parabacteroides sp. 20_3	Bacteroides sp. 4_1_36	1.0	Stool	#ded579
+Parabacteroides sp. 20_3	Bacteroides sp. D20	1.0	Stool	#ded579
+Parabacteroides sp. 20_3	Cellulomonas carbonis	1.0	Stool	#ded579
+Parabacteroides sp. 20_3	[Clostridium] clostridioforme	0.814977516206	Stool	#ded579
+Parabacteroides sp. 20_3	Clostridium sp. GD3	1.0	Stool	#ded579
+Parabacteroides sp. 20_3	Clostridium sp. L2-50	1.0	Stool	#ded579
+Parabacteroides sp. 20_3	Clostridium sp. M62/1	1.0	Stool	#ded579
+Parabacteroides sp. 20_3	Collinsella aerofaciens	1.0	Stool	#ded579
+Parabacteroides sp. 20_3	Collinsella sp. 4_8_47FAA	1.0	Stool	#ded579
+Parabacteroides sp. 20_3	Coprococcus comes	1.0	Stool	#ded579
+Parabacteroides sp. 20_3	Eubacterium ventriosum	1.0	Stool	#ded579
+Parabacteroides sp. 20_3	Intestinimonas butyriciproducens	1.0	Stool	#ded579
+Parabacteroides sp. 20_3	Intestinimonas sp. GD2	1.0	Stool	#ded579
+Parabacteroides sp. 20_3	Oscillibacter ruminantium	1.0	Stool	#ded579
+Parabacteroides sp. 20_3	Oscillospiraceae bacterium VE202-24	1.0	Stool	#ded579
+Parabacteroides sp. 20_3	Parabacteroides goldsteinii	1.0	Stool	#ded579
+Parabacteroides sp. D13	Bacteroides nordii	1.0	Stool	#ded579
+Parabacteroides sp. D13	Bacteroides sp. 1_1_30	1.0	Stool	#ded579
+Parabacteroides sp. D13	Bacteroides sp. 2_2_4	0.814977516206	Stool	#ded579
+Parabacteroides sp. D13	Bacteroides sp. 4_1_36	1.0	Stool	#ded579
+Parabacteroides sp. D13	Bacteroides sp. D20	1.0	Stool	#ded579
+Parabacteroides sp. D13	Cellulomonas carbonis	1.0	Stool	#ded579
+Parabacteroides sp. D13	[Clostridium] clostridioforme	0.814977516206	Stool	#ded579
+Parabacteroides sp. D13	Clostridium sp. GD3	1.0	Stool	#ded579
+Parabacteroides sp. D13	Clostridium sp. L2-50	1.0	Stool	#ded579
+Parabacteroides sp. D13	Clostridium sp. M62/1	1.0	Stool	#ded579
+Parabacteroides sp. D13	Collinsella aerofaciens	1.0	Stool	#ded579
+Parabacteroides sp. D13	Collinsella sp. 4_8_47FAA	1.0	Stool	#ded579
+Parabacteroides sp. D13	Coprococcus comes	1.0	Stool	#ded579
+Parabacteroides sp. D13	Eubacterium ventriosum	1.0	Stool	#ded579
+Parabacteroides sp. D13	Intestinimonas butyriciproducens	1.0	Stool	#ded579
+Parabacteroides sp. D13	Intestinimonas sp. GD2	1.0	Stool	#ded579
+Parabacteroides sp. D13	Oscillibacter ruminantium	1.0	Stool	#ded579
+Parabacteroides sp. D13	Oscillospiraceae bacterium VE202-24	1.0	Stool	#ded579
+Parabacteroides sp. D13	Parabacteroides goldsteinii	1.0	Stool	#ded579
+Parabacteroides sp. D13	Parabacteroides sp. 20_3	1.0	Stool	#ded579
+Paraprevotella xylaniphila	Bacteroides nordii	1.0	Stool	#ded579
+Paraprevotella xylaniphila	Bacteroides sp. 1_1_30	1.0	Stool	#ded579
+Paraprevotella xylaniphila	Bacteroides sp. 2_2_4	0.814977516206	Stool	#ded579
+Paraprevotella xylaniphila	Bacteroides sp. 4_1_36	1.0	Stool	#ded579
+Paraprevotella xylaniphila	Bacteroides sp. D20	1.0	Stool	#ded579
+Paraprevotella xylaniphila	Cellulomonas carbonis	1.0	Stool	#ded579
+Paraprevotella xylaniphila	[Clostridium] clostridioforme	0.814977516206	Stool	#ded579
+Paraprevotella xylaniphila	Clostridium sp. GD3	1.0	Stool	#ded579
+Paraprevotella xylaniphila	Clostridium sp. L2-50	1.0	Stool	#ded579
+Paraprevotella xylaniphila	Clostridium sp. M62/1	1.0	Stool	#ded579
+Paraprevotella xylaniphila	Collinsella aerofaciens	1.0	Stool	#ded579
+Paraprevotella xylaniphila	Collinsella sp. 4_8_47FAA	1.0	Stool	#ded579
+Paraprevotella xylaniphila	Coprococcus comes	1.0	Stool	#ded579
+Paraprevotella xylaniphila	Eubacterium ventriosum	1.0	Stool	#ded579
+Paraprevotella xylaniphila	Intestinimonas butyriciproducens	1.0	Stool	#ded579
+Paraprevotella xylaniphila	Intestinimonas sp. GD2	1.0	Stool	#ded579
+Paraprevotella xylaniphila	Oscillibacter ruminantium	1.0	Stool	#ded579
+Paraprevotella xylaniphila	Oscillospiraceae bacterium VE202-24	1.0	Stool	#ded579
+Paraprevotella xylaniphila	Parabacteroides goldsteinii	1.0	Stool	#ded579
+Paraprevotella xylaniphila	Parabacteroides sp. 20_3	1.0	Stool	#ded579
+Paraprevotella xylaniphila	Parabacteroides sp. D13	1.0	Stool	#ded579
+Parasutterella excrementihominis	Gemella cuniculi	0.814977516206	Mixed	#cccccc
+Parasutterella excrementihominis	Mannheimia haemolytica	0.814977516206	Mixed	#cccccc
+Pasteurella dagmatis	Megasphaera sp. UPII 135-E	1.0	Mixed	#cccccc
+Peptostreptococcaceae bacterium AS15	[Eubacterium] yurii	0.953558345661	Subgingival_plaque	#feb562
+Peptostreptococcus sp. MV1	Acinetobacter baumannii	0.814977516206	Mixed	#cccccc
+Peptostreptococcus sp. MV1	Actinomyces sp. HPA0247	1.0	Mixed	#cccccc
+Peptostreptococcus sp. MV1	Actinomyces sp. ICM58	0.814977516206	Mixed	#cccccc
+Peptostreptococcus sp. MV1	Atopobium sp. ICM42b	1.0	Mixed	#cccccc
+Porphyromonas sp. oral taxon 279	Porphyromonas sp. KLE 1280	0.810081372712	Hard_palate	#218cf4
+Porphyromonas uenonis	Actinotignum schaalii	1.0	Mixed	#cccccc
+Prevotella buccalis	Bacteroides nordii	1.0	Mixed	#cccccc
+Prevotella buccalis	Bacteroides sp. 1_1_30	1.0	Mixed	#cccccc
+Prevotella buccalis	Bacteroides sp. 2_2_4	0.814977516206	Mixed	#cccccc
+Prevotella buccalis	Bacteroides sp. 4_1_36	1.0	Mixed	#cccccc
+Prevotella buccalis	Bacteroides sp. D20	1.0	Mixed	#cccccc
+Prevotella buccalis	Cellulomonas carbonis	1.0	Mixed	#cccccc
+Prevotella buccalis	[Clostridium] clostridioforme	0.814977516206	Mixed	#cccccc
+Prevotella buccalis	Clostridium sp. GD3	1.0	Mixed	#cccccc
+Prevotella buccalis	Clostridium sp. L2-50	1.0	Mixed	#cccccc
+Prevotella buccalis	Clostridium sp. M62/1	1.0	Mixed	#cccccc
+Prevotella buccalis	Collinsella aerofaciens	1.0	Mixed	#cccccc
+Prevotella buccalis	Collinsella sp. 4_8_47FAA	1.0	Mixed	#cccccc
+Prevotella buccalis	Coprococcus comes	1.0	Mixed	#cccccc
+Prevotella buccalis	Eubacterium ventriosum	1.0	Mixed	#cccccc
+Prevotella buccalis	Intestinimonas butyriciproducens	1.0	Mixed	#cccccc
+Prevotella buccalis	Intestinimonas sp. GD2	1.0	Mixed	#cccccc
+Prevotella buccalis	Oscillibacter ruminantium	1.0	Mixed	#cccccc
+Prevotella buccalis	Oscillospiraceae bacterium VE202-24	1.0	Mixed	#cccccc
+Prevotella buccalis	Parabacteroides goldsteinii	1.0	Mixed	#cccccc
+Prevotella buccalis	Parabacteroides sp. 20_3	1.0	Mixed	#cccccc
+Prevotella buccalis	Parabacteroides sp. D13	1.0	Mixed	#cccccc
+Prevotella buccalis	Paraprevotella xylaniphila	1.0	Mixed	#cccccc
+Prevotella corporis	Moraxella bovis	1.0	Mixed	#cccccc
+Prevotella corporis	Moraxella caprae	1.0	Mixed	#cccccc
+Prevotella corporis	Moraxella macacae	1.0	Mixed	#cccccc
+Prevotella dentalis	Bacteroidetes bacterium oral taxon 272	1.0	Mixed	#cccccc
+Prevotella dentasini	Atopobium sp. oral taxon 199	0.814977516206	Mixed	#cccccc
+Prevotella dentasini	Atopobium sp. oral taxon 810	1.0	Mixed	#cccccc
+Prevotella dentasini	Mogibacterium timidum	1.0	Mixed	#cccccc
+Prevotella dentasini	Olsenella sp. oral taxon 809	1.0	Mixed	#cccccc
+Prevotella multisaccharivorax	Actinotignum schaalii	0.814977516206	Mixed	#cccccc
+Prevotella multisaccharivorax	Porphyromonas uenonis	0.814977516206	Mixed	#cccccc
+Prevotella sp. 109	Bacteroides nordii	1.0	Stool	#ded579
+Prevotella sp. 109	Bacteroides sp. 1_1_30	1.0	Stool	#ded579
+Prevotella sp. 109	Bacteroides sp. 2_2_4	0.814977516206	Stool	#ded579
+Prevotella sp. 109	Bacteroides sp. 4_1_36	1.0	Stool	#ded579
+Prevotella sp. 109	Bacteroides sp. D20	1.0	Stool	#ded579
+Prevotella sp. 109	Cellulomonas carbonis	1.0	Stool	#ded579
+Prevotella sp. 109	[Clostridium] clostridioforme	0.814977516206	Stool	#ded579
+Prevotella sp. 109	Clostridium sp. GD3	1.0	Stool	#ded579
+Prevotella sp. 109	Clostridium sp. L2-50	1.0	Stool	#ded579
+Prevotella sp. 109	Clostridium sp. M62/1	1.0	Stool	#ded579
+Prevotella sp. 109	Collinsella aerofaciens	1.0	Stool	#ded579
+Prevotella sp. 109	Collinsella sp. 4_8_47FAA	1.0	Stool	#ded579
+Prevotella sp. 109	Coprococcus comes	1.0	Stool	#ded579
+Prevotella sp. 109	Eubacterium ventriosum	1.0	Stool	#ded579
+Prevotella sp. 109	Intestinimonas butyriciproducens	1.0	Stool	#ded579
+Prevotella sp. 109	Intestinimonas sp. GD2	1.0	Stool	#ded579
+Prevotella sp. 109	Oscillibacter ruminantium	1.0	Stool	#ded579
+Prevotella sp. 109	Oscillospiraceae bacterium VE202-24	1.0	Stool	#ded579
+Prevotella sp. 109	Parabacteroides goldsteinii	1.0	Stool	#ded579
+Prevotella sp. 109	Parabacteroides sp. 20_3	1.0	Stool	#ded579
+Prevotella sp. 109	Parabacteroides sp. D13	1.0	Stool	#ded579
+Prevotella sp. 109	Paraprevotella xylaniphila	1.0	Stool	#ded579
+Prevotella sp. 109	Prevotella buccalis	1.0	Mixed	#cccccc
+Prevotella sp. oral taxon 317	Prevotella conceptionensis	0.906295348112	Subgingival_plaque	#feb562
+Prevotella sp. oral taxon 472	Prevotella loescheii	0.969531006551	Subgingival_plaque	#feb562
+Prevotella sp. S7-1-8	Bacteroides dorei	1.0	Mixed	#cccccc
+Prevotella sp. S7-1-8	Bacteroides finegoldii	1.0	Mixed	#cccccc
+Prevotella sp. S7-1-8	Escherichia coli	1.0	Mixed	#cccccc
+Prevotella sp. S7-1-8	Parabacteroides distasonis	1.0	Mixed	#cccccc
+Prevotella stercorea	Bacteroides nordii	1.0	Mixed	#cccccc
+Prevotella stercorea	Bacteroides sp. 1_1_30	1.0	Mixed	#cccccc
+Prevotella stercorea	Bacteroides sp. 2_2_4	0.814977516206	Mixed	#cccccc
+Prevotella stercorea	Bacteroides sp. 4_1_36	1.0	Mixed	#cccccc
+Prevotella stercorea	Bacteroides sp. D20	1.0	Mixed	#cccccc
+Prevotella stercorea	Cellulomonas carbonis	1.0	Mixed	#cccccc
+Prevotella stercorea	[Clostridium] clostridioforme	0.814977516206	Mixed	#cccccc
+Prevotella stercorea	Clostridium sp. GD3	1.0	Mixed	#cccccc
+Prevotella stercorea	Clostridium sp. L2-50	1.0	Mixed	#cccccc
+Prevotella stercorea	Clostridium sp. M62/1	1.0	Mixed	#cccccc
+Prevotella stercorea	Collinsella aerofaciens	1.0	Mixed	#cccccc
+Prevotella stercorea	Collinsella sp. 4_8_47FAA	1.0	Mixed	#cccccc
+Prevotella stercorea	Coprococcus comes	1.0	Mixed	#cccccc
+Prevotella stercorea	Eubacterium ventriosum	1.0	Mixed	#cccccc
+Prevotella stercorea	Intestinimonas butyriciproducens	1.0	Mixed	#cccccc
+Prevotella stercorea	Intestinimonas sp. GD2	1.0	Mixed	#cccccc
+Prevotella stercorea	Oscillibacter ruminantium	1.0	Mixed	#cccccc
+Prevotella stercorea	Oscillospiraceae bacterium VE202-24	1.0	Mixed	#cccccc
+Prevotella stercorea	Parabacteroides goldsteinii	1.0	Mixed	#cccccc
+Prevotella stercorea	Parabacteroides sp. 20_3	1.0	Mixed	#cccccc
+Prevotella stercorea	Parabacteroides sp. D13	1.0	Mixed	#cccccc
+Prevotella stercorea	Paraprevotella xylaniphila	1.0	Mixed	#cccccc
+Prevotella stercorea	Prevotella buccalis	1.0	L_Retroauricular_crease	#1fd3e1
+Prevotella stercorea	Prevotella sp. 109	1.0	Mixed	#cccccc
+Propionibacterium humerusii	Alysiella crassa	0.814977516206	Mixed	#cccccc
+Pseudoflavonifractor capillosus	Bacteroides nordii	1.0	Stool	#ded579
+Pseudoflavonifractor capillosus	Bacteroides sp. 1_1_30	1.0	Stool	#ded579
+Pseudoflavonifractor capillosus	Bacteroides sp. 2_2_4	0.814977516206	Stool	#ded579
+Pseudoflavonifractor capillosus	Bacteroides sp. 4_1_36	1.0	Stool	#ded579
+Pseudoflavonifractor capillosus	Bacteroides sp. D20	1.0	Stool	#ded579
+Pseudoflavonifractor capillosus	Cellulomonas carbonis	1.0	Stool	#ded579
+Pseudoflavonifractor capillosus	[Clostridium] clostridioforme	0.814977516206	Stool	#ded579
+Pseudoflavonifractor capillosus	Clostridium sp. GD3	1.0	Stool	#ded579
+Pseudoflavonifractor capillosus	Clostridium sp. L2-50	1.0	Stool	#ded579
+Pseudoflavonifractor capillosus	Clostridium sp. M62/1	1.0	Stool	#ded579
+Pseudoflavonifractor capillosus	Collinsella aerofaciens	1.0	Stool	#ded579
+Pseudoflavonifractor capillosus	Collinsella sp. 4_8_47FAA	1.0	Stool	#ded579
+Pseudoflavonifractor capillosus	Coprococcus comes	1.0	Stool	#ded579
+Pseudoflavonifractor capillosus	Eubacterium ventriosum	1.0	Stool	#ded579
+Pseudoflavonifractor capillosus	Intestinimonas butyriciproducens	1.0	Stool	#ded579
+Pseudoflavonifractor capillosus	Intestinimonas sp. GD2	1.0	Stool	#ded579
+Pseudoflavonifractor capillosus	Oscillibacter ruminantium	1.0	Stool	#ded579
+Pseudoflavonifractor capillosus	Oscillospiraceae bacterium VE202-24	1.0	Stool	#ded579
+Pseudoflavonifractor capillosus	Parabacteroides goldsteinii	1.0	Stool	#ded579
+Pseudoflavonifractor capillosus	Parabacteroides sp. 20_3	1.0	Stool	#ded579
+Pseudoflavonifractor capillosus	Parabacteroides sp. D13	1.0	Stool	#ded579
+Pseudoflavonifractor capillosus	Paraprevotella xylaniphila	1.0	Stool	#ded579
+Pseudoflavonifractor capillosus	Prevotella buccalis	1.0	Mixed	#cccccc
+Pseudoflavonifractor capillosus	Prevotella sp. 109	1.0	Stool	#ded579
+Pseudoflavonifractor capillosus	Prevotella stercorea	1.0	Mixed	#cccccc
+Roseburia faecis	Bacteroides dorei	1.0	Stool	#ded579
+Roseburia faecis	Bacteroides finegoldii	1.0	Stool	#ded579
+Roseburia faecis	Escherichia coli	1.0	Stool	#ded579
+Roseburia faecis	Parabacteroides distasonis	1.0	Stool	#ded579
+Roseburia faecis	Prevotella sp. S7-1-8	1.0	Mixed	#cccccc
+Roseburia intestinalis	Bacteroides dorei	0.892750662458	Stool	#ded579
+Roseburia intestinalis	Bacteroides finegoldii	0.892750662458	Stool	#ded579
+Roseburia intestinalis	Escherichia coli	0.892750662458	Stool	#ded579
+Roseburia intestinalis	[Eubacterium] eligens	0.892750662458	Stool	#ded579
+Roseburia intestinalis	Parabacteroides distasonis	0.892750662458	Stool	#ded579
+Roseburia intestinalis	Prevotella sp. S7-1-8	0.892750662458	Mixed	#cccccc
+Roseburia intestinalis	Roseburia faecis	0.892750662458	Stool	#ded579
+Ruminococcaceae bacterium D16	Bacteroides nordii	1.0	Stool	#ded579
+Ruminococcaceae bacterium D16	Bacteroides sp. 1_1_30	1.0	Stool	#ded579
+Ruminococcaceae bacterium D16	Bacteroides sp. 2_2_4	0.814977516206	Stool	#ded579
+Ruminococcaceae bacterium D16	Bacteroides sp. 4_1_36	1.0	Stool	#ded579
+Ruminococcaceae bacterium D16	Bacteroides sp. D20	1.0	Stool	#ded579
+Ruminococcaceae bacterium D16	Cellulomonas carbonis	1.0	Stool	#ded579
+Ruminococcaceae bacterium D16	[Clostridium] clostridioforme	0.814977516206	Stool	#ded579
+Ruminococcaceae bacterium D16	Clostridium sp. GD3	1.0	Stool	#ded579
+Ruminococcaceae bacterium D16	Clostridium sp. L2-50	1.0	Stool	#ded579
+Ruminococcaceae bacterium D16	Clostridium sp. M62/1	1.0	Stool	#ded579
+Ruminococcaceae bacterium D16	Collinsella aerofaciens	1.0	Stool	#ded579
+Ruminococcaceae bacterium D16	Collinsella sp. 4_8_47FAA	1.0	Stool	#ded579
+Ruminococcaceae bacterium D16	Coprococcus comes	1.0	Stool	#ded579
+Ruminococcaceae bacterium D16	Eubacterium ventriosum	1.0	Stool	#ded579
+Ruminococcaceae bacterium D16	Intestinimonas butyriciproducens	1.0	Stool	#ded579
+Ruminococcaceae bacterium D16	Intestinimonas sp. GD2	1.0	Stool	#ded579
+Ruminococcaceae bacterium D16	Oscillibacter ruminantium	1.0	Stool	#ded579
+Ruminococcaceae bacterium D16	Oscillospiraceae bacterium VE202-24	1.0	Stool	#ded579
+Ruminococcaceae bacterium D16	Parabacteroides goldsteinii	1.0	Stool	#ded579
+Ruminococcaceae bacterium D16	Parabacteroides sp. 20_3	1.0	Stool	#ded579
+Ruminococcaceae bacterium D16	Parabacteroides sp. D13	1.0	Stool	#ded579
+Ruminococcaceae bacterium D16	Paraprevotella xylaniphila	1.0	Stool	#ded579
+Ruminococcaceae bacterium D16	Prevotella buccalis	1.0	Mixed	#cccccc
+Ruminococcaceae bacterium D16	Prevotella sp. 109	1.0	Stool	#ded579
+Ruminococcaceae bacterium D16	Prevotella stercorea	1.0	Mixed	#cccccc
+Ruminococcaceae bacterium D16	Pseudoflavonifractor capillosus	1.0	Stool	#ded579
+Ruminococcus bicirculans	Bacteroides ovatus	0.872002887754	Stool	#ded579
+Ruminococcus bicirculans	Bacteroides uniformis	1.0	Stool	#ded579
+Ruminococcus bicirculans	Bacteroides vulgatus	0.909366613249	Stool	#ded579
+Ruminococcus bicirculans	[Eubacterium] rectale	0.808637913151	Stool	#ded579
+Ruminococcus bicirculans	Faecalibacterium prausnitzii	1.0	Stool	#ded579
+Ruminococcus callidus	Bacteroides nordii	1.0	Stool	#ded579
+Ruminococcus callidus	Bacteroides sp. 1_1_30	1.0	Stool	#ded579
+Ruminococcus callidus	Bacteroides sp. 2_2_4	0.814977516206	Stool	#ded579
+Ruminococcus callidus	Bacteroides sp. 4_1_36	1.0	Stool	#ded579
+Ruminococcus callidus	Bacteroides sp. D20	1.0	Stool	#ded579
+Ruminococcus callidus	Cellulomonas carbonis	1.0	Stool	#ded579
+Ruminococcus callidus	[Clostridium] clostridioforme	0.814977516206	Stool	#ded579
+Ruminococcus callidus	Clostridium sp. GD3	1.0	Stool	#ded579
+Ruminococcus callidus	Clostridium sp. L2-50	1.0	Stool	#ded579
+Ruminococcus callidus	Clostridium sp. M62/1	1.0	Stool	#ded579
+Ruminococcus callidus	Collinsella aerofaciens	1.0	Stool	#ded579
+Ruminococcus callidus	Collinsella sp. 4_8_47FAA	1.0	Stool	#ded579
+Ruminococcus callidus	Coprococcus comes	1.0	Stool	#ded579
+Ruminococcus callidus	Eubacterium ventriosum	1.0	Stool	#ded579
+Ruminococcus callidus	Intestinimonas butyriciproducens	1.0	Stool	#ded579
+Ruminococcus callidus	Intestinimonas sp. GD2	1.0	Stool	#ded579
+Ruminococcus callidus	Oscillibacter ruminantium	1.0	Stool	#ded579
+Ruminococcus callidus	Oscillospiraceae bacterium VE202-24	1.0	Stool	#ded579
+Ruminococcus callidus	Parabacteroides goldsteinii	1.0	Stool	#ded579
+Ruminococcus callidus	Parabacteroides sp. 20_3	1.0	Stool	#ded579
+Ruminococcus callidus	Parabacteroides sp. D13	1.0	Stool	#ded579
+Ruminococcus callidus	Paraprevotella xylaniphila	1.0	Stool	#ded579
+Ruminococcus callidus	Prevotella buccalis	1.0	Mixed	#cccccc
+Ruminococcus callidus	Prevotella sp. 109	1.0	Stool	#ded579
+Ruminococcus callidus	Prevotella stercorea	1.0	Mixed	#cccccc
+Ruminococcus callidus	Pseudoflavonifractor capillosus	1.0	Stool	#ded579
+Ruminococcus callidus	Ruminococcaceae bacterium D16	1.0	Stool	#ded579
+Ruminococcus faecis	Butyricimonas virosa	1.0	Stool	#ded579
+[Ruminococcus] gnavus	Bacteroides sp. D2	1.0	Stool	#ded579
+[Ruminococcus] gnavus	Bacteroides sp. D22	1.0	Stool	#ded579
+[Ruminococcus] gnavus	Bacteroides xylanisolvens	1.0	Stool	#ded579
+[Ruminococcus] gnavus	Bifidobacterium pseudocatenulatum	1.0	Mixed	#cccccc
+[Ruminococcus] gnavus	Deinococcus radiodurans	1.0	Mixed	#cccccc
+[Ruminococcus] gnavus	Eubacterium ramulus	1.0	Stool	#ded579
+[Ruminococcus] gnavus	Listeria monocytogenes	1.0	Mixed	#cccccc
+Selenomonas sp. oral taxon 138	Selenomonas sp. FOBRC6	0.858498055899	Attached	#622ffe
+Selenomonas sputigena	Selenomonas sp. CM52	0.839364625915	Subgingival_plaque	#feb562
+Shuttleworthia satelles	Atopobium sp. oral taxon 199	0.814977516206	Subgingival_plaque	#feb562
+Shuttleworthia satelles	Atopobium sp. oral taxon 810	1.0	Mixed	#cccccc
+Shuttleworthia satelles	Mogibacterium timidum	1.0	Mixed	#cccccc
+Shuttleworthia satelles	Olsenella sp. oral taxon 809	1.0	Mixed	#cccccc
+Shuttleworthia satelles	Prevotella dentasini	1.0	Mixed	#cccccc
+Shuttleworthia sp. MSX8B	Atopobium sp. oral taxon 810	0.814977516206	Mixed	#cccccc
+Shuttleworthia sp. MSX8B	Mogibacterium timidum	0.814977516206	Mixed	#cccccc
+Shuttleworthia sp. MSX8B	Olsenella sp. oral taxon 809	0.814977516206	Mixed	#cccccc
+Shuttleworthia sp. MSX8B	Prevotella dentasini	0.814977516206	Mixed	#cccccc
+Shuttleworthia sp. MSX8B	Shuttleworthia satelles	0.814977516206	Subgingival_plaque	#feb562
+Sinorhizobium sp. GL28	Bacteroides nordii	1.0	Stool	#ded579
+Sinorhizobium sp. GL28	Bacteroides sp. 1_1_30	1.0	Stool	#ded579
+Sinorhizobium sp. GL28	Bacteroides sp. 2_2_4	0.814977516206	Stool	#ded579
+Sinorhizobium sp. GL28	Bacteroides sp. 4_1_36	1.0	Stool	#ded579
+Sinorhizobium sp. GL28	Bacteroides sp. D20	1.0	Stool	#ded579
+Sinorhizobium sp. GL28	Cellulomonas carbonis	1.0	Stool	#ded579
+Sinorhizobium sp. GL28	[Clostridium] clostridioforme	0.814977516206	Stool	#ded579
+Sinorhizobium sp. GL28	Clostridium sp. GD3	1.0	Stool	#ded579
+Sinorhizobium sp. GL28	Clostridium sp. L2-50	1.0	Stool	#ded579
+Sinorhizobium sp. GL28	Clostridium sp. M62/1	1.0	Stool	#ded579
+Sinorhizobium sp. GL28	Collinsella aerofaciens	1.0	Stool	#ded579
+Sinorhizobium sp. GL28	Collinsella sp. 4_8_47FAA	1.0	Stool	#ded579
+Sinorhizobium sp. GL28	Coprococcus comes	1.0	Stool	#ded579
+Sinorhizobium sp. GL28	Eubacterium ventriosum	1.0	Stool	#ded579
+Sinorhizobium sp. GL28	Intestinimonas butyriciproducens	1.0	Stool	#ded579
+Sinorhizobium sp. GL28	Intestinimonas sp. GD2	1.0	Stool	#ded579
+Sinorhizobium sp. GL28	Oscillibacter ruminantium	1.0	Stool	#ded579
+Sinorhizobium sp. GL28	Oscillospiraceae bacterium VE202-24	1.0	Stool	#ded579
+Sinorhizobium sp. GL28	Parabacteroides goldsteinii	1.0	Stool	#ded579
+Sinorhizobium sp. GL28	Parabacteroides sp. 20_3	1.0	Stool	#ded579
+Sinorhizobium sp. GL28	Parabacteroides sp. D13	1.0	Stool	#ded579
+Sinorhizobium sp. GL28	Paraprevotella xylaniphila	1.0	Stool	#ded579
+Sinorhizobium sp. GL28	Prevotella buccalis	1.0	Mixed	#cccccc
+Sinorhizobium sp. GL28	Prevotella sp. 109	1.0	Stool	#ded579
+Sinorhizobium sp. GL28	Prevotella stercorea	1.0	Mixed	#cccccc
+Sinorhizobium sp. GL28	Pseudoflavonifractor capillosus	1.0	Stool	#ded579
+Sinorhizobium sp. GL28	Ruminococcaceae bacterium D16	1.0	Stool	#ded579
+Sinorhizobium sp. GL28	Ruminococcus callidus	1.0	Stool	#ded579
+Sphingomonas sp. Ant H11	Kocuria palustris	1.0	Mixed	#cccccc
+Sphingomonas sp. Ant H11	Lactobacillus crispatus	1.0	Mixed	#cccccc
+Stenotrophomonas maltophilia	Kocuria palustris	1.0	Mixed	#cccccc
+Stenotrophomonas maltophilia	Lactobacillus crispatus	1.0	Mixed	#cccccc
+Stenotrophomonas maltophilia	Sphingomonas sp. Ant H11	1.0	Anterior_nares	#8000ff
+Streptococcus merionis	Bacteroides clarus	1.0	Mixed	#cccccc
+Streptococcus merionis	Lactococcus garvieae	1.0	Mixed	#cccccc
+Streptococcus oralis	Rothia aeria	1.0	Mixed	#cccccc
+Streptococcus sp. 400_SSPC	Streptococcus sp. 1171_SSPC	0.826835889127	Palatine_Tonsils	#5efac6
+Streptococcus sp. 400_SSPC	Streptococcus sp. 343_SSPC	0.833419150185	Palatine_Tonsils	#5efac6
+Streptococcus sp. CCH5-D3	Acinetobacter baumannii	0.814977516206	Mixed	#cccccc
+Streptococcus sp. CCH5-D3	Actinomyces sp. HPA0247	1.0	Tongue_dorsum	#ff3219
+Streptococcus sp. CCH5-D3	Actinomyces sp. ICM58	0.814977516206	Tongue_dorsum	#ff3219
+Streptococcus sp. CCH5-D3	Atopobium sp. ICM42b	1.0	Mixed	#cccccc
+Streptococcus sp. CCH5-D3	Peptostreptococcus sp. MV1	1.0	Mixed	#cccccc
+Streptococcus sp. CCH8-H5	Acinetobacter baumannii	0.814977516206	Mixed	#cccccc
+Streptococcus sp. CCH8-H5	Actinomyces sp. HPA0247	1.0	Mixed	#cccccc
+Streptococcus sp. CCH8-H5	Actinomyces sp. ICM58	0.814977516206	Mixed	#cccccc
+Streptococcus sp. CCH8-H5	Atopobium sp. ICM42b	1.0	Mixed	#cccccc
+Streptococcus sp. CCH8-H5	Peptostreptococcus sp. MV1	1.0	Mixed	#cccccc
+Streptococcus sp. CCH8-H5	Streptococcus sp. CCH5-D3	1.0	Mixed	#cccccc
+Streptococcus sp. HPH0090	Streptococcus peroris	0.819347439149	Mixed	#cccccc
+Streptococcus sp. I-P16	Actinomyces sp. ICM58	0.864408174728	Tongue_dorsum	#ff3219
+Streptococcus sp. I-P16	Oribacterium asaccharolyticum	0.813432793084	Mixed	#cccccc
+Streptococcus sp. I-P16	Oribacterium sp. oral taxon 108	0.892750662458	Mixed	#cccccc
+Streptococcus sp. I-P16	Streptococcus sp. I-G2	0.813432793084	Tongue_dorsum	#ff3219
+Streptococcus thermophilus	Granulicatella adiacens	0.810263691451	Mixed	#cccccc
+Streptococcus urinalis	Gemella cuniculi	1.0	Mixed	#cccccc
+Streptococcus urinalis	Mannheimia haemolytica	1.0	Mixed	#cccccc
+Streptococcus urinalis	Parasutterella excrementihominis	0.814977516206	Mixed	#cccccc
+Treponema medium	Treponema denticola	0.846250272509	Subgingival_plaque	#feb562
+Treponema putidum	Treponema pedis	0.870559346659	Subgingival_plaque	#feb562
+Treponema sp. OMZ 838	Treponema medium	0.898331900991	Subgingival_plaque	#feb562
+Treponema vincentii	Treponema medium	0.881891158055	Subgingival_plaque	#feb562
+Treponema vincentii	Treponema sp. OMZ 838	0.854922311582	Subgingival_plaque	#feb562
+Trueperella pyogenes	Actinomyces sp. oral taxon 181	0.829559748428	Tongue_dorsum	#ff3219
+Trueperella pyogenes	Actinomyces sp. ph3	0.862751193938	Tongue_dorsum	#ff3219
+Tyzzerella nexilis	Bacteroides sp. D2	1.0	Stool	#ded579
+Tyzzerella nexilis	Bacteroides sp. D22	1.0	Stool	#ded579
+Tyzzerella nexilis	Bacteroides xylanisolvens	1.0	Stool	#ded579
+Tyzzerella nexilis	Bifidobacterium pseudocatenulatum	1.0	Mixed	#cccccc
+Tyzzerella nexilis	Deinococcus radiodurans	1.0	Mixed	#cccccc
+Tyzzerella nexilis	Eubacterium ramulus	1.0	Stool	#ded579
+Tyzzerella nexilis	Listeria monocytogenes	1.0	Mixed	#cccccc
+Tyzzerella nexilis	[Ruminococcus] gnavus	1.0	Stool	#ded579
+Veillonella sp. 6_1_27	Veillonella dispar	0.806425806039	Mixed	#cccccc
+Veillonella sp. OK1	Acinetobacter baumannii	0.814977516206	Mixed	#cccccc
+Veillonella sp. OK1	Actinomyces sp. HPA0247	1.0	Tongue_dorsum	#ff3219
+Veillonella sp. OK1	Actinomyces sp. ICM58	0.814977516206	Tongue_dorsum	#ff3219
+Veillonella sp. OK1	Atopobium sp. ICM42b	1.0	Mixed	#cccccc
+Veillonella sp. OK1	Peptostreptococcus sp. MV1	1.0	Mixed	#cccccc
+Veillonella sp. OK1	Streptococcus sp. CCH5-D3	1.0	Tongue_dorsum	#ff3219
+Veillonella sp. OK1	Streptococcus sp. CCH8-H5	1.0	Mixed	#cccccc
+Vitreoscilla stercoraria	Haemophilus sp. FF7	1.0	Mixed	#cccccc
+Xanthomonas campestris	Bacteroides sp. D2	1.0	Mixed	#cccccc
+Xanthomonas campestris	Bacteroides sp. D22	1.0	Mixed	#cccccc
+Xanthomonas campestris	Bacteroides xylanisolvens	1.0	Mixed	#cccccc
+Xanthomonas campestris	Bifidobacterium pseudocatenulatum	1.0	Mixed	#cccccc
+Xanthomonas campestris	Deinococcus radiodurans	1.0	Mixed	#cccccc
+Xanthomonas campestris	Eubacterium ramulus	1.0	Mixed	#cccccc
+Xanthomonas campestris	Listeria monocytogenes	1.0	Mixed	#cccccc
+Xanthomonas campestris	[Ruminococcus] gnavus	1.0	Mixed	#cccccc
+Xanthomonas campestris	Tyzzerella nexilis	1.0	Mixed	#cccccc

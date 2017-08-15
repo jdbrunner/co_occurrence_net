@@ -1,0 +1,2521 @@
+source	target	weight	edge_sample	edge_color
+Acinetobacter sp. P8-3-8	Acinetobacter bereziniae	0.814577667391	R_Retroauricular_crease	#9efaa2
+Acinetobacter sp. P8-3-8	Acinetobacter sp. NIPH 284	0.814577667391	Mixed	#cccccc
+Acinetobacter sp. VT 511	Acinetobacter sp. MII	1.0	Anterior_nares	#8000ff
+Acinetobacter tandoii	Acinetobacter sp. 243_ASPC	1.0	Anterior_nares	#8000ff
+Acinetobacter ursingii	Acinetobacter bereziniae	0.863980476719	R_Retroauricular_crease	#9efaa2
+Acinetobacter ursingii	Acinetobacter sp. NIPH 284	0.863980476719	Mixed	#cccccc
+Actinomyces europaeus	Acinetobacter sp. CIP 101966	1.0	Mixed	#cccccc
+Actinomyces sp. S4-C9	Acinetobacter sp. NIPH 817	1.0	Anterior_nares	#8000ff
+Actinomyces vaccimaxillae	Acinetobacter bereziniae	0.814577667391	Mixed	#cccccc
+Actinomyces vaccimaxillae	Acinetobacter sp. NIPH 284	0.814577667391	Mixed	#cccccc
+Actinomyces vaccimaxillae	Acinetobacter sp. P8-3-8	1.0	Mixed	#cccccc
+Advenella kashmirensis	Acinetobacter sp. CIP 101966	1.0	Mixed	#cccccc
+Advenella kashmirensis	Actinomyces europaeus	1.0	Anterior_nares	#8000ff
+Aeromonas hydrophila	Acidithiobacillus caldus	1.0	Mixed	#cccccc
+Aeromonas rivuli	Aerococcus urinae	1.0	Anterior_nares	#8000ff
+Aeromonas salmonicida	Acidithiobacillus caldus	1.0	Mixed	#cccccc
+Aeromonas salmonicida	Aeromonas hydrophila	1.0	Mixed	#cccccc
+Aeromonas sanarellii	Acinetobacter tjernbergiae	1.0	Anterior_nares	#8000ff
+Agrobacterium albertimagni	Actinobacteria bacterium UC5.1-1B11	1.0	Anterior_nares	#8000ff
+Agrobacterium sp. LC34	Afipia clevelandensis	0.814577667391	Anterior_nares	#8000ff
+Aliivibrio salmonicida	Actinoplanes rectilineatus	1.0	Anterior_nares	#8000ff
+Anaerofustis stercorihominis	Acinetobacter radioresistens	1.0	Mixed	#cccccc
+Anaeroglobus geminatus	Actinomyces sp. oral taxon 877	1.0	Mixed	#cccccc
+Anoxybacillus tepidamans	Acinetobacter sp. NIPH 899	1.0	Anterior_nares	#8000ff
+Arthrobacter sp. AK-YN10	Arthrobacter castelli	0.814577667391	Anterior_nares	#8000ff
+Arthrobacter sp. L77	Actinobacteria bacterium UC5.1-1B11	1.0	Anterior_nares	#8000ff
+Arthrobacter sp. L77	Agrobacterium albertimagni	1.0	Anterior_nares	#8000ff
+Atopobium sp. BS2	Actinomyces sp. ICM58	0.805035344165	Mixed	#cccccc
+Atopococcus tabaci	Acinetobacter bereziniae	0.814577667391	Mixed	#cccccc
+Atopococcus tabaci	Acinetobacter sp. NIPH 284	0.814577667391	Mixed	#cccccc
+Atopococcus tabaci	Acinetobacter sp. P8-3-8	1.0	Mixed	#cccccc
+Atopococcus tabaci	Actinomyces vaccimaxillae	1.0	Anterior_nares	#8000ff
+Aurantimonas coralicida	Acinetobacter sp. 243_ASPC	1.0	Anterior_nares	#8000ff
+Aurantimonas coralicida	Acinetobacter tandoii	1.0	Anterior_nares	#8000ff
+Bacillus nealsonii	Bacillaceae bacterium MTCC 8252	1.0	Anterior_nares	#8000ff
+Bacillus smithii	Aerococcus urinae	1.0	Mixed	#cccccc
+Bacillus smithii	Aeromonas rivuli	1.0	Mixed	#cccccc
+Bacillus velezensis	Acinetobacter sp. NIPH 899	1.0	Anterior_nares	#8000ff
+Bacillus velezensis	Anoxybacillus tepidamans	1.0	Anterior_nares	#8000ff
+Bacteroidaceae bacterium MS4	Acinetobacter radioresistens	1.0	Mixed	#cccccc
+Bacteroidaceae bacterium MS4	Anaerofustis stercorihominis	1.0	Stool	#ded579
+Bacteroides stercorirosoris	Afipia clevelandensis	0.814577667391	Mixed	#cccccc
+Bacteroides stercorirosoris	Agrobacterium sp. LC34	1.0	Mixed	#cccccc
+Bdellovibrio bacteriovorus	Archangium gephyra	1.0	Anterior_nares	#8000ff
+Belnapia moabensis	Arthrobacter castelli	0.814577667391	Mixed	#cccccc
+Belnapia moabensis	Arthrobacter sp. AK-YN10	1.0	Mixed	#cccccc
+Bifidobacterium kashiwanohense	Arthrobacter sp. JCM 19049	0.910694833281	Mixed	#cccccc
+Bilophila wadsworthia	Agrobacterium vitis	1.0	Mixed	#cccccc
+Bordetella petrii	Arthrobacter sp. H14	1.0	Anterior_nares	#8000ff
+Bosea sp. Root483D1	Bacillus amyloliquefaciens	1.0	Mixed	#cccccc
+Brachybacterium faecium	Bacillus amyloliquefaciens	1.0	Anterior_nares	#8000ff
+Brachybacterium faecium	Bosea sp. Root483D1	1.0	Mixed	#cccccc
+Brachymonas chironomi	Arcobacter butzleri	0.863980476719	Mixed	#cccccc
+Brachymonas chironomi	Bifidobacterium subtile	0.863980476719	Anterior_nares	#8000ff
+Bradyrhizobium lablabi	Arthrobacter castelli	0.814577667391	Anterior_nares	#8000ff
+Bradyrhizobium sp. URHA0002	Arthrobacter castelli	0.863980476719	Anterior_nares	#8000ff
+Brevibacillus borstelensis	Actinomyces sp. oral taxon 877	1.0	Mixed	#cccccc
+Brevibacillus borstelensis	Anaeroglobus geminatus	1.0	Mixed	#cccccc
+Brevibacterium senegalense	Arthrobacter castelli	0.814577667391	Anterior_nares	#8000ff
+Brevibacterium senegalense	Bradyrhizobium lablabi	1.0	Anterior_nares	#8000ff
+Brevundimonas abyssalis	Afipia clevelandensis	0.814577667391	Mixed	#cccccc
+Brevundimonas abyssalis	Agrobacterium sp. LC34	1.0	Mixed	#cccccc
+Brevundimonas abyssalis	Bacteroides stercorirosoris	1.0	Mixed	#cccccc
+Brevundimonas nasdae	Actinobacteria bacterium UC5.1-1B11	1.0	Mixed	#cccccc
+Brevundimonas nasdae	Agrobacterium albertimagni	1.0	Mixed	#cccccc
+Brevundimonas nasdae	Arthrobacter sp. L77	1.0	Mixed	#cccccc
+Brevundimonas sp. BAL3	Actinobacteria bacterium UC5.1-1B11	1.0	Mixed	#cccccc
+Brevundimonas sp. BAL3	Agrobacterium albertimagni	1.0	Mixed	#cccccc
+Brevundimonas sp. BAL3	Arthrobacter sp. L77	1.0	Mixed	#cccccc
+Brevundimonas sp. BAL3	Brevundimonas nasdae	1.0	R_Retroauricular_crease	#9efaa2
+Brevundimonas sp. EAKA	Bradyrhizobium japonicum	0.892305178067	Mixed	#cccccc
+Burkholderia ambifaria	Acinetobacter bereziniae	0.814577667391	Mixed	#cccccc
+Burkholderia ambifaria	Acinetobacter sp. NIPH 284	0.814577667391	Mixed	#cccccc
+Burkholderia ambifaria	Acinetobacter sp. P8-3-8	1.0	Mixed	#cccccc
+Burkholderia ambifaria	Actinomyces vaccimaxillae	1.0	Anterior_nares	#8000ff
+Burkholderia ambifaria	Atopococcus tabaci	1.0	Anterior_nares	#8000ff
+Burkholderia contaminans	Agrobacterium vitis	1.0	Mixed	#cccccc
+Burkholderia contaminans	Bilophila wadsworthia	1.0	Mixed	#cccccc
+Burkholderia vietnamiensis	Azonexus hydrophilus	1.0	Buccal_mucosa	#425ffa
+Candidatus Saccharibacteria bacterium RAAC3_TM7_1	Campylobacter curvus	1.0	Mixed	#cccccc
+Capnocytophaga canimorsus	Actinomyces sp. MS2	0.892305178067	Mixed	#cccccc
+Capnocytophaga sp. oral taxon 324	Campylobacter curvus	0.814577667391	Mixed	#cccccc
+Capnocytophaga sp. oral taxon 324	Candidatus Saccharibacteria bacterium RAAC3_TM7_1	0.814577667391	Mixed	#cccccc
+Capnocytophaga sp. oral taxon 335	Campylobacter curvus	0.814577667391	Supragingival_plaque	#ff8e4a
+Capnocytophaga sp. oral taxon 335	Candidatus Saccharibacteria bacterium RAAC3_TM7_1	0.814577667391	Mixed	#cccccc
+Capnocytophaga sp. oral taxon 336	Campylobacter curvus	1.0	Mixed	#cccccc
+Capnocytophaga sp. oral taxon 336	Candidatus Saccharibacteria bacterium RAAC3_TM7_1	1.0	Mixed	#cccccc
+Capnocytophaga sp. oral taxon 336	Capnocytophaga sp. oral taxon 324	0.814577667391	Subgingival_plaque	#feb562
+Capnocytophaga sp. oral taxon 336	Capnocytophaga sp. oral taxon 335	0.814577667391	Mixed	#cccccc
+Carnobacterium sp. WN1374	Aminobacter sp. J41	0.814577667391	Mixed	#cccccc
+Carnobacterium sp. ZWU0011	Bacillus amyloliquefaciens	1.0	Mixed	#cccccc
+Carnobacterium sp. ZWU0011	Bosea sp. Root483D1	1.0	Mixed	#cccccc
+Carnobacterium sp. ZWU0011	Brachybacterium faecium	1.0	Mixed	#cccccc
+Cellulomonas carbonis	Afipia clevelandensis	0.814577667391	Mixed	#cccccc
+Cellulomonas carbonis	Agrobacterium sp. LC34	1.0	Mixed	#cccccc
+Cellulomonas carbonis	Bacteroides stercorirosoris	1.0	Stool	#ded579
+Cellulomonas carbonis	Brevundimonas abyssalis	1.0	Mixed	#cccccc
+Cellulomonas flavigena	Acinetobacter sp. CIP 101966	0.814577667391	Mixed	#cccccc
+Cellulomonas flavigena	Actinomyces europaeus	0.814577667391	Mixed	#cccccc
+Cellulomonas flavigena	Advenella kashmirensis	0.814577667391	Mixed	#cccccc
+Cellulomonas gilvus	Actinoplanes sp. SE50/110	1.0	Anterior_nares	#8000ff
+Cellulomonas sp. Leaf334	Belnapia sp. F-4-1	1.0	Mixed	#cccccc
+Cellulomonas sp. Root485	Actinoplanes sp. SE50/110	1.0	Anterior_nares	#8000ff
+Cellulomonas sp. Root485	Cellulomonas gilvus	1.0	Anterior_nares	#8000ff
+Chryseobacterium hispalense	Actinobacillus pleuropneumoniae	1.0	Mixed	#cccccc
+Chryseobacterium oranimense	Bacillus clausii	1.0	Anterior_nares	#8000ff
+Chryseobacterium sp. FF12	Acinetobacter sp. CIP 101966	0.814577667391	R_Retroauricular_crease	#9efaa2
+Chryseobacterium sp. FF12	Actinomyces europaeus	0.814577667391	Mixed	#cccccc
+Chryseobacterium sp. FF12	Advenella kashmirensis	0.814577667391	Mixed	#cccccc
+Chryseobacterium sp. Hurlbut01	Aminobacter sp. Root100	1.0	Mixed	#cccccc
+Chryseobacterium sp. UNC8MFCol	Acinetobacter pittii	0.814577667391	Mixed	#cccccc
+Chryseobacterium vrystaatense	Acinetobacter bereziniae	0.814577667391	Mixed	#cccccc
+Chryseobacterium vrystaatense	Acinetobacter sp. NIPH 284	0.814577667391	Mixed	#cccccc
+Chryseobacterium vrystaatense	Acinetobacter sp. P8-3-8	1.0	Mixed	#cccccc
+Chryseobacterium vrystaatense	Actinomyces vaccimaxillae	1.0	Anterior_nares	#8000ff
+Chryseobacterium vrystaatense	Atopococcus tabaci	1.0	Anterior_nares	#8000ff
+Chryseobacterium vrystaatense	Burkholderia ambifaria	1.0	Anterior_nares	#8000ff
+Clostridiales bacterium SIT13	Caldimonas manganoxidans	1.0	Mixed	#cccccc
+Clostridiales bacterium VE202-13	Clostridiaceae bacterium MS3	1.0	Stool	#ded579
+Clostridiales bacterium VE202-27	Agrobacterium sp. LC34	0.814577667391	Mixed	#cccccc
+Clostridiales bacterium VE202-27	Bacteroides stercorirosoris	0.814577667391	Stool	#ded579
+Clostridiales bacterium VE202-27	Brevundimonas abyssalis	0.814577667391	Mixed	#cccccc
+Clostridiales bacterium VE202-27	Cellulomonas carbonis	0.814577667391	Stool	#ded579
+Clostridiales bacterium VE202-28	Aureimonas sp. Leaf454	1.0	Mixed	#cccccc
+[Clostridium] asparagiforme	Afipia clevelandensis	0.814577667391	Mixed	#cccccc
+[Clostridium] asparagiforme	Agrobacterium sp. LC34	1.0	Mixed	#cccccc
+[Clostridium] asparagiforme	Bacteroides stercorirosoris	1.0	Stool	#ded579
+[Clostridium] asparagiforme	Brevundimonas abyssalis	1.0	Mixed	#cccccc
+[Clostridium] asparagiforme	Cellulomonas carbonis	1.0	Stool	#ded579
+[Clostridium] asparagiforme	Clostridiales bacterium VE202-27	0.814577667391	Stool	#ded579
+Clostridium baratii	Aureimonas sp. Leaf324	0.814577667391	Mixed	#cccccc
+[Clostridium] bolteae	Clostridiaceae bacterium MS3	1.0	Stool	#ded579
+[Clostridium] bolteae	Clostridiales bacterium VE202-13	1.0	Stool	#ded579
+Clostridium sp. ATCC 29733	Actinomyces sp. oral taxon 877	1.0	Mixed	#cccccc
+Clostridium sp. ATCC 29733	Anaeroglobus geminatus	1.0	Mixed	#cccccc
+Clostridium sp. ATCC 29733	Brevibacillus borstelensis	1.0	Mixed	#cccccc
+Collinsella sp. MS5	Acetobacter syzygii	1.0	Mixed	#cccccc
+Collinsella stercoris	Clostridiaceae bacterium MS3	1.0	Stool	#ded579
+Collinsella stercoris	Clostridiales bacterium VE202-13	1.0	Stool	#ded579
+Collinsella stercoris	[Clostridium] bolteae	1.0	Stool	#ded579
+Collinsella tanakaei	Aliihoeflea sp. 2WW	1.0	Mixed	#cccccc
+Comamonas granuli	Aureimonas sp. Leaf324	0.863980476719	Anterior_nares	#8000ff
+Comamonas sp. E6	Burkholderia diffusa	1.0	Anterior_nares	#8000ff
+Coprococcus sp. HPP0048	Campylobacter sp. FOBRC14	1.0	Mixed	#cccccc
+Corynebacterium amycolatum	Acinetobacter sp. NIPH 284	0.863980476719	L_Retroauricular_crease	#1fd3e1
+Corynebacterium capitovis	Actinoplanes sp. SE50/110	1.0	Anterior_nares	#8000ff
+Corynebacterium capitovis	Cellulomonas gilvus	1.0	Anterior_nares	#8000ff
+Corynebacterium capitovis	Cellulomonas sp. Root485	1.0	Anterior_nares	#8000ff
+Corynebacterium freneyi	Arthrobacter castelli	1.0	Mixed	#cccccc
+Corynebacterium freneyi	Arthrobacter sp. AK-YN10	0.814577667391	Mixed	#cccccc
+Corynebacterium freneyi	Belnapia moabensis	0.814577667391	L_Retroauricular_crease	#1fd3e1
+Corynebacterium freneyi	Bradyrhizobium lablabi	0.814577667391	Mixed	#cccccc
+Corynebacterium freneyi	Bradyrhizobium sp. URHA0002	0.863980476719	Mixed	#cccccc
+Corynebacterium freneyi	Brevibacterium senegalense	0.814577667391	Mixed	#cccccc
+Corynebacterium glyciniphilum	Arthrobacter castelli	1.0	Anterior_nares	#8000ff
+Corynebacterium glyciniphilum	Arthrobacter sp. AK-YN10	0.814577667391	Anterior_nares	#8000ff
+Corynebacterium glyciniphilum	Belnapia moabensis	0.814577667391	Mixed	#cccccc
+Corynebacterium glyciniphilum	Bradyrhizobium lablabi	0.814577667391	Anterior_nares	#8000ff
+Corynebacterium glyciniphilum	Bradyrhizobium sp. URHA0002	0.863980476719	Anterior_nares	#8000ff
+Corynebacterium glyciniphilum	Brevibacterium senegalense	0.814577667391	Anterior_nares	#8000ff
+Corynebacterium glyciniphilum	Corynebacterium freneyi	1.0	Mixed	#cccccc
+Corynebacterium humireducens	Acidithiobacillus caldus	1.0	Mixed	#cccccc
+Corynebacterium humireducens	Aeromonas hydrophila	1.0	Mixed	#cccccc
+Corynebacterium humireducens	Aeromonas salmonicida	1.0	Anterior_nares	#8000ff
+Corynebacterium marinum	Chelatococcus sambhunathii	1.0	Anterior_nares	#8000ff
+Corynebacterium pilosum	Actinobacteria bacterium UC5.1-1B11	1.0	Mixed	#cccccc
+Corynebacterium pilosum	Agrobacterium albertimagni	1.0	Mixed	#cccccc
+Corynebacterium pilosum	Arthrobacter sp. L77	1.0	Mixed	#cccccc
+Corynebacterium pilosum	Brevundimonas nasdae	1.0	R_Retroauricular_crease	#9efaa2
+Corynebacterium pilosum	Brevundimonas sp. BAL3	1.0	R_Retroauricular_crease	#9efaa2
+Corynebacterium sp. ATCC 6931	Acinetobacter ursingii	0.892305178067	Mixed	#cccccc
+Corynebacterium sp. KPL1818	Corynebacterium accolens	0.804802668052	Anterior_nares	#8000ff
+Corynebacterium terpenotabidum	Chryseobacterium sp. StRB126	1.0	Anterior_nares	#8000ff
+Corynebacterium ulceribovis	Aliihoeflea sp. 2WW	1.0	Mixed	#cccccc
+Corynebacterium ulceribovis	Collinsella tanakaei	1.0	Mixed	#cccccc
+Corynebacterium uterequi	Acinetobacter sp. CIP 101966	1.0	Mixed	#cccccc
+Corynebacterium uterequi	Actinomyces europaeus	1.0	Anterior_nares	#8000ff
+Corynebacterium uterequi	Advenella kashmirensis	1.0	Anterior_nares	#8000ff
+Corynebacterium uterequi	Cellulomonas flavigena	0.814577667391	Mixed	#cccccc
+Corynebacterium uterequi	Chryseobacterium sp. FF12	0.814577667391	Mixed	#cccccc
+Corynebacterium xerosis	Acinetobacter sp. MII	1.0	Mixed	#cccccc
+Corynebacterium xerosis	Acinetobacter sp. VT 511	1.0	Mixed	#cccccc
+Cronobacter dublinensis	Aureimonas sp. Leaf324	0.814577667391	Anterior_nares	#8000ff
+Cronobacter malonaticus	Aureimonas sp. Leaf324	1.0	Anterior_nares	#8000ff
+Cronobacter malonaticus	Clostridium baratii	0.814577667391	Mixed	#cccccc
+Cronobacter malonaticus	Comamonas granuli	0.863980476719	Anterior_nares	#8000ff
+Cronobacter malonaticus	Cronobacter dublinensis	0.814577667391	Anterior_nares	#8000ff
+Cronobacter turicensis	Aureimonas sp. Leaf324	0.814577667391	Anterior_nares	#8000ff
+Cronobacter turicensis	Clostridium baratii	1.0	Mixed	#cccccc
+Cronobacter turicensis	Cronobacter malonaticus	0.814577667391	Anterior_nares	#8000ff
+Cronobacter universalis	Aureimonas sp. Leaf324	0.814577667391	Anterior_nares	#8000ff
+Cronobacter universalis	Cronobacter malonaticus	0.814577667391	Anterior_nares	#8000ff
+Cupriavidus basilensis	Burkholderia cepacia	0.814577667391	Mixed	#cccccc
+Curtobacterium luteum	Arthrobacter sp. H14	1.0	Anterior_nares	#8000ff
+Curtobacterium luteum	Bordetella petrii	1.0	Anterior_nares	#8000ff
+Curvibacter lanceolatus	Curvibacter gracilis	0.830604506461	Anterior_nares	#8000ff
+Cystobacter fuscus	Belnapia sp. F-4-1	1.0	Mixed	#cccccc
+Cystobacter fuscus	Cellulomonas sp. Leaf334	1.0	Anterior_nares	#8000ff
+Cystobacter violaceus	Belnapia sp. F-4-1	1.0	Mixed	#cccccc
+Cystobacter violaceus	Cellulomonas sp. Leaf334	1.0	Anterior_nares	#8000ff
+Cystobacter violaceus	Cystobacter fuscus	1.0	Anterior_nares	#8000ff
+Dactylosporangium aurantiacum	Aliihoeflea sp. 2WW	1.0	Mixed	#cccccc
+Dactylosporangium aurantiacum	Collinsella tanakaei	1.0	Mixed	#cccccc
+Dactylosporangium aurantiacum	Corynebacterium ulceribovis	1.0	Anterior_nares	#8000ff
+Deinococcus gobiensis	Actinomyces sp. oral taxon 180	1.0	Mixed	#cccccc
+Deinococcus phoenicis	Aliihoeflea sp. 2WW	1.0	Mixed	#cccccc
+Deinococcus phoenicis	Collinsella tanakaei	1.0	Mixed	#cccccc
+Deinococcus phoenicis	Corynebacterium ulceribovis	1.0	Anterior_nares	#8000ff
+Deinococcus phoenicis	Dactylosporangium aurantiacum	1.0	Anterior_nares	#8000ff
+Deinococcus radiodurans	Belnapia sp. F-4-1	1.0	Mixed	#cccccc
+Deinococcus radiodurans	Cellulomonas sp. Leaf334	1.0	Mixed	#cccccc
+Deinococcus radiodurans	Cystobacter fuscus	1.0	Mixed	#cccccc
+Deinococcus radiodurans	Cystobacter violaceus	1.0	Mixed	#cccccc
+Deinococcus sp. 2009	Actinoplanes sp. SE50/110	1.0	Anterior_nares	#8000ff
+Deinococcus sp. 2009	Cellulomonas gilvus	1.0	Anterior_nares	#8000ff
+Deinococcus sp. 2009	Cellulomonas sp. Root485	1.0	Anterior_nares	#8000ff
+Deinococcus sp. 2009	Corynebacterium capitovis	1.0	Anterior_nares	#8000ff
+Deinococcus sp. Leaf326	Actinomyces sp. oral taxon 180	0.814577667391	Mixed	#cccccc
+Deinococcus sp. Leaf326	Deinococcus gobiensis	0.814577667391	Anterior_nares	#8000ff
+Deinococcus wulumuqiensis	Arthrobacter castelli	1.0	Mixed	#cccccc
+Deinococcus wulumuqiensis	Arthrobacter sp. AK-YN10	0.814577667391	Mixed	#cccccc
+Deinococcus wulumuqiensis	Belnapia moabensis	0.814577667391	Mixed	#cccccc
+Deinococcus wulumuqiensis	Bradyrhizobium lablabi	0.814577667391	Mixed	#cccccc
+Deinococcus wulumuqiensis	Bradyrhizobium sp. URHA0002	0.863980476719	Mixed	#cccccc
+Deinococcus wulumuqiensis	Brevibacterium senegalense	0.814577667391	Mixed	#cccccc
+Deinococcus wulumuqiensis	Corynebacterium freneyi	1.0	Mixed	#cccccc
+Deinococcus wulumuqiensis	Corynebacterium glyciniphilum	1.0	Mixed	#cccccc
+Delftia tsuruhatensis	Chryseobacterium sp. Leaf394	1.0	Anterior_nares	#8000ff
+Demetria terragena	Belnapia sp. F-4-1	1.0	Mixed	#cccccc
+Demetria terragena	Cellulomonas sp. Leaf334	1.0	Anterior_nares	#8000ff
+Demetria terragena	Cystobacter fuscus	1.0	Anterior_nares	#8000ff
+Demetria terragena	Cystobacter violaceus	1.0	Anterior_nares	#8000ff
+Demetria terragena	Deinococcus radiodurans	1.0	Mixed	#cccccc
+Desulfovibrio desulfuricans	Brachymonas chironomi	0.863980476719	Mixed	#cccccc
+Dorea sp. AGR2135	Caldimonas manganoxidans	1.0	Mixed	#cccccc
+Dorea sp. AGR2135	Clostridiales bacterium SIT13	1.0	Mixed	#cccccc
+Dyadobacter alkalitolerans	Aminobacter sp. J41	0.814577667391	Mixed	#cccccc
+Dyadobacter alkalitolerans	Carnobacterium sp. WN1374	1.0	R_Retroauricular_crease	#9efaa2
+Dyadobacter beijingensis	Acinetobacter sp. MII	1.0	Anterior_nares	#8000ff
+Dyadobacter beijingensis	Acinetobacter sp. VT 511	1.0	Anterior_nares	#8000ff
+Dyadobacter beijingensis	Corynebacterium xerosis	1.0	Mixed	#cccccc
+Dyadobacter sp. Leaf189	Aminobacter sp. Root100	1.0	Anterior_nares	#8000ff
+Dyadobacter sp. Leaf189	Chryseobacterium sp. Hurlbut01	1.0	Mixed	#cccccc
+Dysgonomonas mossii	Arthrobacter sp. H14	1.0	Mixed	#cccccc
+Dysgonomonas mossii	Bordetella petrii	1.0	Mixed	#cccccc
+Dysgonomonas mossii	Curtobacterium luteum	1.0	Mixed	#cccccc
+Elizabethkingia genomosp. 2	Burkholderia cepacia	1.0	Mixed	#cccccc
+Elizabethkingia genomosp. 2	Cupriavidus basilensis	0.814577667391	Mixed	#cccccc
+Elizabethkingia genomosp. 4	Cupriavidus gilardii	1.0	Anterior_nares	#8000ff
+Elizabethkingia meningoseptica	Acinetobacter sp. CIP 101966	1.0	Mixed	#cccccc
+Elizabethkingia meningoseptica	Actinomyces europaeus	1.0	Mixed	#cccccc
+Elizabethkingia meningoseptica	Advenella kashmirensis	1.0	Mixed	#cccccc
+Elizabethkingia meningoseptica	Cellulomonas flavigena	0.814577667391	Mixed	#cccccc
+Elizabethkingia meningoseptica	Chryseobacterium sp. FF12	0.814577667391	Mixed	#cccccc
+Elizabethkingia meningoseptica	Corynebacterium uterequi	1.0	Mixed	#cccccc
+Enterobacter asburiae	Acinetobacter sp. MII	1.0	Anterior_nares	#8000ff
+Enterobacter asburiae	Acinetobacter sp. VT 511	1.0	Anterior_nares	#8000ff
+Enterobacter asburiae	Corynebacterium xerosis	1.0	Mixed	#cccccc
+Enterobacter asburiae	Dyadobacter beijingensis	1.0	Anterior_nares	#8000ff
+Enterobacter hormaechei	Bacillus clausii	1.0	Mixed	#cccccc
+Enterobacter hormaechei	Chryseobacterium oranimense	1.0	Mixed	#cccccc
+Enterobacter sp. K66-74	Acinetobacter sp. CIP 101966	1.0	Mixed	#cccccc
+Enterobacter sp. K66-74	Actinomyces europaeus	1.0	Anterior_nares	#8000ff
+Enterobacter sp. K66-74	Advenella kashmirensis	1.0	Anterior_nares	#8000ff
+Enterobacter sp. K66-74	Cellulomonas flavigena	0.814577667391	Mixed	#cccccc
+Enterobacter sp. K66-74	Chryseobacterium sp. FF12	0.814577667391	Mixed	#cccccc
+Enterobacter sp. K66-74	Corynebacterium uterequi	1.0	Anterior_nares	#8000ff
+Enterobacter sp. K66-74	Elizabethkingia meningoseptica	1.0	Mixed	#cccccc
+Enterococcus avium	Aliihoeflea sp. 2WW	1.0	Mixed	#cccccc
+Enterococcus avium	Collinsella tanakaei	1.0	Mixed	#cccccc
+Enterococcus avium	Corynebacterium ulceribovis	1.0	Anterior_nares	#8000ff
+Enterococcus avium	Dactylosporangium aurantiacum	1.0	Anterior_nares	#8000ff
+Enterococcus avium	Deinococcus phoenicis	1.0	Anterior_nares	#8000ff
+Enterococcus mundtii	Aureimonas sp. Leaf324	1.0	Anterior_nares	#8000ff
+Enterococcus mundtii	Clostridium baratii	0.814577667391	Mixed	#cccccc
+Enterococcus mundtii	Comamonas granuli	0.863980476719	Anterior_nares	#8000ff
+Enterococcus mundtii	Cronobacter dublinensis	0.814577667391	Anterior_nares	#8000ff
+Enterococcus mundtii	Cronobacter malonaticus	1.0	Anterior_nares	#8000ff
+Enterococcus mundtii	Cronobacter turicensis	0.814577667391	Anterior_nares	#8000ff
+Enterococcus mundtii	Cronobacter universalis	0.814577667391	Anterior_nares	#8000ff
+Epilithonimonas lactis	Aureimonas sp. Leaf324	0.814577667391	Anterior_nares	#8000ff
+Epilithonimonas lactis	Cronobacter malonaticus	0.814577667391	Anterior_nares	#8000ff
+Epilithonimonas lactis	Cronobacter universalis	1.0	Anterior_nares	#8000ff
+Epilithonimonas lactis	Enterococcus mundtii	0.814577667391	Anterior_nares	#8000ff
+Epilithonimonas sp. FH1	Aminobacter sp. Root100	1.0	Mixed	#cccccc
+Epilithonimonas sp. FH1	Chryseobacterium sp. Hurlbut01	1.0	Buccal_mucosa	#425ffa
+Epilithonimonas sp. FH1	Dyadobacter sp. Leaf189	1.0	Mixed	#cccccc
+Epilithonimonas tenax	Acinetobacter ursingii	0.892305178067	R_Retroauricular_crease	#9efaa2
+Erwinia billingiae	Actinoplanes sp. SE50/110	1.0	Anterior_nares	#8000ff
+Erwinia billingiae	Cellulomonas gilvus	1.0	Anterior_nares	#8000ff
+Erwinia billingiae	Cellulomonas sp. Root485	1.0	Anterior_nares	#8000ff
+Erwinia billingiae	Corynebacterium capitovis	1.0	Anterior_nares	#8000ff
+Erwinia billingiae	Deinococcus sp. 2009	1.0	Anterior_nares	#8000ff
+Erwinia sp. SCU-B244	Acinetobacter sp. CIP 101966	1.0	Mixed	#cccccc
+Erwinia sp. SCU-B244	Actinomyces europaeus	1.0	Anterior_nares	#8000ff
+Erwinia sp. SCU-B244	Advenella kashmirensis	1.0	Anterior_nares	#8000ff
+Erwinia sp. SCU-B244	Cellulomonas flavigena	0.814577667391	Mixed	#cccccc
+Erwinia sp. SCU-B244	Chryseobacterium sp. FF12	0.814577667391	Mixed	#cccccc
+Erwinia sp. SCU-B244	Corynebacterium uterequi	1.0	Anterior_nares	#8000ff
+Erwinia sp. SCU-B244	Elizabethkingia meningoseptica	1.0	Mixed	#cccccc
+Erwinia sp. SCU-B244	Enterobacter sp. K66-74	1.0	Anterior_nares	#8000ff
+Erysipelotrichaceae bacterium 21_3	Arthrobacter sp. TB 23	1.0	Mixed	#cccccc
+Erysipelotrichaceae bacterium 2_2_44A	Chryseobacterium sp. StRB126	1.0	Mixed	#cccccc
+Erysipelotrichaceae bacterium 2_2_44A	Corynebacterium terpenotabidum	1.0	Mixed	#cccccc
+Escherichia hermannii	Arthrobacter castelli	0.814577667391	Anterior_nares	#8000ff
+Escherichia hermannii	Clostridium sp. SS2/1	0.814577667391	Mixed	#cccccc
+Escherichia hermannii	Corynebacterium freneyi	0.814577667391	Mixed	#cccccc
+Escherichia hermannii	Corynebacterium glyciniphilum	0.814577667391	Anterior_nares	#8000ff
+Escherichia hermannii	Deinococcus wulumuqiensis	0.814577667391	Mixed	#cccccc
+Eubacterium limosum	Chlorogloeopsis fritschii	1.0	Mixed	#cccccc
+Eubacterium sp. AB3007	Aureimonas sp. Leaf454	1.0	Mixed	#cccccc
+Eubacterium sp. AB3007	Clostridiales bacterium VE202-28	1.0	Stool	#ded579
+Exiguobacterium mexicanum	Arthrobacter castelli	0.814577667391	Mixed	#cccccc
+Exiguobacterium mexicanum	Arthrobacter sp. AK-YN10	1.0	Mixed	#cccccc
+Exiguobacterium mexicanum	Belnapia moabensis	1.0	L_Retroauricular_crease	#1fd3e1
+Exiguobacterium mexicanum	Corynebacterium freneyi	0.814577667391	L_Retroauricular_crease	#1fd3e1
+Exiguobacterium mexicanum	Corynebacterium glyciniphilum	0.814577667391	Mixed	#cccccc
+Exiguobacterium mexicanum	Deinococcus wulumuqiensis	0.814577667391	Mixed	#cccccc
+Exiguobacterium sp. S17	Bordetella trematum	0.814577667391	Anterior_nares	#8000ff
+Exiguobacterium sp. S17	Bradyrhizobium sp. Leaf396	0.814577667391	Mixed	#cccccc
+Exiguobacterium sp. ZWU0009	Acinetobacter sp. CIP 101966	1.0	Mixed	#cccccc
+Exiguobacterium sp. ZWU0009	Actinomyces europaeus	1.0	Anterior_nares	#8000ff
+Exiguobacterium sp. ZWU0009	Advenella kashmirensis	1.0	Anterior_nares	#8000ff
+Exiguobacterium sp. ZWU0009	Cellulomonas flavigena	0.814577667391	Mixed	#cccccc
+Exiguobacterium sp. ZWU0009	Chryseobacterium sp. FF12	0.814577667391	Mixed	#cccccc
+Exiguobacterium sp. ZWU0009	Corynebacterium uterequi	1.0	Anterior_nares	#8000ff
+Exiguobacterium sp. ZWU0009	Elizabethkingia meningoseptica	1.0	Mixed	#cccccc
+Exiguobacterium sp. ZWU0009	Enterobacter sp. K66-74	1.0	Anterior_nares	#8000ff
+Exiguobacterium sp. ZWU0009	Erwinia sp. SCU-B244	1.0	Anterior_nares	#8000ff
+Exiguobacterium undae	Acinetobacter bereziniae	0.814577667391	Mixed	#cccccc
+Exiguobacterium undae	Acinetobacter sp. NIPH 284	0.814577667391	Mixed	#cccccc
+Exiguobacterium undae	Acinetobacter sp. P8-3-8	1.0	Mixed	#cccccc
+Exiguobacterium undae	Actinomyces vaccimaxillae	1.0	Anterior_nares	#8000ff
+Exiguobacterium undae	Atopococcus tabaci	1.0	Anterior_nares	#8000ff
+Exiguobacterium undae	Burkholderia ambifaria	1.0	Anterior_nares	#8000ff
+Exiguobacterium undae	Chryseobacterium vrystaatense	1.0	Anterior_nares	#8000ff
+Flaviflexus sp. SIT4	Actinoplanes sp. SE50/110	1.0	Anterior_nares	#8000ff
+Flaviflexus sp. SIT4	Cellulomonas gilvus	1.0	Anterior_nares	#8000ff
+Flaviflexus sp. SIT4	Cellulomonas sp. Root485	1.0	Anterior_nares	#8000ff
+Flaviflexus sp. SIT4	Corynebacterium capitovis	1.0	Anterior_nares	#8000ff
+Flaviflexus sp. SIT4	Deinococcus sp. 2009	1.0	Anterior_nares	#8000ff
+Flaviflexus sp. SIT4	Erwinia billingiae	1.0	Anterior_nares	#8000ff
+Flavihumibacter sp. ZG627	Acinetobacter bereziniae	0.814577667391	Mixed	#cccccc
+Flavihumibacter sp. ZG627	Acinetobacter sp. NIPH 284	0.814577667391	Mixed	#cccccc
+Flavihumibacter sp. ZG627	Acinetobacter sp. P8-3-8	1.0	Mixed	#cccccc
+Flavihumibacter sp. ZG627	Actinomyces vaccimaxillae	1.0	Anterior_nares	#8000ff
+Flavihumibacter sp. ZG627	Atopococcus tabaci	1.0	Anterior_nares	#8000ff
+Flavihumibacter sp. ZG627	Burkholderia ambifaria	1.0	Anterior_nares	#8000ff
+Flavihumibacter sp. ZG627	Chryseobacterium vrystaatense	1.0	Anterior_nares	#8000ff
+Flavihumibacter sp. ZG627	Exiguobacterium undae	1.0	Anterior_nares	#8000ff
+Flavobacterium akiainvivens	Acinetobacter sp. NIPH 899	1.0	Anterior_nares	#8000ff
+Flavobacterium akiainvivens	Anoxybacillus tepidamans	1.0	Anterior_nares	#8000ff
+Flavobacterium akiainvivens	Bacillus velezensis	1.0	Anterior_nares	#8000ff
+Flavobacterium frigidarium	Anoxybacillus flavithermus	0.892305178067	Anterior_nares	#8000ff
+Flavobacterium frigidarium	Burkholderia multivorans	0.812617715376	Anterior_nares	#8000ff
+Flavobacterium hibernum	Acinetobacter sp. CIP 102136	1.0	Anterior_nares	#8000ff
+Flavobacterium indicum	Aerococcus urinae	1.0	Anterior_nares	#8000ff
+Flavobacterium indicum	Aeromonas rivuli	1.0	Anterior_nares	#8000ff
+Flavobacterium indicum	Bacillus smithii	1.0	Mixed	#cccccc
+Flavobacterium rivuli	Anoxybacillus flavithermus	0.892305178067	Anterior_nares	#8000ff
+Flavobacterium rivuli	Burkholderia multivorans	0.812617715376	Anterior_nares	#8000ff
+Flavobacterium rivuli	Flavobacterium frigidarium	1.0	Anterior_nares	#8000ff
+Flavobacterium sasangense	Aerococcus urinae	1.0	Mixed	#cccccc
+Flavobacterium sasangense	Aeromonas rivuli	1.0	Mixed	#cccccc
+Flavobacterium sasangense	Bacillus smithii	1.0	Mixed	#cccccc
+Flavobacterium sasangense	Flavobacterium indicum	1.0	Mixed	#cccccc
+Flavobacterium sp. B17	Actinoplanes sp. SE50/110	1.0	Mixed	#cccccc
+Flavobacterium sp. B17	Cellulomonas gilvus	1.0	Mixed	#cccccc
+Flavobacterium sp. B17	Cellulomonas sp. Root485	1.0	Mixed	#cccccc
+Flavobacterium sp. B17	Corynebacterium capitovis	1.0	Mixed	#cccccc
+Flavobacterium sp. B17	Deinococcus sp. 2009	1.0	Mixed	#cccccc
+Flavobacterium sp. B17	Erwinia billingiae	1.0	Mixed	#cccccc
+Flavobacterium sp. B17	Flaviflexus sp. SIT4	1.0	Mixed	#cccccc
+Flavobacterium subsaxonicum	Bacillus amyloliquefaciens	1.0	Anterior_nares	#8000ff
+Flavobacterium subsaxonicum	Bosea sp. Root483D1	1.0	Mixed	#cccccc
+Flavobacterium subsaxonicum	Brachybacterium faecium	1.0	Anterior_nares	#8000ff
+Flavobacterium subsaxonicum	Carnobacterium sp. ZWU0011	1.0	Mixed	#cccccc
+Flavonifractor plautii	Clostridiaceae bacterium MS3	1.0	Stool	#ded579
+Flavonifractor plautii	Clostridiales bacterium VE202-13	1.0	Stool	#ded579
+Flavonifractor plautii	[Clostridium] bolteae	1.0	Stool	#ded579
+Flavonifractor plautii	Collinsella stercoris	1.0	Stool	#ded579
+Franconibacter pulveris	Aureimonas sp. Leaf324	1.0	Anterior_nares	#8000ff
+Franconibacter pulveris	Clostridium baratii	0.814577667391	Mixed	#cccccc
+Franconibacter pulveris	Comamonas granuli	0.863980476719	Anterior_nares	#8000ff
+Franconibacter pulveris	Cronobacter dublinensis	0.814577667391	Anterior_nares	#8000ff
+Franconibacter pulveris	Cronobacter malonaticus	1.0	Anterior_nares	#8000ff
+Franconibacter pulveris	Cronobacter turicensis	0.814577667391	Anterior_nares	#8000ff
+Franconibacter pulveris	Cronobacter universalis	0.814577667391	Anterior_nares	#8000ff
+Franconibacter pulveris	Enterococcus mundtii	1.0	Anterior_nares	#8000ff
+Franconibacter pulveris	Epilithonimonas lactis	0.814577667391	Anterior_nares	#8000ff
+Frigoribacterium sp. Leaf8	Aerococcus urinae	1.0	Anterior_nares	#8000ff
+Frigoribacterium sp. Leaf8	Aeromonas rivuli	1.0	Anterior_nares	#8000ff
+Frigoribacterium sp. Leaf8	Bacillus smithii	1.0	Mixed	#cccccc
+Frigoribacterium sp. Leaf8	Flavobacterium indicum	1.0	Anterior_nares	#8000ff
+Frigoribacterium sp. Leaf8	Flavobacterium sasangense	1.0	Mixed	#cccccc
+Frigoribacterium sp. RIT-PI-h	Arthrobacter sp. H14	1.0	Anterior_nares	#8000ff
+Frigoribacterium sp. RIT-PI-h	Bordetella petrii	1.0	Anterior_nares	#8000ff
+Frigoribacterium sp. RIT-PI-h	Curtobacterium luteum	1.0	Anterior_nares	#8000ff
+Frigoribacterium sp. RIT-PI-h	Dysgonomonas mossii	1.0	Mixed	#cccccc
+Fusobacterium russii	Actinomyces sp. oral taxon 180	0.814577667391	Mixed	#cccccc
+Fusobacterium russii	Deinococcus gobiensis	0.814577667391	Mixed	#cccccc
+Fusobacterium russii	Deinococcus sp. Leaf326	1.0	Mixed	#cccccc
+Fusobacterium sp. CM1	Acinetobacter sp. NIPH 899	1.0	Mixed	#cccccc
+Fusobacterium sp. CM1	Anoxybacillus tepidamans	1.0	Mixed	#cccccc
+Fusobacterium sp. CM1	Bacillus velezensis	1.0	Mixed	#cccccc
+Fusobacterium sp. CM1	Flavobacterium akiainvivens	1.0	Mixed	#cccccc
+Fusobacterium sp. CM21	Actinoplanes rectilineatus	1.0	Mixed	#cccccc
+Fusobacterium sp. CM21	Aliivibrio salmonicida	1.0	Mixed	#cccccc
+Fusobacterium sp. CM22	Campylobacter curvus	0.814577667391	Supragingival_plaque	#ff8e4a
+Fusobacterium sp. CM22	Candidatus Saccharibacteria bacterium RAAC3_TM7_1	0.814577667391	Mixed	#cccccc
+Fusobacterium sp. CM22	Capnocytophaga sp. oral taxon 335	1.0	Supragingival_plaque	#ff8e4a
+Fusobacterium sp. CM22	Capnocytophaga sp. oral taxon 336	0.814577667391	Mixed	#cccccc
+Fusobacterium ulcerans	Campylobacter sp. FOBRC14	1.0	Mixed	#cccccc
+Fusobacterium ulcerans	Coprococcus sp. HPP0048	1.0	Stool	#ded579
+Gemmata obscuriglobus	Aerococcus urinae	1.0	Anterior_nares	#8000ff
+Gemmata obscuriglobus	Aeromonas rivuli	1.0	Anterior_nares	#8000ff
+Gemmata obscuriglobus	Bacillus smithii	1.0	Mixed	#cccccc
+Gemmata obscuriglobus	Flavobacterium indicum	1.0	Anterior_nares	#8000ff
+Gemmata obscuriglobus	Flavobacterium sasangense	1.0	Mixed	#cccccc
+Gemmata obscuriglobus	Frigoribacterium sp. Leaf8	1.0	Anterior_nares	#8000ff
+Geodermatophilaceae bacterium URHB0048	Belnapia sp. F-4-1	1.0	Mixed	#cccccc
+Geodermatophilaceae bacterium URHB0048	Cellulomonas sp. Leaf334	1.0	Anterior_nares	#8000ff
+Geodermatophilaceae bacterium URHB0048	Cystobacter fuscus	1.0	Anterior_nares	#8000ff
+Geodermatophilaceae bacterium URHB0048	Cystobacter violaceus	1.0	Anterior_nares	#8000ff
+Geodermatophilaceae bacterium URHB0048	Deinococcus radiodurans	1.0	Mixed	#cccccc
+Geodermatophilaceae bacterium URHB0048	Demetria terragena	1.0	Anterior_nares	#8000ff
+Gluconobacter frateurii	Acetobacter syzygii	1.0	Mixed	#cccccc
+Gluconobacter frateurii	Collinsella sp. MS5	1.0	Mixed	#cccccc
+Gordonia paraffinivorans	Acinetobacter sp. P8-3-8	0.814577667391	Mixed	#cccccc
+Gordonia paraffinivorans	Actinomyces vaccimaxillae	0.814577667391	Anterior_nares	#8000ff
+Gordonia paraffinivorans	Atopococcus tabaci	0.814577667391	Anterior_nares	#8000ff
+Gordonia paraffinivorans	Burkholderia ambifaria	0.814577667391	Anterior_nares	#8000ff
+Gordonia paraffinivorans	Chryseobacterium vrystaatense	0.814577667391	Anterior_nares	#8000ff
+Gordonia paraffinivorans	Exiguobacterium undae	0.814577667391	Anterior_nares	#8000ff
+Gordonia paraffinivorans	Flavihumibacter sp. ZG627	0.814577667391	Anterior_nares	#8000ff
+Gordonia sp. KTR9	Acinetobacter sp. 243_ASPC	1.0	Anterior_nares	#8000ff
+Gordonia sp. KTR9	Acinetobacter tandoii	1.0	Anterior_nares	#8000ff
+Gordonia sp. KTR9	Aurantimonas coralicida	1.0	Anterior_nares	#8000ff
+Gordonia sp. SGD-V-85	Cronobacter universalis	0.814577667391	Mixed	#cccccc
+Gordonia sp. SGD-V-85	Epilithonimonas lactis	0.814577667391	Mixed	#cccccc
+Halomonas hydrothermalis	Citrobacter sp. MGH104	1.0	Mixed	#cccccc
+Helcococcus sueciensis	Acinetobacter pittii	0.814577667391	R_Retroauricular_crease	#9efaa2
+Helcococcus sueciensis	Chryseobacterium sp. UNC8MFCol	1.0	Mixed	#cccccc
+Herbaspirillum autotrophicum	Burkholderia cepacia	1.0	Mixed	#cccccc
+Herbaspirillum autotrophicum	Cupriavidus basilensis	0.814577667391	Mixed	#cccccc
+Herbaspirillum autotrophicum	Elizabethkingia genomosp. 2	1.0	Anterior_nares	#8000ff
+Herbaspirillum chlorophenolicum	Burkholderia cepacia	1.0	Mixed	#cccccc
+Herbaspirillum chlorophenolicum	Cupriavidus basilensis	0.814577667391	Mixed	#cccccc
+Herbaspirillum chlorophenolicum	Elizabethkingia genomosp. 2	1.0	Mixed	#cccccc
+Herbaspirillum chlorophenolicum	Herbaspirillum autotrophicum	1.0	Mixed	#cccccc
+Herbaspirillum frisingense	Burkholderia cepacia	1.0	Mixed	#cccccc
+Herbaspirillum frisingense	Cupriavidus basilensis	0.814577667391	Mixed	#cccccc
+Herbaspirillum frisingense	Elizabethkingia genomosp. 2	1.0	Mixed	#cccccc
+Herbaspirillum frisingense	Herbaspirillum autotrophicum	1.0	Mixed	#cccccc
+Herbaspirillum frisingense	Herbaspirillum chlorophenolicum	1.0	Mixed	#cccccc
+Herbaspirillum huttiense	Burkholderia cepacia	1.0	Mixed	#cccccc
+Herbaspirillum huttiense	Cupriavidus basilensis	0.814577667391	Mixed	#cccccc
+Herbaspirillum huttiense	Elizabethkingia genomosp. 2	1.0	Mixed	#cccccc
+Herbaspirillum huttiense	Herbaspirillum autotrophicum	1.0	Mixed	#cccccc
+Herbaspirillum huttiense	Herbaspirillum chlorophenolicum	1.0	Vaginal_introitus	#ff0000
+Herbaspirillum huttiense	Herbaspirillum frisingense	1.0	Mixed	#cccccc
+Herbaspirillum rubrisubalbicans	Burkholderia cepacia	1.0	Mixed	#cccccc
+Herbaspirillum rubrisubalbicans	Cupriavidus basilensis	0.814577667391	Mixed	#cccccc
+Herbaspirillum rubrisubalbicans	Elizabethkingia genomosp. 2	1.0	Mixed	#cccccc
+Herbaspirillum rubrisubalbicans	Herbaspirillum autotrophicum	1.0	Mixed	#cccccc
+Herbaspirillum rubrisubalbicans	Herbaspirillum chlorophenolicum	1.0	Vaginal_introitus	#ff0000
+Herbaspirillum rubrisubalbicans	Herbaspirillum frisingense	1.0	Mixed	#cccccc
+Herbaspirillum rubrisubalbicans	Herbaspirillum huttiense	1.0	Vaginal_introitus	#ff0000
+Herbaspirillum seropedicae	Burkholderia diffusa	1.0	Mixed	#cccccc
+Herbaspirillum seropedicae	Comamonas sp. E6	1.0	Mixed	#cccccc
+Herbaspirillum sp. B39	Burkholderia cepacia	1.0	Mixed	#cccccc
+Herbaspirillum sp. B39	Cupriavidus basilensis	0.814577667391	Mixed	#cccccc
+Herbaspirillum sp. B39	Elizabethkingia genomosp. 2	1.0	Mixed	#cccccc
+Herbaspirillum sp. B39	Herbaspirillum autotrophicum	1.0	Mixed	#cccccc
+Herbaspirillum sp. B39	Herbaspirillum chlorophenolicum	1.0	Vaginal_introitus	#ff0000
+Herbaspirillum sp. B39	Herbaspirillum frisingense	1.0	Mixed	#cccccc
+Herbaspirillum sp. B39	Herbaspirillum huttiense	1.0	Vaginal_introitus	#ff0000
+Herbaspirillum sp. B39	Herbaspirillum rubrisubalbicans	1.0	Vaginal_introitus	#ff0000
+Herbaspirillum sp. B65	Burkholderia diffusa	1.0	Anterior_nares	#8000ff
+Herbaspirillum sp. B65	Comamonas sp. E6	1.0	Anterior_nares	#8000ff
+Herbaspirillum sp. B65	Herbaspirillum seropedicae	1.0	Mixed	#cccccc
+Herbaspirillum sp. GW103	Burkholderia cepacia	0.814577667391	Mixed	#cccccc
+Herbaspirillum sp. GW103	Elizabethkingia genomosp. 2	0.814577667391	Mixed	#cccccc
+Herbaspirillum sp. GW103	Herbaspirillum autotrophicum	0.814577667391	Mixed	#cccccc
+Herbaspirillum sp. GW103	Herbaspirillum chlorophenolicum	0.814577667391	Vaginal_introitus	#ff0000
+Herbaspirillum sp. GW103	Herbaspirillum frisingense	0.814577667391	Mixed	#cccccc
+Herbaspirillum sp. GW103	Herbaspirillum huttiense	0.814577667391	Vaginal_introitus	#ff0000
+Herbaspirillum sp. GW103	Herbaspirillum rubrisubalbicans	0.814577667391	Vaginal_introitus	#ff0000
+Herbaspirillum sp. GW103	Herbaspirillum sp. B39	0.814577667391	Vaginal_introitus	#ff0000
+Herbaspirillum sp. RV1423	Burkholderia cepacia	1.0	Mixed	#cccccc
+Herbaspirillum sp. RV1423	Cupriavidus basilensis	0.814577667391	Mixed	#cccccc
+Herbaspirillum sp. RV1423	Elizabethkingia genomosp. 2	1.0	Anterior_nares	#8000ff
+Herbaspirillum sp. RV1423	Herbaspirillum autotrophicum	1.0	Anterior_nares	#8000ff
+Herbaspirillum sp. RV1423	Herbaspirillum chlorophenolicum	1.0	Mixed	#cccccc
+Herbaspirillum sp. RV1423	Herbaspirillum frisingense	1.0	Mixed	#cccccc
+Herbaspirillum sp. RV1423	Herbaspirillum huttiense	1.0	Mixed	#cccccc
+Herbaspirillum sp. RV1423	Herbaspirillum rubrisubalbicans	1.0	Mixed	#cccccc
+Herbaspirillum sp. RV1423	Herbaspirillum sp. B39	1.0	Mixed	#cccccc
+Herbaspirillum sp. RV1423	Herbaspirillum sp. GW103	0.814577667391	Mixed	#cccccc
+Holdemania massiliensis	Blautia schinkii	1.0	Stool	#ded579
+Hydrogenobacter thermophilus	Brachymonas chironomi	0.814577667391	Anterior_nares	#8000ff
+Hymenobacter sp. APR13	Caldibacillus debilis	1.0	Mixed	#cccccc
+Hymenobacter sp. AT01-02	Acinetobacter sp. CIP 101966	1.0	Mixed	#cccccc
+Hymenobacter sp. AT01-02	Actinomyces europaeus	1.0	Mixed	#cccccc
+Hymenobacter sp. AT01-02	Advenella kashmirensis	1.0	Mixed	#cccccc
+Hymenobacter sp. AT01-02	Cellulomonas flavigena	0.814577667391	Mixed	#cccccc
+Hymenobacter sp. AT01-02	Chryseobacterium sp. FF12	0.814577667391	Mixed	#cccccc
+Hymenobacter sp. AT01-02	Corynebacterium uterequi	1.0	Mixed	#cccccc
+Hymenobacter sp. AT01-02	Elizabethkingia meningoseptica	1.0	Mixed	#cccccc
+Hymenobacter sp. AT01-02	Enterobacter sp. K66-74	1.0	Mixed	#cccccc
+Hymenobacter sp. AT01-02	Erwinia sp. SCU-B244	1.0	Mixed	#cccccc
+Hymenobacter sp. AT01-02	Exiguobacterium sp. ZWU0009	1.0	Mixed	#cccccc
+Hymenobacter sp. MIMtkLc17	Archangium gephyra	1.0	Mixed	#cccccc
+Hymenobacter sp. MIMtkLc17	Bdellovibrio bacteriovorus	1.0	Mixed	#cccccc
+Janibacter sp. Soil728	Brevundimonas sp. KM4	0.863980476719	Mixed	#cccccc
+Janthinobacterium sp. CG3	Aminobacter sp. Root100	1.0	Anterior_nares	#8000ff
+Janthinobacterium sp. CG3	Chryseobacterium sp. Hurlbut01	1.0	Mixed	#cccccc
+Janthinobacterium sp. CG3	Dyadobacter sp. Leaf189	1.0	Anterior_nares	#8000ff
+Janthinobacterium sp. CG3	Epilithonimonas sp. FH1	1.0	Mixed	#cccccc
+Janthinobacterium sp. KBS0711	Acinetobacter sp. 243_ASPC	1.0	Anterior_nares	#8000ff
+Janthinobacterium sp. KBS0711	Acinetobacter tandoii	1.0	Anterior_nares	#8000ff
+Janthinobacterium sp. KBS0711	Aurantimonas coralicida	1.0	Anterior_nares	#8000ff
+Janthinobacterium sp. KBS0711	Gordonia sp. KTR9	1.0	Anterior_nares	#8000ff
+Janthinobacterium sp. RA13	Acinetobacter tjernbergiae	1.0	Anterior_nares	#8000ff
+Janthinobacterium sp. RA13	Aeromonas sanarellii	1.0	Anterior_nares	#8000ff
+Jonesia quinghaiensis	Bacillaceae bacterium MTCC 8252	1.0	Anterior_nares	#8000ff
+Jonesia quinghaiensis	Bacillus nealsonii	1.0	Anterior_nares	#8000ff
+Kaistia adipata	Actinobacteria bacterium UC5.1-1B11	1.0	Anterior_nares	#8000ff
+Kaistia adipata	Agrobacterium albertimagni	1.0	Anterior_nares	#8000ff
+Kaistia adipata	Arthrobacter sp. L77	1.0	Anterior_nares	#8000ff
+Kaistia adipata	Brevundimonas nasdae	1.0	Mixed	#cccccc
+Kaistia adipata	Brevundimonas sp. BAL3	1.0	Mixed	#cccccc
+Kaistia adipata	Corynebacterium pilosum	1.0	Mixed	#cccccc
+Kandleria vitulina	Aerococcus urinae	1.0	Mixed	#cccccc
+Kandleria vitulina	Aeromonas rivuli	1.0	Mixed	#cccccc
+Kandleria vitulina	Bacillus smithii	1.0	Mixed	#cccccc
+Kandleria vitulina	Flavobacterium indicum	1.0	Mixed	#cccccc
+Kandleria vitulina	Flavobacterium sasangense	1.0	Mixed	#cccccc
+Kandleria vitulina	Frigoribacterium sp. Leaf8	1.0	Mixed	#cccccc
+Kandleria vitulina	Gemmata obscuriglobus	1.0	Mixed	#cccccc
+Kineosphaera limosa	Brevundimonas sp. KM4	0.863980476719	Mixed	#cccccc
+Kineosphaera limosa	Janibacter sp. Soil728	1.0	Mixed	#cccccc
+Kineosporia aurantiaca	Acetobacter syzygii	1.0	Anterior_nares	#8000ff
+Kineosporia aurantiaca	Collinsella sp. MS5	1.0	Mixed	#cccccc
+Kineosporia aurantiaca	Gluconobacter frateurii	1.0	Mixed	#cccccc
+Kingella kingae	Exiguobacterium marinum	0.814577667391	Mixed	#cccccc
+Knoellia flava	Clostridium baratii	0.814577667391	Mixed	#cccccc
+Knoellia flava	Cronobacter turicensis	0.814577667391	Anterior_nares	#8000ff
+Komagataeibacter europaeus	Acinetobacter bereziniae	0.814577667391	Mixed	#cccccc
+Komagataeibacter europaeus	Acinetobacter sp. NIPH 284	0.814577667391	Mixed	#cccccc
+Komagataeibacter europaeus	Acinetobacter sp. P8-3-8	1.0	Mixed	#cccccc
+Komagataeibacter europaeus	Actinomyces vaccimaxillae	1.0	Anterior_nares	#8000ff
+Komagataeibacter europaeus	Atopococcus tabaci	1.0	Anterior_nares	#8000ff
+Komagataeibacter europaeus	Burkholderia ambifaria	1.0	Anterior_nares	#8000ff
+Komagataeibacter europaeus	Chryseobacterium vrystaatense	1.0	Anterior_nares	#8000ff
+Komagataeibacter europaeus	Exiguobacterium undae	1.0	Anterior_nares	#8000ff
+Komagataeibacter europaeus	Flavihumibacter sp. ZG627	1.0	Anterior_nares	#8000ff
+Komagataeibacter europaeus	Gordonia paraffinivorans	0.814577667391	Anterior_nares	#8000ff
+Kordiimonas gwangyangensis	Actinomyces sp. oral taxon 180	0.863980476719	Mixed	#cccccc
+Kordiimonas gwangyangensis	Deinococcus gobiensis	0.863980476719	Anterior_nares	#8000ff
+Lachnospiraceae bacterium 1_4_56FAA	Clostridiaceae bacterium MS3	1.0	Stool	#ded579
+Lachnospiraceae bacterium 1_4_56FAA	Clostridiales bacterium VE202-13	1.0	Stool	#ded579
+Lachnospiraceae bacterium 1_4_56FAA	[Clostridium] bolteae	1.0	Stool	#ded579
+Lachnospiraceae bacterium 1_4_56FAA	Collinsella stercoris	1.0	Stool	#ded579
+Lachnospiraceae bacterium 1_4_56FAA	Flavonifractor plautii	1.0	Stool	#ded579
+Lachnospiraceae bacterium 2_1_46FAA	Fusobacterium mortiferum	1.0	Mixed	#cccccc
+Lachnospiraceae bacterium 28-4	Chlorogloeopsis fritschii	1.0	Mixed	#cccccc
+Lachnospiraceae bacterium 28-4	Eubacterium limosum	1.0	Mixed	#cccccc
+Lachnospiraceae bacterium A4	Anaerotruncus sp. G3(2012)	1.0	Stool	#ded579
+Lachnospira multipara	Bacteroides barnesiae	0.814577667391	Stool	#ded579
+Lachnospira multipara	Lachnospiraceae bacterium AC2012	0.814577667391	Mixed	#cccccc
+Lactobacillus acidipiscis	Exiguobacterium acetylicum	1.0	Anterior_nares	#8000ff
+Lactobacillus acidophilus	Azohydromonas australica	0.892305178067	Anterior_nares	#8000ff
+Lactobacillus aviarius	Arthrobacter sp. H14	1.0	Anterior_nares	#8000ff
+Lactobacillus aviarius	Bordetella petrii	1.0	Anterior_nares	#8000ff
+Lactobacillus aviarius	Curtobacterium luteum	1.0	Anterior_nares	#8000ff
+Lactobacillus aviarius	Dysgonomonas mossii	1.0	Mixed	#cccccc
+Lactobacillus aviarius	Frigoribacterium sp. RIT-PI-h	1.0	Anterior_nares	#8000ff
+Lactobacillus coleohominis	Acinetobacter sp. CIP 101966	1.0	Mixed	#cccccc
+Lactobacillus coleohominis	Actinomyces europaeus	1.0	Mixed	#cccccc
+Lactobacillus coleohominis	Advenella kashmirensis	1.0	Mixed	#cccccc
+Lactobacillus coleohominis	Cellulomonas flavigena	0.814577667391	Mixed	#cccccc
+Lactobacillus coleohominis	Chryseobacterium sp. FF12	0.814577667391	Mixed	#cccccc
+Lactobacillus coleohominis	Corynebacterium uterequi	1.0	Mixed	#cccccc
+Lactobacillus coleohominis	Elizabethkingia meningoseptica	1.0	Mixed	#cccccc
+Lactobacillus coleohominis	Enterobacter sp. K66-74	1.0	Mixed	#cccccc
+Lactobacillus coleohominis	Erwinia sp. SCU-B244	1.0	Mixed	#cccccc
+Lactobacillus coleohominis	Exiguobacterium sp. ZWU0009	1.0	Mixed	#cccccc
+Lactobacillus coleohominis	Hymenobacter sp. AT01-02	1.0	Mixed	#cccccc
+Lactobacillus fuchuensis	Actinomyces sp. oral taxon 180	1.0	Mixed	#cccccc
+Lactobacillus fuchuensis	Deinococcus gobiensis	1.0	Anterior_nares	#8000ff
+Lactobacillus fuchuensis	Deinococcus sp. Leaf326	0.814577667391	Anterior_nares	#8000ff
+Lactobacillus fuchuensis	Fusobacterium russii	0.814577667391	Mixed	#cccccc
+Lactobacillus fuchuensis	Kordiimonas gwangyangensis	0.863980476719	Anterior_nares	#8000ff
+Lactobacillus johnsonii	Burkholderia cepacia	1.0	Posterior_fornix	#7effb5
+Lactobacillus johnsonii	Cupriavidus basilensis	0.814577667391	Mixed	#cccccc
+Lactobacillus johnsonii	Elizabethkingia genomosp. 2	1.0	Mixed	#cccccc
+Lactobacillus johnsonii	Herbaspirillum autotrophicum	1.0	Mixed	#cccccc
+Lactobacillus johnsonii	Herbaspirillum chlorophenolicum	1.0	Mixed	#cccccc
+Lactobacillus johnsonii	Herbaspirillum frisingense	1.0	Mixed	#cccccc
+Lactobacillus johnsonii	Herbaspirillum huttiense	1.0	Mixed	#cccccc
+Lactobacillus johnsonii	Herbaspirillum rubrisubalbicans	1.0	Mixed	#cccccc
+Lactobacillus johnsonii	Herbaspirillum sp. B39	1.0	Mixed	#cccccc
+Lactobacillus johnsonii	Herbaspirillum sp. GW103	0.814577667391	Mixed	#cccccc
+Lactobacillus johnsonii	Herbaspirillum sp. RV1423	1.0	Mixed	#cccccc
+Lactobacillus kalixensis	Collinsella intestinalis	1.0	Mixed	#cccccc
+Lactobacillus murinus	gamma proteobacterium HIMB30	1.0	Anterior_nares	#8000ff
+Lactobacillus parakefiri	Corynebacterium epidermidicanis	1.0	Anterior_nares	#8000ff
+Lactobacillus pontis	Halomonas campaniensis	1.0	Anterior_nares	#8000ff
+Lactobacillus vini	Acinetobacter pittii	0.814577667391	Mixed	#cccccc
+Lactobacillus vini	Chryseobacterium sp. UNC8MFCol	1.0	Anterior_nares	#8000ff
+Lactobacillus vini	Helcococcus sueciensis	1.0	Mixed	#cccccc
+Leadbetterella byssophila	Arthrobacter sp. H14	1.0	Anterior_nares	#8000ff
+Leadbetterella byssophila	Bordetella petrii	1.0	Anterior_nares	#8000ff
+Leadbetterella byssophila	Curtobacterium luteum	1.0	Anterior_nares	#8000ff
+Leadbetterella byssophila	Dysgonomonas mossii	1.0	Mixed	#cccccc
+Leadbetterella byssophila	Frigoribacterium sp. RIT-PI-h	1.0	Anterior_nares	#8000ff
+Leadbetterella byssophila	Lactobacillus aviarius	1.0	Anterior_nares	#8000ff
+Leifsonia aquatica	Acinetobacter pittii	0.814577667391	Mixed	#cccccc
+Leifsonia aquatica	Chryseobacterium sp. UNC8MFCol	1.0	Anterior_nares	#8000ff
+Leifsonia aquatica	Helcococcus sueciensis	1.0	Mixed	#cccccc
+Leifsonia aquatica	Lactobacillus vini	1.0	Anterior_nares	#8000ff
+Leisingera sp. ANG-M1	Aureimonas sp. Leaf324	0.814577667391	Mixed	#cccccc
+Leisingera sp. ANG-M1	Clostridium baratii	1.0	R_Retroauricular_crease	#9efaa2
+Leisingera sp. ANG-M1	Cronobacter malonaticus	0.814577667391	Mixed	#cccccc
+Leisingera sp. ANG-M1	Cronobacter turicensis	1.0	Mixed	#cccccc
+Leisingera sp. ANG-M1	Enterococcus mundtii	0.814577667391	Mixed	#cccccc
+Leisingera sp. ANG-M1	Franconibacter pulveris	0.814577667391	Mixed	#cccccc
+Leisingera sp. ANG-M1	Knoellia flava	0.814577667391	Mixed	#cccccc
+Leptonema illini	Acidovorax sp. Leaf160	1.0	Mixed	#cccccc
+Leptotrichia sp. oral taxon 879	Capnocytophaga sp. oral taxon 335	0.863980476719	Mixed	#cccccc
+Leptotrichia sp. oral taxon 879	Fusobacterium sp. CM22	0.863980476719	Mixed	#cccccc
+Leucobacter chironomi	Janibacter sp. Soil728	0.814577667391	Mixed	#cccccc
+Leucobacter chironomi	Kineosphaera limosa	0.814577667391	Mixed	#cccccc
+Leuconostoc inhae	Faecalitalea cylindroides	1.0	Mixed	#cccccc
+Leuconostoc lactis	Acinetobacter sp. CIP 101966	1.0	Mixed	#cccccc
+Leuconostoc lactis	Actinomyces europaeus	1.0	Anterior_nares	#8000ff
+Leuconostoc lactis	Advenella kashmirensis	1.0	Anterior_nares	#8000ff
+Leuconostoc lactis	Cellulomonas flavigena	0.814577667391	Mixed	#cccccc
+Leuconostoc lactis	Chryseobacterium sp. FF12	0.814577667391	Mixed	#cccccc
+Leuconostoc lactis	Corynebacterium uterequi	1.0	Anterior_nares	#8000ff
+Leuconostoc lactis	Elizabethkingia meningoseptica	1.0	Mixed	#cccccc
+Leuconostoc lactis	Enterobacter sp. K66-74	1.0	Anterior_nares	#8000ff
+Leuconostoc lactis	Erwinia sp. SCU-B244	1.0	Anterior_nares	#8000ff
+Leuconostoc lactis	Exiguobacterium sp. ZWU0009	1.0	Anterior_nares	#8000ff
+Leuconostoc lactis	Hymenobacter sp. AT01-02	1.0	Mixed	#cccccc
+Leuconostoc lactis	Lactobacillus coleohominis	1.0	Mixed	#cccccc
+Limnohabitans planktonicus	Aureimonas sp. Leaf324	1.0	Anterior_nares	#8000ff
+Limnohabitans planktonicus	Clostridium baratii	0.814577667391	Mixed	#cccccc
+Limnohabitans planktonicus	Comamonas granuli	0.863980476719	Anterior_nares	#8000ff
+Limnohabitans planktonicus	Cronobacter dublinensis	0.814577667391	Anterior_nares	#8000ff
+Limnohabitans planktonicus	Cronobacter malonaticus	1.0	Anterior_nares	#8000ff
+Limnohabitans planktonicus	Cronobacter turicensis	0.814577667391	Anterior_nares	#8000ff
+Limnohabitans planktonicus	Cronobacter universalis	0.814577667391	Anterior_nares	#8000ff
+Limnohabitans planktonicus	Enterococcus mundtii	1.0	Anterior_nares	#8000ff
+Limnohabitans planktonicus	Epilithonimonas lactis	0.814577667391	Anterior_nares	#8000ff
+Limnohabitans planktonicus	Franconibacter pulveris	1.0	Anterior_nares	#8000ff
+Limnohabitans planktonicus	Leisingera sp. ANG-M1	0.814577667391	Mixed	#cccccc
+Limnohabitans sp. Rim28	Aureimonas sp. Leaf324	0.863980476719	Mixed	#cccccc
+Limnohabitans sp. Rim28	Cronobacter malonaticus	0.863980476719	Mixed	#cccccc
+Limnohabitans sp. Rim28	Enterococcus mundtii	0.863980476719	Mixed	#cccccc
+Limnohabitans sp. Rim28	Franconibacter pulveris	0.863980476719	Mixed	#cccccc
+Limnohabitans sp. Rim28	Limnohabitans planktonicus	0.863980476719	Mixed	#cccccc
+Lysobacter defluvii	Aerococcus urinae	1.0	Anterior_nares	#8000ff
+Lysobacter defluvii	Aeromonas rivuli	1.0	Anterior_nares	#8000ff
+Lysobacter defluvii	Bacillus smithii	1.0	Mixed	#cccccc
+Lysobacter defluvii	Flavobacterium indicum	1.0	Anterior_nares	#8000ff
+Lysobacter defluvii	Flavobacterium sasangense	1.0	Mixed	#cccccc
+Lysobacter defluvii	Frigoribacterium sp. Leaf8	1.0	Anterior_nares	#8000ff
+Lysobacter defluvii	Gemmata obscuriglobus	1.0	Anterior_nares	#8000ff
+Lysobacter defluvii	Kandleria vitulina	1.0	Mixed	#cccccc
+Lysobacter dokdonensis	Agrobacterium larrymoorei	1.0	Mixed	#cccccc
+Mangrovibacter sp. MFB070	Faecalitalea cylindroides	1.0	Mixed	#cccccc
+Mangrovibacter sp. MFB070	Leuconostoc inhae	1.0	Anterior_nares	#8000ff
+Mannheimia varigena	Mannheimia granulomatis	1.0	Mixed	#cccccc
+Marmoricola sp. Leaf446	Chryseobacterium sp. Leaf394	1.0	Mixed	#cccccc
+Marmoricola sp. Leaf446	Delftia tsuruhatensis	1.0	Mixed	#cccccc
+Marvinbryantia formatexigens	Arthrobacter sp. JCM 19049	0.812617715376	Mixed	#cccccc
+Marvinbryantia formatexigens	Bifidobacterium kashiwanohense	0.892305178067	Mixed	#cccccc
+Massilia alkalitolerans	Anaerotruncus sp. G3(2012)	1.0	Mixed	#cccccc
+Massilia alkalitolerans	Lachnospiraceae bacterium A4	1.0	Mixed	#cccccc
+Megasphaera elsdenii	Caldilinea aerophila	1.0	Mixed	#cccccc
+Megasphaera genomosp. type_1	Agrobacterium larrymoorei	1.0	Mixed	#cccccc
+Megasphaera genomosp. type_1	Lysobacter dokdonensis	1.0	Mixed	#cccccc
+Megasphaera sp. UPII 135-E	Acinetobacter pittii	0.814577667391	Mixed	#cccccc
+Megasphaera sp. UPII 135-E	Chryseobacterium sp. UNC8MFCol	1.0	Mixed	#cccccc
+Megasphaera sp. UPII 135-E	Helcococcus sueciensis	1.0	Mixed	#cccccc
+Megasphaera sp. UPII 135-E	Lactobacillus vini	1.0	Mixed	#cccccc
+Megasphaera sp. UPII 135-E	Leifsonia aquatica	1.0	Mixed	#cccccc
+Mesorhizobium metallidurans	Arthrobacter sp. H14	1.0	Anterior_nares	#8000ff
+Mesorhizobium metallidurans	Bordetella petrii	1.0	Anterior_nares	#8000ff
+Mesorhizobium metallidurans	Curtobacterium luteum	1.0	Anterior_nares	#8000ff
+Mesorhizobium metallidurans	Dysgonomonas mossii	1.0	Mixed	#cccccc
+Mesorhizobium metallidurans	Frigoribacterium sp. RIT-PI-h	1.0	Anterior_nares	#8000ff
+Mesorhizobium metallidurans	Lactobacillus aviarius	1.0	Anterior_nares	#8000ff
+Mesorhizobium metallidurans	Leadbetterella byssophila	1.0	Anterior_nares	#8000ff
+Mesorhizobium sp. Root157	Acinetobacter tjernbergiae	1.0	Anterior_nares	#8000ff
+Mesorhizobium sp. Root157	Aeromonas sanarellii	1.0	Anterior_nares	#8000ff
+Mesorhizobium sp. Root157	Janthinobacterium sp. RA13	1.0	Anterior_nares	#8000ff
+Mesorhizobium sp. UASWS1009	Mannheimia granulomatis	1.0	Mixed	#cccccc
+Mesorhizobium sp. UASWS1009	Mannheimia varigena	1.0	Mixed	#cccccc
+Methylobacillus glycogenes	Acinetobacter pittii	0.814577667391	R_Retroauricular_crease	#9efaa2
+Methylobacillus glycogenes	Chryseobacterium sp. UNC8MFCol	1.0	Mixed	#cccccc
+Methylobacillus glycogenes	Helcococcus sueciensis	1.0	R_Retroauricular_crease	#9efaa2
+Methylobacillus glycogenes	Lactobacillus vini	1.0	Mixed	#cccccc
+Methylobacillus glycogenes	Leifsonia aquatica	1.0	Mixed	#cccccc
+Methylobacillus glycogenes	Megasphaera sp. UPII 135-E	1.0	Mixed	#cccccc
+Methylobacterium oryzae	Janibacter sp. Soil728	0.814577667391	Anterior_nares	#8000ff
+Methylobacterium oryzae	Kineosphaera limosa	0.814577667391	Mixed	#cccccc
+Methylobacterium oryzae	Leucobacter chironomi	1.0	Mixed	#cccccc
+Methylobacterium radiotolerans	Anaerotruncus sp. G3(2012)	1.0	Mixed	#cccccc
+Methylobacterium radiotolerans	Lachnospiraceae bacterium A4	1.0	Mixed	#cccccc
+Methylobacterium radiotolerans	Massilia alkalitolerans	1.0	Mixed	#cccccc
+Methylobacterium sp. AMS5	Aliihoeflea sp. 2WW	1.0	R_Retroauricular_crease	#9efaa2
+Methylobacterium sp. AMS5	Collinsella tanakaei	1.0	Mixed	#cccccc
+Methylobacterium sp. AMS5	Corynebacterium ulceribovis	1.0	Mixed	#cccccc
+Methylobacterium sp. AMS5	Dactylosporangium aurantiacum	1.0	Mixed	#cccccc
+Methylobacterium sp. AMS5	Deinococcus phoenicis	1.0	Mixed	#cccccc
+Methylobacterium sp. AMS5	Enterococcus avium	1.0	Mixed	#cccccc
+Methylobacterium sp. EUR3 AL-11	Actinomyces sp. oral taxon 180	1.0	Mixed	#cccccc
+Methylobacterium sp. EUR3 AL-11	Deinococcus gobiensis	1.0	Anterior_nares	#8000ff
+Methylobacterium sp. EUR3 AL-11	Deinococcus sp. Leaf326	0.814577667391	Anterior_nares	#8000ff
+Methylobacterium sp. EUR3 AL-11	Fusobacterium russii	0.814577667391	Mixed	#cccccc
+Methylobacterium sp. EUR3 AL-11	Kordiimonas gwangyangensis	0.863980476719	Anterior_nares	#8000ff
+Methylobacterium sp. EUR3 AL-11	Lactobacillus fuchuensis	1.0	Anterior_nares	#8000ff
+Methylobacterium sp. GXF4	Campylobacter sp. FOBRC14	1.0	Mixed	#cccccc
+Methylobacterium sp. GXF4	Coprococcus sp. HPP0048	1.0	Mixed	#cccccc
+Methylobacterium sp. GXF4	Fusobacterium ulcerans	1.0	Mixed	#cccccc
+Methylobacterium sp. GXS13	Actinomyces sp. oral taxon 180	0.814577667391	Mixed	#cccccc
+Methylobacterium sp. GXS13	Aerococcus urinaeequi	0.814577667391	Mixed	#cccccc
+Methylobacterium sp. GXS13	Deinococcus gobiensis	0.814577667391	Mixed	#cccccc
+Methylobacterium sp. GXS13	Lactobacillus fuchuensis	0.814577667391	Mixed	#cccccc
+Methylobacterium sp. GXS13	Methylobacterium sp. EUR3 AL-11	0.814577667391	Mixed	#cccccc
+Methylobacterium sp. L2-4	Idiomarina abyssalis	1.0	Anterior_nares	#8000ff
+Methylobacterium sp. Leaf121	Actinoplanes sp. SE50/110	1.0	Anterior_nares	#8000ff
+Methylobacterium sp. Leaf121	Cellulomonas gilvus	1.0	Anterior_nares	#8000ff
+Methylobacterium sp. Leaf121	Cellulomonas sp. Root485	1.0	Anterior_nares	#8000ff
+Methylobacterium sp. Leaf121	Corynebacterium capitovis	1.0	Anterior_nares	#8000ff
+Methylobacterium sp. Leaf121	Deinococcus sp. 2009	1.0	Anterior_nares	#8000ff
+Methylobacterium sp. Leaf121	Erwinia billingiae	1.0	Anterior_nares	#8000ff
+Methylobacterium sp. Leaf121	Flaviflexus sp. SIT4	1.0	Anterior_nares	#8000ff
+Methylobacterium sp. Leaf121	Flavobacterium sp. B17	1.0	Mixed	#cccccc
+Methylobacterium sp. Leaf361	Idiomarina abyssalis	1.0	Anterior_nares	#8000ff
+Methylobacterium sp. Leaf361	Methylobacterium sp. L2-4	1.0	Anterior_nares	#8000ff
+Methylosarcina fibrata	Jonquetella anthropi	1.0	Mixed	#cccccc
+Methyloversatilis thermotolerans	Actinomyces sp. oral taxon 877	1.0	Mixed	#cccccc
+Methyloversatilis thermotolerans	Anaeroglobus geminatus	1.0	Mixed	#cccccc
+Methyloversatilis thermotolerans	Brevibacillus borstelensis	1.0	Anterior_nares	#8000ff
+Methyloversatilis thermotolerans	Clostridium sp. ATCC 29733	1.0	Mixed	#cccccc
+Micavibrio aeruginosavorus	Acinetobacter sp. CIP 101966	1.0	Mixed	#cccccc
+Micavibrio aeruginosavorus	Actinomyces europaeus	1.0	Anterior_nares	#8000ff
+Micavibrio aeruginosavorus	Advenella kashmirensis	1.0	Anterior_nares	#8000ff
+Micavibrio aeruginosavorus	Cellulomonas flavigena	0.814577667391	Mixed	#cccccc
+Micavibrio aeruginosavorus	Chryseobacterium sp. FF12	0.814577667391	Mixed	#cccccc
+Micavibrio aeruginosavorus	Corynebacterium uterequi	1.0	Anterior_nares	#8000ff
+Micavibrio aeruginosavorus	Elizabethkingia meningoseptica	1.0	Mixed	#cccccc
+Micavibrio aeruginosavorus	Enterobacter sp. K66-74	1.0	Anterior_nares	#8000ff
+Micavibrio aeruginosavorus	Erwinia sp. SCU-B244	1.0	Anterior_nares	#8000ff
+Micavibrio aeruginosavorus	Exiguobacterium sp. ZWU0009	1.0	Anterior_nares	#8000ff
+Micavibrio aeruginosavorus	Hymenobacter sp. AT01-02	1.0	Mixed	#cccccc
+Micavibrio aeruginosavorus	Lactobacillus coleohominis	1.0	Mixed	#cccccc
+Micavibrio aeruginosavorus	Leuconostoc lactis	1.0	Anterior_nares	#8000ff
+Microbacterium enclense	Arthrobacter sp. H14	1.0	Anterior_nares	#8000ff
+Microbacterium enclense	Bordetella petrii	1.0	Anterior_nares	#8000ff
+Microbacterium enclense	Curtobacterium luteum	1.0	Anterior_nares	#8000ff
+Microbacterium enclense	Dysgonomonas mossii	1.0	Mixed	#cccccc
+Microbacterium enclense	Frigoribacterium sp. RIT-PI-h	1.0	Anterior_nares	#8000ff
+Microbacterium enclense	Lactobacillus aviarius	1.0	Anterior_nares	#8000ff
+Microbacterium enclense	Leadbetterella byssophila	1.0	Anterior_nares	#8000ff
+Microbacterium enclense	Mesorhizobium metallidurans	1.0	Anterior_nares	#8000ff
+Microbacterium hominis	Aliihoeflea sp. 2WW	1.0	Mixed	#cccccc
+Microbacterium hominis	Collinsella tanakaei	1.0	Mixed	#cccccc
+Microbacterium hominis	Corynebacterium ulceribovis	1.0	Anterior_nares	#8000ff
+Microbacterium hominis	Dactylosporangium aurantiacum	1.0	Anterior_nares	#8000ff
+Microbacterium hominis	Deinococcus phoenicis	1.0	Anterior_nares	#8000ff
+Microbacterium hominis	Enterococcus avium	1.0	Anterior_nares	#8000ff
+Microbacterium hominis	Methylobacterium sp. AMS5	1.0	Mixed	#cccccc
+Microbacterium maritypicum	Actinomyces sp. oral taxon 180	1.0	Mixed	#cccccc
+Microbacterium maritypicum	Deinococcus gobiensis	1.0	Anterior_nares	#8000ff
+Microbacterium maritypicum	Deinococcus sp. Leaf326	0.814577667391	Anterior_nares	#8000ff
+Microbacterium maritypicum	Fusobacterium russii	0.814577667391	Mixed	#cccccc
+Microbacterium maritypicum	Kordiimonas gwangyangensis	0.863980476719	Anterior_nares	#8000ff
+Microbacterium maritypicum	Lactobacillus fuchuensis	1.0	Anterior_nares	#8000ff
+Microbacterium maritypicum	Methylobacterium sp. EUR3 AL-11	1.0	Anterior_nares	#8000ff
+Microbacterium maritypicum	Methylobacterium sp. GXS13	0.814577667391	Mixed	#cccccc
+Microbacterium oleivorans	Exiguobacterium acetylicum	1.0	Anterior_nares	#8000ff
+Microbacterium oleivorans	Lactobacillus acidipiscis	1.0	Anterior_nares	#8000ff
+Microbacterium sp. Ag1	Acinetobacter sp. CIP 101966	0.814577667391	R_Retroauricular_crease	#9efaa2
+Microbacterium sp. Ag1	Actinomyces europaeus	0.814577667391	Mixed	#cccccc
+Microbacterium sp. Ag1	Advenella kashmirensis	0.814577667391	Mixed	#cccccc
+Microbacterium sp. Ag1	Corynebacterium uterequi	0.814577667391	Mixed	#cccccc
+Microbacterium sp. Ag1	Elizabethkingia meningoseptica	0.814577667391	Mixed	#cccccc
+Microbacterium sp. Ag1	Enterobacter sp. K66-74	0.814577667391	Mixed	#cccccc
+Microbacterium sp. Ag1	Erwinia sp. SCU-B244	0.814577667391	Mixed	#cccccc
+Microbacterium sp. Ag1	Exiguobacterium sp. ZWU0009	0.814577667391	Mixed	#cccccc
+Microbacterium sp. Ag1	Hymenobacter sp. AT01-02	0.814577667391	Mixed	#cccccc
+Microbacterium sp. Ag1	Lactobacillus coleohominis	0.814577667391	Mixed	#cccccc
+Microbacterium sp. Ag1	Leuconostoc lactis	0.814577667391	Mixed	#cccccc
+Microbacterium sp. Ag1	Micavibrio aeruginosavorus	0.814577667391	Mixed	#cccccc
+Microbacterium sp. Leaf151	Actinomyces sp. oral taxon 180	1.0	Mixed	#cccccc
+Microbacterium sp. Leaf151	Deinococcus gobiensis	1.0	Anterior_nares	#8000ff
+Microbacterium sp. Leaf151	Deinococcus sp. Leaf326	0.814577667391	Anterior_nares	#8000ff
+Microbacterium sp. Leaf151	Fusobacterium russii	0.814577667391	Mixed	#cccccc
+Microbacterium sp. Leaf151	Kordiimonas gwangyangensis	0.863980476719	Anterior_nares	#8000ff
+Microbacterium sp. Leaf151	Lactobacillus fuchuensis	1.0	Anterior_nares	#8000ff
+Microbacterium sp. Leaf151	Methylobacterium sp. EUR3 AL-11	1.0	Anterior_nares	#8000ff
+Microbacterium sp. Leaf151	Methylobacterium sp. GXS13	0.814577667391	Mixed	#cccccc
+Microbacterium sp. Leaf151	Microbacterium maritypicum	1.0	Anterior_nares	#8000ff
+Microbacterium sp. Root280D1	Actinomyces sp. oral taxon 180	1.0	Mixed	#cccccc
+Microbacterium sp. Root280D1	Deinococcus gobiensis	1.0	Anterior_nares	#8000ff
+Microbacterium sp. Root280D1	Deinococcus sp. Leaf326	0.814577667391	Anterior_nares	#8000ff
+Microbacterium sp. Root280D1	Fusobacterium russii	0.814577667391	Mixed	#cccccc
+Microbacterium sp. Root280D1	Kordiimonas gwangyangensis	0.863980476719	Anterior_nares	#8000ff
+Microbacterium sp. Root280D1	Lactobacillus fuchuensis	1.0	Anterior_nares	#8000ff
+Microbacterium sp. Root280D1	Methylobacterium sp. EUR3 AL-11	1.0	Anterior_nares	#8000ff
+Microbacterium sp. Root280D1	Methylobacterium sp. GXS13	0.814577667391	Mixed	#cccccc
+Microbacterium sp. Root280D1	Microbacterium maritypicum	1.0	Anterior_nares	#8000ff
+Microbacterium sp. Root280D1	Microbacterium sp. Leaf151	1.0	Anterior_nares	#8000ff
+Microbacterium sp. ZOR0019	Arthrobacter castelli	0.814577667391	Anterior_nares	#8000ff
+Microbacterium sp. ZOR0019	Bradyrhizobium lablabi	1.0	Anterior_nares	#8000ff
+Microbacterium sp. ZOR0019	Brevibacterium senegalense	1.0	Anterior_nares	#8000ff
+Microbacterium sp. ZOR0019	Corynebacterium freneyi	0.814577667391	Mixed	#cccccc
+Microbacterium sp. ZOR0019	Corynebacterium glyciniphilum	0.814577667391	Anterior_nares	#8000ff
+Microbacterium sp. ZOR0019	Deinococcus wulumuqiensis	0.814577667391	Mixed	#cccccc
+Micrococcus sp. MS-ASIII-49	Micrococcus sp. A1	0.863980476719	L_Retroauricular_crease	#1fd3e1
+Micrococcus sp. V7	Acinetobacter bereziniae	0.814577667391	Mixed	#cccccc
+Micrococcus sp. V7	Acinetobacter sp. NIPH 284	0.814577667391	Mixed	#cccccc
+Micrococcus sp. V7	Acinetobacter sp. P8-3-8	1.0	Mixed	#cccccc
+Micrococcus sp. V7	Actinomyces vaccimaxillae	1.0	Anterior_nares	#8000ff
+Micrococcus sp. V7	Atopococcus tabaci	1.0	Anterior_nares	#8000ff
+Micrococcus sp. V7	Burkholderia ambifaria	1.0	Anterior_nares	#8000ff
+Micrococcus sp. V7	Chryseobacterium vrystaatense	1.0	Anterior_nares	#8000ff
+Micrococcus sp. V7	Exiguobacterium undae	1.0	Anterior_nares	#8000ff
+Micrococcus sp. V7	Flavihumibacter sp. ZG627	1.0	Anterior_nares	#8000ff
+Micrococcus sp. V7	Gordonia paraffinivorans	0.814577667391	Anterior_nares	#8000ff
+Micrococcus sp. V7	Komagataeibacter europaeus	1.0	Anterior_nares	#8000ff
+Microcoleus vaginatus	Aureimonas sp. Leaf324	1.0	Mixed	#cccccc
+Microcoleus vaginatus	Clostridium baratii	0.814577667391	Mixed	#cccccc
+Microcoleus vaginatus	Comamonas granuli	0.863980476719	Mixed	#cccccc
+Microcoleus vaginatus	Cronobacter dublinensis	0.814577667391	Mixed	#cccccc
+Microcoleus vaginatus	Cronobacter malonaticus	1.0	Mixed	#cccccc
+Microcoleus vaginatus	Cronobacter turicensis	0.814577667391	Mixed	#cccccc
+Microcoleus vaginatus	Cronobacter universalis	0.814577667391	Mixed	#cccccc
+Microcoleus vaginatus	Enterococcus mundtii	1.0	Mixed	#cccccc
+Microcoleus vaginatus	Epilithonimonas lactis	0.814577667391	Mixed	#cccccc
+Microcoleus vaginatus	Franconibacter pulveris	1.0	Mixed	#cccccc
+Microcoleus vaginatus	Leisingera sp. ANG-M1	0.814577667391	Mixed	#cccccc
+Microcoleus vaginatus	Limnohabitans planktonicus	1.0	Mixed	#cccccc
+Microcoleus vaginatus	Limnohabitans sp. Rim28	0.863980476719	Mixed	#cccccc
+Microlunatus phosphovorus	Aerococcus urinaeequi	0.814577667391	Mixed	#cccccc
+Microvirga vignae	Arthrobacter castelli	0.814577667391	Anterior_nares	#8000ff
+Microvirga vignae	Bradyrhizobium lablabi	1.0	Anterior_nares	#8000ff
+Microvirga vignae	Brevibacterium senegalense	1.0	Anterior_nares	#8000ff
+Microvirga vignae	Corynebacterium freneyi	0.814577667391	Mixed	#cccccc
+Microvirga vignae	Corynebacterium glyciniphilum	0.814577667391	Anterior_nares	#8000ff
+Microvirga vignae	Deinococcus wulumuqiensis	0.814577667391	Mixed	#cccccc
+Microvirga vignae	Microbacterium sp. ZOR0019	1.0	Anterior_nares	#8000ff
+Mobiluncus mulieris	Acinetobacter sp. CIP 101966	1.0	Mixed	#cccccc
+Mobiluncus mulieris	Actinomyces europaeus	1.0	Mixed	#cccccc
+Mobiluncus mulieris	Advenella kashmirensis	1.0	Mixed	#cccccc
+Mobiluncus mulieris	Cellulomonas flavigena	0.814577667391	Mixed	#cccccc
+Mobiluncus mulieris	Chryseobacterium sp. FF12	0.814577667391	Mixed	#cccccc
+Mobiluncus mulieris	Corynebacterium uterequi	1.0	Mixed	#cccccc
+Mobiluncus mulieris	Elizabethkingia meningoseptica	1.0	Mixed	#cccccc
+Mobiluncus mulieris	Enterobacter sp. K66-74	1.0	Mixed	#cccccc
+Mobiluncus mulieris	Erwinia sp. SCU-B244	1.0	Mixed	#cccccc
+Mobiluncus mulieris	Exiguobacterium sp. ZWU0009	1.0	Mixed	#cccccc
+Mobiluncus mulieris	Hymenobacter sp. AT01-02	1.0	Mixed	#cccccc
+Mobiluncus mulieris	Lactobacillus coleohominis	1.0	Mixed	#cccccc
+Mobiluncus mulieris	Leuconostoc lactis	1.0	Mixed	#cccccc
+Mobiluncus mulieris	Micavibrio aeruginosavorus	1.0	Mixed	#cccccc
+Mobiluncus mulieris	Microbacterium sp. Ag1	0.814577667391	Mixed	#cccccc
+Modestobacter caceresii	Azohydromonas australica	0.812617715376	Anterior_nares	#8000ff
+Modestobacter caceresii	Lactobacillus acidophilus	0.910694833281	Anterior_nares	#8000ff
+Modestobacter marinus	Arthrobacter castelli	1.0	Anterior_nares	#8000ff
+Modestobacter marinus	Arthrobacter sp. AK-YN10	0.814577667391	Anterior_nares	#8000ff
+Modestobacter marinus	Belnapia moabensis	0.814577667391	Mixed	#cccccc
+Modestobacter marinus	Bradyrhizobium lablabi	0.814577667391	Anterior_nares	#8000ff
+Modestobacter marinus	Bradyrhizobium sp. URHA0002	0.863980476719	Anterior_nares	#8000ff
+Modestobacter marinus	Brevibacterium senegalense	0.814577667391	Anterior_nares	#8000ff
+Modestobacter marinus	Corynebacterium freneyi	1.0	Mixed	#cccccc
+Modestobacter marinus	Corynebacterium glyciniphilum	1.0	Anterior_nares	#8000ff
+Modestobacter marinus	Deinococcus wulumuqiensis	1.0	Mixed	#cccccc
+Modestobacter marinus	Escherichia hermannii	0.814577667391	Anterior_nares	#8000ff
+Modestobacter marinus	Exiguobacterium mexicanum	0.814577667391	Mixed	#cccccc
+Modestobacter marinus	Microbacterium sp. ZOR0019	0.814577667391	Anterior_nares	#8000ff
+Modestobacter marinus	Microvirga vignae	0.814577667391	Anterior_nares	#8000ff
+Mogibacterium sp. CM50	Campylobacter sp. FOBRC14	1.0	Mixed	#cccccc
+Mogibacterium sp. CM50	Coprococcus sp. HPP0048	1.0	Mixed	#cccccc
+Mogibacterium sp. CM50	Fusobacterium ulcerans	1.0	Mixed	#cccccc
+Mogibacterium sp. CM50	Methylobacterium sp. GXF4	1.0	Mixed	#cccccc
+Moraxella bovoculi	Moraxella boevrei	0.946704475436	Anterior_nares	#8000ff
+Moraxella caprae	Moraxella boevrei	0.919876814671	Anterior_nares	#8000ff
+Moraxella caprae	Moraxella bovoculi	0.920703221047	Anterior_nares	#8000ff
+Moraxella catarrhalis	Moraxella caprae	0.807490557109	Anterior_nares	#8000ff
+Moraxella macacae	Moraxella boevrei	0.874973119534	Anterior_nares	#8000ff
+Moraxella macacae	Moraxella bovoculi	0.851475248439	Anterior_nares	#8000ff
+Moraxella macacae	Moraxella caprae	0.879968194495	Anterior_nares	#8000ff
+Moritella dasanensis	Aminobacter sp. Root100	1.0	Anterior_nares	#8000ff
+Moritella dasanensis	Chryseobacterium sp. Hurlbut01	1.0	Mixed	#cccccc
+Moritella dasanensis	Dyadobacter sp. Leaf189	1.0	Anterior_nares	#8000ff
+Moritella dasanensis	Epilithonimonas sp. FH1	1.0	Mixed	#cccccc
+Moritella dasanensis	Janthinobacterium sp. CG3	1.0	Anterior_nares	#8000ff
+Moritella marina	Acinetobacter sp. 243_ASPC	1.0	Anterior_nares	#8000ff
+Moritella marina	Acinetobacter tandoii	1.0	Anterior_nares	#8000ff
+Moritella marina	Aurantimonas coralicida	1.0	Anterior_nares	#8000ff
+Moritella marina	Gordonia sp. KTR9	1.0	Anterior_nares	#8000ff
+Moritella marina	Janthinobacterium sp. KBS0711	1.0	Anterior_nares	#8000ff
+Mycobacterium aromaticivorans	Aerococcus urinae	1.0	Anterior_nares	#8000ff
+Mycobacterium aromaticivorans	Aeromonas rivuli	1.0	Anterior_nares	#8000ff
+Mycobacterium aromaticivorans	Bacillus smithii	1.0	Mixed	#cccccc
+Mycobacterium aromaticivorans	Flavobacterium indicum	1.0	Anterior_nares	#8000ff
+Mycobacterium aromaticivorans	Flavobacterium sasangense	1.0	Mixed	#cccccc
+Mycobacterium aromaticivorans	Frigoribacterium sp. Leaf8	1.0	Anterior_nares	#8000ff
+Mycobacterium aromaticivorans	Gemmata obscuriglobus	1.0	Anterior_nares	#8000ff
+Mycobacterium aromaticivorans	Kandleria vitulina	1.0	Mixed	#cccccc
+Mycobacterium aromaticivorans	Lysobacter defluvii	1.0	Anterior_nares	#8000ff
+Mycobacterium avium	Acidovorax sp. Leaf160	1.0	Mixed	#cccccc
+Mycobacterium avium	Leptonema illini	1.0	Mixed	#cccccc
+Mycobacterium chelonae	Burkholderia cepacia	1.0	Mixed	#cccccc
+Mycobacterium chelonae	Cupriavidus basilensis	0.814577667391	Mid_vagina	#3febd5
+Mycobacterium chelonae	Elizabethkingia genomosp. 2	1.0	Mixed	#cccccc
+Mycobacterium chelonae	Herbaspirillum autotrophicum	1.0	Mixed	#cccccc
+Mycobacterium chelonae	Herbaspirillum chlorophenolicum	1.0	Mixed	#cccccc
+Mycobacterium chelonae	Herbaspirillum frisingense	1.0	Mixed	#cccccc
+Mycobacterium chelonae	Herbaspirillum huttiense	1.0	Mixed	#cccccc
+Mycobacterium chelonae	Herbaspirillum rubrisubalbicans	1.0	Mixed	#cccccc
+Mycobacterium chelonae	Herbaspirillum sp. B39	1.0	Mixed	#cccccc
+Mycobacterium chelonae	Herbaspirillum sp. GW103	0.814577667391	Mixed	#cccccc
+Mycobacterium chelonae	Herbaspirillum sp. RV1423	1.0	Mixed	#cccccc
+Mycobacterium chelonae	Lactobacillus johnsonii	1.0	Mixed	#cccccc
+Mycobacterium chubuense	Bacillus clausii	1.0	Anterior_nares	#8000ff
+Mycobacterium chubuense	Chryseobacterium oranimense	1.0	Anterior_nares	#8000ff
+Mycobacterium chubuense	Enterobacter hormaechei	1.0	Mixed	#cccccc
+Mycobacterium mageritense	Actinomyces sp. oral taxon 180	0.863980476719	Mixed	#cccccc
+Mycobacterium mageritense	Deinococcus gobiensis	0.863980476719	Anterior_nares	#8000ff
+Mycobacterium mageritense	Lactobacillus fuchuensis	0.863980476719	Anterior_nares	#8000ff
+Mycobacterium mageritense	Methylobacterium sp. EUR3 AL-11	0.863980476719	Anterior_nares	#8000ff
+Mycobacterium mageritense	Microbacterium maritypicum	0.863980476719	Anterior_nares	#8000ff
+Mycobacterium mageritense	Microbacterium sp. Leaf151	0.863980476719	Anterior_nares	#8000ff
+Mycobacterium mageritense	Microbacterium sp. Root280D1	0.863980476719	Anterior_nares	#8000ff
+Mycobacterium sp. JS623	Aureimonas sp. Leaf324	0.814577667391	Anterior_nares	#8000ff
+Mycobacterium sp. JS623	Clostridium baratii	1.0	Mixed	#cccccc
+Mycobacterium sp. JS623	Cronobacter malonaticus	0.814577667391	Anterior_nares	#8000ff
+Mycobacterium sp. JS623	Cronobacter turicensis	1.0	Anterior_nares	#8000ff
+Mycobacterium sp. JS623	Enterococcus mundtii	0.814577667391	Anterior_nares	#8000ff
+Mycobacterium sp. JS623	Franconibacter pulveris	0.814577667391	Anterior_nares	#8000ff
+Mycobacterium sp. JS623	Knoellia flava	0.814577667391	Anterior_nares	#8000ff
+Mycobacterium sp. JS623	Leisingera sp. ANG-M1	1.0	Mixed	#cccccc
+Mycobacterium sp. JS623	Limnohabitans planktonicus	0.814577667391	Anterior_nares	#8000ff
+Mycobacterium sp. JS623	Microcoleus vaginatus	0.814577667391	Mixed	#cccccc
+Mycobacterium tuberculosis	Caldilinea aerophila	1.0	Mixed	#cccccc
+Mycobacterium tuberculosis	Megasphaera elsdenii	1.0	Mixed	#cccccc
+Mycobacterium vulneris	Afipia clevelandensis	0.814577667391	Anterior_nares	#8000ff
+Mycobacterium vulneris	Agrobacterium sp. LC34	1.0	Anterior_nares	#8000ff
+Mycobacterium vulneris	Bacteroides stercorirosoris	1.0	Mixed	#cccccc
+Mycobacterium vulneris	Brevundimonas abyssalis	1.0	Mixed	#cccccc
+Mycobacterium vulneris	Cellulomonas carbonis	1.0	Mixed	#cccccc
+Mycobacterium vulneris	Clostridiales bacterium VE202-27	0.814577667391	Mixed	#cccccc
+Mycobacterium vulneris	[Clostridium] asparagiforme	1.0	Mixed	#cccccc
+Neisseria bacilliformis	Acinetobacter sp. P8-3-8	0.814577667391	Mixed	#cccccc
+Neisseria bacilliformis	Actinomyces vaccimaxillae	0.814577667391	Mixed	#cccccc
+Neisseria bacilliformis	Atopococcus tabaci	0.814577667391	Mixed	#cccccc
+Neisseria bacilliformis	Burkholderia ambifaria	0.814577667391	Mixed	#cccccc
+Neisseria bacilliformis	Chryseobacterium vrystaatense	0.814577667391	Mixed	#cccccc
+Neisseria bacilliformis	Exiguobacterium undae	0.814577667391	Mixed	#cccccc
+Neisseria bacilliformis	Flavihumibacter sp. ZG627	0.814577667391	Mixed	#cccccc
+Neisseria bacilliformis	Komagataeibacter europaeus	0.814577667391	Mixed	#cccccc
+Neisseria bacilliformis	Micrococcus sp. V7	0.814577667391	Mixed	#cccccc
+Neisseria shayeganii	Actinomyces sp. oral taxon 180	0.814577667391	Mixed	#cccccc
+Neisseria shayeganii	Aerococcus urinaeequi	0.814577667391	Mixed	#cccccc
+Neisseria shayeganii	Deinococcus gobiensis	0.814577667391	Mixed	#cccccc
+Neisseria shayeganii	Lactobacillus fuchuensis	0.814577667391	Mixed	#cccccc
+Neisseria shayeganii	Methylobacterium sp. EUR3 AL-11	0.814577667391	Mixed	#cccccc
+Neisseria shayeganii	Methylobacterium sp. GXS13	1.0	R_Retroauricular_crease	#9efaa2
+Neisseria shayeganii	Microbacterium maritypicum	0.814577667391	Mixed	#cccccc
+Neisseria shayeganii	Microbacterium sp. Leaf151	0.814577667391	Mixed	#cccccc
+Neisseria shayeganii	Microbacterium sp. Root280D1	0.814577667391	Mixed	#cccccc
+Neisseria sp. GT4A_CT1	Neisseria macacae	0.852335164835	Mixed	#cccccc
+Nesterenkonia sp. NP1	Arthrobacter castelli	0.814577667391	Mixed	#cccccc
+Nesterenkonia sp. NP1	Clostridium sp. SS2/1	0.814577667391	Mixed	#cccccc
+Nesterenkonia sp. NP1	Corynebacterium freneyi	0.814577667391	Mixed	#cccccc
+Nesterenkonia sp. NP1	Corynebacterium glyciniphilum	0.814577667391	Mixed	#cccccc
+Nesterenkonia sp. NP1	Deinococcus wulumuqiensis	0.814577667391	R_Retroauricular_crease	#9efaa2
+Nesterenkonia sp. NP1	Escherichia hermannii	1.0	Mixed	#cccccc
+Nesterenkonia sp. NP1	Modestobacter marinus	0.814577667391	Mixed	#cccccc
+Nitrincola lacisaponensis	Acinetobacter sp. MII	1.0	Anterior_nares	#8000ff
+Nitrincola lacisaponensis	Acinetobacter sp. VT 511	1.0	Anterior_nares	#8000ff
+Nitrincola lacisaponensis	Corynebacterium xerosis	1.0	Mixed	#cccccc
+Nitrincola lacisaponensis	Dyadobacter beijingensis	1.0	Anterior_nares	#8000ff
+Nitrincola lacisaponensis	Enterobacter asburiae	1.0	Anterior_nares	#8000ff
+Nitrosospira multiformis	Actinobacteria bacterium UC5.1-1B11	1.0	Anterior_nares	#8000ff
+Nitrosospira multiformis	Agrobacterium albertimagni	1.0	Anterior_nares	#8000ff
+Nitrosospira multiformis	Arthrobacter sp. L77	1.0	Anterior_nares	#8000ff
+Nitrosospira multiformis	Brevundimonas nasdae	1.0	Mixed	#cccccc
+Nitrosospira multiformis	Brevundimonas sp. BAL3	1.0	Mixed	#cccccc
+Nitrosospira multiformis	Corynebacterium pilosum	1.0	Mixed	#cccccc
+Nitrosospira multiformis	Kaistia adipata	1.0	Anterior_nares	#8000ff
+Nitrospira defluvii	Actinomyces sp. oral taxon 180	0.814577667391	Tongue_dorsum	#ff3219
+Nitrospira defluvii	Aerococcus urinaeequi	0.814577667391	Mixed	#cccccc
+Nitrospira defluvii	Deinococcus gobiensis	0.814577667391	Mixed	#cccccc
+Nitrospira defluvii	Lactobacillus fuchuensis	0.814577667391	Mixed	#cccccc
+Nitrospira defluvii	Methylobacterium sp. EUR3 AL-11	0.814577667391	Mixed	#cccccc
+Nitrospira defluvii	Methylobacterium sp. GXS13	1.0	Mixed	#cccccc
+Nitrospira defluvii	Microbacterium maritypicum	0.814577667391	Mixed	#cccccc
+Nitrospira defluvii	Microbacterium sp. Leaf151	0.814577667391	Mixed	#cccccc
+Nitrospira defluvii	Microbacterium sp. Root280D1	0.814577667391	Mixed	#cccccc
+Nitrospira defluvii	Neisseria shayeganii	1.0	Mixed	#cccccc
+Niveispirillum irakense	Acinetobacter sp. CIP 101966	0.814577667391	Mixed	#cccccc
+Niveispirillum irakense	Actinomyces europaeus	0.814577667391	Anterior_nares	#8000ff
+Niveispirillum irakense	Advenella kashmirensis	0.814577667391	Anterior_nares	#8000ff
+Niveispirillum irakense	Corynebacterium uterequi	0.814577667391	Anterior_nares	#8000ff
+Niveispirillum irakense	Elizabethkingia meningoseptica	0.814577667391	Mixed	#cccccc
+Niveispirillum irakense	Enterobacter sp. K66-74	0.814577667391	Anterior_nares	#8000ff
+Niveispirillum irakense	Erwinia sp. SCU-B244	0.814577667391	Anterior_nares	#8000ff
+Niveispirillum irakense	Exiguobacterium sp. ZWU0009	0.814577667391	Anterior_nares	#8000ff
+Niveispirillum irakense	Hymenobacter sp. AT01-02	0.814577667391	Mixed	#cccccc
+Niveispirillum irakense	Lactobacillus coleohominis	0.814577667391	Mixed	#cccccc
+Niveispirillum irakense	Leuconostoc lactis	0.814577667391	Anterior_nares	#8000ff
+Niveispirillum irakense	Micavibrio aeruginosavorus	0.814577667391	Anterior_nares	#8000ff
+Niveispirillum irakense	Mobiluncus mulieris	0.814577667391	Mixed	#cccccc
+Nocardioides alkalitolerans	Aureimonas sp. Leaf324	1.0	Anterior_nares	#8000ff
+Nocardioides alkalitolerans	Clostridium baratii	0.814577667391	Mixed	#cccccc
+Nocardioides alkalitolerans	Comamonas granuli	0.863980476719	Anterior_nares	#8000ff
+Nocardioides alkalitolerans	Cronobacter dublinensis	0.814577667391	Anterior_nares	#8000ff
+Nocardioides alkalitolerans	Cronobacter malonaticus	1.0	Anterior_nares	#8000ff
+Nocardioides alkalitolerans	Cronobacter turicensis	0.814577667391	Anterior_nares	#8000ff
+Nocardioides alkalitolerans	Cronobacter universalis	0.814577667391	Anterior_nares	#8000ff
+Nocardioides alkalitolerans	Enterococcus mundtii	1.0	Anterior_nares	#8000ff
+Nocardioides alkalitolerans	Epilithonimonas lactis	0.814577667391	Anterior_nares	#8000ff
+Nocardioides alkalitolerans	Franconibacter pulveris	1.0	Anterior_nares	#8000ff
+Nocardioides alkalitolerans	Leisingera sp. ANG-M1	0.814577667391	Mixed	#cccccc
+Nocardioides alkalitolerans	Limnohabitans planktonicus	1.0	Anterior_nares	#8000ff
+Nocardioides alkalitolerans	Limnohabitans sp. Rim28	0.863980476719	Mixed	#cccccc
+Nocardioides alkalitolerans	Microcoleus vaginatus	1.0	Mixed	#cccccc
+Nocardioides alkalitolerans	Mycobacterium sp. JS623	0.814577667391	Anterior_nares	#8000ff
+Nocardioides halotolerans	Arthrobacter castelli	1.0	Anterior_nares	#8000ff
+Nocardioides halotolerans	Arthrobacter sp. AK-YN10	0.814577667391	Anterior_nares	#8000ff
+Nocardioides halotolerans	Belnapia moabensis	0.814577667391	Mixed	#cccccc
+Nocardioides halotolerans	Bradyrhizobium lablabi	0.814577667391	Anterior_nares	#8000ff
+Nocardioides halotolerans	Bradyrhizobium sp. URHA0002	0.863980476719	Anterior_nares	#8000ff
+Nocardioides halotolerans	Brevibacterium senegalense	0.814577667391	Anterior_nares	#8000ff
+Nocardioides halotolerans	Corynebacterium freneyi	1.0	Mixed	#cccccc
+Nocardioides halotolerans	Corynebacterium glyciniphilum	1.0	Anterior_nares	#8000ff
+Nocardioides halotolerans	Deinococcus wulumuqiensis	1.0	Mixed	#cccccc
+Nocardioides halotolerans	Escherichia hermannii	0.814577667391	Anterior_nares	#8000ff
+Nocardioides halotolerans	Exiguobacterium mexicanum	0.814577667391	Mixed	#cccccc
+Nocardioides halotolerans	Microbacterium sp. ZOR0019	0.814577667391	Anterior_nares	#8000ff
+Nocardioides halotolerans	Microvirga vignae	0.814577667391	Anterior_nares	#8000ff
+Nocardioides halotolerans	Modestobacter marinus	1.0	Anterior_nares	#8000ff
+Nocardioides halotolerans	Nesterenkonia sp. NP1	0.814577667391	Mixed	#cccccc
+Nocardioides sp. CF8	Arthrobacter sp. AK-YN10	0.814577667391	Anterior_nares	#8000ff
+Nocardioides sp. CF8	Belnapia moabensis	0.814577667391	Mixed	#cccccc
+Nocardioides sp. CF8	Exiguobacterium mexicanum	0.814577667391	Mixed	#cccccc
+Nocardioides sp. JS614	Belnapia sp. F-4-1	1.0	Mixed	#cccccc
+Nocardioides sp. JS614	Cellulomonas sp. Leaf334	1.0	Anterior_nares	#8000ff
+Nocardioides sp. JS614	Cystobacter fuscus	1.0	Anterior_nares	#8000ff
+Nocardioides sp. JS614	Cystobacter violaceus	1.0	Anterior_nares	#8000ff
+Nocardioides sp. JS614	Deinococcus radiodurans	1.0	Mixed	#cccccc
+Nocardioides sp. JS614	Demetria terragena	1.0	Anterior_nares	#8000ff
+Nocardioides sp. JS614	Geodermatophilaceae bacterium URHB0048	1.0	Anterior_nares	#8000ff
+Nocardioides sp. Soil774	Nocardioides sp. Root122	1.0	Anterior_nares	#8000ff
+Nocardioides sp. Soil805	Belnapia sp. F-4-1	1.0	Mixed	#cccccc
+Nocardioides sp. Soil805	Cellulomonas sp. Leaf334	1.0	Anterior_nares	#8000ff
+Nocardioides sp. Soil805	Cystobacter fuscus	1.0	Anterior_nares	#8000ff
+Nocardioides sp. Soil805	Cystobacter violaceus	1.0	Anterior_nares	#8000ff
+Nocardioides sp. Soil805	Deinococcus radiodurans	1.0	Mixed	#cccccc
+Nocardioides sp. Soil805	Demetria terragena	1.0	Anterior_nares	#8000ff
+Nocardioides sp. Soil805	Geodermatophilaceae bacterium URHB0048	1.0	Anterior_nares	#8000ff
+Nocardioides sp. Soil805	Nocardioides sp. JS614	1.0	Anterior_nares	#8000ff
+Novosphingobium lindaniclasticum	Acetobacter syzygii	1.0	Mixed	#cccccc
+Novosphingobium lindaniclasticum	Collinsella sp. MS5	1.0	L_Retroauricular_crease	#1fd3e1
+Novosphingobium lindaniclasticum	Gluconobacter frateurii	1.0	Mixed	#cccccc
+Novosphingobium lindaniclasticum	Kineosporia aurantiaca	1.0	Mixed	#cccccc
+Novosphingobium sp. AP12	Aureimonas sp. Leaf454	1.0	Anterior_nares	#8000ff
+Novosphingobium sp. AP12	Clostridiales bacterium VE202-28	1.0	Mixed	#cccccc
+Novosphingobium sp. AP12	Eubacterium sp. AB3007	1.0	Mixed	#cccccc
+Novosphingobium sp. Leaf2	Aerococcus urinae	1.0	Anterior_nares	#8000ff
+Novosphingobium sp. Leaf2	Aeromonas rivuli	1.0	Anterior_nares	#8000ff
+Novosphingobium sp. Leaf2	Bacillus smithii	1.0	Mixed	#cccccc
+Novosphingobium sp. Leaf2	Flavobacterium indicum	1.0	Anterior_nares	#8000ff
+Novosphingobium sp. Leaf2	Flavobacterium sasangense	1.0	Mixed	#cccccc
+Novosphingobium sp. Leaf2	Frigoribacterium sp. Leaf8	1.0	Anterior_nares	#8000ff
+Novosphingobium sp. Leaf2	Gemmata obscuriglobus	1.0	Anterior_nares	#8000ff
+Novosphingobium sp. Leaf2	Kandleria vitulina	1.0	Mixed	#cccccc
+Novosphingobium sp. Leaf2	Lysobacter defluvii	1.0	Anterior_nares	#8000ff
+Novosphingobium sp. Leaf2	Mycobacterium aromaticivorans	1.0	Anterior_nares	#8000ff
+Oceanobacillus kimchii	Gemella cuniculi	1.0	Mixed	#cccccc
+Oceanobacillus massiliensis	Acinetobacter pittii	0.814577667391	Mixed	#cccccc
+Oceanobacillus massiliensis	Chryseobacterium sp. UNC8MFCol	1.0	Anterior_nares	#8000ff
+Oceanobacillus massiliensis	Helcococcus sueciensis	1.0	Mixed	#cccccc
+Oceanobacillus massiliensis	Lactobacillus vini	1.0	Anterior_nares	#8000ff
+Oceanobacillus massiliensis	Leifsonia aquatica	1.0	Anterior_nares	#8000ff
+Oceanobacillus massiliensis	Megasphaera sp. UPII 135-E	1.0	Mixed	#cccccc
+Oceanobacillus massiliensis	Methylobacillus glycogenes	1.0	Mixed	#cccccc
+Ochrobactrum anthropi	Acinetobacter sp. CIP 101966	0.814577667391	R_Retroauricular_crease	#9efaa2
+Ochrobactrum anthropi	Actinomyces europaeus	0.814577667391	Mixed	#cccccc
+Ochrobactrum anthropi	Advenella kashmirensis	0.814577667391	Mixed	#cccccc
+Ochrobactrum anthropi	Brevundimonas sp. EAKA	0.863980476719	R_Retroauricular_crease	#9efaa2
+Ochrobactrum anthropi	Corynebacterium uterequi	0.814577667391	Mixed	#cccccc
+Ochrobactrum anthropi	Elizabethkingia meningoseptica	0.814577667391	Mixed	#cccccc
+Ochrobactrum anthropi	Enterobacter sp. K66-74	0.814577667391	Mixed	#cccccc
+Ochrobactrum anthropi	Erwinia sp. SCU-B244	0.814577667391	Mixed	#cccccc
+Ochrobactrum anthropi	Exiguobacterium sp. ZWU0009	0.814577667391	Mixed	#cccccc
+Ochrobactrum anthropi	Hymenobacter sp. AT01-02	0.814577667391	Mixed	#cccccc
+Ochrobactrum anthropi	Lactobacillus coleohominis	0.814577667391	Mixed	#cccccc
+Ochrobactrum anthropi	Leuconostoc lactis	0.814577667391	Mixed	#cccccc
+Ochrobactrum anthropi	Micavibrio aeruginosavorus	0.814577667391	Mixed	#cccccc
+Ochrobactrum anthropi	Mobiluncus mulieris	0.814577667391	Mixed	#cccccc
+Ochrobactrum intermedium	Leucobacter chironomi	0.814577667391	Mixed	#cccccc
+Ochrobactrum intermedium	Methylobacterium oryzae	0.814577667391	Anterior_nares	#8000ff
+Ochrobactrum rhizosphaerae	Niastella koreensis	1.0	Mixed	#cccccc
+Olivibacter sitiensis	Acinetobacter bereziniae	0.814577667391	Mixed	#cccccc
+Olivibacter sitiensis	Acinetobacter sp. NIPH 284	0.814577667391	Mixed	#cccccc
+Olivibacter sitiensis	Acinetobacter sp. P8-3-8	1.0	Mixed	#cccccc
+Olivibacter sitiensis	Actinomyces vaccimaxillae	1.0	Anterior_nares	#8000ff
+Olivibacter sitiensis	Atopococcus tabaci	1.0	Anterior_nares	#8000ff
+Olivibacter sitiensis	Burkholderia ambifaria	1.0	Anterior_nares	#8000ff
+Olivibacter sitiensis	Chryseobacterium vrystaatense	1.0	Anterior_nares	#8000ff
+Olivibacter sitiensis	Exiguobacterium undae	1.0	Anterior_nares	#8000ff
+Olivibacter sitiensis	Flavihumibacter sp. ZG627	1.0	Anterior_nares	#8000ff
+Olivibacter sitiensis	Gordonia paraffinivorans	0.814577667391	Anterior_nares	#8000ff
+Olivibacter sitiensis	Komagataeibacter europaeus	1.0	Anterior_nares	#8000ff
+Olivibacter sitiensis	Micrococcus sp. V7	1.0	Anterior_nares	#8000ff
+Olivibacter sitiensis	Neisseria bacilliformis	0.814577667391	Mixed	#cccccc
+Olsenella uli	Achromobacter sp. Root170	1.0	Mixed	#cccccc
+Ornithinimicrobium pekingense	Actinomyces sp. oral taxon 180	0.863980476719	Mixed	#cccccc
+Ornithinimicrobium pekingense	Deinococcus gobiensis	0.863980476719	Mixed	#cccccc
+Ornithinimicrobium pekingense	Lactobacillus fuchuensis	0.863980476719	Mixed	#cccccc
+Ornithinimicrobium pekingense	Methylobacterium sp. EUR3 AL-11	0.863980476719	Mixed	#cccccc
+Ornithinimicrobium pekingense	Microbacterium maritypicum	0.863980476719	Mixed	#cccccc
+Ornithinimicrobium pekingense	Microbacterium sp. Leaf151	0.863980476719	Mixed	#cccccc
+Ornithinimicrobium pekingense	Microbacterium sp. Root280D1	0.863980476719	Mixed	#cccccc
+Oscillatoria nigro-viridis	Aureimonas sp. Leaf324	1.0	Mixed	#cccccc
+Oscillatoria nigro-viridis	Clostridium baratii	0.814577667391	Mixed	#cccccc
+Oscillatoria nigro-viridis	Comamonas granuli	0.863980476719	Mixed	#cccccc
+Oscillatoria nigro-viridis	Cronobacter dublinensis	0.814577667391	Mixed	#cccccc
+Oscillatoria nigro-viridis	Cronobacter malonaticus	1.0	Mixed	#cccccc
+Oscillatoria nigro-viridis	Cronobacter turicensis	0.814577667391	Mixed	#cccccc
+Oscillatoria nigro-viridis	Cronobacter universalis	0.814577667391	Mixed	#cccccc
+Oscillatoria nigro-viridis	Enterococcus mundtii	1.0	Mixed	#cccccc
+Oscillatoria nigro-viridis	Epilithonimonas lactis	0.814577667391	Mixed	#cccccc
+Oscillatoria nigro-viridis	Franconibacter pulveris	1.0	Mixed	#cccccc
+Oscillatoria nigro-viridis	Leisingera sp. ANG-M1	0.814577667391	Mixed	#cccccc
+Oscillatoria nigro-viridis	Limnohabitans planktonicus	1.0	Mixed	#cccccc
+Oscillatoria nigro-viridis	Limnohabitans sp. Rim28	0.863980476719	Mixed	#cccccc
+Oscillatoria nigro-viridis	Microcoleus vaginatus	1.0	L_Retroauricular_crease	#1fd3e1
+Oscillatoria nigro-viridis	Mycobacterium sp. JS623	0.814577667391	Mixed	#cccccc
+Oscillatoria nigro-viridis	Nocardioides alkalitolerans	1.0	Mixed	#cccccc
+Oscillibacter ruminantium	Catabacter hongkongensis	1.0	Stool	#ded579
+Paenibacillus pasadenensis	Aerococcus urinae	1.0	Anterior_nares	#8000ff
+Paenibacillus pasadenensis	Aeromonas rivuli	1.0	Anterior_nares	#8000ff
+Paenibacillus pasadenensis	Bacillus smithii	1.0	Mixed	#cccccc
+Paenibacillus pasadenensis	Flavobacterium indicum	1.0	Anterior_nares	#8000ff
+Paenibacillus pasadenensis	Flavobacterium sasangense	1.0	Mixed	#cccccc
+Paenibacillus pasadenensis	Frigoribacterium sp. Leaf8	1.0	Anterior_nares	#8000ff
+Paenibacillus pasadenensis	Gemmata obscuriglobus	1.0	Anterior_nares	#8000ff
+Paenibacillus pasadenensis	Kandleria vitulina	1.0	Mixed	#cccccc
+Paenibacillus pasadenensis	Lysobacter defluvii	1.0	Anterior_nares	#8000ff
+Paenibacillus pasadenensis	Mycobacterium aromaticivorans	1.0	Anterior_nares	#8000ff
+Paenibacillus pasadenensis	Novosphingobium sp. Leaf2	1.0	Anterior_nares	#8000ff
+Paenibacillus senegalensis	Citrobacter sp. MGH104	1.0	Anterior_nares	#8000ff
+Paenibacillus senegalensis	Halomonas hydrothermalis	1.0	Mixed	#cccccc
+Paenibacillus sp. SIT18	Limnohabitans sp. Rim47	1.0	Mixed	#cccccc
+Paenibacillus sp. TCA20	Azospirillum brasilense	0.814577667391	Mixed	#cccccc
+Paenirhodobacter enshiensis	Acinetobacter sp. CIP 101966	1.0	Mixed	#cccccc
+Paenirhodobacter enshiensis	Actinomyces europaeus	1.0	Anterior_nares	#8000ff
+Paenirhodobacter enshiensis	Advenella kashmirensis	1.0	Anterior_nares	#8000ff
+Paenirhodobacter enshiensis	Cellulomonas flavigena	0.814577667391	Mixed	#cccccc
+Paenirhodobacter enshiensis	Chryseobacterium sp. FF12	0.814577667391	Mixed	#cccccc
+Paenirhodobacter enshiensis	Corynebacterium uterequi	1.0	Anterior_nares	#8000ff
+Paenirhodobacter enshiensis	Elizabethkingia meningoseptica	1.0	Mixed	#cccccc
+Paenirhodobacter enshiensis	Enterobacter sp. K66-74	1.0	Anterior_nares	#8000ff
+Paenirhodobacter enshiensis	Erwinia sp. SCU-B244	1.0	Anterior_nares	#8000ff
+Paenirhodobacter enshiensis	Exiguobacterium sp. ZWU0009	1.0	Anterior_nares	#8000ff
+Paenirhodobacter enshiensis	Hymenobacter sp. AT01-02	1.0	Mixed	#cccccc
+Paenirhodobacter enshiensis	Lactobacillus coleohominis	1.0	Mixed	#cccccc
+Paenirhodobacter enshiensis	Leuconostoc lactis	1.0	Anterior_nares	#8000ff
+Paenirhodobacter enshiensis	Micavibrio aeruginosavorus	1.0	Anterior_nares	#8000ff
+Paenirhodobacter enshiensis	Microbacterium sp. Ag1	0.814577667391	Mixed	#cccccc
+Paenirhodobacter enshiensis	Mobiluncus mulieris	1.0	Mixed	#cccccc
+Paenirhodobacter enshiensis	Niveispirillum irakense	0.814577667391	Anterior_nares	#8000ff
+Paenirhodobacter enshiensis	Ochrobactrum anthropi	0.814577667391	Mixed	#cccccc
+Pandoraea sp. B-6	Acidovorax sp. Leaf160	1.0	Mixed	#cccccc
+Pandoraea sp. B-6	Leptonema illini	1.0	Anterior_nares	#8000ff
+Pandoraea sp. B-6	Mycobacterium avium	1.0	Mixed	#cccccc
+Pantoea sp. AS-PWVM4	Campylobacter sp. FOBRC14	1.0	Mixed	#cccccc
+Pantoea sp. AS-PWVM4	Coprococcus sp. HPP0048	1.0	Mixed	#cccccc
+Pantoea sp. AS-PWVM4	Fusobacterium ulcerans	1.0	Mixed	#cccccc
+Pantoea sp. AS-PWVM4	Methylobacterium sp. GXF4	1.0	Mixed	#cccccc
+Pantoea sp. AS-PWVM4	Mogibacterium sp. CM50	1.0	Mixed	#cccccc
+Pantoea sp. At-9b	Campylobacter sp. FOBRC14	1.0	Mixed	#cccccc
+Pantoea sp. At-9b	Coprococcus sp. HPP0048	1.0	Mixed	#cccccc
+Pantoea sp. At-9b	Fusobacterium ulcerans	1.0	Mixed	#cccccc
+Pantoea sp. At-9b	Methylobacterium sp. GXF4	1.0	Mixed	#cccccc
+Pantoea sp. At-9b	Mogibacterium sp. CM50	1.0	Mixed	#cccccc
+Pantoea sp. At-9b	Pantoea sp. AS-PWVM4	1.0	Anterior_nares	#8000ff
+Pantoea sp. MBLJ3	Aureimonas sp. Leaf324	0.814577667391	Anterior_nares	#8000ff
+Pantoea sp. MBLJ3	Cronobacter malonaticus	0.814577667391	Anterior_nares	#8000ff
+Pantoea sp. MBLJ3	Cronobacter universalis	1.0	Anterior_nares	#8000ff
+Pantoea sp. MBLJ3	Enterococcus mundtii	0.814577667391	Anterior_nares	#8000ff
+Pantoea sp. MBLJ3	Epilithonimonas lactis	1.0	Anterior_nares	#8000ff
+Pantoea sp. MBLJ3	Franconibacter pulveris	0.814577667391	Anterior_nares	#8000ff
+Pantoea sp. MBLJ3	Gordonia sp. SGD-V-85	0.814577667391	Mixed	#cccccc
+Pantoea sp. MBLJ3	Limnohabitans planktonicus	0.814577667391	Anterior_nares	#8000ff
+Pantoea sp. MBLJ3	Microcoleus vaginatus	0.814577667391	Mixed	#cccccc
+Pantoea sp. MBLJ3	Nocardioides alkalitolerans	0.814577667391	Anterior_nares	#8000ff
+Pantoea sp. MBLJ3	Oscillatoria nigro-viridis	0.814577667391	Mixed	#cccccc
+Pantoea sp. NGS-ED-1003	Aliihoeflea sp. 2WW	1.0	R_Retroauricular_crease	#9efaa2
+Pantoea sp. NGS-ED-1003	Collinsella tanakaei	1.0	Mixed	#cccccc
+Pantoea sp. NGS-ED-1003	Corynebacterium ulceribovis	1.0	Mixed	#cccccc
+Pantoea sp. NGS-ED-1003	Dactylosporangium aurantiacum	1.0	Mixed	#cccccc
+Pantoea sp. NGS-ED-1003	Deinococcus phoenicis	1.0	Mixed	#cccccc
+Pantoea sp. NGS-ED-1003	Enterococcus avium	1.0	Mixed	#cccccc
+Pantoea sp. NGS-ED-1003	Methylobacterium sp. AMS5	1.0	R_Retroauricular_crease	#9efaa2
+Pantoea sp. NGS-ED-1003	Microbacterium hominis	1.0	Mixed	#cccccc
+Parabacteroides gordonii	Lachnospiraceae bacterium AC2012	0.863980476719	Mixed	#cccccc
+Paraburkholderia fungorum	Agrobacterium vitis	1.0	Mixed	#cccccc
+Paraburkholderia fungorum	Bilophila wadsworthia	1.0	Mixed	#cccccc
+Paraburkholderia fungorum	Burkholderia contaminans	1.0	Anterior_nares	#8000ff
+Paraburkholderia phytofirmans	Burkholderia diffusa	1.0	Mixed	#cccccc
+Paraburkholderia phytofirmans	Comamonas sp. E6	1.0	Mixed	#cccccc
+Paraburkholderia phytofirmans	Herbaspirillum seropedicae	1.0	Mixed	#cccccc
+Paraburkholderia phytofirmans	Herbaspirillum sp. B65	1.0	Mixed	#cccccc
+Paracoccus aestuarii	Pantoea dispersa	1.0	Anterior_nares	#8000ff
+Paracoccus marcusii	Eubacterium saphenum	0.863980476719	Mixed	#cccccc
+Paracoccus marcusii	Pantoea dispersa	0.814577667391	Anterior_nares	#8000ff
+Paracoccus marcusii	Paracoccus aestuarii	0.814577667391	Anterior_nares	#8000ff
+Paracoccus pantotrophus	Acidithiobacillus caldus	1.0	Buccal_mucosa	#425ffa
+Paracoccus pantotrophus	Aeromonas hydrophila	1.0	Mixed	#cccccc
+Paracoccus pantotrophus	Aeromonas salmonicida	1.0	Mixed	#cccccc
+Paracoccus pantotrophus	Corynebacterium humireducens	1.0	Mixed	#cccccc
+Paracoccus sp. J55	Aureimonas sp. Leaf324	0.814577667391	Anterior_nares	#8000ff
+Paracoccus sp. J55	Clostridium baratii	1.0	Mixed	#cccccc
+Paracoccus sp. J55	Cronobacter malonaticus	0.814577667391	Anterior_nares	#8000ff
+Paracoccus sp. J55	Cronobacter turicensis	1.0	Anterior_nares	#8000ff
+Paracoccus sp. J55	Enterococcus mundtii	0.814577667391	Anterior_nares	#8000ff
+Paracoccus sp. J55	Franconibacter pulveris	0.814577667391	Anterior_nares	#8000ff
+Paracoccus sp. J55	Knoellia flava	0.814577667391	Anterior_nares	#8000ff
+Paracoccus sp. J55	Leisingera sp. ANG-M1	1.0	Mixed	#cccccc
+Paracoccus sp. J55	Limnohabitans planktonicus	0.814577667391	Anterior_nares	#8000ff
+Paracoccus sp. J55	Microcoleus vaginatus	0.814577667391	Mixed	#cccccc
+Paracoccus sp. J55	Mycobacterium sp. JS623	1.0	Anterior_nares	#8000ff
+Paracoccus sp. J55	Nocardioides alkalitolerans	0.814577667391	Anterior_nares	#8000ff
+Paracoccus sp. J55	Oscillatoria nigro-viridis	0.814577667391	Mixed	#cccccc
+Paracoccus sp. MKU1	Aerococcus urinae	1.0	Mixed	#cccccc
+Paracoccus sp. MKU1	Aeromonas rivuli	1.0	Mixed	#cccccc
+Paracoccus sp. MKU1	Bacillus smithii	1.0	Mixed	#cccccc
+Paracoccus sp. MKU1	Flavobacterium indicum	1.0	Mixed	#cccccc
+Paracoccus sp. MKU1	Flavobacterium sasangense	1.0	R_Retroauricular_crease	#9efaa2
+Paracoccus sp. MKU1	Frigoribacterium sp. Leaf8	1.0	Mixed	#cccccc
+Paracoccus sp. MKU1	Gemmata obscuriglobus	1.0	Mixed	#cccccc
+Paracoccus sp. MKU1	Kandleria vitulina	1.0	Mixed	#cccccc
+Paracoccus sp. MKU1	Lysobacter defluvii	1.0	Mixed	#cccccc
+Paracoccus sp. MKU1	Mycobacterium aromaticivorans	1.0	Mixed	#cccccc
+Paracoccus sp. MKU1	Novosphingobium sp. Leaf2	1.0	Mixed	#cccccc
+Paracoccus sp. MKU1	Paenibacillus pasadenensis	1.0	Mixed	#cccccc
+Paracoccus versutus	Cronobacter universalis	0.814577667391	Mixed	#cccccc
+Paracoccus versutus	Epilithonimonas lactis	0.814577667391	Mixed	#cccccc
+Paracoccus versutus	Pantoea sp. MBLJ3	0.814577667391	Mixed	#cccccc
+Parvimonas sp. oral taxon 110	Micrococcus sp. 28	1.0	Mixed	#cccccc
+Pediococcus acidilactici	Aureimonas sp. Leaf324	0.814577667391	Anterior_nares	#8000ff
+Pediococcus acidilactici	Cronobacter malonaticus	0.814577667391	Anterior_nares	#8000ff
+Pediococcus acidilactici	Cronobacter universalis	1.0	Anterior_nares	#8000ff
+Pediococcus acidilactici	Enterococcus mundtii	0.814577667391	Anterior_nares	#8000ff
+Pediococcus acidilactici	Epilithonimonas lactis	1.0	Anterior_nares	#8000ff
+Pediococcus acidilactici	Franconibacter pulveris	0.814577667391	Anterior_nares	#8000ff
+Pediococcus acidilactici	Gordonia sp. SGD-V-85	0.814577667391	Mixed	#cccccc
+Pediococcus acidilactici	Limnohabitans planktonicus	0.814577667391	Anterior_nares	#8000ff
+Pediococcus acidilactici	Microcoleus vaginatus	0.814577667391	Mixed	#cccccc
+Pediococcus acidilactici	Nocardioides alkalitolerans	0.814577667391	Anterior_nares	#8000ff
+Pediococcus acidilactici	Oscillatoria nigro-viridis	0.814577667391	Mixed	#cccccc
+Pediococcus acidilactici	Pantoea sp. MBLJ3	1.0	Anterior_nares	#8000ff
+Pediococcus acidilactici	Paracoccus versutus	0.814577667391	Mixed	#cccccc
+Pediococcus parvulus	Leucobacter chironomi	0.814577667391	Mixed	#cccccc
+Pediococcus parvulus	Methylobacterium oryzae	0.814577667391	Anterior_nares	#8000ff
+Pediococcus parvulus	Ochrobactrum intermedium	1.0	Anterior_nares	#8000ff
+Pedobacter antarcticus	Agrobacterium sp. LC34	0.814577667391	Anterior_nares	#8000ff
+Pedobacter antarcticus	Bacteroides stercorirosoris	0.814577667391	Mixed	#cccccc
+Pedobacter antarcticus	Brevundimonas abyssalis	0.814577667391	Mixed	#cccccc
+Pedobacter antarcticus	Cellulomonas carbonis	0.814577667391	Mixed	#cccccc
+Pedobacter antarcticus	[Clostridium] asparagiforme	0.814577667391	Mixed	#cccccc
+Pedobacter antarcticus	Mycobacterium vulneris	0.814577667391	Anterior_nares	#8000ff
+Pedobacter heparinus	Arthrobacter sp. H14	1.0	Anterior_nares	#8000ff
+Pedobacter heparinus	Bordetella petrii	1.0	Anterior_nares	#8000ff
+Pedobacter heparinus	Curtobacterium luteum	1.0	Anterior_nares	#8000ff
+Pedobacter heparinus	Dysgonomonas mossii	1.0	Mixed	#cccccc
+Pedobacter heparinus	Frigoribacterium sp. RIT-PI-h	1.0	Anterior_nares	#8000ff
+Pedobacter heparinus	Lactobacillus aviarius	1.0	Anterior_nares	#8000ff
+Pedobacter heparinus	Leadbetterella byssophila	1.0	Anterior_nares	#8000ff
+Pedobacter heparinus	Mesorhizobium metallidurans	1.0	Anterior_nares	#8000ff
+Pedobacter heparinus	Microbacterium enclense	1.0	Anterior_nares	#8000ff
+Pedobacter sp. NL19	Actinomyces sp. oral taxon 877	1.0	Mixed	#cccccc
+Pedobacter sp. NL19	Anaeroglobus geminatus	1.0	Mixed	#cccccc
+Pedobacter sp. NL19	Brevibacillus borstelensis	1.0	Anterior_nares	#8000ff
+Pedobacter sp. NL19	Clostridium sp. ATCC 29733	1.0	Mixed	#cccccc
+Pedobacter sp. NL19	Methyloversatilis thermotolerans	1.0	Anterior_nares	#8000ff
+Pedobacter sp. R20-19	Campylobacter sp. FOBRC14	1.0	Mixed	#cccccc
+Pedobacter sp. R20-19	Coprococcus sp. HPP0048	1.0	Mixed	#cccccc
+Pedobacter sp. R20-19	Fusobacterium ulcerans	1.0	Mixed	#cccccc
+Pedobacter sp. R20-19	Methylobacterium sp. GXF4	1.0	Mixed	#cccccc
+Pedobacter sp. R20-19	Mogibacterium sp. CM50	1.0	Mixed	#cccccc
+Pedobacter sp. R20-19	Pantoea sp. AS-PWVM4	1.0	Mixed	#cccccc
+Pedobacter sp. R20-19	Pantoea sp. At-9b	1.0	Mixed	#cccccc
+Peptostreptococcaceae bacterium OBRC8	Campylobacter curvus	1.0	Mixed	#cccccc
+Peptostreptococcaceae bacterium OBRC8	Candidatus Saccharibacteria bacterium RAAC3_TM7_1	1.0	Mixed	#cccccc
+Peptostreptococcaceae bacterium OBRC8	Capnocytophaga sp. oral taxon 324	0.814577667391	Subgingival_plaque	#feb562
+Peptostreptococcaceae bacterium OBRC8	Capnocytophaga sp. oral taxon 335	0.814577667391	Mixed	#cccccc
+Peptostreptococcaceae bacterium OBRC8	Capnocytophaga sp. oral taxon 336	1.0	Subgingival_plaque	#feb562
+Peptostreptococcaceae bacterium OBRC8	Fusobacterium sp. CM22	0.814577667391	Mixed	#cccccc
+Peptostreptococcaceae bacterium oral taxon 113	Arthrobacter sp. TB 23	1.0	Mixed	#cccccc
+Peptostreptococcaceae bacterium oral taxon 113	Erysipelotrichaceae bacterium 21_3	1.0	Mixed	#cccccc
+Phenylobacterium zucineum	Acinetobacter sp. CIP 101966	1.0	R_Retroauricular_crease	#9efaa2
+Phenylobacterium zucineum	Actinomyces europaeus	1.0	Mixed	#cccccc
+Phenylobacterium zucineum	Advenella kashmirensis	1.0	Mixed	#cccccc
+Phenylobacterium zucineum	Cellulomonas flavigena	0.814577667391	Mixed	#cccccc
+Phenylobacterium zucineum	Chryseobacterium sp. FF12	0.814577667391	R_Retroauricular_crease	#9efaa2
+Phenylobacterium zucineum	Corynebacterium uterequi	1.0	Mixed	#cccccc
+Phenylobacterium zucineum	Elizabethkingia meningoseptica	1.0	Mixed	#cccccc
+Phenylobacterium zucineum	Enterobacter sp. K66-74	1.0	Mixed	#cccccc
+Phenylobacterium zucineum	Erwinia sp. SCU-B244	1.0	Mixed	#cccccc
+Phenylobacterium zucineum	Exiguobacterium sp. ZWU0009	1.0	Mixed	#cccccc
+Phenylobacterium zucineum	Hymenobacter sp. AT01-02	1.0	Mixed	#cccccc
+Phenylobacterium zucineum	Lactobacillus coleohominis	1.0	Mixed	#cccccc
+Phenylobacterium zucineum	Leuconostoc lactis	1.0	Mixed	#cccccc
+Phenylobacterium zucineum	Micavibrio aeruginosavorus	1.0	Mixed	#cccccc
+Phenylobacterium zucineum	Microbacterium sp. Ag1	0.814577667391	R_Retroauricular_crease	#9efaa2
+Phenylobacterium zucineum	Mobiluncus mulieris	1.0	Mixed	#cccccc
+Phenylobacterium zucineum	Niveispirillum irakense	0.814577667391	Mixed	#cccccc
+Phenylobacterium zucineum	Ochrobactrum anthropi	0.814577667391	R_Retroauricular_crease	#9efaa2
+Phenylobacterium zucineum	Paenirhodobacter enshiensis	1.0	Mixed	#cccccc
+Planomicrobium sp. ES2	Acetobacter syzygii	1.0	Anterior_nares	#8000ff
+Planomicrobium sp. ES2	Collinsella sp. MS5	1.0	Mixed	#cccccc
+Planomicrobium sp. ES2	Gluconobacter frateurii	1.0	Mixed	#cccccc
+Planomicrobium sp. ES2	Kineosporia aurantiaca	1.0	Anterior_nares	#8000ff
+Planomicrobium sp. ES2	Novosphingobium lindaniclasticum	1.0	Mixed	#cccccc
+Pleomorphomonas oryzae	Acidithiobacillus caldus	1.0	Mixed	#cccccc
+Pleomorphomonas oryzae	Aeromonas hydrophila	1.0	Mixed	#cccccc
+Pleomorphomonas oryzae	Aeromonas salmonicida	1.0	Anterior_nares	#8000ff
+Pleomorphomonas oryzae	Corynebacterium humireducens	1.0	Anterior_nares	#8000ff
+Pleomorphomonas oryzae	Paracoccus pantotrophus	1.0	Mixed	#cccccc
+Pontibacter roseus	Micrococcus sp. 28	1.0	Mixed	#cccccc
+Pontibacter roseus	Parvimonas sp. oral taxon 110	1.0	Mixed	#cccccc
+Porphyromonas gingivicanis	Actinomyces sp. oral taxon 180	0.863980476719	Mixed	#cccccc
+Porphyromonas gingivicanis	Deinococcus gobiensis	0.863980476719	Mixed	#cccccc
+Porphyromonas gingivicanis	Lactobacillus fuchuensis	0.863980476719	Mixed	#cccccc
+Porphyromonas gingivicanis	Methylobacterium sp. EUR3 AL-11	0.863980476719	Mixed	#cccccc
+Porphyromonas gingivicanis	Microbacterium maritypicum	0.863980476719	Mixed	#cccccc
+Porphyromonas gingivicanis	Microbacterium sp. Leaf151	0.863980476719	Mixed	#cccccc
+Porphyromonas gingivicanis	Microbacterium sp. Root280D1	0.863980476719	Mixed	#cccccc
+Porphyromonas sp. COT-239 OH1446	Actinomyces sp. oral taxon 180	0.863980476719	Mixed	#cccccc
+Porphyromonas sp. COT-239 OH1446	Deinococcus gobiensis	0.863980476719	Mixed	#cccccc
+Porphyromonas sp. COT-239 OH1446	Lactobacillus fuchuensis	0.863980476719	Mixed	#cccccc
+Porphyromonas sp. COT-239 OH1446	Methylobacterium sp. EUR3 AL-11	0.863980476719	Mixed	#cccccc
+Porphyromonas sp. COT-239 OH1446	Microbacterium maritypicum	0.863980476719	Mixed	#cccccc
+Porphyromonas sp. COT-239 OH1446	Microbacterium sp. Leaf151	0.863980476719	Mixed	#cccccc
+Porphyromonas sp. COT-239 OH1446	Microbacterium sp. Root280D1	0.863980476719	Mixed	#cccccc
+Prevotella brevis	Methylobacterium sp. GXS13	0.814577667391	Mixed	#cccccc
+Prevotella brevis	Neisseria shayeganii	0.814577667391	Mixed	#cccccc
+Prevotella brevis	Nitrospira defluvii	0.814577667391	Mixed	#cccccc
+Prevotella dentalis	Afipia clevelandensis	0.814577667391	Mixed	#cccccc
+Prevotella dentalis	Agrobacterium sp. LC34	1.0	Mixed	#cccccc
+Prevotella dentalis	Bacteroides stercorirosoris	1.0	Mixed	#cccccc
+Prevotella dentalis	Brevundimonas abyssalis	1.0	Mixed	#cccccc
+Prevotella dentalis	Cellulomonas carbonis	1.0	Mixed	#cccccc
+Prevotella dentalis	Clostridiales bacterium VE202-27	0.814577667391	Mixed	#cccccc
+Prevotella dentalis	[Clostridium] asparagiforme	1.0	Mixed	#cccccc
+Prevotella dentalis	Mycobacterium vulneris	1.0	Mixed	#cccccc
+Prevotella dentalis	Pedobacter antarcticus	0.814577667391	Mixed	#cccccc
+Prevotella multisaccharivorax	Mesorhizobium sp. F7	1.0	Mixed	#cccccc
+Prevotella sp. BV3P1	Deinococcus proteolyticus	1.0	Mixed	#cccccc
+Prevotella sp. P4-65	Chlorogloeopsis fritschii	1.0	Mixed	#cccccc
+Prevotella sp. P4-65	Eubacterium limosum	1.0	Stool	#ded579
+Prevotella sp. P4-65	Lachnospiraceae bacterium 28-4	1.0	Mixed	#cccccc
+Prevotella sp. P5-60	Alicycliphilus denitrificans	0.814577667391	Mixed	#cccccc
+Prevotella sp. S7 MS 2	Acinetobacter sp. CIP 101966	0.814577667391	Mixed	#cccccc
+Prevotella sp. S7 MS 2	Actinomyces europaeus	0.814577667391	Mixed	#cccccc
+Prevotella sp. S7 MS 2	Advenella kashmirensis	0.814577667391	Mixed	#cccccc
+Prevotella sp. S7 MS 2	Corynebacterium uterequi	0.814577667391	Mixed	#cccccc
+Prevotella sp. S7 MS 2	Elizabethkingia meningoseptica	0.814577667391	Mixed	#cccccc
+Prevotella sp. S7 MS 2	Enterobacter sp. K66-74	0.814577667391	Mixed	#cccccc
+Prevotella sp. S7 MS 2	Erwinia sp. SCU-B244	0.814577667391	Mixed	#cccccc
+Prevotella sp. S7 MS 2	Exiguobacterium sp. ZWU0009	0.814577667391	Mixed	#cccccc
+Prevotella sp. S7 MS 2	Hymenobacter sp. AT01-02	0.814577667391	Mixed	#cccccc
+Prevotella sp. S7 MS 2	Lactobacillus coleohominis	0.814577667391	Mixed	#cccccc
+Prevotella sp. S7 MS 2	Leuconostoc lactis	0.814577667391	Mixed	#cccccc
+Prevotella sp. S7 MS 2	Micavibrio aeruginosavorus	0.814577667391	Mixed	#cccccc
+Prevotella sp. S7 MS 2	Mobiluncus mulieris	0.814577667391	Mixed	#cccccc
+Prevotella sp. S7 MS 2	Paenirhodobacter enshiensis	0.814577667391	Mixed	#cccccc
+Prevotella sp. S7 MS 2	Phenylobacterium zucineum	0.814577667391	Mixed	#cccccc
+Promicromonospora kroppenstedtii	Achromobacter sp.	1.0	Anterior_nares	#8000ff
+Promicromonospora sukumoe	Achromobacter sp.	1.0	Anterior_nares	#8000ff
+Promicromonospora sukumoe	Promicromonospora kroppenstedtii	1.0	Anterior_nares	#8000ff
+Propionimicrobium lymphophilum	Kurthia sp. Dielmo	0.814577667391	Mixed	#cccccc
+Proteiniclasticum ruminis	Acidithiobacillus caldus	1.0	Mixed	#cccccc
+Proteiniclasticum ruminis	Aeromonas hydrophila	1.0	Mixed	#cccccc
+Proteiniclasticum ruminis	Aeromonas salmonicida	1.0	Mixed	#cccccc
+Proteiniclasticum ruminis	Corynebacterium humireducens	1.0	Mixed	#cccccc
+Proteiniclasticum ruminis	Paracoccus pantotrophus	1.0	Mixed	#cccccc
+Proteiniclasticum ruminis	Pleomorphomonas oryzae	1.0	Mixed	#cccccc
+Providencia alcalifaciens	Escherichia hermannii	0.814577667391	Anterior_nares	#8000ff
+Providencia alcalifaciens	Nesterenkonia sp. NP1	0.814577667391	Mixed	#cccccc
+Pseudochrobactrum sp. AO18b	Acinetobacter sp. NIPH 713	1.0	Anterior_nares	#8000ff
+Pseudolabrys sp. Root1462	Agrobacterium vitis	1.0	Mixed	#cccccc
+Pseudolabrys sp. Root1462	Bilophila wadsworthia	1.0	Mixed	#cccccc
+Pseudolabrys sp. Root1462	Burkholderia contaminans	1.0	Anterior_nares	#8000ff
+Pseudolabrys sp. Root1462	Paraburkholderia fungorum	1.0	Anterior_nares	#8000ff
+Pseudomonas alcaliphila	Campylobacter sp. FOBRC14	1.0	Mixed	#cccccc
+Pseudomonas alcaliphila	Coprococcus sp. HPP0048	1.0	Mixed	#cccccc
+Pseudomonas alcaliphila	Fusobacterium ulcerans	1.0	Mixed	#cccccc
+Pseudomonas alcaliphila	Methylobacterium sp. GXF4	1.0	Mixed	#cccccc
+Pseudomonas alcaliphila	Mogibacterium sp. CM50	1.0	Mixed	#cccccc
+Pseudomonas alcaliphila	Pantoea sp. AS-PWVM4	1.0	Anterior_nares	#8000ff
+Pseudomonas alcaliphila	Pantoea sp. At-9b	1.0	Anterior_nares	#8000ff
+Pseudomonas alcaliphila	Pedobacter sp. R20-19	1.0	Mixed	#cccccc
+Pseudomonas caeni	Acinetobacter sp. NIPH 713	0.814577667391	Anterior_nares	#8000ff
+Pseudomonas caeni	Pseudochrobactrum sp. AO18b	0.814577667391	Anterior_nares	#8000ff
+Pseudomonas composti	Carnobacterium sp. 1290_CSPC	0.814577667391	Anterior_nares	#8000ff
+Pseudomonas frederiksbergensis	Herbaspirillum sp. GW103	0.863980476719	Vaginal_introitus	#ff0000
+Pseudomonas libanensis	Micrococcus sp. 28	1.0	Mixed	#cccccc
+Pseudomonas libanensis	Parvimonas sp. oral taxon 110	1.0	Mixed	#cccccc
+Pseudomonas libanensis	Pontibacter roseus	1.0	Mixed	#cccccc
+Pseudomonas lutea	Actinomyces sp. oral taxon 180	1.0	Mixed	#cccccc
+Pseudomonas lutea	Deinococcus gobiensis	1.0	Anterior_nares	#8000ff
+Pseudomonas lutea	Deinococcus sp. Leaf326	0.814577667391	Anterior_nares	#8000ff
+Pseudomonas lutea	Fusobacterium russii	0.814577667391	Mixed	#cccccc
+Pseudomonas lutea	Kordiimonas gwangyangensis	0.863980476719	Anterior_nares	#8000ff
+Pseudomonas lutea	Lactobacillus fuchuensis	1.0	Anterior_nares	#8000ff
+Pseudomonas lutea	Methylobacterium sp. EUR3 AL-11	1.0	Anterior_nares	#8000ff
+Pseudomonas lutea	Methylobacterium sp. GXS13	0.814577667391	Mixed	#cccccc
+Pseudomonas lutea	Microbacterium maritypicum	1.0	Anterior_nares	#8000ff
+Pseudomonas lutea	Microbacterium sp. Leaf151	1.0	Anterior_nares	#8000ff
+Pseudomonas lutea	Microbacterium sp. Root280D1	1.0	Anterior_nares	#8000ff
+Pseudomonas lutea	Mycobacterium mageritense	0.863980476719	Anterior_nares	#8000ff
+Pseudomonas lutea	Neisseria shayeganii	0.814577667391	Mixed	#cccccc
+Pseudomonas lutea	Nitrospira defluvii	0.814577667391	Mixed	#cccccc
+Pseudomonas lutea	Ornithinimicrobium pekingense	0.863980476719	Mixed	#cccccc
+Pseudomonas lutea	Porphyromonas gingivicanis	0.863980476719	Mixed	#cccccc
+Pseudomonas lutea	Porphyromonas sp. COT-239 OH1446	0.863980476719	Mixed	#cccccc
+Pseudomonas nitroreducens	Arcobacter butzleri	0.892305178067	Mixed	#cccccc
+Pseudomonas orientalis	Cupriavidus gilardii	1.0	Mixed	#cccccc
+Pseudomonas orientalis	Elizabethkingia genomosp. 4	1.0	Mixed	#cccccc
+Pseudomonas parafulva	Acinetobacter schindleri	1.0	Mixed	#cccccc
+Pseudomonas psychrotolerans	Micrococcus sp. 28	1.0	Mixed	#cccccc
+Pseudomonas psychrotolerans	Parvimonas sp. oral taxon 110	1.0	Mixed	#cccccc
+Pseudomonas psychrotolerans	Pontibacter roseus	1.0	Mixed	#cccccc
+Pseudomonas psychrotolerans	Pseudomonas libanensis	1.0	Mixed	#cccccc
+Pseudomonas sp. 20_BN	Brachymonas chironomi	0.814577667391	Mixed	#cccccc
+Pseudomonas sp. 20_BN	Jeotgalicoccus psychrophilus	0.814577667391	Mixed	#cccccc
+Pseudomonas sp. 2-92(2010)	Bacillus clausii	1.0	Anterior_nares	#8000ff
+Pseudomonas sp. 2-92(2010)	Chryseobacterium oranimense	1.0	Anterior_nares	#8000ff
+Pseudomonas sp. 2-92(2010)	Enterobacter hormaechei	1.0	Mixed	#cccccc
+Pseudomonas sp. 2-92(2010)	Mycobacterium chubuense	1.0	Anterior_nares	#8000ff
+Pseudomonas sp. 313	Lactobacillus animalis	1.0	R_Retroauricular_crease	#9efaa2
+Pseudomonas sp. Ag1	Burkholderia cepacia	1.0	Mixed	#cccccc
+Pseudomonas sp. Ag1	Cupriavidus basilensis	0.814577667391	Mixed	#cccccc
+Pseudomonas sp. Ag1	Elizabethkingia genomosp. 2	1.0	Mixed	#cccccc
+Pseudomonas sp. Ag1	Herbaspirillum autotrophicum	1.0	Mixed	#cccccc
+Pseudomonas sp. Ag1	Herbaspirillum chlorophenolicum	1.0	Vaginal_introitus	#ff0000
+Pseudomonas sp. Ag1	Herbaspirillum frisingense	1.0	Mixed	#cccccc
+Pseudomonas sp. Ag1	Herbaspirillum huttiense	1.0	Vaginal_introitus	#ff0000
+Pseudomonas sp. Ag1	Herbaspirillum rubrisubalbicans	1.0	Vaginal_introitus	#ff0000
+Pseudomonas sp. Ag1	Herbaspirillum sp. B39	1.0	Vaginal_introitus	#ff0000
+Pseudomonas sp. Ag1	Herbaspirillum sp. GW103	0.814577667391	Vaginal_introitus	#ff0000
+Pseudomonas sp. Ag1	Herbaspirillum sp. RV1423	1.0	Mixed	#cccccc
+Pseudomonas sp. Ag1	Lactobacillus johnsonii	1.0	Mixed	#cccccc
+Pseudomonas sp. Ag1	Mycobacterium chelonae	1.0	Mixed	#cccccc
+Pseudomonas sp. CHM02	Burkholderia diffusa	1.0	Anterior_nares	#8000ff
+Pseudomonas sp. CHM02	Comamonas sp. E6	1.0	Anterior_nares	#8000ff
+Pseudomonas sp. CHM02	Herbaspirillum seropedicae	1.0	Mixed	#cccccc
+Pseudomonas sp. CHM02	Herbaspirillum sp. B65	1.0	Anterior_nares	#8000ff
+Pseudomonas sp. CHM02	Paraburkholderia phytofirmans	1.0	Mixed	#cccccc
+Pseudomonas sp. DSM 28142	Burkholderia cepacia	0.814577667391	Mixed	#cccccc
+Pseudomonas sp. DSM 28142	Elizabethkingia genomosp. 2	0.814577667391	Mixed	#cccccc
+Pseudomonas sp. DSM 28142	Herbaspirillum autotrophicum	0.814577667391	Mixed	#cccccc
+Pseudomonas sp. DSM 28142	Herbaspirillum chlorophenolicum	0.814577667391	Vaginal_introitus	#ff0000
+Pseudomonas sp. DSM 28142	Herbaspirillum frisingense	0.814577667391	Mixed	#cccccc
+Pseudomonas sp. DSM 28142	Herbaspirillum huttiense	0.814577667391	Vaginal_introitus	#ff0000
+Pseudomonas sp. DSM 28142	Herbaspirillum rubrisubalbicans	0.814577667391	Vaginal_introitus	#ff0000
+Pseudomonas sp. DSM 28142	Herbaspirillum sp. B39	0.814577667391	Vaginal_introitus	#ff0000
+Pseudomonas sp. DSM 28142	Herbaspirillum sp. RV1423	0.814577667391	Mixed	#cccccc
+Pseudomonas sp. DSM 28142	Lactobacillus johnsonii	0.814577667391	Mixed	#cccccc
+Pseudomonas sp. DSM 28142	Mycobacterium chelonae	0.814577667391	Mixed	#cccccc
+Pseudomonas sp. DSM 28142	Pseudomonas sp. Ag1	0.814577667391	Vaginal_introitus	#ff0000
+Pseudomonas sp. DSM 29164	Burkholderia diffusa	1.0	Mixed	#cccccc
+Pseudomonas sp. DSM 29164	Comamonas sp. E6	1.0	Mixed	#cccccc
+Pseudomonas sp. DSM 29164	Herbaspirillum seropedicae	1.0	Vaginal_introitus	#ff0000
+Pseudomonas sp. DSM 29164	Herbaspirillum sp. B65	1.0	Mixed	#cccccc
+Pseudomonas sp. DSM 29164	Paraburkholderia phytofirmans	1.0	Mixed	#cccccc
+Pseudomonas sp. DSM 29164	Pseudomonas sp. CHM02	1.0	Mixed	#cccccc
+Pseudomonas sp. DSM 29167	Burkholderia cepacia	1.0	Mixed	#cccccc
+Pseudomonas sp. DSM 29167	Cupriavidus basilensis	0.814577667391	Mid_vagina	#3febd5
+Pseudomonas sp. DSM 29167	Elizabethkingia genomosp. 2	1.0	Mixed	#cccccc
+Pseudomonas sp. DSM 29167	Herbaspirillum autotrophicum	1.0	Mixed	#cccccc
+Pseudomonas sp. DSM 29167	Herbaspirillum chlorophenolicum	1.0	Mixed	#cccccc
+Pseudomonas sp. DSM 29167	Herbaspirillum frisingense	1.0	Mixed	#cccccc
+Pseudomonas sp. DSM 29167	Herbaspirillum huttiense	1.0	Mixed	#cccccc
+Pseudomonas sp. DSM 29167	Herbaspirillum rubrisubalbicans	1.0	Mixed	#cccccc
+Pseudomonas sp. DSM 29167	Herbaspirillum sp. B39	1.0	Mixed	#cccccc
+Pseudomonas sp. DSM 29167	Herbaspirillum sp. GW103	0.814577667391	Mixed	#cccccc
+Pseudomonas sp. DSM 29167	Herbaspirillum sp. RV1423	1.0	Mixed	#cccccc
+Pseudomonas sp. DSM 29167	Lactobacillus johnsonii	1.0	Mixed	#cccccc
+Pseudomonas sp. DSM 29167	Mycobacterium chelonae	1.0	Mid_vagina	#3febd5
+Pseudomonas sp. DSM 29167	Pseudomonas sp. Ag1	1.0	Mixed	#cccccc
+Pseudomonas sp. DSM 29167	Pseudomonas sp. DSM 28142	0.814577667391	Mixed	#cccccc
+Pseudomonas sp. Eur1 9.41	Burkholderia cepacia	1.0	Mixed	#cccccc
+Pseudomonas sp. Eur1 9.41	Cupriavidus basilensis	0.814577667391	Mixed	#cccccc
+Pseudomonas sp. Eur1 9.41	Elizabethkingia genomosp. 2	1.0	Mixed	#cccccc
+Pseudomonas sp. Eur1 9.41	Herbaspirillum autotrophicum	1.0	Mixed	#cccccc
+Pseudomonas sp. Eur1 9.41	Herbaspirillum chlorophenolicum	1.0	Vaginal_introitus	#ff0000
+Pseudomonas sp. Eur1 9.41	Herbaspirillum frisingense	1.0	Mixed	#cccccc
+Pseudomonas sp. Eur1 9.41	Herbaspirillum huttiense	1.0	Vaginal_introitus	#ff0000
+Pseudomonas sp. Eur1 9.41	Herbaspirillum rubrisubalbicans	1.0	Vaginal_introitus	#ff0000
+Pseudomonas sp. Eur1 9.41	Herbaspirillum sp. B39	1.0	Vaginal_introitus	#ff0000
+Pseudomonas sp. Eur1 9.41	Herbaspirillum sp. GW103	0.814577667391	Vaginal_introitus	#ff0000
+Pseudomonas sp. Eur1 9.41	Herbaspirillum sp. RV1423	1.0	Mixed	#cccccc
+Pseudomonas sp. Eur1 9.41	Lactobacillus johnsonii	1.0	Mixed	#cccccc
+Pseudomonas sp. Eur1 9.41	Mycobacterium chelonae	1.0	Mixed	#cccccc
+Pseudomonas sp. Eur1 9.41	Pseudomonas sp. Ag1	1.0	Vaginal_introitus	#ff0000
+Pseudomonas sp. Eur1 9.41	Pseudomonas sp. DSM 28142	0.814577667391	Vaginal_introitus	#ff0000
+Pseudomonas sp. Eur1 9.41	Pseudomonas sp. DSM 29167	1.0	Mixed	#cccccc
+Pseudomonas sp. KG01	Flavobacterium frigidarium	0.812617715376	Anterior_nares	#8000ff
+Pseudomonas sp. KG01	Flavobacterium rivuli	0.812617715376	Anterior_nares	#8000ff
+Pseudomonas sp. L10.10	Cronobacter universalis	0.814577667391	Mixed	#cccccc
+Pseudomonas sp. L10.10	Epilithonimonas lactis	0.814577667391	Mixed	#cccccc
+Pseudomonas sp. L10.10	Pantoea sp. MBLJ3	0.814577667391	Mixed	#cccccc
+Pseudomonas sp. L10.10	Pediococcus acidilactici	0.814577667391	Mixed	#cccccc
+Pseudomonas sp. Leaf127	Acinetobacter bereziniae	0.814577667391	Mixed	#cccccc
+Pseudomonas sp. Leaf127	Acinetobacter sp. NIPH 284	0.814577667391	Mixed	#cccccc
+Pseudomonas sp. Leaf127	Acinetobacter sp. P8-3-8	1.0	Mixed	#cccccc
+Pseudomonas sp. Leaf127	Actinomyces vaccimaxillae	1.0	Anterior_nares	#8000ff
+Pseudomonas sp. Leaf127	Atopococcus tabaci	1.0	Anterior_nares	#8000ff
+Pseudomonas sp. Leaf127	Burkholderia ambifaria	1.0	Anterior_nares	#8000ff
+Pseudomonas sp. Leaf127	Chryseobacterium vrystaatense	1.0	Anterior_nares	#8000ff
+Pseudomonas sp. Leaf127	Exiguobacterium undae	1.0	Anterior_nares	#8000ff
+Pseudomonas sp. Leaf127	Flavihumibacter sp. ZG627	1.0	Anterior_nares	#8000ff
+Pseudomonas sp. Leaf127	Gordonia paraffinivorans	0.814577667391	Anterior_nares	#8000ff
+Pseudomonas sp. Leaf127	Komagataeibacter europaeus	1.0	Anterior_nares	#8000ff
+Pseudomonas sp. Leaf127	Micrococcus sp. V7	1.0	Anterior_nares	#8000ff
+Pseudomonas sp. Leaf127	Neisseria bacilliformis	0.814577667391	Mixed	#cccccc
+Pseudomonas sp. Leaf127	Olivibacter sitiensis	1.0	Anterior_nares	#8000ff
+Pseudomonas sp. NBRC 111130	Mycobacterium gilvum	1.0	Mixed	#cccccc
+Pseudomonas sp. NBRC 111133	Phyllobacterium sp. UNC302MFCol5.2	1.0	Anterior_nares	#8000ff
+Pseudomonas sp. NBRC 111134	Burkholderia cepacia	0.814577667391	Mixed	#cccccc
+Pseudomonas sp. NBRC 111134	Elizabethkingia genomosp. 2	0.814577667391	Mixed	#cccccc
+Pseudomonas sp. NBRC 111134	Herbaspirillum autotrophicum	0.814577667391	Mixed	#cccccc
+Pseudomonas sp. NBRC 111134	Herbaspirillum chlorophenolicum	0.814577667391	Vaginal_introitus	#ff0000
+Pseudomonas sp. NBRC 111134	Herbaspirillum frisingense	0.814577667391	Mixed	#cccccc
+Pseudomonas sp. NBRC 111134	Herbaspirillum huttiense	0.814577667391	Vaginal_introitus	#ff0000
+Pseudomonas sp. NBRC 111134	Herbaspirillum rubrisubalbicans	0.814577667391	Vaginal_introitus	#ff0000
+Pseudomonas sp. NBRC 111134	Herbaspirillum sp. B39	0.814577667391	Vaginal_introitus	#ff0000
+Pseudomonas sp. NBRC 111134	Herbaspirillum sp. RV1423	0.814577667391	Mixed	#cccccc
+Pseudomonas sp. NBRC 111134	Lactobacillus johnsonii	0.814577667391	Mixed	#cccccc
+Pseudomonas sp. NBRC 111134	Mycobacterium chelonae	0.814577667391	Mixed	#cccccc
+Pseudomonas sp. NBRC 111134	Pseudomonas sp. Ag1	0.814577667391	Vaginal_introitus	#ff0000
+Pseudomonas sp. NBRC 111134	Pseudomonas sp. DSM 29167	0.814577667391	Mixed	#cccccc
+Pseudomonas sp. NBRC 111134	Pseudomonas sp. Eur1 9.41	0.814577667391	Vaginal_introitus	#ff0000
+Pseudomonas sp. NBRC 111135	Aliihoeflea sp. 2WW	1.0	R_Retroauricular_crease	#9efaa2
+Pseudomonas sp. NBRC 111135	Collinsella tanakaei	1.0	Mixed	#cccccc
+Pseudomonas sp. NBRC 111135	Corynebacterium ulceribovis	1.0	Mixed	#cccccc
+Pseudomonas sp. NBRC 111135	Dactylosporangium aurantiacum	1.0	Mixed	#cccccc
+Pseudomonas sp. NBRC 111135	Deinococcus phoenicis	1.0	Mixed	#cccccc
+Pseudomonas sp. NBRC 111135	Enterococcus avium	1.0	Mixed	#cccccc
+Pseudomonas sp. NBRC 111135	Methylobacterium sp. AMS5	1.0	R_Retroauricular_crease	#9efaa2
+Pseudomonas sp. NBRC 111135	Microbacterium hominis	1.0	Mixed	#cccccc
+Pseudomonas sp. NBRC 111135	Pantoea sp. NGS-ED-1003	1.0	R_Retroauricular_crease	#9efaa2
+Pseudomonas sp. PTA1	Lactobacillus kunkeei	1.0	Mixed	#cccccc
+Pseudomonas sp. Root562	Acinetobacter sp. 243_ASPC	1.0	Anterior_nares	#8000ff
+Pseudomonas sp. Root562	Acinetobacter tandoii	1.0	Anterior_nares	#8000ff
+Pseudomonas sp. Root562	Aurantimonas coralicida	1.0	Anterior_nares	#8000ff
+Pseudomonas sp. Root562	Gordonia sp. KTR9	1.0	Anterior_nares	#8000ff
+Pseudomonas sp. Root562	Janthinobacterium sp. KBS0711	1.0	Anterior_nares	#8000ff
+Pseudomonas sp. Root562	Moritella marina	1.0	Anterior_nares	#8000ff
+Pseudomonas sp. Root9	Burkholderia cepacia	1.0	Mixed	#cccccc
+Pseudomonas sp. Root9	Cupriavidus basilensis	0.814577667391	Mixed	#cccccc
+Pseudomonas sp. Root9	Elizabethkingia genomosp. 2	1.0	Mixed	#cccccc
+Pseudomonas sp. Root9	Herbaspirillum autotrophicum	1.0	Mixed	#cccccc
+Pseudomonas sp. Root9	Herbaspirillum chlorophenolicum	1.0	Vaginal_introitus	#ff0000
+Pseudomonas sp. Root9	Herbaspirillum frisingense	1.0	Mixed	#cccccc
+Pseudomonas sp. Root9	Herbaspirillum huttiense	1.0	Vaginal_introitus	#ff0000
+Pseudomonas sp. Root9	Herbaspirillum rubrisubalbicans	1.0	Vaginal_introitus	#ff0000
+Pseudomonas sp. Root9	Herbaspirillum sp. B39	1.0	Vaginal_introitus	#ff0000
+Pseudomonas sp. Root9	Herbaspirillum sp. GW103	0.814577667391	Vaginal_introitus	#ff0000
+Pseudomonas sp. Root9	Herbaspirillum sp. RV1423	1.0	Mixed	#cccccc
+Pseudomonas sp. Root9	Lactobacillus johnsonii	1.0	Mixed	#cccccc
+Pseudomonas sp. Root9	Mycobacterium chelonae	1.0	Mixed	#cccccc
+Pseudomonas sp. Root9	Pseudomonas sp. Ag1	1.0	Vaginal_introitus	#ff0000
+Pseudomonas sp. Root9	Pseudomonas sp. DSM 28142	0.814577667391	Vaginal_introitus	#ff0000
+Pseudomonas sp. Root9	Pseudomonas sp. DSM 29167	1.0	Mixed	#cccccc
+Pseudomonas sp. Root9	Pseudomonas sp. Eur1 9.41	1.0	Vaginal_introitus	#ff0000
+Pseudomonas sp. Root9	Pseudomonas sp. NBRC 111134	0.814577667391	Vaginal_introitus	#ff0000
+Pseudomonas sp. TJI-51	Aureimonas sp. Leaf324	1.0	Anterior_nares	#8000ff
+Pseudomonas sp. TJI-51	Clostridium baratii	0.814577667391	Mixed	#cccccc
+Pseudomonas sp. TJI-51	Comamonas granuli	0.863980476719	Anterior_nares	#8000ff
+Pseudomonas sp. TJI-51	Cronobacter dublinensis	0.814577667391	Anterior_nares	#8000ff
+Pseudomonas sp. TJI-51	Cronobacter malonaticus	1.0	Anterior_nares	#8000ff
+Pseudomonas sp. TJI-51	Cronobacter turicensis	0.814577667391	Anterior_nares	#8000ff
+Pseudomonas sp. TJI-51	Cronobacter universalis	0.814577667391	Anterior_nares	#8000ff
+Pseudomonas sp. TJI-51	Enterococcus mundtii	1.0	Anterior_nares	#8000ff
+Pseudomonas sp. TJI-51	Epilithonimonas lactis	0.814577667391	Anterior_nares	#8000ff
+Pseudomonas sp. TJI-51	Franconibacter pulveris	1.0	Anterior_nares	#8000ff
+Pseudomonas sp. TJI-51	Leisingera sp. ANG-M1	0.814577667391	Mixed	#cccccc
+Pseudomonas sp. TJI-51	Limnohabitans planktonicus	1.0	Anterior_nares	#8000ff
+Pseudomonas sp. TJI-51	Limnohabitans sp. Rim28	0.863980476719	Mixed	#cccccc
+Pseudomonas sp. TJI-51	Microcoleus vaginatus	1.0	Mixed	#cccccc
+Pseudomonas sp. TJI-51	Mycobacterium sp. JS623	0.814577667391	Anterior_nares	#8000ff
+Pseudomonas sp. TJI-51	Nocardioides alkalitolerans	1.0	Anterior_nares	#8000ff
+Pseudomonas sp. TJI-51	Oscillatoria nigro-viridis	1.0	Mixed	#cccccc
+Pseudomonas sp. TJI-51	Pantoea sp. MBLJ3	0.814577667391	Anterior_nares	#8000ff
+Pseudomonas sp. TJI-51	Paracoccus sp. J55	0.814577667391	Anterior_nares	#8000ff
+Pseudomonas sp. TJI-51	Pediococcus acidilactici	0.814577667391	Anterior_nares	#8000ff
+Pseudomonas synxantha	Burkholderia cepacia	0.814577667391	Mixed	#cccccc
+Pseudomonas synxantha	Elizabethkingia genomosp. 2	0.814577667391	Mixed	#cccccc
+Pseudomonas synxantha	Herbaspirillum autotrophicum	0.814577667391	Mixed	#cccccc
+Pseudomonas synxantha	Herbaspirillum chlorophenolicum	0.814577667391	Vaginal_introitus	#ff0000
+Pseudomonas synxantha	Herbaspirillum frisingense	0.814577667391	Mixed	#cccccc
+Pseudomonas synxantha	Herbaspirillum huttiense	0.814577667391	Vaginal_introitus	#ff0000
+Pseudomonas synxantha	Herbaspirillum rubrisubalbicans	0.814577667391	Vaginal_introitus	#ff0000
+Pseudomonas synxantha	Herbaspirillum sp. B39	0.814577667391	Vaginal_introitus	#ff0000
+Pseudomonas synxantha	Herbaspirillum sp. RV1423	0.814577667391	Mixed	#cccccc
+Pseudomonas synxantha	Lactobacillus johnsonii	0.814577667391	Mixed	#cccccc
+Pseudomonas synxantha	Mycobacterium chelonae	0.814577667391	Mixed	#cccccc
+Pseudomonas synxantha	Pseudomonas sp. Ag1	0.814577667391	Vaginal_introitus	#ff0000
+Pseudomonas synxantha	Pseudomonas sp. DSM 29167	0.814577667391	Mixed	#cccccc
+Pseudomonas synxantha	Pseudomonas sp. Eur1 9.41	0.814577667391	Vaginal_introitus	#ff0000
+Pseudomonas synxantha	Pseudomonas sp. Root9	0.814577667391	Vaginal_introitus	#ff0000
+Pseudomonas syringae group genomosp. 3	Acinetobacter tjernbergiae	1.0	Anterior_nares	#8000ff
+Pseudomonas syringae group genomosp. 3	Aeromonas sanarellii	1.0	Anterior_nares	#8000ff
+Pseudomonas syringae group genomosp. 3	Janthinobacterium sp. RA13	1.0	Anterior_nares	#8000ff
+Pseudomonas syringae group genomosp. 3	Mesorhizobium sp. Root157	1.0	Anterior_nares	#8000ff
+Pseudomonas tolaasii	Cupriavidus gilardii	1.0	Mixed	#cccccc
+Pseudomonas tolaasii	Elizabethkingia genomosp. 4	1.0	Mixed	#cccccc
+Pseudomonas tolaasii	Pseudomonas orientalis	1.0	Vaginal_introitus	#ff0000
+Pseudopedobacter saltans	Gemella cuniculi	1.0	Mixed	#cccccc
+Pseudopedobacter saltans	Oceanobacillus kimchii	1.0	Anterior_nares	#8000ff
+Pseudorhodoferax sp. Leaf265	Acidovorax sp. Leaf160	1.0	Mixed	#cccccc
+Pseudorhodoferax sp. Leaf265	Leptonema illini	1.0	Anterior_nares	#8000ff
+Pseudorhodoferax sp. Leaf265	Mycobacterium avium	1.0	Mixed	#cccccc
+Pseudorhodoferax sp. Leaf265	Pandoraea sp. B-6	1.0	Anterior_nares	#8000ff
+Pseudorhodoferax sp. Leaf267	Actinobacteria bacterium UC5.1-1B11	1.0	Anterior_nares	#8000ff
+Pseudorhodoferax sp. Leaf267	Agrobacterium albertimagni	1.0	Anterior_nares	#8000ff
+Pseudorhodoferax sp. Leaf267	Arthrobacter sp. L77	1.0	Anterior_nares	#8000ff
+Pseudorhodoferax sp. Leaf267	Brevundimonas nasdae	1.0	Mixed	#cccccc
+Pseudorhodoferax sp. Leaf267	Brevundimonas sp. BAL3	1.0	Mixed	#cccccc
+Pseudorhodoferax sp. Leaf267	Corynebacterium pilosum	1.0	Mixed	#cccccc
+Pseudorhodoferax sp. Leaf267	Kaistia adipata	1.0	Anterior_nares	#8000ff
+Pseudorhodoferax sp. Leaf267	Nitrosospira multiformis	1.0	Anterior_nares	#8000ff
+Psychrobacter sp. G	Chelatococcus sambhunathii	1.0	Anterior_nares	#8000ff
+Psychrobacter sp. G	Corynebacterium marinum	1.0	Anterior_nares	#8000ff
+Psychrobacter sp. P11F6	Actinoplanes rectilineatus	1.0	Mixed	#cccccc
+Psychrobacter sp. P11F6	Aliivibrio salmonicida	1.0	Mixed	#cccccc
+Psychrobacter sp. P11F6	Fusobacterium sp. CM21	1.0	Mixed	#cccccc
+Psychrobacter sp. PRwf-1	Moraxella macacae	0.874658403266	Anterior_nares	#8000ff
+Psychrobacter sp. PRwf-1	Psychrobacter phenylpyruvicus	0.827392321867	Anterior_nares	#8000ff
+Pyrinomonas methylaliphatogenes	Paenibacillus sp. TCA20	0.814577667391	Mixed	#cccccc
+Ralstonia sp. A12	Acidovorax sp. Leaf160	1.0	Mixed	#cccccc
+Ralstonia sp. A12	Leptonema illini	1.0	Mixed	#cccccc
+Ralstonia sp. A12	Mycobacterium avium	1.0	L_Retroauricular_crease	#1fd3e1
+Ralstonia sp. A12	Pandoraea sp. B-6	1.0	Mixed	#cccccc
+Ralstonia sp. A12	Pseudorhodoferax sp. Leaf265	1.0	Mixed	#cccccc
+Ralstonia sp. AU12-08	Paraburkholderia ferrariae	0.814577667391	Mixed	#cccccc
+Ralstonia sp. NT80	Agrobacterium vitis	1.0	R_Retroauricular_crease	#9efaa2
+Ralstonia sp. NT80	Bilophila wadsworthia	1.0	Mixed	#cccccc
+Ralstonia sp. NT80	Burkholderia contaminans	1.0	Mixed	#cccccc
+Ralstonia sp. NT80	Paraburkholderia fungorum	1.0	Mixed	#cccccc
+Ralstonia sp. NT80	Pseudolabrys sp. Root1462	1.0	Mixed	#cccccc
+Raoultella ornithinolytica	Bifidobacterium scardovii	1.0	Mixed	#cccccc
+Rheinheimera sp. A13L	Citrobacter freundii	1.0	Mixed	#cccccc
+Rhizobacter sp. Root1221	Exiguobacterium acetylicum	1.0	Anterior_nares	#8000ff
+Rhizobacter sp. Root1221	Lactobacillus acidipiscis	1.0	Anterior_nares	#8000ff
+Rhizobacter sp. Root1221	Microbacterium oleivorans	1.0	Anterior_nares	#8000ff
+Rhizobacter sp. Root404	Arthrobacter castelli	0.814577667391	Anterior_nares	#8000ff
+Rhizobacter sp. Root404	Clostridium sp. SS2/1	0.814577667391	Mixed	#cccccc
+Rhizobacter sp. Root404	Corynebacterium freneyi	0.814577667391	Mixed	#cccccc
+Rhizobacter sp. Root404	Corynebacterium glyciniphilum	0.814577667391	Anterior_nares	#8000ff
+Rhizobacter sp. Root404	Deinococcus wulumuqiensis	0.814577667391	Mixed	#cccccc
+Rhizobacter sp. Root404	Escherichia hermannii	1.0	Anterior_nares	#8000ff
+Rhizobacter sp. Root404	Modestobacter marinus	0.814577667391	Anterior_nares	#8000ff
+Rhizobacter sp. Root404	Nesterenkonia sp. NP1	1.0	Mixed	#cccccc
+Rhizobacter sp. Root404	Nocardioides halotolerans	0.814577667391	Anterior_nares	#8000ff
+Rhizobacter sp. Root404	Providencia alcalifaciens	0.814577667391	Anterior_nares	#8000ff
+Rhizobium leguminosarum	Agrobacterium vitis	1.0	Mixed	#cccccc
+Rhizobium leguminosarum	Bilophila wadsworthia	1.0	Mixed	#cccccc
+Rhizobium leguminosarum	Burkholderia contaminans	1.0	Anterior_nares	#8000ff
+Rhizobium leguminosarum	Paraburkholderia fungorum	1.0	Anterior_nares	#8000ff
+Rhizobium leguminosarum	Pseudolabrys sp. Root1462	1.0	Anterior_nares	#8000ff
+Rhizobium leguminosarum	Ralstonia sp. NT80	1.0	Mixed	#cccccc
+Rhizobium selenitireducens	Acinetobacter sp. CIP 101966	1.0	Mixed	#cccccc
+Rhizobium selenitireducens	Actinomyces europaeus	1.0	Anterior_nares	#8000ff
+Rhizobium selenitireducens	Advenella kashmirensis	1.0	Anterior_nares	#8000ff
+Rhizobium selenitireducens	Cellulomonas flavigena	0.814577667391	Mixed	#cccccc
+Rhizobium selenitireducens	Chryseobacterium sp. FF12	0.814577667391	Mixed	#cccccc
+Rhizobium selenitireducens	Corynebacterium uterequi	1.0	Anterior_nares	#8000ff
+Rhizobium selenitireducens	Elizabethkingia meningoseptica	1.0	Mixed	#cccccc
+Rhizobium selenitireducens	Enterobacter sp. K66-74	1.0	Anterior_nares	#8000ff
+Rhizobium selenitireducens	Erwinia sp. SCU-B244	1.0	Anterior_nares	#8000ff
+Rhizobium selenitireducens	Exiguobacterium sp. ZWU0009	1.0	Anterior_nares	#8000ff
+Rhizobium selenitireducens	Hymenobacter sp. AT01-02	1.0	Mixed	#cccccc
+Rhizobium selenitireducens	Lactobacillus coleohominis	1.0	Mixed	#cccccc
+Rhizobium selenitireducens	Leuconostoc lactis	1.0	Anterior_nares	#8000ff
+Rhizobium selenitireducens	Micavibrio aeruginosavorus	1.0	Anterior_nares	#8000ff
+Rhizobium selenitireducens	Microbacterium sp. Ag1	0.814577667391	Mixed	#cccccc
+Rhizobium selenitireducens	Mobiluncus mulieris	1.0	Mixed	#cccccc
+Rhizobium selenitireducens	Niveispirillum irakense	0.814577667391	Anterior_nares	#8000ff
+Rhizobium selenitireducens	Ochrobactrum anthropi	0.814577667391	Mixed	#cccccc
+Rhizobium selenitireducens	Paenirhodobacter enshiensis	1.0	Anterior_nares	#8000ff
+Rhizobium selenitireducens	Phenylobacterium zucineum	1.0	Mixed	#cccccc
+Rhizobium selenitireducens	Prevotella sp. S7 MS 2	0.814577667391	Mixed	#cccccc
+Rhizobium sp. H41	Idiomarina abyssalis	1.0	Mixed	#cccccc
+Rhizobium sp. H41	Methylobacterium sp. L2-4	1.0	Mixed	#cccccc
+Rhizobium sp. H41	Methylobacterium sp. Leaf361	1.0	Mixed	#cccccc
+Rhizobium sp. NT-26	Actinobacteria bacterium UC5.1-1B11	1.0	Anterior_nares	#8000ff
+Rhizobium sp. NT-26	Agrobacterium albertimagni	1.0	Anterior_nares	#8000ff
+Rhizobium sp. NT-26	Arthrobacter sp. L77	1.0	Anterior_nares	#8000ff
+Rhizobium sp. NT-26	Brevundimonas nasdae	1.0	Mixed	#cccccc
+Rhizobium sp. NT-26	Brevundimonas sp. BAL3	1.0	Mixed	#cccccc
+Rhizobium sp. NT-26	Corynebacterium pilosum	1.0	Mixed	#cccccc
+Rhizobium sp. NT-26	Kaistia adipata	1.0	Anterior_nares	#8000ff
+Rhizobium sp. NT-26	Nitrosospira multiformis	1.0	Anterior_nares	#8000ff
+Rhizobium sp. NT-26	Pseudorhodoferax sp. Leaf267	1.0	Anterior_nares	#8000ff
+Rhodococcus erythropolis	Micrococcus sp. A1	1.0	Mixed	#cccccc
+Rhodococcus erythropolis	Micrococcus sp. MS-ASIII-49	0.863980476719	Mixed	#cccccc
+Rhodococcus sp. Leaf247	Belnapia sp. F-4-1	1.0	L_Retroauricular_crease	#1fd3e1
+Rhodococcus sp. Leaf247	Cellulomonas sp. Leaf334	1.0	Mixed	#cccccc
+Rhodococcus sp. Leaf247	Cystobacter fuscus	1.0	Mixed	#cccccc
+Rhodococcus sp. Leaf247	Cystobacter violaceus	1.0	Mixed	#cccccc
+Rhodococcus sp. Leaf247	Deinococcus radiodurans	1.0	Mixed	#cccccc
+Rhodococcus sp. Leaf247	Demetria terragena	1.0	Mixed	#cccccc
+Rhodococcus sp. Leaf247	Geodermatophilaceae bacterium URHB0048	1.0	Mixed	#cccccc
+Rhodococcus sp. Leaf247	Nocardioides sp. JS614	1.0	Mixed	#cccccc
+Rhodococcus sp. Leaf247	Nocardioides sp. Soil805	1.0	Mixed	#cccccc
+Rhodococcus sp. p52	Geodermatophilus sp. Leaf369	1.0	Anterior_nares	#8000ff
+Rhodococcus sp. R04	Aureimonas sp. Leaf324	1.0	Anterior_nares	#8000ff
+Rhodococcus sp. R04	Clostridium baratii	0.814577667391	Mixed	#cccccc
+Rhodococcus sp. R04	Comamonas granuli	0.863980476719	Anterior_nares	#8000ff
+Rhodococcus sp. R04	Cronobacter dublinensis	0.814577667391	Anterior_nares	#8000ff
+Rhodococcus sp. R04	Cronobacter malonaticus	1.0	Anterior_nares	#8000ff
+Rhodococcus sp. R04	Cronobacter turicensis	0.814577667391	Anterior_nares	#8000ff
+Rhodococcus sp. R04	Cronobacter universalis	0.814577667391	Anterior_nares	#8000ff
+Rhodococcus sp. R04	Enterococcus mundtii	1.0	Anterior_nares	#8000ff
+Rhodococcus sp. R04	Epilithonimonas lactis	0.814577667391	Anterior_nares	#8000ff
+Rhodococcus sp. R04	Franconibacter pulveris	1.0	Anterior_nares	#8000ff
+Rhodococcus sp. R04	Leisingera sp. ANG-M1	0.814577667391	Mixed	#cccccc
+Rhodococcus sp. R04	Limnohabitans planktonicus	1.0	Anterior_nares	#8000ff
+Rhodococcus sp. R04	Limnohabitans sp. Rim28	0.863980476719	Mixed	#cccccc
+Rhodococcus sp. R04	Microcoleus vaginatus	1.0	Mixed	#cccccc
+Rhodococcus sp. R04	Mycobacterium sp. JS623	0.814577667391	Anterior_nares	#8000ff
+Rhodococcus sp. R04	Nocardioides alkalitolerans	1.0	Anterior_nares	#8000ff
+Rhodococcus sp. R04	Oscillatoria nigro-viridis	1.0	Mixed	#cccccc
+Rhodococcus sp. R04	Pantoea sp. MBLJ3	0.814577667391	Anterior_nares	#8000ff
+Rhodococcus sp. R04	Paracoccus sp. J55	0.814577667391	Anterior_nares	#8000ff
+Rhodococcus sp. R04	Pediococcus acidilactici	0.814577667391	Anterior_nares	#8000ff
+Rhodococcus sp. R04	Pseudomonas sp. TJI-51	1.0	Anterior_nares	#8000ff
+Rhodocyclaceae bacterium Paddy-1	Acidovorax sp. JHL-9	1.0	Anterior_nares	#8000ff
+Rhodopseudomonas sp. AAP120	Agrobacterium sp. LC34	0.814577667391	Anterior_nares	#8000ff
+Rhodopseudomonas sp. AAP120	Bacteroides stercorirosoris	0.814577667391	Mixed	#cccccc
+Rhodopseudomonas sp. AAP120	Brevundimonas abyssalis	0.814577667391	Mixed	#cccccc
+Rhodopseudomonas sp. AAP120	Cellulomonas carbonis	0.814577667391	Mixed	#cccccc
+Rhodopseudomonas sp. AAP120	[Clostridium] asparagiforme	0.814577667391	Mixed	#cccccc
+Rhodopseudomonas sp. AAP120	Mycobacterium vulneris	0.814577667391	Anterior_nares	#8000ff
+Rhodopseudomonas sp. AAP120	Prevotella dentalis	0.814577667391	Mixed	#cccccc
+Riemerella anatipestifer	Acinetobacter radioresistens	1.0	Mixed	#cccccc
+Riemerella anatipestifer	Anaerofustis stercorihominis	1.0	Mixed	#cccccc
+Riemerella anatipestifer	Bacteroidaceae bacterium MS4	1.0	Mixed	#cccccc
+Riemerella columbina	Acinetobacter bereziniae	0.814577667391	Mixed	#cccccc
+Riemerella columbina	Acinetobacter sp. NIPH 284	0.814577667391	Mixed	#cccccc
+Riemerella columbina	Acinetobacter sp. P8-3-8	1.0	Mixed	#cccccc
+Riemerella columbina	Actinomyces vaccimaxillae	1.0	Mixed	#cccccc
+Riemerella columbina	Atopococcus tabaci	1.0	Mixed	#cccccc
+Riemerella columbina	Burkholderia ambifaria	1.0	Mixed	#cccccc
+Riemerella columbina	Chryseobacterium vrystaatense	1.0	Mixed	#cccccc
+Riemerella columbina	Exiguobacterium undae	1.0	Mixed	#cccccc
+Riemerella columbina	Flavihumibacter sp. ZG627	1.0	Mixed	#cccccc
+Riemerella columbina	Gordonia paraffinivorans	0.814577667391	Mixed	#cccccc
+Riemerella columbina	Komagataeibacter europaeus	1.0	Mixed	#cccccc
+Riemerella columbina	Micrococcus sp. V7	1.0	Mixed	#cccccc
+Riemerella columbina	Neisseria bacilliformis	0.814577667391	Mixed	#cccccc
+Riemerella columbina	Olivibacter sitiensis	1.0	Mixed	#cccccc
+Riemerella columbina	Pseudomonas sp. Leaf127	1.0	Mixed	#cccccc
+Rikenella microfusus	Lactobacillus animalis	1.0	Mixed	#cccccc
+Rikenella microfusus	Pseudomonas sp. 313	1.0	Mixed	#cccccc
+Roseomonas cervicalis	Actinoplanes sp. SE50/110	1.0	Anterior_nares	#8000ff
+Roseomonas cervicalis	Cellulomonas gilvus	1.0	Anterior_nares	#8000ff
+Roseomonas cervicalis	Cellulomonas sp. Root485	1.0	Anterior_nares	#8000ff
+Roseomonas cervicalis	Corynebacterium capitovis	1.0	Anterior_nares	#8000ff
+Roseomonas cervicalis	Deinococcus sp. 2009	1.0	Anterior_nares	#8000ff
+Roseomonas cervicalis	Erwinia billingiae	1.0	Anterior_nares	#8000ff
+Roseomonas cervicalis	Flaviflexus sp. SIT4	1.0	Anterior_nares	#8000ff
+Roseomonas cervicalis	Flavobacterium sp. B17	1.0	Mixed	#cccccc
+Roseomonas cervicalis	Methylobacterium sp. Leaf121	1.0	Anterior_nares	#8000ff
+Roseomonas mucosa	Arthrobacter castelli	1.0	Mixed	#cccccc
+Roseomonas mucosa	Arthrobacter sp. AK-YN10	0.814577667391	Mixed	#cccccc
+Roseomonas mucosa	Belnapia moabensis	0.814577667391	Mixed	#cccccc
+Roseomonas mucosa	Bradyrhizobium lablabi	0.814577667391	Mixed	#cccccc
+Roseomonas mucosa	Bradyrhizobium sp. URHA0002	0.863980476719	Mixed	#cccccc
+Roseomonas mucosa	Brevibacterium senegalense	0.814577667391	Mixed	#cccccc
+Roseomonas mucosa	Corynebacterium freneyi	1.0	Mixed	#cccccc
+Roseomonas mucosa	Corynebacterium glyciniphilum	1.0	Mixed	#cccccc
+Roseomonas mucosa	Deinococcus wulumuqiensis	1.0	R_Retroauricular_crease	#9efaa2
+Roseomonas mucosa	Escherichia hermannii	0.814577667391	Mixed	#cccccc
+Roseomonas mucosa	Exiguobacterium mexicanum	0.814577667391	Mixed	#cccccc
+Roseomonas mucosa	Microbacterium sp. ZOR0019	0.814577667391	Mixed	#cccccc
+Roseomonas mucosa	Microvirga vignae	0.814577667391	Mixed	#cccccc
+Roseomonas mucosa	Modestobacter marinus	1.0	Mixed	#cccccc
+Roseomonas mucosa	Nesterenkonia sp. NP1	0.814577667391	R_Retroauricular_crease	#9efaa2
+Roseomonas mucosa	Nocardioides halotolerans	1.0	Mixed	#cccccc
+Roseomonas mucosa	Rhizobacter sp. Root404	0.814577667391	Mixed	#cccccc
+Rubellimicrobium mesophilum	Deinococcus swuensis	0.814577667391	Mixed	#cccccc
+Rubellimicrobium mesophilum	Limnohabitans sp. Rim47	0.814577667391	Mixed	#cccccc
+Rubellimicrobium mesophilum	Paenibacillus sp. SIT18	0.814577667391	Mixed	#cccccc
+Rubritepida flocculans	Actinoplanes sp. SE50/110	1.0	Anterior_nares	#8000ff
+Rubritepida flocculans	Cellulomonas gilvus	1.0	Anterior_nares	#8000ff
+Rubritepida flocculans	Cellulomonas sp. Root485	1.0	Anterior_nares	#8000ff
+Rubritepida flocculans	Corynebacterium capitovis	1.0	Anterior_nares	#8000ff
+Rubritepida flocculans	Deinococcus sp. 2009	1.0	Anterior_nares	#8000ff
+Rubritepida flocculans	Erwinia billingiae	1.0	Anterior_nares	#8000ff
+Rubritepida flocculans	Flaviflexus sp. SIT4	1.0	Anterior_nares	#8000ff
+Rubritepida flocculans	Flavobacterium sp. B17	1.0	Mixed	#cccccc
+Rubritepida flocculans	Methylobacterium sp. Leaf121	1.0	Anterior_nares	#8000ff
+Rubritepida flocculans	Roseomonas cervicalis	1.0	Anterior_nares	#8000ff
+Rubrobacter aplysinae	Belnapia sp. F-4-1	1.0	Mixed	#cccccc
+Rubrobacter aplysinae	Cellulomonas sp. Leaf334	1.0	Anterior_nares	#8000ff
+Rubrobacter aplysinae	Cystobacter fuscus	1.0	Anterior_nares	#8000ff
+Rubrobacter aplysinae	Cystobacter violaceus	1.0	Anterior_nares	#8000ff
+Rubrobacter aplysinae	Deinococcus radiodurans	1.0	Mixed	#cccccc
+Rubrobacter aplysinae	Demetria terragena	1.0	Anterior_nares	#8000ff
+Rubrobacter aplysinae	Geodermatophilaceae bacterium URHB0048	1.0	Anterior_nares	#8000ff
+Rubrobacter aplysinae	Nocardioides sp. JS614	1.0	Anterior_nares	#8000ff
+Rubrobacter aplysinae	Nocardioides sp. Soil805	1.0	Anterior_nares	#8000ff
+Rubrobacter aplysinae	Rhodococcus sp. Leaf247	1.0	Mixed	#cccccc
+Ruminococcus albus	Bacteroides sp. 2_1_33B	0.814577667391	Stool	#ded579
+Ruminococcus flavefaciens	Bacteroides sp. 2_1_33B	0.814577667391	Stool	#ded579
+[Ruminococcus] torques	Catabacter hongkongensis	1.0	Stool	#ded579
+[Ruminococcus] torques	Oscillibacter ruminantium	1.0	Stool	#ded579
+Runella zeae	Aerococcus urinae	1.0	Anterior_nares	#8000ff
+Runella zeae	Aeromonas rivuli	1.0	Anterior_nares	#8000ff
+Runella zeae	Bacillus smithii	1.0	Mixed	#cccccc
+Runella zeae	Flavobacterium indicum	1.0	Anterior_nares	#8000ff
+Runella zeae	Flavobacterium sasangense	1.0	Mixed	#cccccc
+Runella zeae	Frigoribacterium sp. Leaf8	1.0	Anterior_nares	#8000ff
+Runella zeae	Gemmata obscuriglobus	1.0	Anterior_nares	#8000ff
+Runella zeae	Kandleria vitulina	1.0	Mixed	#cccccc
+Runella zeae	Lysobacter defluvii	1.0	Anterior_nares	#8000ff
+Runella zeae	Mycobacterium aromaticivorans	1.0	Anterior_nares	#8000ff
+Runella zeae	Novosphingobium sp. Leaf2	1.0	Anterior_nares	#8000ff
+Runella zeae	Paenibacillus pasadenensis	1.0	Anterior_nares	#8000ff
+Runella zeae	Paracoccus sp. MKU1	1.0	Mixed	#cccccc
+Saccharomonospora glauca	Microbacterium testaceum	1.0	Mixed	#cccccc
+Saccharomonospora viridis	Achromobacter sp. Root170	1.0	Anterior_nares	#8000ff
+Saccharomonospora viridis	Olsenella uli	1.0	Mixed	#cccccc
+Saccharopolyspora rectivirgula	Dermacoccus nishinomiyaensis	1.0	Anterior_nares	#8000ff
+Salinicoccus luteus	Aureimonas sp. Leaf454	1.0	Anterior_nares	#8000ff
+Salinicoccus luteus	Clostridiales bacterium VE202-28	1.0	Mixed	#cccccc
+Salinicoccus luteus	Eubacterium sp. AB3007	1.0	Mixed	#cccccc
+Salinicoccus luteus	Novosphingobium sp. AP12	1.0	Anterior_nares	#8000ff
+Sanguibacteroides justesenii	Bacteroides barnesiae	0.814577667391	Stool	#ded579
+Sanguibacteroides justesenii	Lachnospiraceae bacterium AC2012	0.814577667391	Mixed	#cccccc
+Sanguibacteroides justesenii	Lachnospira multipara	1.0	Stool	#ded579
+Scytonema millei	Actinomyces sp. MS2	0.892305178067	Anterior_nares	#8000ff
+Scytonema tolypothrichoides	Chlorogloeopsis fritschii	1.0	Mixed	#cccccc
+Scytonema tolypothrichoides	Eubacterium limosum	1.0	Mixed	#cccccc
+Scytonema tolypothrichoides	Lachnospiraceae bacterium 28-4	1.0	Mixed	#cccccc
+Scytonema tolypothrichoides	Prevotella sp. P4-65	1.0	Mixed	#cccccc
+Selenomonas artemidis	Campylobacter curvus	0.814577667391	Supragingival_plaque	#ff8e4a
+Selenomonas artemidis	Candidatus Saccharibacteria bacterium RAAC3_TM7_1	0.814577667391	Mixed	#cccccc
+Selenomonas artemidis	Capnocytophaga sp. oral taxon 335	1.0	Supragingival_plaque	#ff8e4a
+Selenomonas artemidis	Capnocytophaga sp. oral taxon 336	0.814577667391	Mixed	#cccccc
+Selenomonas artemidis	Fusobacterium sp. CM22	1.0	Supragingival_plaque	#ff8e4a
+Selenomonas artemidis	Leptotrichia sp. oral taxon 879	0.863980476719	Mixed	#cccccc
+Selenomonas artemidis	Peptostreptococcaceae bacterium OBRC8	0.814577667391	Mixed	#cccccc
+Selenomonas sp. F0473	Clostridium beijerinckii	0.863980476719	Mixed	#cccccc
+Selenomonas sp. F0473	Pantoea dispersa	0.814577667391	Mixed	#cccccc
+Selenomonas sp. F0473	Paracoccus aestuarii	0.814577667391	Mixed	#cccccc
+Selenomonas sp. oral taxon 138	Capnocytophaga sp. oral taxon 324	0.863980476719	Mixed	#cccccc
+Selenomonas sp. oral taxon 478	Selenomonas sp. oral taxon 149	0.841120082507	Saliva	#beec8e
+Serinicoccus profundi	Acinetobacter sp. CIP 101966	0.814577667391	R_Retroauricular_crease	#9efaa2
+Serinicoccus profundi	Actinomyces europaeus	0.814577667391	Mixed	#cccccc
+Serinicoccus profundi	Advenella kashmirensis	0.814577667391	Mixed	#cccccc
+Serinicoccus profundi	Corynebacterium uterequi	0.814577667391	Mixed	#cccccc
+Serinicoccus profundi	Elizabethkingia meningoseptica	0.814577667391	Mixed	#cccccc
+Serinicoccus profundi	Enterobacter sp. K66-74	0.814577667391	Mixed	#cccccc
+Serinicoccus profundi	Erwinia sp. SCU-B244	0.814577667391	Mixed	#cccccc
+Serinicoccus profundi	Exiguobacterium sp. ZWU0009	0.814577667391	Mixed	#cccccc
+Serinicoccus profundi	Hymenobacter sp. AT01-02	0.814577667391	Mixed	#cccccc
+Serinicoccus profundi	Lactobacillus coleohominis	0.814577667391	Mixed	#cccccc
+Serinicoccus profundi	Leuconostoc lactis	0.814577667391	Mixed	#cccccc
+Serinicoccus profundi	Micavibrio aeruginosavorus	0.814577667391	Mixed	#cccccc
+Serinicoccus profundi	Mobiluncus mulieris	0.814577667391	Mixed	#cccccc
+Serinicoccus profundi	Paenirhodobacter enshiensis	0.814577667391	Mixed	#cccccc
+Serinicoccus profundi	Phenylobacterium zucineum	0.814577667391	R_Retroauricular_crease	#9efaa2
+Serinicoccus profundi	Rhizobium selenitireducens	0.814577667391	Mixed	#cccccc
+Serratia liquefaciens	Acinetobacter bereziniae	0.814577667391	Mixed	#cccccc
+Serratia liquefaciens	Acinetobacter sp. NIPH 284	0.814577667391	Mixed	#cccccc
+Serratia liquefaciens	Acinetobacter sp. P8-3-8	1.0	Mixed	#cccccc
+Serratia liquefaciens	Actinomyces vaccimaxillae	1.0	Mixed	#cccccc
+Serratia liquefaciens	Atopococcus tabaci	1.0	Mixed	#cccccc
+Serratia liquefaciens	Burkholderia ambifaria	1.0	Mixed	#cccccc
+Serratia liquefaciens	Chryseobacterium vrystaatense	1.0	Mixed	#cccccc
+Serratia liquefaciens	Exiguobacterium undae	1.0	Mixed	#cccccc
+Serratia liquefaciens	Flavihumibacter sp. ZG627	1.0	Mixed	#cccccc
+Serratia liquefaciens	Gordonia paraffinivorans	0.814577667391	Mixed	#cccccc
+Serratia liquefaciens	Komagataeibacter europaeus	1.0	Mixed	#cccccc
+Serratia liquefaciens	Micrococcus sp. V7	1.0	Mixed	#cccccc
+Serratia liquefaciens	Neisseria bacilliformis	0.814577667391	Mixed	#cccccc
+Serratia liquefaciens	Olivibacter sitiensis	1.0	Mixed	#cccccc
+Serratia liquefaciens	Pseudomonas sp. Leaf127	1.0	Mixed	#cccccc
+Serratia liquefaciens	Riemerella columbina	1.0	Mixed	#cccccc
+Serratia plymuthica	Limnohabitans sp. Rim47	1.0	Mixed	#cccccc
+Serratia plymuthica	Paenibacillus sp. SIT18	1.0	Mixed	#cccccc
+Serratia plymuthica	Rubellimicrobium mesophilum	0.814577667391	Mixed	#cccccc
+Serratia sp. Leaf51	Pseudomonas sp. KG01	0.810615376536	Anterior_nares	#8000ff
+Shewanella baltica	Acinetobacter bereziniae	0.814577667391	Mixed	#cccccc
+Shewanella baltica	Acinetobacter sp. NIPH 284	0.814577667391	L_Retroauricular_crease	#1fd3e1
+Shewanella baltica	Acinetobacter sp. P8-3-8	1.0	Mixed	#cccccc
+Shewanella baltica	Actinomyces vaccimaxillae	1.0	Mixed	#cccccc
+Shewanella baltica	Atopococcus tabaci	1.0	Mixed	#cccccc
+Shewanella baltica	Burkholderia ambifaria	1.0	Mixed	#cccccc
+Shewanella baltica	Chryseobacterium vrystaatense	1.0	Mixed	#cccccc
+Shewanella baltica	Exiguobacterium undae	1.0	Mixed	#cccccc
+Shewanella baltica	Flavihumibacter sp. ZG627	1.0	Mixed	#cccccc
+Shewanella baltica	Gordonia paraffinivorans	0.814577667391	Mixed	#cccccc
+Shewanella baltica	Komagataeibacter europaeus	1.0	Mixed	#cccccc
+Shewanella baltica	Micrococcus sp. V7	1.0	Mixed	#cccccc
+Shewanella baltica	Neisseria bacilliformis	0.814577667391	Mixed	#cccccc
+Shewanella baltica	Olivibacter sitiensis	1.0	Mixed	#cccccc
+Shewanella baltica	Pseudomonas sp. Leaf127	1.0	Mixed	#cccccc
+Shewanella baltica	Riemerella columbina	1.0	Mixed	#cccccc
+Shewanella baltica	Serratia liquefaciens	1.0	Mixed	#cccccc
+Shewanella decolorationis	Aerococcus urinae	1.0	Anterior_nares	#8000ff
+Shewanella decolorationis	Aeromonas rivuli	1.0	Anterior_nares	#8000ff
+Shewanella decolorationis	Bacillus smithii	1.0	Mixed	#cccccc
+Shewanella decolorationis	Flavobacterium indicum	1.0	Anterior_nares	#8000ff
+Shewanella decolorationis	Flavobacterium sasangense	1.0	Mixed	#cccccc
+Shewanella decolorationis	Frigoribacterium sp. Leaf8	1.0	Anterior_nares	#8000ff
+Shewanella decolorationis	Gemmata obscuriglobus	1.0	Anterior_nares	#8000ff
+Shewanella decolorationis	Kandleria vitulina	1.0	Mixed	#cccccc
+Shewanella decolorationis	Lysobacter defluvii	1.0	Anterior_nares	#8000ff
+Shewanella decolorationis	Mycobacterium aromaticivorans	1.0	Anterior_nares	#8000ff
+Shewanella decolorationis	Novosphingobium sp. Leaf2	1.0	Anterior_nares	#8000ff
+Shewanella decolorationis	Paenibacillus pasadenensis	1.0	Anterior_nares	#8000ff
+Shewanella decolorationis	Paracoccus sp. MKU1	1.0	Mixed	#cccccc
+Shewanella decolorationis	Runella zeae	1.0	Anterior_nares	#8000ff
+Shewanella putrefaciens	Aminobacter sp. Root100	1.0	Mixed	#cccccc
+Shewanella putrefaciens	Chryseobacterium sp. Hurlbut01	1.0	Mixed	#cccccc
+Shewanella putrefaciens	Dyadobacter sp. Leaf189	1.0	Mixed	#cccccc
+Shewanella putrefaciens	Epilithonimonas sp. FH1	1.0	Mixed	#cccccc
+Shewanella putrefaciens	Janthinobacterium sp. CG3	1.0	Mixed	#cccccc
+Shewanella putrefaciens	Moritella dasanensis	1.0	Mixed	#cccccc
+Shewanella sp. ANA-3	Micrococcus sp. 28	1.0	L_Retroauricular_crease	#1fd3e1
+Shewanella sp. ANA-3	Parvimonas sp. oral taxon 110	1.0	Mixed	#cccccc
+Shewanella sp. ANA-3	Pontibacter roseus	1.0	Mixed	#cccccc
+Shewanella sp. ANA-3	Pseudomonas libanensis	1.0	Mixed	#cccccc
+Shewanella sp. ANA-3	Pseudomonas psychrotolerans	1.0	Mixed	#cccccc
+Shewanella sp. HN-41	Aerococcus urinae	1.0	Anterior_nares	#8000ff
+Shewanella sp. HN-41	Aeromonas rivuli	1.0	Anterior_nares	#8000ff
+Shewanella sp. HN-41	Bacillus smithii	1.0	Mixed	#cccccc
+Shewanella sp. HN-41	Flavobacterium indicum	1.0	Anterior_nares	#8000ff
+Shewanella sp. HN-41	Flavobacterium sasangense	1.0	Mixed	#cccccc
+Shewanella sp. HN-41	Frigoribacterium sp. Leaf8	1.0	Anterior_nares	#8000ff
+Shewanella sp. HN-41	Gemmata obscuriglobus	1.0	Anterior_nares	#8000ff
+Shewanella sp. HN-41	Kandleria vitulina	1.0	Mixed	#cccccc
+Shewanella sp. HN-41	Lysobacter defluvii	1.0	Anterior_nares	#8000ff
+Shewanella sp. HN-41	Mycobacterium aromaticivorans	1.0	Anterior_nares	#8000ff
+Shewanella sp. HN-41	Novosphingobium sp. Leaf2	1.0	Anterior_nares	#8000ff
+Shewanella sp. HN-41	Paenibacillus pasadenensis	1.0	Anterior_nares	#8000ff
+Shewanella sp. HN-41	Paracoccus sp. MKU1	1.0	Mixed	#cccccc
+Shewanella sp. HN-41	Runella zeae	1.0	Anterior_nares	#8000ff
+Shewanella sp. HN-41	Shewanella decolorationis	1.0	Anterior_nares	#8000ff
+Shinella sp. DD12	Bifidobacterium thermophilum	1.0	Mixed	#cccccc
+Shuttleworthia sp. MSX8B	Exiguobacterium marinum	1.0	Mixed	#cccccc
+Shuttleworthia sp. MSX8B	Kingella kingae	0.814577667391	Mixed	#cccccc
+Sinorhizobium sp. GL2	Aerococcus urinae	1.0	Anterior_nares	#8000ff
+Sinorhizobium sp. GL2	Aeromonas rivuli	1.0	Anterior_nares	#8000ff
+Sinorhizobium sp. GL2	Bacillus smithii	1.0	Mixed	#cccccc
+Sinorhizobium sp. GL2	Flavobacterium indicum	1.0	Anterior_nares	#8000ff
+Sinorhizobium sp. GL2	Flavobacterium sasangense	1.0	Mixed	#cccccc
+Sinorhizobium sp. GL2	Frigoribacterium sp. Leaf8	1.0	Anterior_nares	#8000ff
+Sinorhizobium sp. GL2	Gemmata obscuriglobus	1.0	Anterior_nares	#8000ff
+Sinorhizobium sp. GL2	Kandleria vitulina	1.0	Mixed	#cccccc
+Sinorhizobium sp. GL2	Lysobacter defluvii	1.0	Anterior_nares	#8000ff
+Sinorhizobium sp. GL2	Mycobacterium aromaticivorans	1.0	Anterior_nares	#8000ff
+Sinorhizobium sp. GL2	Novosphingobium sp. Leaf2	1.0	Anterior_nares	#8000ff
+Sinorhizobium sp. GL2	Paenibacillus pasadenensis	1.0	Anterior_nares	#8000ff
+Sinorhizobium sp. GL2	Paracoccus sp. MKU1	1.0	Mixed	#cccccc
+Sinorhizobium sp. GL2	Runella zeae	1.0	Anterior_nares	#8000ff
+Sinorhizobium sp. GL2	Shewanella decolorationis	1.0	Anterior_nares	#8000ff
+Sinorhizobium sp. GL2	Shewanella sp. HN-41	1.0	Anterior_nares	#8000ff
+Slackia exigua	Caldilinea aerophila	1.0	Mixed	#cccccc
+Slackia exigua	Megasphaera elsdenii	1.0	Mixed	#cccccc
+Slackia exigua	Mycobacterium tuberculosis	1.0	Mixed	#cccccc
+Slackia piriformis	Faecalitalea cylindroides	1.0	Mixed	#cccccc
+Slackia piriformis	Leuconostoc inhae	1.0	Mixed	#cccccc
+Slackia piriformis	Mangrovibacter sp. MFB070	1.0	Mixed	#cccccc
+Solimonas variicoloris	Aureimonas sp. Leaf324	1.0	Anterior_nares	#8000ff
+Solimonas variicoloris	Clostridium baratii	0.814577667391	Mixed	#cccccc
+Solimonas variicoloris	Comamonas granuli	0.863980476719	Anterior_nares	#8000ff
+Solimonas variicoloris	Cronobacter dublinensis	0.814577667391	Anterior_nares	#8000ff
+Solimonas variicoloris	Cronobacter malonaticus	1.0	Anterior_nares	#8000ff
+Solimonas variicoloris	Cronobacter turicensis	0.814577667391	Anterior_nares	#8000ff
+Solimonas variicoloris	Cronobacter universalis	0.814577667391	Anterior_nares	#8000ff
+Solimonas variicoloris	Enterococcus mundtii	1.0	Anterior_nares	#8000ff
+Solimonas variicoloris	Epilithonimonas lactis	0.814577667391	Anterior_nares	#8000ff
+Solimonas variicoloris	Franconibacter pulveris	1.0	Anterior_nares	#8000ff
+Solimonas variicoloris	Leisingera sp. ANG-M1	0.814577667391	Mixed	#cccccc
+Solimonas variicoloris	Limnohabitans planktonicus	1.0	Anterior_nares	#8000ff
+Solimonas variicoloris	Limnohabitans sp. Rim28	0.863980476719	Mixed	#cccccc
+Solimonas variicoloris	Microcoleus vaginatus	1.0	Mixed	#cccccc
+Solimonas variicoloris	Mycobacterium sp. JS623	0.814577667391	Anterior_nares	#8000ff
+Solimonas variicoloris	Nocardioides alkalitolerans	1.0	Anterior_nares	#8000ff
+Solimonas variicoloris	Oscillatoria nigro-viridis	1.0	Mixed	#cccccc
+Solimonas variicoloris	Pantoea sp. MBLJ3	0.814577667391	Anterior_nares	#8000ff
+Solimonas variicoloris	Paracoccus sp. J55	0.814577667391	Anterior_nares	#8000ff
+Solimonas variicoloris	Pediococcus acidilactici	0.814577667391	Anterior_nares	#8000ff
+Solimonas variicoloris	Pseudomonas sp. TJI-51	1.0	Anterior_nares	#8000ff
+Solimonas variicoloris	Rhodococcus sp. R04	1.0	Anterior_nares	#8000ff
+Solirubrobacter sp. URHD0082	Actinoplanes sp. SE50/110	1.0	Anterior_nares	#8000ff
+Solirubrobacter sp. URHD0082	Cellulomonas gilvus	1.0	Anterior_nares	#8000ff
+Solirubrobacter sp. URHD0082	Cellulomonas sp. Root485	1.0	Anterior_nares	#8000ff
+Solirubrobacter sp. URHD0082	Corynebacterium capitovis	1.0	Anterior_nares	#8000ff
+Solirubrobacter sp. URHD0082	Deinococcus sp. 2009	1.0	Anterior_nares	#8000ff
+Solirubrobacter sp. URHD0082	Erwinia billingiae	1.0	Anterior_nares	#8000ff
+Solirubrobacter sp. URHD0082	Flaviflexus sp. SIT4	1.0	Anterior_nares	#8000ff
+Solirubrobacter sp. URHD0082	Flavobacterium sp. B17	1.0	Mixed	#cccccc
+Solirubrobacter sp. URHD0082	Methylobacterium sp. Leaf121	1.0	Anterior_nares	#8000ff
+Solirubrobacter sp. URHD0082	Roseomonas cervicalis	1.0	Anterior_nares	#8000ff
+Solirubrobacter sp. URHD0082	Rubritepida flocculans	1.0	Anterior_nares	#8000ff
+Sorangium cellulosum	Belnapia sp. F-4-1	1.0	Mixed	#cccccc
+Sorangium cellulosum	Cellulomonas sp. Leaf334	1.0	Anterior_nares	#8000ff
+Sorangium cellulosum	Cystobacter fuscus	1.0	Anterior_nares	#8000ff
+Sorangium cellulosum	Cystobacter violaceus	1.0	Anterior_nares	#8000ff
+Sorangium cellulosum	Deinococcus radiodurans	1.0	Mixed	#cccccc
+Sorangium cellulosum	Demetria terragena	1.0	Anterior_nares	#8000ff
+Sorangium cellulosum	Geodermatophilaceae bacterium URHB0048	1.0	Anterior_nares	#8000ff
+Sorangium cellulosum	Nocardioides sp. JS614	1.0	Anterior_nares	#8000ff
+Sorangium cellulosum	Nocardioides sp. Soil805	1.0	Anterior_nares	#8000ff
+Sorangium cellulosum	Rhodococcus sp. Leaf247	1.0	Mixed	#cccccc
+Sorangium cellulosum	Rubrobacter aplysinae	1.0	Anterior_nares	#8000ff
+Sphaerobacter thermophilus	Mycobacterium hassiacum	1.0	Mixed	#cccccc
+Sphingobacteriaceae bacterium DW12	Geodermatophilus sp. Leaf369	1.0	Anterior_nares	#8000ff
+Sphingobacteriaceae bacterium DW12	Rhodococcus sp. p52	1.0	Anterior_nares	#8000ff
+Sphingobacterium sp. 21	Jonquetella anthropi	0.814577667391	Mixed	#cccccc
+Sphingobacterium sp. 21	Methylosarcina fibrata	0.814577667391	Anterior_nares	#8000ff
+Sphingobacterium sp. ML3W	Acinetobacter radioresistens	1.0	Mixed	#cccccc
+Sphingobacterium sp. ML3W	Anaerofustis stercorihominis	1.0	Mixed	#cccccc
+Sphingobacterium sp. ML3W	Bacteroidaceae bacterium MS4	1.0	Mixed	#cccccc
+Sphingobacterium sp. ML3W	Riemerella anatipestifer	1.0	Mixed	#cccccc
+Sphingobium sp. Ant17	Aliihoeflea sp. 2WW	1.0	Mixed	#cccccc
+Sphingobium sp. Ant17	Collinsella tanakaei	1.0	Mixed	#cccccc
+Sphingobium sp. Ant17	Corynebacterium ulceribovis	1.0	Anterior_nares	#8000ff
+Sphingobium sp. Ant17	Dactylosporangium aurantiacum	1.0	Anterior_nares	#8000ff
+Sphingobium sp. Ant17	Deinococcus phoenicis	1.0	Anterior_nares	#8000ff
+Sphingobium sp. Ant17	Enterococcus avium	1.0	Anterior_nares	#8000ff
+Sphingobium sp. Ant17	Methylobacterium sp. AMS5	1.0	Mixed	#cccccc
+Sphingobium sp. Ant17	Microbacterium hominis	1.0	Anterior_nares	#8000ff
+Sphingobium sp. Ant17	Pantoea sp. NGS-ED-1003	1.0	Mixed	#cccccc
+Sphingobium sp. Ant17	Pseudomonas sp. NBRC 111135	1.0	Mixed	#cccccc
+Sphingobium sp. ba1	Actinomyces sp. oral taxon 180	0.863980476719	Mixed	#cccccc
+Sphingobium sp. ba1	Deinococcus gobiensis	0.863980476719	Anterior_nares	#8000ff
+Sphingobium sp. ba1	Lactobacillus fuchuensis	0.863980476719	Anterior_nares	#8000ff
+Sphingobium sp. ba1	Methylobacterium sp. EUR3 AL-11	0.863980476719	Anterior_nares	#8000ff
+Sphingobium sp. ba1	Microbacterium maritypicum	0.863980476719	Anterior_nares	#8000ff
+Sphingobium sp. ba1	Microbacterium sp. Leaf151	0.863980476719	Anterior_nares	#8000ff
+Sphingobium sp. ba1	Microbacterium sp. Root280D1	0.863980476719	Anterior_nares	#8000ff
+Sphingobium sp. ba1	Pseudomonas lutea	0.863980476719	Anterior_nares	#8000ff
+Sphingobium sp. DC-2	Aeromonas caviae	0.863980476719	Mixed	#cccccc
+Sphingobium sp. DC-2	Pseudomonas sp. 20_BN	0.814577667391	Mixed	#cccccc
+Sphingobium sp. DC-2	Sphingobacterium spiritivorum	0.814577667391	Mixed	#cccccc
+Sphingomonas sanguinis	Actinomyces sp. oral taxon 180	0.814577667391	Mixed	#cccccc
+Sphingomonas sanguinis	Aerococcus urinaeequi	0.814577667391	Anterior_nares	#8000ff
+Sphingomonas sanguinis	Deinococcus gobiensis	0.814577667391	Anterior_nares	#8000ff
+Sphingomonas sanguinis	Lactobacillus fuchuensis	0.814577667391	Anterior_nares	#8000ff
+Sphingomonas sanguinis	Methylobacterium sp. EUR3 AL-11	0.814577667391	Anterior_nares	#8000ff
+Sphingomonas sanguinis	Methylobacterium sp. GXS13	1.0	Mixed	#cccccc
+Sphingomonas sanguinis	Microbacterium maritypicum	0.814577667391	Anterior_nares	#8000ff
+Sphingomonas sanguinis	Microbacterium sp. Leaf151	0.814577667391	Anterior_nares	#8000ff
+Sphingomonas sanguinis	Microbacterium sp. Root280D1	0.814577667391	Anterior_nares	#8000ff
+Sphingomonas sanguinis	Neisseria shayeganii	1.0	Mixed	#cccccc
+Sphingomonas sanguinis	Nitrospira defluvii	1.0	Mixed	#cccccc
+Sphingomonas sanguinis	Prevotella brevis	0.814577667391	Mixed	#cccccc
+Sphingomonas sanguinis	Pseudomonas lutea	0.814577667391	Anterior_nares	#8000ff
+Sphingomonas sp. 35-24ZXX	Actinoplanes sp. SE50/110	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. 35-24ZXX	Cellulomonas gilvus	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. 35-24ZXX	Cellulomonas sp. Root485	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. 35-24ZXX	Corynebacterium capitovis	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. 35-24ZXX	Deinococcus sp. 2009	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. 35-24ZXX	Erwinia billingiae	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. 35-24ZXX	Flaviflexus sp. SIT4	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. 35-24ZXX	Flavobacterium sp. B17	1.0	Mixed	#cccccc
+Sphingomonas sp. 35-24ZXX	Methylobacterium sp. Leaf121	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. 35-24ZXX	Roseomonas cervicalis	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. 35-24ZXX	Rubritepida flocculans	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. 35-24ZXX	Solirubrobacter sp. URHD0082	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. Ant20	Acinetobacter sp. CIP 101966	1.0	Mixed	#cccccc
+Sphingomonas sp. Ant20	Actinomyces europaeus	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. Ant20	Advenella kashmirensis	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. Ant20	Cellulomonas flavigena	0.814577667391	Mixed	#cccccc
+Sphingomonas sp. Ant20	Chryseobacterium sp. FF12	0.814577667391	Mixed	#cccccc
+Sphingomonas sp. Ant20	Corynebacterium uterequi	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. Ant20	Elizabethkingia meningoseptica	1.0	Mixed	#cccccc
+Sphingomonas sp. Ant20	Enterobacter sp. K66-74	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. Ant20	Erwinia sp. SCU-B244	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. Ant20	Exiguobacterium sp. ZWU0009	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. Ant20	Hymenobacter sp. AT01-02	1.0	Mixed	#cccccc
+Sphingomonas sp. Ant20	Lactobacillus coleohominis	1.0	Mixed	#cccccc
+Sphingomonas sp. Ant20	Leuconostoc lactis	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. Ant20	Micavibrio aeruginosavorus	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. Ant20	Microbacterium sp. Ag1	0.814577667391	Mixed	#cccccc
+Sphingomonas sp. Ant20	Mobiluncus mulieris	1.0	Mixed	#cccccc
+Sphingomonas sp. Ant20	Niveispirillum irakense	0.814577667391	Anterior_nares	#8000ff
+Sphingomonas sp. Ant20	Ochrobactrum anthropi	0.814577667391	Mixed	#cccccc
+Sphingomonas sp. Ant20	Paenirhodobacter enshiensis	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. Ant20	Phenylobacterium zucineum	1.0	Mixed	#cccccc
+Sphingomonas sp. Ant20	Prevotella sp. S7 MS 2	0.814577667391	Mixed	#cccccc
+Sphingomonas sp. Ant20	Rhizobium selenitireducens	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. Ant20	Serinicoccus profundi	0.814577667391	Mixed	#cccccc
+Sphingomonas sp. DC-6	Acinetobacter sp. NIPH 713	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. DC-6	Pseudochrobactrum sp. AO18b	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. DC-6	Pseudomonas caeni	0.814577667391	Anterior_nares	#8000ff
+Sphingomonas sp. KA1	Exiguobacterium acetylicum	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. KA1	Lactobacillus acidipiscis	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. KA1	Microbacterium oleivorans	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. KA1	Rhizobacter sp. Root1221	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. Leaf10	Actinomyces sp. oral taxon 180	1.0	Mixed	#cccccc
+Sphingomonas sp. Leaf10	Deinococcus gobiensis	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. Leaf10	Deinococcus sp. Leaf326	0.814577667391	Anterior_nares	#8000ff
+Sphingomonas sp. Leaf10	Fusobacterium russii	0.814577667391	Mixed	#cccccc
+Sphingomonas sp. Leaf10	Kordiimonas gwangyangensis	0.863980476719	Anterior_nares	#8000ff
+Sphingomonas sp. Leaf10	Lactobacillus fuchuensis	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. Leaf10	Methylobacterium sp. EUR3 AL-11	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. Leaf10	Methylobacterium sp. GXS13	0.814577667391	Mixed	#cccccc
+Sphingomonas sp. Leaf10	Microbacterium maritypicum	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. Leaf10	Microbacterium sp. Leaf151	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. Leaf10	Microbacterium sp. Root280D1	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. Leaf10	Mycobacterium mageritense	0.863980476719	Anterior_nares	#8000ff
+Sphingomonas sp. Leaf10	Neisseria shayeganii	0.814577667391	Mixed	#cccccc
+Sphingomonas sp. Leaf10	Nitrospira defluvii	0.814577667391	Mixed	#cccccc
+Sphingomonas sp. Leaf10	Ornithinimicrobium pekingense	0.863980476719	Mixed	#cccccc
+Sphingomonas sp. Leaf10	Porphyromonas gingivicanis	0.863980476719	Mixed	#cccccc
+Sphingomonas sp. Leaf10	Porphyromonas sp. COT-239 OH1446	0.863980476719	Mixed	#cccccc
+Sphingomonas sp. Leaf10	Pseudomonas lutea	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. Leaf10	Sphingobium sp. ba1	0.863980476719	Anterior_nares	#8000ff
+Sphingomonas sp. Leaf10	Sphingomonas sanguinis	0.814577667391	Anterior_nares	#8000ff
+Sphingomonas sp. Leaf208	Curtobacterium oceanosedimentum	0.892305178067	Mixed	#cccccc
+Sphingomonas sp. Leaf257	Acidovorax sp. Leaf160	1.0	Mixed	#cccccc
+Sphingomonas sp. Leaf257	Leptonema illini	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. Leaf257	Mycobacterium avium	1.0	Mixed	#cccccc
+Sphingomonas sp. Leaf257	Pandoraea sp. B-6	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. Leaf257	Pseudorhodoferax sp. Leaf265	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. Leaf257	Ralstonia sp. A12	1.0	Mixed	#cccccc
+Sphingomonas sp. Leaf28	Actinomyces sp. oral taxon 180	1.0	Mixed	#cccccc
+Sphingomonas sp. Leaf28	Deinococcus gobiensis	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. Leaf28	Deinococcus sp. Leaf326	0.814577667391	Anterior_nares	#8000ff
+Sphingomonas sp. Leaf28	Fusobacterium russii	0.814577667391	Mixed	#cccccc
+Sphingomonas sp. Leaf28	Kordiimonas gwangyangensis	0.863980476719	Anterior_nares	#8000ff
+Sphingomonas sp. Leaf28	Lactobacillus fuchuensis	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. Leaf28	Methylobacterium sp. EUR3 AL-11	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. Leaf28	Methylobacterium sp. GXS13	0.814577667391	Mixed	#cccccc
+Sphingomonas sp. Leaf28	Microbacterium maritypicum	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. Leaf28	Microbacterium sp. Leaf151	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. Leaf28	Microbacterium sp. Root280D1	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. Leaf28	Mycobacterium mageritense	0.863980476719	Anterior_nares	#8000ff
+Sphingomonas sp. Leaf28	Neisseria shayeganii	0.814577667391	Mixed	#cccccc
+Sphingomonas sp. Leaf28	Nitrospira defluvii	0.814577667391	Mixed	#cccccc
+Sphingomonas sp. Leaf28	Ornithinimicrobium pekingense	0.863980476719	Mixed	#cccccc
+Sphingomonas sp. Leaf28	Porphyromonas gingivicanis	0.863980476719	Mixed	#cccccc
+Sphingomonas sp. Leaf28	Porphyromonas sp. COT-239 OH1446	0.863980476719	Mixed	#cccccc
+Sphingomonas sp. Leaf28	Pseudomonas lutea	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. Leaf28	Sphingobium sp. ba1	0.863980476719	Anterior_nares	#8000ff
+Sphingomonas sp. Leaf28	Sphingomonas sanguinis	0.814577667391	Anterior_nares	#8000ff
+Sphingomonas sp. Leaf28	Sphingomonas sp. Leaf10	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. Leaf30	[Clostridium] citroniae	1.0	Mixed	#cccccc
+Sphingomonas sp. Leaf339	Archangium gephyra	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. Leaf339	Bdellovibrio bacteriovorus	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. Leaf339	Hymenobacter sp. MIMtkLc17	1.0	Mixed	#cccccc
+Sphingomonas sp. Leaf412	Actinomyces sp. oral taxon 180	1.0	Mixed	#cccccc
+Sphingomonas sp. Leaf412	Deinococcus gobiensis	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. Leaf412	Deinococcus sp. Leaf326	0.814577667391	Anterior_nares	#8000ff
+Sphingomonas sp. Leaf412	Fusobacterium russii	0.814577667391	Mixed	#cccccc
+Sphingomonas sp. Leaf412	Kordiimonas gwangyangensis	0.863980476719	Anterior_nares	#8000ff
+Sphingomonas sp. Leaf412	Lactobacillus fuchuensis	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. Leaf412	Methylobacterium sp. EUR3 AL-11	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. Leaf412	Methylobacterium sp. GXS13	0.814577667391	Mixed	#cccccc
+Sphingomonas sp. Leaf412	Microbacterium maritypicum	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. Leaf412	Microbacterium sp. Leaf151	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. Leaf412	Microbacterium sp. Root280D1	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. Leaf412	Mycobacterium mageritense	0.863980476719	Anterior_nares	#8000ff
+Sphingomonas sp. Leaf412	Neisseria shayeganii	0.814577667391	Mixed	#cccccc
+Sphingomonas sp. Leaf412	Nitrospira defluvii	0.814577667391	Mixed	#cccccc
+Sphingomonas sp. Leaf412	Ornithinimicrobium pekingense	0.863980476719	Mixed	#cccccc
+Sphingomonas sp. Leaf412	Porphyromonas gingivicanis	0.863980476719	Mixed	#cccccc
+Sphingomonas sp. Leaf412	Porphyromonas sp. COT-239 OH1446	0.863980476719	Mixed	#cccccc
+Sphingomonas sp. Leaf412	Pseudomonas lutea	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. Leaf412	Sphingobium sp. ba1	0.863980476719	Anterior_nares	#8000ff
+Sphingomonas sp. Leaf412	Sphingomonas sanguinis	0.814577667391	Anterior_nares	#8000ff
+Sphingomonas sp. Leaf412	Sphingomonas sp. Leaf10	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. Leaf412	Sphingomonas sp. Leaf28	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. Mn802worker	Leucobacter chironomi	0.814577667391	Mixed	#cccccc
+Sphingomonas sp. Mn802worker	Methylobacterium oryzae	0.814577667391	Anterior_nares	#8000ff
+Sphingomonas sp. Mn802worker	Ochrobactrum intermedium	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. Mn802worker	Pediococcus parvulus	1.0	Anterior_nares	#8000ff
+Sphingomonas sp. SRS2	Lactobacillus kunkeei	1.0	Mixed	#cccccc
+Sphingomonas sp. SRS2	Pseudomonas sp. PTA1	1.0	Anterior_nares	#8000ff
+Sphingopyxis macrogoltabida	Acinetobacter sp. CIP 101966	0.814577667391	Mixed	#cccccc
+Sphingopyxis macrogoltabida	Actinomyces europaeus	0.814577667391	Mixed	#cccccc
+Sphingopyxis macrogoltabida	Advenella kashmirensis	0.814577667391	Mixed	#cccccc
+Sphingopyxis macrogoltabida	Corynebacterium uterequi	0.814577667391	Mixed	#cccccc
+Sphingopyxis macrogoltabida	Elizabethkingia meningoseptica	0.814577667391	Mixed	#cccccc
+Sphingopyxis macrogoltabida	Enterobacter sp. K66-74	0.814577667391	Mixed	#cccccc
+Sphingopyxis macrogoltabida	Erwinia sp. SCU-B244	0.814577667391	Mixed	#cccccc
+Sphingopyxis macrogoltabida	Exiguobacterium sp. ZWU0009	0.814577667391	Mixed	#cccccc
+Sphingopyxis macrogoltabida	Hymenobacter sp. AT01-02	0.814577667391	Mixed	#cccccc
+Sphingopyxis macrogoltabida	Lactobacillus coleohominis	0.814577667391	Mixed	#cccccc
+Sphingopyxis macrogoltabida	Leuconostoc lactis	0.814577667391	Mixed	#cccccc
+Sphingopyxis macrogoltabida	Micavibrio aeruginosavorus	0.814577667391	Mixed	#cccccc
+Sphingopyxis macrogoltabida	Mobiluncus mulieris	0.814577667391	Mixed	#cccccc
+Sphingopyxis macrogoltabida	Paenirhodobacter enshiensis	0.814577667391	Mixed	#cccccc
+Sphingopyxis macrogoltabida	Phenylobacterium zucineum	0.814577667391	Mixed	#cccccc
+Sphingopyxis macrogoltabida	Pseudomonas frederiksbergensis	0.863980476719	Vaginal_introitus	#ff0000
+Sphingopyxis macrogoltabida	Rhizobium selenitireducens	0.814577667391	Mixed	#cccccc
+Sphingopyxis macrogoltabida	Sphingomonas sp. Ant20	0.814577667391	Mixed	#cccccc
+Sphingopyxis sp. H115	Pelomonas sp. Root1444	1.0	Mixed	#cccccc
+Sporosarcina koreensis	Chelatococcus sambhunathii	1.0	Anterior_nares	#8000ff
+Sporosarcina koreensis	Corynebacterium marinum	1.0	Anterior_nares	#8000ff
+Sporosarcina koreensis	Psychrobacter sp. G	1.0	Anterior_nares	#8000ff
+Staphylococcus agnetis	Gilliamella apicola	1.0	Mixed	#cccccc
+Staphylococcus chromogenes	Faecalitalea cylindroides	1.0	Mixed	#cccccc
+Staphylococcus chromogenes	Leuconostoc inhae	1.0	Mixed	#cccccc
+Staphylococcus chromogenes	Mangrovibacter sp. MFB070	1.0	Mixed	#cccccc
+Staphylococcus chromogenes	Slackia piriformis	1.0	Mixed	#cccccc
+Staphylococcus condimenti	Salinispora arenicola	1.0	Anterior_nares	#8000ff
+Staphylococcus intermedius	Arcobacter butzleri	0.863980476719	Mixed	#cccccc
+Staphylococcus intermedius	Bifidobacterium subtile	0.863980476719	Anterior_nares	#8000ff
+Staphylococcus intermedius	Brachymonas chironomi	1.0	Anterior_nares	#8000ff
+Staphylococcus intermedius	Desulfovibrio desulfuricans	0.863980476719	Mixed	#cccccc
+Staphylococcus intermedius	Hydrogenobacter thermophilus	0.814577667391	Anterior_nares	#8000ff
+Staphylococcus intermedius	Pseudomonas sp. 20_BN	0.814577667391	Mixed	#cccccc
+Staphylococcus lentus	Aureimonas sp. Leaf454	1.0	Anterior_nares	#8000ff
+Staphylococcus lentus	Clostridiales bacterium VE202-28	1.0	Mixed	#cccccc
+Staphylococcus lentus	Eubacterium sp. AB3007	1.0	Mixed	#cccccc
+Staphylococcus lentus	Novosphingobium sp. AP12	1.0	Anterior_nares	#8000ff
+Staphylococcus lentus	Salinicoccus luteus	1.0	Anterior_nares	#8000ff
+Staphylococcus schleiferi	Acinetobacter sp. NIPH 899	1.0	Mixed	#cccccc
+Staphylococcus schleiferi	Anoxybacillus tepidamans	1.0	Mixed	#cccccc
+Staphylococcus schleiferi	Bacillus velezensis	1.0	Mixed	#cccccc
+Staphylococcus schleiferi	Flavobacterium akiainvivens	1.0	Mixed	#cccccc
+Staphylococcus schleiferi	Fusobacterium sp. CM1	1.0	Mixed	#cccccc
+Staphylococcus sp. E463	Aureimonas sp. Leaf324	1.0	Anterior_nares	#8000ff
+Staphylococcus sp. E463	Clostridium baratii	0.814577667391	Mixed	#cccccc
+Staphylococcus sp. E463	Comamonas granuli	0.863980476719	Anterior_nares	#8000ff
+Staphylococcus sp. E463	Cronobacter dublinensis	0.814577667391	Anterior_nares	#8000ff
+Staphylococcus sp. E463	Cronobacter malonaticus	1.0	Anterior_nares	#8000ff
+Staphylococcus sp. E463	Cronobacter turicensis	0.814577667391	Anterior_nares	#8000ff
+Staphylococcus sp. E463	Cronobacter universalis	0.814577667391	Anterior_nares	#8000ff
+Staphylococcus sp. E463	Enterococcus mundtii	1.0	Anterior_nares	#8000ff
+Staphylococcus sp. E463	Epilithonimonas lactis	0.814577667391	Anterior_nares	#8000ff
+Staphylococcus sp. E463	Franconibacter pulveris	1.0	Anterior_nares	#8000ff
+Staphylococcus sp. E463	Leisingera sp. ANG-M1	0.814577667391	Mixed	#cccccc
+Staphylococcus sp. E463	Limnohabitans planktonicus	1.0	Anterior_nares	#8000ff
+Staphylococcus sp. E463	Limnohabitans sp. Rim28	0.863980476719	Mixed	#cccccc
+Staphylococcus sp. E463	Microcoleus vaginatus	1.0	Mixed	#cccccc
+Staphylococcus sp. E463	Mycobacterium sp. JS623	0.814577667391	Anterior_nares	#8000ff
+Staphylococcus sp. E463	Nocardioides alkalitolerans	1.0	Anterior_nares	#8000ff
+Staphylococcus sp. E463	Oscillatoria nigro-viridis	1.0	Mixed	#cccccc
+Staphylococcus sp. E463	Pantoea sp. MBLJ3	0.814577667391	Anterior_nares	#8000ff
+Staphylococcus sp. E463	Paracoccus sp. J55	0.814577667391	Anterior_nares	#8000ff
+Staphylococcus sp. E463	Pediococcus acidilactici	0.814577667391	Anterior_nares	#8000ff
+Staphylococcus sp. E463	Pseudomonas sp. TJI-51	1.0	Anterior_nares	#8000ff
+Staphylococcus sp. E463	Rhodococcus sp. R04	1.0	Anterior_nares	#8000ff
+Staphylococcus sp. E463	Solimonas variicoloris	1.0	Anterior_nares	#8000ff
+Staphylococcus sp. EGD-HP3	Arthrobacter sp. JCM 19049	0.910694833281	Anterior_nares	#8000ff
+Staphylococcus sp. EGD-HP3	Bifidobacterium kashiwanohense	1.0	Mixed	#cccccc
+Staphylococcus sp. EGD-HP3	Marvinbryantia formatexigens	0.892305178067	Mixed	#cccccc
+Staphylococcus sp. OJ82	Pseudomonas sp. CF149	1.0	Anterior_nares	#8000ff
+Staphylococcus sp. ZWU0021	Pseudomonas sp. CF149	1.0	Anterior_nares	#8000ff
+Staphylococcus sp. ZWU0021	Staphylococcus sp. OJ82	1.0	Anterior_nares	#8000ff
+Staphylococcus vitulinus	Acinetobacter pittii	0.814577667391	Mixed	#cccccc
+Staphylococcus vitulinus	Chryseobacterium sp. UNC8MFCol	1.0	Anterior_nares	#8000ff
+Staphylococcus vitulinus	Helcococcus sueciensis	1.0	Mixed	#cccccc
+Staphylococcus vitulinus	Lactobacillus vini	1.0	Anterior_nares	#8000ff
+Staphylococcus vitulinus	Leifsonia aquatica	1.0	Anterior_nares	#8000ff
+Staphylococcus vitulinus	Megasphaera sp. UPII 135-E	1.0	Mixed	#cccccc
+Staphylococcus vitulinus	Methylobacillus glycogenes	1.0	Mixed	#cccccc
+Staphylococcus vitulinus	Oceanobacillus massiliensis	1.0	Anterior_nares	#8000ff
+Stenotrophomonas chelatiphaga	Actinomyces sp. oral taxon 180	0.814577667391	Mixed	#cccccc
+Stenotrophomonas chelatiphaga	Deinococcus gobiensis	0.814577667391	Anterior_nares	#8000ff
+Stenotrophomonas chelatiphaga	Deinococcus sp. Leaf326	1.0	Anterior_nares	#8000ff
+Stenotrophomonas chelatiphaga	Fusobacterium russii	1.0	Mixed	#cccccc
+Stenotrophomonas chelatiphaga	Lactobacillus fuchuensis	0.814577667391	Anterior_nares	#8000ff
+Stenotrophomonas chelatiphaga	Methylobacterium sp. EUR3 AL-11	0.814577667391	Anterior_nares	#8000ff
+Stenotrophomonas chelatiphaga	Microbacterium maritypicum	0.814577667391	Anterior_nares	#8000ff
+Stenotrophomonas chelatiphaga	Microbacterium sp. Leaf151	0.814577667391	Anterior_nares	#8000ff
+Stenotrophomonas chelatiphaga	Microbacterium sp. Root280D1	0.814577667391	Anterior_nares	#8000ff
+Stenotrophomonas chelatiphaga	Pseudomonas lutea	0.814577667391	Anterior_nares	#8000ff
+Stenotrophomonas chelatiphaga	Sphingomonas sp. Leaf10	0.814577667391	Anterior_nares	#8000ff
+Stenotrophomonas chelatiphaga	Sphingomonas sp. Leaf28	0.814577667391	Anterior_nares	#8000ff
+Stenotrophomonas chelatiphaga	Sphingomonas sp. Leaf412	0.814577667391	Anterior_nares	#8000ff
+Streptococcus infantarius	Leucobacter chironomi	0.814577667391	Mixed	#cccccc
+Streptococcus infantarius	Methylobacterium oryzae	0.814577667391	Anterior_nares	#8000ff
+Streptococcus infantarius	Ochrobactrum intermedium	1.0	Anterior_nares	#8000ff
+Streptococcus infantarius	Pediococcus parvulus	1.0	Anterior_nares	#8000ff
+Streptococcus infantarius	Sphingomonas sp. Mn802worker	1.0	Anterior_nares	#8000ff
+Streptococcus lutetiensis	Aureimonas sp. Leaf454	1.0	Anterior_nares	#8000ff
+Streptococcus lutetiensis	Clostridiales bacterium VE202-28	1.0	Mixed	#cccccc
+Streptococcus lutetiensis	Eubacterium sp. AB3007	1.0	Mixed	#cccccc
+Streptococcus lutetiensis	Novosphingobium sp. AP12	1.0	Anterior_nares	#8000ff
+Streptococcus lutetiensis	Salinicoccus luteus	1.0	Anterior_nares	#8000ff
+Streptococcus lutetiensis	Staphylococcus lentus	1.0	Anterior_nares	#8000ff
+Streptococcus pyogenes	Neisseria weaveri	1.0	Mixed	#cccccc
+Streptococcus sp. 2_1_36FAA	Bacillus coagulans	0.814577667391	Mixed	#cccccc
+Streptococcus sp. AS20	Prevotella sp. P5-60	0.814577667391	Attached	#622ffe
+Streptococcus sp. CM6	Selenomonas sp. FOBRC9	1.0	Attached	#622ffe
+Streptococcus sp. CM7	Flavobacterium sp. Root420	1.0	Mixed	#cccccc
+Streptococcus sp. F0441	Actinomyces sp. oral taxon 180	0.863980476719	Mixed	#cccccc
+Streptococcus sp. F0441	Deinococcus gobiensis	0.863980476719	Mixed	#cccccc
+Streptococcus sp. F0441	Lactobacillus fuchuensis	0.863980476719	Mixed	#cccccc
+Streptococcus sp. F0441	Methylobacterium sp. EUR3 AL-11	0.863980476719	Mixed	#cccccc
+Streptococcus sp. F0441	Microbacterium maritypicum	0.863980476719	Mixed	#cccccc
+Streptococcus sp. F0441	Microbacterium sp. Leaf151	0.863980476719	Mixed	#cccccc
+Streptococcus sp. F0441	Microbacterium sp. Root280D1	0.863980476719	Mixed	#cccccc
+Streptococcus sp. F0441	Pseudomonas lutea	0.863980476719	Mixed	#cccccc
+Streptococcus sp. F0441	Sphingomonas sp. Leaf10	0.863980476719	Mixed	#cccccc
+Streptococcus sp. F0441	Sphingomonas sp. Leaf28	0.863980476719	Mixed	#cccccc
+Streptococcus sp. F0441	Sphingomonas sp. Leaf412	0.863980476719	Mixed	#cccccc
+Streptococcus sp. HSISS3	Bacillus amyloliquefaciens	1.0	Mixed	#cccccc
+Streptococcus sp. HSISS3	Bosea sp. Root483D1	1.0	Mixed	#cccccc
+Streptococcus sp. HSISS3	Brachybacterium faecium	1.0	Mixed	#cccccc
+Streptococcus sp. HSISS3	Carnobacterium sp. ZWU0011	1.0	Mixed	#cccccc
+Streptococcus sp. HSISS3	Flavobacterium subsaxonicum	1.0	Mixed	#cccccc
+Streptococcus sp. oral taxon 056	[Clostridium] citroniae	1.0	Mixed	#cccccc
+Streptococcus sp. oral taxon 056	Sphingomonas sp. Leaf30	1.0	Mixed	#cccccc
+Streptococcus sp. SK140	Gemella cuniculi	1.0	Mixed	#cccccc
+Streptococcus sp. SK140	Oceanobacillus kimchii	1.0	Mixed	#cccccc
+Streptococcus sp. SK140	Pseudopedobacter saltans	1.0	Mixed	#cccccc
+Streptococcus sp. SR4	Gemella cuniculi	1.0	Mixed	#cccccc
+Streptococcus sp. SR4	Oceanobacillus kimchii	1.0	Mixed	#cccccc
+Streptococcus sp. SR4	Pseudopedobacter saltans	1.0	Mixed	#cccccc
+Streptococcus sp. SR4	Streptococcus sp. SK140	1.0	Mixed	#cccccc
+Streptococcus urinalis	Citrobacter freundii	0.814577667391	Mixed	#cccccc
+Streptococcus urinalis	Rheinheimera sp. A13L	0.814577667391	Mixed	#cccccc
+Streptomyces bottropensis	Archangium gephyra	1.0	Anterior_nares	#8000ff
+Streptomyces bottropensis	Bdellovibrio bacteriovorus	1.0	Anterior_nares	#8000ff
+Streptomyces bottropensis	Hymenobacter sp. MIMtkLc17	1.0	Mixed	#cccccc
+Streptomyces bottropensis	Sphingomonas sp. Leaf339	1.0	Anterior_nares	#8000ff
+Streptomyces sp. NRRL F-5630	Arthrobacter sp. H14	1.0	Anterior_nares	#8000ff
+Streptomyces sp. NRRL F-5630	Bordetella petrii	1.0	Anterior_nares	#8000ff
+Streptomyces sp. NRRL F-5630	Curtobacterium luteum	1.0	Anterior_nares	#8000ff
+Streptomyces sp. NRRL F-5630	Dysgonomonas mossii	1.0	Mixed	#cccccc
+Streptomyces sp. NRRL F-5630	Frigoribacterium sp. RIT-PI-h	1.0	Anterior_nares	#8000ff
+Streptomyces sp. NRRL F-5630	Lactobacillus aviarius	1.0	Anterior_nares	#8000ff
+Streptomyces sp. NRRL F-5630	Leadbetterella byssophila	1.0	Anterior_nares	#8000ff
+Streptomyces sp. NRRL F-5630	Mesorhizobium metallidurans	1.0	Anterior_nares	#8000ff
+Streptomyces sp. NRRL F-5630	Microbacterium enclense	1.0	Anterior_nares	#8000ff
+Streptomyces sp. NRRL F-5630	Pedobacter heparinus	1.0	Anterior_nares	#8000ff
+Synechococcus sp. BL107	Limnohabitans sp. 103DPR2	1.0	Mixed	#cccccc
+Tannerella sp. 6_1_58FAA_CT1	Coprobacter fastidiosus	0.863980476719	Stool	#ded579
+Tessaracoccus sp. SIT7	Aerococcus urinae	1.0	Anterior_nares	#8000ff
+Tessaracoccus sp. SIT7	Aeromonas rivuli	1.0	Anterior_nares	#8000ff
+Tessaracoccus sp. SIT7	Bacillus smithii	1.0	Mixed	#cccccc
+Tessaracoccus sp. SIT7	Flavobacterium indicum	1.0	Anterior_nares	#8000ff
+Tessaracoccus sp. SIT7	Flavobacterium sasangense	1.0	Mixed	#cccccc
+Tessaracoccus sp. SIT7	Frigoribacterium sp. Leaf8	1.0	Anterior_nares	#8000ff
+Tessaracoccus sp. SIT7	Gemmata obscuriglobus	1.0	Anterior_nares	#8000ff
+Tessaracoccus sp. SIT7	Kandleria vitulina	1.0	Mixed	#cccccc
+Tessaracoccus sp. SIT7	Lysobacter defluvii	1.0	Anterior_nares	#8000ff
+Tessaracoccus sp. SIT7	Mycobacterium aromaticivorans	1.0	Anterior_nares	#8000ff
+Tessaracoccus sp. SIT7	Novosphingobium sp. Leaf2	1.0	Anterior_nares	#8000ff
+Tessaracoccus sp. SIT7	Paenibacillus pasadenensis	1.0	Anterior_nares	#8000ff
+Tessaracoccus sp. SIT7	Paracoccus sp. MKU1	1.0	Mixed	#cccccc
+Tessaracoccus sp. SIT7	Runella zeae	1.0	Anterior_nares	#8000ff
+Tessaracoccus sp. SIT7	Shewanella decolorationis	1.0	Anterior_nares	#8000ff
+Tessaracoccus sp. SIT7	Shewanella sp. HN-41	1.0	Anterior_nares	#8000ff
+Tessaracoccus sp. SIT7	Sinorhizobium sp. GL2	1.0	Anterior_nares	#8000ff
+Tetragenococcus muriaticus	Lactobacillus kunkeei	1.0	Mixed	#cccccc
+Tetragenococcus muriaticus	Pseudomonas sp. PTA1	1.0	Anterior_nares	#8000ff
+Tetragenococcus muriaticus	Sphingomonas sp. SRS2	1.0	Anterior_nares	#8000ff
+Thauera sp. SWB20	Acinetobacter radioresistens	1.0	Mixed	#cccccc
+Thauera sp. SWB20	Anaerofustis stercorihominis	1.0	Mixed	#cccccc
+Thauera sp. SWB20	Bacteroidaceae bacterium MS4	1.0	Mixed	#cccccc
+Thauera sp. SWB20	Riemerella anatipestifer	1.0	Mixed	#cccccc
+Thauera sp. SWB20	Sphingobacterium sp. ML3W	1.0	Anterior_nares	#8000ff
+Thermanaerovibrio acidaminovorans	Caldimonas manganoxidans	1.0	Mixed	#cccccc
+Thermanaerovibrio acidaminovorans	Clostridiales bacterium SIT13	1.0	Mixed	#cccccc
+Thermanaerovibrio acidaminovorans	Dorea sp. AGR2135	1.0	Mixed	#cccccc
+Thermoactinomyces daqus	Acinetobacter sp. CIP 101966	1.0	Mixed	#cccccc
+Thermoactinomyces daqus	Actinomyces europaeus	1.0	Anterior_nares	#8000ff
+Thermoactinomyces daqus	Advenella kashmirensis	1.0	Anterior_nares	#8000ff
+Thermoactinomyces daqus	Cellulomonas flavigena	0.814577667391	Mixed	#cccccc
+Thermoactinomyces daqus	Chryseobacterium sp. FF12	0.814577667391	Mixed	#cccccc
+Thermoactinomyces daqus	Corynebacterium uterequi	1.0	Anterior_nares	#8000ff
+Thermoactinomyces daqus	Elizabethkingia meningoseptica	1.0	Mixed	#cccccc
+Thermoactinomyces daqus	Enterobacter sp. K66-74	1.0	Anterior_nares	#8000ff
+Thermoactinomyces daqus	Erwinia sp. SCU-B244	1.0	Anterior_nares	#8000ff
+Thermoactinomyces daqus	Exiguobacterium sp. ZWU0009	1.0	Anterior_nares	#8000ff
+Thermoactinomyces daqus	Hymenobacter sp. AT01-02	1.0	Mixed	#cccccc
+Thermoactinomyces daqus	Lactobacillus coleohominis	1.0	Mixed	#cccccc
+Thermoactinomyces daqus	Leuconostoc lactis	1.0	Anterior_nares	#8000ff
+Thermoactinomyces daqus	Micavibrio aeruginosavorus	1.0	Anterior_nares	#8000ff
+Thermoactinomyces daqus	Microbacterium sp. Ag1	0.814577667391	Mixed	#cccccc
+Thermoactinomyces daqus	Mobiluncus mulieris	1.0	Mixed	#cccccc
+Thermoactinomyces daqus	Niveispirillum irakense	0.814577667391	Anterior_nares	#8000ff
+Thermoactinomyces daqus	Ochrobactrum anthropi	0.814577667391	Mixed	#cccccc
+Thermoactinomyces daqus	Paenirhodobacter enshiensis	1.0	Anterior_nares	#8000ff
+Thermoactinomyces daqus	Phenylobacterium zucineum	1.0	Mixed	#cccccc
+Thermoactinomyces daqus	Prevotella sp. S7 MS 2	0.814577667391	Mixed	#cccccc
+Thermoactinomyces daqus	Rhizobium selenitireducens	1.0	Anterior_nares	#8000ff
+Thermoactinomyces daqus	Serinicoccus profundi	0.814577667391	Mixed	#cccccc
+Thermoactinomyces daqus	Sphingomonas sp. Ant20	1.0	Anterior_nares	#8000ff
+Thermoactinomyces daqus	Sphingopyxis macrogoltabida	0.814577667391	Mixed	#cccccc
+Thermobispora bispora	Caldilinea aerophila	1.0	Anterior_nares	#8000ff
+Thermobispora bispora	Megasphaera elsdenii	1.0	Mixed	#cccccc
+Thermobispora bispora	Mycobacterium tuberculosis	1.0	Mixed	#cccccc
+Thermobispora bispora	Slackia exigua	1.0	Mixed	#cccccc
+Thermocrinis ruber	Actinobaculum suis	0.814577667391	Mixed	#cccccc
+Thermocrinis ruber	Brachymonas chironomi	0.814577667391	Mixed	#cccccc
+Thermocrinis ruber	Staphylococcus intermedius	0.814577667391	Mixed	#cccccc
+Thermomonas fusca	Phyllobacterium sp. UNC302MFCol5.2	1.0	Anterior_nares	#8000ff
+Thermomonas fusca	Pseudomonas sp. NBRC 111133	1.0	Anterior_nares	#8000ff
+Thermosinus carboxydivorans	Flavobacterium sp. Root420	1.0	Anterior_nares	#8000ff
+Thermosinus carboxydivorans	Streptococcus sp. CM7	1.0	Mixed	#cccccc
+Timonella senegalensis	Belnapia sp. F-4-1	1.0	Mixed	#cccccc
+Timonella senegalensis	Cellulomonas sp. Leaf334	1.0	Anterior_nares	#8000ff
+Timonella senegalensis	Cystobacter fuscus	1.0	Anterior_nares	#8000ff
+Timonella senegalensis	Cystobacter violaceus	1.0	Anterior_nares	#8000ff
+Timonella senegalensis	Deinococcus radiodurans	1.0	Mixed	#cccccc
+Timonella senegalensis	Demetria terragena	1.0	Anterior_nares	#8000ff
+Timonella senegalensis	Geodermatophilaceae bacterium URHB0048	1.0	Anterior_nares	#8000ff
+Timonella senegalensis	Nocardioides sp. JS614	1.0	Anterior_nares	#8000ff
+Timonella senegalensis	Nocardioides sp. Soil805	1.0	Anterior_nares	#8000ff
+Timonella senegalensis	Rhodococcus sp. Leaf247	1.0	Mixed	#cccccc
+Timonella senegalensis	Rubrobacter aplysinae	1.0	Anterior_nares	#8000ff
+Timonella senegalensis	Sorangium cellulosum	1.0	Anterior_nares	#8000ff
+Treponema endosymbiont of Eucomonympha sp.	Microbacterium sp. Root553	0.814577667391	Mixed	#cccccc
+Treponema pedis	Actinomyces sp. oral taxon 180	1.0	Mixed	#cccccc
+Treponema pedis	Deinococcus gobiensis	1.0	Mixed	#cccccc
+Treponema pedis	Deinococcus sp. Leaf326	0.814577667391	Mixed	#cccccc
+Treponema pedis	Fusobacterium russii	0.814577667391	Mixed	#cccccc
+Treponema pedis	Kordiimonas gwangyangensis	0.863980476719	Mixed	#cccccc
+Treponema pedis	Lactobacillus fuchuensis	1.0	Mixed	#cccccc
+Treponema pedis	Methylobacterium sp. EUR3 AL-11	1.0	Mixed	#cccccc
+Treponema pedis	Methylobacterium sp. GXS13	0.814577667391	Mixed	#cccccc
+Treponema pedis	Microbacterium maritypicum	1.0	Mixed	#cccccc
+Treponema pedis	Microbacterium sp. Leaf151	1.0	Mixed	#cccccc
+Treponema pedis	Microbacterium sp. Root280D1	1.0	Mixed	#cccccc
+Treponema pedis	Mycobacterium mageritense	0.863980476719	Mixed	#cccccc
+Treponema pedis	Neisseria shayeganii	0.814577667391	Mixed	#cccccc
+Treponema pedis	Nitrospira defluvii	0.814577667391	Mixed	#cccccc
+Treponema pedis	Ornithinimicrobium pekingense	0.863980476719	Mixed	#cccccc
+Treponema pedis	Porphyromonas gingivicanis	0.863980476719	Mixed	#cccccc
+Treponema pedis	Porphyromonas sp. COT-239 OH1446	0.863980476719	Mixed	#cccccc
+Treponema pedis	Pseudomonas lutea	1.0	Mixed	#cccccc
+Treponema pedis	Sphingobium sp. ba1	0.863980476719	Mixed	#cccccc
+Treponema pedis	Sphingomonas sanguinis	0.814577667391	Mixed	#cccccc
+Treponema pedis	Sphingomonas sp. Leaf10	1.0	Mixed	#cccccc
+Treponema pedis	Sphingomonas sp. Leaf28	1.0	Mixed	#cccccc
+Treponema pedis	Sphingomonas sp. Leaf412	1.0	Mixed	#cccccc
+Treponema pedis	Stenotrophomonas chelatiphaga	0.814577667391	Mixed	#cccccc
+Treponema pedis	Streptococcus sp. F0441	0.863980476719	Mixed	#cccccc
+Tuberibacillus calidus	Actinobacillus pleuropneumoniae	1.0	Mixed	#cccccc
+Tuberibacillus calidus	Chryseobacterium hispalense	1.0	Mixed	#cccccc
+Ureaplasma parvum	Mastigocladus laminosus	1.0	Mixed	#cccccc
+Veillonella seminalis	Acetobacter syzygii	1.0	Mixed	#cccccc
+Veillonella seminalis	Collinsella sp. MS5	1.0	Mixed	#cccccc
+Veillonella seminalis	Gluconobacter frateurii	1.0	Mixed	#cccccc
+Veillonella seminalis	Kineosporia aurantiaca	1.0	Mixed	#cccccc
+Veillonella seminalis	Novosphingobium lindaniclasticum	1.0	Mixed	#cccccc
+Veillonella seminalis	Planomicrobium sp. ES2	1.0	Mixed	#cccccc
+Vibrio cholerae	Polaromonas sp. JS666	0.814577667391	Mixed	#cccccc
+Weeksella sp. FF8	Aminobacter sp. Root100	1.0	Anterior_nares	#8000ff
+Weeksella sp. FF8	Chryseobacterium sp. Hurlbut01	1.0	Mixed	#cccccc
+Weeksella sp. FF8	Dyadobacter sp. Leaf189	1.0	Anterior_nares	#8000ff
+Weeksella sp. FF8	Epilithonimonas sp. FH1	1.0	Mixed	#cccccc
+Weeksella sp. FF8	Janthinobacterium sp. CG3	1.0	Anterior_nares	#8000ff
+Weeksella sp. FF8	Moritella dasanensis	1.0	Anterior_nares	#8000ff
+Weeksella sp. FF8	Shewanella putrefaciens	1.0	Mixed	#cccccc
+Williamsia sp. Leaf354	Aerococcus urinae	1.0	Anterior_nares	#8000ff
+Williamsia sp. Leaf354	Aeromonas rivuli	1.0	Anterior_nares	#8000ff
+Williamsia sp. Leaf354	Bacillus smithii	1.0	Mixed	#cccccc
+Williamsia sp. Leaf354	Flavobacterium indicum	1.0	Anterior_nares	#8000ff
+Williamsia sp. Leaf354	Flavobacterium sasangense	1.0	Mixed	#cccccc
+Williamsia sp. Leaf354	Frigoribacterium sp. Leaf8	1.0	Anterior_nares	#8000ff
+Williamsia sp. Leaf354	Gemmata obscuriglobus	1.0	Anterior_nares	#8000ff
+Williamsia sp. Leaf354	Kandleria vitulina	1.0	Mixed	#cccccc
+Williamsia sp. Leaf354	Lysobacter defluvii	1.0	Anterior_nares	#8000ff
+Williamsia sp. Leaf354	Mycobacterium aromaticivorans	1.0	Anterior_nares	#8000ff
+Williamsia sp. Leaf354	Novosphingobium sp. Leaf2	1.0	Anterior_nares	#8000ff
+Williamsia sp. Leaf354	Paenibacillus pasadenensis	1.0	Anterior_nares	#8000ff
+Williamsia sp. Leaf354	Paracoccus sp. MKU1	1.0	Mixed	#cccccc
+Williamsia sp. Leaf354	Runella zeae	1.0	Anterior_nares	#8000ff
+Williamsia sp. Leaf354	Shewanella decolorationis	1.0	Anterior_nares	#8000ff
+Williamsia sp. Leaf354	Shewanella sp. HN-41	1.0	Anterior_nares	#8000ff
+Williamsia sp. Leaf354	Sinorhizobium sp. GL2	1.0	Anterior_nares	#8000ff
+Williamsia sp. Leaf354	Tessaracoccus sp. SIT7	1.0	Anterior_nares	#8000ff
+Xanthobacter autotrophicus	Aureimonas sp. Leaf324	1.0	Anterior_nares	#8000ff
+Xanthobacter autotrophicus	Clostridium baratii	0.814577667391	Mixed	#cccccc
+Xanthobacter autotrophicus	Comamonas granuli	0.863980476719	Anterior_nares	#8000ff
+Xanthobacter autotrophicus	Cronobacter dublinensis	0.814577667391	Anterior_nares	#8000ff
+Xanthobacter autotrophicus	Cronobacter malonaticus	1.0	Anterior_nares	#8000ff
+Xanthobacter autotrophicus	Cronobacter turicensis	0.814577667391	Anterior_nares	#8000ff
+Xanthobacter autotrophicus	Cronobacter universalis	0.814577667391	Anterior_nares	#8000ff
+Xanthobacter autotrophicus	Enterococcus mundtii	1.0	Anterior_nares	#8000ff
+Xanthobacter autotrophicus	Epilithonimonas lactis	0.814577667391	Anterior_nares	#8000ff
+Xanthobacter autotrophicus	Franconibacter pulveris	1.0	Anterior_nares	#8000ff
+Xanthobacter autotrophicus	Leisingera sp. ANG-M1	0.814577667391	Mixed	#cccccc
+Xanthobacter autotrophicus	Limnohabitans planktonicus	1.0	Anterior_nares	#8000ff
+Xanthobacter autotrophicus	Limnohabitans sp. Rim28	0.863980476719	Mixed	#cccccc
+Xanthobacter autotrophicus	Microcoleus vaginatus	1.0	Mixed	#cccccc
+Xanthobacter autotrophicus	Mycobacterium sp. JS623	0.814577667391	Anterior_nares	#8000ff
+Xanthobacter autotrophicus	Nocardioides alkalitolerans	1.0	Anterior_nares	#8000ff
+Xanthobacter autotrophicus	Oscillatoria nigro-viridis	1.0	Mixed	#cccccc
+Xanthobacter autotrophicus	Pantoea sp. MBLJ3	0.814577667391	Anterior_nares	#8000ff
+Xanthobacter autotrophicus	Paracoccus sp. J55	0.814577667391	Anterior_nares	#8000ff
+Xanthobacter autotrophicus	Pediococcus acidilactici	0.814577667391	Anterior_nares	#8000ff
+Xanthobacter autotrophicus	Pseudomonas sp. TJI-51	1.0	Anterior_nares	#8000ff
+Xanthobacter autotrophicus	Rhodococcus sp. R04	1.0	Anterior_nares	#8000ff
+Xanthobacter autotrophicus	Solimonas variicoloris	1.0	Anterior_nares	#8000ff
+Xanthobacter autotrophicus	Staphylococcus sp. E463	1.0	Anterior_nares	#8000ff
+Xanthomonas albilineans	Phyllobacterium sp. UNC302MFCol5.2	1.0	Anterior_nares	#8000ff
+Xanthomonas albilineans	Pseudomonas sp. NBRC 111133	1.0	Anterior_nares	#8000ff
+Xanthomonas albilineans	Thermomonas fusca	1.0	Anterior_nares	#8000ff
+Xanthomonas sp. Mitacek01	Intrasporangium oryzae	1.0	Mixed	#cccccc

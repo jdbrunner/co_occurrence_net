@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  14 AUG 2017 11:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  15 AUG 2017 10:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -892,24 +892,22 @@ Package xypdf Info: Line width: 0.39998pt on input line 160.
 (./code_docs-32.cpt) (./code_docs-33.cpt) (./code_docs-34.cpt)
 (./code_docs-35.cpt) (./code_docs-36.cpt) (./code_docs-37.cpt)
 (./code_docs-38.cpt) (./code_docs-39.cpt) (./code_docs-40.cpt)
-(./code_docs-41.cpt) (./code_docs-42.cpt) (./code_docs-43.cpt) [1
+(./code_docs-41.cpt) (./code_docs-42.cpt) [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./code
-_docs-44.cpt)
+_docs-43.cpt) (./code_docs-44.cpt)
 (./code_docs-45.cpt) (./code_docs-46.cpt) (./code_docs-47.cpt)
-(./code_docs-48.cpt) (./code_docs-49.cpt) (./code_docs-50.cpt)
-(./code_docs-51.cpt) (./code_docs-52.cpt) (./code_docs-53.cpt)
-(./code_docs-54.cpt) (./code_docs-55.cpt))
+(./code_docs-48.cpt) (./code_docs-49.cpt) (./code_docs-50.cpt))
 \tf@toc=\write6
 \openout6 = `code_docs.toc'.
 
 \openout5 = `code_docs-1.cpt'.
 
- (./code_docs-1.cpt)
+
+(./code_docs-1.cpt)
 \openout5 = `code_docs-2.cpt'.
 
-
-(./code_docs-2.cpt)
+ (./code_docs-2.cpt)
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 171.
 
 
@@ -922,7 +920,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 
 
 (./code_docs-3.cpt)
-Overfull \hbox (4.38982pt too wide) in paragraph at lines 181--182
+Overfull \hbox (4.38982pt too wide) in paragraph at lines 195--196
 []\OT1/cmr/m/n/10 Output: count of in-dices $\OML/cmm/m/it/10 i$ \OT1/cmr/m/n/1
 0 such that such that $\OML/cmm/m/it/10 r\OT1/cmr/m/n/10 1(\OML/cmm/m/it/10 i\O
 T1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 2 \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 lbd[]; ubd
@@ -947,119 +945,126 @@ t/10 ; ::; numthresh$\OT1/cmr/m/n/10 .
 (./code_docs-7.cpt)
 \openout5 = `code_docs-8.cpt'.
 
- (./code_docs-8.cpt)
+ (./code_docs-8.cpt) [3]
 \openout5 = `code_docs-9.cpt'.
 
  (./code_docs-9.cpt)
 \openout5 = `code_docs-10.cpt'.
 
- (./code_docs-10.cpt)
+
+(./code_docs-10.cpt)
 \openout5 = `code_docs-11.cpt'.
 
- (./code_docs-11.cpt)
+ (./code_docs-11.cpt) [4]
 \openout5 = `code_docs-12.cpt'.
 
- (./code_docs-12.cpt) [3]
+ (./code_docs-12.cpt)
 \openout5 = `code_docs-13.cpt'.
 
- (./code_docs-13.cpt)
+
+(./code_docs-13.cpt)
 \openout5 = `code_docs-14.cpt'.
 
-
-(./code_docs-14.cpt)
+ (./code_docs-14.cpt) [5]
 \openout5 = `code_docs-15.cpt'.
 
  (./code_docs-15.cpt)
 \openout5 = `code_docs-16.cpt'.
 
- (./code_docs-16.cpt)
+
+(./code_docs-16.cpt)
 \openout5 = `code_docs-17.cpt'.
 
-
-(./code_docs-17.cpt)
+ (./code_docs-17.cpt) [6]
 \openout5 = `code_docs-18.cpt'.
 
  (./code_docs-18.cpt)
 \openout5 = `code_docs-19.cpt'.
 
- (./code_docs-19.cpt)
+
+(./code_docs-19.cpt)
 \openout5 = `code_docs-20.cpt'.
 
-
-(./code_docs-20.cpt) [4]
+ (./code_docs-20.cpt)
 \openout5 = `code_docs-21.cpt'.
 
- (./code_docs-21.cpt)
+ (./code_docs-21.cpt) [7]
 \openout5 = `code_docs-22.cpt'.
 
- (./code_docs-22.cpt)
+
+(./code_docs-22.cpt)
 \openout5 = `code_docs-23.cpt'.
 
-
-(./code_docs-23.cpt)
+ (./code_docs-23.cpt)
 \openout5 = `code_docs-24.cpt'.
 
- (./code_docs-24.cpt)
+ (./code_docs-24.cpt) [8]
 \openout5 = `code_docs-25.cpt'.
 
- (./code_docs-25.cpt)
+
+(./code_docs-25.cpt)
 \openout5 = `code_docs-26.cpt'.
 
-
-(./code_docs-26.cpt)
+ (./code_docs-26.cpt)
 \openout5 = `code_docs-27.cpt'.
 
  (./code_docs-27.cpt)
 \openout5 = `code_docs-28.cpt'.
 
- (./code_docs-28.cpt) [5]
+
+(./code_docs-28.cpt) [9]
 \openout5 = `code_docs-29.cpt'.
 
-
-(./code_docs-29.cpt)
+ (./code_docs-29.cpt)
 \openout5 = `code_docs-30.cpt'.
 
  (./code_docs-30.cpt)
 \openout5 = `code_docs-31.cpt'.
 
- (./code_docs-31.cpt)
+
+(./code_docs-31.cpt) [10]
 \openout5 = `code_docs-32.cpt'.
 
-
-(./code_docs-32.cpt)
+ (./code_docs-32.cpt)
 \openout5 = `code_docs-33.cpt'.
 
  (./code_docs-33.cpt)
 \openout5 = `code_docs-34.cpt'.
 
- (./code_docs-34.cpt)
+
+(./code_docs-34.cpt) [11]
 \openout5 = `code_docs-35.cpt'.
 
-
-(./code_docs-35.cpt)
+ (./code_docs-35.cpt)
 \openout5 = `code_docs-36.cpt'.
 
- (./code_docs-36.cpt) [6]
+ (./code_docs-36.cpt)
 \openout5 = `code_docs-37.cpt'.
 
- (./code_docs-37.cpt)
+
+(./code_docs-37.cpt)
 \openout5 = `code_docs-38.cpt'.
 
-
-(./code_docs-38.cpt)
+ (./code_docs-38.cpt) [12]
 \openout5 = `code_docs-39.cpt'.
 
  (./code_docs-39.cpt)
 \openout5 = `code_docs-40.cpt'.
 
- (./code_docs-40.cpt)
+
+(./code_docs-40.cpt)
+Overfull \hbox (13.48912pt too wide) in paragraph at lines 823--824
+\OT1/cmr/m/n/10 umn with taxa names headed ``TAXA". The re-main-ing columns sho
+uld be of the form ``[][]\OT1/cmtt/m/n/10 Body_Part_gender_LLL#######[]\OT1/cmr
+/m/n/10 "
+ []
+
 \openout5 = `code_docs-41.cpt'.
 
-
-(./code_docs-41.cpt)
+(./code_docs-41.cpt) [13]
 \openout5 = `code_docs-42.cpt'.
 
- (./code_docs-42.cpt)
+ (./code_docs-42.cpt) [14]
 \openout5 = `code_docs-43.cpt'.
 
  (./code_docs-43.cpt)
@@ -1072,7 +1077,7 @@ t/10 ; ::; numthresh$\OT1/cmr/m/n/10 .
  (./code_docs-45.cpt)
 \openout5 = `code_docs-46.cpt'.
 
- (./code_docs-46.cpt)
+ (./code_docs-46.cpt) [15]
 \openout5 = `code_docs-47.cpt'.
 
 
@@ -1086,50 +1091,41 @@ t/10 ; ::; numthresh$\OT1/cmr/m/n/10 .
 \openout5 = `code_docs-50.cpt'.
 
 
-(./code_docs-50.cpt)
-\openout5 = `code_docs-51.cpt'.
-
- (./code_docs-51.cpt)
-\openout5 = `code_docs-52.cpt'.
-
- (./code_docs-52.cpt)
-\openout5 = `code_docs-53.cpt'.
-
-
-(./code_docs-53.cpt)
-\openout5 = `code_docs-54.cpt'.
-
- (./code_docs-54.cpt)
-\openout5 = `code_docs-55.cpt'.
-
- (./code_docs-55.cpt) (./code_docs.bbl
-
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
-
-) [7] [8] (./code_docs.aux) ) 
+(./code_docs-50.cpt) (./code_docs.bbl [16]
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ¼ in font cmr10!
+) [17] (./code_docs.aux) ) 
 Here is how much of TeX's memory you used:
- 20147 strings out of 492995
- 369653 string characters out of 6132704
+ 20129 strings out of 492995
+ 369320 string characters out of 6132704
  477744 words of memory out of 5000000
- 23005 multiletter control sequences out of 15000+600000
- 18369 words of font info for 73 fonts, out of 8000000 for 9000
+ 23010 multiletter control sequences out of 15000+600000
+ 19413 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,11n,67p,3236b,273s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2017/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr17.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmtt10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmtt12.pfb>
-Output written on code_docs.pdf (8 pages, 111767 bytes).
+ 55i,12n,67p,3236b,327s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2017/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmmi5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmib10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfon
+ts/cmextra/cmmib7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr17.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+y7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
+0.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10
+.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.
+pfb>
+Output written on code_docs.pdf (17 pages, 238300 bytes).
 PDF statistics:
- 74 PDF objects out of 1000 (max. 8388607)
- 53 compressed objects within 1 object stream
+ 134 PDF objects out of 1000 (max. 8388607)
+ 96 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
