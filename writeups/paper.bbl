@@ -1,0 +1,69 @@
+\begin{thebibliography}{10}
+
+\bibitem{PhysRevE.70.066111}
+Aaron Clauset, M.~E.~J. Newman, and Cristopher Moore.
+\newblock Finding community structure in very large networks.
+\newblock {\em Phys. Rev. E}, 70:066111, Dec 2004.
+
+\bibitem{mic_int}
+Karoline Faust and Jeroen Raes.
+\newblock Microbial interactions: from networks to models.
+\newblock {\em Nature Reviews Microbiology}, 10:538--550, 2012.
+
+\bibitem{gottcha}
+Tracey Allen~K. Freitas, Po-E Li, Matthew~B. Scholz, and Patrick~S.G. Chain.
+\newblock Accurate read-based metagenome characterization using a hierarchical
+  suite of unique signatures.
+\newblock {\em Nucleic Acids Research}, 43(10), 2015.
+
+\bibitem{gut}
+Lianshuo Li, Zicheng Wang, Peng He, Shining Ma, Jie Du, and Rui Jiang.
+\newblock Construction and analysis of functional networks in the gut
+  microbiome of type 2 diabetes patients.
+\newblock {\em Genomics Proteomics Bioinformatics}, 14:314 -- 324, 2016.
+
+\bibitem{edge}
+Po-E Li, Chien-Chi Lo, Joseph~J. Anderson, Karen~W. Davenport, Kimberly~A.
+  Bishop-Lilly, Yan Xu, Sanaa Ahmed, Shihai Feng, Vishwesh~P. Mokashi, and
+  Patrick~S.G. Chain.
+\newblock Enabling the democratization of the genomics revolution with a fully
+  integrated web-based bioinformatics platform.
+\newblock {\em Nucleic Acids Research}, 45(1):67, 2017.
+
+\bibitem{ecol_net_rev}
+Zhanshan~(Sam) Ma, Chengchen Zhang, Qingpeng Zhang, Jie Li, Lianwei Li, Linyi
+  Qi, and Xianghong Yang.
+\newblock A brief review on the ecological network analysis with applications
+  in the emerging medical ecology.
+\newblock In Terry~J. McGenity, Kenneth~N. Timmis, and Balbina~Nogales
+  Fernández, editors, {\em Hydrocarbon and Lipid Microbiology Protocols}.
+  Springer, 2016.
+
+\bibitem{machine_learning}
+Kevin~P. Murphy.
+\newblock {\em Machine Learning: A Probabilistic Perspective}.
+\newblock The MIT Press, 2012.
+
+\bibitem{coocc}
+Heiko Müller and Francesco Mancuso.
+\newblock Identification and analysis of co-occurrence networks with netcutter.
+\newblock {\em PLOS ONE}, 3(9):1--16, 09 2008.
+
+\bibitem{PhysRevE.70.056131}
+M.~E.~J. Newman.
+\newblock Analysis of weighted networks.
+\newblock {\em Phys. Rev. E}, 70:056131, Nov 2004.
+
+\bibitem{cyotscape}
+Paul Shannon, Andrew Markiel, Owen Ozier, Nitin~S Baliga, Jonathan~T Wang,
+  Daniel Ramage, Nada Amin, Benno Schwikowski, and Trey Ideker.
+\newblock Cytoscape: A software environment for integrated models of
+  biomolecular interaction networks.
+\newblock {\em Genome Research}, 13(11):2498--2504, 11 2003.
+
+\bibitem{vonLuxburg2007}
+Ulrike von Luxburg.
+\newblock A tutorial on spectral clustering.
+\newblock {\em Statistics and Computing}, 17(4):395--416, 2007.
+
+\end{thebibliography}
