@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  15 AUG 2017 13:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  16 AUG 2017 16:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -886,93 +886,95 @@ File: ../stat_figs/pears_1000__species.png Graphic file (type png)
 Package pdftex.def Info: ../stat_figs/pears_1000__species.png used on input lin
 e 232.
 (pdftex.def)             Requested size: 470.6139pt x 260.45647pt.
- [2] [3 <../stat_figs/pears_1000__species.png>] <tiny.png, id=36, 1115.1261pt x
- 604.8999pt>
+ [2] [3 <../stat_figs/pears_1000__species.png>] [4] <tiny.png, id=40, 1115.1261
+pt x 604.8999pt>
 File: tiny.png Graphic file (type png)
  <use tiny.png>
-Package pdftex.def Info: tiny.png used on input line 365.
+Package pdftex.def Info: tiny.png used on input line 371.
 (pdftex.def)             Requested size: 446.04254pt x 241.95567pt.
 
-<a_nares.png, id=37, 1136.8071pt x 346.1733pt>
+<a_nares.png, id=41, 1136.8071pt x 346.1733pt>
 File: a_nares.png Graphic file (type png)
  <use a_nares.png>
-Package pdftex.def Info: a_nares.png used on input line 375.
+Package pdftex.def Info: a_nares.png used on input line 381.
 (pdftex.def)             Requested size: 511.55847pt x 155.77654pt.
 
-Overfull \hbox (56.26057pt too wide) in paragraph at lines 375--376
+Overfull \hbox (56.26057pt too wide) in paragraph at lines 381--382
  [] 
  []
 
-<hldouts.png, id=38, 1122.3531pt x 333.8874pt>
+<hldouts.png, id=42, 1122.3531pt x 333.8874pt>
 File: hldouts.png Graphic file (type png)
  <use hldouts.png>
-Package pdftex.def Info: hldouts.png used on input line 381.
+Package pdftex.def Info: hldouts.png used on input line 387.
 (pdftex.def)             Requested size: 505.05423pt x 150.24794pt.
 
-Overfull \hbox (49.75633pt too wide) in paragraph at lines 381--382
+Overfull \hbox (49.75633pt too wide) in paragraph at lines 387--388
  [] 
  []
 
-<random.png, id=39, 1149.093pt x 345.4506pt>
+<random.png, id=43, 1149.093pt x 345.4506pt>
 File: random.png Graphic file (type png)
  <use random.png>
-Package pdftex.def Info: random.png used on input line 387.
+Package pdftex.def Info: random.png used on input line 393.
 (pdftex.def)             Requested size: 517.08708pt x 155.45132pt.
 
-Overfull \hbox (61.78918pt too wide) in paragraph at lines 387--388
+Overfull \hbox (61.78918pt too wide) in paragraph at lines 393--394
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 373--391
+Underfull \hbox (badness 10000) in paragraph at lines 379--397
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 373--391
+Underfull \hbox (badness 10000) in paragraph at lines 379--397
 []
  []
 
-[4] [5 <./tiny.png>] [6] [7 <./a_nares.png> <./hldouts.png> <./random.png>]
+[5 <./tiny.png>] [6 <./a_nares.png> <./hldouts.png> <./random.png>]
 (./paper.bbl
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¡ in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¼ in font cmr10!
-) [8] (./paper.aux) ) 
+ [7]) [8] (./paper.aux) ) 
 Here is how much of TeX's memory you used:
- 19867 strings out of 492995
- 365098 string characters out of 6132704
- 483480 words of memory out of 5000000
- 22997 multiletter control sequences out of 15000+600000
- 22426 words of font info for 85 fonts, out of 8000000 for 9000
+ 19873 strings out of 492995
+ 365151 string characters out of 6132704
+ 478480 words of memory out of 5000000
+ 23002 multiletter control sequences out of 15000+600000
+ 22594 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,12n,67p,3232b,852s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmbxti10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmmi5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmmi7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmmi9.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmmib10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cme
-xtra/cmmib7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr17.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.
-pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
-></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></
-usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
-sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr
-/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/
-local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on paper.pdf (8 pages, 507014 bytes).
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmbxti10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmmi5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi9.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmmib10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
+/cmextra/cmmib7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr17.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7
+.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pf
+b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><
+/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></
+usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></us
+r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr
+/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on paper.pdf (8 pages, 524402 bytes).
 PDF statistics:
- 129 PDF objects out of 1000 (max. 8388607)
- 87 compressed objects within 1 object stream
+ 137 PDF objects out of 1000 (max. 8388607)
+ 93 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  38 words of extra memory for PDF output out of 10000 (max. 10000000)
 

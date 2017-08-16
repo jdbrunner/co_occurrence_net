@@ -47,7 +47,7 @@ if __name__ == '__main__':
 		tot_ab3 = sum(u3)
 
 		con = 0.8
-		geoms = con**array(range(len(u1)))
+		geoms = con**array(range(len(u1))/6)
 
 
 
@@ -57,7 +57,7 @@ if __name__ == '__main__':
 
 	
 		u1A1 = u1[flat_two_deep(u1_rkd_A1[0])]
-		print(u1_rkd_A1[0])
+		#print(u1_rkd_A1[0])
 		val11 = dot(u1A1/tot_ab1,geoms)
 		u1A2 = u1[flat_two_deep(u1_rkd_A2[0])]
 		#print(u1_rkd_A2[0])
@@ -148,7 +148,7 @@ if __name__ == '__main__':
 						ord = rkd_sample[cols[ivp[i]]].values.argsort()
 						axarr2[x,j].plot(rkd_sample[cols[ivp[i]]].values[ord], rkd_sample['abundance'].values[ord])
 						axarr2[x,j].text(0, 0.7, cols[ivp[i]], fontsize = 10, transform = axarr2[x,j].transAxes)
-						geo = 0.5**rkd_sample[cols[ivp[i]]].values[ord]
+						geo = 0.3**(rkd_sample[cols[ivp[i]]].values[ord]/len(rkd_sample.values))
 						valu = dot(geo,rkd_sample['abundance'].values[ord]/tot_ab)
 						axarr2[x,j].text(.8, 0.7, valu, fontsize = 10, transform = axarr2[x,j].transAxes)
 						print(cols[ivp[i]])
@@ -159,7 +159,7 @@ if __name__ == '__main__':
 					ord = rkd_sample[cols[ivp[x]]].values.argsort()
 					axarr2[x].plot(rkd_sample[cols[ivp[x]]].values[ord], rkd_sample['abundance'].values[ord])
 					axarr2[x].text(0.6, 0.7, cols[ivp[x]], fontsize = 10, transform = axarr2[x].transAxes)
-					geo = 0.5**rkd_sample[cols[ivp[x]]].values[ord]
+					geo = 0.3**(rkd_sample[cols[ivp[x]]].values[ord]/len(rkd_sample.values))
 					valu = dot(geo,rkd_sample['abundance'].values[ord]/tot_ab)
 					axarr2[x].text(0.6, 0.6, valu, fontsize = 10, transform = axarr2[x].transAxes)
 					print(cols[ivp[x]])
@@ -168,7 +168,7 @@ if __name__ == '__main__':
 			f2.suptitle(sample_name[slsh+1:-4])
 			show()
 	
-		choose_sub = True
+		choose_sub = False
 		if choose_sub:
 	# 		c_clusts = unique(rkd_sample['community_cluster'].values)
 	# 		s_clusts = unique(rkd_sample['spectral_cluster'].values)

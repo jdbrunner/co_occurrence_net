@@ -190,7 +190,7 @@ Again, I check the significance of each edge, removing edges that have a high pr
 p_{ik} > 0.05 \Rightarrow w_{ik} = 0
 \]
 
-\subsection{Null Model}
+\subsection{Null Model}\label{null}
 Rather than simply generate an Erd\H{o}s-R\'{e}nyi random graph with some chosen parameter, I generate a graph that more closely reflects the idea of random data. That is, I start with random data and then generate a graph. I generate random data in the following way. Let 
 \[
 N_j = |\{i: r_{ij} \neq 0\}|
@@ -214,7 +214,7 @@ The null model's use of a binomial random variable can be interpreted in the fol
 
 In \cite{coocc}, this model is called the ``binomial model". Interestingly, that paper argues that an ``edge swapping" model is more accurate. A random permutation of the data also used in \cite{gut}. However, I have chosen the binomial model for speed.
 
-\subsection{Significance of the network}
+\subsection{Significance of the network}\label{sig}
 The networks connected by the methods above would not occur in randomized data, and so there is some significance to these networks. I generate random data as in the correlation construction of the network. I then use Monte-Carlo simulation to estimate the following
 \begin{itemize}
 	\item $P(\mu_d < \mu_d^{null})$, where $\mu_d$ is the mean degree of the nodes of a network
@@ -230,7 +230,7 @@ In addition to testing the complete network, I performed the same analysis on ne
 
 \begin{figure}
 	\includegraphics[scale = 0.4]{../stat_figs/pears_1000__species.png}
-	\caption{The result of Monte-Carlo estimation of the likelihood of various network statistics, as well as the number of edges and mean degree. The networks were made from correlations using randomly drawn subsets of increasing size of the data at the species level, from 1 sample to all 60 samples. For each network, 1000 random trials were generated according to the above null model in order to estimate likelihood of statistics.}\label{montecarlos}
+	\caption{The result of Monte-Carlo estimation of the likelihood of various network statistics, as well as the number of edges and mean degree. The networks were made from correlations using randomly drawn subsets of increasing size of the data at the species level, from 1 sample to 60 samples. Samples were GOTTCHA output of data from (FIND OUT). For each network, 1000 random trials were generated according to the above null model in order to estimate likelihood of statistics.}\label{montecarlos}
 \end{figure}
 
 
@@ -294,17 +294,23 @@ is large. Similarly, inspection of \cref{ivp_computation} reveals that we will r
 \end{equation}
 is large.  Notice that the ordering of the eigenvalues insures that the terms on the diagonal of $\b{\Lambda}^{-1}$ decay along the diagonal, and all terms are positive, making this matrix and the matrix used in \cref{ivp_computation} similar. We are in some sense then asking about how close a node is to the initial condition given in a metric similar to that used in spectral clustering. In fact, if we have as an initial condition $\b{u}(0) = \b{V} \b{V}_m^T$, this metric is very close to that used in spectral clustering.
 
+This method provides a ranking of taxa which attempts to estimate an ordering of the probabilities 
+\[
+\bP(t_i \in S | m(S))
+\]
+where $t_i \in S$ indicates taxa $i$ is present in a sample, and $m(S)$ is the GOTTCHA output for the sample.
+
 \subsection{Matching samples to networks}
 
 Suppose we have different networks built from different types of data - i.e. healthy and unhealthy, or different regions, etc. We would like to match a sample with the network that makes most the sense. That is, we would like to say that a sample is more likely to be from one type of data than the other based on the network.
 
 Clearly, the first pass is just asking how many taxa detected in the sample appear in each network. Next, we might ask how many clusters of a network are represented, or similarly how many taxa of the sample are in the same cluster in the network. The diffusion (\cref{initalCond}) idea can do something like this. We should see less nodes ranked highly that aren't in the sample if the sample ``fits" a network well. If we imagine a sample is created by performing a random walk on a graph and recording the nodes most often visited, the diffusion idea should identify nodes that the random walk ``should" have seen. If there are a bunch of those missing from the sample, we might think the network is not the right one. We could consider the map from rank to abundance, and integrate this against a kernel that weights towards the high ranks. As an example, let $\b{s}$ be the sample abundances (so $s_i$ is the abundance of organism $i$), and $\b{r}$ the ranking (so $r_i$ is the rank of organism $i$). We might take 
 \[
-F(\b{s},\b{r}) = \sum_{i=1}^n c^{r_i} s_i
+F(\b{s},\b{r}) = \sum_{i=1}^n c^{\nicefrac{r_i}{n}} s_i
 \]
 where $c<1$. Given a sample, we get ranking from a network $N_j$. Let $\b{r}^j(\b{s})$ be the ranking given by diffusion on network $j$. Then,
 \[
-F_j(\b{s}) = F(\b{s},\b{r}^j(\b{s})) = \sum_{i=1}^n c^{r_i^j} s_i
+F_j(\b{s}) = F(\b{s},\b{r}^j(\b{s})) = \sum_{i=1}^n c^{\nicefrac{r_i}{n}} s_i
 \]
 and we can attempt to optimize over the networks we have (if there's only a few that's easy). The conjecture is then
 \begin{conj}
@@ -393,7 +399,7 @@ I did the same on a column of training data for the species level network, a col
 
 Formally, we have
 \[
-F_j(\b{s}) =\frac{1}{\|\b{s}\|} \sum_{i=0}^{n-1} c^i s_i
+F_j(\b{s}) =\frac{1}{\|\b{s}\|} \sum_{i=0}^{n-1} c^{\nicefrac{i}{n}} s_i
 \]
 where $\b{s} = (u_{j_1}(0),u_{j_2}(0),...,u_{j_n}(0))$ such that if 
 \[
@@ -405,6 +411,23 @@ U_{j_1} \geq U_{j_2} \geq \cdots \geq U_{j_n}
 \]
 
 \section{Validation}
+
+To validate this approach, we build correlation and thresholded correlation networks from GOTTCHA output of 1,367 samples from the NIH Human Microbiome Project (\verb|08_14_14_57_networks|). We constructed a network using all of these samples, as well as networks for 6 body sites for which at least 50 samples were present in the full 1,367:
+\begin{itemize}
+	\item Anterior Nares (168 samples) 
+	\item Buccal Mucosa (206 samples)
+	\item Posterior Fornix (110 samples)
+	\item Stool (288 samples)
+	\item Supragingival Plaque (220 samples)
+	\item Tongue Dorsum (223 samples)
+\end{itemize}
+For each network we assessed the significance of the statistics listed in \cref{sig}. (\verb|stats.txt| in the folder with the networks.)
+
+We analyzed 300 samples from the NIH Human Microbiome Project that were not used in the network training. We computed the fit score of each sample on a the networks made from the set of 1,367 samples, as well as the body site networks. We hoped to analyze the fit score's use in identifying the body site a sample was taken from. We compared fit of each sample across networks to identify the body site. 
+
+We also computed the fit on the full networks of simulated samples created using the null model describe in \cref{null}. 
+
+For each sample, we also performed the following experiment. We set the taxa with $n^{th}$ highest abundance in the sample to $0$ abundance and used the diffusion method to find the rank of this taxa, for $n$ from 1 to 100.
 
 \section{Discussion}
 

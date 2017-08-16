@@ -41,22 +41,9 @@ with a low number (I'll make 50 the cutoff)
 6
 >>> 
 And here's the number of hold outs for each.
-Anterior_nares :  32   ##### Good
-Attached :  3
-Buccal_mucosa :  42   ##### Good
-Buccal_mucosa_NA :  42   ##### Good
-Full :  300   ##### Good
-Hard_palate :  0
-Keratinized_gingiva :  0
-L_Retroauricular_crease :  6
-Mid_vagina :  0
-Palatine_Tonsils :  2
-Posterior_fornix :  26   ##### Good
-R_Retroauricular_crease :  7
-Saliva :  1
-Stool :  78   ##### Good
-Subgingival_plaque :  5
-Supragingival_plaque :  52   ##### Good
-Throat :  0
-Tongue_dorsum :  45   ##### Good
-Vaginal_introitus :  1
+Anterior_nares :  44   
+Buccal_mucosa :  59 
+Posterior_fornix :  18   
+Stool :  72   
+Supragingival_plaque :  51   
+Tongue_dorsum :  45  

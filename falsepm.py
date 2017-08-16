@@ -91,11 +91,18 @@ if __name__ == '__main__':
 	score_results_thr = pd.DataFrame(columns = ['Sample Type'] + [net_type for net_type in networks_thr.keys()])
 
 
-	num_rks = 30
+	num_rks = min([100, len(networks_cor['Full_cor']), len(networks_thr['Full_thr'])])
 	rank_vs_rank_cor = pd.DataFrame(columns = range(num_rks))
 	rank_vs_rank_thr = pd.DataFrame(columns = range(num_rks))
 	
-	for smp_type in sort_samples:
+	unitype = list(sort_samples.keys())
+	unitype.remove ('Full')
+	
+	fit_test = False
+	false_neg_test = True
+	
+	
+	for smp_type in unitype:
 		print(smp_type)
 		cter = 1
 		for smp_num in sort_samples[smp_type]:
@@ -111,51 +118,55 @@ if __name__ == '__main__':
 
 			
 			if len(nzers)> 1 and sum(the_samp) > 0.0001:
-				###Fit Test
-				#run the ranking on each network type(correlation)
-				fit_scores_cor = pd.DataFrame([[smp_type] + list(zeros(len(networks_cor)))],columns = ['Sample Type'] + [net_type for net_type in networks_cor.keys()])
-				for net_type in networks_cor:
-					if len(networks_cor[net_type])>1:
-						the_sampt = the_samp.loc[networks_cor[net_type]['TAXA']]#now its got only stuff in the network and the right order
-						score = ivp_score(networks_cor[net_type], the_sampt)
-						fit_scores_cor.loc[0,net_type] = score
-				score_results_cor = pd.concat([score_results_cor, fit_scores_cor])
+				if fit_test:
+					###Fit Test
+					#run the ranking on each network type(correlation)
+					fit_scores_cor = pd.DataFrame([[smp_type] + list(zeros(len(networks_cor)))],columns = ['Sample Type'] + [net_type for net_type in networks_cor.keys()])
+					for net_type in networks_cor:
+						if len(networks_cor[net_type])>1:
+							the_sampt = the_samp.loc[networks_cor[net_type]['TAXA']]#now its got only stuff in the network and the right order
+							score = ivp_score(networks_cor[net_type], the_sampt)
+							fit_scores_cor.loc[0,net_type] = score
+					score_results_cor = pd.concat([score_results_cor, fit_scores_cor])
 				
-				fit_scores_thr = pd.DataFrame([[smp_type] + list(zeros(len(networks_thr)))],columns = ['Sample Type'] + [net_type for net_type in networks_thr.keys()])
-				for net_type in networks_thr:
-					if len(networks_thr[net_type])>1:
-						the_sampt = the_samp.loc[networks_thr[net_type]['TAXA']]#now its got only stuff in the network and the right order
-						score = ivp_score(networks_thr[net_type], the_sampt)
-						fit_scores_thr.loc[0,net_type] = score
-				score_results_thr = pd.concat([score_results_thr, fit_scores_thr])
-			
-				####### Trim to full network and sort
-				the_samp_cor_trimmed = the_samp.loc[networks_cor['Full_cor']['TAXA']]#now its got only stuff in the network and the right order
-				the_samp_thr_trimmed = the_samp.loc[networks_thr['Full_thr']['TAXA']]#now its got only stuff in the network and the right order
+					fit_scores_thr = pd.DataFrame([[smp_type] + list(zeros(len(networks_thr)))],columns = ['Sample Type'] + [net_type for net_type in networks_thr.keys()])
+					for net_type in networks_thr:
+						if len(networks_thr[net_type])>1:
+							the_sampt = the_samp.loc[networks_thr[net_type]['TAXA']]#now its got only stuff in the network and the right order
+							score = ivp_score(networks_thr[net_type], the_sampt)
+							fit_scores_thr.loc[0,net_type] = score
+					score_results_thr = pd.concat([score_results_thr, fit_scores_thr])
 				
-				smp_srted_cor = the_samp_cor_trimmed.sort_values(ascending=False)
-				smp_srted_thr = the_samp_thr_trimmed.sort_values(ascending=False)
+				if false_neg_test:
+					####### Trim to full network and sort
+					the_samp_cor_trimmed = the_samp.loc[networks_cor['Full_cor']['TAXA']]#now its got only stuff in the network and the right order
+					the_samp_thr_trimmed = the_samp.loc[networks_thr['Full_thr']['TAXA']]#now its got only stuff in the network and the right order
 				
-				rking_results_cor = pd.DataFrame([zeros(num_rks)], columns = range(num_rks))
-				rking_results_thr = pd.DataFrame([zeros(num_rks)], columns = range(num_rks))
+					smp_srted_cor = the_samp_cor_trimmed.sort_values(ascending=False)
+					smp_srted_thr = the_samp_thr_trimmed.sort_values(ascending=False)
 				
-				####### Remove the nth ranked by abundance and see where it comes in the ranking from IVP
-				for tax_num in range(num_rks):
-					ind_loc_cor = where(the_samp_cor_trimmed.index == smp_srted_cor.index[tax_num])
-					ind_loc_thr = where(the_samp_thr_trimmed.index == smp_srted_thr.index[tax_num])
-					fneg_samp_cor = array(the_samp_cor_trimmed.values)
-					fneg_samp_cor[ind_loc_cor] = 0
-					fneg_samp_thr = array(the_samp_thr_trimmed.values)
-					fneg_samp_thr[ind_loc_thr] = 0
-					this_rking_cor = diffusion_ivp([],[],networks_cor['Full_cor'].values[:,1:] , sample = fneg_samp_cor, all = True)[0]
-					this_rking_thr = diffusion_ivp([],[],networks_thr['Full_thr'].values[:,1:] , sample = fneg_samp_thr, all = True)[0]
-					the_rk_cor = where(array(flat_two_deep(this_rking_cor)) == ind_loc_cor[0][0])[0][0]
-					the_rk_thr = where(array(flat_two_deep(this_rking_thr)) == ind_loc_thr[0][0])[0][0]
-					rking_results_cor.loc[0,tax_num] = the_rk_cor - len(nzers) + 1
-					rking_results_thr.loc[0,tax_num] = the_rk_thr - len(nzers) + 1
+					rking_results_cor = pd.DataFrame([zeros(num_rks)], columns = range(num_rks))
+					rking_results_thr = pd.DataFrame([zeros(num_rks)], columns = range(num_rks))
+					
+					####### Remove the nth ranked by abundance and see where it comes in the ranking from IVP
+					for tax_num in range(num_rks):
+						stemp_cor = pd.DataFrame(the_samp_cor_trimmed)
+						stemp_thr = pd.DataFrame(the_samp_thr_trimmed)
+						stemp_cor.loc[smp_srted_cor.index[tax_num]] = 0
+						stemp_thr.loc[smp_srted_thr.index[tax_num]] = 0
+						fn_cor = stemp_cor.values.T[0]
+						fn_thr = stemp_thr.values.T[0]
+						this_rking_cor = diffusion_ivp([],[],networks_cor['Full_cor'].values[:,1:] , sample = fn_cor, all = True)[0]
+						this_rking_thr = diffusion_ivp([],[],networks_thr['Full_thr'].values[:,1:] , sample = fn_thr, all = True)[0]
+						ind_loc_cor = where(stemp_cor.index == smp_srted_cor.index[tax_num])
+						ind_loc_thr = where(stemp_thr.index == smp_srted_thr.index[tax_num])				
+						the_rk_cor = where(array(flat_two_deep(this_rking_cor)) == ind_loc_cor[0][0])[0][0]
+						the_rk_thr = where(array(flat_two_deep(this_rking_thr)) == ind_loc_thr[0][0])[0][0]
+						rking_results_cor.loc[0,tax_num] = the_rk_cor - len(nzers) + 1
+						rking_results_thr.loc[0,tax_num] = the_rk_thr - len(nzers) + 1
 				
-				rank_vs_rank_cor = pd.concat([rank_vs_rank_cor, rking_results_cor])
-				rank_vs_rank_thr = pd.concat([rank_vs_rank_thr, rking_results_thr])
+					rank_vs_rank_cor = pd.concat([rank_vs_rank_cor, rking_results_cor])
+					rank_vs_rank_thr = pd.concat([rank_vs_rank_thr, rking_results_thr])
 		
 		print('\n')		
 				
@@ -165,42 +176,43 @@ if __name__ == '__main__':
 	score_results_thr.index = range(len(score_results_thr))
 	
 	### Fit scores for randomly generated samples
-	print('random samples')
-	random_samples = make_sample(hld_columns_df, numb = len(hld_columns_df.columns) - 2)
+	if fit_test:
+		print('random samples')
+		random_samples = make_sample(hld_columns_df, numb = len(hld_columns_df.columns) - 2)
 	
 		
-	rand_score_results_cor = pd.DataFrame(columns = ['Sample Type'] + [net_type for net_type in networks_cor.keys()])
-	rand_score_results_thr = pd.DataFrame(columns = ['Sample Type'] + [net_type for net_type in networks_thr.keys()])
+		rand_score_results_cor = pd.DataFrame(columns = ['Sample Type'] + [net_type for net_type in networks_cor.keys()])
+		rand_score_results_thr = pd.DataFrame(columns = ['Sample Type'] + [net_type for net_type in networks_thr.keys()])
 	
-	cter = 1
-	for smp_num in range(2,len(random_samples.columns)):	
-		print('\r',cter, '/',len(random_samples.columns) - 2, end = '     ')
-		cter = cter + 1		
-		the_samp = random_samples.iloc[:,smp_num]
-		##We first need to make sure the sample taxa match the network taxa. The sample 
-		#could have stuff not in the network
-		the_samp.index = random_samples['TAXA']
-		nzers = nonzero(the_samp)[0]#find zeros and nonzeros
-		zers = where(the_samp == 0)[0] #1D so just take index as int not tuple
+		cter = 1
+		for smp_num in range(2,len(random_samples.columns)):	
+			print('\r',cter, '/',len(random_samples.columns) - 2, end = '     ')
+			cter = cter + 1		
+			the_samp = random_samples.iloc[:,smp_num]
+			##We first need to make sure the sample taxa match the network taxa. The sample 
+			#could have stuff not in the network
+			the_samp.index = random_samples['TAXA']
+			nzers = nonzero(the_samp)[0]#find zeros and nonzeros
+			zers = where(the_samp == 0)[0] #1D so just take index as int not tuple
 		
-		if len(nzers)>1:
-			###Fit Test
-			#run the ranking on each network type(correlation)
-			fit_scores_cor = pd.DataFrame([['random'] + list(zeros(len(networks_cor)))],columns = ['Sample Type'] + [net_type for net_type in networks_cor.keys()])
-			for net_type in networks_cor:
-				if len(networks_cor[net_type])>1:
-					the_sampt = the_samp.loc[networks_cor[net_type]['TAXA']]#now its got only stuff in the network and the right order
-					score = ivp_score(networks_cor[net_type], the_sampt)
-					fit_scores_cor.loc[0,net_type] = score
-			rand_score_results_cor = pd.concat([rand_score_results_cor, fit_scores_cor])
+			if len(nzers)>1:
+				###Fit Test
+				#run the ranking on each network type(correlation)
+				fit_scores_cor = pd.DataFrame([['random'] + list(zeros(len(networks_cor)))],columns = ['Sample Type'] + [net_type for net_type in networks_cor.keys()])
+				for net_type in networks_cor:
+					if len(networks_cor[net_type])>1:
+						the_sampt = the_samp.loc[networks_cor[net_type]['TAXA']]#now its got only stuff in the network and the right order
+						score = ivp_score(networks_cor[net_type], the_sampt)
+						fit_scores_cor.loc[0,net_type] = score
+				rand_score_results_cor = pd.concat([rand_score_results_cor, fit_scores_cor])
 			
-			fit_scores_thr = pd.DataFrame([['random'] + list(zeros(len(networks_thr)))],columns = ['Sample Type'] + [net_type for net_type in networks_thr.keys()])
-			for net_type in networks_thr:
-				if len(networks_thr[net_type])>1:
-					the_sampt = the_samp.loc[networks_thr[net_type]['TAXA']]#now its got only stuff in the network and the right order
-					score = ivp_score(networks_thr[net_type], the_sampt)
-					fit_scores_thr.loc[0,net_type] = score
-			rand_score_results_thr = pd.concat([rand_score_results_thr, fit_scores_thr])
+				fit_scores_thr = pd.DataFrame([['random'] + list(zeros(len(networks_thr)))],columns = ['Sample Type'] + [net_type for net_type in networks_thr.keys()])
+				for net_type in networks_thr:
+					if len(networks_thr[net_type])>1:
+						the_sampt = the_samp.loc[networks_thr[net_type]['TAXA']]#now its got only stuff in the network and the right order
+						score = ivp_score(networks_thr[net_type], the_sampt)
+						fit_scores_thr.loc[0,net_type] = score
+				rand_score_results_thr = pd.concat([rand_score_results_thr, fit_scores_thr])
 		
 	
 	
@@ -210,131 +222,141 @@ if __name__ == '__main__':
 	plt_folder = folder + '/validation_plots'
 	
 	#### Histograms of fit scores
-	fit_histos_cor, axarr_cor = plt.subplots(2, 1, figsize = (15,10))
-	axarr_cor[0].hist(array(score_results_cor.Full_cor.values), bins = 50)
-	axarr_cor[0].set_title('Held Out Columns', fontsize=10)
-	axarr_cor[1].hist(array(rand_score_results_cor.Full_cor.values), bins = 50)
-	axarr_cor[1].set_title('Random Columns', fontsize=10)
-	fit_histos_cor.suptitle('Full Correlation Network Fit', fontsize = 20)
+	if fit_test:
+		fit_histos_cor, axarr_cor = plt.subplots(2, 1, figsize = (15,10))
+		axarr_cor[0].hist(array(score_results_cor.Full_cor.values), bins = 50)
+		axarr_cor[0].set_title('Held Out Columns', fontsize=10)
+		axarr_cor[1].hist(array(rand_score_results_cor.Full_cor.values), bins = 50)
+		axarr_cor[1].set_title('Random Columns', fontsize=10)
+		fit_histos_cor.suptitle('Full Correlation Network Fit', fontsize = 20)
 	
-	fit_histos_cor.savefig(plt_folder + '/fit_histo_cor.png')
-	plt.close(fit_histos_cor)
+		fit_histos_cor.savefig(plt_folder + '/fit_histo_cor.png')
+		plt.close(fit_histos_cor)
 	
-	fit_histos_thr, axarr_thr = plt.subplots(2, 1, figsize = (15,10))
-	axarr_thr[0].hist(array(score_results_thr.Full_thr.values), bins = 50)
-	axarr_thr[0].set_title('Held Out Columns', fontsize=10)
-	axarr_thr[1].hist(array(rand_score_results_thr.Full_thr.values), bins = 50)
-	axarr_thr[1].set_title('Random Columns', fontsize=10)
-	fit_histos_thr.suptitle('Full Threshhold Network Fit', fontsize = 20)
+		fit_histos_thr, axarr_thr = plt.subplots(2, 1, figsize = (15,10))
+		axarr_thr[0].hist(array(score_results_thr.Full_thr.values), bins = 50)
+		axarr_thr[0].set_title('Held Out Columns', fontsize=10)
+		axarr_thr[1].hist(array(rand_score_results_thr.Full_thr.values), bins = 50)
+		axarr_thr[1].set_title('Random Columns', fontsize=10)
+		fit_histos_thr.suptitle('Full Threshhold Network Fit', fontsize = 20)
 	
-	fit_histos_thr.savefig(plt_folder + '/fit_histo_thr.png')
-	plt.close(fit_histos_thr)
+		fit_histos_thr.savefig(plt_folder + '/fit_histo_thr.png')
+		plt.close(fit_histos_thr)
 
 	
-	###### Bar chart of correct identification
-	score_res_nofull_cor = score_results_cor.drop('Full_cor', axis = 1)
-	score_res_nofull_thr = score_results_thr.drop('Full_thr', axis = 1)
-	max_cor = score_res_nofull_cor.iloc[:,1:].idxmax(axis = 1)
-	max_thr = score_res_nofull_thr.iloc[:,1:].idxmax(axis = 1)
-	score_res_nofull_cor['Winner'] = max_cor
-	score_res_nofull_thr['Winner'] = max_thr
+		###### Bar chart of correct identification
+		score_res_nofull_cor = score_results_cor.drop('Full_cor', axis = 1)
+		score_res_nofull_thr = score_results_thr.drop('Full_thr', axis = 1)
+		max_cor = score_res_nofull_cor.iloc[:,1:].idxmax(axis = 1)
+		max_thr = score_res_nofull_thr.iloc[:,1:].idxmax(axis = 1)
+		score_res_nofull_cor['Winner'] = max_cor
+		score_res_nofull_thr['Winner'] = max_thr
 	
 	
-	perc_right_cor = []
-	for typ in unique(score_res_nofull_cor['Sample Type']):
-		correct = sum([int(typ in score_res_nofull_cor.loc[j,'Winner']) for j in score_res_nofull_cor[score_res_nofull_cor['Sample Type'] == typ].index])
-		tots = len(score_res_nofull_cor[score_res_nofull_cor['Sample Type'] == typ])
-		perc_right_cor =perc_right_cor + [correct/tots]
+		perc_right_cor = []
+		for typ in unitype:
+			correct = sum([int(typ in score_res_nofull_cor.loc[j,'Winner']) for j in score_res_nofull_cor[score_res_nofull_cor['Sample Type'] == typ].index])
+			tots = len(score_res_nofull_cor[score_res_nofull_cor['Sample Type'] == typ])
+			perc_right_cor =perc_right_cor + [correct/tots]
 
-	perc_right_thr = []
-	for typ in unique(score_res_nofull_thr['Sample Type']):
-		correct = sum([int(typ in score_res_nofull_thr.loc[j,'Winner']) for j in score_res_nofull_thr[score_res_nofull_thr['Sample Type'] == typ].index])
-		tots = len(score_res_nofull_thr[score_res_nofull_thr['Sample Type'] == typ])
-		perc_right_thr =perc_right_thr + [correct/tots]
+		perc_right_thr = []
+		for typ in unitype:
+			correct = sum([int(typ in score_res_nofull_thr.loc[j,'Winner']) for j in score_res_nofull_thr[score_res_nofull_thr['Sample Type'] == typ].index])
+			tots = len(score_res_nofull_thr[score_res_nofull_thr['Sample Type'] == typ])
+			perc_right_thr =perc_right_thr + [correct/tots]
 		
-	score_res_nofull_cor.drop('Winner', axis = 1, inplace = True)
-	score_res_nofull_thr.drop('Winner', axis = 1, inplace = True)
+		score_res_nofull_cor.drop('Winner', axis = 1, inplace = True)
+		score_res_nofull_thr.drop('Winner', axis = 1, inplace = True)
 	
-	win_perc, ax_win = plt.subplots(2,1,tight_layout=True, figsize = (15,10))
-	ax_win[0].bar(range(len(perc_right_cor)), perc_right_cor)
-	ax_win[0].set_title('Correlation Network', fontsize = 10)
-	ax_win[0].set_xticks(range(len(unique(score_res_nofull_cor['Sample Type']))))
-	ax_win[0].set_xticklabels(unique(score_res_nofull_cor['Sample Type']))
-	labels = ax_win[0].get_xticklabels()
-	plt.setp(labels, rotation=40, fontsize=8)
-	ax_win[1].bar(range(len(perc_right_thr)), perc_right_thr)
-	ax_win[1].set_title('Co-occurrence (Threshhold) Network', fontsize = 10)
-	ax_win[1].set_xticks(range(len(unique(score_res_nofull_thr['Sample Type']))))
-	ax_win[1].set_xticklabels(unique(score_res_nofull_thr['Sample Type']))
-	labels = ax_win[1].get_xticklabels()
-	plt.setp(labels, rotation=40, fontsize=8)	
-	win_perc.savefig(plt_folder + '/correct_ids.png')
-	plt.close(win_perc)
-	
-	
-	##### Bar chart of average fit for sample type by network
-	avg_scores_cor = dict()
-	avg_scores_thr = dict()
-	for typ in unique(score_res_nofull_cor['Sample Type']):
-		avg_scores_cor[typ] = mean(score_res_nofull_cor[score_res_nofull_cor['Sample Type'] == typ].iloc[1:], axis = 0)
-	
-	for typ in unique(score_res_nofull_thr['Sample Type']):
-		avg_scores_thr[typ] = mean(score_res_nofull_thr[score_res_nofull_thr['Sample Type'] == typ].iloc[1:], axis = 0)
+		win_perc, ax_win = plt.subplots(2,1,tight_layout=True, figsize = (15,10))
+		ax_win[0].bar(range(len(perc_right_cor)), perc_right_cor)
+		ax_win[0].set_title('Correlation Network', fontsize = 10)
+		ax_win[0].set_xticks(range(len(unitype)))
+		ax_win[0].set_xticklabels(unitype)
+		labels = ax_win[0].get_xticklabels()
+		plt.setp(labels, rotation=40, fontsize=8)
+		ax_win[1].bar(range(len(perc_right_thr)), perc_right_thr)
+		ax_win[1].set_title('Co-occurrence (Threshhold) Network', fontsize = 10)
+		ax_win[1].set_xticks(range(len(unitype)))
+		ax_win[1].set_xticklabels(unitype)
+		labels = ax_win[1].get_xticklabels()
+		plt.setp(labels, rotation=40, fontsize=8)	
+		win_perc.savefig(plt_folder + '/correct_ids.png')
+		plt.close(win_perc)
 	
 	
-	for typ in unique(score_res_nofull_cor['Sample Type']):
-		av, ax = plt.subplots(1,1, tight_layout=True)
-		ax.bar(range(len(avg_scores_cor[typ])), avg_scores_cor[typ])
-		ax.set_title(typ + ' Fit Scores, Correlation')
-		ax.set_xticks(range(len(score_res_nofull_cor.columns[1:])))
-		ax.set_xticklabels(score_res_nofull_cor.columns[1:])
-		labels = ax.get_xticklabels()
-		plt.setp(labels, rotation=60, fontsize=10)
-		av.savefig(plt_folder + '/fit_score_cor_'+typ+'.png')
-		plt.close(av)
+		##### Bar chart of average fit for sample type by network
+		avg_scores_cor = dict()
+		avg_scores_thr = dict()
+		for typ in unitype:
+			avg_scores_cor[typ] = mean(score_res_nofull_cor[score_res_nofull_cor['Sample Type'] == typ].iloc[1:], axis = 0)
+	
+		for typ in unitype:
+			avg_scores_thr[typ] = mean(score_res_nofull_thr[score_res_nofull_thr['Sample Type'] == typ].iloc[1:], axis = 0)
+	
+	
+		for typ in unitype:
+			av, ax = plt.subplots(1,1, tight_layout=True)
+			ax.bar(range(len(avg_scores_cor[typ])), avg_scores_cor[typ])
+			ax.set_title(typ + ' Fit Scores, Correlation')
+			ax.set_xticks(range(len(score_res_nofull_cor.columns[1:])))
+			ax.set_xticklabels(score_res_nofull_cor.columns[1:])
+			labels = ax.get_xticklabels()
+			plt.setp(labels, rotation=60, fontsize=10)
+			av.savefig(plt_folder + '/fit_score_cor_'+typ+'.png')
+			plt.close(av)
 
-	for typ in unique(score_res_nofull_thr['Sample Type']):
-		av, ax = plt.subplots(1,1, tight_layout=True)
-		ax.bar(range(len(avg_scores_thr[typ])), avg_scores_thr[typ])
-		ax.set_title(typ + ' Fit Scores, Threshhold')
-		ax.set_xticks(range(len(score_res_nofull_thr.columns[1:])))
-		ax.set_xticklabels(score_res_nofull_thr.columns)
-		labels = ax.get_xticklabels()
-		plt.setp(labels, rotation=60, fontsize=10)
-		av.savefig(plt_folder + '/fit_score_thr_'+typ+'.png')
-		plt.close(av)
+		for typ in unitype:
+			av, ax = plt.subplots(1,1, tight_layout=True)
+			ax.bar(range(len(avg_scores_thr[typ])), avg_scores_thr[typ])
+			ax.set_title(typ + ' Fit Scores, Threshhold')
+			ax.set_xticks(range(len(score_res_nofull_thr.columns[1:])))
+			ax.set_xticklabels(score_res_nofull_thr.columns[1:])
+			labels = ax.get_xticklabels()
+			plt.setp(labels, rotation=60, fontsize=10)
+			av.savefig(plt_folder + '/fit_score_thr_'+typ+'.png')
+			plt.close(av)
 		
 	
-	##### Scatter plot of Diffusion Rk vs Abundance Rk	
+	##### heatmap of Diffusion Rk vs Abundance Rk	
+	if false_neg_test:
+		Xvals_cor = array(list(rank_vs_rank_cor.columns)*len(rank_vs_rank_cor))
+		rank_vs_rank_cor.index = range(len(rank_vs_rank_cor))
+		Yvals_cor = []
+		for i in rank_vs_rank_cor.index:
+			Yvals_cor = Yvals_cor + list(rank_vs_rank_cor.loc[i].values)
+		Yvals_cor = array(Yvals_cor)
+		histo_cor = histogram2d(Xvals_cor, Yvals_cor, bins = [num_rks, 50])
+		
+
+		Xvals_thr = array(list(rank_vs_rank_thr.columns)*len(rank_vs_rank_thr))
+		rank_vs_rank_thr.index = range(len(rank_vs_rank_thr))
+		Yvals_thr = []
+		for i in rank_vs_rank_thr.index:
+			Yvals_thr = Yvals_thr + list(rank_vs_rank_thr.loc[i].values)
+		Yvals_thr = array(Yvals_thr)
+		histo_thr = histogram2d(Xvals_thr, Yvals_thr, bins = [num_rks, 100])
+		
+
 	
-	scattr_cor = []
-	rank_vs_rank_cor.index = range(len(rank_vs_rank_cor))
-	for i in rank_vs_rank_cor.columns:
-		scattr_cor = scattr_cor + [(i, rank_vs_rank_cor.loc[j,i]) for j in rank_vs_rank_cor.index]
+	# 	print(scattr_cor)
+		sc_cor, ax_cor = plt.subplots(1,1)
+		ax_cor.pcolormesh(histo_cor[1],histo_cor[2],histo_cor[0].T)
+		ax_cor.set_title('Rank by Abundance vs Rank by Diffusion, Correlation')
+		ax_cor.set_xlabel('Rank by Abundance')
+		ax_cor.set_ylabel('Rank by Diffusion')
 	
-	scattr_thr = []
-	rank_vs_rank_thr.index = range(len(rank_vs_rank_thr))
-	for i in rank_vs_rank_thr.columns:
-		scattr_thr = scattr_thr + [(i, rank_vs_rank_thr.loc[j,i]) for j in rank_vs_rank_thr.index]
+		sc_cor.savefig(plt_folder + '/rank_v_rank_cor.png')
+		plt.close(sc_cor)
 	
-# 	print(scattr_cor)
-	sc_cor, ax_cor = plt.subplots(1,1)
-	ax_cor.scatter(*zip(*scattr_cor))
-	ax_cor.set_title('Rank by Abundance vs Rank by Diffusion, Correlation')
-	ax_cor.set_xlabel('Rank by Abundance')
-	ax_cor.set_ylabel('Rank by Diffusion')
+		sc_thr, ax_thr = plt.subplots(1,1)
+		ax_thr.pcolormesh(histo_thr[1],histo_thr[2],histo_thr[0].T)
+		ax_thr.set_title('Rank by Abundance vs Rank by Diffusion, Threshold')
+		ax_thr.set_xlabel('Rank by Abundance')
+		ax_thr.set_ylabel('Rank by Diffusion')
 	
-	sc_cor.savefig(plt_folder + '/rank_v_rank_cor.png')
-	plt.close(sc_cor)
-	
-	sc_thr, ax_thr = plt.subplots(1,1)
-	ax_thr.scatter(*zip(*scattr_thr))
-	ax_thr.set_title('Rank by Abundance vs Rank by Diffusion, Correlation')
-	ax_thr.set_xlabel('Rank by Abundance')
-	ax_thr.set_ylabel('Rank by Diffusion')
-	
-	sc_thr.savefig(plt_folder + '/rank_v_rank_thr.png')
-	plt.close(sc_thr)
+		sc_thr.savefig(plt_folder + '/rank_v_rank_thr.png')
+		plt.close(sc_thr)
 	
 	
 	

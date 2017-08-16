@@ -1132,17 +1132,19 @@ def diffusion_forced(known_on,known_off, network):
 	else:
 		return [ranked,real(requib)]
 		
-def ivp_score(network_adj, the_samp, con = 0.2):
+def ivp_score(network_adj, the_samp, con = 0.1):
 	'''Calculate a fit score based on IVP ranking'''
 	samp_tot = sum(the_samp.values)
 	if samp_tot > 0:
 		ranking1 = diffusion_ivp([],[], network_adj.values[:,1:], sample = the_samp.values, all = True)[0]
 		samp_orded = the_samp.values[flat_two_deep(ranking1)]
-		geoms = con**array(range(len(samp_orded)))
-		score = dot(geoms, samp_orded/samp_tot)
+		samp_or_norm = samp_orded/samp_tot
+		geoms = con**(array(range(1,len(samp_orded)+1))/(len(network_adj)-1))
+		score = dot(geoms, samp_or_norm)
 	else:
 		score = 0
 	return score
+	
 		
 #########################################################################################
 
