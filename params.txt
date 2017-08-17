@@ -1,6 +1,0 @@
-LEAVE THE SPACE AFTER THE =!!!!!!!! Don't put a space at the end!
-sample = test_samples/genus_Subgingival_plaque_SRR062403.txt
-network = diffusion_tests/clustered/pearson_genus_all_coocc_list_clustered.tsv
-adjacency matrix = diffusion_tests/pearson_genus_all_coocc_adj.tsv
-level = genus
-short sample name = plaque

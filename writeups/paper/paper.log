@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  15 AUG 2017 12:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  17 AUG 2017 10:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**code_docs.tex
-(./code_docs.tex
+**paper.tex
+(./paper.tex
 LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
@@ -677,46 +677,35 @@ Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
 \colbreak@box=\box70
 \mc@col@check@num=\count144
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/cprotect/cprotect.sty
-Package: cprotect 2011/01/27 v1.0e (Bruno Le Floch)
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/bigfoot/suffix.sty
-Package: suffix 2006/07/15 1.5a Variant command support
-)
-\CPT@WriteOut=\write5
-\c@CPT@WriteCount=\count145
-\c@CPT@numB=\count146
-\CPT@commandatend@toks=\toks43
-)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/stackengine/stackengine.sty
 Package: stackengine 2017/02/13 v4.01\ Stacking text and objects in convenient 
 ways
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count147
+\etb@tempcnta=\count145
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/listofitems/listofitems.sty
 (/usr/local/texlive/2017/texmf-dist/tex/generic/listofitems/listofitems.tex
-\loi_nestcnt=\count148
+\loi_nestcnt=\count146
 )
 Package: listofitems 2016/11/18 v1.3 Grab items in lists using user-specified s
 ep char
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count149
-\calc@Bcount=\count150
+\calc@Acount=\count147
+\calc@Bcount=\count148
 \calc@Adimen=\dimen278
 \calc@Bdimen=\dimen279
 \calc@Askip=\skip60
 \calc@Bskip=\skip61
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count151
+\calc@Ccount=\count149
 \calc@Cskip=\skip62
 )
-\c@@stackindex=\count152
+\c@@stackindex=\count150
 \@boxshift=\skip63
 \stack@tmplength=\skip64
 \temp@stkl=\skip65
@@ -725,49 +714,49 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \@anchorbox=\box72
 \stackedbox=\box73
 \@centerbox=\box74
-\c@ROWcellindex@=\count153
+\c@ROWcellindex@=\count151
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2015/03/04 v2.20.2
-\thm@style=\toks44
-\thm@bodyfont=\toks45
-\thm@headfont=\toks46
-\thm@notefont=\toks47
-\thm@headpunct=\toks48
+\thm@style=\toks43
+\thm@bodyfont=\toks44
+\thm@headfont=\toks45
+\thm@notefont=\toks46
+\thm@headpunct=\toks47
 \thm@preskip=\skip67
 \thm@postskip=\skip68
 \thm@headsep=\skip69
-\dth@everypar=\toks49
+\dth@everypar=\toks48
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/cleveref/cleveref.sty
 Package: cleveref 2013/12/28 v0.19 Intelligent cross-referencing
 Package cleveref Info: `amsthm' support loaded on input line 2858.
 )
-\c@theorem=\count154
-\c@lemma=\count155
-\c@conj=\count156
-\c@corollary=\count157
-\c@clm=\count158
-\c@rmk=\count159
-\c@note=\count160
-\c@method=\count161
-\c@definition=\count162
+\c@theorem=\count152
+\c@lemma=\count153
+\c@conj=\count154
+\c@corollary=\count155
+\c@clm=\count156
+\c@rmk=\count157
+\c@note=\count158
+\c@method=\count159
+\c@definition=\count160
 
-(./code_docs.aux)
-\openout1 = `code_docs.aux'.
+(./paper.aux)
+\openout1 = `paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 160.
-LaTeX Font Info:    ... okay on input line 160.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 160.
-LaTeX Font Info:    ... okay on input line 160.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 160.
-LaTeX Font Info:    ... okay on input line 160.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 160.
-LaTeX Font Info:    ... okay on input line 160.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 160.
-LaTeX Font Info:    ... okay on input line 160.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 160.
-LaTeX Font Info:    ... okay on input line 160.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -805,17 +794,17 @@ LaTeX Font Info:    ... okay on input line 160.
 
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count163
+\scratchcounter=\count161
 \scratchdimen=\dimen280
 \scratchbox=\box75
-\nofMPsegments=\count164
-\nofMParguments=\count165
-\everyMPshowfont=\toks50
-\MPscratchCnt=\count166
+\nofMPsegments=\count162
+\nofMParguments=\count163
+\everyMPshowfont=\toks49
+\MPscratchCnt=\count164
 \MPscratchDim=\dimen281
-\MPnumerator=\count167
-\makeMPintoPDFobject=\count168
-\everyMPtoPDFconversion=\toks51
+\MPnumerator=\count165
+\makeMPintoPDFobject=\count166
+\everyMPtoPDFconversion=\toks50
 ) (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -867,265 +856,126 @@ Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 ABD: EveryShipout initializing macros
-LaTeX Font Info:    Try loading font information for U+msa on input line 160.
+LaTeX Font Info:    Try loading font information for U+msa on input line 159.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 160.
+LaTeX Font Info:    Try loading font information for U+msb on input line 159.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Package xypdf Info: Line width: 0.39998pt on input line 160.
+Package xypdf Info: Line width: 0.39998pt on input line 159.
+ [1
 
-(./code_docs.toc (./code_docs-1.cpt) (./code_docs-2.cpt) (./code_docs-3.cpt)
-(./code_docs-4.cpt) (./code_docs-5.cpt) (./code_docs-6.cpt) (./code_docs-7.cpt)
-(./code_docs-8.cpt) (./code_docs-9.cpt) (./code_docs-10.cpt)
-(./code_docs-11.cpt) (./code_docs-12.cpt) (./code_docs-13.cpt)
-(./code_docs-14.cpt) (./code_docs-15.cpt) (./code_docs-16.cpt)
-(./code_docs-17.cpt) (./code_docs-18.cpt) (./code_docs-19.cpt)
-(./code_docs-20.cpt) (./code_docs-21.cpt) (./code_docs-22.cpt)
-(./code_docs-23.cpt) (./code_docs-24.cpt) (./code_docs-25.cpt)
-(./code_docs-26.cpt) (./code_docs-27.cpt) (./code_docs-28.cpt)
-(./code_docs-29.cpt) (./code_docs-30.cpt) (./code_docs-31.cpt)
-(./code_docs-32.cpt) (./code_docs-33.cpt) (./code_docs-34.cpt)
-(./code_docs-35.cpt) (./code_docs-36.cpt) (./code_docs-37.cpt)
-(./code_docs-38.cpt) (./code_docs-39.cpt) (./code_docs-40.cpt)
-(./code_docs-41.cpt) (./code_docs-42.cpt) [1
-
-{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./code
-_docs-43.cpt) (./code_docs-44.cpt)
-(./code_docs-45.cpt) (./code_docs-46.cpt) (./code_docs-47.cpt)
-(./code_docs-48.cpt) (./code_docs-49.cpt) (./code_docs-50.cpt))
-\tf@toc=\write6
-\openout6 = `code_docs.toc'.
-
-\openout5 = `code_docs-1.cpt'.
-
-
-(./code_docs-1.cpt)
-\openout5 = `code_docs-2.cpt'.
-
- (./code_docs-2.cpt)
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 171.
+{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 220.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 171.
-\openout5 = `code_docs-3.cpt'.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 220.
 
+<../../stat_figs/pears_1000__species.png, id=22, 1176.5556pt x 651.1527pt>
+File: ../../stat_figs/pears_1000__species.png Graphic file (type png)
 
-(./code_docs-3.cpt)
-Overfull \hbox (4.38982pt too wide) in paragraph at lines 195--196
-[]\OT1/cmr/m/n/10 Output: count of in-dices $\OML/cmm/m/it/10 i$ \OT1/cmr/m/n/1
-0 such that such that $\OML/cmm/m/it/10 r\OT1/cmr/m/n/10 1(\OML/cmm/m/it/10 i\O
-T1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 2 \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 lbd[]; ubd
-[]\OT1/cmr/m/n/10 ]$ and $\OML/cmm/m/it/10 r\OT1/cmr/m/n/10 2(\OML/cmm/m/it/10 
-i\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 2 \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 lbd[]; 
-ubd[]\OT1/cmr/m/n/10 ]$ for $\OML/cmm/m/it/10 j \OT1/cmr/m/n/10 = 0\OML/cmm/m/i
-t/10 ; ::; numthresh$\OT1/cmr/m/n/10 . 
+<use ../../stat_figs/pears_1000__species.png>
+Package pdftex.def Info: ../../stat_figs/pears_1000__species.png used on input 
+line 232.
+(pdftex.def)             Requested size: 470.6139pt x 260.45647pt.
+ [2] [3 <../../stat_figs/pears_1000__species.png>] [4] <../tiny.png, id=40, 111
+5.1261pt x 604.8999pt>
+File: ../tiny.png Graphic file (type png)
+
+<use ../tiny.png>
+Package pdftex.def Info: ../tiny.png used on input line 371.
+(pdftex.def)             Requested size: 446.04254pt x 241.95567pt.
+ <../a_nares.png, id=41, 1136.8071pt x 346.1733pt>
+File: ../a_nares.png Graphic file (type png)
+
+<use ../a_nares.png>
+Package pdftex.def Info: ../a_nares.png used on input line 381.
+(pdftex.def)             Requested size: 511.55847pt x 155.77654pt.
+
+Overfull \hbox (56.26057pt too wide) in paragraph at lines 381--382
+ [] 
  []
 
-\openout5 = `code_docs-4.cpt'.
+<../hldouts.png, id=42, 1122.3531pt x 333.8874pt>
+File: ../hldouts.png Graphic file (type png)
+ <use ../hldouts.png>
+Package pdftex.def Info: ../hldouts.png used on input line 387.
+(pdftex.def)             Requested size: 505.05423pt x 150.24794pt.
 
-(./code_docs-4.cpt) [2]
-\openout5 = `code_docs-5.cpt'.
-
- (./code_docs-5.cpt)
-\openout5 = `code_docs-6.cpt'.
-
- (./code_docs-6.cpt)
-\openout5 = `code_docs-7.cpt'.
-
-
-(./code_docs-7.cpt)
-\openout5 = `code_docs-8.cpt'.
-
- (./code_docs-8.cpt) [3]
-\openout5 = `code_docs-9.cpt'.
-
- (./code_docs-9.cpt)
-\openout5 = `code_docs-10.cpt'.
-
-
-(./code_docs-10.cpt)
-\openout5 = `code_docs-11.cpt'.
-
- (./code_docs-11.cpt) [4]
-\openout5 = `code_docs-12.cpt'.
-
- (./code_docs-12.cpt)
-\openout5 = `code_docs-13.cpt'.
-
-
-(./code_docs-13.cpt)
-\openout5 = `code_docs-14.cpt'.
-
- (./code_docs-14.cpt) [5]
-\openout5 = `code_docs-15.cpt'.
-
- (./code_docs-15.cpt)
-\openout5 = `code_docs-16.cpt'.
-
-
-(./code_docs-16.cpt)
-\openout5 = `code_docs-17.cpt'.
-
- (./code_docs-17.cpt) [6]
-\openout5 = `code_docs-18.cpt'.
-
- (./code_docs-18.cpt)
-\openout5 = `code_docs-19.cpt'.
-
-
-(./code_docs-19.cpt)
-\openout5 = `code_docs-20.cpt'.
-
- (./code_docs-20.cpt)
-\openout5 = `code_docs-21.cpt'.
-
- (./code_docs-21.cpt) [7]
-\openout5 = `code_docs-22.cpt'.
-
-
-(./code_docs-22.cpt)
-\openout5 = `code_docs-23.cpt'.
-
- (./code_docs-23.cpt)
-\openout5 = `code_docs-24.cpt'.
-
- (./code_docs-24.cpt) [8]
-\openout5 = `code_docs-25.cpt'.
-
-
-(./code_docs-25.cpt)
-\openout5 = `code_docs-26.cpt'.
-
- (./code_docs-26.cpt)
-\openout5 = `code_docs-27.cpt'.
-
- (./code_docs-27.cpt)
-\openout5 = `code_docs-28.cpt'.
-
-
-(./code_docs-28.cpt) [9]
-\openout5 = `code_docs-29.cpt'.
-
- (./code_docs-29.cpt)
-\openout5 = `code_docs-30.cpt'.
-
- (./code_docs-30.cpt)
-\openout5 = `code_docs-31.cpt'.
-
-
-(./code_docs-31.cpt) [10]
-\openout5 = `code_docs-32.cpt'.
-
- (./code_docs-32.cpt)
-\openout5 = `code_docs-33.cpt'.
-
- (./code_docs-33.cpt)
-\openout5 = `code_docs-34.cpt'.
-
-
-(./code_docs-34.cpt) [11]
-\openout5 = `code_docs-35.cpt'.
-
- (./code_docs-35.cpt)
-\openout5 = `code_docs-36.cpt'.
-
- (./code_docs-36.cpt)
-\openout5 = `code_docs-37.cpt'.
-
-
-(./code_docs-37.cpt)
-\openout5 = `code_docs-38.cpt'.
-
- (./code_docs-38.cpt) [12]
-\openout5 = `code_docs-39.cpt'.
-
- (./code_docs-39.cpt)
-\openout5 = `code_docs-40.cpt'.
-
-
-(./code_docs-40.cpt)
-Overfull \hbox (13.48912pt too wide) in paragraph at lines 823--824
-\OT1/cmr/m/n/10 umn with taxa names headed ``TAXA". The re-main-ing columns sho
-uld be of the form ``[][]\OT1/cmtt/m/n/10 Body_Part_gender_LLL#######[]\OT1/cmr
-/m/n/10 "
+Overfull \hbox (49.75633pt too wide) in paragraph at lines 387--388
+ [] 
  []
 
-\openout5 = `code_docs-41.cpt'.
+<../random.png, id=43, 1149.093pt x 345.4506pt>
+File: ../random.png Graphic file (type png)
+ <use ../random.png>
+Package pdftex.def Info: ../random.png used on input line 393.
+(pdftex.def)             Requested size: 517.08708pt x 155.45132pt.
 
-(./code_docs-41.cpt) [13]
-\openout5 = `code_docs-42.cpt'.
-
- (./code_docs-42.cpt) [14]
-\openout5 = `code_docs-43.cpt'.
-
- (./code_docs-43.cpt)
-\openout5 = `code_docs-44.cpt'.
-
-
-(./code_docs-44.cpt)
-\openout5 = `code_docs-45.cpt'.
-
- (./code_docs-45.cpt)
-\openout5 = `code_docs-46.cpt'.
-
- (./code_docs-46.cpt) [15]
-\openout5 = `code_docs-47.cpt'.
+Overfull \hbox (61.78918pt too wide) in paragraph at lines 393--394
+ [] 
+ []
 
 
-(./code_docs-47.cpt)
-\openout5 = `code_docs-48.cpt'.
-
- (./code_docs-48.cpt)
-\openout5 = `code_docs-49.cpt'.
-
- (./code_docs-49.cpt)
-\openout5 = `code_docs-50.cpt'.
+Underfull \hbox (badness 10000) in paragraph at lines 379--397
+[][]
+ []
 
 
-(./code_docs-50.cpt) (./code_docs.bbl [16]
+Underfull \hbox (badness 10000) in paragraph at lines 379--397
+[]
+ []
+
+[5 <../tiny.png>] [6 <../a_nares.png> <../hldouts.png> <../random.png>]
+(./paper.bbl
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ¡ in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¼ in font cmr10!
-) [17] (./code_docs.aux) ) 
+ [7]) [8] (./paper.aux) ) 
 Here is how much of TeX's memory you used:
- 20129 strings out of 492995
- 369320 string characters out of 6132704
- 477744 words of memory out of 5000000
- 23010 multiletter control sequences out of 15000+600000
- 19413 words of font info for 76 fonts, out of 8000000 for 9000
+ 19874 strings out of 492995
+ 365217 string characters out of 6132704
+ 478480 words of memory out of 5000000
+ 23002 multiletter control sequences out of 15000+600000
+ 22594 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,12n,67p,3236b,327s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2017/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/
+ 55i,12n,67p,3232b,852s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmbxti10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmmi5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmmi7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmmib10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfon
-ts/cmextra/cmmib7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr17.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
-0.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10
-.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.
-pfb>
-Output written on code_docs.pdf (17 pages, 238300 bytes).
+ts/cm/cmmi9.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmmib10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
+/cmextra/cmmib7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr17.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7
+.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pf
+b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><
+/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></
+usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></us
+r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr
+/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on paper.pdf (8 pages, 524212 bytes).
 PDF statistics:
- 134 PDF objects out of 1000 (max. 8388607)
- 96 compressed objects within 1 object stream
+ 137 PDF objects out of 1000 (max. 8388607)
+ 93 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 38 words of extra memory for PDF output out of 10000 (max. 10000000)
 

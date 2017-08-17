@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  12 JUL 2017 10:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  17 AUG 2017 08:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1082,23 +1082,23 @@ LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4> not available
 [2
 
 ]
-<../old_networks/june20/june20_species.png, id=78, 1457.445pt x 655.44875pt>
-File: ../old_networks/june20/june20_species.png Graphic file (type png)
-
-<use ../old_networks/june20/june20_species.png>
-Package pdftex.def Info: ../old_networks/june20/june20_species.png used on inpu
-t line 161.
+<../../../old_networks/june20/june20_species.png, id=78, 1457.445pt x 655.44875
+pt>
+File: ../../../old_networks/june20/june20_species.png Graphic file (type png)
+ <use ../../../old_networks/june20/june20_species.png>
+Package pdftex.def Info: ../../../old_networks/june20/june20_species.png used o
+n input line 161.
 (pdftex.def)             Requested size: 291.48384pt x 131.08742pt.
  [3
 
- <../old_networks/june20/june20_species.png (PNG copy)>] [4
+ <../../../old_networks/june20/june20_species.png (PNG copy)>] [4
 
 ]
-<pearson_species.png, id=134, 447.6725pt x 478.78876pt>
-File: pearson_species.png Graphic file (type png)
+<../pearson_species.png, id=134, 447.6725pt x 478.78876pt>
+File: ../pearson_species.png Graphic file (type png)
 
-<use pearson_species.png>
-Package pdftex.def Info: pearson_species.png used on input line 181.
+<use ../pearson_species.png>
+Package pdftex.def Info: ../pearson_species.png used on input line 181.
 (pdftex.def)             Requested size: 179.06583pt x 191.5121pt.
 
 Overfull \vbox (5.04955pt too high) detected at line 181
@@ -1106,7 +1106,7 @@ Overfull \vbox (5.04955pt too high) detected at line 181
 
 [5
 
- <./pearson_species.png>] [6
+ <../pearson_species.png>] [6
 
 ] [7
 
@@ -1127,11 +1127,11 @@ Overfull \hbox (3.08467pt too wide) in paragraph at lines 368--368
 
 [13
 
-] <ranked_known_nodes.png, id=384, 693.59125pt x 649.42625pt>
-File: ranked_known_nodes.png Graphic file (type png)
+] <../ranked_known_nodes.png, id=384, 693.59125pt x 649.42625pt>
+File: ../ranked_known_nodes.png Graphic file (type png)
 
-<use ranked_known_nodes.png>
-Package pdftex.def Info: ranked_known_nodes.png used on input line 379.
+<use ../ranked_known_nodes.png>
+Package pdftex.def Info: ../ranked_known_nodes.png used on input line 379.
 (pdftex.def)             Requested size: 173.39738pt x 162.35616pt.
 
 Overfull \vbox (13.8936pt too high) detected at line 379
@@ -1139,11 +1139,11 @@ Overfull \vbox (13.8936pt too high) detected at line 379
 
 [14
 
- <./ranked_known_nodes.png>]
-<ranked_ivp.png, id=412, 700.6175pt x 659.46375pt>
-File: ranked_ivp.png Graphic file (type png)
- <use ranked_ivp.png>
-Package pdftex.def Info: ranked_ivp.png used on input line 390.
+ <../ranked_known_nodes.png>]
+<../ranked_ivp.png, id=412, 700.6175pt x 659.46375pt>
+File: ../ranked_ivp.png Graphic file (type png)
+ <use ../ranked_ivp.png>
+Package pdftex.def Info: ../ranked_ivp.png used on input line 390.
 (pdftex.def)             Requested size: 175.15395pt x 164.86552pt.
 
 Overfull \vbox (16.40297pt too high) detected at line 390
@@ -1151,11 +1151,12 @@ Overfull \vbox (16.40297pt too high) detected at line 390
 
 [15
 
- <./ranked_ivp.png>] <ranked_bdvp.png, id=440, 697.60625pt x 641.39626pt>
-File: ranked_bdvp.png Graphic file (type png)
+ <../ranked_ivp.png>]
+<../ranked_bdvp.png, id=440, 697.60625pt x 641.39626pt>
+File: ../ranked_bdvp.png Graphic file (type png)
 
-<use ranked_bdvp.png>
-Package pdftex.def Info: ranked_bdvp.png used on input line 401.
+<use ../ranked_bdvp.png>
+Package pdftex.def Info: ../ranked_bdvp.png used on input line 401.
 (pdftex.def)             Requested size: 174.40112pt x 160.34866pt.
 
 Overfull \vbox (11.88611pt too high) detected at line 401
@@ -1163,7 +1164,7 @@ Overfull \vbox (11.88611pt too high) detected at line 401
 
 [16
 
- <./ranked_bdvp.png>] [17
+ <../ranked_bdvp.png>] [17
 
 ] [18
 
@@ -1174,10 +1175,10 @@ Overfull \vbox (11.88611pt too high) detected at line 401
 ] [21
 
 ]
-<tiny.png, id=601, 1115.1261pt x 604.8999pt>
-File: tiny.png Graphic file (type png)
- <use tiny.png>
-Package pdftex.def Info: tiny.png used on input line 616.
+<../tiny.png, id=601, 1115.1261pt x 604.8999pt>
+File: ../tiny.png Graphic file (type png)
+ <use ../tiny.png>
+Package pdftex.def Info: ../tiny.png used on input line 616.
 (pdftex.def)             Requested size: 334.5404pt x 181.47136pt.
 
 Overfull \hbox (27.25053pt too wide) in paragraph at lines 616--616
@@ -1190,21 +1191,21 @@ Overfull \vbox (8.60881pt too high) detected at line 616
 
 [22
 
- <./tiny.png>] <a_nares.png, id=628, 1136.8071pt x 346.1733pt>
-File: a_nares.png Graphic file (type png)
+ <../tiny.png>] <../a_nares.png, id=628, 1136.8071pt x 346.1733pt>
+File: ../a_nares.png Graphic file (type png)
 
-<use a_nares.png>
-Package pdftex.def Info: a_nares.png used on input line 630.
+<use ../a_nares.png>
+Package pdftex.def Info: ../a_nares.png used on input line 630.
 (pdftex.def)             Requested size: 284.20108pt x 86.5431pt.
- <random.png, id=629, 1149.093pt x 345.4506pt>
-File: random.png Graphic file (type png)
+ <../random.png, id=629, 1149.093pt x 345.4506pt>
+File: ../random.png Graphic file (type png)
 
-<use random.png>
-Package pdftex.def Info: random.png used on input line 630.
+<use ../random.png>
+Package pdftex.def Info: ../random.png used on input line 630.
 (pdftex.def)             Requested size: 287.27255pt x 86.36243pt.
  [23
 
- <./a_nares.png> <./random.png>]
+ <../a_nares.png> <../random.png>]
 \tf@nav=\write7
 \openout7 = `presentation.nav'.
 
@@ -1228,8 +1229,8 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 24813 strings out of 492995
- 470131 string characters out of 6132704
+ 24814 strings out of 492995
+ 470248 string characters out of 6132704
  593803 words of memory out of 5000000
  27737 multiletter control sequences out of 15000+600000
  24272 words of font info for 81 fonts, out of 8000000 for 9000

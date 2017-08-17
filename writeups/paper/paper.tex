@@ -229,7 +229,7 @@ The result with $10,000$ Monte Carlo trials was that it was extremely rare for a
 In addition to testing the complete network, I performed the same analysis on networks built from randomly drawn subsets of the data.
 
 \begin{figure}
-	\includegraphics[scale = 0.4]{../stat_figs/pears_1000__species.png}
+	\includegraphics[scale = 0.4]{../../stat_figs/pears_1000__species.png}
 	\caption{The result of Monte-Carlo estimation of the likelihood of various network statistics, as well as the number of edges and mean degree. The networks were made from correlations using randomly drawn subsets of increasing size of the data at the species level, from 1 sample to 60 samples. Samples were GOTTCHA output of data from (FIND OUT). For each network, 1000 random trials were generated according to the above null model in order to estimate likelihood of statistics.}\label{montecarlos}
 \end{figure}
 
@@ -368,7 +368,7 @@ Let's start with a very simple example. Consider the two networks shown in \cref
 
 \begin{figure}
 	\begin{center}
-		\includegraphics[scale = 0.4]{tiny.png}	
+		\includegraphics[scale = 0.4]{../tiny.png}	
 	\end{center}
 	\caption{Results of sample assignment: $u_1$ cannot be decided, $u_2$ is assigned to network $A_1$, and $u_3$ is assigned to network $A_2$.}\label{tiny_res}
 \end{figure}
@@ -378,19 +378,19 @@ I did the same on a column of training data for the species level network, a col
 \begin{figure}
 	\begin{subfigure}[b]{0.9\linewidth}
 		\begin{center}
-			\includegraphics[scale = 0.45]{a_nares.png}	
+			\includegraphics[scale = 0.45]{../a_nares.png}	
 		\end{center}
 		\caption{Assignment of column of training data to networks built with binning (right) and with correlation (left).}
 	\end{subfigure}
 	\begin{subfigure}[b]{0.9\linewidth}
 		\begin{center}
-			\includegraphics[scale = 0.45]{hldouts.png}	
+			\includegraphics[scale = 0.45]{../hldouts.png}	
 		\end{center}
 		\caption{Assignment of column of held out data to networks built with binning (right) and with correlation (left).}
 	\end{subfigure}
 	\begin{subfigure}[b]{0.9\linewidth}
 		\begin{center}
-			\includegraphics[scale = 0.45]{random.png}	
+			\includegraphics[scale = 0.45]{../random.png}	
 		\end{center}
 		\caption{Assignment randomly generated data to networks built with binning (right) and with correlation (left). This random sample had 63 nodes chosen to be present, uniformly, and given an abundance drawn from a $unif[0,0.1]$ distribution.}
 	\end{subfigure}
@@ -432,5 +432,5 @@ For each sample, we also performed the following experiment. We set the taxa wit
 \section{Discussion}
 
 \bibliographystyle{plain}
-\bibliography{../../../summer17}
+\bibliography{../summer17}
 \end{document}

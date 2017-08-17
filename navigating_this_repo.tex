@@ -1,0 +1,251 @@
+\documentclass[10pt]{article}
+%\documentclass[review]{siamart1116}
+%\documentclass[review]{siamonline1116}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{fancyhdr}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{graphicx}
+\usepackage[section]{placeins}
+\usepackage{nicefrac}
+\usepackage{bm}
+\usepackage{xcolor}
+\usepackage[format=plain,indention=.5cm, font={it,small},labelfont=bf]{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{enumerate}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta}
+\usepackage[all]{xy}
+\usepackage{url}
+\usepackage{multicol}
+\usepackage{cprotect}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{stackengine}
+\usepackage{amsthm}
+\usepackage{cleveref}
+
+
+\newtheorem{theorem}{Theorem}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem*{lemma*}{Lemma}
+\newtheorem{conj}{Conjecture}
+\newtheorem{corollary}{Corollary}
+\newtheorem{clm}{Claim}
+\newtheorem{rmk}{Remark}
+\newtheorem{note}{NOTE}
+\newtheorem{method}{Method}
+
+\theoremstyle{definition}
+\newtheorem*{def*}{Definition}
+\newtheorem{definition}{Definition}
+\numberwithin{theorem}{section}
+\numberwithin{definition}{section}
+\numberwithin{lemma}{section}
+\numberwithin{corollary}{section}
+\numberwithin{clm}{section}
+\numberwithin{rmk}{section}
+
+\newcommand{\low}[1]{$_{\text{#1}}$}
+\newcommand\xput[2][0.5]{%
+	\rule{#1\linewidth}{0pt}\makebox[0pt][c]{#2}\hfill}
+
+\setlength{\headheight}{15pt}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead[L]{Brunner}
+\fancyhead[C]{Co-Occurrance Network}
+\fancyhead[R]{\today}
+\lfoot{}
+\cfoot{\thepage}
+\rfoot{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+%\newsiamthm{clm}{Claim}
+%\newsiamremark{rmk}{Remark}
+%\newsiamremark{note}{NOTE}
+%\numberwithin{theorem}{section}
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newenvironment{inbox}[1]
+{\begin{center}
+		\begin{tabular}{|p{0.9\textwidth}|}
+			\hline
+			{\bf #1}\\
+		}
+		{ 
+			\\\\\hline
+		\end{tabular} 
+	\end{center}
+}
+\newenvironment{inbox2}
+{\begin{center}
+		\begin{tabular}{|p{0.9\textwidth}|}
+			\hline \vspace{-0.5 cm}
+		}
+		{ 
+			\\ \hline
+		\end{tabular} 
+	\end{center}
+}
+
+
+
+
+\newcommand{\nhalf}{\nicefrac{1}{2}}
+\newcommand{\eps}{\epsilon_{machine}}
+\newcommand{\ol}{\overline}
+\renewcommand{\b}{\bm}
+
+\definecolor{dgreen}{RGB}{49,128,23}
+\definecolor{lgreen}{RGB}{77, 255, 166}
+\definecolor{nicepink}{RGB}{255, 0, 102}
+\definecolor{nicered}{RGB}{255, 80, 80}
+\definecolor{lblue}{RGB}{102, 163, 255}
+\definecolor{lgray}{RGB}{217, 217, 217}
+
+\newcommand{\bE}{\mathbb{E}}
+\newcommand{\bP}{\mathbb{P}}
+\newcommand{\bR}{\mathbb{R}}
+\newcommand{\bN}{\mathbb{N}}
+\newcommand{\bZ}{\mathbb{Z}}
+\newcommand{\bQ}{\mathbb{Q}}
+\newcommand{\bC}{\mathbb{C}}
+\newcommand{\cA}{\mathcal{A}}
+\newcommand{\cB}{\mathcal{B}}
+\newcommand{\cC}{\mathcal{C}}
+\newcommand{\cD}{\mathcal{D}}
+\newcommand{\cE}{\mathcal{E}}
+\newcommand{\cF}{\mathcal{F}}
+\newcommand{\cG}{\mathcal{G}}
+\newcommand{\cH}{\mathcal{H}}
+\newcommand{\cI}{\mathcal{I}}
+\newcommand{\cJ}{\mathcal{J}}
+\newcommand{\cK}{\mathcal{K}}
+\newcommand{\cL}{\mathcal{L}}
+\newcommand{\cM}{\mathcal{M}}
+\newcommand{\cN}{\mathcal{N}}
+\newcommand{\cO}{\mathcal{O}}
+\newcommand{\cP}{\mathcal{P}}
+\newcommand{\cQ}{\mathcal{Q}}
+\newcommand{\cR}{\mathcal{R}}
+\newcommand{\cS}{\mathcal{S}}
+\newcommand{\cT}{\mathcal{T}}
+\newcommand{\cU}{\mathcal{U}}
+\newcommand{\cV}{\mathcal{V}}
+\newcommand{\cW}{\mathcal{W}}
+\newcommand{\cX}{\mathcal{X}}
+\newcommand{\cY}{\mathcal{Y}}
+\newcommand{\cZ}{\mathcal{Z}}
+
+\newcommand{\inter}{\text{\normalfont int}}
+\newcommand{\ka}{\kappa}
+\newcommand{\fp}{\varrho}
+\newcommand{\problem}[2]{ \ \\ {\bf #1} {\it #2} \ \\} 
+
+\renewcommand{\arraystretch}{1.5}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}	
+\author{Jim Brunner}
+\title{Navigating This Repo}
+
+\begin{document}
+\maketitle
+
+\section{Parent Folder}
+The parent folder contains all the python and bash scripts used in the project, as well as the python module of functions. The python module of function is \verb|co_occ_funs.py|. The python scripts are:
+\begin{itemize}
+	\item \verb|adding_data.py| - Experiment to test network building with growing data set.
+	\item \verb|cluster_net.py| - Clustering for network that has been built.
+	\item \verb|co_occurrence.py| - Creates Networks.
+	\item \verb|examples.py| - Makes examples for a paper.
+	\item \verb|falsepm.py| - Validation experiments.
+	\item \verb|mc_speed.py| - Test time to build networks.
+	\item \verb|network_stats.py| - Compares various statistics of a network to the null model.
+	\item \verb|rand_samp.py| - Creates a ``sample" that can be analyzed.
+	\item \verb|sample_analysis.py| - Analyses a sample, creates a table that can be added to a cytoscape network.
+\end{itemize}
+
+The bash scripts are
+\begin{itemize}
+	\item \verb|net_making.sh| - Runs \verb|co_occurrence.py|, \verb|cluster_net.py|, \verb|network_stats.py|, and \verb|falsepm.py|, for genus and species level. Creates a folder with the date and time: \verb|MM_DD_HH_MM_networks|, and subfolders for taxonomic level and network creation method. 
+	\item \verb|sample_tests.sh| - runs \verb|rand_samp.py| and \verb|sample_analysis.py|
+\end{itemize}
+
+For detailed code documentation, see \verb|writeups/docs/code_docs.pdf|.
+
+In addition, the parent folder contains the following text files:
+\begin{itemize}
+	\item \verb|count_by_type.txt| - Contains a count of the sample types in \verb|merged2.txt|, and the holdouts from \verb|08_14_14_57_networks|
+	\item \verb|merged_assignment.txt| - Small set of GOTTCHA output data (from HMP?)
+	\item \verb|merged2.txt| - Larger set of HMP data.
+\end{itemize}
+
+Also, it contains this file and the various auxiliary files used to create it.
+
+\section{pycache}
+This folder is created by python when a module is created (in this case \verb|co_occ_funs.py| and can be ignored.
+
+\cprotect \section{\verb|08_08_17_09_networks| \& \verb|08_14_14_57_networks|}
+These folders contain network files that can be put into cytoscape. The numbers are date and time in \verb|MM_DD_HH_MM| format. In each folder there two subfolders corresponding to taxonomic level. In each of these, there is again two subfolders corresponding to the network building method. The \verb|bins| folder contains networks built using the ``binning" method, and the \verb|pears| folder contains networks built using Pearson correlation. 
+
+All network files are \verb|.tsv| text files, and can be read into a python environment using pandas \verb|read_csv('filename', sep = '\t')|. For each network, there are four files, which differ in the end of the filename:
+\begin{itemize}
+	\item \verb|adj.tsv| - This is the adjacency matrix, used for any analysis you want to do in python, not for cytoscape
+	\item \verb|list.tsv| - This is a list of edges, and can be imported into cytoscape using \verb|Import Network From File|.
+	\item \verb|node_data.tsv| - This is a node data table and can be added to the existing cytoscape network using \verb|Import Table From File|. 
+	\item \verb|held.tsv| - This is a list of the data columns that were not used in creating the network.
+\end{itemize}
+
+The procedure for importing a network into cytoscape is then:
+\begin{enumerate}
+	\item Click ``Import Network From File" (a down arrow pointing at a cartoon of a 3 node network) and click a the network file ending in \verb|list.tsv|. Make sure there isn't an index column in the import box that comes up (if there is, click the dropdown above the column and select ``not imported"). 
+	\item Click ``Import Table From File" (a down arrow pointing at a cartoon of a spreadsheet) and select the file ending in \verb|node_data.tsv|\cprotect \emph{that has the same beginning of the file name as the \verb|list.tsv| file}. In the resulting import box, at the top dropdown, change the selection next to ``Where To Import Table Data" to ``Selected Networks Only", and select the correct network. Make sure the first column (with a key above it) is a list of taxa names. If there is an index list, don't import it and put the key above the list of taxa names.
+	\item If you want colors, go to ``style", find the color attribute you want (node fill, for example), select ``passthrough mapping", and select a data column containing the word ``color".
+\end{enumerate}
+
+\subsection{pears}
+In the \verb|pears| folder there is a couple of extra things. These are: a \verb|stats.txt| file that contains the results of \verb|network_stats.py|, and folder called \verb|validation_plots|. This folder contains the results of \verb|falsepm.py|.
+
+\section{Old Scripts}
+This folder contains some old code that might not work anymore because of changes to \verb|co_occ_funs.py|. 
+\begin{itemize}
+	\item \verb|add_gender.py| - added the gender column to node data in \verb|08_08_17_09_networks| 
+	\item \verb|cleanup.py| - cleaned up network files for easier import into cytoscape. No longer needed, this cleanup has been incorporated into \verb|co_occurrence.py|.
+	\item \verb|color_key.py| - creates a plot of colors. Can be used to create a key for the coloring of nodes that is in the node data table.
+\end{itemize}
+
+\section{RCode}
+Pavel's folder - contains metadata for data I don't have
+
+\section{Stat Figs}
+Contains figures made. The files in the folder are made from various experiments using \verb|merged_assignment.txt| data, while the folder \verb|merged2| used data from \verb|merged2.txt|. 
+
+\section{Test Samples}
+This folder contains ``samples" that can be put through \verb|sample_analysis.py| to make examples.
+
+\section{Writeups}
+This contains all the documentation. The files are picturs (\verb|.png| files) and one bibliography file (\verb|.bib| file) which is used to add references in a \LaTeX \,document. Documentation was created in \LaTeX, meaning numerous auxiliary files are created. The \verb|.tex| writes the document, and the \verb|.pdf| file is the what should be read. The other files can be ignored. To edit a document, open the \verb|.tex| file and write away. Must have \LaTeX \,installed on the computer, and I like TeXstudio as an editor.
+
+\subsection{docs}
+Code documentation. 
+
+\subsection{notes}
+All notes from the summer related directly to this project. This document contains some ideas that I haven't explored.
+
+\subsection{paper}
+The paper on the project.
+
+\subsection{presentation}
+Presentation for the project (also created in \LaTeX using beamer).
+
+
+\end{document}

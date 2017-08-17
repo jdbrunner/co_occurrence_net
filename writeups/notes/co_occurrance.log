@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  16 AUG 2017 16:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  17 AUG 2017 08:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**paper.tex
-(./paper.tex
+**co_occurrance.tex
+(./co_occurrance.tex
 LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
@@ -742,8 +742,8 @@ Package cleveref Info: `amsthm' support loaded on input line 2858.
 \c@method=\count159
 \c@definition=\count160
 
-(./paper.aux)
-\openout1 = `paper.aux'.
+(./co_occurrance.aux)
+\openout1 = `co_occurrance.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 159.
 LaTeX Font Info:    ... okay on input line 159.
@@ -869,112 +869,176 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 Package xypdf Info: Line width: 0.39998pt on input line 159.
  [1
 
-{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 220.
+{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 288.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 220.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 288.
 
-<../stat_figs/pears_1000__species.png, id=22, 1176.5556pt x 651.1527pt>
-File: ../stat_figs/pears_1000__species.png Graphic file (type png)
+<../../stat_figs/pears_1000__species.png, id=28, 1176.5556pt x 651.1527pt>
+File: ../../stat_figs/pears_1000__species.png Graphic file (type png)
 
-<use ../stat_figs/pears_1000__species.png>
-Package pdftex.def Info: ../stat_figs/pears_1000__species.png used on input lin
-e 232.
+<use ../../stat_figs/pears_1000__species.png>
+Package pdftex.def Info: ../../stat_figs/pears_1000__species.png used on input 
+line 300.
 (pdftex.def)             Requested size: 470.6139pt x 260.45647pt.
- [2] [3 <../stat_figs/pears_1000__species.png>] [4] <tiny.png, id=40, 1115.1261
-pt x 604.8999pt>
-File: tiny.png Graphic file (type png)
- <use tiny.png>
-Package pdftex.def Info: tiny.png used on input line 371.
+ [3] [4 <../../stat_figs/pears_1000__species.png>] <../comm_samp.png, id=39, 58
+5.18625pt x 589.20125pt>
+File: ../comm_samp.png Graphic file (type png)
+
+<use ../comm_samp.png>
+Package pdftex.def Info: ../comm_samp.png used on input line 354.
+(pdftex.def)             Requested size: 175.55722pt x 176.76173pt.
+ <../spect_sample.png, id=40, 589.20125pt x 469.755pt>
+File: ../spect_sample.png Graphic file (type png)
+
+<use ../spect_sample.png>
+Package pdftex.def Info: ../spect_sample.png used on input line 360.
+(pdftex.def)             Requested size: 206.22351pt x 164.41672pt.
+ [5 <../comm_samp.png> <../spect_sample.png>] [6]
+[7] [8] [9] [10]
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 674--701
+[][] [] 
+ []
+
+<../ranked_ivp.png, id=65, 700.6175pt x 659.46375pt>
+File: ../ranked_ivp.png Graphic file (type png)
+ <use ../ranked_ivp.png>
+Package pdftex.def Info: ../ranked_ivp.png used on input line 798.
+(pdftex.def)             Requested size: 210.18686pt x 197.84064pt.
+
+<../ranked_bdvp.png, id=66, 697.60625pt x 641.39626pt>
+File: ../ranked_bdvp.png Graphic file (type png)
+
+<use ../ranked_bdvp.png>
+Package pdftex.def Info: ../ranked_bdvp.png used on input line 804.
+(pdftex.def)             Requested size: 209.28348pt x 192.42035pt.
+
+<../ranked_known_nodes.png, id=67, 693.59125pt x 649.42625pt>
+File: ../ranked_known_nodes.png Graphic file (type png)
+
+<use ../ranked_known_nodes.png>
+Package pdftex.def Info: ../ranked_known_nodes.png used on input line 810.
+(pdftex.def)             Requested size: 208.07898pt x 194.82938pt.
+
+<../../stat_figs/merged2/species_rks_fn_full.png, id=68, 869.4081pt x 582.4962p
+t>
+File: ../../stat_figs/merged2/species_rks_fn_full.png Graphic file (type png)
+ <use ../../stat_figs/merged2/species_rks_fn_full.png>
+Package pdftex.def Info: ../../stat_figs/merged2/species_rks_fn_full.png used o
+n input line 823.
+(pdftex.def)             Requested size: 434.70299pt x 291.24739pt.
+ [11] [12] [13 <../ranked_ivp.png> <../ranked_bdvp.png> <../ranked_known_nodes.
+png>] [14 <../../stat_figs/merged2/species_rks_fn_full.png>]
+<../tiny.png, id=86, 1115.1261pt x 604.8999pt>
+File: ../tiny.png Graphic file (type png)
+ <use ../tiny.png>
+Package pdftex.def Info: ../tiny.png used on input line 929.
 (pdftex.def)             Requested size: 446.04254pt x 241.95567pt.
 
-<a_nares.png, id=41, 1136.8071pt x 346.1733pt>
-File: a_nares.png Graphic file (type png)
- <use a_nares.png>
-Package pdftex.def Info: a_nares.png used on input line 381.
+<../a_nares.png, id=87, 1136.8071pt x 346.1733pt>
+File: ../a_nares.png Graphic file (type png)
+ <use ../a_nares.png>
+Package pdftex.def Info: ../a_nares.png used on input line 939.
 (pdftex.def)             Requested size: 511.55847pt x 155.77654pt.
 
-Overfull \hbox (56.26057pt too wide) in paragraph at lines 381--382
+Overfull \hbox (56.26057pt too wide) in paragraph at lines 939--940
  [] 
  []
 
-<hldouts.png, id=42, 1122.3531pt x 333.8874pt>
-File: hldouts.png Graphic file (type png)
- <use hldouts.png>
-Package pdftex.def Info: hldouts.png used on input line 387.
+<../hldouts.png, id=88, 1122.3531pt x 333.8874pt>
+File: ../hldouts.png Graphic file (type png)
+ <use ../hldouts.png>
+Package pdftex.def Info: ../hldouts.png used on input line 945.
 (pdftex.def)             Requested size: 505.05423pt x 150.24794pt.
 
-Overfull \hbox (49.75633pt too wide) in paragraph at lines 387--388
+Overfull \hbox (49.75633pt too wide) in paragraph at lines 945--946
  [] 
  []
 
-<random.png, id=43, 1149.093pt x 345.4506pt>
-File: random.png Graphic file (type png)
- <use random.png>
-Package pdftex.def Info: random.png used on input line 393.
+<../random.png, id=89, 1149.093pt x 345.4506pt>
+File: ../random.png Graphic file (type png)
+ <use ../random.png>
+Package pdftex.def Info: ../random.png used on input line 951.
 (pdftex.def)             Requested size: 517.08708pt x 155.45132pt.
 
-Overfull \hbox (61.78918pt too wide) in paragraph at lines 393--394
+Overfull \hbox (61.78918pt too wide) in paragraph at lines 951--952
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--397
+Underfull \hbox (badness 10000) in paragraph at lines 937--955
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--397
+Underfull \hbox (badness 10000) in paragraph at lines 937--955
 []
  []
 
-[5 <./tiny.png>] [6 <./a_nares.png> <./hldouts.png> <./random.png>]
-(./paper.bbl
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no ¡ in font cmr10!
+[15]
+<../../stat_figs/merged2/species_fits_m2.png, id=95, 1084.7727pt x 612.1269pt>
+File: ../../stat_figs/merged2/species_fits_m2.png Graphic file (type png)
+
+<use ../../stat_figs/merged2/species_fits_m2.png>
+Package pdftex.def Info: ../../stat_figs/merged2/species_fits_m2.png used on in
+put line 976.
+(pdftex.def)             Requested size: 433.9014pt x 244.84642pt.
+
+<../../stat_figs/merged2/species_fits_full.png, id=96, 985.7628pt x 425.6703pt>
+File: ../../stat_figs/merged2/species_fits_full.png Graphic file (type png)
+<use ../../stat_figs/merged2/species_fits_full.png>
+Package pdftex.def Info: ../../stat_figs/merged2/species_fits_full.png used on 
+input line 982.
+(pdftex.def)             Requested size: 492.8802pt x 212.83463pt.
+ (./co_occurrance.bbl
+[16 <../tiny.png>] [17 <../a_nares.png> <../hldouts.png> <../random.png>]
+[18 <../../stat_figs/merged2/species_fits_m2.png> <../../stat_figs/merged2/spec
+ies_fits_full.png>]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¼ in font cmr10!
- [7]) [8] (./paper.aux) ) 
+) [19] (./co_occurrance.aux) ) 
 Here is how much of TeX's memory you used:
- 19873 strings out of 492995
- 365151 string characters out of 6132704
- 478480 words of memory out of 5000000
- 23002 multiletter control sequences out of 15000+600000
- 22594 words of font info for 86 fonts, out of 8000000 for 9000
+ 19972 strings out of 492995
+ 367651 string characters out of 6132704
+ 490480 words of memory out of 5000000
+ 23090 multiletter control sequences out of 15000+600000
+ 23125 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,12n,67p,3232b,852s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmbxti10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmmi5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmmi7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmmi9.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmmib10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
-/cmextra/cmmib7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr17.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7
-.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pf
-b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><
-/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></
-usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></us
-r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr
-/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on paper.pdf (8 pages, 524402 bytes).
+ 55i,12n,67p,3240b,895s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2017/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmi7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmmi8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi9.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmib10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfon
+ts/cmextra/cmmib7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr17.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.
+pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
+></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></
+usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pf
+b>
+Output written on co_occurrance.pdf (19 pages, 1191027 bytes).
 PDF statistics:
- 137 PDF objects out of 1000 (max. 8388607)
- 93 compressed objects within 1 object stream
+ 193 PDF objects out of 1000 (max. 8388607)
+ 120 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 38 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 78 words of extra memory for PDF output out of 10000 (max. 10000000)
 
