@@ -19,11 +19,14 @@
 #
 #
 ## modules needed
+import matplotlib
+# Force matplotlib to not use any Xwindows backend - needs to be first
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
 from pylab import *
 import pandas as pd
 ###pandas DataFrame usage: df['column_name'] or df.loc['row_name' (index),'column'] or df.iloc[row_number, 'column']
 import sys
-import matplotlib.pyplot as plt
 from co_occ_funs import *
 import os
 from random import sample
