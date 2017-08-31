@@ -11,7 +11,9 @@
 
 
 
-
+import matplotlib
+# Force matplotlib to not use any Xwindows backend - needs to be first
+matplotlib.use('Agg')
 from pylab import *
 import pandas as pd
 import itertools as iter
@@ -25,10 +27,10 @@ from scipy import misc, sparse, cluster
 from random import sample
 
 import os
-os.environ['JOBLIB_START_METHOD'] = 'forkserver'
+#os.environ['JOBLIB_START_METHOD'] = 'forkserver'
 
 
-from joblib import Parallel, delayed, cpu_count
+#from joblib import Parallel, delayed, cpu_count
 
 
 

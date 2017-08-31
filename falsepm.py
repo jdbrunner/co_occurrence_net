@@ -99,17 +99,18 @@ if __name__ == '__main__':
 	rank_vs_rank_thr = pd.DataFrame(columns = range(num_rks))
 	
 	unitype = list(sort_samples.keys())
-	unitype.remove ('Full')
+	unitype.remove('Full')
+	print(unitype, flush = True)
 	
-	fit_test = False
+	fit_test = True
 	false_neg_test = True
 	
 	
 	for smp_type in unitype:
-		print(smp_type)
+		print(smp_type, flush = True)
 		cter = 1
 		for smp_num in sort_samples[smp_type]:
-			print('\r',cter, '/',len(sort_samples[smp_type]), end = '     ')
+			print('\r',cter, '/',len(sort_samples[smp_type]), end = '     ', flush = True)
 			cter = cter + 1
 			
 			the_samp = hld_columns_df.iloc[:,smp_num]
@@ -171,7 +172,7 @@ if __name__ == '__main__':
 					rank_vs_rank_cor = pd.concat([rank_vs_rank_cor, rking_results_cor])
 					rank_vs_rank_thr = pd.concat([rank_vs_rank_thr, rking_results_thr])
 		
-		print('\n')		
+		print('\n', flush = True)		
 				
 				#### Here we could add permutation based null model
 	
@@ -180,7 +181,7 @@ if __name__ == '__main__':
 	
 	### Fit scores for randomly generated samples
 	if fit_test:
-		print('random samples')
+		print('random samples', flush = True)
 		random_samples = make_sample(hld_columns_df, numb = len(hld_columns_df.columns) - 2)
 	
 		
@@ -220,7 +221,7 @@ if __name__ == '__main__':
 	
 	
 	############## Plotting
-	print('\n plotting')
+	print('\n plotting', flush = True)
 	
 	plt_folder = folder + '/validation_plots'
 	
@@ -360,6 +361,7 @@ if __name__ == '__main__':
 	
 		sc_thr.savefig(plt_folder + '/rank_v_rank_thr.png')
 		plt.close(sc_thr)
+	print('Done')
 	
 	
 	
