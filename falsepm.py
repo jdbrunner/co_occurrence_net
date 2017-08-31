@@ -32,6 +32,7 @@ import os
 from random import sample
 
 if __name__ == '__main__':
+	print('go')
 	abund_name = sys.argv[1]
 	folder = sys.argv[2]
 	contents = os.listdir(folder)
