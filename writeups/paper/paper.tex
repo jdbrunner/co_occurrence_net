@@ -413,16 +413,25 @@ We analyzed 300 samples from the NIH Human Microbiome Project that were not used
 	\begin{center}
 	\includegraphics[scale = 0.4]{../correct_ids.png}
 	\end{center}
-	\caption{Proportion of samples from each body site that were correctly assigned to their body site by taking the best fit to the various body site networks (genus level).}
+	\caption{Proportion of samples from each body site that were correctly assigned to their body site by taking the best fit to the various body site networks (species level).}
 \end{figure}
 
 We also computed the fit on the full networks of simulated samples created using the null model describe in \cref{null}.
 
 \begin{figure}
+	\begin{subfigure}[h]{0.9\textwidth}
 	\begin{center}
 	\includegraphics[scale = 0.4]{../fit_histo_cor.png}
 	\end{center}
-	\caption{Network fit scores of 300 hold out columns (top) to the correlation network built with all of the data, and fit of 300 simulated samples (bottom) constructed using the null model described in \cref{null} (genus level).}
+\caption{Correlation network}
+	\end{subfigure}
+	\begin{subfigure}[h]{0.9\textwidth}
+	\begin{center}
+		\includegraphics[scale = 0.4]{../fit_histo_thr.png}
+	\end{center}
+	\caption{Thresholded correlation network}
+\end{subfigure}
+	\caption{Network fit scores of 300 hold out columns (top) to the correlation network built with all of the data, and fit of 300 simulated samples (bottom) constructed using the null model described in \cref{null} (species level).}
 \end{figure} 
 
 For each sample, we also performed the following experiment. We set the taxa with $n^{th}$ highest abundance in the sample to $0$ abundance and used the diffusion method to find the rank of this taxa, for $n$ from 1 to 100.
@@ -430,13 +439,13 @@ For each sample, we also performed the following experiment. We set the taxa wit
 \begin{figure}
 	\begin{subfigure}[h]{0.45\textwidth}
 		\includegraphics[scale = 0.5]{../rank_v_rank_cor.png}
-		\caption{Result with correlation network. (This is weird and looks like a bug, but it may be an artifact of the fact that there aren't enough non-zero entries in the columns at the genus level. That doesn't explain the weird periodicity though)}
+		\caption{Result with correlation network.}
 	\end{subfigure}
 	\begin{subfigure}[h]{0.45\textwidth}
 	\includegraphics[scale = 0.5]{../rank_v_rank_thr.png}
-	\caption{Result with thresholded correlation network. (This is weird and looks like a bug, but it may be an artifact of the fact that there aren't enough non-zero entries in the columns at the genus level. That doesn't explain the weird periodicity though)}
+	\caption{Result with thresholded correlation network.}
 \end{subfigure}
-\caption{Results of set the taxa with $n^{th}$ highest abundance in the sample to $0$ abundance and used the diffusion method to find the rank of this taxa, for $n$ from 1 to 100. The plots are histograms of the result, and the ``diffusion rank" plotted is the node rank minus the number of non-zero values in the sample. Thus, a rank less than zero indicates the taxa is ranked higher (after being ``removed" from the sample) than some taxa with non-zero abundance (genus level).}
+\caption{Results of set the taxa with $n^{th}$ highest abundance in the sample to $0$ abundance and used the diffusion method to find the rank of this taxa, for $n$ from 1 to 100. The plots are histograms of the result, and the ``diffusion rank" plotted is the node rank minus the number of non-zero values in the sample. Thus, a rank less than zero indicates the taxa is ranked higher (after being ``removed" from the sample) than some taxa with non-zero abundance (species level).}
 \end{figure}
 
 \section{Discussion}
